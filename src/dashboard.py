@@ -31,8 +31,18 @@ def _load_rows() -> list[dict]:
     return [json.loads(l) for l in f.read_text().splitlines() if l.strip()]
 
 
+def _status() -> dict:
+    f = ARTIFACTS / "status.json"
+    if not f.exists():
+        return {}
+    try:
+        return json.loads(f.read_text())
+    except Exception:
+        return {}
+
+
 def _data_payload() -> dict:
-    return {"metrics": CHART_METRICS, "rows": _load_rows()}
+    return {"metrics": CHART_METRICS, "rows": _load_rows(), "status": _status()}
 
 
 def start_server(port: int = 6060) -> str:
@@ -152,8 +162,16 @@ async function tick(){
       tb.appendChild(tr);
     }
     const last=d.rows[d.rows.length-1];
+    const s=d.status||{};
+    // heartbeat: if status.ts is >180s old and not DONE, the run is likely stuck/ended
+    const ageS = s.ts ? (Date.now()/1000 - s.ts) : null;
+    let live;
+    if(s.phase==='DONE') live=`✅ DONE (best ${f(s.best_headline)}, cost $${f(s.total_cost_usd,2)})`;
+    else if(ageS!=null && ageS>180) live=`⚠️ no heartbeat for ${Math.round(ageS)}s — likely STUCK or ENDED (last: ${s.phase} iter ${s.iter})`;
+    else if(s.phase) live=`▶ iter ${s.iter}/${s.total_iters} · ${s.phase} · upd ${s.updated_at}`;
+    else live='live (refreshes 2s)';
     document.getElementById('status').textContent=
-      `${d.rows.length} iterations · best headline ${last?f(last.best_headline):'-'} · total cost $${last?f(last.total_cost_usd,2):'0'} · live (refreshes 2s)`;
+      `${d.rows.length} rows · best headline ${last?f(last.best_headline):'-'} · cost $${last?f(last.total_cost_usd,2):'0'} · ${live}`;
   }catch(e){document.getElementById('status').textContent='waiting for run…';}
 }
 tick(); setInterval(tick,2000);

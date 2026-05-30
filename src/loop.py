@@ -63,6 +63,19 @@ def _write_dashboard_row(row: dict) -> None:
         f.write(line)
 
 
+def _write_status(phase: str, it: int, iters: int, extra: dict | None = None) -> None:
+    """Heartbeat so you can tell running-vs-stuck-vs-done. Written to the run dir AND
+    artifacts/ (dashboard reads it). Includes a wall-clock stamp updated each phase."""
+    import json as _json, time as _time
+    st = {"phase": phase, "iter": it, "total_iters": iters,
+          "updated_at": _time.strftime("%H:%M:%S"), "ts": _time.time()}
+    if extra:
+        st.update(extra)
+    for d in (RUN_DIR, ARTIFACTS):
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "status.json").write_text(_json.dumps(st))
+
+
 def _feature_snapshot() -> list[str]:
     """The live FEATURE_NAMES the current feature_construction produces — snapshotted
     each iteration so we can diff which features the agent added/removed."""
@@ -181,6 +194,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
         log.append(LogEntry(0, "baseline", log.file_hashes(best_files),
                             base_m.__dict__, True, best_headline, 0.0, "baseline"))
         print(f"[iter 0 baseline] headline={best_headline:.4f}")
+        _write_status("baseline_done", 0, iters, {"best_headline": round(best_headline, 4)})
 
         opt = CodeOptimizer(model=model, reasoning_effort=reasoning)
         best_sha = _git("rev-parse", "HEAD")  # last KEPT commit (good tree)
@@ -195,6 +209,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
             with tracer.span(f"iteration {it}", {"iter": it},
                              input=f"diagnostics + metrics (best headline={best_headline:.4f})") as sp:
                 pre_sha = _git("rev-parse", "HEAD")
+                _write_status("codex_proposing", it, iters, {"best_headline": round(best_headline, 4)})
                 # Codex agent span rendered as an LLM call (model, prompt-in, hypothesis-out).
                 with tracer.span("codex.propose", {"model": model}, kind="llm",
                                  model=model,
@@ -212,8 +227,9 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                     print(f"[iter {it}] agent made no file changes")
                     continue
 
-                kept = False; note = ""; metrics = {}; train_secs = 0.0
+                kept = False; note = ""; metrics = {}; train_secs = 0.0; hist = {}
                 try:
+                    _write_status("leakage+verify", it, iters, {"hypothesis": prop.hypothesis[:80]})
                     with tracer.span("leakage_check", kind="tool",
                                      input="prefix-invariance + finite/dim on train sample") as lsp:
                         ok, msg = run_leakage_suite(train_games)
@@ -233,6 +249,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                     elif not vok:
                         note = f"REJECTED (verifier): {vreason}"
                     else:
+                        _write_status("training", it, iters, {"hypothesis": prop.hypothesis[:80]})
                         with tracer.span("train_and_validate", kind="tool",
                                          input="PPO train on train split -> eval on val split") as tsp:
                             _t_train = time.time()
@@ -300,5 +317,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                 print(f"[iter {it}] {note} | ${prop.cost_usd:.4f} (cum ${total_cost:.2f}) | "
                       f"{prop.commit_sha[:8]} | {prop.hypothesis[:50]}")
     tracer.shutdown()
+    _write_status("DONE", iters, iters, {"best_headline": round(best_headline, 4),
+                                          "total_cost_usd": round(total_cost, 4)})
     (RUN_DIR / "best_headline.txt").write_text(str(best_headline))
     print(f"DONE. best val headline={best_headline:.4f} @ {best_sha[:8]} | total codex cost ${total_cost:.2f}")
