@@ -40,32 +40,46 @@ def _codex_bin() -> str:
 
 
 TASK_TEMPLATE = """You are an autoresearch agent improving a sequential-RL NBA live-trading model.
+This is iteration {iter} of an autonomous research loop. You have a bash shell and git.
 
-WORKING DIRECTORY: this is the src/ package. You may edit ONLY these two files:
+WORKING DIRECTORY is the src/ package (a dedicated git repo rooted one level up at
+.autoresearch_nba). You may edit ONLY these two files:
   - feature_construction.py  (the causal state encoder)
   - training.py              (the PyTorch PPO trainer)
 Do NOT edit any other file (backtest.py, evaluate.py, networks.py, game.py, etc. are
-the fixed/trusted harness and editing them is cheating the benchmark).
+the fixed/trusted harness; editing them is cheating the benchmark and will be reverted).
 
 HARD CONSTRAINTS (a leakage/validation harness enforces these — violations are rejected):
 - feature_construction MUST stay pure and STRICTLY CAUSAL: read only game data with
   wall_clock <= t via the Game accessors. NEVER read game-end player_stats or the
   settlement (lookahead = cheating; a prefix-invariance test will reject it).
 - FEATURE_DIM must remain a fixed constant; the returned vector length must equal it
-  for every call and every game (the networks depend on it). If you add/remove a
-  feature, update FEATURE_NAMES/FEATURE_DIM consistently.
+  for every call and every game. If you add/remove a feature, update
+  FEATURE_NAMES/FEATURE_DIM consistently.
 - Output float32, finite (no NaN/inf). Keep function/class signatures intact.
 
 GOAL: maximize the validation 'headline' (a Sharpe-like risk-adjusted return).
 The honest baseline to beat: buy-favorite-hold ~ +0.0015/game on train.
 
-Make ONE focused, diagnostics-motivated change this iteration. Use the diagnostics
-below to decide WHAT to change (action_mix/pct_games_no_trade = is it collapsing to
-always-skip?; feature_importance = which features matter vs are dead; value_corr =
-is the critic learning?; pnl_by_margin_regime/favorite_vs_dog = where P&L leaks).
+Use the diagnostics below to decide WHAT to change (action_mix/pct_games_no_trade =
+collapsing to always-skip?; feature_importance = which features matter vs are dead;
+value_corr = is the critic learning?; pnl_by_margin_regime/favorite_vs_dog = where
+P&L leaks). Make ONE focused, diagnostics-motivated change.
 
-After editing, write a one-line hypothesis describing your change to the file
-HYPOTHESIS.txt in the working directory (overwrite it).
+DO EXACTLY THIS, IN ORDER (you have bash + git):
+1. Reason about the diagnostics and decide on ONE focused experiment.
+2. Edit feature_construction.py and/or training.py to implement it.
+3. Write the proposal doc to ../EXPERIMENTS/iter-{iter:02d}.md with these sections:
+   ## Hypothesis  (one sentence: what you expect to improve and why)
+   ## Rationale   (which diagnostic motivated this; the mechanism)
+   ## Diff summary (bullet list of the concrete code changes you made)
+   Leave a `## Result` heading at the end — the harness fills it in after grading.
+4. Stage and commit from the repo root with:
+   `cd .. && git add -A && git commit -m "iter {iter}: <short hypothesis>"`
+   (the repo is .autoresearch_nba; committing is expected and isolated.)
+Do NOT run training yourself — the harness grades your commit and decides keep/revert.
+If the previous iteration's Result shows the metric dropped, propose a DIFFERENT
+direction this time rather than repeating it.
 
 === latest validation metrics ===
 {metrics}
@@ -78,11 +92,16 @@ HYPOTHESIS.txt in the working directory (overwrite it).
 """
 
 
+REPO_ROOT = SRC_DIR.parent  # .autoresearch_nba (dedicated git repo)
+
+
 @dataclass
 class Proposal:
     hypothesis: str
     files: dict[str, str] = field(default_factory=dict)  # changed file -> new content
     applied_in_place: bool = True  # the agent already wrote the edits to disk
+    commit_sha: str = ""           # the commit the agent made (if any)
+    doc_path: str = ""             # EXPERIMENTS/iter-NN.md
 
 
 def _hash_files() -> dict[str, str]:
@@ -103,17 +122,19 @@ class CodeOptimizer:
         self.timeout_s = timeout_s
         self.codex = _codex_bin()
 
-    def propose(self, current_files: dict[str, str], last_metrics: dict,
-                best_metrics: dict, diagnostics: dict | None = None) -> Proposal:
+    def _git(self, *args: str) -> str:
+        return subprocess.run(["git", "-C", str(REPO_ROOT), *args],
+                              capture_output=True, text=True).stdout.strip()
+
+    def propose(self, iteration: int, last_metrics: dict, best_metrics: dict,
+                diagnostics: dict | None = None) -> Proposal:
         task = TASK_TEMPLATE.format(
+            iter=iteration,
             metrics=json.dumps(last_metrics, indent=1),
             best=json.dumps(best_metrics, indent=1),
             diagnostics=json.dumps(diagnostics or {}, indent=1),
         )
-        hyp_file = SRC_DIR / "HYPOTHESIS.txt"
-        if hyp_file.exists():
-            hyp_file.unlink()
-
+        head_before = self._git("rev-parse", "HEAD")
         before = _hash_files()
         env = dict(os.environ)
         env["PATH"] = os.path.expanduser("~/.npm-global/bin") + ":" + env.get("PATH", "")
@@ -124,22 +145,27 @@ class CodeOptimizer:
             "-C", str(SRC_DIR),
             "-s", "workspace-write",
             "--skip-git-repo-check",
-            "-",  # read prompt from stdin
+            "-",
         ]
-        proc = subprocess.run(
-            cmd, input=task, capture_output=True, text=True,
-            env=env, timeout=self.timeout_s,
-        )
+        subprocess.run(cmd, input=task, capture_output=True, text=True,
+                       env=env, timeout=self.timeout_s)
+
         after = _hash_files()
         changed = {f: (SRC_DIR / f).read_text()
                    for f in EDITABLE_FILES if before.get(f) != after.get(f)}
+        head_after = self._git("rev-parse", "HEAD")
+        commit_sha = head_after if head_after != head_before else ""
 
+        doc = REPO_ROOT / "EXPERIMENTS" / f"iter-{iteration:02d}.md"
         hypothesis = ""
-        if hyp_file.exists():
-            hypothesis = hyp_file.read_text().strip()[:500]
-        if not hypothesis:
-            # fall back to the agent's last stdout line
-            tail = [l for l in proc.stdout.splitlines() if l.strip()]
-            hypothesis = (tail[-1][:500] if tail else "(no hypothesis)")
+        if doc.exists():
+            for line in doc.read_text().splitlines():
+                if line.strip() and not line.startswith("#"):
+                    hypothesis = line.strip()[:500]
+                    break
+        if not hypothesis and commit_sha:
+            hypothesis = self._git("log", "-1", "--format=%s")
 
-        return Proposal(hypothesis=hypothesis, files=changed, applied_in_place=True)
+        return Proposal(hypothesis=hypothesis or "(no hypothesis)", files=changed,
+                        applied_in_place=True, commit_sha=commit_sha,
+                        doc_path=str(doc) if doc.exists() else "")

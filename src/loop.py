@@ -25,8 +25,10 @@ from .game import load_split
 from .leakage import run_leakage_suite
 from .optimizer import EDITABLE_FILES, CodeOptimizer
 
+import subprocess
+
 SRC = Path(__file__).resolve().parent
-WORK = SRC.parent
+WORK = SRC.parent              # .autoresearch_nba (the dedicated git repo)
 ARTIFACTS = WORK / "artifacts"
 
 
@@ -34,12 +36,28 @@ def _read(name: str) -> str:
     return (SRC / name).read_text()
 
 
-def _write(name: str, content: str) -> None:
-    (SRC / name).write_text(content)
+def _git(*args: str) -> str:
+    return subprocess.run(["git", "-C", str(WORK), *args],
+                          capture_output=True, text=True).stdout.strip()
 
 
-def _backup(name: str) -> str:
-    return _read(name)
+def _revert_to(sha: str) -> None:
+    """Hard-restore the working tree to a known-good commit (drops the bad edit but
+    keeps it in history as an experiment record)."""
+    _git("reset", "--hard", sha)
+
+
+def _append_result(doc_path: str, kept: bool, metrics: dict, note: str) -> None:
+    if not doc_path:
+        return
+    p = Path(doc_path)
+    if not p.exists():
+        return
+    res = [f"\n## Result", f"- verdict: **{'KEPT' if kept else 'REVERTED'}** — {note}"]
+    for k in ("headline", "mean_return", "sharpe", "win_rate", "avg_trades", "total_pnl"):
+        if k in metrics:
+            res.append(f"- {k}: {metrics[k]}")
+    p.write_text(p.read_text() + "\n".join(res) + "\n")
 
 
 def _reload_editable():
@@ -95,23 +113,20 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
         print(f"[iter 0 baseline] headline={best_headline:.4f}")
 
         opt = CodeOptimizer(model=model, reasoning_effort=reasoning)
+        best_sha = _git("rev-parse", "HEAD")  # last KEPT commit (good tree)
         for it in range(1, iters + 1):
             t0 = time.time()
             with tracer.span("iteration", {"iter": it}) as sp:
-                # The Codex agent edits files IN PLACE, so back up ALL editable files
-                # first; revert from these if the edit isn't kept.
-                backups = {f: _backup(f) for f in EDITABLE_FILES}
-                cur_files = {f: _read(f) for f in EDITABLE_FILES}
+                pre_sha = _git("rev-parse", "HEAD")
                 with tracer.span("codex.propose", {"model": model}) as psp:
-                    prop = opt.propose(
-                        cur_files, base_m.__dict__, {"headline": best_headline},
-                        diagnostics=asdict(cur_report) if cur_report else {},
-                    )
-                    psp.set(hypothesis=prop.hypothesis,
+                    # The Codex agent edits files + writes EXPERIMENTS/iter-NN.md + commits.
+                    prop = opt.propose(it, base_m.__dict__, {"headline": best_headline},
+                                       diagnostics=asdict(cur_report) if cur_report else {})
+                    psp.set(hypothesis=prop.hypothesis, commit=prop.commit_sha[:8],
                             files_changed=list(prop.files.keys()))
-                sp.set(hypothesis=prop.hypothesis)
+                sp.set(hypothesis=prop.hypothesis, commit=prop.commit_sha[:8])
                 if not prop.files:
-                    sp.set(verdict="no_files", kept=False)
+                    sp.set(verdict="no_change", kept=False)
                     log.append(LogEntry(it, prop.hypothesis, {}, {}, False, best_headline,
                                         time.time() - t0, "agent made no file changes"))
                     print(f"[iter {it}] agent made no file changes")
@@ -132,30 +147,36 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                                 tsp.set_attrs(asdict(report), prefix="diag")
                         metrics = m.__dict__
                         if m.headline > best_headline:
-                            best_headline = m.headline
-                            best_files = {f: _read(f) for f in EDITABLE_FILES}
-                            kept = True
-                            note = f"KEPT (headline {m.headline:.4f})"
+                            best_headline = m.headline; best_sha = prop.commit_sha or best_sha
+                            kept = True; note = f"KEPT (headline {m.headline:.4f})"
                             base_m = m; cur_report = report
                         else:
                             note = f"reverted (headline {m.headline:.4f} <= {best_headline:.4f})"
                 except Exception as e:
                     note = f"REJECTED (error): {type(e).__name__}: {e}"
 
-                if not kept:
-                    for f, content in backups.items():
-                        _write(f, content)
+                if kept:
+                    _append_result(prop.doc_path, kept, metrics, note)
+                    _git("add", "-A"); _git("commit", "-q", "-m", f"iter {it}: result KEPT")
+                else:
+                    # Capture the proposal doc (so the experiment record survives the
+                    # revert), restore the good tree, then re-write the doc with its
+                    # Result and commit it. The bad code edit is dropped; the record stays.
+                    from pathlib import Path as _P
+                    doc_txt = _P(prop.doc_path).read_text() if prop.doc_path and _P(prop.doc_path).exists() else ""
+                    _revert_to(pre_sha if pre_sha else best_sha)
+                    if doc_txt and prop.doc_path:
+                        _P(prop.doc_path).parent.mkdir(parents=True, exist_ok=True)
+                        _P(prop.doc_path).write_text(doc_txt)
+                        _append_result(prop.doc_path, kept, metrics, note)
+                    _git("add", "-A"); _git("commit", "-q", "-m", f"iter {it}: REVERTED — {note}")
 
-                sp.set(verdict=note.split()[0].strip("():").lower(), kept=kept,
+                sp.set(verdict="kept" if kept else "reverted", kept=kept,
                        best_headline=best_headline,
                        headline=metrics.get("headline", 0.0) if metrics else 0.0)
-                log.append(LogEntry(it, prop.hypothesis, log.file_hashes(prop.files),
+                log.append(LogEntry(it, prop.hypothesis, {"commit": prop.commit_sha},
                                     metrics, kept, best_headline, time.time() - t0, note))
-                print(f"[iter {it}] {note} | {prop.hypothesis[:60]}")
+                print(f"[iter {it}] {note} | {prop.commit_sha[:8]} | {prop.hypothesis[:55]}")
     tracer.shutdown()
-
-    # freeze best
-    for f, content in best_files.items():
-        _write(f, content)
     (ARTIFACTS / "best_headline.txt").write_text(str(best_headline))
-    print(f"DONE. best validation headline={best_headline:.4f}")
+    print(f"DONE. best validation headline={best_headline:.4f} @ {best_sha[:8]}")
