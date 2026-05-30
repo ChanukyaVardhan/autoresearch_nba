@@ -82,7 +82,14 @@ def _gae(rewards, values, gamma, lam):
     return adv, adv + values
 
 
-def train(games: list[Game], cfg: PPOConfig | None = None):
+def train(games: list[Game], cfg: PPOConfig | None = None,
+          val_games: list | None = None, return_history: bool = False,
+          eval_every: int = 5):
+    """Train PPO. If return_history=True, also returns a learning-curve dict with
+    per-iteration train avg reward, and (every `eval_every` iters) the greedy
+    train/val mean realized PnL — so train and val curves can be compared for
+    overfitting/undertraining. Default (return_history=False) keeps the old
+    (policy, critic) return so existing callers are unaffected."""
     cfg = cfg or PPOConfig()
     torch.manual_seed(cfg.seed)
     rng = np.random.default_rng(cfg.seed)
@@ -90,14 +97,20 @@ def train(games: list[Game], cfg: PPOConfig | None = None):
     critic = CriticNet(FEATURE_DIM, cfg.hidden, seed=cfg.seed)
     opt = torch.optim.Adam(list(policy.parameters()) + list(critic.parameters()), lr=cfg.lr)
 
-    for _ in range(cfg.iters):
+    # learning curves (your ask): per-iteration train avg reward, and periodic
+    # train/val realized-PnL so we can see if BOTH rise (healthy) or diverge (overfit).
+    history = {"iter": [], "train_reward": [], "train_pnl": [], "val_pnl": []}
+
+    for it_i in range(cfg.iters):
         # ---- collect a batch of rollouts ----
         idx = rng.permutation(len(games))[: min(len(games), cfg.batch_games)]
         bS, bA, bSZ, bOLD, bADV, bRET, bMASK = ([] for _ in range(7))
+        ep_rewards = []  # sum-of-rewards (= realized PnL) per game this iteration
         for gi in idx:
             S, A, SZ, OLD, R, MASK = _rollout(games[gi], policy, rng)
             if len(R) == 0:
                 continue
+            ep_rewards.append(float(R.sum()))  # raw episode PnL (pre-shaping)
             # trade-cost shaping: penalize BUY/SELL steps to curb churn
             traded = np.isin(A, [int(Action.BUY), int(Action.SELL)]).astype(np.float32)
             Rsh = R - cfg.trade_cost * traded
@@ -109,6 +122,9 @@ def train(games: list[Game], cfg: PPOConfig | None = None):
             bADV.append(adv); bRET.append(ret); bMASK.append(MASK)
         if not bS:
             continue
+        # record the train learning curve (mean episode PnL under current policy)
+        history["iter"].append(it_i)
+        history["train_reward"].append(round(float(np.mean(ep_rewards)) if ep_rewards else 0.0, 5))
         S = torch.from_numpy(np.concatenate(bS))
         A = torch.from_numpy(np.concatenate(bA))
         SZ = torch.from_numpy(np.concatenate(bSZ))
@@ -174,4 +190,31 @@ def train(games: list[Game], cfg: PPOConfig | None = None):
                 list(policy.parameters()) + list(critic.parameters()), 1.0)
             opt.step()
 
+        # periodic greedy train/val PnL for the overfitting view (healthy = both rise)
+        if return_history and (it_i % eval_every == 0 or it_i == cfg.iters - 1):
+            tp = _greedy_mean_pnl(games, policy)
+            vp = _greedy_mean_pnl(val_games, policy) if val_games else None
+            history["train_pnl"].append((it_i, tp))
+            if vp is not None:
+                history["val_pnl"].append((it_i, vp))
+
+    if return_history:
+        return policy, critic, history
     return policy, critic
+
+
+def _greedy_mean_pnl(games, policy) -> float:
+    """Mean realized PnL of the greedy policy over `games` (cheap; no gradients)."""
+    if not games:
+        return 0.0
+    tot = 0.0
+    for g in games:
+        env = BacktestEnv(g)
+        while True:
+            x = feature_construction(g, env.t, env.pos)[None, :]
+            a_probs, s_probs, _ = policy.policy(x, env.action_mask()[None, :])
+            a = int(a_probs[0].argmax()); sz = float(SIZE_BUCKETS[int(s_probs[0].argmax())])
+            if env.step(a, sz).done:
+                break
+        tot += env.result().realized_pnl
+    return round(tot / len(games), 5)

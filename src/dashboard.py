@@ -20,6 +20,7 @@ CHART_METRICS = [
     "headline", "best_headline", "mean_return", "sharpe", "win_rate",
     "avg_trades", "avg_deployed", "max_drawdown", "total_pnl",
     "codex_cost_usd", "total_cost_usd",
+    "train_secs", "iter_secs",
 ]
 
 
@@ -79,44 +80,74 @@ _PAGE = """<!doctype html><html><head><meta charset="utf-8">
 </style></head><body>
 <h1>Autoresearch — live experiment run</h1>
 <div class="sub"><span class="dot"></span><span id="status">connecting…</span></div>
+<div class="card" style="margin-bottom:14px">
+  <h3>Learning curves — latest iteration (train reward, train PnL, val PnL over PPO steps)</h3>
+  <canvas id="lc" style="max-height:260px"></canvas></div>
 <div class="grid" id="charts"></div>
 <table><thead><tr><th>iter</th><th>verdict</th><th>headline</th><th>mean_ret</th>
-<th>win%</th><th>trades/g</th><th>cost $</th><th>cum $</th><th class="l">commit</th>
+<th>win%</th><th>trades/g</th><th>train s</th><th>cost $</th><th>cum $</th><th class="l">commit</th>
 <th class="l">hypothesis</th></tr></thead><tbody id="tbody"></tbody></table>
 <script>
-let charts={}, metrics=[];
+let charts={};
 const f=(x,d=4)=>x==null?'':(typeof x==='number'?x.toFixed(d):x);
-function ensureCharts(ms){
-  if(charts._init) return; charts._init=true; metrics=ms;
+function makeChart(m){
   const grid=document.getElementById('charts');
-  for(const m of ms){
-    const c=document.createElement('div');c.className='card';
-    c.innerHTML=`<h3>${m}</h3><canvas></canvas>`;grid.appendChild(c);
-    charts[m]=new Chart(c.querySelector('canvas'),{type:'line',
-      data:{labels:[],datasets:[{data:[],borderColor:'#58a6ff',
-        backgroundColor:'rgba(88,166,255,.15)',tension:.2,pointRadius:3,fill:true}]},
-      options:{animation:false,plugins:{legend:{display:false}},scales:{
-        x:{ticks:{color:'#9da7b3'},grid:{color:'#21262d'}},
-        y:{ticks:{color:'#9da7b3'},grid:{color:'#21262d'}}}}});
-  }
+  const c=document.createElement('div');c.className='card';
+  c.innerHTML=`<h3>${m}</h3><canvas></canvas>`;grid.appendChild(c);
+  charts[m]=new Chart(c.querySelector('canvas'),{type:'line',
+    data:{labels:[],datasets:[{data:[],borderColor:'#58a6ff',
+      backgroundColor:'rgba(88,166,255,.15)',tension:.2,pointRadius:4,
+      borderWidth:2,fill:true,spanGaps:true}]},
+    options:{animation:false,plugins:{legend:{display:false}},scales:{
+      x:{ticks:{color:'#9da7b3'},grid:{color:'#21262d'}},
+      y:{ticks:{color:'#9da7b3'},grid:{color:'#21262d'}}}}});  // y auto-scales
+}
+let lcChart=null;
+function drawLearningCurves(row){
+  if(!row) return;
+  // train_reward = list per PPO iter; train_pnl/val_pnl = [[iter,val],...] checkpoints
+  const tr=row.train_reward_curve||[];
+  const trLabels=tr.map((_,i)=>i);
+  const mkPts=(arr)=>(arr||[]).map(p=>({x:p[0],y:p[1]}));
+  const datasets=[
+    {label:'train reward (per PPO iter)',data:tr.map((y,i)=>({x:i,y})),
+     borderColor:'#58a6ff',backgroundColor:'transparent',tension:.2,pointRadius:0,borderWidth:2},
+    {label:'train PnL (greedy)',data:mkPts(row.train_pnl_curve),
+     borderColor:'#3fb950',backgroundColor:'transparent',tension:.2,pointRadius:4,borderWidth:2},
+    {label:'val PnL (greedy)',data:mkPts(row.val_pnl_curve),
+     borderColor:'#f0883e',backgroundColor:'transparent',tension:.2,pointRadius:4,borderWidth:2},
+  ];
+  if(!lcChart){
+    lcChart=new Chart(document.getElementById('lc'),{type:'line',
+      data:{datasets},options:{animation:false,parsing:false,
+        plugins:{legend:{labels:{color:'#e6edf3'}}},
+        scales:{x:{type:'linear',title:{display:true,text:'PPO training iteration',color:'#9da7b3'},
+          ticks:{color:'#9da7b3'},grid:{color:'#21262d'}},
+          y:{title:{display:true,text:'reward / mean PnL',color:'#9da7b3'},
+          ticks:{color:'#9da7b3'},grid:{color:'#21262d'}}}}});
+  }else{ lcChart.data.datasets=datasets; lcChart.update(); }
 }
 async function tick(){
   try{
     const d=await (await fetch('/data')).json();
-    ensureCharts(d.metrics);
     const its=d.rows.map(r=>r.iter);
     for(const m of d.metrics){
+      const vals=d.rows.map(r=>r[m]);
+      const hasData=vals.some(v=>v!=null);
+      if(!hasData) continue;               // skip all-empty metrics (no chart)
+      if(!charts[m]) makeChart(m);
       charts[m].data.labels=its;
-      charts[m].data.datasets[0].data=d.rows.map(r=>r[m]);
+      charts[m].data.datasets[0].data=vals;
       charts[m].update();
     }
+    drawLearningCurves(d.rows[d.rows.length-1]);  // latest iteration's PPO curves
     const tb=document.getElementById('tbody');tb.innerHTML='';
     for(const r of d.rows){
       const tr=document.createElement('tr');
       tr.innerHTML=`<td>${r.iter}</td>
        <td class="${r.kept?'kept':'rev'}">${r.iter===0?'base':(r.kept?'KEPT':'rev')}</td>
        <td>${f(r.headline)}</td><td>${f(r.mean_return)}</td><td>${f(r.win_rate,2)}</td>
-       <td>${f(r.avg_trades,1)}</td><td>${f(r.codex_cost_usd)}</td><td>${f(r.total_cost_usd,2)}</td>
+       <td>${f(r.avg_trades,1)}</td><td>${f(r.train_secs,1)}</td><td>${f(r.codex_cost_usd)}</td><td>${f(r.total_cost_usd,2)}</td>
        <td class="l">${r.commit||''}</td><td class="l">${(r.hypothesis||'').slice(0,140)}</td>`;
       tb.appendChild(tr);
     }

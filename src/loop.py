@@ -98,13 +98,16 @@ def _train_and_validate(train_games, val_games, seed: int, with_report: bool = F
     _reload_editable()
     from .training import PPOConfig, train  # reimported
     from .evaluate import evaluate, score
-    policy, critic = train(train_games, PPOConfig(seed=seed))
+    # capture the learning curves (train reward + periodic train/val PnL) so the
+    # report can show under/overfitting to Codex.
+    policy, critic, history = train(train_games, PPOConfig(seed=seed),
+                                    val_games=val_games, return_history=True)
     metrics = evaluate(val_games, policy)
     report = None
     if with_report:
         from .observability import build_report
         report = build_report(val_games, policy, critic, metrics.headline, score)
-    return policy, critic, metrics, report
+    return policy, critic, metrics, report, history
 
 
 def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
@@ -132,7 +135,9 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
             ok, msg = run_leakage_suite(train_games)
             if not ok:
                 raise RuntimeError(f"baseline leakage failure: {msg}")
-            _, _, base_m, base_report = _train_and_validate(train_games, val_games, seed, with_report=True)
+            _t_base = time.time()
+            _, _, base_m, base_report, base_hist = _train_and_validate(train_games, val_games, seed, with_report=True)
+            base_train_secs = round(time.time() - _t_base, 1)
             best_headline = base_m.headline
             best_files = {f: _read(f) for f in EDITABLE_FILES}
             cur_report = base_report
@@ -145,7 +150,11 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         codex_cost_usd=0.0, total_cost_usd=0.0,
                         hypothesis="baseline (no agent edit)", commit="",
                         n_features=len(prev_feats), features=prev_feats,
-                        features_added=[], features_removed=[])
+                        features_added=[], features_removed=[],
+                        train_secs=base_train_secs, iter_secs=base_train_secs,
+                        train_reward_curve=base_hist.get("train_reward", []),
+                        train_pnl_curve=base_hist.get("train_pnl", []),
+                        val_pnl_curve=base_hist.get("val_pnl", []))
         _write_dashboard_row(base_row)
         log.append(LogEntry(0, "baseline", log.file_hashes(best_files),
                             base_m.__dict__, True, best_headline, 0.0, "baseline"))
@@ -153,9 +162,14 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
 
         opt = CodeOptimizer(model=model, reasoning_effort=reasoning)
         best_sha = _git("rev-parse", "HEAD")  # last KEPT commit (good tree)
+        cur_hist = base_hist
         for it in range(1, iters + 1):
             t0 = time.time()
             diag = asdict(cur_report) if cur_report else {}
+            if cur_hist:  # learning curves so Codex can see under/overfitting
+                diag["train_reward_curve"] = cur_hist.get("train_reward", [])
+                diag["train_pnl_curve"] = cur_hist.get("train_pnl", [])
+                diag["val_pnl_curve"] = cur_hist.get("val_pnl", [])
             with tracer.span(f"iteration {it}", {"iter": it},
                              input=f"diagnostics + metrics (best headline={best_headline:.4f})") as sp:
                 pre_sha = _git("rev-parse", "HEAD")
@@ -176,7 +190,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                     print(f"[iter {it}] agent made no file changes")
                     continue
 
-                kept = False; note = ""; metrics = {}
+                kept = False; note = ""; metrics = {}; train_secs = 0.0
                 try:
                     with tracer.span("leakage_check", kind="tool",
                                      input="prefix-invariance + finite/dim on train sample") as lsp:
@@ -199,9 +213,13 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                     else:
                         with tracer.span("train_and_validate", kind="tool",
                                          input="PPO train on train split -> eval on val split") as tsp:
-                            _, _, m, report = _train_and_validate(train_games, val_games, seed, with_report=True)
+                            _t_train = time.time()
+                            _, _, m, report, hist = _train_and_validate(train_games, val_games, seed, with_report=True)
+                            train_secs = round(time.time() - _t_train, 1)
                             tsp.set_kind("tool", output=f"headline={m.headline:.4f} mean_return={m.mean_return:.4f} "
-                                                        f"win_rate={m.win_rate:.2f} trades/g={m.avg_trades:.1f}")
+                                                        f"win_rate={m.win_rate:.2f} trades/g={m.avg_trades:.1f} "
+                                                        f"train_secs={train_secs}")
+                            tsp.set(train_secs=train_secs)
                             tsp.set_attrs(m.__dict__, prefix="metrics")
                             if report:
                                 tsp.set_attrs(asdict(report), prefix="diag")
@@ -209,7 +227,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         if m.headline > best_headline:
                             best_headline = m.headline; best_sha = prop.commit_sha or best_sha
                             kept = True; note = f"KEPT (headline {m.headline:.4f})"
-                            base_m = m; cur_report = report
+                            base_m = m; cur_report = report; cur_hist = hist
                         else:
                             note = f"reverted (headline {m.headline:.4f} <= {best_headline:.4f})"
                 except Exception as e:
@@ -244,7 +262,11 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                                    codex_cost_usd=prop.cost_usd, total_cost_usd=round(total_cost, 4),
                                    hypothesis=prop.hypothesis, commit=prop.commit_sha[:8],
                                    n_features=len(feats), features=feats,
-                                   features_added=added, features_removed=removed)
+                                   features_added=added, features_removed=removed,
+                                   train_secs=train_secs, iter_secs=round(time.time() - t0, 1),
+                                   train_reward_curve=(hist or {}).get("train_reward", []),
+                                   train_pnl_curve=(hist or {}).get("train_pnl", []),
+                                   val_pnl_curve=(hist or {}).get("val_pnl", []))
                 _write_dashboard_row(metrics_row)
                 log.append(LogEntry(it, prop.hypothesis, {"commit": prop.commit_sha},
                                     metrics_row, kept, best_headline, time.time() - t0, note))

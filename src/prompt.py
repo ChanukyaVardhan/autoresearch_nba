@@ -51,10 +51,32 @@ baseline. An independent reviewer reads your diff for exactly these tricks.
 GOAL: maximize the validation 'headline' (a Sharpe-like risk-adjusted return) BY
 GENUINE EDGE. The honest baseline to beat: buy-favorite-hold ~ +0.0015/game on train.
 
-Use the diagnostics below to decide WHAT to change (action_mix/pct_games_no_trade =
-collapsing to always-skip?; feature_importance = which features matter vs are dead;
-value_corr = is the critic learning?; pnl_by_margin_regime/favorite_vs_dog = where
-P&L leaks). Make ONE focused, diagnostics-motivated change.
+WHAT YOU CAN CHANGE (your action space — both files are fully yours to rewrite):
+- feature_construction.py: add/remove/transform features (update FEATURE_NAMES +
+  FEATURE_DIM together), change normalization, add momentum/edge/player-stat signals.
+- training.py: this is the FULL PPO trainer — you may change ANY of:
+  * MODEL CAPACITY (PPOConfig.hidden, add layers in networks via training only if
+    needed) — INCREASE it if the curves show UNDERFITTING; decrease if overfitting.
+  * training length (iters, epochs), learning rate (lr), batch_games,
+  * reward shaping (trade_cost), exploration (entropy_coef), the entry_prior_coef
+    crutch (you may reduce/remove it so the policy learns edge from REWARD, not a
+    hardcoded prior), gamma/lam, gradient clipping,
+  * ADD EARLY STOPPING / best-checkpoint-by-val if the curves show overtraining.
+You may read the train data (../data_train/) and run python to inspect it. You have
+NO internet: web search, browser, and computer-use tools are DISABLED (these are real
+2026 NBA games; looking up results would be data leakage and is blocked).
+
+Use the diagnostics below to decide WHAT to change:
+- action_mix / pct_games_no_trade = collapsing to always-skip?
+- feature_importance = which features matter vs are dead weight to prune.
+- value_corr = is the critic learning? (≈0 means it isn't).
+- pnl_by_margin_regime / favorite_vs_dog = where P&L leaks.
+- LEARNING CURVES (train_reward_curve, train_pnl_curve, val_pnl_curve): do BOTH train
+  and val rise? If train rises but val flattens/drops -> OVERFITTING (reduce capacity
+  / add early stopping). If NEITHER rises / both flat -> UNDERFITTING or stuck
+  (increase capacity, iters, lr, or exploration). If they're flat because the policy
+  just imitates buy-favorite-hold -> push it to learn intra-game edge.
+Make ONE focused, diagnostics-motivated change.
 
 DO EXACTLY THIS, IN ORDER (you have bash + git):
 1. Reason about the diagnostics and decide on ONE focused experiment.

@@ -111,8 +111,19 @@ class CodeOptimizer:
             self.codex, "exec",
             "-m", self.model,
             "-c", f'model_reasoning_effort="{self.reasoning_effort}"',
+            # DATA-LEAK GUARD: these games are real 2026 NBA games — any internet access
+            # could reveal who won and let the agent hardcode outcomes. Disable ALL
+            # web/browser/computer-use tools so the agent works offline from code+train data.
+            "-c", "tools.web_search=false",
+            "--disable", "standalone_web_search",
+            "--disable", "web_search_cached",
+            "--disable", "web_search_request",
+            "--disable", "browser_use",
+            "--disable", "browser_use_external",
+            "--disable", "computer_use",
+            "--disable", "network_proxy",
             "-C", str(SRC_DIR),
-            "-s", "workspace-write",
+            "-s", "workspace-write",  # write files but the sandbox blocks network for shell cmds
             "--skip-git-repo-check",
             "--json",  # emit JSONL events incl. turn.completed usage
             "-",
