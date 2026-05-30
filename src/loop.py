@@ -47,7 +47,27 @@ def _revert_to(sha: str) -> None:
     _git("reset", "--hard", sha)
 
 
-def _append_result(doc_path: str, kept: bool, metrics: dict, note: str) -> None:
+def _write_dashboard_row(row: dict) -> None:
+    """Append one iteration's metrics to artifacts/metrics.jsonl (the dashboard feed)."""
+    import json as _json
+    ARTIFACTS.mkdir(parents=True, exist_ok=True)
+    with open(ARTIFACTS / "metrics.jsonl", "a") as f:
+        f.write(_json.dumps(row) + "\n")
+
+
+def _feature_snapshot() -> list[str]:
+    """The live FEATURE_NAMES the current feature_construction produces — snapshotted
+    each iteration so we can diff which features the agent added/removed."""
+    import importlib, sys
+    m = "src.feature_construction"
+    if m in sys.modules:
+        importlib.reload(sys.modules[m])
+    from .feature_construction import FEATURE_NAMES
+    return list(FEATURE_NAMES)
+
+
+def _append_result(doc_path: str, kept: bool, metrics: dict, note: str,
+                   cost_usd: float = 0.0, usage: dict | None = None) -> None:
     if not doc_path:
         return
     p = Path(doc_path)
@@ -57,6 +77,12 @@ def _append_result(doc_path: str, kept: bool, metrics: dict, note: str) -> None:
     for k in ("headline", "mean_return", "sharpe", "win_rate", "avg_trades", "total_pnl"):
         if k in metrics:
             res.append(f"- {k}: {metrics[k]}")
+    res.append(f"- codex_cost_usd: ${cost_usd:.4f}")
+    if usage:
+        res.append(f"- codex_tokens: in={usage.get('input_tokens',0)} "
+                   f"(cached={usage.get('cached_input_tokens',0)}) "
+                   f"out={usage.get('output_tokens',0)} "
+                   f"reasoning={usage.get('reasoning_output_tokens',0)}")
     p.write_text(p.read_text() + "\n".join(res) + "\n")
 
 
@@ -85,6 +111,10 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
              model: str = "gpt-5.5", reasoning: str = "medium",
              trace: bool = True) -> None:
     from .tracing import TraceLogger
+    from .dashboard import start_server
+    # live dashboard: open this URL and watch iterations stream in as the loop runs
+    dash_url = start_server(6060)
+    print(f"LIVE DASHBOARD: {dash_url}  (open in browser, refreshes every 2s)")
     log = ExperimentLog(ARTIFACTS / "experiment_log.jsonl")
     tracer = TraceLogger(run_name=f"autoresearch-{model}-seed{seed}", enabled=trace)
     if tracer.active:
@@ -108,6 +138,15 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
             cur_report = base_report
             sp.set_attrs(base_m.__dict__, prefix="metrics")
             sp.set(best_headline=best_headline, kept=True, verdict="baseline")
+        total_cost = 0.0
+        prev_feats = _feature_snapshot()
+        base_row = dict(base_m.__dict__)
+        base_row.update(iter=0, kept=True, best_headline=best_headline,
+                        codex_cost_usd=0.0, total_cost_usd=0.0,
+                        hypothesis="baseline (no agent edit)", commit="",
+                        n_features=len(prev_feats), features=prev_feats,
+                        features_added=[], features_removed=[])
+        _write_dashboard_row(base_row)
         log.append(LogEntry(0, "baseline", log.file_hashes(best_files),
                             base_m.__dict__, True, best_headline, 0.0, "baseline"))
         print(f"[iter 0 baseline] headline={best_headline:.4f}")
@@ -144,8 +183,19 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         ok, msg = run_leakage_suite(train_games)
                         lsp.set_kind("tool", output=("PASS: " + msg) if ok else ("FAIL: " + msg))
                         lsp.set(passed=ok, detail=msg)
+                    # independent anti-cheating verifier (Claude reviews Codex's diff)
+                    vok, vreason = (True, "skipped")
+                    if ok:
+                        with tracer.span("verifier", kind="tool",
+                                         input="Claude reviews diff for reward-hacking/leakage") as vsp:
+                            from .verifier import verify
+                            vok, vreason = verify()
+                            vsp.set_kind("tool", output=("ACCEPT: " + vreason) if vok else ("REJECT: " + vreason))
+                            vsp.set(passed=vok, detail=vreason)
                     if not ok:
                         note = f"REJECTED (leakage): {msg}"
+                    elif not vok:
+                        note = f"REJECTED (verifier): {vreason}"
                     else:
                         with tracer.span("train_and_validate", kind="tool",
                                          input="PPO train on train split -> eval on val split") as tsp:
@@ -165,28 +215,41 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                 except Exception as e:
                     note = f"REJECTED (error): {type(e).__name__}: {e}"
 
+                total_cost += prop.cost_usd
                 if kept:
-                    _append_result(prop.doc_path, kept, metrics, note)
+                    _append_result(prop.doc_path, kept, metrics, note, prop.cost_usd, prop.usage)
                     _git("add", "-A"); _git("commit", "-q", "-m", f"iter {it}: result KEPT")
                 else:
-                    # Capture the proposal doc (so the experiment record survives the
-                    # revert), restore the good tree, then re-write the doc with its
-                    # Result and commit it. The bad code edit is dropped; the record stays.
                     from pathlib import Path as _P
                     doc_txt = _P(prop.doc_path).read_text() if prop.doc_path and _P(prop.doc_path).exists() else ""
                     _revert_to(pre_sha if pre_sha else best_sha)
                     if doc_txt and prop.doc_path:
                         _P(prop.doc_path).parent.mkdir(parents=True, exist_ok=True)
                         _P(prop.doc_path).write_text(doc_txt)
-                        _append_result(prop.doc_path, kept, metrics, note)
+                        _append_result(prop.doc_path, kept, metrics, note, prop.cost_usd, prop.usage)
                     _git("add", "-A"); _git("commit", "-q", "-m", f"iter {it}: REVERTED — {note}")
 
                 sp.set(verdict="kept" if kept else "reverted", kept=kept,
                        best_headline=best_headline,
-                       headline=metrics.get("headline", 0.0) if metrics else 0.0)
+                       headline=metrics.get("headline", 0.0) if metrics else 0.0,
+                       codex_cost_usd=prop.cost_usd, total_cost_usd=round(total_cost, 4))
+                # feature snapshot + diff vs the previous iteration (track feature changes)
+                feats = _feature_snapshot()
+                added = [f for f in feats if f not in prev_feats]
+                removed = [f for f in prev_feats if f not in feats]
+                prev_feats = feats
+                # metrics row for the dashboard (always written, even on revert)
+                metrics_row = dict(metrics)
+                metrics_row.update(iter=it, kept=kept, best_headline=best_headline,
+                                   codex_cost_usd=prop.cost_usd, total_cost_usd=round(total_cost, 4),
+                                   hypothesis=prop.hypothesis, commit=prop.commit_sha[:8],
+                                   n_features=len(feats), features=feats,
+                                   features_added=added, features_removed=removed)
+                _write_dashboard_row(metrics_row)
                 log.append(LogEntry(it, prop.hypothesis, {"commit": prop.commit_sha},
-                                    metrics, kept, best_headline, time.time() - t0, note))
-                print(f"[iter {it}] {note} | {prop.commit_sha[:8]} | {prop.hypothesis[:55]}")
+                                    metrics_row, kept, best_headline, time.time() - t0, note))
+                print(f"[iter {it}] {note} | ${prop.cost_usd:.4f} (cum ${total_cost:.2f}) | "
+                      f"{prop.commit_sha[:8]} | {prop.hypothesis[:50]}")
     tracer.shutdown()
     (ARTIFACTS / "best_headline.txt").write_text(str(best_headline))
-    print(f"DONE. best validation headline={best_headline:.4f} @ {best_sha[:8]}")
+    print(f"DONE. best val headline={best_headline:.4f} @ {best_sha[:8]} | total codex cost ${total_cost:.2f}")

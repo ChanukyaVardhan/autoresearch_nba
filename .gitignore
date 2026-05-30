@@ -8,3 +8,4 @@ src/secret_key.py
 __pycache__/
 *.pyc
 
+data_train/

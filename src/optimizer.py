@@ -39,57 +39,7 @@ def _codex_bin() -> str:
     return "codex"
 
 
-TASK_TEMPLATE = """You are an autoresearch agent improving a sequential-RL NBA live-trading model.
-This is iteration {iter} of an autonomous research loop. You have a bash shell and git.
-
-WORKING DIRECTORY is the src/ package (a dedicated git repo rooted one level up at
-.autoresearch_nba). You may edit ONLY these two files:
-  - feature_construction.py  (the causal state encoder)
-  - training.py              (the PyTorch PPO trainer)
-Do NOT edit any other file (backtest.py, evaluate.py, networks.py, game.py, etc. are
-the fixed/trusted harness; editing them is cheating the benchmark and will be reverted).
-
-HARD CONSTRAINTS (a leakage/validation harness enforces these — violations are rejected):
-- feature_construction MUST stay pure and STRICTLY CAUSAL: read only game data with
-  wall_clock <= t via the Game accessors. NEVER read game-end player_stats or the
-  settlement (lookahead = cheating; a prefix-invariance test will reject it).
-- FEATURE_DIM must remain a fixed constant; the returned vector length must equal it
-  for every call and every game. If you add/remove a feature, update
-  FEATURE_NAMES/FEATURE_DIM consistently.
-- Output float32, finite (no NaN/inf). Keep function/class signatures intact.
-
-GOAL: maximize the validation 'headline' (a Sharpe-like risk-adjusted return).
-The honest baseline to beat: buy-favorite-hold ~ +0.0015/game on train.
-
-Use the diagnostics below to decide WHAT to change (action_mix/pct_games_no_trade =
-collapsing to always-skip?; feature_importance = which features matter vs are dead;
-value_corr = is the critic learning?; pnl_by_margin_regime/favorite_vs_dog = where
-P&L leaks). Make ONE focused, diagnostics-motivated change.
-
-DO EXACTLY THIS, IN ORDER (you have bash + git):
-1. Reason about the diagnostics and decide on ONE focused experiment.
-2. Edit feature_construction.py and/or training.py to implement it.
-3. Write the proposal doc to ../EXPERIMENTS/iter-{iter:02d}.md with these sections:
-   ## Hypothesis  (one sentence: what you expect to improve and why)
-   ## Rationale   (which diagnostic motivated this; the mechanism)
-   ## Diff summary (bullet list of the concrete code changes you made)
-   Leave a `## Result` heading at the end — the harness fills it in after grading.
-4. Stage and commit from the repo root with:
-   `cd .. && git add -A && git commit -m "iter {iter}: <short hypothesis>"`
-   (the repo is .autoresearch_nba; committing is expected and isolated.)
-Do NOT run training yourself — the harness grades your commit and decides keep/revert.
-If the previous iteration's Result shows the metric dropped, propose a DIFFERENT
-direction this time rather than repeating it.
-
-=== latest validation metrics ===
-{metrics}
-
-=== best-so-far ===
-{best}
-
-=== diagnostics ===
-{diagnostics}
-"""
+from .prompt import build_task  # the Codex agent prompt lives in src/prompt.py
 
 
 REPO_ROOT = SRC_DIR.parent  # .autoresearch_nba (dedicated git repo)
@@ -102,6 +52,30 @@ class Proposal:
     applied_in_place: bool = True  # the agent already wrote the edits to disk
     commit_sha: str = ""           # the commit the agent made (if any)
     doc_path: str = ""             # EXPERIMENTS/iter-NN.md
+    usage: dict = field(default_factory=dict)  # token usage from the codex call
+    cost_usd: float = 0.0          # estimated $ cost of this codex call
+
+
+# Per-1M-token USD pricing for the optimizer model (update if pricing changes).
+# Cached input tokens are billed at a reduced rate; reasoning tokens bill as output.
+MODEL_PRICING = {
+    # model: (input, cached_input, output) per 1M tokens
+    "gpt-5.5": (1.25, 0.125, 10.0),
+    "gpt-5": (1.25, 0.125, 10.0),
+    "gpt-4.1": (2.0, 0.5, 8.0),
+}
+
+
+def _estimate_cost(model: str, usage: dict) -> float:
+    inp = usage.get("input_tokens", 0) or 0
+    cached = usage.get("cached_input_tokens", 0) or 0
+    out = usage.get("output_tokens", 0) or 0
+    reasoning = usage.get("reasoning_output_tokens", 0) or 0
+    p_in, p_cached, p_out = MODEL_PRICING.get(model, MODEL_PRICING["gpt-5.5"])
+    uncached_in = max(0, inp - cached)
+    return round(
+        (uncached_in * p_in + cached * p_cached + (out + reasoning) * p_out) / 1e6, 6
+    )
 
 
 def _hash_files() -> dict[str, str]:
@@ -128,12 +102,7 @@ class CodeOptimizer:
 
     def propose(self, iteration: int, last_metrics: dict, best_metrics: dict,
                 diagnostics: dict | None = None) -> Proposal:
-        task = TASK_TEMPLATE.format(
-            iter=iteration,
-            metrics=json.dumps(last_metrics, indent=1),
-            best=json.dumps(best_metrics, indent=1),
-            diagnostics=json.dumps(diagnostics or {}, indent=1),
-        )
+        task = build_task(iteration, last_metrics, best_metrics, diagnostics)
         head_before = self._git("rev-parse", "HEAD")
         before = _hash_files()
         env = dict(os.environ)
@@ -145,10 +114,29 @@ class CodeOptimizer:
             "-C", str(SRC_DIR),
             "-s", "workspace-write",
             "--skip-git-repo-check",
+            "--json",  # emit JSONL events incl. turn.completed usage
             "-",
         ]
-        subprocess.run(cmd, input=task, capture_output=True, text=True,
-                       env=env, timeout=self.timeout_s)
+        proc = subprocess.run(cmd, input=task, capture_output=True, text=True,
+                              env=env, timeout=self.timeout_s)
+
+        # Parse token usage from the last turn.completed JSON event -> estimate cost.
+        usage: dict = {}
+        for line in proc.stdout.splitlines():
+            line = line.strip()
+            if not line.startswith("{"):
+                continue
+            try:
+                ev = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if ev.get("type") == "turn.completed" and isinstance(ev.get("usage"), dict):
+                u = ev["usage"]
+                # accumulate across turns (the agent may take several)
+                for k in ("input_tokens", "cached_input_tokens", "output_tokens",
+                          "reasoning_output_tokens"):
+                    usage[k] = usage.get(k, 0) + int(u.get(k, 0) or 0)
+        cost_usd = _estimate_cost(self.model, usage)
 
         after = _hash_files()
         changed = {f: (SRC_DIR / f).read_text()
@@ -168,4 +156,5 @@ class CodeOptimizer:
 
         return Proposal(hypothesis=hypothesis or "(no hypothesis)", files=changed,
                         applied_in_place=True, commit_sha=commit_sha,
-                        doc_path=str(doc) if doc.exists() else "")
+                        doc_path=str(doc) if doc.exists() else "",
+                        usage=usage, cost_usd=cost_usd)
