@@ -51,6 +51,32 @@ baseline. An independent reviewer reads your diff for exactly these tricks.
 GOAL: maximize the validation 'headline' (a Sharpe-like risk-adjusted return) BY
 GENUINE EDGE. The honest baseline to beat: buy-favorite-hold ~ +0.0015/game on train.
 
+CURRENT KNOWN PROBLEM (this is the core thing to attack — it is a TRAINING-STABILITY
+and FEATURE/REPRESENTATION problem, not a data problem):
+- The learning curves show the policy learns everything by ~PPO iter 10 and then
+  PLATEAUS flat for the remaining ~30 iters. ~75% of training does nothing useful.
+- At that plateau the policy has collapsed to essentially the buy-favorite-hold
+  baseline: it makes ~1 action/game (buy at tip-off, hold to settlement) and never
+  trades INTRA-GAME on score swings / momentum / price moves. So it captures almost
+  no edge beyond "favorites win a bit more than the market prices."
+- The entry_prior auxiliary loss is largely RESPONSIBLE: it supervises the policy
+  toward "buy favorites", so PPO reaches baseline behavior without learning real edge,
+  then has no gradient pressure to improve. It is a crutch that caps discovery.
+Your job is to fix BOTH halves of this:
+  (a) TRAINING STABILITY / OPTIMIZATION: make the policy keep improving instead of
+      plateauing — e.g. reduce/anneal/remove the entry_prior crutch, increase model
+      CAPACITY (hidden units / layers) if underfit, tune lr / entropy / epochs /
+      iters / advantage normalization, add reward signal that rewards INTRA-GAME
+      timing (buying low / selling high during the game), add a checkpoint-by-val so a
+      longer run can't hurt. Aim for train AND val PnL curves that keep rising, not
+      flat lines.
+  (b) FEATURE / REPRESENTATION LEARNING: the policy can only time intra-game trades if
+      the state encoder gives it the right signals — strengthen momentum / price-
+      velocity / edge-vs-market / player-run features so the net can SEE when to enter
+      and exit mid-game, not just at tip-off.
+Treat raising the plateau and getting genuine intra-game trading as success, not just
+nudging the headline.
+
 WHAT YOU CAN CHANGE (your action space — both files are fully yours to rewrite):
 - feature_construction.py: add/remove/transform features (update FEATURE_NAMES +
   FEATURE_DIM together), change normalization, add momentum/edge/player-stat signals.
