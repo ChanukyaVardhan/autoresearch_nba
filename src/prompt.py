@@ -92,6 +92,23 @@ You may read the train data (../data_train/) and run python to inspect it. You h
 NO internet: web search, browser, and computer-use tools are DISABLED (these are real
 2026 NBA games; looking up results would be data leakage and is blocked).
 
+DESIRED FUNCTIONALITIES (the properties a good solution should have — work TOWARD
+these over iterations; in the experiment doc, reason about which ones your change
+advances and which still fall short):
+ 1. Beats buy-favorite-hold on the TRAIN distribution (not just a lucky val sample).
+ 2. Genuine INTRA-GAME trading: enters/exits DURING the game on momentum / price /
+    score signals — not just buy-at-tip-and-hold (currently it does the latter).
+ 3. Stable training: train AND val PnL curves keep RISING and converge, instead of
+    plateauing at ~iter 10. No collapse to always-skip and no churn.
+ 4. A critic that actually learns (value_corr well above 0) so advantages are useful.
+ 5. Selective, sized positions: trade when there is edge, size by confidence — not a
+    fixed full-budget bet every game.
+ 6. Robustness: not driven by one lucky game (low one_game_domination); reasonable
+    win rate AND positive mean return together.
+ 7. Learns edge FROM REWARD, with the entry_prior crutch reduced/removed over time.
+ 8. Features that carry real signal (high feature_importance), dead features pruned.
+ 9. Reasonable cost/speed: doesn't blow up train_secs for marginal gains.
+
 Use the diagnostics below to decide WHAT to change:
 - action_mix / pct_games_no_trade = collapsing to always-skip?
 - feature_importance = which features matter vs are dead weight to prune.
@@ -109,7 +126,12 @@ DO EXACTLY THIS, IN ORDER (you have bash + git):
 2. Edit feature_construction.py and/or training.py to implement it.
 3. Write the proposal doc to ../EXPERIMENTS/iter-{iter:02d}.md with these sections:
    ## Hypothesis  (one sentence: what you expect to improve and why)
-   ## Rationale   (which diagnostic motivated this; the mechanism)
+   ## Reasoning   (reason explicitly about the DESIRED FUNCTIONALITIES list above:
+                   which numbered items the current model FAILS, which one(s) THIS
+                   experiment targets, why this change should advance them, and what
+                   you are deliberately NOT addressing yet. Reference the diagnostics
+                   and learning curves in your reasoning.)
+   ## Rationale   (the mechanism: why the code change produces the expected effect)
    ## Diff summary (bullet list of the concrete code changes you made)
    ## Features    (the FULL current list of feature names your feature_construction
                    produces this iteration, in order — copy FEATURE_NAMES + note any
