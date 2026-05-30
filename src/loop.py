@@ -30,6 +30,9 @@ import subprocess
 SRC = Path(__file__).resolve().parent
 WORK = SRC.parent              # .autoresearch_nba (the dedicated git repo)
 ARTIFACTS = WORK / "artifacts"
+# Per-run output dir, set by run_loop() so each autoresearch run is self-contained
+# and comparable: runs/<run_id>/ holds that run's metrics, experiment docs, log, best.
+RUN_DIR = ARTIFACTS               # default; run_loop() overrides to runs/<run_id>/
 
 
 def _read(name: str) -> str:
@@ -48,11 +51,16 @@ def _revert_to(sha: str) -> None:
 
 
 def _write_dashboard_row(row: dict) -> None:
-    """Append one iteration's metrics to artifacts/metrics.jsonl (the dashboard feed)."""
+    """Append one iteration's metrics to THIS RUN's metrics.jsonl, and mirror to the
+    stable artifacts/metrics.jsonl so the live dashboard always shows the current run."""
     import json as _json
+    line = _json.dumps(row) + "\n"
+    RUN_DIR.mkdir(parents=True, exist_ok=True)
+    with open(RUN_DIR / "metrics.jsonl", "a") as f:
+        f.write(line)
     ARTIFACTS.mkdir(parents=True, exist_ok=True)
-    with open(ARTIFACTS / "metrics.jsonl", "a") as f:
-        f.write(_json.dumps(row) + "\n")
+    with open(ARTIFACTS / "metrics.jsonl", "a") as f:  # dashboard feed (latest run)
+        f.write(line)
 
 
 def _feature_snapshot() -> list[str]:
@@ -112,13 +120,27 @@ def _train_and_validate(train_games, val_games, seed: int, with_report: bool = F
 
 def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
              model: str = "gpt-5.5", reasoning: str = "medium",
-             trace: bool = True) -> None:
+             trace: bool = True, run_id: str | None = None) -> None:
+    from datetime import datetime
     from .tracing import TraceLogger
     from .dashboard import start_server
-    # live dashboard: open this URL and watch iterations stream in as the loop runs
-    dash_url = start_server(6060)
-    print(f"LIVE DASHBOARD: {dash_url}  (open in browser, refreshes every 2s)")
-    log = ExperimentLog(ARTIFACTS / "experiment_log.jsonl")
+    global RUN_DIR
+    # per-run folder so different autoresearch runs are self-contained & comparable
+    run_id = run_id or datetime.now().strftime("%Y%m%d-%H%M%S")
+    RUN_DIR = WORK / "runs" / run_id
+    RUN_DIR.mkdir(parents=True, exist_ok=True)
+    (RUN_DIR / "EXPERIMENTS").mkdir(exist_ok=True)
+    print(f"RUN DIR: runs/{run_id}/  (metrics, experiment docs, log, best for this run)")
+    # reset the live dashboard feed so it shows ONLY this run
+    ARTIFACTS.mkdir(parents=True, exist_ok=True)
+    (ARTIFACTS / "metrics.jsonl").write_text("")
+    # live dashboard: non-fatal if a server already owns the port (e.g. run_dashboard.py)
+    try:
+        dash_url = start_server(6060)
+        print(f"LIVE DASHBOARD: {dash_url}  (open in browser, refreshes every 2s)")
+    except OSError:
+        print("LIVE DASHBOARD: http://127.0.0.1:6060 (existing server reused)")
+    log = ExperimentLog(RUN_DIR / "experiment_log.jsonl")
     tracer = TraceLogger(run_name=f"autoresearch-{model}-seed{seed}", enabled=trace)
     if tracer.active:
         print(f"tracing -> {tracer.endpoint} (open Raindrop Workshop / OTLP UI)")
@@ -246,6 +268,11 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         _P(prop.doc_path).write_text(doc_txt)
                         _append_result(prop.doc_path, kept, metrics, note, prop.cost_usd, prop.usage)
                     _git("add", "-A"); _git("commit", "-q", "-m", f"iter {it}: REVERTED — {note}")
+                # snapshot the finished experiment doc into THIS run's folder
+                if prop.doc_path and Path(prop.doc_path).exists():
+                    (RUN_DIR / "EXPERIMENTS").mkdir(parents=True, exist_ok=True)
+                    (RUN_DIR / "EXPERIMENTS" / Path(prop.doc_path).name).write_text(
+                        Path(prop.doc_path).read_text())
 
                 sp.set(verdict="kept" if kept else "reverted", kept=kept,
                        best_headline=best_headline,
@@ -273,5 +300,5 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                 print(f"[iter {it}] {note} | ${prop.cost_usd:.4f} (cum ${total_cost:.2f}) | "
                       f"{prop.commit_sha[:8]} | {prop.hypothesis[:50]}")
     tracer.shutdown()
-    (ARTIFACTS / "best_headline.txt").write_text(str(best_headline))
+    (RUN_DIR / "best_headline.txt").write_text(str(best_headline))
     print(f"DONE. best val headline={best_headline:.4f} @ {best_sha[:8]} | total codex cost ${total_cost:.2f}")
