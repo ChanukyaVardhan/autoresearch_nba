@@ -101,8 +101,19 @@ class CodeOptimizer:
                               capture_output=True, text=True).stdout.strip()
 
     def propose(self, iteration: int, last_metrics: dict, best_metrics: dict,
-                diagnostics: dict | None = None) -> Proposal:
+                diagnostics: dict | None = None, prior_error: str | None = None) -> Proposal:
         task = build_task(iteration, last_metrics, best_metrics, diagnostics)
+        if prior_error:
+            # retry within the same iteration: show the agent its own failure so it
+            # FIXES it rather than us wasting the iteration on a broken edit.
+            task += (
+                "\n\n=== YOUR PREVIOUS ATTEMPT THIS ITERATION FAILED THE HARNESS ===\n"
+                f"{prior_error}\n"
+                "Your current edits are STILL ON DISK. Diagnose and FIX the problem in "
+                "feature_construction.py / training.py, run your self-check to confirm "
+                "it works, then re-commit. Do not start a different experiment — repair "
+                "this one so it passes."
+            )
         head_before = self._git("rev-parse", "HEAD")
         before = _hash_files()
         env = dict(os.environ)

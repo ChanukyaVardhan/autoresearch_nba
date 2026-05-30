@@ -209,59 +209,56 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
             with tracer.span(f"iteration {it}", {"iter": it},
                              input=f"diagnostics + metrics (best headline={best_headline:.4f})") as sp:
                 pre_sha = _git("rev-parse", "HEAD")
-                _write_status("codex_proposing", it, iters, {"best_headline": round(best_headline, 4)})
-                # Codex agent span rendered as an LLM call (model, prompt-in, hypothesis-out).
-                with tracer.span("codex.propose", {"model": model}, kind="llm",
-                                 model=model,
-                                 input=f"notes={diag.get('notes')} action_mix={diag.get('action_mix')} "
-                                       f"value_corr={diag.get('value_corr')}") as psp:
-                    prop = opt.propose(it, base_m.__dict__, {"headline": best_headline}, diagnostics=diag)
-                    psp.set_kind("llm", model=model, output=prop.hypothesis)
-                    psp.set(hypothesis=prop.hypothesis, commit=prop.commit_sha[:8],
-                            files_changed=list(prop.files.keys()))
-                sp.set(hypothesis=prop.hypothesis, commit=prop.commit_sha[:8])
-                if not prop.files:
-                    sp.set(verdict="no_change", kept=False)
-                    log.append(LogEntry(it, prop.hypothesis, {}, {}, False, best_headline,
-                                        time.time() - t0, "agent made no file changes"))
-                    print(f"[iter {it}] agent made no file changes")
-                    continue
-
                 kept = False; note = ""; metrics = {}; train_secs = 0.0; hist = {}
-                try:
-                    _write_status("leakage+verify", it, iters, {"hypothesis": prop.hypothesis[:80]})
-                    with tracer.span("leakage_check", kind="tool",
-                                     input="prefix-invariance + finite/dim on train sample") as lsp:
-                        ok, msg = run_leakage_suite(train_games)
-                        lsp.set_kind("tool", output=("PASS: " + msg) if ok else ("FAIL: " + msg))
-                        lsp.set(passed=ok, detail=msg)
-                    # independent anti-cheating verifier (Claude reviews Codex's diff)
-                    vok, vreason = (True, "skipped")
-                    if ok:
-                        with tracer.span("verifier", kind="tool",
-                                         input="Claude reviews diff for reward-hacking/leakage") as vsp:
-                            from .verifier import verify
-                            vok, vreason = verify()
-                            vsp.set_kind("tool", output=("ACCEPT: " + vreason) if vok else ("REJECT: " + vreason))
-                            vsp.set(passed=vok, detail=vreason)
-                    if not ok:
-                        note = f"REJECTED (leakage): {msg}"
-                    elif not vok:
-                        note = f"REJECTED (verifier): {vreason}"
-                    else:
-                        _write_status("training", it, iters, {"hypothesis": prop.hypothesis[:80]})
-                        with tracer.span("train_and_validate", kind="tool",
-                                         input="PPO train on train split -> eval on val split") as tsp:
+                prop = None; prior_error = None; iter_cost = 0.0; n_attempts = 0
+                MAX_ATTEMPTS = 10  # retry (feeding the error back) until a clean trained run
+                validated = False
+                for attempt in range(1, MAX_ATTEMPTS + 1):
+                    phase = "codex_proposing" if attempt == 1 else f"codex_repair_{attempt-1}"
+                    _write_status(phase, it, iters, {"best_headline": round(best_headline, 4)})
+                    with tracer.span("codex.propose" if attempt == 1 else f"codex.repair{attempt-1}",
+                                     {"model": model, "attempt": attempt}, kind="llm", model=model,
+                                     input=(prior_error or f"diagnostics; best={best_headline:.4f}")[:500]) as psp:
+                        prop = opt.propose(it, base_m.__dict__, {"headline": best_headline},
+                                           diagnostics=diag, prior_error=prior_error)
+                        psp.set_kind("llm", model=model, output=prop.hypothesis)
+                        psp.set(hypothesis=prop.hypothesis, commit=prop.commit_sha[:8], attempt=attempt)
+                    iter_cost += prop.cost_usd; n_attempts = attempt
+                    if not prop.files:
+                        prior_error = ("You made NO file changes. You MUST edit "
+                                       "feature_construction.py and/or training.py this iteration.")
+                        note = f"attempt {attempt}: no file changes -> retry"
+                        print(f"[iter {it}] attempt {attempt}: no changes -> retry")
+                        continue
+                    # ---- validate the edit ----
+                    try:
+                        _write_status("leakage+verify", it, iters, {"attempt": attempt})
+                        with tracer.span("leakage_check", kind="tool") as lsp:
+                            ok, msg = run_leakage_suite(train_games)
+                            lsp.set_kind("tool", output=("PASS: " + msg) if ok else ("FAIL: " + msg))
+                        vok, vreason = (True, "skipped")
+                        if ok:
+                            with tracer.span("verifier", kind="tool") as vsp:
+                                from .verifier import verify
+                                vok, vreason = verify()
+                                vsp.set_kind("tool", output=("ACCEPT: " + vreason) if vok else ("REJECT: " + vreason))
+                        if not ok:
+                            # FIXABLE bug -> feed back & let Codex repair (retry)
+                            prior_error = f"Leakage/dim check FAILED: {msg}"
+                            note = f"attempt {attempt} rejected (leakage): {msg[:60]}"
+                            print(f"[iter {it}] attempt {attempt}: leakage fail -> retry: {msg[:60]}")
+                            continue
+                        if not vok:
+                            # reward-hack / cheating -> do NOT retry, abort cleanly
+                            note = f"REJECTED (verifier): {vreason}"; validated = True; break
+                        # ---- train & grade (success path) ----
+                        _write_status("training", it, iters, {"attempt": attempt})
+                        with tracer.span("train_and_validate", kind="tool") as tsp:
                             _t_train = time.time()
                             _, _, m, report, hist = _train_and_validate(train_games, val_games, seed, with_report=True)
                             train_secs = round(time.time() - _t_train, 1)
-                            tsp.set_kind("tool", output=f"headline={m.headline:.4f} mean_return={m.mean_return:.4f} "
-                                                        f"win_rate={m.win_rate:.2f} trades/g={m.avg_trades:.1f} "
-                                                        f"train_secs={train_secs}")
-                            tsp.set(train_secs=train_secs)
-                            tsp.set_attrs(m.__dict__, prefix="metrics")
-                            if report:
-                                tsp.set_attrs(asdict(report), prefix="diag")
+                            tsp.set_kind("tool", output=f"headline={m.headline:.4f} train_secs={train_secs}")
+                            tsp.set(train_secs=train_secs); tsp.set_attrs(m.__dict__, prefix="metrics")
                         metrics = m.__dict__
                         if m.headline > best_headline:
                             best_headline = m.headline; best_sha = prop.commit_sha or best_sha
@@ -269,32 +266,49 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                             base_m = m; cur_report = report; cur_hist = hist
                         else:
                             note = f"reverted (headline {m.headline:.4f} <= {best_headline:.4f})"
-                except Exception as e:
-                    note = f"REJECTED (error): {type(e).__name__}: {e}"
+                        validated = True
+                        break  # validated (kept or honestly-reverted) -> iteration done
+                    except Exception as e:
+                        # training crashed -> FIXABLE, feed back & retry
+                        prior_error = f"Training raised {type(e).__name__}: {e}"
+                        note = f"attempt {attempt} error: {type(e).__name__}: {str(e)[:60]}"
+                        print(f"[iter {it}] attempt {attempt}: {type(e).__name__} -> retry")
+                        continue
+                if not validated:
+                    note = f"REJECTED: {MAX_ATTEMPTS} attempts could not produce a clean run — {note}"
+                    print(f"[iter {it}] {note}")
+                sp.set(hypothesis=prop.hypothesis if prop else "", commit=(prop.commit_sha[:8] if prop else ""))
+                if prop and not prop.files and "no file changes" in note:
+                    sp.set(verdict="no_change", kept=False)
+                    log.append(LogEntry(it, prop.hypothesis, {}, {}, False, best_headline,
+                                        time.time() - t0, note))
+                    print(f"[iter {it}] {note}")
+                    continue
 
-                total_cost += prop.cost_usd
+                total_cost += iter_cost
+                doc_path = prop.doc_path if prop else ""
                 if kept:
-                    _append_result(prop.doc_path, kept, metrics, note, prop.cost_usd, prop.usage)
+                    _append_result(doc_path, kept, metrics, note, iter_cost, prop.usage)
                     _git("add", "-A"); _git("commit", "-q", "-m", f"iter {it}: result KEPT")
                 else:
                     from pathlib import Path as _P
-                    doc_txt = _P(prop.doc_path).read_text() if prop.doc_path and _P(prop.doc_path).exists() else ""
+                    doc_txt = _P(doc_path).read_text() if doc_path and _P(doc_path).exists() else ""
                     _revert_to(pre_sha if pre_sha else best_sha)
-                    if doc_txt and prop.doc_path:
-                        _P(prop.doc_path).parent.mkdir(parents=True, exist_ok=True)
-                        _P(prop.doc_path).write_text(doc_txt)
-                        _append_result(prop.doc_path, kept, metrics, note, prop.cost_usd, prop.usage)
+                    if doc_txt and doc_path:
+                        _P(doc_path).parent.mkdir(parents=True, exist_ok=True)
+                        _P(doc_path).write_text(doc_txt)
+                        _append_result(doc_path, kept, metrics, note, iter_cost, prop.usage if prop else {})
                     _git("add", "-A"); _git("commit", "-q", "-m", f"iter {it}: REVERTED — {note}")
                 # snapshot the finished experiment doc into THIS run's folder
-                if prop.doc_path and Path(prop.doc_path).exists():
+                if doc_path and Path(doc_path).exists():
                     (RUN_DIR / "EXPERIMENTS").mkdir(parents=True, exist_ok=True)
-                    (RUN_DIR / "EXPERIMENTS" / Path(prop.doc_path).name).write_text(
-                        Path(prop.doc_path).read_text())
+                    (RUN_DIR / "EXPERIMENTS" / Path(doc_path).name).write_text(
+                        Path(doc_path).read_text())
 
                 sp.set(verdict="kept" if kept else "reverted", kept=kept,
-                       best_headline=best_headline,
+                       best_headline=best_headline, attempts=n_attempts,
                        headline=metrics.get("headline", 0.0) if metrics else 0.0,
-                       codex_cost_usd=prop.cost_usd, total_cost_usd=round(total_cost, 4))
+                       codex_cost_usd=round(iter_cost, 4), total_cost_usd=round(total_cost, 4))
                 # feature snapshot + diff vs the previous iteration (track feature changes)
                 feats = _feature_snapshot()
                 added = [f for f in feats if f not in prev_feats]
@@ -303,8 +317,9 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                 # metrics row for the dashboard (always written, even on revert)
                 metrics_row = dict(metrics)
                 metrics_row.update(iter=it, kept=kept, best_headline=best_headline,
-                                   codex_cost_usd=prop.cost_usd, total_cost_usd=round(total_cost, 4),
-                                   hypothesis=prop.hypothesis, commit=prop.commit_sha[:8],
+                                   codex_cost_usd=round(iter_cost, 4), total_cost_usd=round(total_cost, 4),
+                                   attempts=n_attempts,
+                                   hypothesis=(prop.hypothesis if prop else note), commit=(prop.commit_sha[:8] if prop else ""),
                                    n_features=len(feats), features=feats,
                                    features_added=added, features_removed=removed,
                                    train_secs=train_secs, iter_secs=round(time.time() - t0, 1),
@@ -312,10 +327,10 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                                    train_pnl_curve=(hist or {}).get("train_pnl", []),
                                    val_pnl_curve=(hist or {}).get("val_pnl", []))
                 _write_dashboard_row(metrics_row)
-                log.append(LogEntry(it, prop.hypothesis, {"commit": prop.commit_sha},
+                log.append(LogEntry(it, (prop.hypothesis if prop else note), {"commit": (prop.commit_sha if prop else "")},
                                     metrics_row, kept, best_headline, time.time() - t0, note))
-                print(f"[iter {it}] {note} | ${prop.cost_usd:.4f} (cum ${total_cost:.2f}) | "
-                      f"{prop.commit_sha[:8]} | {prop.hypothesis[:50]}")
+                print(f"[iter {it}] {note} | {n_attempts} attempts | ${iter_cost:.4f} (cum ${total_cost:.2f}) | "
+                      f"{(prop.commit_sha[:8] if prop else '')} | {(prop.hypothesis[:50] if prop else '')}")
     tracer.shutdown()
     _write_status("DONE", iters, iters, {"best_headline": round(best_headline, 4),
                                           "total_cost_usd": round(total_cost, 4)})

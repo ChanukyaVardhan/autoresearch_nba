@@ -94,7 +94,7 @@ _PAGE = """<!doctype html><html><head><meta charset="utf-8">
   <h3>Learning curves — latest iteration (train reward, train PnL, val PnL over PPO steps)</h3>
   <canvas id="lc" style="max-height:260px"></canvas></div>
 <div class="grid" id="charts"></div>
-<table><thead><tr><th>iter</th><th>verdict</th><th>headline</th><th>mean_ret</th>
+<table><thead><tr><th>iter</th><th>verdict</th><th>try</th><th>headline</th><th>mean_ret</th>
 <th>win%</th><th>trades/g</th><th>train s</th><th>cost $</th><th>cum $</th><th class="l">commit</th>
 <th class="l">hypothesis</th></tr></thead><tbody id="tbody"></tbody></table>
 <script>
@@ -154,8 +154,10 @@ async function tick(){
     const tb=document.getElementById('tbody');tb.innerHTML='';
     for(const r of d.rows){
       const tr=document.createElement('tr');
+      const verdict = r.iter===0?'base':(r.kept?'KEPT':'rev');
       tr.innerHTML=`<td>${r.iter}</td>
-       <td class="${r.kept?'kept':'rev'}">${r.iter===0?'base':(r.kept?'KEPT':'rev')}</td>
+       <td class="${r.kept?'kept':'rev'}">${verdict}</td>
+       <td>${r.attempts??''}</td>
        <td>${f(r.headline)}</td><td>${f(r.mean_return)}</td><td>${f(r.win_rate,2)}</td>
        <td>${f(r.avg_trades,1)}</td><td>${f(r.train_secs,1)}</td><td>${f(r.codex_cost_usd)}</td><td>${f(r.total_cost_usd,2)}</td>
        <td class="l">${r.commit||''}</td><td class="l">${(r.hypothesis||'').slice(0,140)}</td>`;
@@ -165,9 +167,13 @@ async function tick(){
     const s=d.status||{};
     // heartbeat: if status.ts is >180s old and not DONE, the run is likely stuck/ended
     const ageS = s.ts ? (Date.now()/1000 - s.ts) : null;
+    // a gpt-5.5 codex_proposing call legitimately takes several minutes, so only the
+    // proposing phase gets a long stuck-threshold; other phases should be quick.
+    const stuckAfter = (s.phase==='codex_proposing') ? 900 : 240;
     let live;
     if(s.phase==='DONE') live=`✅ DONE (best ${f(s.best_headline)}, cost $${f(s.total_cost_usd,2)})`;
-    else if(ageS!=null && ageS>180) live=`⚠️ no heartbeat for ${Math.round(ageS)}s — likely STUCK or ENDED (last: ${s.phase} iter ${s.iter})`;
+    else if(ageS!=null && ageS>stuckAfter) live=`⚠️ no heartbeat ${Math.round(ageS)}s — possibly STUCK/ENDED (last: ${s.phase} iter ${s.iter})`;
+    else if(s.phase==='codex_proposing') live=`▶ iter ${s.iter}/${s.total_iters} · Codex reasoning (takes a few min) · ${Math.round(ageS||0)}s`;
     else if(s.phase) live=`▶ iter ${s.iter}/${s.total_iters} · ${s.phase} · upd ${s.updated_at}`;
     else live='live (refreshes 2s)';
     document.getElementById('status').textContent=

@@ -18,7 +18,7 @@ import torch.nn.functional as F
 torch.set_num_threads(max(1, (torch.get_num_threads() or 4)))  # use available CPU cores
 
 from .backtest import BacktestEnv
-from .feature_construction import FEATURE_DIM, feature_construction
+from .feature_construction import FEATURE_DIM, FEATURE_NAMES, feature_construction
 from .game import Game
 from .networks import CriticNet, N_SIZE, PolicyNet, SIZE_BUCKETS
 from .types import Action
@@ -26,24 +26,25 @@ from .types import Action
 
 @dataclass
 class PPOConfig:
-    hidden: int = 64
-    lr: float = 3e-4
+    hidden: int = 128
+    lr: float = 2e-4
     gamma: float = 0.997
     lam: float = 0.95
     clip: float = 0.2
-    epochs: int = 4
-    entropy_coef: float = 0.05   # higher: avoid premature collapse to always-skip
+    epochs: int = 5
+    entropy_coef: float = 0.04   # higher: avoid premature collapse to always-skip
     value_coef: float = 0.5
-    entry_prior_coef: float = 0.08
-    iters: int = 40
+    entry_prior_coef: float = 0.02
+    entry_prior_warmup_iters: int = 6
+    iters: int = 60
     batch_games: int = 64
     trade_cost: float = 0.0005   # tiny per-trade shaping penalty (curb churn, not kill trading)
     seed: int = 0
 
 
-IMPLIED_PROB_IDX = 0
-EDGE_IDX = 19
-IS_HOLDING_IDX = 20
+IMPLIED_PROB_IDX = FEATURE_NAMES.index("implied_prob")
+EDGE_IDX = FEATURE_NAMES.index("edge")
+IS_HOLDING_IDX = FEATURE_NAMES.index("is_holding")
 
 
 def _rollout(game: Game, policy: PolicyNet, rng: np.random.Generator):
@@ -114,10 +115,9 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
             # trade-cost shaping: penalize BUY/SELL steps to curb churn
             traded = np.isin(A, [int(Action.BUY), int(Action.SELL)]).astype(np.float32)
             Rsh = R - cfg.trade_cost * traded
-            Rn = (Rsh - Rsh.mean()) / (Rsh.std() + 1e-6)
             with torch.no_grad():
                 V = critic.forward(torch.from_numpy(S)).numpy()
-            adv, ret = _gae(Rn, V, cfg.gamma, cfg.lam)
+            adv, ret = _gae(Rsh, V, cfg.gamma, cfg.lam)
             bS.append(S); bA.append(A); bSZ.append(SZ); bOLD.append(OLD)
             bADV.append(adv); bRET.append(ret); bMASK.append(MASK)
         if not bS:
@@ -153,35 +153,32 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
             entropy = -(a_probs * a_logp_all).sum(-1).mean()
             value = critic.forward(S)
             value_loss = F.mse_loss(value, RET)
-            favorite_entry = (
-                (S[:, IS_HOLDING_IDX] < 0.5)
-                & (S[:, IMPLIED_PROB_IDX] >= 0.52)
-                & (S[:, EDGE_IDX] >= -0.03)
-                & MASK[:, int(Action.BUY)]
-            )
-            if torch.any(favorite_entry):
+            warmup_left = max(0.0, 1.0 - (it_i / max(1, cfg.entry_prior_warmup_iters)))
+            entry_prior_coef = cfg.entry_prior_coef * warmup_left
+            if entry_prior_coef > 0.0:
+                positive_edge_entry = (
+                    (S[:, IS_HOLDING_IDX] < 0.5)
+                    & (S[:, IMPLIED_PROB_IDX] >= 0.35)
+                    & (S[:, IMPLIED_PROB_IDX] <= 0.85)
+                    & (S[:, EDGE_IDX] >= 0.04)
+                    & MASK[:, int(Action.BUY)]
+                )
+            else:
+                positive_edge_entry = torch.zeros_like(A, dtype=torch.bool)
+            if torch.any(positive_edge_entry):
                 entry_target = torch.full(
-                    (int(favorite_entry.sum().item()),),
+                    (int(positive_edge_entry.sum().item()),),
                     int(Action.BUY),
                     dtype=torch.long,
                     device=S.device,
                 )
-                size_target = torch.full(
-                    (int(favorite_entry.sum().item()),),
-                    N_SIZE - 1,
-                    dtype=torch.long,
-                    device=S.device,
-                )
-                entry_prior_loss = (
-                    F.cross_entropy(a_logits[favorite_entry], entry_target)
-                    + 0.25 * F.cross_entropy(s_logits[favorite_entry], size_target)
-                )
+                entry_prior_loss = F.cross_entropy(a_logits[positive_edge_entry], entry_target)
             else:
                 entry_prior_loss = torch.zeros((), dtype=S.dtype, device=S.device)
             loss = (
                 policy_loss
                 + cfg.value_coef * value_loss
-                + cfg.entry_prior_coef * entry_prior_loss
+                + entry_prior_coef * entry_prior_loss
                 - cfg.entropy_coef * entropy
             )
             opt.zero_grad()
