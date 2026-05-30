@@ -64,6 +64,7 @@ def _flatten(prefix: str, obj: Any, out: dict) -> None:
 class _NoopSpan:
     def set(self, **kw): return self
     def set_attrs(self, d, prefix=""): return self
+    def set_kind(self, *a, **k): return self
     def __enter__(self): return self
     def __exit__(self, *a): return False
 
@@ -102,11 +103,17 @@ class TraceLogger:
         return self._tracer is not None
 
     @contextmanager
-    def span(self, name: str, attrs: Optional[dict] = None):
+    def span(self, name: str, attrs: Optional[dict] = None, kind: Optional[str] = None,
+             input: Optional[str] = None, output: Optional[str] = None,
+             model: Optional[str] = None):
+        """kind: 'llm' or 'tool' makes Workshop render it as an LLM/TOOL span (vs
+        generic INTERNAL). input/output/model populate the fields Workshop's UI shows."""
         if self._tracer is None:
             yield _NoopSpan(); return
         with self._tracer.start_as_current_span(name) as sp:
             wrapper = _SpanWrapper(sp)
+            if kind:
+                wrapper.set_kind(kind, model=model, input=input, output=output)
             if attrs:
                 wrapper.set_attrs(attrs)
             yield wrapper
@@ -119,6 +126,26 @@ class TraceLogger:
 class _SpanWrapper:
     def __init__(self, sp):
         self._sp = sp
+
+    def set_kind(self, kind: str, model=None, input=None, output=None):
+        """Set the OTel GenAI / OpenInference conventions Workshop reads to render a
+        span as an LLM or TOOL with input/output/model/tokens."""
+        k = kind.lower()
+        # span type (Workshop) + OpenInference kind (broadly recognized)
+        self._sp.set_attribute("span.type", "LLM" if k == "llm" else "TOOL")
+        self._sp.set_attribute("openinference.span.kind", k.upper())
+        if model:
+            self._sp.set_attribute("gen_ai.request.model", str(model))
+            self._sp.set_attribute("llm.model_name", str(model))
+        if input is not None:
+            s = str(input)[:8000]
+            self._sp.set_attribute("input.value", s)
+            self._sp.set_attribute("gen_ai.prompt", s)
+        if output is not None:
+            s = str(output)[:8000]
+            self._sp.set_attribute("output.value", s)
+            self._sp.set_attribute("gen_ai.completion", s)
+        return self
 
     def set(self, **kw):
         for k, v in kw.items():

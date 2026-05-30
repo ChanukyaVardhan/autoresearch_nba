@@ -116,12 +116,17 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
         best_sha = _git("rev-parse", "HEAD")  # last KEPT commit (good tree)
         for it in range(1, iters + 1):
             t0 = time.time()
-            with tracer.span("iteration", {"iter": it}) as sp:
+            diag = asdict(cur_report) if cur_report else {}
+            with tracer.span(f"iteration {it}", {"iter": it},
+                             input=f"diagnostics + metrics (best headline={best_headline:.4f})") as sp:
                 pre_sha = _git("rev-parse", "HEAD")
-                with tracer.span("codex.propose", {"model": model}) as psp:
-                    # The Codex agent edits files + writes EXPERIMENTS/iter-NN.md + commits.
-                    prop = opt.propose(it, base_m.__dict__, {"headline": best_headline},
-                                       diagnostics=asdict(cur_report) if cur_report else {})
+                # Codex agent span rendered as an LLM call (model, prompt-in, hypothesis-out).
+                with tracer.span("codex.propose", {"model": model}, kind="llm",
+                                 model=model,
+                                 input=f"notes={diag.get('notes')} action_mix={diag.get('action_mix')} "
+                                       f"value_corr={diag.get('value_corr')}") as psp:
+                    prop = opt.propose(it, base_m.__dict__, {"headline": best_headline}, diagnostics=diag)
+                    psp.set_kind("llm", model=model, output=prop.hypothesis)
                     psp.set(hypothesis=prop.hypothesis, commit=prop.commit_sha[:8],
                             files_changed=list(prop.files.keys()))
                 sp.set(hypothesis=prop.hypothesis, commit=prop.commit_sha[:8])
@@ -134,14 +139,19 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
 
                 kept = False; note = ""; metrics = {}
                 try:
-                    with tracer.span("leakage_check") as lsp:
+                    with tracer.span("leakage_check", kind="tool",
+                                     input="prefix-invariance + finite/dim on train sample") as lsp:
                         ok, msg = run_leakage_suite(train_games)
+                        lsp.set_kind("tool", output=("PASS: " + msg) if ok else ("FAIL: " + msg))
                         lsp.set(passed=ok, detail=msg)
                     if not ok:
                         note = f"REJECTED (leakage): {msg}"
                     else:
-                        with tracer.span("train_and_validate") as tsp:
+                        with tracer.span("train_and_validate", kind="tool",
+                                         input="PPO train on train split -> eval on val split") as tsp:
                             _, _, m, report = _train_and_validate(train_games, val_games, seed, with_report=True)
+                            tsp.set_kind("tool", output=f"headline={m.headline:.4f} mean_return={m.mean_return:.4f} "
+                                                        f"win_rate={m.win_rate:.2f} trades/g={m.avg_trades:.1f}")
                             tsp.set_attrs(m.__dict__, prefix="metrics")
                             if report:
                                 tsp.set_attrs(asdict(report), prefix="diag")
