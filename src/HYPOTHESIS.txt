@@ -1,0 +1,1 @@
+Adding a small causal favorite-entry auxiliary loss will break the always-skip collapse by making greedy PPO buy modest HOME favorites while still letting returns shape the final policy.

@@ -1,0 +1,10 @@
+# Never commit data, artifacts, secrets, or caches
+data/
+artifacts/
+experiments/
+*.env
+.env
+src/secret_key.py
+__pycache__/
+*.pyc
+
