@@ -124,7 +124,10 @@ Make ONE focused, diagnostics-motivated change.
 DO EXACTLY THIS, IN ORDER (you have bash + git):
 1. Reason about the diagnostics and decide on ONE focused experiment.
 2. Edit feature_construction.py and/or training.py to implement it.
-3. Write the proposal doc to ../EXPERIMENTS/iter-{iter:02d}.md with these sections:
+3. Write the proposal doc to ../EXPERIMENTS/iter-{iter:02d}.md. START with a title
+   line and a one-line SUMMARY of the change, then the sections:
+   `# iter {iter} — <3-6 word change title>`
+   `**Summary:** <one sentence: exactly what you changed this iteration>`
    ## Hypothesis  (one sentence: what you expect to improve and why)
    ## Reasoning   (reason explicitly about the DESIRED FUNCTIONALITIES list above:
                    which numbered items the current model FAILS, which one(s) THIS
