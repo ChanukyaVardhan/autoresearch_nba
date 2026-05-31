@@ -115,7 +115,8 @@ def _reload_editable():
             importlib.reload(sys.modules[m])
 
 
-def _train_and_validate(train_games, val_games, seed: int, with_report: bool = False):
+def _train_and_validate(train_games, val_games, seed: int, with_report: bool = False,
+                        eval_games=None):
     _reload_editable()
     from .training import PPOConfig, train  # reimported
     from .evaluate import evaluate, score
@@ -123,12 +124,18 @@ def _train_and_validate(train_games, val_games, seed: int, with_report: bool = F
     # report can show under/overfitting to Codex.
     policy, critic, history = train(train_games, PPOConfig(seed=seed),
                                     val_games=val_games, return_history=True)
-    metrics = evaluate(val_games, policy)
+    metrics = evaluate(val_games, policy)          # VAL drives the keep decision
+    # also measure train + eval (holdout) PnL for the dashboard's per-split view.
+    # NOTE: this is display-only; the keep decision still uses VAL alone.
+    splits = {"train_pnl": evaluate(train_games, policy).mean_return,
+              "val_pnl": metrics.mean_return}
+    if eval_games:
+        splits["eval_pnl"] = evaluate(eval_games, policy).mean_return
     report = None
     if with_report:
         from .observability import build_report
         report = build_report(val_games, policy, critic, metrics.profit_score, score)
-    return policy, critic, metrics, report, history
+    return policy, critic, metrics, report, history, splits
 
 
 def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,

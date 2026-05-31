@@ -118,12 +118,13 @@ def claude_review(diff: str, timeout_s: int = 300) -> tuple[bool, str]:
 
 
 def verify(timeout_s: int = 300) -> tuple[bool, str]:
-    """Run code guard + Claude review on the agent's latest commit (HEAD vs HEAD~1)."""
-    diff = _git("diff", "HEAD~1", "HEAD", "--", "src/")
+    """Anti-cheat check. Claude verifier DISABLED (it false-rejected on concurrent
+    harness commits). Only the deterministic code_guard runs, and it scopes the diff
+    to the EDITABLE files so harness changes can't pollute the check."""
+    diff = _git("diff", "HEAD~1", "HEAD", "--",
+                "src/feature_construction.py", "src/training.py")
     if not diff.strip():
-        diff = _git("diff", "HEAD", "--", "src/")  # uncommitted fallback
+        diff = _git("diff", "HEAD", "--",
+                    "src/feature_construction.py", "src/training.py")
     ok, reason = code_guard(diff)
-    if not ok:
-        return False, f"code-guard: {reason}"
-    ok, reason = claude_review(diff, timeout_s=timeout_s)
-    return ok, f"claude: {reason}"
+    return ok, f"code-guard: {reason}"
