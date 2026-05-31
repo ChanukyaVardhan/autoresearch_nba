@@ -17,8 +17,8 @@ ARTIFACTS = Path(__file__).resolve().parent.parent / "artifacts"
 
 # metrics to chart (line per metric); cost shown both per-iter and cumulative.
 CHART_METRICS = [
-    "profit_score", "best_profit", "mean_return", "sharpe", "win_rate",
-    "avg_trades", "avg_deployed", "max_drawdown", "total_pnl",
+    "mean_return", "best_profit", "total_pnl", "win_rate",
+    "avg_trades", "avg_deployed", "max_drawdown",
     "codex_cost_usd", "total_cost_usd",
     "train_secs", "iter_secs",
 ]
@@ -94,7 +94,7 @@ _PAGE = """<!doctype html><html><head><meta charset="utf-8">
   <h3>Learning curves — latest iteration (train reward, train PnL, val PnL over PPO steps)</h3>
   <canvas id="lc" style="max-height:260px"></canvas></div>
 <div class="grid" id="charts"></div>
-<table><thead><tr><th>iter</th><th>verdict</th><th>try</th><th>profit_score</th><th>mean_ret</th>
+<table><thead><tr><th>iter</th><th>verdict</th><th>try</th><th>PnL/game</th><th>total PnL</th>
 <th>win%</th><th>trades/g</th><th>train s</th><th>cost $</th><th>cum $</th><th class="l">commit</th>
 <th class="l">hypothesis</th></tr></thead><tbody id="tbody"></tbody></table>
 <script>
@@ -158,7 +158,7 @@ async function tick(){
       tr.innerHTML=`<td>${r.iter}</td>
        <td class="${r.kept?'kept':'rev'}">${verdict}</td>
        <td>${r.attempts??''}</td>
-       <td>${f(r.profit_score)}</td><td>${f(r.mean_return)}</td><td>${f(r.win_rate,2)}</td>
+       <td>${f(r.mean_return)}</td><td>${f(r.total_pnl,3)}</td><td>${f(r.win_rate,2)}</td>
        <td>${f(r.avg_trades,1)}</td><td>${f(r.train_secs,1)}</td><td>${f(r.codex_cost_usd)}</td><td>${f(r.total_cost_usd,2)}</td>
        <td class="l">${r.commit||''}</td><td class="l">${(r.hypothesis||'').slice(0,140)}</td>`;
       tb.appendChild(tr);
@@ -177,7 +177,7 @@ async function tick(){
     else if(s.phase) live=`▶ iter ${s.iter}/${s.total_iters} · ${s.phase} · upd ${s.updated_at}`;
     else live='live (refreshes 2s)';
     document.getElementById('status').textContent=
-      `${d.rows.length} rows · best profit_score ${last?f(last.best_profit):'-'} · cost $${last?f(last.total_cost_usd,2):'0'} · ${live}`;
+      `${d.rows.length} rows · best PnL/game ${last?f(last.best_profit):'-'} · cost $${last?f(last.total_cost_usd,2):'0'} · ${live}`;
   }catch(e){document.getElementById('status').textContent='waiting for run…';}
 }
 tick(); setInterval(tick,2000);
