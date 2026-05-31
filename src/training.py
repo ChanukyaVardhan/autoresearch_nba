@@ -27,32 +27,34 @@ from .types import Action
 
 @dataclass
 class PPOConfig:
-    # Capacity and optimization tuned for reward learning after the short entry warmup.
-    hidden: int = 96
-    lr: float = 2.5e-4
+    # Reward-first PPO: dense edge-potential shaping supplies the exploration signal.
+    hidden: int = 128
+    lr: float = 3e-4
     gamma: float = 0.997
     lam: float = 0.95
     clip: float = 0.2
     epochs: int = 5
-    entropy_coef: float = 0.025  # enough exploration without paying spread on churn
+    entropy_coef: float = 0.045  # keep stochastic BUY/SELL samples alive early
     value_coef: float = 0.8
-    entry_prior_coef: float = 0.035
-    entry_prior_warmup_iters: int = 8
+    entry_prior_coef: float = 0.0
+    entry_prior_warmup_iters: int = 0
+    edge_potential_coef: float = 0.05
     iters: int = 50
     batch_games: int = 64
-    trade_cost: float = 0.0015   # curb repeated spread-paying flips, not selective entries
+    trade_cost: float = 0.0005   # curb churn without suppressing first entries
     seed: int = 0
 
 
 IMPLIED_PROB_IDX = FEATURE_NAMES.index("implied_prob")
 EDGE_IDX = FEATURE_NAMES.index("edge")
 IS_HOLDING_IDX = FEATURE_NAMES.index("is_holding")
+BUDGET_FRAC_REM_IDX = FEATURE_NAMES.index("budget_frac_rem")
 
 
 def _rollout(game: Game, policy: PolicyNet, rng: np.random.Generator):
     """One episode under the current (stochastic) policy. Returns arrays."""
     env = BacktestEnv(game)
-    S, A, SZ, LOGP, R, MASK = [], [], [], [], [], []
+    S, NEXT_S, A, SZ, LOGP, R, MASK = [], [], [], [], [], [], []
     while True:
         x = feature_construction(game, env.t, env.pos)[None, :]
         mask = env.action_mask()
@@ -63,14 +65,16 @@ def _rollout(game: Game, policy: PolicyNet, rng: np.random.Generator):
         if a == Action.BUY:
             logp += float(np.log(s_probs[0, sz] + 1e-12))
         tr = env.step(a, float(SIZE_BUCKETS[sz]))
-        reward = tr.reward
-        if a in (Action.BUY, Action.SELL):
-            reward -= 0.0  # base reward; trade cost applied as shaping below via cfg
+        if tr.done:
+            next_x = np.zeros_like(x[0], dtype=np.float32)
+        else:
+            next_x = feature_construction(game, env.t, env.pos)
         S.append(x[0]); A.append(a); SZ.append(sz); LOGP.append(logp)
-        R.append(tr.reward); MASK.append(mask)
+        NEXT_S.append(next_x); R.append(tr.reward); MASK.append(mask)
         if tr.done:
             break
-    return (np.array(S, np.float32), np.array(A, np.int64), np.array(SZ, np.int64),
+    return (np.array(S, np.float32), np.array(NEXT_S, np.float32),
+            np.array(A, np.int64), np.array(SZ, np.int64),
             np.array(LOGP, np.float32), np.array(R, np.float32), np.array(MASK, bool))
 
 
@@ -83,6 +87,16 @@ def _gae(rewards, values, gamma, lam):
         last = delta + gamma * lam * last
         adv[t] = last
     return adv, adv + values
+
+
+def _edge_potential_np(states: np.ndarray) -> np.ndarray:
+    """Causal potential: deployed capital is valuable when model edge is positive."""
+    if states.size == 0:
+        return np.zeros(0, dtype=np.float32)
+    holding = states[:, IS_HOLDING_IDX].astype(np.float32)
+    deployed = np.clip(1.0 - states[:, BUDGET_FRAC_REM_IDX], 0.0, 1.0)
+    edge = np.clip(states[:, EDGE_IDX], -0.35, 0.35).astype(np.float32)
+    return holding * deployed * edge
 
 
 def train(games: list[Game], cfg: PPOConfig | None = None,
@@ -112,13 +126,20 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
         bS, bA, bSZ, bOLD, bADV, bRET, bMASK = ([] for _ in range(7))
         ep_rewards = []  # sum-of-rewards (= realized PnL) per game this iteration
         for gi in idx:
-            S, A, SZ, OLD, R, MASK = _rollout(games[gi], policy, rng)
+            S, NEXT_S, A, SZ, OLD, R, MASK = _rollout(games[gi], policy, rng)
             if len(R) == 0:
                 continue
             ep_rewards.append(float(R.sum()))  # raw episode PnL (pre-shaping)
-            # trade-cost shaping: penalize BUY/SELL steps to curb churn
+            # Dense causal shaping: credit entering positive edge and exiting negative
+            # edge, while preserving raw PnL for reported learning curves.
             traded = np.isin(A, [int(Action.BUY), int(Action.SELL)]).astype(np.float32)
-            Rsh = R - cfg.trade_cost * traded
+            pot_now = _edge_potential_np(S)
+            pot_next = _edge_potential_np(NEXT_S)
+            Rsh = (
+                R
+                - cfg.trade_cost * traded
+                + cfg.edge_potential_coef * (cfg.gamma * pot_next - pot_now)
+            )
             with torch.no_grad():
                 V = critic.forward(torch.from_numpy(S)).numpy()
             adv, ret = _gae(Rsh, V, cfg.gamma, cfg.lam)
@@ -203,7 +224,8 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
             history["train_pnl"].append((it_i, tp))
             if vp is not None:
                 history["val_pnl"].append((it_i, vp))
-                if vp > best_val_pnl:
+                val_trades = _greedy_avg_trades(val_games, policy)
+                if vp > best_val_pnl and (vp > 0.0 or val_trades > 0.05):
                     best_val_pnl = vp
                     best_state = (
                         copy.deepcopy(policy.state_dict()),
@@ -233,3 +255,21 @@ def _greedy_mean_pnl(games, policy) -> float:
                 break
         tot += env.result().realized_pnl
     return round(tot / len(games), 5)
+
+
+def _greedy_avg_trades(games, policy) -> float:
+    """Mean greedy BUY/SELL count; used only to avoid checkpointing all-skip ties."""
+    if not games:
+        return 0.0
+    tot = 0.0
+    for g in games:
+        env = BacktestEnv(g)
+        while True:
+            x = feature_construction(g, env.t, env.pos)[None, :]
+            a_probs, s_probs, _ = policy.policy(x, env.action_mask()[None, :])
+            a = int(a_probs[0].argmax()); sz = float(SIZE_BUCKETS[int(s_probs[0].argmax())])
+            if env.step(a, sz).done:
+                break
+        res = env.result()
+        tot += res.n_buys + res.n_sells
+    return tot / len(games)

@@ -4,7 +4,7 @@ Per iteration:
   1. Codex proposes an edit to feature_construction.py / training.py (hypothesis + files).
   2. Apply edit to a sandbox copy; run leakage suite. If it fails -> revert, log.
   3. Build features (train) -> PPO train -> backtest on VALIDATION -> metrics.
-  4. Keep if headline improved over best-so-far, else revert. Log either way.
+  4. Keep if profit_score improved over best-so-far, else revert. Log either way.
   5. Repeat until iters/plateau. Best frozen.
   6. ONE-TIME eval on holdout (separate entrypoint: run_eval.py).
 
@@ -95,7 +95,7 @@ def _append_result(doc_path: str, kept: bool, metrics: dict, note: str,
     if not p.exists():
         return
     res = [f"\n## Result", f"- verdict: **{'KEPT' if kept else 'REVERTED'}** — {note}"]
-    for k in ("headline", "mean_return", "sharpe", "win_rate", "avg_trades", "total_pnl"):
+    for k in ("profit_score", "mean_return", "sharpe", "win_rate", "avg_trades", "total_pnl"):
         if k in metrics:
             res.append(f"- {k}: {metrics[k]}")
     res.append(f"- codex_cost_usd: ${cost_usd:.4f}")
@@ -127,7 +127,7 @@ def _train_and_validate(train_games, val_games, seed: int, with_report: bool = F
     report = None
     if with_report:
         from .observability import build_report
-        report = build_report(val_games, policy, critic, metrics.headline, score)
+        report = build_report(val_games, policy, critic, metrics.profit_score, score)
     return policy, critic, metrics, report, history
 
 
@@ -165,7 +165,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
     with tracer.span("run", {"iters": iters, "seed": seed, "model": model,
                              "n_train": len(train_games), "n_val": len(val_games)}):
         # baseline (iteration 0): current code, no edit. Full diagnostic report so the
-        # optimizer can reason about HOW to improve, not just the headline.
+        # optimizer can reason about HOW to improve, not just the profit_score.
         with tracer.span("iteration", {"iter": 0, "kind": "baseline"}) as sp:
             ok, msg = run_leakage_suite(train_games)
             if not ok:
@@ -173,15 +173,15 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
             _t_base = time.time()
             _, _, base_m, base_report, base_hist = _train_and_validate(train_games, val_games, seed, with_report=True)
             base_train_secs = round(time.time() - _t_base, 1)
-            best_headline = base_m.headline
+            best_profit = base_m.profit_score
             best_files = {f: _read(f) for f in EDITABLE_FILES}
             cur_report = base_report
             sp.set_attrs(base_m.__dict__, prefix="metrics")
-            sp.set(best_headline=best_headline, kept=True, verdict="baseline")
+            sp.set(best_profit=best_profit, kept=True, verdict="baseline")
         total_cost = 0.0
         prev_feats = _feature_snapshot()
         base_row = dict(base_m.__dict__)
-        base_row.update(iter=0, kept=True, best_headline=best_headline,
+        base_row.update(iter=0, kept=True, best_profit=best_profit,
                         codex_cost_usd=0.0, total_cost_usd=0.0,
                         hypothesis="baseline (no agent edit)", commit="",
                         n_features=len(prev_feats), features=prev_feats,
@@ -192,9 +192,9 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         val_pnl_curve=base_hist.get("val_pnl", []))
         _write_dashboard_row(base_row)
         log.append(LogEntry(0, "baseline", log.file_hashes(best_files),
-                            base_m.__dict__, True, best_headline, 0.0, "baseline"))
-        print(f"[iter 0 baseline] headline={best_headline:.4f}")
-        _write_status("baseline_done", 0, iters, {"best_headline": round(best_headline, 4)})
+                            base_m.__dict__, True, best_profit, 0.0, "baseline"))
+        print(f"[iter 0 baseline] profit_score={best_profit:.4f}")
+        _write_status("baseline_done", 0, iters, {"best_profit": round(best_profit, 4)})
 
         opt = CodeOptimizer(model=model, reasoning_effort=reasoning)
         best_sha = _git("rev-parse", "HEAD")  # last KEPT commit (good tree)
@@ -207,7 +207,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                 diag["train_pnl_curve"] = cur_hist.get("train_pnl", [])
                 diag["val_pnl_curve"] = cur_hist.get("val_pnl", [])
             with tracer.span(f"iteration {it}", {"iter": it},
-                             input=f"diagnostics + metrics (best headline={best_headline:.4f})") as sp:
+                             input=f"diagnostics + metrics (best profit_score={best_profit:.4f})") as sp:
                 pre_sha = _git("rev-parse", "HEAD")
                 kept = False; note = ""; metrics = {}; train_secs = 0.0; hist = {}
                 prop = None; prior_error = None; iter_cost = 0.0; n_attempts = 0
@@ -215,11 +215,11 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                 validated = False
                 for attempt in range(1, MAX_ATTEMPTS + 1):
                     phase = "codex_proposing" if attempt == 1 else f"codex_repair_{attempt-1}"
-                    _write_status(phase, it, iters, {"best_headline": round(best_headline, 4)})
+                    _write_status(phase, it, iters, {"best_profit": round(best_profit, 4)})
                     with tracer.span("codex.propose" if attempt == 1 else f"codex.repair{attempt-1}",
                                      {"model": model, "attempt": attempt}, kind="llm", model=model,
-                                     input=(prior_error or f"diagnostics; best={best_headline:.4f}")[:500]) as psp:
-                        prop = opt.propose(it, base_m.__dict__, {"headline": best_headline},
+                                     input=(prior_error or f"diagnostics; best={best_profit:.4f}")[:500]) as psp:
+                        prop = opt.propose(it, base_m.__dict__, {"profit_score": best_profit},
                                            diagnostics=diag, prior_error=prior_error)
                         psp.set_kind("llm", model=model, output=prop.hypothesis)
                         psp.set(hypothesis=prop.hypothesis, commit=prop.commit_sha[:8], attempt=attempt)
@@ -257,15 +257,15 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                             _t_train = time.time()
                             _, _, m, report, hist = _train_and_validate(train_games, val_games, seed, with_report=True)
                             train_secs = round(time.time() - _t_train, 1)
-                            tsp.set_kind("tool", output=f"headline={m.headline:.4f} train_secs={train_secs}")
+                            tsp.set_kind("tool", output=f"profit_score={m.profit_score:.4f} train_secs={train_secs}")
                             tsp.set(train_secs=train_secs); tsp.set_attrs(m.__dict__, prefix="metrics")
                         metrics = m.__dict__
-                        if m.headline > best_headline:
-                            best_headline = m.headline; best_sha = prop.commit_sha or best_sha
-                            kept = True; note = f"KEPT (headline {m.headline:.4f})"
+                        if m.profit_score > best_profit:
+                            best_profit = m.profit_score; best_sha = prop.commit_sha or best_sha
+                            kept = True; note = f"KEPT (profit_score {m.profit_score:.4f})"
                             base_m = m; cur_report = report; cur_hist = hist
                         else:
-                            note = f"reverted (headline {m.headline:.4f} <= {best_headline:.4f})"
+                            note = f"reverted (profit_score {m.profit_score:.4f} <= {best_profit:.4f})"
                         validated = True
                         break  # validated (kept or honestly-reverted) -> iteration done
                     except Exception as e:
@@ -280,7 +280,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                 sp.set(hypothesis=prop.hypothesis if prop else "", commit=(prop.commit_sha[:8] if prop else ""))
                 if prop and not prop.files and "no file changes" in note:
                     sp.set(verdict="no_change", kept=False)
-                    log.append(LogEntry(it, prop.hypothesis, {}, {}, False, best_headline,
+                    log.append(LogEntry(it, prop.hypothesis, {}, {}, False, best_profit,
                                         time.time() - t0, note))
                     print(f"[iter {it}] {note}")
                     continue
@@ -306,8 +306,8 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         Path(doc_path).read_text())
 
                 sp.set(verdict="kept" if kept else "reverted", kept=kept,
-                       best_headline=best_headline, attempts=n_attempts,
-                       headline=metrics.get("headline", 0.0) if metrics else 0.0,
+                       best_profit=best_profit, attempts=n_attempts,
+                       profit_score=metrics.get("profit_score", 0.0) if metrics else 0.0,
                        codex_cost_usd=round(iter_cost, 4), total_cost_usd=round(total_cost, 4))
                 # feature snapshot + diff vs the previous iteration (track feature changes)
                 feats = _feature_snapshot()
@@ -316,7 +316,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                 prev_feats = feats
                 # metrics row for the dashboard (always written, even on revert)
                 metrics_row = dict(metrics)
-                metrics_row.update(iter=it, kept=kept, best_headline=best_headline,
+                metrics_row.update(iter=it, kept=kept, best_profit=best_profit,
                                    codex_cost_usd=round(iter_cost, 4), total_cost_usd=round(total_cost, 4),
                                    attempts=n_attempts,
                                    hypothesis=(prop.hypothesis if prop else note), commit=(prop.commit_sha[:8] if prop else ""),
@@ -328,11 +328,11 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                                    val_pnl_curve=(hist or {}).get("val_pnl", []))
                 _write_dashboard_row(metrics_row)
                 log.append(LogEntry(it, (prop.hypothesis if prop else note), {"commit": (prop.commit_sha if prop else "")},
-                                    metrics_row, kept, best_headline, time.time() - t0, note))
+                                    metrics_row, kept, best_profit, time.time() - t0, note))
                 print(f"[iter {it}] {note} | {n_attempts} attempts | ${iter_cost:.4f} (cum ${total_cost:.2f}) | "
                       f"{(prop.commit_sha[:8] if prop else '')} | {(prop.hypothesis[:50] if prop else '')}")
     tracer.shutdown()
-    _write_status("DONE", iters, iters, {"best_headline": round(best_headline, 4),
+    _write_status("DONE", iters, iters, {"best_profit": round(best_profit, 4),
                                           "total_cost_usd": round(total_cost, 4)})
-    (RUN_DIR / "best_headline.txt").write_text(str(best_headline))
-    print(f"DONE. best val headline={best_headline:.4f} @ {best_sha[:8]} | total codex cost ${total_cost:.2f}")
+    (RUN_DIR / "best_profit.txt").write_text(str(best_profit))
+    print(f"DONE. best val profit_score={best_profit:.4f} @ {best_sha[:8]} | total codex cost ${total_cost:.2f}")

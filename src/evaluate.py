@@ -1,5 +1,5 @@
 """Evaluation + scoring (DESIGN s5 metrics). Runs trained nets greedily over a
-split's games and produces the P&L curve + risk-adjusted headline + guardrails.
+split's games and produces the P&L curve + risk-adjusted profit_score + guardrails.
 
 This is the curve the autoresearch loop optimizes on VALIDATION, and the one-time
 report on the EVAL holdout.
@@ -22,13 +22,13 @@ class Metrics:
     n_games: int
     mean_return: float          # mean per-game realized P&L (budget-fraction units)
     std_return: float
-    sharpe: float               # mean/std across games (risk-adjusted headline)
+    sharpe: float               # mean/std across games (risk-adjusted profit_score)
     win_rate: float             # fraction of games with positive P&L
     total_pnl: float
     avg_trades: float           # buys+sells per game (overtrading guard)
     avg_deployed: float         # peak fraction of budget deployed
     max_drawdown: float         # worst within-game drawdown, averaged
-    headline: float = 0.0       # the number the loop maximizes
+    profit_score: float = 0.0       # the number the loop maximizes
 
 
 def _greedy_episode(game: Game, policy: PolicyNet) -> float:
@@ -77,13 +77,10 @@ def evaluate(games: list[Game], policy: PolicyNet) -> Metrics:
         avg_deployed=float(np.mean(deployed)) if deployed else 0.0,
         max_drawdown=float(np.mean(dds)) if dds else 0.0,
     )
-    m.headline = score(m)
+    m.profit_score = score(m)
     return m
 
 
 def score(m: Metrics) -> float:
-    """Risk-adjusted headline the loop maximizes (DESIGN s5): Sharpe-like mean/std,
-    with a mild overtrading penalty. Not raw total P&L (one lucky game dominates).
-    """
-    overtrade_pen = 0.001 * max(0.0, m.avg_trades - 4.0)
-    return m.sharpe - overtrade_pen
+    """The loop maximizes PnL. That's it. profit_score == mean realized PnL per game."""
+    return m.mean_return

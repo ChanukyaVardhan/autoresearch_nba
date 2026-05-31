@@ -23,7 +23,7 @@ class LogEntry:
     file_hashes: dict[str, str]
     metrics: dict
     kept: bool
-    best_headline: float
+    best_profit: float
     wall_time: float
     note: str = ""
 

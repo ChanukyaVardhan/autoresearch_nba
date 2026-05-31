@@ -1,6 +1,6 @@
 """Observability layer (DESIGN s5.1). Produces a rich, structured diagnostic report
 the autoresearch loop feeds back to Codex so it can reason about HOW to improve
-feature_construction / training — not just whether the headline moved.
+feature_construction / training — not just whether the profit_score moved.
 
 All of this is FIXED/trusted (Codex does not edit it; like backtest/evaluate). It is
 read-only over a trained policy + a split, and it never touches end-state data except
@@ -55,7 +55,7 @@ class Report:
     value_calibration_mae: float
     value_corr: float
     # --- feature signal ---
-    feature_importance: dict   # feature_name -> permutation drop in headline (proxy)
+    feature_importance: dict   # feature_name -> permutation drop in profit_score (proxy)
     # --- concrete examples ---
     worst_games: list          # list[GameDiag-as-dict]
     best_games: list
@@ -101,7 +101,7 @@ def _regime(margin: int) -> str:
 
 
 def build_report(games: list[Game], policy: PolicyNet, critic: CriticNet,
-                 baseline_headline: float, score_fn) -> Report:
+                 baseline_profit: float, score_fn) -> Report:
     from .evaluate import evaluate
 
     action_mix = {a.name: 0 for a in Action}
@@ -149,8 +149,8 @@ def build_report(games: list[Game], policy: PolicyNet, critic: CriticNet,
     cal_mae = float(np.mean(np.abs(cp - cr))) if len(cp) else 0.0
     cal_corr = float(np.corrcoef(cp, cr)[0, 1]) if len(cp) > 2 and cp.std() > 0 and cr.std() > 0 else 0.0
 
-    # feature-importance proxy: permute each feature across a sample, measure headline drop
-    fi = _feature_importance(games[: min(len(games), 30)], policy, baseline_headline, score_fn)
+    # feature-importance proxy: permute each feature across a sample, measure profit_score drop
+    fi = _feature_importance(games[: min(len(games), 30)], policy, baseline_profit, score_fn)
 
     # notes / pathology flags
     total_actions = sum(action_mix.values()) or 1
@@ -184,25 +184,25 @@ def build_report(games: list[Game], policy: PolicyNet, critic: CriticNet,
     )
 
 
-def _feature_importance(games, policy, baseline_headline, score_fn) -> dict:
+def _feature_importance(games, policy, baseline_profit, score_fn) -> dict:
     """Permutation-importance proxy: zero each feature dimension and measure the drop
-    in the headline. A dim whose zeroing hurts a lot is one the policy relies on."""
+    in the profit_score. A dim whose zeroing hurts a lot is one the policy relies on."""
     from .evaluate import evaluate
     rng = np.random.default_rng(0)
-    base = evaluate(games, policy).headline
+    base = evaluate(games, policy).profit_score
     importance = {}
     # group-zeroing per named scalar feature (player block summarized as one group)
     n_named = len(FEATURE_NAMES)
     for j, name in enumerate(FEATURE_NAMES):
-        drop = _headline_with_zeroed(games, policy, [j])
+        drop = _profit_with_zeroed(games, policy, [j])
         importance[name] = round(base - drop, 5)
     # player block as one group
-    importance["player_block"] = round(base - _headline_with_zeroed(
+    importance["player_block"] = round(base - _profit_with_zeroed(
         games, policy, list(range(n_named, FEATURE_DIM))), 5)
     return importance
 
 
-def _headline_with_zeroed(games, policy, zero_idx: list[int]) -> float:
+def _profit_with_zeroed(games, policy, zero_idx: list[int]) -> float:
     """Re-run greedy eval but zero out the given feature indices before the policy."""
     from .evaluate import Metrics, score
     rets = []
@@ -221,4 +221,4 @@ def _headline_with_zeroed(games, policy, zero_idx: list[int]) -> float:
     rets = np.array(rets, float)
     mean_r, std_r = (rets.mean(), rets.std()) if len(rets) else (0.0, 0.0)
     sharpe = mean_r / (std_r + 1e-9)
-    return sharpe  # headline ~ sharpe (overtrade penalty omitted for the proxy)
+    return sharpe  # profit_score ~ sharpe (overtrade penalty omitted for the proxy)
