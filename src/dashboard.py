@@ -17,7 +17,8 @@ ARTIFACTS = Path(__file__).resolve().parent.parent / "artifacts"
 
 # metrics to chart (line per metric); cost shown both per-iter and cumulative.
 CHART_METRICS = [
-    "mean_return", "best_profit", "total_pnl", "win_rate",
+    "train_pnl", "val_pnl", "eval_pnl",          # per-split PnL/game (the money)
+    "best_profit", "total_pnl", "win_rate",
     "avg_trades", "avg_deployed", "max_drawdown",
     "codex_cost_usd", "total_cost_usd",
     "train_secs", "iter_secs",

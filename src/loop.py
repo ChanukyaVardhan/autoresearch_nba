@@ -166,7 +166,8 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
         print(f"tracing -> {tracer.endpoint} (open Raindrop Workshop / OTLP UI)")
     train_games = load_split(data_dir, "train")
     val_games = load_split(data_dir, "val")
-    print(f"loaded train={len(train_games)} val={len(val_games)}")
+    eval_games = load_split(data_dir, "eval")  # holdout — display-only per-split PnL
+    print(f"loaded train={len(train_games)} val={len(val_games)} eval={len(eval_games)}")
 
     from dataclasses import asdict
     with tracer.span("run", {"iters": iters, "seed": seed, "model": model,
@@ -178,7 +179,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
             if not ok:
                 raise RuntimeError(f"baseline leakage failure: {msg}")
             _t_base = time.time()
-            _, _, base_m, base_report, base_hist = _train_and_validate(train_games, val_games, seed, with_report=True)
+            _, _, base_m, base_report, base_hist, base_splits = _train_and_validate(train_games, val_games, seed, with_report=True, eval_games=eval_games)
             base_train_secs = round(time.time() - _t_base, 1)
             best_profit = base_m.profit_score
             best_files = {f: _read(f) for f in EDITABLE_FILES}
@@ -194,6 +195,9 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         n_features=len(prev_feats), features=prev_feats,
                         features_added=[], features_removed=[],
                         train_secs=base_train_secs, iter_secs=base_train_secs,
+                        train_pnl=base_splits.get("train_pnl"),
+                        val_pnl=base_splits.get("val_pnl"),
+                        eval_pnl=base_splits.get("eval_pnl"),
                         train_reward_curve=base_hist.get("train_reward", []),
                         train_pnl_curve=base_hist.get("train_pnl", []),
                         val_pnl_curve=base_hist.get("val_pnl", []))
@@ -216,7 +220,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
             with tracer.span(f"iteration {it}", {"iter": it},
                              input=f"diagnostics + metrics (best profit_score={best_profit:.4f})") as sp:
                 pre_sha = _git("rev-parse", "HEAD")
-                kept = False; note = ""; metrics = {}; train_secs = 0.0; hist = {}
+                kept = False; note = ""; metrics = {}; train_secs = 0.0; hist = {}; splits = {}
                 prop = None; prior_error = None; iter_cost = 0.0; n_attempts = 0
                 MAX_ATTEMPTS = 10  # retry (feeding the error back) until a clean trained run
                 validated = False
@@ -262,7 +266,7 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         _write_status("training", it, iters, {"attempt": attempt})
                         with tracer.span("train_and_validate", kind="tool") as tsp:
                             _t_train = time.time()
-                            _, _, m, report, hist = _train_and_validate(train_games, val_games, seed, with_report=True)
+                            _, _, m, report, hist, splits = _train_and_validate(train_games, val_games, seed, with_report=True, eval_games=eval_games)
                             train_secs = round(time.time() - _t_train, 1)
                             tsp.set_kind("tool", output=f"profit_score={m.profit_score:.4f} train_secs={train_secs}")
                             tsp.set(train_secs=train_secs); tsp.set_attrs(m.__dict__, prefix="metrics")
@@ -336,6 +340,9 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                                    n_features=len(feats), features=feats,
                                    features_added=added, features_removed=removed,
                                    train_secs=train_secs, iter_secs=round(time.time() - t0, 1),
+                                   train_pnl=(splits or {}).get("train_pnl"),
+                                   val_pnl=(splits or {}).get("val_pnl"),
+                                   eval_pnl=(splits or {}).get("eval_pnl"),
                                    train_reward_curve=(hist or {}).get("train_reward", []),
                                    train_pnl_curve=(hist or {}).get("train_pnl", []),
                                    val_pnl_curve=(hist or {}).get("val_pnl", []))
