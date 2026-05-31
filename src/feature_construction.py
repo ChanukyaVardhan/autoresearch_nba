@@ -33,6 +33,8 @@ FEATURE_NAMES = (
     "run_60s", "run_180s", "home_possession", "last_is_timeout",
     # derived edge
     "model_winprob", "edge", "buy_edge", "sell_edge",
+    "net_buy_edge", "net_hold_edge", "edge_delta_180", "model_wp_delta_180",
+    "market_score_divergence",
     # position context
     "is_holding", "entry_price", "unrealized_pnl", "time_in_trade", "budget_frac_rem",
 )
@@ -84,8 +86,9 @@ def _static_vector(game: Game, t: int) -> np.ndarray:
     the speed win: the expensive score/box reconstruction runs once per step, not
     once per rollout."""
     cache = game._feat_cache  # dict t -> np.ndarray (set up lazily on Game)
-    if t in cache:
-        return cache[t]
+    cached = cache.get(t)
+    if isinstance(cached, np.ndarray) and cached.shape == (FEATURE_DIM,):
+        return cached
     c = game.candle_at(t)
     win = game.candles_window(t, 6)
     score = game.score_at(t)
@@ -110,9 +113,17 @@ def _static_vector(game: Game, t: int) -> np.ndarray:
     run_60 = (margin - (s60.home_points - s60.away_points)) / 12.0
     run_180 = (margin - (s180.home_points - s180.away_points)) / 24.0
     mwp = home_winprob(margin, score.game_secs_remaining)
+    prev_margin = s180.home_points - s180.away_points
+    prev_mwp = home_winprob(prev_margin, s180.game_secs_remaining)
+    prev_c = game.candle_at(t - 180)
+    prev_edge = prev_mwp - prev_c.implied_prob
     edge = mwp - c.implied_prob
     buy_edge = mwp - c.yes_ask_close
     sell_edge = mwp - c.yes_bid_close
+    edge_delta_180 = edge - prev_edge
+    model_wp_delta_180 = mwp - prev_mwp
+    market_delta_180 = c.mid - prev_c.mid
+    market_score_divergence = model_wp_delta_180 - market_delta_180
 
     base = [
         c.implied_prob, mid, c.spread,
@@ -127,6 +138,11 @@ def _static_vector(game: Game, t: int) -> np.ndarray:
         1.0 if score.last_event_is_timeout else 0.0,
         mwp, max(-1.0, min(1.0, edge)),
         max(-1.0, min(1.0, buy_edge)), max(-1.0, min(1.0, sell_edge)),
+        max(-1.0, min(1.0, buy_edge - c.spread)),
+        max(-1.0, min(1.0, sell_edge - c.spread)),
+        max(-1.0, min(1.0, edge_delta_180)),
+        max(-1.0, min(1.0, model_wp_delta_180)),
+        max(-1.0, min(1.0, market_score_divergence)),
         0.0, 0.0, 0.0, 0.0, 0.0,  # position slots (filled per-call, not cached)
     ]
     arr = np.array([_safe(x) for x in base] + _player_block(game, t), dtype=np.float32)
