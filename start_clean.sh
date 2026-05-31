@@ -1,10 +1,19 @@
 #!/usr/bin/env bash
 # Clean-restart the autoresearch system: kill everything, wipe stale dashboard data,
-# restore the pristine v0 baseline code, start ONE dashboard + ONE loop.
-# Usage:  ./start_clean.sh [iters]      (default 10 iterations)
+# restore the pinned baseline code, start ONE dashboard + ONE loop.
+# Usage:  ./start_clean.sh [iters] [baseline_ref]
+#   iters         default 10
+#   baseline_ref  git commit/tag to start experiments from (default BASELINE_REF below)
+#
+# BASELINE_REF is the STANDARD, KNOWN-GOOD commit every experiment starts from. Pinning
+# it means runs are reproducible — not "whatever HEAD happens to be". To move the
+# baseline forward, bump this after committing a new verified baseline.
+BASELINE_REF_DEFAULT="20da9f6"
 set -uo pipefail
 cd "$(dirname "$0")"
 ITERS="${1:-10}"
+BASELINE_REF="${2:-$BASELINE_REF_DEFAULT}"
+echo "==> baseline ref: $BASELINE_REF (experiments start from this commit's code)"
 
 echo "==> 1. killing any existing loops / codex / dashboard"
 pkill -9 -f "run_loop.py"      2>/dev/null
@@ -21,11 +30,10 @@ echo "==> 2. wiping stale dashboard feed + status"
 rm -f artifacts/metrics.jsonl artifacts/status.json
 mkdir -p artifacts
 
-echo "==> 3. restoring pristine v0 baseline editable files (no Codex drift)"
-# feature_construction from the original baseline commit; training.py at HEAD (has the
-# return_history harness contract) but PPOConfig is the v0 baseline (set in code).
-git checkout 33786e2 -- src/feature_construction.py 2>/dev/null
-git checkout HEAD     -- src/training.py 2>/dev/null
+echo "==> 3. restoring editable files from baseline ref $BASELINE_REF (no Codex drift)"
+git checkout "$BASELINE_REF" -- src/feature_construction.py src/training.py 2>/dev/null \
+  || { echo "!! could not checkout $BASELINE_REF — aborting"; exit 1; }
+echo "    feature_construction.py + training.py reset to $BASELINE_REF"
 # make sure no leftover experiment docs pollute a fresh run
 rm -f EXPERIMENTS/iter-*.md
 
