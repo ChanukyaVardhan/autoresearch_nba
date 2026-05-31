@@ -48,12 +48,11 @@ scorer, or leakage tests; inflating the metric without real edge. Prefer edits t
 make the policy learn edge FROM REWARD over hardcoded priors that merely imitate the
 baseline. An independent reviewer reads your diff for exactly these tricks.
 
-GOAL: MAXIMIZE PROFIT. The 'profit_score' you are optimizing is the MEAN REALIZED PnL
-per game (return on the normalized 1.0 stake) with only a light risk discount. Make
-the policy MAKE MONEY by genuine edge — find profitable trades and size them well. A
-do-nothing / always-skip policy scores 0 and can NEVER win, so you must actually
-trade profitably. There is no baseline to merely beat — just push PnL as high as
-honestly possible (no leakage, no reward-hacking).
+GOAL: MAXIMIZE PnL. The ONLY objective is mean realized PnL per game (profit on the
+normalized 1.0 stake). Nothing else is optimized — not Sharpe, not win-rate, not a
+baseline. Just make the policy MAKE THE MOST MONEY by genuine edge: find profitable
+trades and size them well. A do-nothing/always-skip policy makes 0 PnL and is
+worthless. Push PnL as high as honestly possible (no leakage, no reward-hacking).
 
 CURRENT KNOWN PROBLEM (the core thing to attack — a TRAINING-STABILITY and
 FEATURE/REPRESENTATION problem, not a data problem):
