@@ -8,7 +8,7 @@
 # BASELINE_REF is the STANDARD, KNOWN-GOOD commit every experiment starts from. Pinning
 # it means runs are reproducible — not "whatever HEAD happens to be". To move the
 # baseline forward, bump this after committing a new verified baseline.
-BASELINE_REF_DEFAULT="20da9f6"
+BASELINE_REF_DEFAULT="d04304c"
 set -uo pipefail
 cd "$(dirname "$0")"
 ITERS="${1:-10}"
