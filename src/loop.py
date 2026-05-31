@@ -260,12 +260,18 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                             tsp.set_kind("tool", output=f"profit_score={m.profit_score:.4f} train_secs={train_secs}")
                             tsp.set(train_secs=train_secs); tsp.set_attrs(m.__dict__, prefix="metrics")
                         metrics = m.__dict__
-                        if m.profit_score > best_profit:
+                        # KEEP only if it beats best AND clears the risk-free hurdle:
+                        # a policy must make REAL money (PnL above ~4% risk-free), not
+                        # just barely-positive — else it's not worth deploying.
+                        RISK_FREE = 0.04
+                        if m.profit_score > best_profit and m.profit_score > RISK_FREE and m.avg_trades > 0:
                             best_profit = m.profit_score; best_sha = prop.commit_sha or best_sha
-                            kept = True; note = f"KEPT (profit_score {m.profit_score:.4f})"
+                            kept = True; note = f"KEPT (PnL/game {m.profit_score:.4f} > best & >4% hurdle)"
                             base_m = m; cur_report = report; cur_hist = hist
+                        elif m.profit_score <= RISK_FREE:
+                            note = f"reverted (PnL/game {m.profit_score:.4f} below 4% risk-free hurdle)"
                         else:
-                            note = f"reverted (profit_score {m.profit_score:.4f} <= {best_profit:.4f})"
+                            note = f"reverted (PnL/game {m.profit_score:.4f} <= best {best_profit:.4f})"
                         validated = True
                         break  # validated (kept or honestly-reverted) -> iteration done
                     except Exception as e:

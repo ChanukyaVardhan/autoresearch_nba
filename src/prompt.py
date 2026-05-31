@@ -51,8 +51,16 @@ baseline. An independent reviewer reads your diff for exactly these tricks.
 GOAL: MAXIMIZE PnL. The ONLY objective is mean realized PnL per game (profit on the
 normalized 1.0 stake). Nothing else is optimized — not Sharpe, not win-rate, not a
 baseline. Just make the policy MAKE THE MOST MONEY by genuine edge: find profitable
-trades and size them well. A do-nothing/always-skip policy makes 0 PnL and is
-worthless. Push PnL as high as honestly possible (no leakage, no reward-hacking).
+trades and size them well. Push PnL as high as honestly possible (no leakage, no
+reward-hacking).
+
+THE BAR IS HARD: positive-but-tiny PnL is NOT good enough. Capital parked risk-free
+earns ~4% with zero risk and zero effort — so a strategy that risks the stake on
+volatile NBA games must clearly BEAT that, or there is no reason to deploy it. Treat
+~0.04 mean PnL/game as the floor of "worth doing" and aim well above it. A
+do-nothing/always-skip policy makes 0 PnL and is worthless; a policy that barely
+clears 0 is also worthless because it loses to the risk-free rate. Only a policy that
+makes REAL money (comfortably above the 4% risk-free return) counts as success.
 
 CURRENT KNOWN PROBLEM (the core thing to attack — a TRAINING-STABILITY and
 FEATURE/REPRESENTATION problem, not a data problem):
