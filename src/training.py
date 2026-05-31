@@ -9,6 +9,7 @@ It may NOT edit backtest.py (trusted simulator) or read end-state data.
 """
 from __future__ import annotations
 
+import copy
 from dataclasses import dataclass
 
 import numpy as np
@@ -26,20 +27,20 @@ from .types import Action
 
 @dataclass
 class PPOConfig:
-    # pristine v0 baseline hyperparameters (Codex tunes these in experiments)
-    hidden: int = 64
-    lr: float = 3e-4
+    # Capacity and optimization tuned for reward learning after the short entry warmup.
+    hidden: int = 96
+    lr: float = 2.5e-4
     gamma: float = 0.997
     lam: float = 0.95
     clip: float = 0.2
-    epochs: int = 4
-    entropy_coef: float = 0.05   # higher: avoid premature collapse to always-skip
-    value_coef: float = 0.5
-    entry_prior_coef: float = 0.08
-    entry_prior_warmup_iters: int = 0
-    iters: int = 40
+    epochs: int = 5
+    entropy_coef: float = 0.025  # enough exploration without paying spread on churn
+    value_coef: float = 0.8
+    entry_prior_coef: float = 0.035
+    entry_prior_warmup_iters: int = 8
+    iters: int = 50
     batch_games: int = 64
-    trade_cost: float = 0.0005   # tiny per-trade shaping penalty (curb churn, not kill trading)
+    trade_cost: float = 0.0015   # curb repeated spread-paying flips, not selective entries
     seed: int = 0
 
 
@@ -102,6 +103,8 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
     # learning curves (your ask): per-iteration train avg reward, and periodic
     # train/val realized-PnL so we can see if BOTH rise (healthy) or diverge (overfit).
     history = {"iter": [], "train_reward": [], "train_pnl": [], "val_pnl": []}
+    best_val_pnl = -float("inf")
+    best_state: tuple[dict, dict] | None = None
 
     for it_i in range(cfg.iters):
         # ---- collect a batch of rollouts ----
@@ -200,7 +203,16 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
             history["train_pnl"].append((it_i, tp))
             if vp is not None:
                 history["val_pnl"].append((it_i, vp))
+                if vp > best_val_pnl:
+                    best_val_pnl = vp
+                    best_state = (
+                        copy.deepcopy(policy.state_dict()),
+                        copy.deepcopy(critic.state_dict()),
+                    )
 
+    if best_state is not None:
+        policy.load_state_dict(best_state[0])
+        critic.load_state_dict(best_state[1])
     if return_history:
         return policy, critic, history
     return policy, critic
