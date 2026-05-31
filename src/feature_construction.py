@@ -32,8 +32,7 @@ FEATURE_NAMES = (
     "score_margin_norm", "period_norm", "period_secs_rem_norm", "game_secs_rem_norm",
     "run_60s", "run_180s", "home_possession", "last_is_timeout",
     # derived edge
-    "model_winprob", "edge", "edge_vel_3", "edge_vel_5",
-    "price_pullback_5", "late_edge",
+    "model_winprob", "edge",
     # position context
     "is_holding", "entry_price", "unrealized_pnl", "time_in_trade", "budget_frac_rem",
 )
@@ -73,10 +72,9 @@ def _player_block(game: Game, t: int) -> list[float]:
     return out
 
 
-# Index range of the 5 position-context features within the vector. These depend on
-# the agent's state and so are NOT cached.
-_POS_START = FEATURE_NAMES.index("is_holding")
-_POS_SLICE = slice(_POS_START, _POS_START + 5)
+# Index range of the 5 position-context features within the vector (positions
+# 20..24 in FEATURE_NAMES). These depend on the agent's state and so are NOT cached.
+_POS_SLICE = slice(20, 25)
 
 
 def _static_vector(game: Game, t: int) -> np.ndarray:
@@ -97,7 +95,6 @@ def _static_vector(game: Game, t: int) -> np.ndarray:
         return mids[-1 - n] if len(mids) > n else (mids[0] if mids else mid)
     vel_1 = mid - back(1); vel_3 = mid - back(3); vel_5 = mid - back(5)
     accel = vel_1 - (back(1) - back(2))
-    price_pullback_5 = (max(mids) - mid) if mids else 0.0
 
     vols = [w.volume for w in win if w.volume == w.volume]
     mean_vol = (sum(vols[:-1]) / max(1, len(vols) - 1)) if len(vols) > 1 else (vols[0] if vols else 0.0)
@@ -114,19 +111,6 @@ def _static_vector(game: Game, t: int) -> np.ndarray:
     mwp = home_winprob(margin, score.game_secs_remaining)
     edge = mwp - c.implied_prob
 
-    def hist_edge(n: int) -> float:
-        if len(win) <= n:
-            return edge
-        hc = win[-1 - n]
-        hs = game.score_at(hc.ts)
-        hmargin = hs.home_points - hs.away_points
-        return home_winprob(hmargin, hs.game_secs_remaining) - hc.implied_prob
-
-    edge_vel_3 = edge - hist_edge(3)
-    edge_vel_5 = edge - hist_edge(5)
-    elapsed_frac = 1.0 - max(0.0, min(1.0, score.game_secs_remaining / (48 * 60.0)))
-    late_edge = edge * math.sqrt(elapsed_frac)
-
     base = [
         c.implied_prob, mid, c.spread,
         vel_1, vel_3, vel_5, accel,
@@ -139,10 +123,6 @@ def _static_vector(game: Game, t: int) -> np.ndarray:
         1.0 if score.home_has_possession else 0.0,
         1.0 if score.last_event_is_timeout else 0.0,
         mwp, max(-1.0, min(1.0, edge)),
-        max(-1.0, min(1.0, edge_vel_3)),
-        max(-1.0, min(1.0, edge_vel_5)),
-        max(0.0, min(1.0, price_pullback_5)),
-        max(-1.0, min(1.0, late_edge)),
         0.0, 0.0, 0.0, 0.0, 0.0,  # position slots (filled per-call, not cached)
     ]
     arr = np.array([_safe(x) for x in base] + _player_block(game, t), dtype=np.float32)

@@ -26,17 +26,18 @@ from .types import Action
 
 @dataclass
 class PPOConfig:
-    hidden: int = 128
-    lr: float = 2e-4
+    # pristine v0 baseline hyperparameters (Codex tunes these in experiments)
+    hidden: int = 64
+    lr: float = 3e-4
     gamma: float = 0.997
     lam: float = 0.95
     clip: float = 0.2
-    epochs: int = 5
-    entropy_coef: float = 0.04   # higher: avoid premature collapse to always-skip
+    epochs: int = 4
+    entropy_coef: float = 0.05   # higher: avoid premature collapse to always-skip
     value_coef: float = 0.5
-    entry_prior_coef: float = 0.02
-    entry_prior_warmup_iters: int = 6
-    iters: int = 60
+    entry_prior_coef: float = 0.08
+    entry_prior_warmup_iters: int = 0
+    iters: int = 40
     batch_games: int = 64
     trade_cost: float = 0.0005   # tiny per-trade shaping penalty (curb churn, not kill trading)
     seed: int = 0
@@ -153,8 +154,13 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
             entropy = -(a_probs * a_logp_all).sum(-1).mean()
             value = critic.forward(S)
             value_loss = F.mse_loss(value, RET)
-            warmup_left = max(0.0, 1.0 - (it_i / max(1, cfg.entry_prior_warmup_iters)))
-            entry_prior_coef = cfg.entry_prior_coef * warmup_left
+            # warmup_iters=0 -> no warmup, full entry-prior throughout (v0 behavior).
+            # warmup_iters>0 -> anneal the crutch to 0 over that many iters.
+            if cfg.entry_prior_warmup_iters <= 0:
+                entry_prior_coef = cfg.entry_prior_coef
+            else:
+                warmup_left = max(0.0, 1.0 - (it_i / cfg.entry_prior_warmup_iters))
+                entry_prior_coef = cfg.entry_prior_coef * warmup_left
             if entry_prior_coef > 0.0:
                 positive_edge_entry = (
                     (S[:, IS_HOLDING_IDX] < 0.5)
