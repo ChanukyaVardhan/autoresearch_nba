@@ -35,6 +35,7 @@ class PPOConfig:
     clip: float = 0.2
     epochs: int = 5
     entropy_coef: float = 0.045  # keep stochastic BUY/SELL samples alive early
+    size_entropy_coef: float = 0.012
     value_coef: float = 0.8
     entry_prior_coef: float = 0.0
     entry_prior_warmup_iters: int = 0
@@ -42,6 +43,7 @@ class PPOConfig:
     iters: int = 50
     batch_games: int = 64
     trade_cost: float = 0.0005   # curb churn without suppressing first entries
+    pyramid_buy_cost: float = 0.004  # discourage repeated add-ons after entry
     seed: int = 0
 
 
@@ -133,11 +135,17 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
             # Dense causal shaping: credit entering positive edge and exiting negative
             # edge, while preserving raw PnL for reported learning curves.
             traded = np.isin(A, [int(Action.BUY), int(Action.SELL)]).astype(np.float32)
+            pyramid_buy = (
+                (A == int(Action.BUY))
+                & (S[:, IS_HOLDING_IDX] > 0.5)
+            ).astype(np.float32)
+            deployed = np.clip(1.0 - S[:, BUDGET_FRAC_REM_IDX], 0.0, 1.0)
             pot_now = _edge_potential_np(S)
             pot_next = _edge_potential_np(NEXT_S)
             Rsh = (
                 R
                 - cfg.trade_cost * traded
+                - cfg.pyramid_buy_cost * pyramid_buy * (0.5 + deployed)
                 + cfg.edge_potential_coef * (cfg.gamma * pot_next - pot_now)
             )
             with torch.no_grad():
@@ -175,7 +183,13 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
             policy_loss = -torch.min(s1, s2).mean()
             # entropy (action head) for exploration
             a_probs = a_logp_all.exp()
-            entropy = -(a_probs * a_logp_all).sum(-1).mean()
+            action_entropy = -(a_probs * a_logp_all).sum(-1).mean()
+            s_probs = s_logp_all.exp()
+            buy_legal = MASK[:, int(Action.BUY)]
+            if torch.any(buy_legal):
+                size_entropy = -(s_probs[buy_legal] * s_logp_all[buy_legal]).sum(-1).mean()
+            else:
+                size_entropy = torch.zeros((), dtype=S.dtype, device=S.device)
             value = critic.forward(S)
             value_loss = F.mse_loss(value, RET)
             # warmup_iters=0 -> no warmup, full entry-prior throughout (v0 behavior).
@@ -209,7 +223,8 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
                 policy_loss
                 + cfg.value_coef * value_loss
                 + entry_prior_coef * entry_prior_loss
-                - cfg.entropy_coef * entropy
+                - cfg.entropy_coef * action_entropy
+                - cfg.size_entropy_coef * size_entropy
             )
             opt.zero_grad()
             loss.backward()
