@@ -39,7 +39,7 @@ class PPOConfig:
     value_coef: float = 0.8
     entry_prior_coef: float = 0.0
     entry_prior_warmup_iters: int = 0
-    edge_potential_coef: float = 0.05
+    edge_potential_coef: float = 0.06
     iters: int = 50
     batch_games: int = 64
     trade_cost: float = 0.0005   # curb churn without suppressing first entries
@@ -48,7 +48,8 @@ class PPOConfig:
 
 
 IMPLIED_PROB_IDX = FEATURE_NAMES.index("implied_prob")
-EDGE_IDX = FEATURE_NAMES.index("edge")
+BUY_EDGE_IDX = FEATURE_NAMES.index("buy_edge")
+SELL_EDGE_IDX = FEATURE_NAMES.index("sell_edge")
 IS_HOLDING_IDX = FEATURE_NAMES.index("is_holding")
 BUDGET_FRAC_REM_IDX = FEATURE_NAMES.index("budget_frac_rem")
 
@@ -92,13 +93,13 @@ def _gae(rewards, values, gamma, lam):
 
 
 def _edge_potential_np(states: np.ndarray) -> np.ndarray:
-    """Causal potential: deployed capital is valuable when model edge is positive."""
+    """Causal potential: deployed capital is valuable when exit-adjusted edge is positive."""
     if states.size == 0:
         return np.zeros(0, dtype=np.float32)
     holding = states[:, IS_HOLDING_IDX].astype(np.float32)
     deployed = np.clip(1.0 - states[:, BUDGET_FRAC_REM_IDX], 0.0, 1.0)
-    edge = np.clip(states[:, EDGE_IDX], -0.35, 0.35).astype(np.float32)
-    return holding * deployed * edge
+    sell_edge = np.clip(states[:, SELL_EDGE_IDX], -0.35, 0.35).astype(np.float32)
+    return holding * deployed * sell_edge
 
 
 def train(games: list[Game], cfg: PPOConfig | None = None,
@@ -204,7 +205,7 @@ def train(games: list[Game], cfg: PPOConfig | None = None,
                     (S[:, IS_HOLDING_IDX] < 0.5)
                     & (S[:, IMPLIED_PROB_IDX] >= 0.35)
                     & (S[:, IMPLIED_PROB_IDX] <= 0.85)
-                    & (S[:, EDGE_IDX] >= 0.04)
+                    & (S[:, BUY_EDGE_IDX] >= 0.02)
                     & MASK[:, int(Action.BUY)]
                 )
             else:

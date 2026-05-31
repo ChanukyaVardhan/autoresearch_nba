@@ -32,7 +32,7 @@ FEATURE_NAMES = (
     "score_margin_norm", "period_norm", "period_secs_rem_norm", "game_secs_rem_norm",
     "run_60s", "run_180s", "home_possession", "last_is_timeout",
     # derived edge
-    "model_winprob", "edge",
+    "model_winprob", "edge", "buy_edge", "sell_edge",
     # position context
     "is_holding", "entry_price", "unrealized_pnl", "time_in_trade", "budget_frac_rem",
 )
@@ -72,9 +72,10 @@ def _player_block(game: Game, t: int) -> list[float]:
     return out
 
 
-# Index range of the 5 position-context features within the vector (positions
-# 20..24 in FEATURE_NAMES). These depend on the agent's state and so are NOT cached.
-_POS_SLICE = slice(20, 25)
+# Index range of the 5 position-context features within the vector. These depend
+# on the agent's state and so are NOT cached.
+_POS_START = FEATURE_NAMES.index("is_holding")
+_POS_SLICE = slice(_POS_START, _POS_START + 5)
 
 
 def _static_vector(game: Game, t: int) -> np.ndarray:
@@ -110,6 +111,8 @@ def _static_vector(game: Game, t: int) -> np.ndarray:
     run_180 = (margin - (s180.home_points - s180.away_points)) / 24.0
     mwp = home_winprob(margin, score.game_secs_remaining)
     edge = mwp - c.implied_prob
+    buy_edge = mwp - c.yes_ask_close
+    sell_edge = mwp - c.yes_bid_close
 
     base = [
         c.implied_prob, mid, c.spread,
@@ -123,6 +126,7 @@ def _static_vector(game: Game, t: int) -> np.ndarray:
         1.0 if score.home_has_possession else 0.0,
         1.0 if score.last_event_is_timeout else 0.0,
         mwp, max(-1.0, min(1.0, edge)),
+        max(-1.0, min(1.0, buy_edge)), max(-1.0, min(1.0, sell_edge)),
         0.0, 0.0, 0.0, 0.0, 0.0,  # position slots (filled per-call, not cached)
     ]
     arr = np.array([_safe(x) for x in base] + _player_block(game, t), dtype=np.float32)
