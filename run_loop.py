@@ -26,9 +26,15 @@ def main() -> None:
                     help="codex reasoning effort: minimal|low|medium|high|xhigh")
     ap.add_argument("--no-trace", action="store_true",
                     help="disable OTel/Raindrop tracing (on by default)")
+    ap.add_argument("--run-id", default=None, help="reuse an existing run folder")
+    ap.add_argument("--resume", action="store_true",
+                    help="continue an existing run (keep prior iters, skip baseline)")
+    ap.add_argument("--start-iter", type=int, default=1,
+                    help="iteration to start/continue from (with --resume)")
     args = ap.parse_args()
     run_loop(DATA, iters=args.iters, seed=args.seed, model=args.model,
-             reasoning=args.reasoning, trace=not args.no_trace)
+             reasoning=args.reasoning, trace=not args.no_trace,
+             run_id=args.run_id, resume=args.resume, start_iter=args.start_iter)
 
 
 if __name__ == "__main__":

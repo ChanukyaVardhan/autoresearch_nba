@@ -139,7 +139,8 @@ def _train_and_validate(train_games, val_games, seed: int, with_report: bool = F
 
 def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
              model: str = "gpt-5.5", reasoning: str = "medium",
-             trace: bool = True, run_id: str | None = None) -> None:
+             trace: bool = True, run_id: str | None = None,
+             resume: bool = False, start_iter: int = 1) -> None:
     from datetime import datetime
     from .tracing import TraceLogger
     from .dashboard import start_server
@@ -149,10 +150,16 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
     RUN_DIR = WORK / "runs" / run_id
     RUN_DIR.mkdir(parents=True, exist_ok=True)
     (RUN_DIR / "EXPERIMENTS").mkdir(exist_ok=True)
-    print(f"RUN DIR: runs/{run_id}/  (metrics, experiment docs, log, best for this run)")
-    # reset the live dashboard feed so it shows ONLY this run
+    print(f"RUN DIR: runs/{run_id}/  ({'RESUME at iter '+str(start_iter) if resume else 'fresh'})")
     ARTIFACTS.mkdir(parents=True, exist_ok=True)
-    (ARTIFACTS / "metrics.jsonl").write_text("")
+    if not resume:
+        # fresh run: reset the live dashboard feed so it shows ONLY this run
+        (ARTIFACTS / "metrics.jsonl").write_text("")
+    else:
+        # resume: keep prior rows; mirror this run's metrics back into the live feed
+        rf = RUN_DIR / "metrics.jsonl"
+        if rf.exists():
+            (ARTIFACTS / "metrics.jsonl").write_text(rf.read_text())
     # live dashboard: non-fatal if a server already owns the port (e.g. run_dashboard.py)
     try:
         dash_url = start_server(6060)
@@ -168,18 +175,35 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
     eval_games = load_split(data_dir, "eval")  # holdout — display-only per-split PnL
     print(f"loaded train={len(train_games)} val={len(val_games)} eval={len(eval_games)}")
 
-    from dataclasses import asdict
+    from dataclasses import asdict, asdict as _asdict
+    import json as _json
     with tracer.span("run", {"iters": iters, "seed": seed, "model": model,
                              "n_train": len(train_games), "n_val": len(val_games)}):
+      if resume:
+        # RESUME: don't re-run baseline; seed best_profit + state from existing rows.
+        rows = [_json.loads(l) for l in (RUN_DIR / "metrics.jsonl").read_text().splitlines() if l.strip()]
+        best_profit = max((r.get("best_profit") or r.get("mean_return") or 0.0) for r in rows) if rows else 0.0
+        total_cost = sum(r.get("codex_cost_usd", 0.0) for r in rows)
+        prev_feats = _feature_snapshot()
+        cur_report = None; cur_hist = {}
+        # last-metrics shim Codex sees (from the most recent row)
+        class _M:
+            pass
+        base_m = _M()
+        base_m.__dict__.update(rows[-1] if rows else {"mean_return": best_profit})
+        best_sha = _git("rev-parse", "HEAD")
+        print(f"[RESUME] starting at iter {start_iter}; best_profit so far={best_profit:.4f}, cost so far=${total_cost:.2f}")
+        _write_status("resumed", start_iter - 1, iters, {"best_profit": round(best_profit, 4)})
+      else:
         # baseline (iteration 0): current code, no edit. Full diagnostic report so the
         # optimizer can reason about HOW to improve, not just the profit_score.
+        base_m = base_m_report = base_hist = None
         with tracer.span("iteration", {"iter": 0, "kind": "baseline"}) as sp:
             _t_base = time.time()
             _, _, base_m, base_report, base_hist, base_splits = _train_and_validate(train_games, val_games, seed, with_report=True, eval_games=eval_games)
             base_train_secs = round(time.time() - _t_base, 1)
             best_profit = base_m.profit_score
-            best_files = {f: _read(f) for f in EDITABLE_FILES}
-            cur_report = base_report
+            cur_report = base_report; cur_hist = base_hist
             sp.set_attrs(base_m.__dict__, prefix="metrics")
             sp.set(best_profit=best_profit, kept=True, verdict="baseline")
         total_cost = 0.0
@@ -198,15 +222,16 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         train_pnl_curve=base_hist.get("train_pnl", []),
                         val_pnl_curve=base_hist.get("val_pnl", []))
         _write_dashboard_row(base_row)
-        log.append(LogEntry(0, "baseline", log.file_hashes(best_files),
-                            base_m.__dict__, True, best_profit, 0.0, "baseline"))
+        log.append(LogEntry(0, "baseline", {}, base_m.__dict__, True, best_profit, 0.0, "baseline"))
         print(f"[iter 0 baseline] profit_score={best_profit:.4f}")
         _write_status("baseline_done", 0, iters, {"best_profit": round(best_profit, 4)})
 
-        opt = CodeOptimizer(model=model, reasoning_effort=reasoning)
-        best_sha = _git("rev-parse", "HEAD")  # last KEPT commit (good tree)
-        cur_hist = base_hist
-        for it in range(1, iters + 1):
+      # ---- common: the experiment loop (fresh starts at 1, resume at start_iter) ----
+      from dataclasses import asdict as _ad
+      opt = CodeOptimizer(model=model, reasoning_effort=reasoning)
+      best_sha = _git("rev-parse", "HEAD")  # last KEPT commit (good tree)
+      if True:
+        for it in range(start_iter, iters + 1):
             t0 = time.time()
             diag = asdict(cur_report) if cur_report else {}
             if cur_hist:  # learning curves so Codex can see under/overfitting
