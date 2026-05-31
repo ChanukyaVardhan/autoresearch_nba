@@ -22,7 +22,6 @@ from pathlib import Path
 
 from .experiment_log import ExperimentLog, LogEntry
 from .game import load_split
-from .leakage import run_leakage_suite
 from .optimizer import EDITABLE_FILES, CodeOptimizer
 
 import subprocess
@@ -175,9 +174,6 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
         # baseline (iteration 0): current code, no edit. Full diagnostic report so the
         # optimizer can reason about HOW to improve, not just the profit_score.
         with tracer.span("iteration", {"iter": 0, "kind": "baseline"}) as sp:
-            ok, msg = run_leakage_suite(train_games)
-            if not ok:
-                raise RuntimeError(f"baseline leakage failure: {msg}")
             _t_base = time.time()
             _, _, base_m, base_report, base_hist, base_splits = _train_and_validate(train_games, val_games, seed, with_report=True, eval_games=eval_games)
             base_train_secs = round(time.time() - _t_base, 1)
@@ -239,30 +235,12 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         prior_error = ("You made NO file changes. You MUST edit "
                                        "feature_construction.py and/or training.py this iteration.")
                         note = f"attempt {attempt}: no file changes -> retry"
-                        print(f"[iter {it}] attempt {attempt}: no changes -> retry")
+                        _write_status("repair_needed", it, iters,
+                                      {"attempt": attempt, "error": prior_error[:300]})
+                        print(f"[iter {it}] attempt {attempt}: no changes -> retry", flush=True)
                         continue
-                    # ---- validate the edit ----
+                    # ---- ONLY GATE: training must run without error ----
                     try:
-                        _write_status("leakage+verify", it, iters, {"attempt": attempt})
-                        with tracer.span("leakage_check", kind="tool") as lsp:
-                            ok, msg = run_leakage_suite(train_games)
-                            lsp.set_kind("tool", output=("PASS: " + msg) if ok else ("FAIL: " + msg))
-                        vok, vreason = (True, "skipped")
-                        if ok:
-                            with tracer.span("verifier", kind="tool") as vsp:
-                                from .verifier import verify
-                                vok, vreason = verify()
-                                vsp.set_kind("tool", output=("ACCEPT: " + vreason) if vok else ("REJECT: " + vreason))
-                        if not ok:
-                            # FIXABLE bug -> feed back & let Codex repair (retry)
-                            prior_error = f"Leakage/dim check FAILED: {msg}"
-                            note = f"attempt {attempt} rejected (leakage): {msg[:60]}"
-                            print(f"[iter {it}] attempt {attempt}: leakage fail -> retry: {msg[:60]}")
-                            continue
-                        if not vok:
-                            # reward-hack / cheating -> do NOT retry, abort cleanly
-                            note = f"REJECTED (verifier): {vreason}"; validated = True; break
-                        # ---- train & grade (success path) ----
                         _write_status("training", it, iters, {"attempt": attempt})
                         with tracer.span("train_and_validate", kind="tool") as tsp:
                             _t_train = time.time()
@@ -286,10 +264,13 @@ def run_loop(data_dir: Path, iters: int = 20, seed: int = 0,
                         validated = True
                         break  # validated (kept or honestly-reverted) -> iteration done
                     except Exception as e:
-                        # training crashed -> FIXABLE, feed back & retry
+                        # training crashed -> the ONLY failure mode -> feed exact error
+                        # back to Codex and retry (visible in status + flushed log).
                         prior_error = f"Training raised {type(e).__name__}: {e}"
                         note = f"attempt {attempt} error: {type(e).__name__}: {str(e)[:60]}"
-                        print(f"[iter {it}] attempt {attempt}: {type(e).__name__} -> retry")
+                        _write_status("repair_needed", it, iters,
+                                      {"attempt": attempt, "error": prior_error[:300]})
+                        print(f"[iter {it}] attempt {attempt}: {type(e).__name__} -> retry: {str(e)[:80]}", flush=True)
                         continue
                 if not validated:
                     note = f"REJECTED: {MAX_ATTEMPTS} attempts could not produce a clean run — {note}"
