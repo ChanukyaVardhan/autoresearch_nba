@@ -1,0 +1,254 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-16T23:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 125,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": true
+        },
+        {
+          "date": "2026-03-16T00:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 107,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        },
+        {
+          "date": "2026-03-14T02:00:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 117,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        },
+        {
+          "date": "2026-03-11T02:00:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 124,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        },
+        {
+          "date": "2026-03-10T01:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 116,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        }
+      ],
+      "away_team_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+      "game_injuries": {
+        "502c629b-4da7-40fd-92ab-20cb55411c35": [
+          {
+            "comment": "Butler's injury from Monday (Jan. 19) Night's game involves a torn right ACL and he will be out for the rest of the season, as per Shams Charania of ESPN.",
+            "date_updated": "2026-01-20",
+            "description": "Knee",
+            "start_date": "2026-01-20",
+            "status": "Out For Season",
+            "structured_id": "b99dd959-bae1-40f0-9c67-82f5b8f9961c"
+          },
+          {
+            "comment": "Curry will be re-evaluated in a week due to a mild left adductor strain, according to Danny Emerman of SFStandard.com",
+            "date_updated": "2026-03-15",
+            "description": "Adductor",
+            "start_date": "2026-03-13",
+            "status": "Out",
+            "structured_id": "4958cb9b-ee08-4c69-950c-ffde59dbfe29"
+          },
+          {
+            "comment": "An MRI confirmed a minor right calf strain for Horford and he will be re-evaluated in one week, according to Danny Emerman of SFStandard.com",
+            "date_updated": "2026-03-15",
+            "description": "Calf",
+            "start_date": "2026-03-13",
+            "status": "Out",
+            "structured_id": "92abd54e-0cbb-43ea-b4be-abcb4f5e2104"
+          },
+          {
+            "comment": "The Warriors reported on Wednesday (Mar. 18) that Curry will return by the end of this month.",
+            "date_updated": "2026-03-18",
+            "description": "Knee",
+            "start_date": "2026-01-30",
+            "status": "Out",
+            "structured_id": "15cba021-5e04-44b0-95f9-9e975ec48697"
+          },
+          {
+            "comment": "The Warriors said on Wednesday's (Mar. 18) that Moody is without a timetable for return.",
+            "date_updated": "2026-03-18",
+            "description": "Wrist",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "979a2510-ac66-443a-9bfa-f0df7b3f5cca"
+          },
+          {
+            "comment": "The Warriors listed Cryer as Out for Wednesday's (Mar. 18) game against Boston. ",
+            "date_updated": "2026-03-18",
+            "description": "Hamstring",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "0a9c39f2-4e66-4d1d-8979-9156cb0ac028"
+          }
+        ],
+        "6dd427f5-fa02-40ef-aa90-cfa73e0c539e": [
+          {
+            "comment": "Vucevic underwent surgery Saturday (Mar. 7) to stabilize a fracture in his right ring finger and will be re-evaluated in 3-to-4 weeks.",
+            "date_updated": "2026-03-07",
+            "description": "Finger",
+            "start_date": "2026-03-06",
+            "status": "Out",
+            "structured_id": "9851168d-7c6c-4b3f-adcb-261a46e54c03"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-16T23:30:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 120,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-14T22:00:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 111,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-13T01:30:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 102,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-11T00:00:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 116,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-08T17:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 109,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        }
+      ],
+      "home_team_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR18GSWBOS",
+      "player_id_mapping": {
+        "047d0b63-4142-46e9-8f04-a61622ae2375": "4958cb9b-ee08-4c69-950c-ffde59dbfe29",
+        "0718c0e1-7804-471a-b4ed-cde778948d4d": "c4f4898b-4a7a-4849-8546-5bdc0af22927",
+        "0e163d44-67a7-4107-9421-5333600166bb": "b99dd959-bae1-40f0-9c67-82f5b8f9961c",
+        "18512d7a-ea08-408c-8ecb-7f436ca41120": "ad7c156e-90b4-4656-bf01-893bbd63b3d3",
+        "1bd20765-bf81-4250-a16c-05a4799758fc": "aa6f6626-0d22-4d04-bd68-e279b0ccf5d7",
+        "21ed49ae-44cf-4031-9b6f-a48fb8a3e41c": "f7312c21-e5e7-4587-885c-111b2ac5a976",
+        "258ed390-1d72-42ee-9c52-f7064051e35f": "f33c690f-071c-40ee-8fdd-e10b6b236b73",
+        "3a3207cc-269f-47ef-9b77-f852f0bed4b0": "b7db4ac9-30c3-4471-a2dd-7d94fa43101d",
+        "3c5901ef-af1d-441d-aeed-8e0a93cead49": "52b8d9e4-67cd-4897-870c-00baa0e8d52d",
+        "49be9129-da30-4e74-aa60-b1e87582604b": "18664b17-45cf-442b-858e-877eee059745",
+        "59f3c089-7642-4792-99a2-97795c3d7648": "197dcf24-c55c-421c-b8b1-b744b7f09616",
+        "5b22ae60-ca29-4cd8-b618-cce7b9766b0e": "6f08251f-1597-4eb0-bfe1-1fb3bf038b22",
+        "5e5099d1-4a58-43f2-8d03-f2ae5dd49337": "2c42ea40-5090-4cf2-bc6c-f66f5b61ba14",
+        "6cb137da-2848-4c37-a80d-a4ba75ece969": "f6b16ce1-6041-424d-a5fb-28ac3f0d1a87",
+        "7366b2b7-5959-4dd9-9204-760e861b3119": "9851168d-7c6c-4b3f-adcb-261a46e54c03",
+        "7cfc1044-54f9-4788-af5f-8d943f992e0d": "16deb828-cf61-4d83-838e-8658730a0ffe",
+        "879370c1-afe6-45c7-9ba1-93a78d4b8d61": "c770d1a8-b835-4d56-b107-3da5de5d6622",
+        "8a62bff0-8dc9-4bea-9922-6eeabb6212f2": "6df8207e-36e7-41e5-ac37-c18258b1ca28",
+        "8da31ebc-6614-4209-8685-5442bc09887b": "fbcb18f9-9a5e-43f0-a622-b628d6422b48",
+        "8ec91366-faea-4196-bbfd-b8fab7434795": "15cba021-5e04-44b0-95f9-9e975ec48697",
+        "955fe0fb-3ca2-49c0-9a19-922d8349f13c": "65cb54f5-90b2-4b5a-b342-1fc39d18d62e",
+        "98136da3-452f-49dc-a794-1ee9c76443f2": "5f251b4a-e9aa-4e22-b5df-157d80e606e6",
+        "9bcd5cff-4a1c-4454-89b6-a5899b0c6bcc": "fc551031-35e4-47a5-b9a3-052c0c56109f",
+        "a316cf6a-693d-4c6a-b0d9-ebf80e73e832": "979a2510-ac66-443a-9bfa-f0df7b3f5cca",
+        "a5b978ac-7a35-4ec0-b15f-91d9a8e1ac31": "1dac11cb-7913-4a15-b8e7-941df50b2fb5",
+        "b04cd5ce-e82c-47a7-9b2a-c561c1cb7b80": "5f51a9d7-093c-48f8-80c8-1fa29a7f39f1",
+        "b83048ff-1e71-46fa-b49c-0b04a72cc4a1": "e898e9ba-117e-4235-a664-0ea8e1548571",
+        "bc19b036-9098-4d4c-bffd-1c27918a89e5": "0a9c39f2-4e66-4d1d-8979-9156cb0ac028",
+        "cf3a87ec-c2f7-42e8-9698-6f8b2ba916a9": "92abd54e-0cbb-43ea-b4be-abcb4f5e2104",
+        "cf4d4c23-9ccc-4cf3-b620-9749a8e65064": "e38b5f9f-de26-4523-8986-99363e53f8e0",
+        "eb063340-43d5-4f5c-8097-fa6e40b6f5e2": "4d12a90a-dfe6-42f9-a1df-178d1d8b7d04",
+        "f5aac467-6bf9-4fa3-b89a-9ef71fe546fa": "ef5bd790-45f1-4c0f-b977-58009cf35208",
+        "f5d6fdfd-21f6-48f0-a297-4c13e8fc40cb": "de746546-c159-4ec4-aaa0-ae789e4565eb",
+        "ffc5579c-783f-4d62-80ab-3c3dcb05a27d": "417ef237-dcd0-46a2-8649-6ccbc78e3a4b"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "42ebdbdc-e6ca-4269-a1cf-178c222b2097",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-19T04:00:00Z",
+    "id": "dd390364-4295-472b-8a20-044dbc155ea2",
+    "last_updated_ts": "2026-03-26T07:29:35.477451Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR18GSWBOS",
+      "KXNBASPREAD-26MAR18GSWBOS",
+      "KXNBATOTAL-26MAR18GSWBOS",
+      "KXNBATEAMTOTAL-26MAR18GSWBOS",
+      "KXNBA1HWINNER-26MAR18GSWBOS",
+      "KXNBA2HWINNER-26MAR18GSWBOS",
+      "KXNBA1HSPREAD-26MAR18GSWBOS",
+      "KXNBA1HTOTAL-26MAR18GSWBOS"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR18GSWBOS",
+      "KXNBASPREAD-26MAR18GSWBOS",
+      "KXNBATOTAL-26MAR18GSWBOS",
+      "KXNBATEAMTOTAL-26MAR18GSWBOS",
+      "KXNBAMENTION-26MAR18GSWBOS",
+      "KXNBA1HWINNER-26MAR18GSWBOS",
+      "KXNBA2HWINNER-26MAR18GSWBOS",
+      "KXNBAPTS-26MAR18GSWBOS",
+      "KXNBAREB-26MAR18GSWBOS",
+      "KXNBAAST-26MAR18GSWBOS",
+      "KXNBA3PT-26MAR18GSWBOS",
+      "KXNBA2D-26MAR18GSWBOS",
+      "KXNBA3D-26MAR18GSWBOS",
+      "KXNBASTL-26MAR18GSWBOS",
+      "KXNBABLK-26MAR18GSWBOS",
+      "KXNBA1HSPREAD-26MAR18GSWBOS",
+      "KXNBA1HTOTAL-26MAR18GSWBOS"
+    ],
+    "source_id": "42ebdbdc-e6ca-4269-a1cf-178c222b2097",
+    "source_ids": {
+      "source_2_id": "202603185787F859",
+      "source_3_id": "42ebdbdc-e6ca-4269-a1cf-178c222b2097",
+      "source_4_id": "62924877",
+      "source_5_id": "sr:match:62924877"
+    },
+    "start_date": "2026-03-18T23:00:00Z",
+    "title": "Golden State at Boston",
+    "type": "basketball_game"
+  }
+}

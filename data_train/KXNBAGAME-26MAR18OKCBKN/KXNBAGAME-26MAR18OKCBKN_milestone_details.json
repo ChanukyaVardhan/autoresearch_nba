@@ -1,0 +1,279 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-17T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 113,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-15T17:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 116,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-13T01:30:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 104,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-09T23:30:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 129,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-08T01:30:00+00:00",
+          "opponent_points": 97,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 104,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        }
+      ],
+      "away_team_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+      "game_injuries": {
+        "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3": [
+          {
+            "comment": "Clowney won't return to Wednesday's (Mar. 18) game against the Thunder.",
+            "date_updated": "2026-03-18",
+            "description": "Wrist",
+            "start_date": "2026-03-18",
+            "status": "Day To Day",
+            "structured_id": "4fd1dde0-5e9d-4a62-b083-9cefea82b869"
+          },
+          {
+            "comment": "The Nets listed Saraf as OUT for Wednesday's (Mar. 18) game against Oklahoma City.",
+            "date_updated": "2026-03-18",
+            "description": "Foot",
+            "start_date": "2026-03-17",
+            "status": "Out",
+            "structured_id": "0eec94b2-8a43-441a-a47d-42003c67fb93"
+          },
+          {
+            "comment": "The Nets reported Egor Demin will miss rest of season with plantar fasciitis.",
+            "date_updated": "2026-03-09",
+            "description": "Foot",
+            "start_date": "2026-02-28",
+            "status": "Out For Season",
+            "structured_id": "7a110972-5181-4479-ad48-c96ead96cce7"
+          },
+          {
+            "comment": "The Nets said on Thursday (Mar. 12) that Sharpe will undergo season-ending thumb surgery.",
+            "date_updated": "2026-03-12",
+            "description": "Thumb",
+            "start_date": "2026-03-10",
+            "status": "Out For Season",
+            "structured_id": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0"
+          },
+          {
+            "comment": "The Nets listed Porter Jr. as OUT for Wednesday's (Mar. 18) game against Oklahoma City.",
+            "date_updated": "2026-03-18",
+            "description": "Ankle",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "e0945bc8-fa32-41e5-b85b-9155011bdd3b"
+          }
+        ],
+        "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c": [
+          {
+            "comment": "The Thunder listed Carlson as OUT for Wednesday's (Mar. 18) game versus the Nets.",
+            "date_updated": "2026-03-18",
+            "description": "Back",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "419633cc-ca9b-42c3-a792-f95bb00cfdaa"
+          },
+          {
+            "comment": "The Thunder listed Hartenstein as OUT for Wednesday's (Mar. 18) game versus the Nets.",
+            "date_updated": "2026-03-18",
+            "description": "Calf",
+            "start_date": "2026-03-18",
+            "status": "Out",
+            "structured_id": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b"
+          },
+          {
+            "comment": "The Thunder listed Williams as OUT for Wednesday's (Mar. 18) game versus the Nets.",
+            "date_updated": "2026-03-18",
+            "description": "Hamstring",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92"
+          },
+          {
+            "comment": "The Thunder announced on Friday (Sept. 5) that Sorber will miss the 2025-2026 season with a torn ACL.",
+            "date_updated": "2025-09-05",
+            "description": "Knee",
+            "start_date": "2025-09-05",
+            "status": "Out For Season",
+            "structured_id": "c2beb99e-9ef2-4e96-b440-96080fa60360"
+          },
+          {
+            "comment": "The Thunder listed Dort as OUT for Wednesday's (Mar. 18) game versus the Nets.",
+            "date_updated": "2026-03-18",
+            "description": "Rest",
+            "start_date": "2026-03-18",
+            "status": "Out",
+            "structured_id": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-16T23:30:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 95,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-14T17:00:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 97,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-12T23:30:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 97,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-10T23:30:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 100,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-09T23:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 126,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": true
+        }
+      ],
+      "home_team_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR18OKCBKN",
+      "player_id_mapping": {
+        "1c82e36d-8975-4778-9d49-d872d2f3f1be": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0",
+        "1c8786b4-1786-4e3d-81ca-d976797413f5": "33b2a10d-1060-427a-98fe-ce1daf133441",
+        "1c9a1c2e-3e3b-439e-8d72-0b41b17e4ba9": "465706f0-e83a-42ad-bddd-a4c2cd5fae91",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "288519dc-eae8-4daf-afa4-c86322b7460e": "594d190f-a7a4-4b7c-9116-e2af0cbc99bd",
+        "36d083a5-49ca-42f1-80b7-b78275a8abd9": "c4cc3a86-4003-4ea8-941f-cc878aaad51f",
+        "38745a56-7472-4844-a2dc-f61d3bcd941f": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b",
+        "3a7d6510-00e9-4265-81df-864a1f547269": "e0945bc8-fa32-41e5-b85b-9155011bdd3b",
+        "3f7e2350-e208-4791-98c2-684b53bb5a9a": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c",
+        "4965ef48-7aa9-4eae-a923-5023ff7ab1eb": "32b125e2-a412-42e4-81ac-329f053f9f23",
+        "4ab6a1ca-60ab-41e3-adbc-0395dec8c0da": "edf2d234-7410-4223-9d80-2f5893936d2e",
+        "4cee9366-c78d-4ae9-a04a-eb695ee2fac0": "45e0dc65-2f26-4444-94ce-66f918de8cf9",
+        "62c44a90-f280-438a-9c7e-252f4f376283": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92",
+        "674b6d37-16d4-4851-81c2-b279754b9b82": "b8c5473f-2359-4dd8-8f7d-f2b53e43e028",
+        "6bee5098-f27a-4877-8df6-41c1687a8fb6": "09308e8f-d4d1-4f7b-aff1-eccb42552be3",
+        "73d92041-1258-4f1f-8bd3-55e07407115b": "d0c482ad-2764-4243-bd04-3a9690236bef",
+        "8936c15e-f9d5-4b9a-80b9-8f6b7dcf7a17": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04",
+        "9318b4c1-49d0-40eb-8b76-1098e28133d2": "144c5239-29b4-4656-8862-088803bb760e",
+        "9b3dc639-0351-47ee-8ef0-c13bc3edfc0f": "6509727c-c86f-4a30-909e-6f1cb99c33bc",
+        "a6cc820a-8dce-40aa-840c-f0c94cfa9e46": "c073f4e1-d502-43f6-a81a-97173fe75fd4",
+        "a7466782-6f87-414f-9458-7fea82922e00": "849da2e4-3bde-4565-bcbd-a029b62352f3",
+        "ab0289ca-407b-41e9-ab2d-32407eedeccf": "419633cc-ca9b-42c3-a792-f95bb00cfdaa",
+        "b3db0b36-344f-4035-b315-9fb18933e535": "048da8e7-a562-4504-a102-b2fe624a0930",
+        "b5e408ae-86d3-44a0-aa16-6977c6aaed41": "7a110972-5181-4479-ad48-c96ead96cce7",
+        "b60665b0-b5f3-4662-b7f8-454def5886db": "acbf6c3d-d745-4d51-aacd-3af1148d2ec8",
+        "bc86dba7-561a-4fa0-9639-83d50b2c29ba": "0eec94b2-8a43-441a-a47d-42003c67fb93",
+        "bf6b4aed-c007-41eb-b4e5-08b99f292ec2": "04bc92de-9046-4d6e-8c63-5f8e60ca8e0e",
+        "c4cf8fb6-b7de-45f2-b9f9-9365b8f2f2ed": "f3bf7115-fb09-4130-b2a4-1ed728e70a05",
+        "c56cbf7a-42a4-41a2-a37b-0cd4aaf248d0": "c2beb99e-9ef2-4e96-b440-96080fa60360",
+        "d21c7c50-60ce-4de2-b2a2-3a06d3897bcb": "e3762f50-27af-4a94-8ffc-c68cc9ac624f",
+        "d3b28775-473d-471a-8452-e913f4347f0f": "7576d7ff-b42d-446f-bce0-71d63e8cd098",
+        "d9ea4a8f-ff51-408d-b518-980efc2a35a1": "b40547da-b4d9-4d33-b795-32595ef9c473",
+        "dbf9e1f5-7573-4c24-992a-04ea080c61e1": "4fd1dde0-5e9d-4a62-b083-9cefea82b869",
+        "e140d6c7-351e-4937-84cd-66af4b8d617d": "0560776d-7a32-4eb6-a938-ea8c8fcc004b",
+        "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed",
+        "ec7aea3f-550d-4c3d-a47e-58ee983bfd57": "4e8e009c-b08d-4f72-9407-559573654160"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "fba2c720-12ed-4d2f-840d-94cb000183bc",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-19T03:54:36Z",
+    "id": "1ea64b1f-079b-4b33-9224-72304cbfdebd",
+    "last_updated_ts": "2026-03-26T07:29:53.563404Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR18OKCBKN",
+      "KXNBASPREAD-26MAR18OKCBKN",
+      "KXNBATOTAL-26MAR18OKCBKN",
+      "KXNBATEAMTOTAL-26MAR18OKCBKN",
+      "KXNBA1HWINNER-26MAR18OKCBKN",
+      "KXNBA2HWINNER-26MAR18OKCBKN",
+      "KXNBA1HSPREAD-26MAR18OKCBKN",
+      "KXNBA1HTOTAL-26MAR18OKCBKN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR18OKCBKN",
+      "KXNBASPREAD-26MAR18OKCBKN",
+      "KXNBATOTAL-26MAR18OKCBKN",
+      "KXNBATEAMTOTAL-26MAR18OKCBKN",
+      "KXNBA1HWINNER-26MAR18OKCBKN",
+      "KXNBA2HWINNER-26MAR18OKCBKN",
+      "KXNBAPTS-26MAR18OKCBKN",
+      "KXNBAREB-26MAR18OKCBKN",
+      "KXNBAAST-26MAR18OKCBKN",
+      "KXNBA3PT-26MAR18OKCBKN",
+      "KXNBA2D-26MAR18OKCBKN",
+      "KXNBA3D-26MAR18OKCBKN",
+      "KXNBASTL-26MAR18OKCBKN",
+      "KXNBABLK-26MAR18OKCBKN",
+      "KXNBA1HSPREAD-26MAR18OKCBKN",
+      "KXNBA1HTOTAL-26MAR18OKCBKN"
+    ],
+    "source_id": "fba2c720-12ed-4d2f-840d-94cb000183bc",
+    "source_ids": {
+      "source_2_id": "20260318D3C9EAE8",
+      "source_3_id": "fba2c720-12ed-4d2f-840d-94cb000183bc",
+      "source_4_id": "62926403",
+      "source_5_id": "sr:match:62926403"
+    },
+    "start_date": "2026-03-18T23:30:00Z",
+    "title": "Oklahoma City at Brooklyn",
+    "type": "basketball_game"
+  }
+}

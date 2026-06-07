@@ -1,0 +1,277 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-25T03:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 121,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-23T01:00:00+00:00",
+          "opponent_points": 77,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 92,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-21T03:00:00+00:00",
+          "opponent_points": 157,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 103,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-13T02:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 135,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T01:00:00+00:00",
+          "opponent_points": 133,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 109,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        }
+      ],
+      "away_team_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+      "game_injuries": {
+        "2229b01e-68eb-46ad-adf4-71a9533c84fc": [
+          {
+            "comment": "The Trail Blazers listed Avdija as Out for Thursday's (Feb. 26) game against the Bulls.",
+            "date_updated": "2026-02-25",
+            "description": "Back",
+            "start_date": "2026-02-22",
+            "status": "Out",
+            "structured_id": "0a9e0587-c565-41cc-93bd-74e1d1b1d375"
+          },
+          {
+            "comment": "Sharpe will be re-evaluated in 4-to-6 weeks, per Sean Highkin of Rip City Radio 620 Portland.",
+            "date_updated": "2026-02-24",
+            "description": "Calf",
+            "start_date": "2026-02-06",
+            "status": "Out",
+            "structured_id": "53147479-51de-4a93-8beb-a70a78dc681f"
+          },
+          {
+            "comment": "The Trail Blazers said on Thursday (Sept. 25) that Lillard won't be back on the court for the 2025-26 season due to his achilles injury.",
+            "date_updated": "2025-09-25",
+            "description": "Achilles",
+            "start_date": "2025-09-25",
+            "status": "Out For Season",
+            "structured_id": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c"
+          },
+          {
+            "comment": "The Trail Blazers have listed Clingan as Out for Thursday's (Feb. 26) game against the Bulls.",
+            "date_updated": "2026-02-26",
+            "description": "Illness",
+            "start_date": "2026-02-26",
+            "status": "Out",
+            "structured_id": "80b360ed-9ea4-4cca-8ced-abba5c6a8471"
+          }
+        ],
+        "65f0250b-455d-43d7-b7dc-7d321bdf9abc": [
+          {
+            "comment": "The Bulls listed Simons as Out for Thursday's (Feb. 26) game against the Trail Blazers.",
+            "date_updated": "2026-02-25",
+            "description": "Wrist",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "94894b15-fc9f-42e5-854c-4d2a6006c09b"
+          },
+          {
+            "comment": "The Bulls reported on Wednesday (Dec. 3) that Essengue will have shoulder surgery and miss the remainder of the season, per HC Billy Donovan.",
+            "date_updated": "2025-12-03",
+            "description": "Shoulder",
+            "start_date": "2025-11-29",
+            "status": "Out For Season",
+            "structured_id": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c"
+          },
+          {
+            "comment": "The Bulls said on Saturday (Feb. 21) that Ivey will miss at least 2 weeks.",
+            "date_updated": "2026-02-21",
+            "description": "Knee",
+            "start_date": "2026-02-20",
+            "status": "Out",
+            "structured_id": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7"
+          },
+          {
+            "comment": "The Bulls listed Williams as OUT for Thursday's (Feb. 26) game against the Trail Blazers.",
+            "date_updated": "2026-02-26",
+            "description": "Quadriceps",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b"
+          },
+          {
+            "comment": "The Bulls said on Saturday (Feb. 21) that Collins will undergo surgery for a sprain right toe and will be sidelined for the rest of the 2025-26 season.",
+            "date_updated": "2026-02-21",
+            "description": "Toe",
+            "start_date": "2025-12-28",
+            "status": "Out For Season",
+            "structured_id": "2a5b8fd6-50da-499a-a50b-832f02dea356"
+          },
+          {
+            "comment": "The Bulls listed Simons as OUT for Thursday's (Feb. 26) game against the Trail Blazers.",
+            "date_updated": "2026-02-26",
+            "description": "Calf",
+            "start_date": "2026-02-22",
+            "status": "Out",
+            "structured_id": "37104adf-2343-40fe-8d8a-a11f89d037e8"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-25T01:00:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 99,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-23T01:00:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 99,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-22T01:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 110,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-20T01:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 101,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-12T00:30:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 105,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        }
+      ],
+      "home_team_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB26PORCHI",
+      "player_id_mapping": {
+        "06df3766-f654-4fe3-8a37-496d21e7ea23": "0ff276a5-115b-4407-94b7-37e21c11454a",
+        "08baba55-bec0-4494-95ce-28778c37a981": "8201e738-2f9d-43df-a356-adb225fc5dcb",
+        "2d4ce4bc-b03a-40bc-b22c-dab27591a429": "0faf4911-89b0-49ae-a920-0912c6e6a92e",
+        "312f21c9-a061-43e2-9a22-65199131068e": "0a9e0587-c565-41cc-93bd-74e1d1b1d375",
+        "31f78854-0d23-4318-959c-0314588136e1": "e1936136-417a-4892-b6e0-90e41b6c2f1a",
+        "5382cf43-3a79-4a5a-a7fd-153906fe65dd": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c",
+        "5ab15bad-59b4-43c9-98fc-1d0aa8182d01": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c",
+        "5b315e15-6633-4ce2-8200-71b821553314": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0",
+        "632adcc4-97f1-4e67-a132-e0b79f013c67": "94894b15-fc9f-42e5-854c-4d2a6006c09b",
+        "65700e81-3aa0-49a9-8a94-004f2cfb64e5": "b75478af-67c3-4a19-9cee-b2930a77d78d",
+        "657f2b36-208f-4bbe-a64a-c6cf6a76be72": "05f54a08-7983-4f7a-af49-210204c31989",
+        "66ea876a-1cc9-47ed-ae31-2ed3c8f9350e": "a4baed3c-0021-407e-8448-a298594c2a83",
+        "67f6467e-0acc-48ce-9872-a63225ef295c": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b",
+        "689cb3b0-a7cc-45b5-860d-007597029c8c": "37104adf-2343-40fe-8d8a-a11f89d037e8",
+        "7721e264-5db8-4af9-b252-65f2d18c454d": "f1bdc817-0c46-4f47-8007-e5701780c18f",
+        "7924cc02-9fbb-4fd0-a036-0130084eb9b3": "98a42c36-71d9-400e-95a5-e7fe53f7e9d8",
+        "7b526b14-5d50-411e-8bea-0ac7a8d0e8d7": "b20be183-d7e6-4970-ad6f-04ff489eb0d9",
+        "80b5cccf-203b-4482-92aa-76d1598216be": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387",
+        "8b43c272-c16b-40c7-a4d5-7bbcefeb1816": "c90b91a6-f684-4305-bf03-697ea7daf402",
+        "8db2a730-bafb-4936-915f-3dd4920a0aa9": "dab15c3b-1fd4-44ad-940c-55852685a6ae",
+        "9654c7f1-d16c-428c-88fd-2a6cdb5a8370": "4624140d-4700-4bc6-a78b-79acc60ce3fe",
+        "99dc3c11-03fc-4d15-9dd5-d8d1f41c569a": "39063bb2-a56e-41bb-94ca-ae15c380a190",
+        "a26661fb-805f-41a9-8fc9-8ed805233482": "06d2662c-1e37-4b6c-8a1d-501a105e5644",
+        "a978acbc-e84b-4cc4-85c9-30595e022847": "f7a10ceb-9ddc-4afc-aea0-8c67b8b1dc6d",
+        "af5e629a-6b79-46d9-9b58-dc9ec41a0bd0": "a867c548-86ed-4810-a289-a25576489f7f",
+        "b5310b38-a378-464f-b344-928adee0ed00": "2a5b8fd6-50da-499a-a50b-832f02dea356",
+        "c089cc76-e8a3-46cc-8691-3d4f28edc9bf": "58da1241-7818-4d04-9629-2a5a5795c5fa",
+        "c20dfb58-5622-405e-90b1-92b79ee97461": "aba92929-6fc0-476c-8462-35c5cf7a2cec",
+        "c76e8dae-58ad-4950-8929-5094036210c4": "80b360ed-9ea4-4cca-8ced-abba5c6a8471",
+        "d13849d9-a696-44af-84a1-3196132c3ecd": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a",
+        "e04c3542-546a-4ca7-8db3-a89353d60046": "998569d5-8e34-4b4b-a396-aada418a9fc1",
+        "eb0bd3d9-4bf0-4cc3-bbdf-c79e2255c175": "53147479-51de-4a93-8beb-a70a78dc681f",
+        "ec887131-efba-43a0-ad0a-0757ab3f0399": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7",
+        "f619cc0b-5fa0-4189-9091-596e843e93b1": "a21967f6-3de2-4e6e-ad5c-b011117e05a6",
+        "fe7a0b28-a8f9-42ad-b345-0f69d51d365f": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "b788d146-e1f1-4e82-a7f5-90067adbd5ef",
+      "status": "complete"
+    },
+    "end_date": "2026-02-27T04:20:24Z",
+    "id": "1398930c-dbb7-423c-bae4-79f7ce42cd0d",
+    "last_updated_ts": "2026-03-26T07:29:25.350922Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB26PORCHI",
+      "KXNBASPREAD-26FEB26PORCHI",
+      "KXNBATOTAL-26FEB26PORCHI",
+      "KXNBATEAMTOTAL-26FEB26PORCHI",
+      "KXNBA1HWINNER-26FEB26PORCHI",
+      "KXNBA2HWINNER-26FEB26PORCHI",
+      "KXNBA1HSPREAD-26FEB26PORCHI",
+      "KXNBA1HTOTAL-26FEB26PORCHI"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB26PORCHI",
+      "KXNBASPREAD-26FEB26PORCHI",
+      "KXNBATOTAL-26FEB26PORCHI",
+      "KXNBATEAMTOTAL-26FEB26PORCHI",
+      "KXNBA1HWINNER-26FEB26PORCHI",
+      "KXNBA2HWINNER-26FEB26PORCHI",
+      "KXNBAPTS-26FEB26PORCHI",
+      "KXNBAREB-26FEB26PORCHI",
+      "KXNBAAST-26FEB26PORCHI",
+      "KXNBA2D-26FEB26PORCHI",
+      "KXNBA3D-26FEB26PORCHI",
+      "KXNBA1HSPREAD-26FEB26PORCHI",
+      "KXNBA1HTOTAL-26FEB26PORCHI",
+      "KXNBASTL-26FEB26PORCHI",
+      "KXNBABLK-26FEB26PORCHI"
+    ],
+    "source_id": "b788d146-e1f1-4e82-a7f5-90067adbd5ef",
+    "source_ids": {
+      "source_2_id": "202602279525B364",
+      "source_3_id": "b788d146-e1f1-4e82-a7f5-90067adbd5ef",
+      "source_4_id": "62924589",
+      "source_5_id": "sr:match:62924589"
+    },
+    "start_date": "2026-02-27T01:00:00Z",
+    "title": "Portland at Chicago",
+    "type": "basketball_game"
+  }
+}

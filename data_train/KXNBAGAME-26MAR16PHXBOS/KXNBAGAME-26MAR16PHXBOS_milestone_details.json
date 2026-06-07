@@ -1,0 +1,224 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-13T23:30:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 115,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        },
+        {
+          "date": "2026-03-12T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 123,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-03-11T00:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 129,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-03-09T02:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 111,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T02:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 118,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        }
+      ],
+      "away_team_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+      "game_injuries": {
+        "6dd427f5-fa02-40ef-aa90-cfa73e0c539e": [
+          {
+            "comment": "Vucevic underwent surgery Saturday (Mar. 7) to stabilize a fracture in his right ring finger and will be re-evaluated in 3-to-4 weeks.",
+            "date_updated": "2026-03-07",
+            "description": "Finger",
+            "start_date": "2026-03-06",
+            "status": "Out",
+            "structured_id": "9851168d-7c6c-4b3f-adcb-261a46e54c03"
+          }
+        ],
+        "ace11dff-c5d1-4ab9-9452-5312253659fd": [
+          {
+            "comment": "The Suns reported on Monday (Feb. 23) that Brooks' timetable for his broken left hand is 4-to-6 weeks, according to Shams Charania of ESPN.",
+            "date_updated": "2026-02-23",
+            "description": "Hand",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "4f37758f-6499-4692-b0d6-7c0aafc58cef"
+          },
+          {
+            "comment": "Williams will be re-evaluated in 2-to-3 weeks after being diagnosed with a stress reaction in the third metatarsal of his left foot, according to Shane Young of the Suns' official site.",
+            "date_updated": "2026-03-05",
+            "description": "Foot",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "8a343563-d02a-4fb5-995b-558cba5ce783"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-14T22:00:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 111,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-13T01:30:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 102,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-11T00:00:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 116,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-08T17:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 109,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T00:00:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 120,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        }
+      ],
+      "home_team_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR16PHXBOS",
+      "player_id_mapping": {
+        "0718c0e1-7804-471a-b4ed-cde778948d4d": "c4f4898b-4a7a-4849-8546-5bdc0af22927",
+        "0b9bab33-66c3-4e01-b91e-df6b8c40ea2b": "31f47c5d-9201-4953-a3b9-c474734051bb",
+        "18512d7a-ea08-408c-8ecb-7f436ca41120": "ad7c156e-90b4-4656-bf01-893bbd63b3d3",
+        "18c4bd7c-e293-4c0a-95d4-5e9983d301b3": "40b4e236-80d9-476b-98c1-e5ab58b441e8",
+        "1bd20765-bf81-4250-a16c-05a4799758fc": "aa6f6626-0d22-4d04-bd68-e279b0ccf5d7",
+        "215f475c-bee5-418c-ba2d-ebb9580e4b3c": "276f9513-b8ed-4a02-9847-8e25afc5bf67",
+        "258ed390-1d72-42ee-9c52-f7064051e35f": "f33c690f-071c-40ee-8fdd-e10b6b236b73",
+        "31baa84f-c759-4f92-8e1f-a92305ade3d6": "3f978bca-a08f-4bf0-af43-279bfb8384d9",
+        "32526c95-bc6e-4d28-a751-c4200904d80b": "5ffee3f0-4e18-4bd7-b893-81f335111761",
+        "36d34864-f1f9-48f9-9cf1-bd7accc437c7": "9b4296e6-79b8-4ad5-94e3-afc3956122a4",
+        "59f3c089-7642-4792-99a2-97795c3d7648": "197dcf24-c55c-421c-b8b1-b744b7f09616",
+        "60b8026e-e154-4ed7-a247-8e4af1dbf668": "43913e84-c766-46d4-922d-76c07d62beff",
+        "6c0e93c1-0b81-4abb-8eb6-e573eff576ea": "094d4fcb-01e2-405e-a7ee-1f0ec4c6840f",
+        "72a6489b-ad35-4f06-8a4f-a68ea1052f7b": "4f37758f-6499-4692-b0d6-7c0aafc58cef",
+        "7366b2b7-5959-4dd9-9204-760e861b3119": "9851168d-7c6c-4b3f-adcb-261a46e54c03",
+        "749f9e06-52c1-4436-840e-9096a9908c0b": "5a55f86d-dd08-4c8d-b9cd-8549d64f86f4",
+        "7cfc1044-54f9-4788-af5f-8d943f992e0d": "16deb828-cf61-4d83-838e-8658730a0ffe",
+        "879370c1-afe6-45c7-9ba1-93a78d4b8d61": "c770d1a8-b835-4d56-b107-3da5de5d6622",
+        "8da31ebc-6614-4209-8685-5442bc09887b": "fbcb18f9-9a5e-43f0-a622-b628d6422b48",
+        "98136da3-452f-49dc-a794-1ee9c76443f2": "5f251b4a-e9aa-4e22-b5df-157d80e606e6",
+        "9a331092-35db-456c-a44a-d5b80a02ebe9": "5bd1435d-e77a-4202-bff3-6977979e10c1",
+        "9bcd5cff-4a1c-4454-89b6-a5899b0c6bcc": "fc551031-35e4-47a5-b9a3-052c0c56109f",
+        "a17d9b20-4e2b-4612-aecd-27938c997e94": "4cce6dfe-00c9-4334-9bc4-f085f127200d",
+        "a5ec46e9-928f-4609-ab4d-c86ec6434327": "8a343563-d02a-4fb5-995b-558cba5ce783",
+        "b04cd5ce-e82c-47a7-9b2a-c561c1cb7b80": "5f51a9d7-093c-48f8-80c8-1fa29a7f39f1",
+        "b9d4ce1b-94dc-4bec-8d62-70a86d9c523e": "482a6dca-2054-4864-a82b-fec005bccbec",
+        "c722d438-db08-421e-9484-9e7d2f67c05d": "89073ae6-964f-4d13-8eeb-2e5ead049263",
+        "cf4d4c23-9ccc-4cf3-b620-9749a8e65064": "e38b5f9f-de26-4523-8986-99363e53f8e0",
+        "e1d35615-1fd9-4c91-a05f-ef6e7f23c4ff": "70b46360-e073-43d8-948b-cefbbd66b356",
+        "eb063340-43d5-4f5c-8097-fa6e40b6f5e2": "4d12a90a-dfe6-42f9-a1df-178d1d8b7d04",
+        "f5aac467-6bf9-4fa3-b89a-9ef71fe546fa": "ef5bd790-45f1-4c0f-b977-58009cf35208",
+        "fc0c5adb-2e00-4b9b-9db2-338ed54be386": "8c677e1a-09f0-4dab-9c20-161558ae282c",
+        "ffa9a64f-d624-4033-bd23-59dcfd805175": "07a246cd-1c40-42f1-849e-58fbd7696c30",
+        "ffc5579c-783f-4d62-80ab-3c3dcb05a27d": "417ef237-dcd0-46a2-8649-6ccbc78e3a4b"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "c0c38e63-17f4-4640-905c-46ae9d3f460e",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-17T03:01:19Z",
+    "id": "9a7ac580-077f-4efc-b638-55d30b068870",
+    "last_updated_ts": "2026-03-26T07:29:18.728464Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR16PHXBOS",
+      "KXNBASPREAD-26MAR16PHXBOS",
+      "KXNBATOTAL-26MAR16PHXBOS",
+      "KXNBATEAMTOTAL-26MAR16PHXBOS",
+      "KXNBA1HWINNER-26MAR16PHXBOS",
+      "KXNBA2HWINNER-26MAR16PHXBOS",
+      "KXNBA1HSPREAD-26MAR16PHXBOS",
+      "KXNBA1HTOTAL-26MAR16PHXBOS",
+      "KXNBA2HSPREAD-26MAR16PHXBOS",
+      "KXNBA2HTOTAL-26MAR16PHXBOS"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR16PHXBOS",
+      "KXNBASPREAD-26MAR16PHXBOS",
+      "KXNBATOTAL-26MAR16PHXBOS",
+      "KXNBATEAMTOTAL-26MAR16PHXBOS",
+      "KXNBA1HWINNER-26MAR16PHXBOS",
+      "KXNBA2HWINNER-26MAR16PHXBOS",
+      "KXNBAPTS-26MAR16PHXBOS",
+      "KXNBAREB-26MAR16PHXBOS",
+      "KXNBAAST-26MAR16PHXBOS",
+      "KXNBA3PT-26MAR16PHXBOS",
+      "KXNBA2D-26MAR16PHXBOS",
+      "KXNBASTL-26MAR16PHXBOS",
+      "KXNBABLK-26MAR16PHXBOS",
+      "KXNBA1HSPREAD-26MAR16PHXBOS",
+      "KXNBA1HTOTAL-26MAR16PHXBOS",
+      "KXNBA2HSPREAD-26MAR16PHXBOS",
+      "KXNBA2HTOTAL-26MAR16PHXBOS"
+    ],
+    "source_id": "c0c38e63-17f4-4640-905c-46ae9d3f460e",
+    "source_ids": {
+      "source_2_id": "20260317F523BA1A",
+      "source_3_id": "c0c38e63-17f4-4640-905c-46ae9d3f460e",
+      "source_4_id": "62925281",
+      "source_5_id": "sr:match:62925281"
+    },
+    "start_date": "2026-03-16T23:30:00Z",
+    "title": "Phoenix at Boston",
+    "type": "basketball_game"
+  }
+}

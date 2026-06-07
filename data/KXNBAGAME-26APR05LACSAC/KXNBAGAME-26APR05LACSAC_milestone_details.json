@@ -1,0 +1,280 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-03T02:30:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 99,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        },
+        {
+          "date": "2026-04-01T03:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 104,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-29T19:30:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 127,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-27T23:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 114,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-26T02:30:00+00:00",
+          "opponent_points": 94,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 119,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        }
+      ],
+      "away_team_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+      "game_injuries": {
+        "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7": [
+          {
+            "comment": "Sabonis underwent season-ending knee surgery Wednesday (Feb. 18) to repair a torn left meniscus, Shams Charania of ESPN.",
+            "date_updated": "2026-02-18",
+            "description": "Back",
+            "start_date": "2026-02-05",
+            "status": "Out For Season",
+            "structured_id": "144e1e61-d50e-4325-8ff6-7a695f03446a"
+          },
+          {
+            "comment": "The Kings said on Tuesday (Mar. 31) that Westbrook has no timetable for a return due to irritation in the joint of the first toe in his right foot.",
+            "date_updated": "2026-03-31",
+            "description": "Foot",
+            "start_date": "2026-03-21",
+            "status": "Out",
+            "structured_id": "91053668-891b-464a-8249-ccbad9903b85"
+          },
+          {
+            "comment": "Hunter is set to undergo season-ending eye surgery, according to Chris Haynes of NBA TV.",
+            "date_updated": "2026-02-20",
+            "description": "Eye",
+            "start_date": "2026-02-06",
+            "status": "Out For Season",
+            "structured_id": "c9d2b49b-d13f-4f5e-b22c-9465a398b8c7"
+          },
+          {
+            "comment": "LaVine will undergo season-ending surgery on his right hand after the All-Star break, per Chris Haynes of NBA TV.",
+            "date_updated": "2026-02-13",
+            "description": "Finger",
+            "start_date": "2026-02-07",
+            "status": "Out For Season",
+            "structured_id": "b02cbe96-1ddf-40bc-9dec-7146c3350d61"
+          },
+          {
+            "comment": "Eubanks will have surgery to repair a torn UCL in his left thumb, according to Matt George of ABC 10 Sacramento reports Sunday (Mar. 15).",
+            "date_updated": "2026-03-15",
+            "description": "Thumb",
+            "start_date": "2026-03-14",
+            "status": "Out For Season",
+            "structured_id": "ab199aae-ac30-4a73-96ac-a67ac1d2e8d1"
+          },
+          {
+            "comment": "Monk did not play on Friday's (Apr. 3) game against the Pelicans.",
+            "date_updated": "2026-04-04",
+            "description": "Shoulder",
+            "start_date": "2026-04-02",
+            "status": "Day To Day",
+            "structured_id": "63416847-07a8-4bf1-b6cd-4243e0e76d8f"
+          },
+          {
+            "comment": "The Kings said on Tuesday (Mar. 31) that Murray is taking contact in practice amid his recovery from an ankle sprain, but he isn't ready for game action.",
+            "date_updated": "2026-03-31",
+            "description": "Ankle",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "ab771c9f-a307-419b-a3d5-217074ab292c"
+          }
+        ],
+        "daca4413-0ea1-4db2-a815-f05c181ef0a6": [
+          {
+            "comment": "Jackson (ankle) will be re-evaluated in one week, according to NBA writer Justin Russo reports.",
+            "date_updated": "2026-04-02",
+            "description": "Ankle",
+            "start_date": "2026-03-27",
+            "status": "Out",
+            "structured_id": "f7e7a36e-601e-4130-a819-fa9f752bd14a"
+          },
+          {
+            "comment": "Niederhauser has been diagnosed with a Lisfranc injury in his right foot and will require surgery. He's been ruled out for the remainder of the 2025-26 season, according to Joey Linn of SI.com.",
+            "date_updated": "2026-03-05",
+            "description": "Foot",
+            "start_date": "2026-03-04",
+            "status": "Out For Season",
+            "structured_id": "ef369e50-d57e-499e-8219-841ac142f166"
+          },
+          {
+            "comment": "Beal will undergo season-ending surgery on his left hip, as per ESPN's Shams Charania reports.",
+            "date_updated": "2025-11-12",
+            "description": "Hip",
+            "start_date": "2025-11-10",
+            "status": "Out For Season",
+            "structured_id": "beada20d-6def-48b5-8cdf-ca243e06640d"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-04T02:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 117,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T00:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 123,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": true
+        },
+        {
+          "date": "2026-03-29T22:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 99,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        },
+        {
+          "date": "2026-03-28T23:30:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 113,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        },
+        {
+          "date": "2026-03-26T23:00:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 117,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        }
+      ],
+      "home_team_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR05LACSAC",
+      "player_id_mapping": {
+        "00080fe6-49ad-4685-a308-eb96b1f11ddf": "eedb0f74-ef72-4f3e-9302-1528cd34c975",
+        "003883ca-cd7e-4b58-99d7-6fef54afdfeb": "bf9553ea-7c93-4f8c-907a-0765732ac86f",
+        "067d9f05-a6b8-4a4b-854c-3364234e62b1": "f7e7a36e-601e-4130-a819-fa9f752bd14a",
+        "0fbb8fd5-9b9c-48a2-a355-18aba7b5d9d5": "ab199aae-ac30-4a73-96ac-a67ac1d2e8d1",
+        "100af38e-d798-4b3a-8ee6-6280f0f4b4b8": "089f34c8-a9fa-480b-9b91-aa417097d552",
+        "1f665b2c-789e-4471-af7a-f86105f2466c": "5fe0b2a4-3e64-4451-a42d-bec734ea1199",
+        "22038780-8c50-4211-a99e-656d983e5207": "144e1e61-d50e-4325-8ff6-7a695f03446a",
+        "28a2e698-9f33-4d4d-9a5d-9bea66ee42a1": "4bf6560d-e40d-4412-b8c4-de4de06b42ac",
+        "3054d6e1-033b-4b8d-93e5-b807ea122c75": "3e76dbce-174a-45f6-8019-5c1f483aadbe",
+        "3214b8de-d3ea-4188-9329-15a92f894f23": "63416847-07a8-4bf1-b6cd-4243e0e76d8f",
+        "37cbf881-ab20-44e7-bfb9-af3f7c7fe5d1": "57a29545-91aa-423e-9a6f-53959a3b5b89",
+        "3a2b38a1-23da-4af8-8c1a-e52694c2416a": "7fd183d6-1899-4f6d-83c7-d68003390a23",
+        "3dbbb869-88a8-44f2-ac36-46fd0f5d825c": "06dc3030-152c-4e06-b359-9f64855a39dc",
+        "3f98b652-71d4-4a40-949d-41c33dddd15d": "f9912228-d55a-404f-b2e5-824658b21dc4",
+        "4ec576c6-d74d-4b23-83e5-7a94e76526c9": "ef369e50-d57e-499e-8219-841ac142f166",
+        "529cb618-8e48-4011-bd42-dd0b9d91fdcb": "af191999-3663-4264-922a-5934a7f04907",
+        "54cf6e06-9172-44b8-8d3b-ea1b6926553d": "a0efcc22-65e6-45a1-a474-6df949cd1613",
+        "56c796d6-74d3-4881-9166-7f528e2b67f6": "614ded35-dec0-4703-aaad-1abb645ad47b",
+        "5e86a9c3-b4d0-4fe1-a551-acd83e5d60eb": "11460f89-46da-4ee8-b5fe-8ca87ddb96e6",
+        "66156be8-6202-40bd-bdc2-014a46bee28f": "7fc358f2-b354-4004-afb1-f500fb99dd00",
+        "7494fbb4-5ac7-43ee-b91a-8859532f548b": "ab771c9f-a307-419b-a3d5-217074ab292c",
+        "74a45eed-f2b0-4886-ae71-d04cf7d59528": "91053668-891b-464a-8249-ccbad9903b85",
+        "979acf24-97b7-44f3-b8fb-6451f571540a": "b800a5e4-18bc-4402-b69e-402167501632",
+        "9f25f9f8-6028-4f4b-8e05-48b43272c167": "c8b85545-69a3-45eb-b054-fac03220e0d1",
+        "a4a75d83-54b5-4dca-913e-44ab04288446": "c9d2b49b-d13f-4f5e-b22c-9465a398b8c7",
+        "a89ac040-715d-4057-8fc0-9d71ad06fa0a": "11ac6d0a-2082-45a8-a091-71c8950eab5f",
+        "b4282659-dd1a-4042-a075-7df4890858e7": "7c4044ea-fb72-430d-b08b-19bfe77bf24d",
+        "b79b88e1-35ef-4947-8a61-f6ec631a1e15": "94cad9c3-833e-410a-a028-6cd25fdb20d9",
+        "badef3c4-e77e-4444-ac80-95d71332e974": "e9eedb28-ddb2-4948-8dfa-af5a44f71588",
+        "be886733-2368-474e-8225-18ff43c27d59": "797de269-39ee-4eef-9848-28b5bf089962",
+        "c12fb587-fc86-471c-8a84-19caf31325ce": "f2bfdc6c-0d84-4736-ba44-8cdbc196e0b3",
+        "c179fb5c-9845-4e37-aef7-6e00d97548eb": "0be3d8cd-ec75-442f-9b05-b6acaac19315",
+        "cd6c786e-3c65-4f88-9c7b-4a243295f0d6": "9b67540e-1aff-4d11-b99b-56eaf0ec30dc",
+        "dac0090b-6d39-4275-98ac-db8aab39502f": "5cef9632-cd85-406e-8441-661e2cc1657c",
+        "db72e294-1c54-454a-96b9-0b4fd2f38112": "b02cbe96-1ddf-40bc-9dec-7146c3350d61",
+        "e783937f-31dc-41bd-9510-2572d2dc35ee": "32f6a0a3-ca43-478d-9d41-1b890a2d82da",
+        "ff461754-ad20-4eeb-af02-2b46cc980b24": "beada20d-6def-48b5-8cdf-ca243e06640d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "f89877ff-7b5c-45c2-b183-17a4ef9f5958",
+      "status": "complete"
+    },
+    "end_date": "2026-04-06T03:55:05Z",
+    "id": "410ca6c6-c913-4ac8-a0f3-227f325093aa",
+    "last_updated_ts": "2026-04-07T04:10:51.217801Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR05LACSAC",
+      "KXNBASPREAD-26APR05LACSAC",
+      "KXNBATOTAL-26APR05LACSAC",
+      "KXNBATEAMTOTAL-26APR05LACSAC",
+      "KXNBA1HWINNER-26APR05LACSAC",
+      "KXNBA2HWINNER-26APR05LACSAC",
+      "KXNBA1HSPREAD-26APR05LACSAC",
+      "KXNBA1HTOTAL-26APR05LACSAC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR05LACSAC",
+      "KXNBASPREAD-26APR05LACSAC",
+      "KXNBATOTAL-26APR05LACSAC",
+      "KXNBATEAMTOTAL-26APR05LACSAC",
+      "KXNBA1HWINNER-26APR05LACSAC",
+      "KXNBA2HWINNER-26APR05LACSAC",
+      "KXNBAPTS-26APR05LACSAC",
+      "KXNBAREB-26APR05LACSAC",
+      "KXNBAAST-26APR05LACSAC",
+      "KXNBA3PT-26APR05LACSAC",
+      "KXNBA2D-26APR05LACSAC",
+      "KXNBA3D-26APR05LACSAC",
+      "KXNBASTL-26APR05LACSAC",
+      "KXNBABLK-26APR05LACSAC",
+      "KXNBA1HSPREAD-26APR05LACSAC",
+      "KXNBA1HTOTAL-26APR05LACSAC"
+    ],
+    "source_id": "f89877ff-7b5c-45c2-b183-17a4ef9f5958",
+    "source_ids": {
+      "source_2_id": "20260406A60A8419",
+      "source_3_id": "f89877ff-7b5c-45c2-b183-17a4ef9f5958",
+      "source_4_id": "62926151",
+      "source_5_id": "sr:match:62926151"
+    },
+    "start_date": "2026-04-06T01:00:00Z",
+    "title": "Los Angeles C at Sacramento",
+    "type": "basketball_game"
+  }
+}

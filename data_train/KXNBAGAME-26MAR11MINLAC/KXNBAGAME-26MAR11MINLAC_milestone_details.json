@@ -1,0 +1,231 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-11T03:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 106,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-07T20:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 92,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-06T01:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 115,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-04T01:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 117,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-01T20:30:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 117,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        }
+      ],
+      "away_team_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+      "game_injuries": {
+        "29e3c04e-fadb-4006-be20-cbb8c159ce0e": [
+          {
+            "comment": "The Timberwolves listed Dosunmu as Out for Wednesday's (Mar. 11) game versus the Clippers.",
+            "date_updated": "2026-03-11",
+            "description": "Thumb",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "930f19e3-6885-4738-9dae-484cb321f64f"
+          }
+        ],
+        "daca4413-0ea1-4db2-a815-f05c181ef0a6": [
+          {
+            "comment": "Niederhauser has been diagnosed with a Lisfranc injury in his right foot and will require surgery. He's been ruled out for the remainder of the 2025-26 season, according to Joey Linn of SI.com.",
+            "date_updated": "2026-03-05",
+            "description": "Foot",
+            "start_date": "2026-03-04",
+            "status": "Out For Season",
+            "structured_id": "ef369e50-d57e-499e-8219-841ac142f166"
+          },
+          {
+            "comment": "Beal will undergo season-ending surgery on his left hip, as per ESPN's Shams Charania reports.",
+            "date_updated": "2025-11-12",
+            "description": "Hip",
+            "start_date": "2025-11-10",
+            "status": "Out For Season",
+            "structured_id": "beada20d-6def-48b5-8cdf-ca243e06640d"
+          },
+          {
+            "comment": "The Clippers John Collins to miss at least 1 more week.",
+            "date_updated": "2026-03-09",
+            "description": "Arm",
+            "start_date": "2026-03-01",
+            "status": "Out",
+            "structured_id": "4bf6560d-e40d-4412-b8c4-de4de06b42ac"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-10T02:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 126,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-08T01:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 123,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T02:30:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 112,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-05T03:30:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 130,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-03T03:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 114,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        }
+      ],
+      "home_team_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR11MINLAC",
+      "player_id_mapping": {
+        "067d9f05-a6b8-4a4b-854c-3364234e62b1": "f7e7a36e-601e-4130-a819-fa9f752bd14a",
+        "0a5e8d12-47e5-4afc-973a-e1f8184776c1": "37610450-b248-4427-b2d0-ff7fe6973eab",
+        "100af38e-d798-4b3a-8ee6-6280f0f4b4b8": "089f34c8-a9fa-480b-9b91-aa417097d552",
+        "1f665b2c-789e-4471-af7a-f86105f2466c": "5fe0b2a4-3e64-4451-a42d-bec734ea1199",
+        "24a0f5aa-209a-4d54-91db-bddecc37f87e": "7b22d659-5c24-411c-937b-23352fdefff6",
+        "24c85a15-686e-4161-934b-40948188fa36": "2bf5e35d-4c07-42ff-bcc0-e2e7b05eab71",
+        "28a2e698-9f33-4d4d-9a5d-9bea66ee42a1": "4bf6560d-e40d-4412-b8c4-de4de06b42ac",
+        "2b95727a-4273-4f8f-a45b-3d9ac9969dba": "ddef089e-567a-4057-a913-5c93bbd0ec91",
+        "2e49c27a-06c5-4c4a-87fd-69840b783947": "2f1946d8-9bb5-472b-803a-206835b7b87e",
+        "3054d6e1-033b-4b8d-93e5-b807ea122c75": "3e76dbce-174a-45f6-8019-5c1f483aadbe",
+        "37fbc3a5-0d10-4e22-803b-baa2ea0cdb12": "e9c185a4-48f9-497a-9da5-03d763ab11a3",
+        "3f98b652-71d4-4a40-949d-41c33dddd15d": "f9912228-d55a-404f-b2e5-824658b21dc4",
+        "460b7264-b98f-483e-b841-59a18c2e4d67": "4d76b816-4ca3-4a92-bbd3-489819b6821b",
+        "4ec576c6-d74d-4b23-83e5-7a94e76526c9": "ef369e50-d57e-499e-8219-841ac142f166",
+        "54cf6e06-9172-44b8-8d3b-ea1b6926553d": "a0efcc22-65e6-45a1-a474-6df949cd1613",
+        "56c796d6-74d3-4881-9166-7f528e2b67f6": "614ded35-dec0-4703-aaad-1abb645ad47b",
+        "5b297372-b2af-445e-a4bc-777982dbc1e3": "85df4482-17a9-49b8-b40f-b6cddb54e579",
+        "65fec68f-dfbb-4127-bb7a-932d5144c0f6": "c040b6ef-2b8f-4338-ad6c-6a5973bb1484",
+        "7ad01370-ae8e-40ae-b70d-61f6d8dba8d9": "b7022c10-2203-4b3e-877d-f539c32e0532",
+        "823b2161-0c34-494c-9d7c-b438152f4f4d": "15a36614-d0eb-4be8-af9f-4e79a32d4231",
+        "952cd8e7-2fa5-4eac-bcd9-b2e135eab16f": "0f3fa1bc-e62a-4ea6-b30e-8f77f6f625f8",
+        "979acf24-97b7-44f3-b8fb-6451f571540a": "b800a5e4-18bc-4402-b69e-402167501632",
+        "9c1deadf-622c-4326-bd14-3e273b5e1e5a": "14647265-8f75-4624-abab-5b6f9d1ef5cb",
+        "9cfad453-b323-43dc-a066-6cd0a21745ad": "19e432c3-e255-428c-94d0-cedebed3dfc5",
+        "9f25f9f8-6028-4f4b-8e05-48b43272c167": "c8b85545-69a3-45eb-b054-fac03220e0d1",
+        "a34ec970-f4a1-47a3-98a1-51ff5e92a443": "9c875ec2-a062-4b15-9621-d5786b40a985",
+        "a89ac040-715d-4057-8fc0-9d71ad06fa0a": "11ac6d0a-2082-45a8-a091-71c8950eab5f",
+        "aa5536d2-4d75-43fb-8df3-47fbf99d3b7c": "4432f713-dfc6-47db-881d-bace88c4d9c1",
+        "b4282659-dd1a-4042-a075-7df4890858e7": "7c4044ea-fb72-430d-b08b-19bfe77bf24d",
+        "b79b88e1-35ef-4947-8a61-f6ec631a1e15": "94cad9c3-833e-410a-a028-6cd25fdb20d9",
+        "c12fb587-fc86-471c-8a84-19caf31325ce": "f2bfdc6c-0d84-4736-ba44-8cdbc196e0b3",
+        "c179fb5c-9845-4e37-aef7-6e00d97548eb": "0be3d8cd-ec75-442f-9b05-b6acaac19315",
+        "d0c7135a-1aea-40cb-ba20-df656de71749": "36ea9bc5-23b0-4274-9c6c-cd8a07b1b654",
+        "dac0090b-6d39-4275-98ac-db8aab39502f": "5cef9632-cd85-406e-8441-661e2cc1657c",
+        "f8a7e4c7-d60e-4751-9203-30a772dd9272": "930f19e3-6885-4738-9dae-484cb321f64f",
+        "ff461754-ad20-4eeb-af02-2b46cc980b24": "beada20d-6def-48b5-8cdf-ca243e06640d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "83a3c2ef-b839-4c74-a848-c224ad24e2f6",
+      "status": "complete"
+    },
+    "end_date": "2026-03-12T05:30:22Z",
+    "id": "bba5b75a-7ff8-481e-b992-109959dc7d42",
+    "last_updated_ts": "2026-03-26T07:29:09.598479Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR11MINLAC",
+      "KXNBASPREAD-26MAR11MINLAC",
+      "KXNBATOTAL-26MAR11MINLAC",
+      "KXNBATEAMTOTAL-26MAR11MINLAC",
+      "KXNBA1HWINNER-26MAR11MINLAC",
+      "KXNBA2HWINNER-26MAR11MINLAC",
+      "KXNBA1HSPREAD-26MAR11MINLAC",
+      "KXNBA1HTOTAL-26MAR11MINLAC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR11MINLAC",
+      "KXNBASPREAD-26MAR11MINLAC",
+      "KXNBATOTAL-26MAR11MINLAC",
+      "KXNBATEAMTOTAL-26MAR11MINLAC",
+      "KXNBA1HWINNER-26MAR11MINLAC",
+      "KXNBA2HWINNER-26MAR11MINLAC",
+      "KXNBAPTS-26MAR11MINLAC",
+      "KXNBAREB-26MAR11MINLAC",
+      "KXNBAAST-26MAR11MINLAC",
+      "KXNBA3PT-26MAR11MINLAC",
+      "KXNBA2D-26MAR11MINLAC",
+      "KXNBA3D-26MAR11MINLAC",
+      "KXNBASTL-26MAR11MINLAC",
+      "KXNBABLK-26MAR11MINLAC",
+      "KXNBA1HSPREAD-26MAR11MINLAC",
+      "KXNBA1HTOTAL-26MAR11MINLAC"
+    ],
+    "source_id": "83a3c2ef-b839-4c74-a848-c224ad24e2f6",
+    "source_ids": {
+      "source_2_id": "2026031224025246",
+      "source_3_id": "83a3c2ef-b839-4c74-a848-c224ad24e2f6",
+      "source_4_id": "62926361",
+      "source_5_id": "sr:match:62926361"
+    },
+    "start_date": "2026-03-12T02:30:00Z",
+    "title": "Minnesota at Los Angeles C",
+    "type": "basketball_game"
+  }
+}

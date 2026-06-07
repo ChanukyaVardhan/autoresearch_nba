@@ -1,0 +1,102 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+      "home_team_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB11ATLCHA",
+      "player_id_mapping": {
+        "02dc6e18-95a4-4919-b4fc-f8a981ccd359": "2a838282-e52d-4c14-82db-ec72fa649d2e",
+        "0b9a642d-d6f6-4c65-a7bd-d82e016e1b5d": "45a1a8b2-fcfd-46f2-96e2-5e86555de713",
+        "1d4905d6-a6b4-4b45-8a90-91ed03440d0f": "4180e569-6cb9-4bf3-9f02-ae4f7c2659e8",
+        "22d1eb4b-c0de-49c8-9e11-866b9d98cca2": "b8a2ba46-a11a-4764-83c5-39932de64a5f",
+        "26049bcf-1ff3-4a23-8e4c-ce0b18784738": "081cbdc6-3e78-494c-8668-e181e9544c8b",
+        "298852ca-299d-4cb9-a9e5-6ac909582f78": "a9fecddd-880e-499f-8fa4-1472c9dee372",
+        "3358cc38-7331-43ad-af04-ebd34fe328e7": "fa5d64cf-9154-4a34-8533-8ca65fb200d1",
+        "358fb074-ac1b-45a6-bf54-46c30534786e": "f61bdc80-8315-4d93-a488-71dc37ee3e8f",
+        "388ec80d-171a-48f7-9cc8-5a8bebde54e0": "88d788fe-5410-40c4-9193-b0e3e1af4f1f",
+        "3f34ce93-c0ad-4868-bab4-c6d83909ff78": "a4244555-a33c-46da-8c9f-de4e6b660bad",
+        "50e0c4e6-dfe4-42ca-bf18-aa2630be21c9": "4f6bd439-7fd8-4d25-bff5-72b1b2b46b4e",
+        "59209028-6712-47ef-b87c-bdb19f91523b": "840aa2b8-dc28-4a71-a899-76844bc24ebd",
+        "5b681679-4d8c-4964-bbba-5ed058257745": "2749b30f-ae8f-4883-bf7f-0c8d362c7f60",
+        "68ed2fac-e117-48e1-ac43-314098f600ea": "de3a9956-3e26-4259-938b-212a651a93ca",
+        "70e50e53-ca3b-425d-ac49-b156d6d1e016": "18c71a75-fa9c-458b-99a4-38de2b350233",
+        "775e4450-cdcd-43a1-b4cd-dc29fba48503": "2a87f5ef-36b3-4f5e-8565-ea9f6c6820a2",
+        "78dc76b4-a810-4e4a-9418-5cf3fa03582f": "59801ae6-95af-47a0-b074-2ac1bce80c48",
+        "795f46f2-c78d-4f1d-9ee2-4331c1cc8184": "383eab80-5509-470a-976d-3b960b1780fa",
+        "820a9363-1ad3-46a0-b577-2588f85b27f2": "bbee4cc1-3ac7-448a-b2aa-ad1b692d83a6",
+        "8e0c0e99-7060-4dce-a76a-777c3ee22da8": "2f4eae0a-51c8-4a32-97c5-d59bdea46703",
+        "968ecb8b-c8b6-4fe1-a606-346f7a82a7c1": "07a07fb0-6af1-4b7a-82d7-0e706b02aa2d",
+        "a1e46e84-bd9e-454d-9117-a8fa1aab0ce4": "0bcb0358-92a6-405a-8ba0-b41d69bd4da7",
+        "abe7b1d1-e992-4ab5-8f0c-8a0d7747ca1f": "15a90b6e-13a2-4d02-9892-373ec942ff97",
+        "af8f331b-96a6-416e-8837-b14d5b11c52d": "6dc593c0-4411-4471-8d19-da2eb414e6fb",
+        "b27687c1-55bb-49e6-9c5b-96a099fda7b7": "ad81c551-8dcc-4678-a547-523db6eac9e6",
+        "bc70a55a-cee0-478f-9a13-cf51c4a4187c": "fe9f8331-a822-49bc-bfca-9c7e7c84883a",
+        "bda65c13-f2d4-43ec-b058-b7807bec4867": "69db2a9d-b98d-47aa-accf-d082d6daa2b6",
+        "be53f27f-c666-4bd2-8fcd-0713f963aa2b": "2b9f626b-3bc9-4d66-9ac9-9689f65fc7fc",
+        "d146629c-2584-4760-89af-e4378d7569c1": "d10494a2-6820-41e6-ac9c-8c518d050388",
+        "d222539f-fa52-4070-807f-d3aba372f46d": "aad8a908-c093-4a62-bf38-d6c5bc8a40f5",
+        "d3d0ab55-b939-47b3-af27-77cdf85d7956": "f46826e2-8666-4ffa-a319-627149adc113",
+        "dcea56e2-1ba1-49ab-b0d0-764fa98bc6b5": "84fad10f-33cc-4c56-b60a-78d5fa3bc946",
+        "ed643452-917d-40c5-badd-2e72958b059c": "d16a5d6e-12a2-4588-bd68-25a1f121d767",
+        "fa142a43-00a4-4e79-be7b-d469c09dfdd0": "25d03f89-b2bf-46f7-ab2e-abda8df482f6",
+        "fb60c435-dd40-401e-977b-15bdbb753444": "49b7f351-b51d-4429-8324-a1cf8afe003f",
+        "fba3e1cf-82e4-412a-b8db-148f9b93ebf3": "bf3e0f23-5690-485d-bca2-f3a04ff4766e"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "69fdb7a9-a347-45f0-8503-5f451a4a6e13",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-12T19:31:12Z",
+    "id": "88e31d58-9c5e-46d6-8262-a7cdca5c2da7",
+    "last_updated_ts": "2026-03-26T07:28:50.071765Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB11ATLCHA",
+      "KXNBASPREAD-26FEB11ATLCHA",
+      "KXNBATOTAL-26FEB11ATLCHA",
+      "KXNBATEAMTOTAL-26FEB11ATLCHA",
+      "KXNBA1HWINNER-26FEB11ATLCHA",
+      "KXNBA1HSPREAD-26FEB11ATLCHA",
+      "KXNBA1HTOTAL-26FEB11ATLCHA",
+      "KXNBA2HWINNER-26FEB11ATLCHA"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB11ATLCHA",
+      "KXNBASPREAD-26FEB11ATLCHA",
+      "KXNBATOTAL-26FEB11ATLCHA",
+      "KXNBATEAMTOTAL-26FEB11ATLCHA",
+      "KXNBAPTS-26FEB11ATLCHA",
+      "KXNBAREB-26FEB11ATLCHA",
+      "KXNBAAST-26FEB11ATLCHA",
+      "KXNBA3PT-26FEB11ATLCHA",
+      "KXNBA2D-26FEB11ATLCHA",
+      "KXNBA3D-26FEB11ATLCHA",
+      "KXNBASTL-26FEB11ATLCHA",
+      "KXNBA1HWINNER-26FEB11ATLCHA",
+      "KXNBA1HSPREAD-26FEB11ATLCHA",
+      "KXNBA1HTOTAL-26FEB11ATLCHA",
+      "KXNBA2HWINNER-26FEB11ATLCHA"
+    ],
+    "source_id": "69fdb7a9-a347-45f0-8503-5f451a4a6e13",
+    "source_ids": {
+      "source_2_id": "20260212CF6F9972",
+      "source_3_id": "69fdb7a9-a347-45f0-8503-5f451a4a6e13"
+    },
+    "start_date": "2026-02-12T00:00:00Z",
+    "title": "Atlanta at Charlotte",
+    "type": "basketball_game"
+  }
+}

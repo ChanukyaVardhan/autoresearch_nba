@@ -1,0 +1,252 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-09T02:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 112,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-04-08T03:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 105,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 120,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T23:00:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 107,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        },
+        {
+          "date": "2026-03-31T23:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 111,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        }
+      ],
+      "away_team_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+      "game_injuries": {
+        "2ef4d31c-0b46-4f43-a403-f44d62489034": [
+          {
+            "comment": "Reaves underwent imaging recently and may not play in Sunday's game against Dallas, Khobi Price of The California Post.",
+            "date_updated": "2026-04-04",
+            "description": "Rib",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "0a8e255c-0588-49fd-9cfe-a4bd26dcf171"
+          },
+          {
+            "comment": "The Lakers listed Hayes as Out on Friday's (Apr. 10) game versus the Suns.",
+            "date_updated": "2026-04-10",
+            "description": "Foot",
+            "start_date": "2026-04-08",
+            "status": "Out",
+            "structured_id": "7dd0d3fe-90a2-4bd7-aec4-197def28882a"
+          },
+          {
+            "comment": "Doncic will miss the remainder of the regular season due to a Grade 2 left hamstring strain, and his status for the playoffs is uncertain, according to Chris Haynes of NBA TV.",
+            "date_updated": "2026-04-03",
+            "description": "Hamstring",
+            "start_date": "2026-04-02",
+            "status": "Out",
+            "structured_id": "008856e0-b1ab-47f1-8df7-06e243f5f000"
+          }
+        ],
+        "ace11dff-c5d1-4ab9-9452-5312253659fd": [
+          {
+            "comment": "The Suns listed Booker as Out for Friday's (Apr. 10) game against the Lakers.",
+            "date_updated": "2026-04-09",
+            "description": "Ankle",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "3f978bca-a08f-4bf0-af43-279bfb8384d9"
+          },
+          {
+            "comment": "The Suns listed Highsmith as Out for Friday's (Apr. 10) game against the Lakers.",
+            "date_updated": "2026-04-09",
+            "description": "Knee",
+            "start_date": "2026-03-19",
+            "status": "Out",
+            "structured_id": "4cce6dfe-00c9-4334-9bc4-f085f127200d"
+          },
+          {
+            "comment": "The Suns listed Green as Out for Friday's (Apr. 10) game against the Lakers.",
+            "date_updated": "2026-04-10",
+            "description": "Knee",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "5bd1435d-e77a-4202-bff3-6977979e10c1"
+          },
+          {
+            "comment": "The Suns listed Goodwin as Out for Friday's (Apr. 10) game against the Lakers.",
+            "date_updated": "2026-04-09",
+            "description": "Ankle",
+            "start_date": "2026-04-08",
+            "status": "Out",
+            "structured_id": "31f47c5d-9201-4953-a3b9-c474734051bb"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-10T02:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 119,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-04-08T02:30:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 87,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        },
+        {
+          "date": "2026-04-05T23:30:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 128,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        },
+        {
+          "date": "2026-04-03T01:30:00+00:00",
+          "opponent_points": 139,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 96,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        },
+        {
+          "date": "2026-04-01T02:30:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 127,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        }
+      ],
+      "home_team_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR10PHXLAL",
+      "player_id_mapping": {
+        "0afbe608-940a-4d5d-a1f7-468718c67d91": "5631e46b-716c-4842-8607-a6ebf12fe029",
+        "0b79911f-cd24-46d1-9b05-49fe937aa75e": "a7d5b353-0663-4261-8c13-06489385f44c",
+        "0b9bab33-66c3-4e01-b91e-df6b8c40ea2b": "31f47c5d-9201-4953-a3b9-c474734051bb",
+        "18c4bd7c-e293-4c0a-95d4-5e9983d301b3": "40b4e236-80d9-476b-98c1-e5ab58b441e8",
+        "1c19138b-1769-4418-b481-af76751739f0": "fad850fa-b08e-4a43-90be-2122d751394c",
+        "215f475c-bee5-418c-ba2d-ebb9580e4b3c": "276f9513-b8ed-4a02-9847-8e25afc5bf67",
+        "31baa84f-c759-4f92-8e1f-a92305ade3d6": "3f978bca-a08f-4bf0-af43-279bfb8384d9",
+        "32526c95-bc6e-4d28-a751-c4200904d80b": "5ffee3f0-4e18-4bd7-b893-81f335111761",
+        "36d34864-f1f9-48f9-9cf1-bd7accc437c7": "9b4296e6-79b8-4ad5-94e3-afc3956122a4",
+        "3ef70a50-cd0d-4148-a1ad-ca830a1a9046": "f8c2fa0d-6c62-407d-8067-a444ded9c263",
+        "4ab32c74-1d47-41aa-8fa7-7dabe48a9fd6": "5bd89163-4fb4-45b2-98ef-0663037fc05c",
+        "582db35d-33ae-4913-9bb3-5de4fb763e46": "7dd0d3fe-90a2-4bd7-aec4-197def28882a",
+        "5bfc9a4c-deb7-4f37-a784-5d99ada863cb": "42215952-20e6-4c4f-9f07-9f6ed2f0fa18",
+        "60b8026e-e154-4ed7-a247-8e4af1dbf668": "43913e84-c766-46d4-922d-76c07d62beff",
+        "6c0e93c1-0b81-4abb-8eb6-e573eff576ea": "094d4fcb-01e2-405e-a7ee-1f0ec4c6840f",
+        "72a6489b-ad35-4f06-8a4f-a68ea1052f7b": "4f37758f-6499-4692-b0d6-7c0aafc58cef",
+        "749f9e06-52c1-4436-840e-9096a9908c0b": "5a55f86d-dd08-4c8d-b9cd-8549d64f86f4",
+        "7ca4beac-bbd6-454f-b820-4e8442a3e1e5": "30e25b93-8631-4a93-a536-5fda82c7706a",
+        "816ef930-8918-4b1d-9f0e-d0d867e6956a": "9fe8d10d-75a2-459f-8214-2a808a6ca345",
+        "9a331092-35db-456c-a44a-d5b80a02ebe9": "5bd1435d-e77a-4202-bff3-6977979e10c1",
+        "a17d9b20-4e2b-4612-aecd-27938c997e94": "4cce6dfe-00c9-4334-9bc4-f085f127200d",
+        "a537047d-c29f-4dfe-99b0-3bac4e258dc7": "3b01a74c-dbf7-4948-a75e-824710916ac9",
+        "a5ec46e9-928f-4609-ab4d-c86ec6434327": "8a343563-d02a-4fb5-995b-558cba5ce783",
+        "af460d21-b1d8-46bb-a228-61ac4fb9ccf9": "a2901ab3-44f7-44b4-b9ee-1b7f88dcd3aa",
+        "b69837ca-4e1d-4124-956d-00e3febe358e": "e89c6259-4d3a-47ba-a911-984d4af4d508",
+        "b9d4ce1b-94dc-4bec-8d62-70a86d9c523e": "482a6dca-2054-4864-a82b-fec005bccbec",
+        "bcb84104-a049-4263-8574-67b1d786481c": "5c3b34a4-b55b-4a0b-b6b5-3ae0dceef416",
+        "c4981f56-93a2-47b1-8d31-4e8635f45e1d": "0a8e255c-0588-49fd-9cfe-a4bd26dcf171",
+        "c722d438-db08-421e-9484-9e7d2f67c05d": "89073ae6-964f-4d13-8eeb-2e5ead049263",
+        "cbea1c03-1ac9-4afa-8fdc-2d7155ea5583": "75c2bd2a-ee4a-412c-9ba4-df98ca75805b",
+        "d2ee92e9-3e72-45eb-b156-2dc5adc1e6f7": "008856e0-b1ab-47f1-8df7-06e243f5f000",
+        "e1d35615-1fd9-4c91-a05f-ef6e7f23c4ff": "70b46360-e073-43d8-948b-cefbbd66b356",
+        "e693c3a1-c958-48d5-9edc-46d95aae0ad1": "ebe42beb-ccb9-4646-85f9-3c627c1b5d40",
+        "fc0c5adb-2e00-4b9b-9db2-338ed54be386": "8c677e1a-09f0-4dab-9c20-161558ae282c",
+        "ffa9a64f-d624-4033-bd23-59dcfd805175": "07a246cd-1c40-42f1-849e-58fbd7696c30"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "fe40060a-a72b-4b41-b123-035fab284fc9",
+      "status": "complete"
+    },
+    "end_date": "2026-04-11T05:50:56Z",
+    "id": "5d81e289-a35d-480d-ae2e-52c4da08e72a",
+    "last_updated_ts": "2026-04-12T05:58:32.212505Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR10PHXLAL",
+      "KXNBASPREAD-26APR10PHXLAL",
+      "KXNBATOTAL-26APR10PHXLAL",
+      "KXNBATEAMTOTAL-26APR10PHXLAL",
+      "KXNBA1HWINNER-26APR10PHXLAL",
+      "KXNBA2HWINNER-26APR10PHXLAL",
+      "KXNBA1HSPREAD-26APR10PHXLAL",
+      "KXNBA1HTOTAL-26APR10PHXLAL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR10PHXLAL",
+      "KXNBASPREAD-26APR10PHXLAL",
+      "KXNBATOTAL-26APR10PHXLAL",
+      "KXNBATEAMTOTAL-26APR10PHXLAL",
+      "KXNBA1HWINNER-26APR10PHXLAL",
+      "KXNBA2HWINNER-26APR10PHXLAL",
+      "KXNBA1HSPREAD-26APR10PHXLAL",
+      "KXNBA1HTOTAL-26APR10PHXLAL",
+      "KXNBAPTS-26APR10PHXLAL",
+      "KXNBAREB-26APR10PHXLAL",
+      "KXNBAAST-26APR10PHXLAL",
+      "KXNBA2D-26APR10PHXLAL",
+      "KXNBA3D-26APR10PHXLAL",
+      "KXNBA3PT-26APR10PHXLAL"
+    ],
+    "source_id": "fe40060a-a72b-4b41-b123-035fab284fc9",
+    "source_ids": {
+      "source_2_id": "20260411AE57B225",
+      "source_3_id": "fe40060a-a72b-4b41-b123-035fab284fc9",
+      "source_4_id": "62924905",
+      "source_5_id": "sr:match:62924905"
+    },
+    "start_date": "2026-04-11T02:30:00Z",
+    "title": "Phoenix at Los Angeles L",
+    "type": "basketball_game"
+  }
+}

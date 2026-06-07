@@ -1,0 +1,219 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-07T02:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 142,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        },
+        {
+          "date": "2026-03-05T00:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 100,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": false
+        },
+        {
+          "date": "2026-03-04T00:30:00+00:00",
+          "opponent_points": 95,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 111,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        },
+        {
+          "date": "2026-03-01T18:00:00+00:00",
+          "opponent_points": 89,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 114,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        },
+        {
+          "date": "2026-02-28T01:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 127,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        }
+      ],
+      "away_team_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+      "game_injuries": {
+        "2ef4d31c-0b46-4f43-a403-f44d62489034": [
+          {
+            "comment": "The Lakers have listed James as OUT for Sunday's (Mar. 8) game against the Knicks.",
+            "date_updated": "2026-03-08",
+            "description": "Elbow",
+            "start_date": "2026-03-05",
+            "status": "Out",
+            "structured_id": "5631e46b-716c-4842-8607-a6ebf12fe029"
+          }
+        ],
+        "67468ecc-b868-43a4-b9dc-751a52894bb0": [
+          {
+            "comment": "McBride will undergo surgery for a core muscle injury and may be sidelined until the playoffs, according to James L. Edwards III of The Athletic.",
+            "date_updated": "2026-02-05",
+            "description": "Ankle",
+            "start_date": "2026-01-28",
+            "status": "Out",
+            "structured_id": "a5b8f7e8-2d48-42da-8ebb-8200ac9b0a07"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-07T03:30:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 128,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-06T03:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 113,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        },
+        {
+          "date": "2026-03-04T03:30:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 110,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-02T02:30:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 128,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-01T01:30:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 129,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        }
+      ],
+      "home_team_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR08NYKLAL",
+      "player_id_mapping": {
+        "03d77214-5780-4715-8df2-13de3af5ea2d": "f32ff309-d901-4ed3-a00d-cbcb6a22394b",
+        "0afbe608-940a-4d5d-a1f7-468718c67d91": "5631e46b-716c-4842-8607-a6ebf12fe029",
+        "0b79911f-cd24-46d1-9b05-49fe937aa75e": "a7d5b353-0663-4261-8c13-06489385f44c",
+        "106a6290-fe0d-47dd-8cc5-0a0e34a77165": "e4afd02c-10ef-4cef-8596-7687986d022a",
+        "1c19138b-1769-4418-b481-af76751739f0": "fad850fa-b08e-4a43-90be-2122d751394c",
+        "227c2e8f-087e-4c15-8386-758ba10e06d2": "77db549c-35c8-4e23-b8d1-c86cf8b50fdf",
+        "355a6113-d842-40be-9e74-90bb0800aabe": "a5b8f7e8-2d48-42da-8ebb-8200ac9b0a07",
+        "3bec965e-1c2e-4ef0-a598-74a018a627c4": "649b5ddd-017c-4dec-a035-13ab54d36011",
+        "3ef70a50-cd0d-4148-a1ad-ca830a1a9046": "f8c2fa0d-6c62-407d-8067-a444ded9c263",
+        "467f6843-4a9d-413b-9924-d2188d60e6fe": "af13c6ca-a86b-4642-900e-3dfc90a2d607",
+        "4ab32c74-1d47-41aa-8fa7-7dabe48a9fd6": "5bd89163-4fb4-45b2-98ef-0663037fc05c",
+        "4d9e0abc-05aa-45de-be32-b0770697416a": "02cf3212-1a0f-4774-836e-26e85b903c14",
+        "582db35d-33ae-4913-9bb3-5de4fb763e46": "7dd0d3fe-90a2-4bd7-aec4-197def28882a",
+        "5bfc9a4c-deb7-4f37-a784-5d99ada863cb": "42215952-20e6-4c4f-9f07-9f6ed2f0fa18",
+        "6fc9597d-8531-491e-939e-e34c21689314": "fc9f98b2-53d0-4461-baba-1fb6ac9e2548",
+        "7ca4beac-bbd6-454f-b820-4e8442a3e1e5": "30e25b93-8631-4a93-a536-5fda82c7706a",
+        "7e06d5ac-b8f3-47e7-809c-92cf63a864f7": "3c4f4966-d9cb-4bb9-adb9-ee429adf01a0",
+        "816ef930-8918-4b1d-9f0e-d0d867e6956a": "9fe8d10d-75a2-459f-8214-2a808a6ca345",
+        "83cc5b28-36a7-43ba-ba20-8347bd1de583": "39374db0-6937-4ad5-bf39-7603700c9896",
+        "8d3edba8-9004-4199-9328-cc2208e8b0d3": "67413379-4f2e-4419-9a34-5518e4dfc22c",
+        "8d6caab5-3a9a-4994-bde0-9fe14032efd7": "68b815b1-9fe7-4d69-b044-9b2bc40adc47",
+        "9474fa0a-70dd-44c4-9751-dac5839ae7f3": "db091682-1cde-47be-afa9-4669075bb504",
+        "97e25d19-7c5c-49f9-91c0-5cd9b9cebdcb": "d4788df0-3807-47ca-bb94-24a02428371d",
+        "a10a4352-53b3-47b6-a336-201dc9e8401e": "2c27d2d3-1f7d-4759-ada1-a4757a3332ca",
+        "a537047d-c29f-4dfe-99b0-3bac4e258dc7": "3b01a74c-dbf7-4948-a75e-824710916ac9",
+        "ab532a66-9314-4d57-ade7-bb54a70c65ad": "2410a7e1-07fb-494e-81b8-37e151d1ae00",
+        "af460d21-b1d8-46bb-a228-61ac4fb9ccf9": "a2901ab3-44f7-44b4-b9ee-1b7f88dcd3aa",
+        "b69837ca-4e1d-4124-956d-00e3febe358e": "e89c6259-4d3a-47ba-a911-984d4af4d508",
+        "bcb84104-a049-4263-8574-67b1d786481c": "5c3b34a4-b55b-4a0b-b6b5-3ae0dceef416",
+        "c4981f56-93a2-47b1-8d31-4e8635f45e1d": "0a8e255c-0588-49fd-9cfe-a4bd26dcf171",
+        "cbea1c03-1ac9-4afa-8fdc-2d7155ea5583": "75c2bd2a-ee4a-412c-9ba4-df98ca75805b",
+        "d2ee92e9-3e72-45eb-b156-2dc5adc1e6f7": "008856e0-b1ab-47f1-8df7-06e243f5f000",
+        "d6fbf8f8-bb4a-43f7-95f6-498a5e042138": "ee7a2d49-1c75-458b-992c-a5a2a60d5d12",
+        "da899e36-f338-495b-b6f0-121295baf354": "d7b10a02-f031-49b2-b295-b095079ce73d",
+        "e693c3a1-c958-48d5-9edc-46d95aae0ad1": "ebe42beb-ccb9-4646-85f9-3c627c1b5d40",
+        "fd131bac-4644-4f4d-b715-2bc093775cd5": "3914da73-92f8-452d-a1f6-c441d57f6e2e"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "96715a41-8bb4-4e97-b49b-51af612dc460",
+      "status": "complete"
+    },
+    "end_date": "2026-03-09T00:30:00Z",
+    "id": "4e9d218b-20e9-4a37-a77a-1e4b6dde65d8",
+    "last_updated_ts": "2026-03-26T07:29:16.128509Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR08NYKLAL",
+      "KXNBASPREAD-26MAR08NYKLAL",
+      "KXNBATOTAL-26MAR08NYKLAL",
+      "KXNBATEAMTOTAL-26MAR08NYKLAL",
+      "KXNBA1HWINNER-26MAR08NYKLAL",
+      "KXNBA2HWINNER-26MAR08NYKLAL",
+      "KXNBA1HSPREAD-26MAR08NYKLAL",
+      "KXNBA1HTOTAL-26MAR08NYKLAL",
+      "KXNBA2HSPREAD-26MAR08NYKLAL",
+      "KXNBA2HTOTAL-26MAR08NYKLAL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR08NYKLAL",
+      "KXNBASPREAD-26MAR08NYKLAL",
+      "KXNBATOTAL-26MAR08NYKLAL",
+      "KXNBATEAMTOTAL-26MAR08NYKLAL",
+      "KXNBAMENTION-26MAR08NYKLAL",
+      "KXNBA1HWINNER-26MAR08NYKLAL",
+      "KXNBA2HWINNER-26MAR08NYKLAL",
+      "KXNBAPTS-26MAR08NYKLAL",
+      "KXNBAREB-26MAR08NYKLAL",
+      "KXNBAAST-26MAR08NYKLAL",
+      "KXNBA3PT-26MAR08NYKLAL",
+      "KXNBA2D-26MAR08NYKLAL",
+      "KXNBA3D-26MAR08NYKLAL",
+      "KXNBASTL-26MAR08NYKLAL",
+      "KXNBA1HSPREAD-26MAR08NYKLAL",
+      "KXNBA1HTOTAL-26MAR08NYKLAL",
+      "KXNBA2HSPREAD-26MAR08NYKLAL",
+      "KXNBA2HTOTAL-26MAR08NYKLAL"
+    ],
+    "source_id": "96715a41-8bb4-4e97-b49b-51af612dc460",
+    "source_ids": {
+      "source_2_id": "202603084773092D",
+      "source_3_id": "96715a41-8bb4-4e97-b49b-51af612dc460",
+      "source_4_id": "62926233",
+      "source_5_id": "sr:match:62926233"
+    },
+    "start_date": "2026-03-08T19:30:00Z",
+    "title": "New York at Los Angeles L",
+    "type": "basketball_game"
+  }
+}

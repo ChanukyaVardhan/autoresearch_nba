@@ -1,0 +1,243 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-25T23:00:00+00:00",
+          "opponent_points": 137,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 157,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-23T23:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 103,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-22T01:30:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 126,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-20T02:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 139,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-18T02:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 96,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": false
+        }
+      ],
+      "away_team_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+      "game_injuries": {
+        "0554528d-586b-461f-827b-801cf93e8a8e": [
+          {
+            "comment": "The 76ers listed Maxey as Questionable for Saturday's (Mar. 28) game against the Hornets.",
+            "date_updated": "2026-03-27",
+            "description": "Finger",
+            "start_date": "2026-03-07",
+            "status": "Day To Day",
+            "structured_id": "90456e7e-47d2-483c-afe5-b6bacec17b2f"
+          },
+          {
+            "comment": "Broome underwent a successful partial meniscectomy to address a lateral meniscus tear in his right knee and will be re-evaluated in 4 weeks, according to Austin Krell.",
+            "date_updated": "2026-02-28",
+            "description": "Knee",
+            "start_date": "2026-02-22",
+            "status": "Out",
+            "structured_id": "00c958c5-01a7-4668-a3b3-669c22526e03"
+          },
+          {
+            "comment": "The 76ers listed Oubre Jr. as Questionable for Saturday's (Mar. 28) game against the Hornets.",
+            "date_updated": "2026-03-27",
+            "description": "Elbow",
+            "start_date": "2026-03-11",
+            "status": "Day To Day",
+            "structured_id": "605cfa20-dc8e-4c44-90bd-1ee476ec4138"
+          }
+        ],
+        "7c980c51-fa76-4571-b165-242b2a00f3a1": [
+          {
+            "comment": "McNeeley did not play on Thursday's (Mar. 26) game against the Knicks.",
+            "date_updated": "2026-03-27",
+            "description": "Illness",
+            "start_date": "2026-03-26",
+            "status": "Day To Day",
+            "structured_id": "25d03f89-b2bf-46f7-ab2e-abda8df482f6"
+          },
+          {
+            "comment": "The Hornets listed Salaun as Out for Saturday's (Mar. 28) game against the 76ers.",
+            "date_updated": "2026-03-27",
+            "description": "Calf",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "4f6bd439-7fd8-4d25-bff5-72b1b2b46b4e"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-26T23:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 114,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-03-24T23:00:00+00:00",
+          "opponent_points": 90,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 134,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-03-21T23:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 124,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-03-19T23:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 130,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-03-17T23:00:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 136,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        }
+      ],
+      "home_team_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR28PHICHA",
+      "player_id_mapping": {
+        "0b9a642d-d6f6-4c65-a7bd-d82e016e1b5d": "45a1a8b2-fcfd-46f2-96e2-5e86555de713",
+        "1bd4a869-80a3-47b7-bac9-789bda6e6e92": "21e37a74-41d2-4c09-9f05-9b20a14ba88b",
+        "298852ca-299d-4cb9-a9e5-6ac909582f78": "a9fecddd-880e-499f-8fa4-1472c9dee372",
+        "2edce68b-39ae-4307-9136-8b31b5222039": "00c958c5-01a7-4668-a3b3-669c22526e03",
+        "388ec80d-171a-48f7-9cc8-5a8bebde54e0": "88d788fe-5410-40c4-9193-b0e3e1af4f1f",
+        "39d205a6-5a8e-4656-9565-87a8e95ee411": "d4740e21-0c79-4424-a03e-0b17e213a846",
+        "41ed1b83-4a60-4d43-b985-3c8d239d4da6": "9b80ae56-086e-42ad-9d22-f4e5af386852",
+        "440b769d-2b8b-477f-80d7-cb21d83c0d52": "dea3d9c3-c6fd-4f7a-bb80-ac4ae029c114",
+        "4589f8d1-66cd-4d57-a5b5-c7d130a0b43d": "3a43b825-6a96-4713-bebe-cb83d6583d39",
+        "50e0c4e6-dfe4-42ca-bf18-aa2630be21c9": "4f6bd439-7fd8-4d25-bff5-72b1b2b46b4e",
+        "59209028-6712-47ef-b87c-bdb19f91523b": "840aa2b8-dc28-4a71-a899-76844bc24ebd",
+        "5b681679-4d8c-4964-bbba-5ed058257745": "2749b30f-ae8f-4883-bf7f-0c8d362c7f60",
+        "68ed2fac-e117-48e1-ac43-314098f600ea": "de3a9956-3e26-4259-938b-212a651a93ca",
+        "75fc46eb-71d8-4d1a-984f-3747ccd7a4c9": "90456e7e-47d2-483c-afe5-b6bacec17b2f",
+        "775e4450-cdcd-43a1-b4cd-dc29fba48503": "2a87f5ef-36b3-4f5e-8565-ea9f6c6820a2",
+        "78dc76b4-a810-4e4a-9418-5cf3fa03582f": "59801ae6-95af-47a0-b074-2ac1bce80c48",
+        "7dfa0971-96be-4705-9811-f9f54758145f": "605cfa20-dc8e-4c44-90bd-1ee476ec4138",
+        "8c090758-6baa-468d-82fd-d47e17d5091b": "c2755450-76a7-4d77-a5cc-de4e980c0f92",
+        "9f4181d5-0999-46ba-b466-d90ded24268a": "40a4cc2c-91d4-45c2-9324-d2a527c010f6",
+        "a1e46e84-bd9e-454d-9117-a8fa1aab0ce4": "0bcb0358-92a6-405a-8ba0-b41d69bd4da7",
+        "abe7b1d1-e992-4ab5-8f0c-8a0d7747ca1f": "15a90b6e-13a2-4d02-9892-373ec942ff97",
+        "af8f331b-96a6-416e-8837-b14d5b11c52d": "6dc593c0-4411-4471-8d19-da2eb414e6fb",
+        "bda65c13-f2d4-43ec-b058-b7807bec4867": "69db2a9d-b98d-47aa-accf-d082d6daa2b6",
+        "be53f27f-c666-4bd2-8fcd-0713f963aa2b": "2b9f626b-3bc9-4d66-9ac9-9689f65fc7fc",
+        "bf9ad0fd-0cb8-4360-8970-5f1b5cf3fa8d": "8aa20fec-25b0-47c8-bd26-efd64ee0826c",
+        "d325bed1-c812-4bf4-b2a1-3cb32fcb86fa": "f51d60f4-2633-4be8-b49c-d09a42c6051c",
+        "db09f372-9a17-4889-add7-bf8a75ab6da6": "bcd4c0ae-6e30-47ea-a549-eb7f70b8147a",
+        "dcea56e2-1ba1-49ab-b0d0-764fa98bc6b5": "84fad10f-33cc-4c56-b60a-78d5fa3bc946",
+        "e8486226-53e1-4857-b5f0-8b6fe88bdd8a": "1774828d-9afb-4643-81a8-af05aafa6866",
+        "f871af48-952a-42e3-82da-7cad157b486c": "6f210c61-f8c9-4fb0-84d0-d597c102bca4",
+        "fa142a43-00a4-4e79-be7b-d469c09dfdd0": "25d03f89-b2bf-46f7-ab2e-abda8df482f6",
+        "fb60c435-dd40-401e-977b-15bdbb753444": "49b7f351-b51d-4429-8324-a1cf8afe003f",
+        "fba3e1cf-82e4-412a-b8db-148f9b93ebf3": "bf3e0f23-5690-485d-bca2-f3a04ff4766e",
+        "fc036630-debc-44bf-9663-03c3fbd3045c": "456d20cd-0fd9-46cd-9aec-b56181bccea6",
+        "fc486ff9-f1d0-4a1e-83ed-4a3aaec950a2": "0d3d5fe3-274a-4fd2-a802-ca5429effc95",
+        "ff065b75-4031-474c-9610-c505db2ca63e": "43edc187-1d56-40bc-ba15-a7b200a08e8f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "670a5643-52b4-4d0a-ba60-f31e1eefa0d4",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-29T01:20:20Z",
+    "id": "8f06c0c6-f5f4-4e4d-8f18-c5c6749e26ec",
+    "last_updated_ts": "2026-03-30T02:00:11.636516Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR28PHICHA",
+      "KXNBASPREAD-26MAR28PHICHA",
+      "KXNBATOTAL-26MAR28PHICHA",
+      "KXNBATEAMTOTAL-26MAR28PHICHA",
+      "KXNBA1HWINNER-26MAR28PHICHA",
+      "KXNBA2HWINNER-26MAR28PHICHA",
+      "KXNBA1HSPREAD-26MAR28PHICHA",
+      "KXNBA1HTOTAL-26MAR28PHICHA",
+      "KXNBA2HSPREAD-26MAR28PHICHA",
+      "KXNBA2HTOTAL-26MAR28PHICHA"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR28PHICHA",
+      "KXNBASPREAD-26MAR28PHICHA",
+      "KXNBATOTAL-26MAR28PHICHA",
+      "KXNBATEAMTOTAL-26MAR28PHICHA",
+      "KXNBA1HWINNER-26MAR28PHICHA",
+      "KXNBA2HWINNER-26MAR28PHICHA",
+      "KXNBAPTS-26MAR28PHICHA",
+      "KXNBAREB-26MAR28PHICHA",
+      "KXNBAAST-26MAR28PHICHA",
+      "KXNBASTL-26MAR28PHICHA",
+      "KXNBA3PT-26MAR28PHICHA",
+      "KXNBA2D-26MAR28PHICHA",
+      "KXNBA3D-26MAR28PHICHA",
+      "KXNBABLK-26MAR28PHICHA",
+      "KXNBA1HSPREAD-26MAR28PHICHA",
+      "KXNBA1HTOTAL-26MAR28PHICHA",
+      "KXNBA2HSPREAD-26MAR28PHICHA",
+      "KXNBA2HTOTAL-26MAR28PHICHA"
+    ],
+    "source_id": "670a5643-52b4-4d0a-ba60-f31e1eefa0d4",
+    "source_ids": {
+      "source_2_id": "202603281EDD95CF",
+      "source_3_id": "670a5643-52b4-4d0a-ba60-f31e1eefa0d4",
+      "source_4_id": "62926505",
+      "source_5_id": "sr:match:62926505"
+    },
+    "start_date": "2026-03-28T22:00:00Z",
+    "title": "Philadelphia at Charlotte",
+    "type": "basketball_game"
+  }
+}

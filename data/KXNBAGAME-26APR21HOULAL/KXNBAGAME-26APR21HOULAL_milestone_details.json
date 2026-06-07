@@ -1,0 +1,240 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-19T00:30:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 98,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": false
+        },
+        {
+          "date": "2026-04-13T00:30:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 132,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-04-11T01:30:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 132,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": false
+        },
+        {
+          "date": "2026-04-10T00:00:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 113,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-04-08T03:00:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 119,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        }
+      ],
+      "away_team_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+      "conference": "western",
+      "game_injuries": {
+        "2ef4d31c-0b46-4f43-a403-f44d62489034": [
+          {
+            "comment": "The Lakers said on Tuesday (Apr. 21) that Reaves is expected to return in late in Round 1 or early in Round 2 if the team advances, per ESPN's Shams Charania.",
+            "date_updated": "2026-04-21",
+            "description": "Oblique",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "0a8e255c-0588-49fd-9cfe-a4bd26dcf171"
+          },
+          {
+            "comment": "The Lakers said on Tuesday (Apr. 21) that Doncic is not expected to return in Round 1 versus the Rockets, per ESPN's Shams Charania.",
+            "date_updated": "2026-04-21",
+            "description": "Hamstring",
+            "start_date": "2026-04-02",
+            "status": "Out",
+            "structured_id": "008856e0-b1ab-47f1-8df7-06e243f5f000"
+          }
+        ],
+        "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211": [
+          {
+            "comment": "The Rockets said on Monday (Sept. 22) that VanVleet suffered a torn ACL and may be out for the entire 2025-26 campaign, per Shams Charania of ESPN.",
+            "date_updated": "2025-09-22",
+            "description": "ACL",
+            "start_date": "2025-09-22",
+            "status": "Out For Season",
+            "structured_id": "3902d32a-809a-4cf1-9f85-7b9152c25209"
+          },
+          {
+            "comment": "The Rockets said on Wednesday (Jan. 28) that Adams underwent season-ending ankle surgery.",
+            "date_updated": "2026-01-28",
+            "description": "Ankle",
+            "start_date": "2026-01-18",
+            "status": "Out For Season",
+            "structured_id": "b175a13d-a9c0-41f6-a9cd-2594f7a92578"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-19T00:30:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 107,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-04-13T00:30:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 131,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-04-11T02:30:00+00:00",
+          "opponent_points": 73,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 101,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-04-10T02:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 119,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-04-08T02:30:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 87,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        }
+      ],
+      "home_team_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+      "is_playoffs": true,
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR21HOULAL",
+      "parent_series": "KXNBASERIES-26HOULALR1",
+      "player_id_mapping": {
+        "0afbe608-940a-4d5d-a1f7-468718c67d91": "5631e46b-716c-4842-8607-a6ebf12fe029",
+        "0b79911f-cd24-46d1-9b05-49fe937aa75e": "a7d5b353-0663-4261-8c13-06489385f44c",
+        "1938fb4b-347a-43fd-ba41-1abdb9540699": "23ef2bb4-e11a-46ed-bc4f-5314321de04d",
+        "1c19138b-1769-4418-b481-af76751739f0": "fad850fa-b08e-4a43-90be-2122d751394c",
+        "1c7e3ee9-c6cd-4e1d-9efe-81fb1b2d4b69": "11925af5-ab26-42dd-8f2d-9a14d4d0f7c3",
+        "293be24b-3a94-40b2-a7a4-a1dd788302e9": "9dec6528-0fb1-4529-9a55-82650e04121b",
+        "3ef70a50-cd0d-4148-a1ad-ca830a1a9046": "f8c2fa0d-6c62-407d-8067-a444ded9c263",
+        "426357dc-340b-4d89-8e3b-7d6b4022b460": "7e8c7e38-aafa-430a-9e29-018d4850476c",
+        "45f17314-918c-49bd-a482-adc171859025": "3902d32a-809a-4cf1-9f85-7b9152c25209",
+        "47ff78e7-5607-48d6-9c1a-bddb075dbe70": "91e0c839-f764-41cc-b787-01591de2775f",
+        "4ab32c74-1d47-41aa-8fa7-7dabe48a9fd6": "5bd89163-4fb4-45b2-98ef-0663037fc05c",
+        "53f2fa48-e61b-49fb-843d-8a3e872257eb": "8e0accf8-4bfd-4f77-b11f-066cb119acdc",
+        "582db35d-33ae-4913-9bb3-5de4fb763e46": "7dd0d3fe-90a2-4bd7-aec4-197def28882a",
+        "5bfc9a4c-deb7-4f37-a784-5d99ada863cb": "42215952-20e6-4c4f-9f07-9f6ed2f0fa18",
+        "6e468041-8174-4161-8c1d-8ac620e0cbb0": "2c953e88-5354-4653-b8cf-12c8040bafdc",
+        "7ca4beac-bbd6-454f-b820-4e8442a3e1e5": "30e25b93-8631-4a93-a536-5fda82c7706a",
+        "816ef930-8918-4b1d-9f0e-d0d867e6956a": "9fe8d10d-75a2-459f-8214-2a808a6ca345",
+        "877eb456-2827-475f-b858-2bc00480e24f": "6863da28-cf95-4966-b5bc-80657ddebb79",
+        "892e2e4d-b10c-47b1-8c40-25ac3c9f7166": "762232bb-5666-4941-9352-2ca8637b8f03",
+        "8c68e544-39ac-4016-8741-a498a979a95a": "bc51427b-a059-439e-85bc-c86907636979",
+        "a208e22a-6b63-45f9-b7c6-bf913a68f3df": "b175a13d-a9c0-41f6-a9cd-2594f7a92578",
+        "a537047d-c29f-4dfe-99b0-3bac4e258dc7": "3b01a74c-dbf7-4948-a75e-824710916ac9",
+        "af1ba5e5-3f34-4ada-aa9f-f818baf7706f": "0399d93d-2926-4c73-b773-be04e4527221",
+        "af460d21-b1d8-46bb-a228-61ac4fb9ccf9": "a2901ab3-44f7-44b4-b9ee-1b7f88dcd3aa",
+        "b69837ca-4e1d-4124-956d-00e3febe358e": "e89c6259-4d3a-47ba-a911-984d4af4d508",
+        "b8b323c1-5691-43a4-9c48-707531803d6a": "a7a8f83d-04d7-4b6f-aa3d-f50e09d9226b",
+        "b9155864-4192-4ad7-8652-57a0844c87b3": "c8677945-77af-435d-ad23-d339c1522313",
+        "bcb84104-a049-4263-8574-67b1d786481c": "5c3b34a4-b55b-4a0b-b6b5-3ae0dceef416",
+        "c37dafbb-a269-41f6-813f-bdb4da388203": "9e825975-01c2-44c3-90b4-b1d961fae03b",
+        "c4981f56-93a2-47b1-8d31-4e8635f45e1d": "0a8e255c-0588-49fd-9cfe-a4bd26dcf171",
+        "cbea1c03-1ac9-4afa-8fdc-2d7155ea5583": "75c2bd2a-ee4a-412c-9ba4-df98ca75805b",
+        "d2ee92e9-3e72-45eb-b156-2dc5adc1e6f7": "008856e0-b1ab-47f1-8df7-06e243f5f000",
+        "e693c3a1-c958-48d5-9edc-46d95aae0ad1": "ebe42beb-ccb9-4646-85f9-3c627c1b5d40",
+        "e7373530-b566-4f36-b0de-0510b6d94e0e": "5fd6ece6-062c-465b-9a45-da012e1ba84a"
+      },
+      "series_game_number": "Game 2",
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "68148d38-7391-44b7-97e5-b69f5f1f7257",
+      "status": "inprogress"
+    },
+    "end_date": "2026-04-22T06:44:41Z",
+    "id": "e0340725-dd64-4acc-87f6-3d7d3129b9ac",
+    "last_updated_ts": "2026-04-23T07:01:57.071854Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR21HOULAL",
+      "KXNBASPREAD-26APR21HOULAL",
+      "KXNBATOTAL-26APR21HOULAL",
+      "KXNBATEAMTOTAL-26APR21HOULAL",
+      "KXNBAOVERTIME-26APR21HOULAL",
+      "KXNBA1HWINNER-26APR21HOULAL",
+      "KXNBA2HWINNER-26APR21HOULAL",
+      "KXNBA1HSPREAD-26APR21HOULAL",
+      "KXNBA1HTOTAL-26APR21HOULAL",
+      "KXNBA2HSPREAD-26APR21HOULAL",
+      "KXNBA2HTOTAL-26APR21HOULAL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR21HOULAL",
+      "KXNBASPREAD-26APR21HOULAL",
+      "KXNBATOTAL-26APR21HOULAL",
+      "KXNBATEAMTOTAL-26APR21HOULAL",
+      "KXNBAOVERTIME-26APR21HOULAL",
+      "KXNBA1HWINNER-26APR21HOULAL",
+      "KXNBA2HWINNER-26APR21HOULAL",
+      "KXNBAPTS-26APR21HOULAL",
+      "KXNBAREB-26APR21HOULAL",
+      "KXNBAAST-26APR21HOULAL",
+      "KXNBA3PT-26APR21HOULAL",
+      "KXNBA2D-26APR21HOULAL",
+      "KXNBA3D-26APR21HOULAL",
+      "KXNBA1HSPREAD-26APR21HOULAL",
+      "KXNBA1HTOTAL-26APR21HOULAL",
+      "KXNBASTL-26APR21HOULAL",
+      "KXNBABLK-26APR21HOULAL",
+      "KXNBA2HSPREAD-26APR21HOULAL",
+      "KXNBA2HTOTAL-26APR21HOULAL",
+      "KXNBAPTSLEADER-26APR21HOULAL"
+    ],
+    "source_id": "68148d38-7391-44b7-97e5-b69f5f1f7257",
+    "source_ids": {
+      "source_2_id": "202604226228B32E",
+      "source_3_id": "68148d38-7391-44b7-97e5-b69f5f1f7257",
+      "source_4_id": "70505152",
+      "source_5_id": "sr:match:70505152"
+    },
+    "start_date": "2026-04-22T02:30:00Z",
+    "title": "Rockets at Lakers",
+    "type": "basketball_game"
+  }
+}

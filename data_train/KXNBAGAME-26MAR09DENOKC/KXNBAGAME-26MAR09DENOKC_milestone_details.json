@@ -1,0 +1,260 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-07T02:00:00+00:00",
+          "opponent_points": 142,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 103,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        },
+        {
+          "date": "2026-03-06T03:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 120,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-03T02:00:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 128,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-01T20:30:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 108,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        },
+        {
+          "date": "2026-02-28T02:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 121,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        }
+      ],
+      "away_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "game_injuries": {
+        "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c": [
+          {
+            "comment": "The Thunder listed Caruso as OUT for Monday's (Mar. 9) game against Denver.",
+            "date_updated": "2026-03-09",
+            "description": "Hip",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04"
+          },
+          {
+            "comment": "The Thunder listed Carlson as OUT for Monday's (Mar. 9) game against Denver.",
+            "date_updated": "2026-03-08",
+            "description": "Back",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "419633cc-ca9b-42c3-a792-f95bb00cfdaa"
+          },
+          {
+            "comment": "The Thunder listed Williams as OUT for Monday's (Mar. 9) game against Denver.",
+            "date_updated": "2026-03-08",
+            "description": "Hamstring",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92"
+          },
+          {
+            "comment": "The Thunder listed Holmgren as OUT for Monday's (Mar. 9) game against Denver.",
+            "date_updated": "2026-03-09",
+            "description": "Illness",
+            "start_date": "2026-03-07",
+            "status": "Out",
+            "structured_id": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed"
+          },
+          {
+            "comment": "The Thunder announced on Friday (Sept. 5) that Sorber will miss the 2025-2026 season with a torn ACL.",
+            "date_updated": "2025-09-05",
+            "description": "Knee",
+            "start_date": "2025-09-05",
+            "status": "Out For Season",
+            "structured_id": "c2beb99e-9ef2-4e96-b440-96080fa60360"
+          },
+          {
+            "comment": "The Thunder listed Hartenstein as OUT for Monday's (Mar. 9) game against Denver.",
+            "date_updated": "2026-03-08",
+            "description": "Calf",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b"
+          }
+        ],
+        "ba2cb6be-9827-46a8-8e6f-d8661307ba77": [
+          {
+            "comment": "Watson is expected to miss at least four weeks with his Grade 2 right hamstring strain, according to Michael Scotto of USA Today.",
+            "date_updated": "2026-02-06",
+            "description": "Hamstring",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-08T01:30:00+00:00",
+          "opponent_points": 97,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 104,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-05T00:00:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 103,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-04T01:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 116,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-02T01:00:00+00:00",
+          "opponent_points": 87,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 100,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-02-28T02:30:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 127,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        }
+      ],
+      "home_team_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR09DENOKC",
+      "player_id_mapping": {
+        "1c8786b4-1786-4e3d-81ca-d976797413f5": "33b2a10d-1060-427a-98fe-ce1daf133441",
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "339eff07-4d8e-42c6-9a47-900e94b13654": "a1bd832f-dd37-43ef-940c-e6c5d80f9af2",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "36d083a5-49ca-42f1-80b7-b78275a8abd9": "c4cc3a86-4003-4ea8-941f-cc878aaad51f",
+        "38745a56-7472-4844-a2dc-f61d3bcd941f": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "3f7e2350-e208-4791-98c2-684b53bb5a9a": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c",
+        "4965ef48-7aa9-4eae-a923-5023ff7ab1eb": "32b125e2-a412-42e4-81ac-329f053f9f23",
+        "4ab6a1ca-60ab-41e3-adbc-0395dec8c0da": "edf2d234-7410-4223-9d80-2f5893936d2e",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "62c44a90-f280-438a-9c7e-252f4f376283": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "8936c15e-f9d5-4b9a-80b9-8f6b7dcf7a17": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04",
+        "8f6ef350-1d9a-4eda-bee9-294d0e9e64db": "3893af8f-647f-4298-8f72-552d451d6533",
+        "9318b4c1-49d0-40eb-8b76-1098e28133d2": "144c5239-29b4-4656-8862-088803bb760e",
+        "ab0289ca-407b-41e9-ab2d-32407eedeccf": "419633cc-ca9b-42c3-a792-f95bb00cfdaa",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "b3db0b36-344f-4035-b315-9fb18933e535": "048da8e7-a562-4504-a102-b2fe624a0930",
+        "bf6b4aed-c007-41eb-b4e5-08b99f292ec2": "04bc92de-9046-4d6e-8c63-5f8e60ca8e0e",
+        "c56cbf7a-42a4-41a2-a37b-0cd4aaf248d0": "c2beb99e-9ef2-4e96-b440-96080fa60360",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "cbc0a3b2-985e-4484-9cb6-6891337b18b7": "060893cf-54aa-4987-8984-66e7bc6c6fa3",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "d3b28775-473d-471a-8452-e913f4347f0f": "7576d7ff-b42d-446f-bce0-71d63e8cd098",
+        "d9ea4a8f-ff51-408d-b518-980efc2a35a1": "b40547da-b4d9-4d33-b795-32595ef9c473",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed",
+        "ec7aea3f-550d-4c3d-a47e-58ee983bfd57": "4e8e009c-b08d-4f72-9407-559573654160",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "0bba15cf-84f3-4275-93e1-2d92bc7502ad",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-10T04:30:00Z",
+    "id": "7a418378-df9f-40b4-8af6-856235936a32",
+    "last_updated_ts": "2026-03-26T07:29:39.59852Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR09DENOKC",
+      "KXNBASPREAD-26MAR09DENOKC",
+      "KXNBATOTAL-26MAR09DENOKC",
+      "KXNBATEAMTOTAL-26MAR09DENOKC",
+      "KXNBA1HWINNER-26MAR09DENOKC",
+      "KXNBA2HWINNER-26MAR09DENOKC",
+      "KXNBA1HSPREAD-26MAR09DENOKC",
+      "KXNBA1HTOTAL-26MAR09DENOKC",
+      "KXNBA2HSPREAD-26MAR09DENOKC",
+      "KXNBA2HTOTAL-26MAR09DENOKC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR09DENOKC",
+      "KXNBASPREAD-26MAR09DENOKC",
+      "KXNBATOTAL-26MAR09DENOKC",
+      "KXNBATEAMTOTAL-26MAR09DENOKC",
+      "KXNBAMENTION-26MAR09DENOKC",
+      "KXNBA1HWINNER-26MAR09DENOKC",
+      "KXNBA2HWINNER-26MAR09DENOKC",
+      "KXNBAPTS-26MAR09DENOKC",
+      "KXNBAREB-26MAR09DENOKC",
+      "KXNBAAST-26MAR09DENOKC",
+      "KXNBASTL-26MAR09DENOKC",
+      "KXNBA3PT-26MAR09DENOKC",
+      "KXNBA2D-26MAR09DENOKC",
+      "KXNBA3D-26MAR09DENOKC",
+      "KXNBABLK-26MAR09DENOKC",
+      "KXNBA1HSPREAD-26MAR09DENOKC",
+      "KXNBA1HTOTAL-26MAR09DENOKC",
+      "KXNBA2HSPREAD-26MAR09DENOKC",
+      "KXNBA2HTOTAL-26MAR09DENOKC"
+    ],
+    "source_id": "0bba15cf-84f3-4275-93e1-2d92bc7502ad",
+    "source_ids": {
+      "source_2_id": "202603092B87CD83",
+      "source_3_id": "0bba15cf-84f3-4275-93e1-2d92bc7502ad",
+      "source_4_id": "62925383",
+      "source_5_id": "sr:match:62925383"
+    },
+    "start_date": "2026-03-09T23:30:00Z",
+    "title": "Denver at Oklahoma City",
+    "type": "basketball_game"
+  }
+}

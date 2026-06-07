@@ -1,0 +1,91 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "90381a35-42a6-4975-851f-175418e4271a",
+      "home_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB09CLEDEN",
+      "player_id_mapping": {
+        "030424b9-7367-45e1-b9d4-c8dee3a89e53": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2",
+        "1a120d1a-0202-4039-a00e-4daa8b7ffcfc": "8dc06468-b5e3-4d7f-b644-f3ced82f0246",
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "22be3275-1ef8-47f7-a30d-af38f7bc96b2": "dfbabd3c-b574-4d27-81a8-36653c7d06e9",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "5bb6159f-27ae-406e-ac5b-e8911f0cbb7c": "1935e9f5-be0f-4138-9ca3-1499c08738b9",
+        "5c010a64-12a9-423e-a466-fc49c427e058": "3de432f3-35ac-42c4-9bbb-b5cb25e10c7d",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "68a8c4ea-1d77-4a42-bea4-dbe9a162332a": "24c7e18f-1086-4b18-b37c-631d2c39e0e9",
+        "6b8ed06d-a33f-46ce-b416-647100736df8": "5e64b57d-17f7-46e7-af61-b749c276591f",
+        "6f4f5e4b-37d7-4d28-a226-4f52d09aab02": "e0294aa0-1f2e-4c78-82b1-0db9a9f1e841",
+        "7458ef96-cab7-433e-a761-4e93537f4b52": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5",
+        "90b52759-3f0e-4d93-b5ca-fcb53afce857": "7709e8e3-d714-4bf9-8655-793857fe3e50",
+        "a2c6a907-282f-4172-9d60-42d03987da0e": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b",
+        "a3fff5c7-19b6-4dac-bd75-11b944bea505": "67a44479-d07a-4782-b8a8-c997f71f1327",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "ad389979-d1d5-4f26-ad64-3e516b3373a3": "e92aa777-3acd-4bce-a1cb-c734771fb903",
+        "b6dde96e-3748-4cbe-86d2-798d5dffb3c0": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6",
+        "bbeecf0c-62c6-4211-991d-2afaf2403623": "22c635e6-e6ac-4e0f-bff6-a8b77e157103",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "d64b602e-45f2-4ba9-878b-0a4f7210ec77": "e6212176-2793-4f9a-8e1b-7d294eca2787",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "f6aff1dc-15b9-4c89-a2fb-746f4cf78890": "e59d506e-4dfc-496b-87e1-f74fda25816d",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "ffa4a185-9739-4f67-bfa6-86cd3f5dc883",
+      "status": "complete"
+    },
+    "end_date": "2026-02-10T06:16:43Z",
+    "id": "c2615a6a-fee5-4dd5-be32-c94b78480ab4",
+    "last_updated_ts": "2026-03-26T07:28:02.237927Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB09CLEDEN",
+      "KXNBASPREAD-26FEB09CLEDEN",
+      "KXNBATOTAL-26FEB09CLEDEN",
+      "KXNBATEAMTOTAL-26FEB09CLEDEN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB09CLEDEN",
+      "KXNBASPREAD-26FEB09CLEDEN",
+      "KXNBATOTAL-26FEB09CLEDEN",
+      "KXNBATEAMTOTAL-26FEB09CLEDEN",
+      "KXNBAPTS-26FEB09CLEDEN",
+      "KXNBAREB-26FEB09CLEDEN",
+      "KXNBAAST-26FEB09CLEDEN",
+      "KXNBA3PT-26FEB09CLEDEN",
+      "KXNBA2D-26FEB09CLEDEN",
+      "KXNBA3D-26FEB09CLEDEN",
+      "KXNBASTL-26FEB09CLEDEN"
+    ],
+    "source_id": "ffa4a185-9739-4f67-bfa6-86cd3f5dc883",
+    "source_ids": {
+      "source_2_id": "20260210E547B087",
+      "source_3_id": "ffa4a185-9739-4f67-bfa6-86cd3f5dc883"
+    },
+    "start_date": "2026-02-10T02:00:00Z",
+    "title": "Cleveland at Denver",
+    "type": "basketball_game"
+  }
+}

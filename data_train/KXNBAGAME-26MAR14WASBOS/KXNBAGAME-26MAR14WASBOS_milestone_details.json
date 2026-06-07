@@ -1,0 +1,237 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-12T23:00:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 131,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-10T23:30:00+00:00",
+          "opponent_points": 150,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 129,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-08T23:00:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 118,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-06T00:00:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 112,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 109,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        }
+      ],
+      "away_team_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+      "game_injuries": {
+        "0464e75c-8bc8-4f18-9ee2-577832b889d6": [
+          {
+            "comment": "The Wizards announced Thursday (Mar. 5) that Davis will be re-evaluated in two weeks.",
+            "date_updated": "2026-03-05",
+            "description": "Finger",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "50cd523e-b363-4145-b038-10c3e7f5fc68"
+          },
+          {
+            "comment": "The Wizards announced Wednesday (Jan. 15) that Whitmore will miss the remainder of the 2025-26 season while he begins the recovery process for a diagnosed venous condition.",
+            "date_updated": "2026-02-15",
+            "description": "Shoulder",
+            "start_date": "2025-12-20",
+            "status": "Out For Season",
+            "structured_id": "992529e1-8850-4ec0-a0c4-a8f63f525b2f"
+          },
+          {
+            "comment": "The Wizards announced Wednesday (Mar. 4) that George has been diagnosed with a partial tear of the UCL in his left elbow and will be re-evaluated in three weeks.",
+            "date_updated": "2026-03-04",
+            "description": "Elbow",
+            "start_date": "2026-03-03",
+            "status": "Out",
+            "structured_id": "10928e3f-1742-43ea-aed9-42715199b0c4"
+          },
+          {
+            "comment": "Russell did not play on Tuesday's (Mar. 10) game against Miami. His future with the Wizards remains to be unclear. ",
+            "date_updated": "2026-03-11",
+            "description": "Not Injury Related",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84"
+          }
+        ],
+        "6dd427f5-fa02-40ef-aa90-cfa73e0c539e": [
+          {
+            "comment": "Vucevic underwent surgery Saturday (Mar. 7) to stabilize a fracture in his right ring finger and will be re-evaluated in 3-to-4 weeks.",
+            "date_updated": "2026-03-07",
+            "description": "Finger",
+            "start_date": "2026-03-06",
+            "status": "Out",
+            "structured_id": "9851168d-7c6c-4b3f-adcb-261a46e54c03"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-13T01:30:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 102,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-11T00:00:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 116,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-08T17:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 109,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T00:00:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 120,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-05T00:30:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 89,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        }
+      ],
+      "home_team_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR14WASBOS",
+      "player_id_mapping": {
+        "0718c0e1-7804-471a-b4ed-cde778948d4d": "c4f4898b-4a7a-4849-8546-5bdc0af22927",
+        "0e03dd88-2c39-4b4a-8b47-0c3c8ba82305": "10928e3f-1742-43ea-aed9-42715199b0c4",
+        "18512d7a-ea08-408c-8ecb-7f436ca41120": "ad7c156e-90b4-4656-bf01-893bbd63b3d3",
+        "19561190-edab-4465-a82d-7e42a7635800": "8c834598-267f-4866-8e81-6e6912b912a2",
+        "1bd20765-bf81-4250-a16c-05a4799758fc": "aa6f6626-0d22-4d04-bd68-e279b0ccf5d7",
+        "258ed390-1d72-42ee-9c52-f7064051e35f": "f33c690f-071c-40ee-8fdd-e10b6b236b73",
+        "27db7dbb-6aad-44df-a3f4-7e1c21c2f256": "2b9b4c52-7963-4bbc-820a-787f29642aa0",
+        "28f3e566-3174-4e87-81d0-4889569b6ef5": "bdfa5db0-84ef-4d02-9758-09f03d14a206",
+        "53e011ee-504f-473e-bb26-bfe34533ca10": "6e964a40-4ceb-403c-96c2-5a165e032f0d",
+        "584a8771-ee79-4957-89f1-a2b0638c497a": "e601299b-d9a4-4cd1-b86b-58e47670cfe6",
+        "59f3c089-7642-4792-99a2-97795c3d7648": "197dcf24-c55c-421c-b8b1-b744b7f09616",
+        "5be520a5-5590-44ee-b763-3d3ce4505267": "423df079-9eec-42b2-85a7-58061b60621d",
+        "6d117ec5-649d-4151-8d44-88175c603067": "d8d735de-7698-4bec-a77c-5e187aa5d8f6",
+        "7366b2b7-5959-4dd9-9204-760e861b3119": "9851168d-7c6c-4b3f-adcb-261a46e54c03",
+        "73f8f274-238d-419f-bccb-097362b8354d": "8890a6d0-042f-431a-a5d4-bd9af4843851",
+        "7aa10d1a-ed4e-417d-998d-84ce66c77c9b": "77498085-90ac-456b-a123-848a7a5866e0",
+        "7cfc1044-54f9-4788-af5f-8d943f992e0d": "16deb828-cf61-4d83-838e-8658730a0ffe",
+        "879370c1-afe6-45c7-9ba1-93a78d4b8d61": "c770d1a8-b835-4d56-b107-3da5de5d6622",
+        "8da31ebc-6614-4209-8685-5442bc09887b": "fbcb18f9-9a5e-43f0-a622-b628d6422b48",
+        "98136da3-452f-49dc-a794-1ee9c76443f2": "5f251b4a-e9aa-4e22-b5df-157d80e606e6",
+        "9bcd5cff-4a1c-4454-89b6-a5899b0c6bcc": "fc551031-35e4-47a5-b9a3-052c0c56109f",
+        "a8d25a06-b47e-4a08-a945-7bf0dd945584": "4ead891f-246e-4a10-922c-b9043a42a890",
+        "a9aaa4a2-9997-49b3-b54e-bcf5ec66efe5": "14d99e9f-e25c-4af9-87ef-e80635437ef2",
+        "aeba1657-a0df-427b-ba9a-6db9e9147304": "992529e1-8850-4ec0-a0c4-a8f63f525b2f",
+        "b04cd5ce-e82c-47a7-9b2a-c561c1cb7b80": "5f51a9d7-093c-48f8-80c8-1fa29a7f39f1",
+        "c0ec993e-16ee-48e8-b410-05690b1c17b6": "b5bca5ba-0234-4790-98d5-dd964c8697fa",
+        "cf418e0c-de9d-438f-a1ac-3be539a56c42": "4aad249c-e551-45af-b759-d012f1daf436",
+        "cf4d4c23-9ccc-4cf3-b620-9749a8e65064": "e38b5f9f-de26-4523-8986-99363e53f8e0",
+        "dbf09e15-1cd8-434e-acda-9527735ef4d6": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84",
+        "ea8826b8-1f76-4eab-b61e-ffcb176880f3": "50cd523e-b363-4145-b038-10c3e7f5fc68",
+        "eb063340-43d5-4f5c-8097-fa6e40b6f5e2": "4d12a90a-dfe6-42f9-a1df-178d1d8b7d04",
+        "f5aac467-6bf9-4fa3-b89a-9ef71fe546fa": "ef5bd790-45f1-4c0f-b977-58009cf35208",
+        "fe4c4f99-5dfb-4e32-b69a-da8c5a779c27": "95ce1408-68a5-4025-975c-ac02d98e6830",
+        "ffc5579c-783f-4d62-80ab-3c3dcb05a27d": "417ef237-dcd0-46a2-8649-6ccbc78e3a4b"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "fc1a0ad5-ce34-4570-beca-fae0ae72a31a",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-15T03:00:00Z",
+    "id": "9e11199a-b68d-474e-9508-9d37ecfa0cd0",
+    "last_updated_ts": "2026-03-26T07:30:11.380097Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR14WASBOS",
+      "KXNBASPREAD-26MAR14WASBOS",
+      "KXNBATOTAL-26MAR14WASBOS",
+      "KXNBATEAMTOTAL-26MAR14WASBOS",
+      "KXNBA1HWINNER-26MAR14WASBOS",
+      "KXNBA2HWINNER-26MAR14WASBOS",
+      "KXNBA1HSPREAD-26MAR14WASBOS",
+      "KXNBA1HTOTAL-26MAR14WASBOS"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR14WASBOS",
+      "KXNBASPREAD-26MAR14WASBOS",
+      "KXNBATOTAL-26MAR14WASBOS",
+      "KXNBATEAMTOTAL-26MAR14WASBOS",
+      "KXNBAMENTION-26MAR14WASBOS",
+      "KXNBA1HWINNER-26MAR14WASBOS",
+      "KXNBA2HWINNER-26MAR14WASBOS",
+      "KXNBAPTS-26MAR14WASBOS",
+      "KXNBAREB-26MAR14WASBOS",
+      "KXNBAAST-26MAR14WASBOS",
+      "KXNBA3PT-26MAR14WASBOS",
+      "KXNBA2D-26MAR14WASBOS",
+      "KXNBASTL-26MAR14WASBOS",
+      "KXNBABLK-26MAR14WASBOS",
+      "KXNBA1HSPREAD-26MAR14WASBOS",
+      "KXNBA1HTOTAL-26MAR14WASBOS"
+    ],
+    "source_id": "fc1a0ad5-ce34-4570-beca-fae0ae72a31a",
+    "source_ids": {
+      "source_2_id": "2026031429BB677A",
+      "source_3_id": "fc1a0ad5-ce34-4570-beca-fae0ae72a31a",
+      "source_4_id": "62926041",
+      "source_5_id": "sr:match:62926041"
+    },
+    "start_date": "2026-03-14T22:00:00Z",
+    "title": "Washington at Boston",
+    "type": "basketball_game"
+  }
+}

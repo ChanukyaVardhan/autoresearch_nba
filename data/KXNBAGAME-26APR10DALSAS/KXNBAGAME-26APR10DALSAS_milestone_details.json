@@ -1,0 +1,286 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-09T02:00:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 107,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-04-08T02:30:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 103,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-04-05T23:30:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 134,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": true
+        },
+        {
+          "date": "2026-04-04T00:30:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 127,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-04-01T00:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 99,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        }
+      ],
+      "away_team_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+      "game_injuries": {
+        "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed": [
+          {
+            "comment": "The Mavericks listed Washington as Out for Friday's (Apr. 10) game against the Spurs.",
+            "date_updated": "2026-04-10",
+            "description": "Elbow",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "b382638b-047d-4e8b-84ec-31c3c0fa87db"
+          },
+          {
+            "comment": "Bagley III will not return to Friday's (Apr. 10) game against the Spurs.",
+            "date_updated": "2026-04-10",
+            "description": "Shoulder",
+            "start_date": "2026-04-10",
+            "status": "Day To Day",
+            "structured_id": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf"
+          },
+          {
+            "comment": "The Mavericks announced on Sunday (Dec. 21) that Lively II has successfully underwent foot surgery.",
+            "date_updated": "2025-12-21",
+            "description": "Foot",
+            "start_date": "2025-11-22",
+            "status": "Out For Season",
+            "structured_id": "306185e2-63a3-487a-8ff1-eb514655e2c5"
+          },
+          {
+            "comment": "The Mavericks listed Thompson as Out on Friday's (Apr. 10) game against the Spurs.",
+            "date_updated": "2026-04-10",
+            "description": "Illness",
+            "start_date": "2026-04-10",
+            "status": "Out",
+            "structured_id": "2f07473d-3b17-445c-811a-571e2e77025c"
+          },
+          {
+            "comment": "The Mavericks listed Gafford as Out for Friday's (Apr. 10) game against the Spurs.",
+            "date_updated": "2026-04-10",
+            "description": "Rest",
+            "start_date": "2026-04-05",
+            "status": "Out",
+            "structured_id": "f7809899-1a37-42df-8c56-5029ca536e5b"
+          },
+          {
+            "comment": "The Mavericks listed Martin as Out for Friday's (Apr. 10) game against the Spurs.",
+            "date_updated": "2026-04-10",
+            "description": "Foot",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "9e9915a1-81b8-4cda-b6b6-1537607daf8a"
+          },
+          {
+            "comment": "The Mavericks listed Williams as Out for Friday's (Apr. 10) game against the Spurs.",
+            "date_updated": "2026-04-10",
+            "description": "Illness",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "81a9e528-797f-4742-94a7-6a0aab0cdee6"
+          },
+          {
+            "comment": "The Mavericks said on Wednesday (Feb. 18) that Irving is OUT for the season, per ESPN's Shams Charania. ",
+            "date_updated": "2026-02-18",
+            "description": "Knee",
+            "start_date": "2025-03-03",
+            "status": "Out For Season",
+            "structured_id": "c397aaf3-768c-48f2-9a6a-83d15e153123"
+          },
+          {
+            "comment": "The Mavericks listed Marshall as Out for Friday's (Apr. 10) game against the Spurs.",
+            "date_updated": "2026-04-10",
+            "description": "Hip",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "f614a5c0-42ba-4187-b40a-e0c298d65091"
+          }
+        ],
+        "ad36c3e8-4194-4e63-920f-7c50f46191a6": [
+          {
+            "comment": "The Spurs announced on Wednesday (Feb. 4) that Jones Garcia underwent ankle surgery and will miss the remainder of the 2025-26 season, per Tom Orsborn of the San Antonio Express-News.",
+            "date_updated": "2026-02-04",
+            "description": "Ankle",
+            "start_date": "2026-02-04",
+            "status": "Out For Season",
+            "structured_id": "286d58e9-242b-4e81-b562-1b68ce86e283"
+          },
+          {
+            "comment": "The Spurs listed Castle as Out for Friday's (Apr. 10) game against the Mavericks.",
+            "date_updated": "2026-04-10",
+            "description": "Knee",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "3737a938-d72f-41bc-8098-e50c9334a4b5"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-09T01:30:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 112,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-04-07T00:00:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 115,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-04-04T19:00:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 134,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": false
+        },
+        {
+          "date": "2026-04-03T02:30:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 118,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T02:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 127,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        }
+      ],
+      "home_team_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR10DALSAS",
+      "player_id_mapping": {
+        "0a485720-7ec1-4e1b-a9e9-dcf912dde8db": "286d58e9-242b-4e81-b562-1b68ce86e283",
+        "190797ba-a6f4-4286-9d5e-d157ff834829": "8193b1fe-f78e-4709-9845-3e1b53dc66b7",
+        "1b31afe2-7fb7-42d1-8eef-003c5eb619c2": "306185e2-63a3-487a-8ff1-eb514655e2c5",
+        "1d323a11-1758-4975-ba6f-1a03b7a2157c": "3b4ac2be-e186-4c72-a906-b7276d76422d",
+        "30eb60ce-5b33-4784-8e2a-37c304ea7721": "5da14c46-20e8-477d-8869-95f009e5f98f",
+        "44fe2902-0a78-440e-bbad-d28cd0308e21": "4b8286f2-fd4a-4a46-b65b-392d5b21cc8b",
+        "4c362eee-6474-40ea-b1b4-d8f917f95175": "08aa816a-180f-42cd-b498-9067f069ba70",
+        "4e152a06-673e-4701-b115-aa7e2cd00d2d": "2f07473d-3b17-445c-811a-571e2e77025c",
+        "52cd8137-c791-4569-ad70-433e25d34882": "f7809899-1a37-42df-8c56-5029ca536e5b",
+        "566685c7-ff63-439a-8888-5278904835fa": "9e9915a1-81b8-4cda-b6b6-1537607daf8a",
+        "68175411-ce98-4b2c-9ff0-3e26bff33191": "41df03a3-f2f3-49ad-997e-34d3e36f04b5",
+        "6d4ce277-bc3e-4d24-82d4-5366c48e4cdd": "6e0b9fe4-b330-459a-a6fa-6bb2caaf3d00",
+        "6d7f4f2f-7ea7-4c56-8082-dfdce67f5487": "b382638b-047d-4e8b-84ec-31c3c0fa87db",
+        "6f4f5e4b-37d7-4d28-a226-4f52d09aab02": "e0294aa0-1f2e-4c78-82b1-0db9a9f1e841",
+        "80328aab-9ce6-49c8-b3f2-f5bf73cdf319": "74621b0e-0eda-4474-838c-3e669d032ebf",
+        "85cd25fd-f437-48dd-b736-af5422c0feb7": "98eb67fd-32c0-49c7-b81d-607cc6a35771",
+        "8e288d6e-50b8-404b-812b-823ae5bab61f": "72670315-7b9d-4dc1-ac5a-f3675f4ab19d",
+        "8e3cbaa3-e30a-4cf8-aa7a-1b57f15f0f98": "b4fad83a-0403-4f63-8a8c-a5ea70d0ba4b",
+        "9570a938-324f-40e8-92dd-8a4fcf4a953b": "125f7622-b921-4377-a6c7-6e83a77789dc",
+        "98e2cdeb-69dc-499c-a853-84c32c714924": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "a15f73b1-f757-4af2-b09a-f0185e09c8bf": "f614a5c0-42ba-4187-b40a-e0c298d65091",
+        "a465418b-0933-40b4-8f01-253d046872e1": "335fc1f4-8629-4b73-ba10-f18c7bb35a53",
+        "b16123e8-c885-4276-9994-8d5e390c0f0d": "fbbc0dd3-d175-4281-b220-f2e4a08be13e",
+        "bde7f42e-7296-453d-bcba-cac6fad2d03f": "926570a7-5b58-40ae-90b0-dd2021314424",
+        "c8efed0b-f365-4440-84f7-df8c8078d1c0": "81a9e528-797f-4742-94a7-6a0aab0cdee6",
+        "ce8d0944-b277-499e-9701-02a5f1828615": "eaa9ccb5-2e4c-48f2-bfae-964f5c56aa6e",
+        "cfc1e41b-74ab-45ee-8132-aaf9ca7f8163": "c995b1bb-82ab-4be9-aad1-6351b75e108a",
+        "d7276f4c-b9ee-43bf-860d-07b01a0fe7b6": "a4ea1e30-5edb-44f3-8836-e59c49af3b82",
+        "d8058632-b2ca-468c-9c27-56410aef4dff": "06631017-5228-4584-8c20-90c630ba3d5d",
+        "dd146010-902b-4ad7-b98c-650d0363a2f0": "c397aaf3-768c-48f2-9a6a-83d15e153123",
+        "ddee4a31-2791-4339-bfc3-a058ce2d1397": "3737a938-d72f-41bc-8098-e50c9334a4b5",
+        "e86c1439-4ef0-4530-9c41-c3a682962eb3": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf",
+        "e872cdaf-5d04-45c2-bbfe-d673f3fb26ce": "4f13353c-1bad-49b6-8fe6-3530ad2d887a",
+        "fa0e2b60-8ee9-4db6-b9bc-d0e23d6b29d2": "5310feca-3879-45e1-987b-ff68729c3a6d",
+        "fe215630-2dc5-4573-95cc-c1b14abbbbcd": "98cb9106-25d8-4846-be07-d6f5e2403ad3",
+        "fed6929f-8d92-456c-8a89-9e0c17cf4f7b": "03768fde-7261-4f9a-8ee5-e0a2ff33c3c1"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "7655ef88-636f-4b22-9bc7-ae8c1d874ed1",
+      "status": "complete"
+    },
+    "end_date": "2026-04-11T02:52:01Z",
+    "id": "ea8d4b25-a505-45ae-b15d-60725a8775c9",
+    "last_updated_ts": "2026-04-12T02:57:37.687415Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR10DALSAS",
+      "KXNBASPREAD-26APR10DALSAS",
+      "KXNBATOTAL-26APR10DALSAS",
+      "KXNBATEAMTOTAL-26APR10DALSAS",
+      "KXNBA1HWINNER-26APR10DALSAS",
+      "KXNBA2HWINNER-26APR10DALSAS",
+      "KXNBA1HSPREAD-26APR10DALSAS",
+      "KXNBA1HTOTAL-26APR10DALSAS"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR10DALSAS",
+      "KXNBASPREAD-26APR10DALSAS",
+      "KXNBATOTAL-26APR10DALSAS",
+      "KXNBATEAMTOTAL-26APR10DALSAS",
+      "KXNBA1HWINNER-26APR10DALSAS",
+      "KXNBA2HWINNER-26APR10DALSAS",
+      "KXNBAPTS-26APR10DALSAS",
+      "KXNBAREB-26APR10DALSAS",
+      "KXNBAAST-26APR10DALSAS",
+      "KXNBA3PT-26APR10DALSAS",
+      "KXNBA2D-26APR10DALSAS",
+      "KXNBA1HSPREAD-26APR10DALSAS",
+      "KXNBA1HTOTAL-26APR10DALSAS",
+      "KXNBASTL-26APR10DALSAS",
+      "KXNBABLK-26APR10DALSAS"
+    ],
+    "source_id": "7655ef88-636f-4b22-9bc7-ae8c1d874ed1",
+    "source_ids": {
+      "source_2_id": "20260411CFD3B24E",
+      "source_3_id": "7655ef88-636f-4b22-9bc7-ae8c1d874ed1",
+      "source_4_id": "62926175",
+      "source_5_id": "sr:match:62926175"
+    },
+    "start_date": "2026-04-11T00:00:00Z",
+    "title": "Dallas at San Antonio",
+    "type": "basketball_game"
+  }
+}

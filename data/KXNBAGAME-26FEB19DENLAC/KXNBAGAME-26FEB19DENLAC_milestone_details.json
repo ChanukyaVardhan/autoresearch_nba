@@ -1,0 +1,236 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-12T02:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 122,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-02-10T02:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 117,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        },
+        {
+          "date": "2026-02-08T01:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 136,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-02-05T00:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 127,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        },
+        {
+          "date": "2026-02-04T00:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 121,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        }
+      ],
+      "away_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "game_injuries": {
+        "ba2cb6be-9827-46a8-8e6f-d8661307ba77": [
+          {
+            "comment": "The Nuggets announced on Monday (Dec. 22) that Bates will be re-evaluated in 12 weeks.",
+            "date_updated": "2025-12-22",
+            "description": "Foot",
+            "start_date": "2025-12-24",
+            "status": "Out",
+            "structured_id": "3de432f3-35ac-42c4-9bbb-b5cb25e10c7d"
+          },
+          {
+            "comment": "The Nuggets said on Thursday (Jan. 29) that Gordon will be re-evaluated in 4-to-6 weeks, per Shams Charania of ESPN.",
+            "date_updated": "2026-01-29",
+            "description": "Hamstring",
+            "start_date": "2026-01-23",
+            "status": "Out",
+            "structured_id": "b8dc25d7-9f85-44dd-9200-bea74ed23889"
+          },
+          {
+            "comment": "Watson is expected to miss at least four weeks with his Grade 2 right hamstring strain, according to Michael Scotto of USA Today.",
+            "date_updated": "2026-02-06",
+            "description": "Hamstring",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8"
+          }
+        ],
+        "daca4413-0ea1-4db2-a815-f05c181ef0a6": [
+          {
+            "comment": "Beal will undergo season-ending surgery on his left hip, as per ESPN's Shams Charania reports.",
+            "date_updated": "2025-11-12",
+            "description": "Hip",
+            "start_date": "2025-11-10",
+            "status": "Out For Season",
+            "structured_id": "beada20d-6def-48b5-8cdf-ca243e06640d"
+          },
+          {
+            "comment": "Garland is considered week-to-week, according to Law Murray of The Athletic.",
+            "date_updated": "2026-02-18",
+            "description": "Toe",
+            "start_date": "2026-01-14",
+            "status": "Out",
+            "structured_id": "94cad9c3-833e-410a-a028-6cd25fdb20d9"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-12T01:00:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 105,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-02-11T01:00:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 95,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        },
+        {
+          "date": "2026-02-08T20:00:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 115,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-02-07T03:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 114,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-02-05T03:30:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 91,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        }
+      ],
+      "home_team_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB19DENLAC",
+      "player_id_mapping": {
+        "067d9f05-a6b8-4a4b-854c-3364234e62b1": "f7e7a36e-601e-4130-a819-fa9f752bd14a",
+        "100af38e-d798-4b3a-8ee6-6280f0f4b4b8": "089f34c8-a9fa-480b-9b91-aa417097d552",
+        "1f665b2c-789e-4471-af7a-f86105f2466c": "5fe0b2a4-3e64-4451-a42d-bec734ea1199",
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "28a2e698-9f33-4d4d-9a5d-9bea66ee42a1": "4bf6560d-e40d-4412-b8c4-de4de06b42ac",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "3054d6e1-033b-4b8d-93e5-b807ea122c75": "3e76dbce-174a-45f6-8019-5c1f483aadbe",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "3f98b652-71d4-4a40-949d-41c33dddd15d": "f9912228-d55a-404f-b2e5-824658b21dc4",
+        "4ec576c6-d74d-4b23-83e5-7a94e76526c9": "ef369e50-d57e-499e-8219-841ac142f166",
+        "54cf6e06-9172-44b8-8d3b-ea1b6926553d": "a0efcc22-65e6-45a1-a474-6df949cd1613",
+        "56c796d6-74d3-4881-9166-7f528e2b67f6": "614ded35-dec0-4703-aaad-1abb645ad47b",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "5c010a64-12a9-423e-a466-fc49c427e058": "3de432f3-35ac-42c4-9bbb-b5cb25e10c7d",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "8f6ef350-1d9a-4eda-bee9-294d0e9e64db": "3893af8f-647f-4298-8f72-552d451d6533",
+        "979acf24-97b7-44f3-b8fb-6451f571540a": "b800a5e4-18bc-4402-b69e-402167501632",
+        "9f25f9f8-6028-4f4b-8e05-48b43272c167": "c8b85545-69a3-45eb-b054-fac03220e0d1",
+        "a89ac040-715d-4057-8fc0-9d71ad06fa0a": "11ac6d0a-2082-45a8-a091-71c8950eab5f",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "b4282659-dd1a-4042-a075-7df4890858e7": "7c4044ea-fb72-430d-b08b-19bfe77bf24d",
+        "b79b88e1-35ef-4947-8a61-f6ec631a1e15": "94cad9c3-833e-410a-a028-6cd25fdb20d9",
+        "c12fb587-fc86-471c-8a84-19caf31325ce": "f2bfdc6c-0d84-4736-ba44-8cdbc196e0b3",
+        "c179fb5c-9845-4e37-aef7-6e00d97548eb": "0be3d8cd-ec75-442f-9b05-b6acaac19315",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "dac0090b-6d39-4275-98ac-db8aab39502f": "5cef9632-cd85-406e-8441-661e2cc1657c",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f",
+        "ff461754-ad20-4eeb-af02-2b46cc980b24": "beada20d-6def-48b5-8cdf-ca243e06640d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "bdcbc7e9-de38-4b1e-aab5-955d2a40cd65",
+      "status": "complete"
+    },
+    "end_date": "2026-02-20T06:34:39Z",
+    "id": "054e5007-1965-4ca6-a038-8ecd06917337",
+    "last_updated_ts": "2026-03-26T07:28:32.076235Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB19DENLAC",
+      "KXNBASPREAD-26FEB19DENLAC",
+      "KXNBATOTAL-26FEB19DENLAC",
+      "KXNBATEAMTOTAL-26FEB19DENLAC",
+      "KXNBA1HWINNER-26FEB19DENLAC",
+      "KXNBA1HSPREAD-26FEB19DENLAC",
+      "KXNBA1HTOTAL-26FEB19DENLAC",
+      "KXNBA2HWINNER-26FEB19DENLAC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB19DENLAC",
+      "KXNBASPREAD-26FEB19DENLAC",
+      "KXNBATOTAL-26FEB19DENLAC",
+      "KXNBATEAMTOTAL-26FEB19DENLAC",
+      "KXNBAPTS-26FEB19DENLAC",
+      "KXNBAREB-26FEB19DENLAC",
+      "KXNBAAST-26FEB19DENLAC",
+      "KXNBASTL-26FEB19DENLAC",
+      "KXNBABLK-26FEB19DENLAC",
+      "KXNBA3PT-26FEB19DENLAC",
+      "KXNBA2D-26FEB19DENLAC",
+      "KXNBA3D-26FEB19DENLAC",
+      "KXNBA1HWINNER-26FEB19DENLAC",
+      "KXNBA1HSPREAD-26FEB19DENLAC",
+      "KXNBA1HTOTAL-26FEB19DENLAC",
+      "KXNBA2HWINNER-26FEB19DENLAC"
+    ],
+    "source_id": "bdcbc7e9-de38-4b1e-aab5-955d2a40cd65",
+    "source_ids": {
+      "source_2_id": "20260220FFED869B",
+      "source_3_id": "bdcbc7e9-de38-4b1e-aab5-955d2a40cd65"
+    },
+    "start_date": "2026-02-20T03:30:00Z",
+    "title": "Denver at Los Angeles C",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-27T23:30:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 109,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-25T23:30:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 119,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-23T00:00:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 92,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 117,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-18T23:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 120,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        }
+      ],
+      "away_team_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+      "game_injuries": {
+        "6dd427f5-fa02-40ef-aa90-cfa73e0c539e": [
+          {
+            "comment": "The Celtics listed Brown as OUT for Sunday's (Mar. 29) game against Charlotte.",
+            "date_updated": "2026-03-29",
+            "description": "Calf",
+            "start_date": "2026-03-26",
+            "status": "Out",
+            "structured_id": "417ef237-dcd0-46a2-8649-6ccbc78e3a4b"
+          },
+          {
+            "comment": "The Celtics listed Queta as Probable for Sunday's (Mar. 29) game against Charlotte.",
+            "date_updated": "2026-03-29",
+            "description": "Thumb",
+            "start_date": "2026-03-28",
+            "status": "Day To Day",
+            "structured_id": "16deb828-cf61-4d83-838e-8658730a0ffe"
+          },
+          {
+            "comment": "The Celtics listed White as Questionable for Sunday's (Mar. 29) game against Charlotte.",
+            "date_updated": "2026-03-28",
+            "description": "Knee",
+            "start_date": "2026-03-28",
+            "status": "Day To Day",
+            "structured_id": "fc551031-35e4-47a5-b9a3-052c0c56109f"
+          },
+          {
+            "comment": "Vucevic underwent surgery Saturday (Mar. 7) to stabilize a fracture in his right ring finger and will be re-evaluated in 3-to-4 weeks.",
+            "date_updated": "2026-03-07",
+            "description": "Finger",
+            "start_date": "2026-03-06",
+            "status": "Out",
+            "structured_id": "9851168d-7c6c-4b3f-adcb-261a46e54c03"
+          }
+        ],
+        "7c980c51-fa76-4571-b165-242b2a00f3a1": [
+          {
+            "comment": "The Hornets listed Williams as OUT (Mar. 29) game for Sunday's against Boston.",
+            "date_updated": "2026-03-29",
+            "description": "Knee",
+            "start_date": "2026-03-29",
+            "status": "Out",
+            "structured_id": "840aa2b8-dc28-4a71-a899-76844bc24ebd"
+          },
+          {
+            "comment": "The Hornets listed Salaun as OUT (Mar. 29) game for Sunday's against Boston.",
+            "date_updated": "2026-03-29",
+            "description": "Calf",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "4f6bd439-7fd8-4d25-bff5-72b1b2b46b4e"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-28T22:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 114,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": false
+        },
+        {
+          "date": "2026-03-26T23:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 114,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-03-24T23:00:00+00:00",
+          "opponent_points": 90,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 134,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-03-21T23:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 124,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-03-19T23:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 130,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        }
+      ],
+      "home_team_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR29BOSCHA",
+      "player_id_mapping": {
+        "0718c0e1-7804-471a-b4ed-cde778948d4d": "c4f4898b-4a7a-4849-8546-5bdc0af22927",
+        "0b9a642d-d6f6-4c65-a7bd-d82e016e1b5d": "45a1a8b2-fcfd-46f2-96e2-5e86555de713",
+        "18512d7a-ea08-408c-8ecb-7f436ca41120": "ad7c156e-90b4-4656-bf01-893bbd63b3d3",
+        "1bd20765-bf81-4250-a16c-05a4799758fc": "aa6f6626-0d22-4d04-bd68-e279b0ccf5d7",
+        "258ed390-1d72-42ee-9c52-f7064051e35f": "f33c690f-071c-40ee-8fdd-e10b6b236b73",
+        "298852ca-299d-4cb9-a9e5-6ac909582f78": "a9fecddd-880e-499f-8fa4-1472c9dee372",
+        "388ec80d-171a-48f7-9cc8-5a8bebde54e0": "88d788fe-5410-40c4-9193-b0e3e1af4f1f",
+        "50e0c4e6-dfe4-42ca-bf18-aa2630be21c9": "4f6bd439-7fd8-4d25-bff5-72b1b2b46b4e",
+        "59209028-6712-47ef-b87c-bdb19f91523b": "840aa2b8-dc28-4a71-a899-76844bc24ebd",
+        "59f3c089-7642-4792-99a2-97795c3d7648": "197dcf24-c55c-421c-b8b1-b744b7f09616",
+        "5b681679-4d8c-4964-bbba-5ed058257745": "2749b30f-ae8f-4883-bf7f-0c8d362c7f60",
+        "68ed2fac-e117-48e1-ac43-314098f600ea": "de3a9956-3e26-4259-938b-212a651a93ca",
+        "7366b2b7-5959-4dd9-9204-760e861b3119": "9851168d-7c6c-4b3f-adcb-261a46e54c03",
+        "775e4450-cdcd-43a1-b4cd-dc29fba48503": "2a87f5ef-36b3-4f5e-8565-ea9f6c6820a2",
+        "78dc76b4-a810-4e4a-9418-5cf3fa03582f": "59801ae6-95af-47a0-b074-2ac1bce80c48",
+        "7cfc1044-54f9-4788-af5f-8d943f992e0d": "16deb828-cf61-4d83-838e-8658730a0ffe",
+        "879370c1-afe6-45c7-9ba1-93a78d4b8d61": "c770d1a8-b835-4d56-b107-3da5de5d6622",
+        "8da31ebc-6614-4209-8685-5442bc09887b": "fbcb18f9-9a5e-43f0-a622-b628d6422b48",
+        "98136da3-452f-49dc-a794-1ee9c76443f2": "5f251b4a-e9aa-4e22-b5df-157d80e606e6",
+        "9bcd5cff-4a1c-4454-89b6-a5899b0c6bcc": "fc551031-35e4-47a5-b9a3-052c0c56109f",
+        "a1e46e84-bd9e-454d-9117-a8fa1aab0ce4": "0bcb0358-92a6-405a-8ba0-b41d69bd4da7",
+        "abe7b1d1-e992-4ab5-8f0c-8a0d7747ca1f": "15a90b6e-13a2-4d02-9892-373ec942ff97",
+        "af8f331b-96a6-416e-8837-b14d5b11c52d": "6dc593c0-4411-4471-8d19-da2eb414e6fb",
+        "b04cd5ce-e82c-47a7-9b2a-c561c1cb7b80": "5f51a9d7-093c-48f8-80c8-1fa29a7f39f1",
+        "bda65c13-f2d4-43ec-b058-b7807bec4867": "69db2a9d-b98d-47aa-accf-d082d6daa2b6",
+        "be53f27f-c666-4bd2-8fcd-0713f963aa2b": "2b9f626b-3bc9-4d66-9ac9-9689f65fc7fc",
+        "cf4d4c23-9ccc-4cf3-b620-9749a8e65064": "e38b5f9f-de26-4523-8986-99363e53f8e0",
+        "dcea56e2-1ba1-49ab-b0d0-764fa98bc6b5": "84fad10f-33cc-4c56-b60a-78d5fa3bc946",
+        "eb063340-43d5-4f5c-8097-fa6e40b6f5e2": "4d12a90a-dfe6-42f9-a1df-178d1d8b7d04",
+        "f5aac467-6bf9-4fa3-b89a-9ef71fe546fa": "ef5bd790-45f1-4c0f-b977-58009cf35208",
+        "fa142a43-00a4-4e79-be7b-d469c09dfdd0": "25d03f89-b2bf-46f7-ab2e-abda8df482f6",
+        "fb60c435-dd40-401e-977b-15bdbb753444": "49b7f351-b51d-4429-8324-a1cf8afe003f",
+        "fba3e1cf-82e4-412a-b8db-148f9b93ebf3": "bf3e0f23-5690-485d-bca2-f3a04ff4766e",
+        "ffc5579c-783f-4d62-80ab-3c3dcb05a27d": "417ef237-dcd0-46a2-8649-6ccbc78e3a4b"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "9cf5b56c-b312-4b9d-ba49-db87fcafae33",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-30T00:50:17Z",
+    "id": "e25a11d3-1115-4233-bb0e-ed8ebaffd199",
+    "last_updated_ts": "2026-03-31T01:01:33.034596Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR29BOSCHA",
+      "KXNBASPREAD-26MAR29BOSCHA",
+      "KXNBATOTAL-26MAR29BOSCHA",
+      "KXNBATEAMTOTAL-26MAR29BOSCHA",
+      "KXNBA1HWINNER-26MAR29BOSCHA",
+      "KXNBA2HWINNER-26MAR29BOSCHA",
+      "KXNBA1HSPREAD-26MAR29BOSCHA",
+      "KXNBA1HTOTAL-26MAR29BOSCHA",
+      "KXNBA2HSPREAD-26MAR29BOSCHA",
+      "KXNBA2HTOTAL-26MAR29BOSCHA"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR29BOSCHA",
+      "KXNBASPREAD-26MAR29BOSCHA",
+      "KXNBATOTAL-26MAR29BOSCHA",
+      "KXNBATEAMTOTAL-26MAR29BOSCHA",
+      "KXNBA1HWINNER-26MAR29BOSCHA",
+      "KXNBA2HWINNER-26MAR29BOSCHA",
+      "KXNBAPTS-26MAR29BOSCHA",
+      "KXNBAREB-26MAR29BOSCHA",
+      "KXNBAAST-26MAR29BOSCHA",
+      "KXNBA3PT-26MAR29BOSCHA",
+      "KXNBA2D-26MAR29BOSCHA",
+      "KXNBA3D-26MAR29BOSCHA",
+      "KXNBA1HSPREAD-26MAR29BOSCHA",
+      "KXNBA1HTOTAL-26MAR29BOSCHA",
+      "KXNBASTL-26MAR29BOSCHA",
+      "KXNBABLK-26MAR29BOSCHA",
+      "KXNBA2HSPREAD-26MAR29BOSCHA",
+      "KXNBA2HTOTAL-26MAR29BOSCHA"
+    ],
+    "source_id": "9cf5b56c-b312-4b9d-ba49-db87fcafae33",
+    "source_ids": {
+      "source_2_id": "202603290498C9CA",
+      "source_3_id": "9cf5b56c-b312-4b9d-ba49-db87fcafae33",
+      "source_4_id": "62925169",
+      "source_5_id": "sr:match:62925169"
+    },
+    "start_date": "2026-03-29T22:00:00Z",
+    "title": "Boston at Charlotte",
+    "type": "basketball_game"
+  }
+}

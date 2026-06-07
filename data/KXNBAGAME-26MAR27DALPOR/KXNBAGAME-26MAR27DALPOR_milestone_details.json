@@ -1,0 +1,265 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-26T02:00:00+00:00",
+          "opponent_points": 142,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 135,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-03-24T01:30:00+00:00",
+          "opponent_points": 137,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 131,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-03-22T00:30:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 131,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-03-19T00:30:00+00:00",
+          "opponent_points": 135,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 120,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 111,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        }
+      ],
+      "away_team_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+      "game_injuries": {
+        "2229b01e-68eb-46ad-adf4-71a9533c84fc": [
+          {
+            "comment": "Sharpe will be re-evaluated in 4-to-6 weeks, per Sean Highkin of Rip City Radio 620 Portland.",
+            "date_updated": "2026-02-24",
+            "description": "Calf",
+            "start_date": "2026-02-06",
+            "status": "Out",
+            "structured_id": "53147479-51de-4a93-8beb-a70a78dc681f"
+          },
+          {
+            "comment": "The Trail Blazers listed Krejci as Out for Friday's (Mar. 27) game against the Mavericks.",
+            "date_updated": "2026-03-27",
+            "description": "Calf",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "dab15c3b-1fd4-44ad-940c-55852685a6ae"
+          },
+          {
+            "comment": "The Trail Blazers said on Thursday (Sept. 25) that Lillard won't be back on the court for the 2025-26 season due to his achilles injury.",
+            "date_updated": "2025-09-25",
+            "description": "Achilles",
+            "start_date": "2025-09-25",
+            "status": "Out For Season",
+            "structured_id": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c"
+          }
+        ],
+        "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed": [
+          {
+            "comment": "The Mavericks announced on Sunday (Dec. 21) that Lively II has successfully underwent foot surgery.",
+            "date_updated": "2025-12-21",
+            "description": "Foot",
+            "start_date": "2025-11-22",
+            "status": "Out For Season",
+            "structured_id": "306185e2-63a3-487a-8ff1-eb514655e2c5"
+          },
+          {
+            "comment": "The Mavericks listed Middleton as Out for Friday's (Mar. 27) game against the Trail Blazers.",
+            "date_updated": "2026-03-27",
+            "description": "Illness",
+            "start_date": "2026-03-27",
+            "status": "Out",
+            "structured_id": "08aa816a-180f-42cd-b498-9067f069ba70"
+          },
+          {
+            "comment": "The Mavericks listed Martin as Out for Friday's (Mar. 27) game against the Trail Blazers.",
+            "date_updated": "2026-03-27",
+            "description": "Foot",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "9e9915a1-81b8-4cda-b6b6-1537607daf8a"
+          },
+          {
+            "comment": "The Mavericks said on Wednesday (Feb. 18) that Irving is OUT for the season, per ESPN's Shams Charania. ",
+            "date_updated": "2026-02-18",
+            "description": "Knee",
+            "start_date": "2025-03-03",
+            "status": "Out For Season",
+            "structured_id": "c397aaf3-768c-48f2-9a6a-83d15e153123"
+          },
+          {
+            "comment": "The Mavericks listed Gafford as Out for Friday's (Mar. 27) game against the Trail Blazers.",
+            "date_updated": "2026-03-27",
+            "description": "Shoulder",
+            "start_date": "2026-03-23",
+            "status": "Out",
+            "structured_id": "f7809899-1a37-42df-8c56-5029ca536e5b"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-26T02:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 130,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-24T02:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 134,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-22T21:00:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 112,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 108,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-18T23:30:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 127,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        }
+      ],
+      "home_team_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR27DALPOR",
+      "player_id_mapping": {
+        "06df3766-f654-4fe3-8a37-496d21e7ea23": "0ff276a5-115b-4407-94b7-37e21c11454a",
+        "08baba55-bec0-4494-95ce-28778c37a981": "8201e738-2f9d-43df-a356-adb225fc5dcb",
+        "1b31afe2-7fb7-42d1-8eef-003c5eb619c2": "306185e2-63a3-487a-8ff1-eb514655e2c5",
+        "1d323a11-1758-4975-ba6f-1a03b7a2157c": "3b4ac2be-e186-4c72-a906-b7276d76422d",
+        "22031e11-d6b9-476c-8198-040db9ce09af": "612682ce-16b7-4050-8e1d-7febe4821f0e",
+        "30eb60ce-5b33-4784-8e2a-37c304ea7721": "5da14c46-20e8-477d-8869-95f009e5f98f",
+        "312f21c9-a061-43e2-9a22-65199131068e": "0a9e0587-c565-41cc-93bd-74e1d1b1d375",
+        "44fe2902-0a78-440e-bbad-d28cd0308e21": "4b8286f2-fd4a-4a46-b65b-392d5b21cc8b",
+        "4c362eee-6474-40ea-b1b4-d8f917f95175": "08aa816a-180f-42cd-b498-9067f069ba70",
+        "4e152a06-673e-4701-b115-aa7e2cd00d2d": "2f07473d-3b17-445c-811a-571e2e77025c",
+        "52cd8137-c791-4569-ad70-433e25d34882": "f7809899-1a37-42df-8c56-5029ca536e5b",
+        "5382cf43-3a79-4a5a-a7fd-153906fe65dd": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c",
+        "566685c7-ff63-439a-8888-5278904835fa": "9e9915a1-81b8-4cda-b6b6-1537607daf8a",
+        "5b315e15-6633-4ce2-8200-71b821553314": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0",
+        "65700e81-3aa0-49a9-8a94-004f2cfb64e5": "b75478af-67c3-4a19-9cee-b2930a77d78d",
+        "68175411-ce98-4b2c-9ff0-3e26bff33191": "41df03a3-f2f3-49ad-997e-34d3e36f04b5",
+        "6d4ce277-bc3e-4d24-82d4-5366c48e4cdd": "6e0b9fe4-b330-459a-a6fa-6bb2caaf3d00",
+        "6d7f4f2f-7ea7-4c56-8082-dfdce67f5487": "b382638b-047d-4e8b-84ec-31c3c0fa87db",
+        "7721e264-5db8-4af9-b252-65f2d18c454d": "f1bdc817-0c46-4f47-8007-e5701780c18f",
+        "8b43c272-c16b-40c7-a4d5-7bbcefeb1816": "c90b91a6-f684-4305-bf03-697ea7daf402",
+        "8db2a730-bafb-4936-915f-3dd4920a0aa9": "dab15c3b-1fd4-44ad-940c-55852685a6ae",
+        "996b6aa8-bd6f-469c-b669-bbc45934c587": "17380860-1ef9-4339-a500-e8bac0b0517c",
+        "a15f73b1-f757-4af2-b09a-f0185e09c8bf": "f614a5c0-42ba-4187-b40a-e0c298d65091",
+        "a26661fb-805f-41a9-8fc9-8ed805233482": "06d2662c-1e37-4b6c-8a1d-501a105e5644",
+        "a465418b-0933-40b4-8f01-253d046872e1": "335fc1f4-8629-4b73-ba10-f18c7bb35a53",
+        "a978acbc-e84b-4cc4-85c9-30595e022847": "f7a10ceb-9ddc-4afc-aea0-8c67b8b1dc6d",
+        "af5e629a-6b79-46d9-9b58-dc9ec41a0bd0": "a867c548-86ed-4810-a289-a25576489f7f",
+        "c089cc76-e8a3-46cc-8691-3d4f28edc9bf": "58da1241-7818-4d04-9629-2a5a5795c5fa",
+        "c20dfb58-5622-405e-90b1-92b79ee97461": "aba92929-6fc0-476c-8462-35c5cf7a2cec",
+        "c76e8dae-58ad-4950-8929-5094036210c4": "80b360ed-9ea4-4cca-8ced-abba5c6a8471",
+        "c8efed0b-f365-4440-84f7-df8c8078d1c0": "81a9e528-797f-4742-94a7-6a0aab0cdee6",
+        "d8058632-b2ca-468c-9c27-56410aef4dff": "06631017-5228-4584-8c20-90c630ba3d5d",
+        "dd146010-902b-4ad7-b98c-650d0363a2f0": "c397aaf3-768c-48f2-9a6a-83d15e153123",
+        "e86c1439-4ef0-4530-9c41-c3a682962eb3": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf",
+        "e872cdaf-5d04-45c2-bbfe-d673f3fb26ce": "4f13353c-1bad-49b6-8fe6-3530ad2d887a",
+        "eb0bd3d9-4bf0-4cc3-bbdf-c79e2255c175": "53147479-51de-4a93-8beb-a70a78dc681f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "093cec46-e01d-4dd6-9523-ab8c3681e671",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-28T15:03:34Z",
+    "id": "29a37d25-aef3-4482-ad29-c4498bfccb56",
+    "last_updated_ts": "2026-03-29T16:00:41.962776Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR27DALPOR",
+      "KXNBASPREAD-26MAR27DALPOR",
+      "KXNBATOTAL-26MAR27DALPOR",
+      "KXNBATEAMTOTAL-26MAR27DALPOR",
+      "KXNBA1HWINNER-26MAR27DALPOR",
+      "KXNBA2HWINNER-26MAR27DALPOR",
+      "KXNBA1HSPREAD-26MAR27DALPOR",
+      "KXNBA1HTOTAL-26MAR27DALPOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR27DALPOR",
+      "KXNBASPREAD-26MAR27DALPOR",
+      "KXNBATOTAL-26MAR27DALPOR",
+      "KXNBATEAMTOTAL-26MAR27DALPOR",
+      "KXNBAMENTION-26MAR28DALPOR",
+      "KXNBAMENTION-26MAR27DALPOR",
+      "KXNBA1HWINNER-26MAR27DALPOR",
+      "KXNBA2HWINNER-26MAR27DALPOR",
+      "KXNBA1HSPREAD-26MAR27DALPOR",
+      "KXNBA1HTOTAL-26MAR27DALPOR",
+      "KXNBAPTS-26MAR27DALPOR",
+      "KXNBAREB-26MAR27DALPOR",
+      "KXNBAAST-26MAR27DALPOR",
+      "KXNBA3PT-26MAR27DALPOR",
+      "KXNBA2D-26MAR27DALPOR",
+      "KXNBA3D-26MAR27DALPOR",
+      "KXNBASTL-26MAR27DALPOR",
+      "KXNBABLK-26MAR27DALPOR"
+    ],
+    "source_id": "093cec46-e01d-4dd6-9523-ab8c3681e671",
+    "source_ids": {
+      "source_2_id": "2026032810AE5234",
+      "source_3_id": "093cec46-e01d-4dd6-9523-ab8c3681e671",
+      "source_4_id": "62924537",
+      "source_5_id": "sr:match:62924537"
+    },
+    "start_date": "2026-03-28T02:00:00Z",
+    "title": "Dallas at Portland",
+    "type": "basketball_game"
+  }
+}

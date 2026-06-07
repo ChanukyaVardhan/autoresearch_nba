@@ -1,0 +1,239 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-09T23:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 115,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-03-08T17:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 98,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 113,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-03-01T20:30:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 106,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-02-28T00:00:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 119,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        }
+      ],
+      "away_team_id": "90381a35-42a6-4975-851f-175418e4271a",
+      "game_injuries": {
+        "00c3e69d-d9b9-4ac3-bf79-19707fe43637": [
+          {
+            "comment": "The Magic said on Tuesday (Mar. 10) that Wagner emains without a timetable to return.",
+            "date_updated": "2026-03-10",
+            "description": "Ankle",
+            "start_date": "2026-02-18",
+            "status": "Out",
+            "structured_id": "0432f2e8-9b8e-4324-a15d-c40aa0c79842"
+          },
+          {
+            "comment": "The Magic said on Tuesday (Mar. 10) that Black  underwent an MRI on Monday which revealed a left lateral abdominal muscle strain, and his return will depend on how he responds to treatment.",
+            "date_updated": "2026-03-10",
+            "description": "Back",
+            "start_date": "2026-03-07",
+            "status": "Out",
+            "structured_id": "60bb439a-df6a-4fea-8312-4caa6a2c0fbe"
+          }
+        ],
+        "90381a35-42a6-4975-851f-175418e4271a": [
+          {
+            "comment": "The Cavaliers said that Strus could make season debut on Sunday (Mar. 15) game versus the Mavericks.",
+            "date_updated": "2026-03-11",
+            "description": "Foot",
+            "start_date": "2025-08-26",
+            "status": "Out",
+            "structured_id": "e59d506e-4dfc-496b-87e1-f74fda25816d"
+          },
+          {
+            "comment": "The Cavaliers have listed Proctor as Out for Wednesday's (Mar. 11) game against the Magic.",
+            "date_updated": "2026-03-10",
+            "description": "Quadriceps",
+            "start_date": "2026-03-07",
+            "status": "Out",
+            "structured_id": "dfbabd3c-b574-4d27-81a8-36653c7d06e9"
+          },
+          {
+            "comment": "The Cavaliers listed Allen as OUT for Wednesday's (Mar. 11) game against Orlando.",
+            "date_updated": "2026-03-10",
+            "description": "Knee",
+            "start_date": "2026-03-03",
+            "status": "Out",
+            "structured_id": "67a44479-d07a-4782-b8a8-c997f71f1327"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-09T00:00:00+00:00",
+          "opponent_points": 91,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 130,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T20:00:00+00:00",
+          "opponent_points": 92,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 119,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-03-06T00:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 115,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 126,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-03-01T23:00:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 92,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": false
+        }
+      ],
+      "home_team_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR11CLEORL",
+      "player_id_mapping": {
+        "030424b9-7367-45e1-b9d4-c8dee3a89e53": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2",
+        "089dc4be-faf1-4d91-9e02-fdb78ed096f3": "60bb439a-df6a-4fea-8312-4caa6a2c0fbe",
+        "0c977083-fdde-45f1-9406-60aef2a78846": "d5a4e355-31c8-4420-b094-e276ca1a1866",
+        "1a120d1a-0202-4039-a00e-4daa8b7ffcfc": "8dc06468-b5e3-4d7f-b644-f3ced82f0246",
+        "22be3275-1ef8-47f7-a30d-af38f7bc96b2": "dfbabd3c-b574-4d27-81a8-36653c7d06e9",
+        "3ac2181f-3bec-4ffc-809f-30f2357b36c1": "00472d5d-df65-4e81-abb4-e88b02c71002",
+        "49962b13-0afc-43f5-a3e2-7e37b7736260": "ccb79bb0-64c9-46fe-9442-81a77ede2c47",
+        "49d8f5ef-2867-4597-a3ab-5ffc5e651258": "2df6129b-493e-48d1-a53f-1f97d74696b1",
+        "5099364d-2c4b-4d38-ac66-a86d9489474c": "f84f97c0-2831-4378-94bc-1f2edff36452",
+        "514fd4aa-5384-4bc7-a670-367a426ca235": "0432f2e8-9b8e-4324-a15d-c40aa0c79842",
+        "5bb6159f-27ae-406e-ac5b-e8911f0cbb7c": "1935e9f5-be0f-4138-9ca3-1499c08738b9",
+        "5efce548-15a0-4a8c-9f63-5f5db4851696": "1bd97b36-a12a-4e51-a4dc-bce1f4afdc25",
+        "68a8c4ea-1d77-4a42-bea4-dbe9a162332a": "24c7e18f-1086-4b18-b37c-631d2c39e0e9",
+        "6b8ed06d-a33f-46ce-b416-647100736df8": "5e64b57d-17f7-46e7-af61-b749c276591f",
+        "6dda6e0a-4b74-4486-80cd-5f9a8d93d1ba": "c382fa1a-0107-40fb-b0b7-03f1386f8797",
+        "744d5db7-b0be-474a-a58b-6ddf7ae35567": "708d8ae3-92df-416c-9629-917d1d20edd6",
+        "7458ef96-cab7-433e-a761-4e93537f4b52": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5",
+        "776679a3-c1d8-4463-99b1-61024008a3ed": "e43412ed-d498-4dca-b8ab-584e80e6d6a0",
+        "79cd9581-3aaa-484c-a8b1-a349cdc5c34c": "51a39148-a6c9-407a-8dab-ee71cc9ed9b1",
+        "90b52759-3f0e-4d93-b5ca-fcb53afce857": "7709e8e3-d714-4bf9-8655-793857fe3e50",
+        "98fa75e7-a46f-4483-a15b-053c5ca52604": "c692e967-4748-4212-9d05-f7f86b8dc5ea",
+        "a2c6a907-282f-4172-9d60-42d03987da0e": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b",
+        "a3c4745f-461b-47d4-87db-887ac81fe5e7": "830e16cb-c0c6-493b-986a-2c87b031056b",
+        "a3fff5c7-19b6-4dac-bd75-11b944bea505": "67a44479-d07a-4782-b8a8-c997f71f1327",
+        "a4b52811-c864-4830-a0fe-9d9745814422": "909e5e21-001e-4017-a14f-b769fe85712f",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "ad389979-d1d5-4f26-ad64-3e516b3373a3": "e92aa777-3acd-4bce-a1cb-c734771fb903",
+        "ad5c19d3-1cce-4124-aeb9-dc15b3d0a851": "06c34edd-c420-4f1a-a768-f71e796aa5b1",
+        "b6dde96e-3748-4cbe-86d2-798d5dffb3c0": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6",
+        "bbeecf0c-62c6-4211-991d-2afaf2403623": "22c635e6-e6ac-4e0f-bff6-a8b77e157103",
+        "d64b602e-45f2-4ba9-878b-0a4f7210ec77": "e6212176-2793-4f9a-8e1b-7d294eca2787",
+        "f1f258c2-9bcf-4e33-ba9e-563e95084893": "af1aef60-b02f-4d7f-b9da-fc76ea7f6c31",
+        "f6aff1dc-15b9-4c89-a2fb-746f4cf78890": "e59d506e-4dfc-496b-87e1-f74fda25816d",
+        "fa95eb6b-9008-4d67-8476-3b69e90b8688": "c151ea5c-a22e-4083-a35e-eac7502ee20e",
+        "fd463d95-3421-4c52-ba77-16beb48f0f7e": "4ed0f34a-d3ec-4e33-96ae-d0935ae68985"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "8c53bd71-1298-43f4-a794-3f71304eecd5",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-12T04:30:00Z",
+    "id": "a8ce275a-41fd-4ce6-89d4-715937bb61db",
+    "last_updated_ts": "2026-03-26T07:29:49.299869Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR11CLEORL",
+      "KXNBASPREAD-26MAR11CLEORL",
+      "KXNBATOTAL-26MAR11CLEORL",
+      "KXNBATEAMTOTAL-26MAR11CLEORL",
+      "KXNBA1HWINNER-26MAR11CLEORL",
+      "KXNBA2HWINNER-26MAR11CLEORL",
+      "KXNBA1HSPREAD-26MAR11CLEORL",
+      "KXNBA1HTOTAL-26MAR11CLEORL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR11CLEORL",
+      "KXNBASPREAD-26MAR11CLEORL",
+      "KXNBATOTAL-26MAR11CLEORL",
+      "KXNBATEAMTOTAL-26MAR11CLEORL",
+      "KXNBAMENTION-26MAR11CLEORL",
+      "KXNBA1HWINNER-26MAR11CLEORL",
+      "KXNBA2HWINNER-26MAR11CLEORL",
+      "KXNBAPTS-26MAR11CLEORL",
+      "KXNBA2D-26MAR11CLEORL",
+      "KXNBAREB-26MAR11CLEORL",
+      "KXNBAAST-26MAR11CLEORL",
+      "KXNBA3PT-26MAR11CLEORL",
+      "KXNBA3D-26MAR11CLEORL",
+      "KXNBASTL-26MAR11CLEORL",
+      "KXNBABLK-26MAR11CLEORL",
+      "KXNBA1HSPREAD-26MAR11CLEORL",
+      "KXNBA1HTOTAL-26MAR11CLEORL"
+    ],
+    "source_id": "8c53bd71-1298-43f4-a794-3f71304eecd5",
+    "source_ids": {
+      "source_2_id": "2026031172480B06",
+      "source_3_id": "8c53bd71-1298-43f4-a794-3f71304eecd5",
+      "source_4_id": "62925493",
+      "source_5_id": "sr:match:62925493"
+    },
+    "start_date": "2026-03-11T23:30:00Z",
+    "title": "Cleveland at Orlando",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-12T01:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 117,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-03-10T01:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 119,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": true
+        },
+        {
+          "date": "2026-03-08T01:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 99,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-03-06T00:00:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 122,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": true
+        },
+        {
+          "date": "2026-03-05T00:30:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 102,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        }
+      ],
+      "away_team_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+      "game_injuries": {
+        "2229b01e-68eb-46ad-adf4-71a9533c84fc": [
+          {
+            "comment": "The Trail Blazers listed Williams III as Questionable for Friday's (Mar. 13) game versus the Jazz.",
+            "date_updated": "2026-03-13",
+            "description": "Knee",
+            "start_date": "2026-03-13",
+            "status": "Day To Day",
+            "structured_id": "aba92929-6fc0-476c-8462-35c5cf7a2cec"
+          },
+          {
+            "comment": "Sharpe will be re-evaluated in 4-to-6 weeks, per Sean Highkin of Rip City Radio 620 Portland.",
+            "date_updated": "2026-02-24",
+            "description": "Calf",
+            "start_date": "2026-02-06",
+            "status": "Out",
+            "structured_id": "53147479-51de-4a93-8beb-a70a78dc681f"
+          },
+          {
+            "comment": "The Trail Blazers said on Thursday (Sept. 25) that Lillard won't be back on the court for the 2025-26 season due to his achilles injury.",
+            "date_updated": "2025-09-25",
+            "description": "Achilles",
+            "start_date": "2025-09-25",
+            "status": "Out For Season",
+            "structured_id": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c"
+          }
+        ],
+        "6f60dfb1-fda1-423f-b76f-67e9d24b9644": [
+          {
+            "comment": "Markkanen will be re-evaluated in two weeks after Thursday's (Feb. 26) MRI showed symptomatic hip impingement with associated inflammation and bone bruise, according to Shams Charania.",
+            "date_updated": "2026-02-26",
+            "description": "Ankle",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "23b96d6f-9d94-4858-b814-deaf00b4bae4"
+          },
+          {
+            "comment": "The Jazz listed George as Out for Friday's (Mar. 13) game against the Trail Blazers.",
+            "date_updated": "2026-03-12",
+            "description": "Leg",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "bc6e3271-7095-427a-862f-24c9746e7cf7"
+          },
+          {
+            "comment": "Kessler will undergo left shoulder surgery to address a torn labrum and will miss the remainder of the 2025-26 season, as per Tony Jones of The Athletic.",
+            "date_updated": "2025-11-05",
+            "description": "Shoulder",
+            "start_date": "2025-11-01",
+            "status": "Out For Season",
+            "structured_id": "fa781441-5e6a-4a3d-9a3f-0af9ee263945"
+          },
+          {
+            "comment": "The Jazz reported on Monday (Feb. 23) that Nurkic will undergo season-ending nose surgery.",
+            "date_updated": "2026-02-23",
+            "description": "Nose",
+            "start_date": "2026-02-19",
+            "status": "Out For Season",
+            "structured_id": "cbc365fe-ea91-4ddb-b25b-57806890404e"
+          },
+          {
+            "comment": "The Jazz said on Thursday (Feb. 12) that Jackson Jr. will miss the rest of the season to undergo knee surgery.",
+            "date_updated": "2026-02-12",
+            "description": "Knee",
+            "start_date": "2026-02-12",
+            "status": "Out For Season",
+            "structured_id": "fb5e5473-1360-41fc-9961-23c16bfa4a2d"
+          },
+          {
+            "comment": "The Jazz listed Konchar as Out for Friday's (Mar. 13) game against the Trail Blazers.",
+            "date_updated": "2026-03-12",
+            "description": "Calf",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "6d256e44-7941-4c7e-a079-09a86365dbc9"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-11T02:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 101,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-09T01:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 131,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T01:00:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 99,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-05T01:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 122,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-01T23:00:00+00:00",
+          "opponent_points": 135,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 101,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        }
+      ],
+      "home_team_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR13UTAPOR",
+      "player_id_mapping": {
+        "019a0f57-b63a-4521-8a5d-45942a15eb7b": "7d2ee2ec-d216-4a88-9468-cd82847d51a0",
+        "06df3766-f654-4fe3-8a37-496d21e7ea23": "0ff276a5-115b-4407-94b7-37e21c11454a",
+        "08baba55-bec0-4494-95ce-28778c37a981": "8201e738-2f9d-43df-a356-adb225fc5dcb",
+        "22031e11-d6b9-476c-8198-040db9ce09af": "612682ce-16b7-4050-8e1d-7febe4821f0e",
+        "30584815-1233-4c09-ad40-102909d95d8e": "3a5d5512-a007-425c-8888-787aa0a129e8",
+        "312f21c9-a061-43e2-9a22-65199131068e": "0a9e0587-c565-41cc-93bd-74e1d1b1d375",
+        "3e492a6a-ed3c-499d-b3f5-ff68ca16f6fd": "fb5e5473-1360-41fc-9961-23c16bfa4a2d",
+        "4a4459df-6307-4d10-b4cd-c69e9bf8b11d": "bc6e3271-7095-427a-862f-24c9746e7cf7",
+        "5382cf43-3a79-4a5a-a7fd-153906fe65dd": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c",
+        "57807c7c-5866-4eb9-8d2c-b83351f3e288": "67595303-1b3e-460d-8af7-239d9766d9e5",
+        "583d7994-36f9-4a9a-b527-c18704406981": "23b96d6f-9d94-4858-b814-deaf00b4bae4",
+        "5b315e15-6633-4ce2-8200-71b821553314": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0",
+        "65700e81-3aa0-49a9-8a94-004f2cfb64e5": "b75478af-67c3-4a19-9cee-b2930a77d78d",
+        "71b57f97-2ddd-4593-8111-c637e2b58ff8": "48c6f4d4-58be-4d3e-bf23-e438e6fa06bf",
+        "7721e264-5db8-4af9-b252-65f2d18c454d": "f1bdc817-0c46-4f47-8007-e5701780c18f",
+        "791717a5-90bb-4dbb-abc2-e9926410a61e": "55aa4d23-0d30-4c33-a755-4b21345df731",
+        "7d615ccd-db96-42a3-9a6c-7f18ea25634e": "3b13424f-cbe9-4cec-b30a-72c243ef9cd4",
+        "7eccbdf9-58a3-4b96-8b1e-eaa8ea9da836": "fa781441-5e6a-4a3d-9a3f-0af9ee263945",
+        "810c84a1-e260-4aa3-9849-1b2ee3657fe3": "4b6555db-6e2a-4f68-ad47-2ed0aa1292ac",
+        "8a9338c7-20e9-45ec-9e9d-41c7de98591e": "a3263309-4ec0-47dc-a19d-df2bf9fdadc4",
+        "8b43c272-c16b-40c7-a4d5-7bbcefeb1816": "c90b91a6-f684-4305-bf03-697ea7daf402",
+        "8c0929ae-ce3d-47e0-a964-bf6b8d3981ab": "a54465a9-fbb4-4fb1-866f-51054aeaa227",
+        "8db2a730-bafb-4936-915f-3dd4920a0aa9": "dab15c3b-1fd4-44ad-940c-55852685a6ae",
+        "906578a8-c01e-4799-a972-2b47e02108b9": "6d256e44-7941-4c7e-a079-09a86365dbc9",
+        "996b6aa8-bd6f-469c-b669-bbc45934c587": "17380860-1ef9-4339-a500-e8bac0b0517c",
+        "a26661fb-805f-41a9-8fc9-8ed805233482": "06d2662c-1e37-4b6c-8a1d-501a105e5644",
+        "a8b48aa9-cf98-4a87-8bba-e88eead8cdaa": "cbc365fe-ea91-4ddb-b25b-57806890404e",
+        "a978acbc-e84b-4cc4-85c9-30595e022847": "f7a10ceb-9ddc-4afc-aea0-8c67b8b1dc6d",
+        "af5e629a-6b79-46d9-9b58-dc9ec41a0bd0": "a867c548-86ed-4810-a289-a25576489f7f",
+        "c089cc76-e8a3-46cc-8691-3d4f28edc9bf": "58da1241-7818-4d04-9629-2a5a5795c5fa",
+        "c20dfb58-5622-405e-90b1-92b79ee97461": "aba92929-6fc0-476c-8462-35c5cf7a2cec",
+        "c5fca05e-7292-464b-b9cd-d5d0f5e2fd07": "8a27cdd3-a42b-498a-b453-c31c26a77068",
+        "c76e8dae-58ad-4950-8929-5094036210c4": "80b360ed-9ea4-4cca-8ced-abba5c6a8471",
+        "e747747c-3053-4ad3-a44d-7ac0b9cbdb4c": "7619f24f-d512-47c2-9fb5-a5f1b30b7ef4",
+        "eb0bd3d9-4bf0-4cc3-bbdf-c79e2255c175": "53147479-51de-4a93-8beb-a70a78dc681f",
+        "f6db8914-5cdd-48d6-ac19-b64133d688cf": "b3aba67a-2618-4ef7-a4cf-d116a7e9307f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "64286fb4-d590-4222-ad52-9cff614e777d",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-14T05:32:51Z",
+    "id": "43e1ce6d-fc24-49b0-9e03-3686ace2340c",
+    "last_updated_ts": "2026-03-26T07:29:24.418514Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR13UTAPOR",
+      "KXNBASPREAD-26MAR13UTAPOR",
+      "KXNBATOTAL-26MAR13UTAPOR",
+      "KXNBATEAMTOTAL-26MAR13UTAPOR",
+      "KXNBA1HWINNER-26MAR13UTAPOR",
+      "KXNBA2HWINNER-26MAR13UTAPOR",
+      "KXNBA1HSPREAD-26MAR13UTAPOR",
+      "KXNBA1HTOTAL-26MAR13UTAPOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR13UTAPOR",
+      "KXNBASPREAD-26MAR13UTAPOR",
+      "KXNBATOTAL-26MAR13UTAPOR",
+      "KXNBATEAMTOTAL-26MAR13UTAPOR",
+      "KXNBA1HWINNER-26MAR13UTAPOR",
+      "KXNBA2HWINNER-26MAR13UTAPOR",
+      "KXNBAPTS-26MAR13UTAPOR",
+      "KXNBAREB-26MAR13UTAPOR",
+      "KXNBAAST-26MAR13UTAPOR",
+      "KXNBA3PT-26MAR13UTAPOR",
+      "KXNBA2D-26MAR13UTAPOR",
+      "KXNBA3D-26MAR13UTAPOR",
+      "KXNBASTL-26MAR13UTAPOR",
+      "KXNBABLK-26MAR13UTAPOR",
+      "KXNBA1HSPREAD-26MAR13UTAPOR",
+      "KXNBA1HTOTAL-26MAR13UTAPOR"
+    ],
+    "source_id": "64286fb4-d590-4222-ad52-9cff614e777d",
+    "source_ids": {
+      "source_2_id": "20260314FA7A0391",
+      "source_3_id": "64286fb4-d590-4222-ad52-9cff614e777d",
+      "source_4_id": "62926089",
+      "source_5_id": "sr:match:62926089"
+    },
+    "start_date": "2026-03-14T02:00:00Z",
+    "title": "Utah at Portland",
+    "type": "basketball_game"
+  }
+}

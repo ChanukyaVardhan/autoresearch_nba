@@ -1,0 +1,258 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-21T03:00:00+00:00",
+          "opponent_points": 157,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 103,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-13T02:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 135,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T01:00:00+00:00",
+          "opponent_points": 133,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 109,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-10T03:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 135,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-08T03:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 122,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        }
+      ],
+      "away_team_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+      "game_injuries": {
+        "2229b01e-68eb-46ad-adf4-71a9533c84fc": [
+          {
+            "comment": "The Trail Blazers listed Sharpe as Out for Sunday's (Feb. 22) game against the Suns.",
+            "date_updated": "2026-02-21",
+            "description": "Calf",
+            "start_date": "2026-02-06",
+            "status": "Out",
+            "structured_id": "53147479-51de-4a93-8beb-a70a78dc681f"
+          },
+          {
+            "comment": "The Trail Blazers said on Thursday (Sept. 25) that Lillard won't be back on the court for the 2025-26 season due to his achilles injury.",
+            "date_updated": "2025-09-25",
+            "description": "Achilles",
+            "start_date": "2025-09-25",
+            "status": "Out For Season",
+            "structured_id": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c"
+          }
+        ],
+        "ace11dff-c5d1-4ab9-9452-5312253659fd": [
+          {
+            "comment": "The Suns listed Allen as OUT for Sunday's (Feb. 22) game against Portland.",
+            "date_updated": "2026-02-22",
+            "description": "Knee",
+            "start_date": "2026-02-22",
+            "status": "Out",
+            "structured_id": "07a246cd-1c40-42f1-849e-58fbd7696c30"
+          },
+          {
+            "comment": "The Suns listed Anthony as OUT for Sunday's (Feb. 22) game against Portland.",
+            "date_updated": "2026-02-22",
+            "description": "Not Injury Related",
+            "start_date": "2026-02-07",
+            "status": "Out",
+            "structured_id": "a20be196-e2d2-4852-a73b-85d04c4845d8"
+          },
+          {
+            "comment": "The Suns listed Goodwin as OUT for Sunday's (Feb. 22) game against Portland.",
+            "date_updated": "2026-02-22",
+            "description": "Calf",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "31f47c5d-9201-4953-a3b9-c474734051bb"
+          },
+          {
+            "comment": "The Suns said on Saturday (Feb. 21) that Booker will have his right hip strain reevaluated by medical staff in one week, per Shane Young of the team's official site.",
+            "date_updated": "2026-02-21",
+            "description": "Hip",
+            "start_date": "2026-02-19",
+            "status": "Out",
+            "structured_id": "3f978bca-a08f-4bf0-af43-279bfb8384d9"
+          },
+          {
+            "comment": "Brooks has sustained a broken left hand and will be sidelined indefinitely, per Shams Charania of ESPN.",
+            "date_updated": "2026-02-21",
+            "description": "Hand",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "4f37758f-6499-4692-b0d6-7c0aafc58cef"
+          },
+          {
+            "comment": "The Suns said on Saturday (Feb. 21) that Highsmith will miss at least 2-3 more weeks.",
+            "date_updated": "2026-02-21",
+            "description": "Knee",
+            "start_date": "2026-02-19",
+            "status": "Out",
+            "structured_id": "4cce6dfe-00c9-4334-9bc4-f085f127200d"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-21T22:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 113,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-02-20T01:30:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 94,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        },
+        {
+          "date": "2026-02-12T02:00:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 109,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        },
+        {
+          "date": "2026-02-11T02:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 120,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-02-08T02:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 103,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        }
+      ],
+      "home_team_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB22PORPHX",
+      "player_id_mapping": {
+        "06df3766-f654-4fe3-8a37-496d21e7ea23": "0ff276a5-115b-4407-94b7-37e21c11454a",
+        "08baba55-bec0-4494-95ce-28778c37a981": "8201e738-2f9d-43df-a356-adb225fc5dcb",
+        "0b9bab33-66c3-4e01-b91e-df6b8c40ea2b": "31f47c5d-9201-4953-a3b9-c474734051bb",
+        "18c4bd7c-e293-4c0a-95d4-5e9983d301b3": "40b4e236-80d9-476b-98c1-e5ab58b441e8",
+        "312f21c9-a061-43e2-9a22-65199131068e": "0a9e0587-c565-41cc-93bd-74e1d1b1d375",
+        "31baa84f-c759-4f92-8e1f-a92305ade3d6": "3f978bca-a08f-4bf0-af43-279bfb8384d9",
+        "32526c95-bc6e-4d28-a751-c4200904d80b": "5ffee3f0-4e18-4bd7-b893-81f335111761",
+        "36d34864-f1f9-48f9-9cf1-bd7accc437c7": "9b4296e6-79b8-4ad5-94e3-afc3956122a4",
+        "5382cf43-3a79-4a5a-a7fd-153906fe65dd": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c",
+        "5b315e15-6633-4ce2-8200-71b821553314": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0",
+        "60b8026e-e154-4ed7-a247-8e4af1dbf668": "43913e84-c766-46d4-922d-76c07d62beff",
+        "65700e81-3aa0-49a9-8a94-004f2cfb64e5": "b75478af-67c3-4a19-9cee-b2930a77d78d",
+        "657f2b36-208f-4bbe-a64a-c6cf6a76be72": "05f54a08-7983-4f7a-af49-210204c31989",
+        "6c0e93c1-0b81-4abb-8eb6-e573eff576ea": "094d4fcb-01e2-405e-a7ee-1f0ec4c6840f",
+        "72a6489b-ad35-4f06-8a4f-a68ea1052f7b": "4f37758f-6499-4692-b0d6-7c0aafc58cef",
+        "749f9e06-52c1-4436-840e-9096a9908c0b": "5a55f86d-dd08-4c8d-b9cd-8549d64f86f4",
+        "7721e264-5db8-4af9-b252-65f2d18c454d": "f1bdc817-0c46-4f47-8007-e5701780c18f",
+        "8b43c272-c16b-40c7-a4d5-7bbcefeb1816": "c90b91a6-f684-4305-bf03-697ea7daf402",
+        "8db2a730-bafb-4936-915f-3dd4920a0aa9": "dab15c3b-1fd4-44ad-940c-55852685a6ae",
+        "9a331092-35db-456c-a44a-d5b80a02ebe9": "5bd1435d-e77a-4202-bff3-6977979e10c1",
+        "a17d9b20-4e2b-4612-aecd-27938c997e94": "4cce6dfe-00c9-4334-9bc4-f085f127200d",
+        "a26661fb-805f-41a9-8fc9-8ed805233482": "06d2662c-1e37-4b6c-8a1d-501a105e5644",
+        "a5ec46e9-928f-4609-ab4d-c86ec6434327": "8a343563-d02a-4fb5-995b-558cba5ce783",
+        "a978acbc-e84b-4cc4-85c9-30595e022847": "f7a10ceb-9ddc-4afc-aea0-8c67b8b1dc6d",
+        "af5e629a-6b79-46d9-9b58-dc9ec41a0bd0": "a867c548-86ed-4810-a289-a25576489f7f",
+        "b6ba1ad1-c57b-4215-8ded-5eeee7171017": "a20be196-e2d2-4852-a73b-85d04c4845d8",
+        "b9d4ce1b-94dc-4bec-8d62-70a86d9c523e": "482a6dca-2054-4864-a82b-fec005bccbec",
+        "c089cc76-e8a3-46cc-8691-3d4f28edc9bf": "58da1241-7818-4d04-9629-2a5a5795c5fa",
+        "c20dfb58-5622-405e-90b1-92b79ee97461": "aba92929-6fc0-476c-8462-35c5cf7a2cec",
+        "c722d438-db08-421e-9484-9e7d2f67c05d": "89073ae6-964f-4d13-8eeb-2e5ead049263",
+        "c76e8dae-58ad-4950-8929-5094036210c4": "80b360ed-9ea4-4cca-8ced-abba5c6a8471",
+        "e1d35615-1fd9-4c91-a05f-ef6e7f23c4ff": "70b46360-e073-43d8-948b-cefbbd66b356",
+        "eb0bd3d9-4bf0-4cc3-bbdf-c79e2255c175": "53147479-51de-4a93-8beb-a70a78dc681f",
+        "fc0c5adb-2e00-4b9b-9db2-338ed54be386": "8c677e1a-09f0-4dab-9c20-161558ae282c",
+        "ffa9a64f-d624-4033-bd23-59dcfd805175": "07a246cd-1c40-42f1-849e-58fbd7696c30"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "e2a543b3-84c4-4459-80f8-3f616ff21bc5",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-23T03:35:32Z",
+    "id": "20ab5310-bbd3-44ec-9c1b-654f6693ce73",
+    "last_updated_ts": "2026-03-26T07:28:17.540309Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB22PORPHX",
+      "KXNBASPREAD-26FEB22PORPHX",
+      "KXNBATOTAL-26FEB22PORPHX",
+      "KXNBATEAMTOTAL-26FEB22PORPHX",
+      "KXNBA1HWINNER-26FEB22PORPHX",
+      "KXNBA2HWINNER-26FEB22PORPHX",
+      "KXNBA1HSPREAD-26FEB22PORPHX",
+      "KXNBA1HTOTAL-26FEB22PORPHX"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB22PORPHX",
+      "KXNBASPREAD-26FEB22PORPHX",
+      "KXNBATOTAL-26FEB22PORPHX",
+      "KXNBATEAMTOTAL-26FEB22PORPHX",
+      "KXNBA1HWINNER-26FEB22PORPHX",
+      "KXNBA2HWINNER-26FEB22PORPHX",
+      "KXNBA1HSPREAD-26FEB22PORPHX",
+      "KXNBA1HTOTAL-26FEB22PORPHX",
+      "KXNBAPTS-26FEB22PORPHX",
+      "KXNBASTL-26FEB22PORPHX",
+      "KXNBABLK-26FEB22PORPHX",
+      "KXNBA2D-26FEB22PORPHX",
+      "KXNBAREB-26FEB22PORPHX",
+      "KXNBAAST-26FEB22PORPHX"
+    ],
+    "source_id": "e2a543b3-84c4-4459-80f8-3f616ff21bc5",
+    "source_ids": {
+      "source_2_id": "20260223F4D00C49",
+      "source_3_id": "e2a543b3-84c4-4459-80f8-3f616ff21bc5"
+    },
+    "start_date": "2026-02-23T01:00:00Z",
+    "title": "Portland at Phoenix",
+    "type": "basketball_game"
+  }
+}

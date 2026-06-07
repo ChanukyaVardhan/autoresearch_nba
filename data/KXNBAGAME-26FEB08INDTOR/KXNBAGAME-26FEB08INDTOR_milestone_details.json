@@ -1,0 +1,90 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+      "home_team_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB08INDTOR",
+      "player_id_mapping": {
+        "02acc094-76ab-4b3e-b51d-a351a9bab6b9": "ebe58f63-e571-4632-b569-ac0c69dd6218",
+        "06570485-2ec5-40ab-9b50-8e4cfd7f0dc3": "844a53dc-8e99-482e-9de6-09a05c68ed92",
+        "1738927f-6ef3-4b23-921d-168b4371f917": "fb9a7f9e-8a0c-4e90-94e8-051dea709bef",
+        "1d1fa699-a455-4082-9df8-f97dbb0ca678": "31b8e118-988f-4da2-acda-ca134dbeeee3",
+        "222364c7-dae9-44db-830d-cdece37e174d": "26d909f3-7322-4793-818c-d021a9229885",
+        "254e42d7-df01-4c68-9264-bca06c83c2c1": "02222ad8-8166-414f-842b-ce83ecca6700",
+        "2da18268-82d4-4b40-a296-7ceddd435d0b": "6682cc79-5f4e-47a3-a4a9-f7235b68712c",
+        "3b40df6a-55ba-40a2-b6b8-ab8ae114dfc3": "aeb89ae8-9b87-4336-95b8-d1620d705c5c",
+        "3d186345-1517-446d-b4bf-8707fc77f093": "d06c2a48-5fdc-40f8-9e7c-5b98d534aa4f",
+        "3df1db1d-6596-489e-8e26-80f60fd9b1f4": "1c8ae3bd-88ae-4511-8622-9f9ac7d73de0",
+        "42c5f009-dfd2-4a94-a750-0943791e138e": "b725e63f-83b2-469d-8c34-41217a3a05d3",
+        "58c0852f-6fc1-4a9a-b019-fabab1b25536": "56f10c2a-0978-4e58-a434-01d46c704482",
+        "59c707c2-fc69-4ed5-aa33-d446709dad9f": "9f2111cb-be0d-4569-af93-a4de5ab72a7e",
+        "6bc71e02-9a03-40db-aed4-332ab5193336": "f8ddd45a-b42c-4c8b-a0b0-08cf10ca3253",
+        "6fd99205-e159-4ff2-b291-80fb2d067bb3": "8e5ec564-3e03-4566-bb11-e3569357092e",
+        "7b169c92-2d4d-4218-9557-4e0ec1b43378": "d9935a9e-93fb-438e-956b-3600b9b87170",
+        "7df31401-85c4-449f-bc87-f605145ef7ba": "1cefe214-8a3b-42d1-a667-4e30137e88b9",
+        "8082841d-e516-43c6-a81b-7987fa321acd": "95551002-8e7e-4af7-b21e-71c4efe0573e",
+        "83d5d358-9559-49fb-8cde-833d8d5eb108": "962da32e-f58c-4bb6-a118-b3a42fedcfc5",
+        "8571e039-8802-453a-aca5-7fdcb3ae1a28": "5403dd0a-1369-40c9-8608-56edc6013196",
+        "90d63a71-e4fe-411c-9773-2e74b5e1cb3b": "26987e0a-e5aa-4dd5-ae7a-569d92fd0de5",
+        "b159e65b-fd2f-415e-9cdd-46525e9897da": "3b0ba3a1-58e2-4443-aa8b-5de4e710bedb",
+        "b2703497-74ba-458f-84da-a3c145bcfe79": "9d88c781-8100-4e55-be27-a39b97105be4",
+        "bdc15a29-e40d-49d1-a0a8-d21e95221e23": "994b09f9-3e74-44d3-8d9b-1a9347c3c92f",
+        "c17e25c7-1306-4301-8548-2fc129a62041": "1ac8b21f-fa4e-4bd5-938c-02471a8ead10",
+        "c5df8387-9b94-4109-bcf5-96d850e994a9": "f83d6641-0625-400e-a269-cd3e02d45813",
+        "c910f29a-3f6b-4dba-92e9-20137fbdf2c7": "14713689-92a3-4b09-b657-e49d2cbc31f0",
+        "cb0b5991-53e4-4dce-bf95-215fd6ecf728": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0",
+        "cdf51fa0-724e-48f3-9ee4-6a01ae4d9542": "22f8d5ad-8967-4dac-9820-ebb73b49fab7",
+        "ded5095f-92cf-40a4-a668-ba78370cfe27": "5e8b46ce-bcc8-4da6-80b7-27c9816a793e",
+        "e1b3d3d5-b4b1-481a-b5b9-efe4231f48bf": "d25e2502-71da-4cf4-9068-63c09a55777b",
+        "e3dfa2a2-6272-4f3f-adf0-dd5dadea9481": "7c7401cb-1476-4a60-9101-d16b48924c02",
+        "ed000754-fb2c-4778-be6d-40cfc2400bd7": "03aba7fc-858c-4586-a231-3c1376afaee7",
+        "ee2644c1-1260-4bf4-9c70-7c5b0cee4770": "726401ab-6c3f-4f7e-be74-5c71921d2d4c"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "7e7ee1e3-8de3-46df-909c-cb521c869297",
+      "status": "complete"
+    },
+    "end_date": "2026-02-08T23:04:34Z",
+    "id": "e318eb5d-eaf6-4e53-a06c-bf5f26690468",
+    "last_updated_ts": "2026-03-26T07:27:23.791585Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB08INDTOR",
+      "KXNBASPREAD-26FEB08INDTOR",
+      "KXNBATOTAL-26FEB08INDTOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB08INDTOR",
+      "KXNBASPREAD-26FEB08INDTOR",
+      "KXNBATOTAL-26FEB08INDTOR",
+      "KXNBAPTS-26FEB08INDTOR",
+      "KXNBA2D-26FEB08INDTOR",
+      "KXNBAREB-26FEB08INDTOR",
+      "KXNBAAST-26FEB08INDTOR",
+      "KXNBA3PT-26FEB08INDTOR",
+      "KXNBASTL-26FEB08INDTOR",
+      "KXNBABLK-26FEB08INDTOR"
+    ],
+    "source_id": "7e7ee1e3-8de3-46df-909c-cb521c869297",
+    "source_ids": {
+      "source_2_id": "202602086124AB5C",
+      "source_3_id": "7e7ee1e3-8de3-46df-909c-cb521c869297"
+    },
+    "start_date": "2026-02-08T20:00:00Z",
+    "title": "Indiana at Toronto",
+    "type": "basketball_game"
+  }
+}

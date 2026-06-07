@@ -1,0 +1,331 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-11T00:00:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 103,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-04-09T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 119,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        },
+        {
+          "date": "2026-04-07T23:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 129,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 110,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-04-03T23:30:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 96,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        }
+      ],
+      "away_team_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+      "game_injuries": {
+        "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed": [
+          {
+            "comment": "The Mavericks listed Washington as OUT for Sunday's (Apr. 12) game against Chicago.",
+            "date_updated": "2026-04-12",
+            "description": "Elbow",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "b382638b-047d-4e8b-84ec-31c3c0fa87db"
+          },
+          {
+            "comment": "The Mavericks listed Bagley III as OUT for Sunday's (Apr. 12) game against Chicago.",
+            "date_updated": "2026-04-12",
+            "description": "Shoulder",
+            "start_date": "2026-04-10",
+            "status": "Out",
+            "structured_id": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf"
+          },
+          {
+            "comment": "The Mavericks announced on Sunday (Dec. 21) that Lively II has successfully underwent foot surgery.",
+            "date_updated": "2025-12-21",
+            "description": "Foot",
+            "start_date": "2025-11-22",
+            "status": "Out For Season",
+            "structured_id": "306185e2-63a3-487a-8ff1-eb514655e2c5"
+          },
+          {
+            "comment": "The Mavericks listed Gafford as OUT for Sunday's (Apr. 12) game against Chicago.",
+            "date_updated": "2026-04-12",
+            "description": "Rest",
+            "start_date": "2026-04-05",
+            "status": "Out",
+            "structured_id": "f7809899-1a37-42df-8c56-5029ca536e5b"
+          },
+          {
+            "comment": "The Mavericks listed Martin as OUT for Sunday's (Apr. 12) game against Chicago.",
+            "date_updated": "2026-04-12",
+            "description": "Foot",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "9e9915a1-81b8-4cda-b6b6-1537607daf8a"
+          },
+          {
+            "comment": "The Mavericks listed Williams as OUT for Sunday's (Apr. 12) game against Chicago.",
+            "date_updated": "2026-04-12",
+            "description": "Illness",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "81a9e528-797f-4742-94a7-6a0aab0cdee6"
+          },
+          {
+            "comment": "The Mavericks said on Wednesday (Feb. 18) that Irving is OUT for the season, per ESPN's Shams Charania. ",
+            "date_updated": "2026-02-18",
+            "description": "Knee",
+            "start_date": "2025-03-03",
+            "status": "Out For Season",
+            "structured_id": "c397aaf3-768c-48f2-9a6a-83d15e153123"
+          },
+          {
+            "comment": "The Mavericks listed Marshall as OUT for Sunday's (Apr. 12) game against Chicago.",
+            "date_updated": "2026-04-12",
+            "description": "Hip",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "f614a5c0-42ba-4187-b40a-e0c298d65091"
+          }
+        ],
+        "65f0250b-455d-43d7-b7dc-7d321bdf9abc": [
+          {
+            "comment": "Simons will not play in Chicago's final two games of the regular season, per K.C. Johnson of Chicago Sports Network.",
+            "date_updated": "2026-04-10",
+            "description": "Wrist",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "94894b15-fc9f-42e5-854c-4d2a6006c09b"
+          },
+          {
+            "comment": "The Bulls listed Buzelis as Out for Sunday's (Apr. 12) game against the Nets.",
+            "date_updated": "2026-04-11",
+            "description": "Ankle",
+            "start_date": "2026-04-10",
+            "status": "Out",
+            "structured_id": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8"
+          },
+          {
+            "comment": "The Bulls listed Okoro as Out for Sunday's (Apr. 12) game against the Nets.",
+            "date_updated": "2026-04-11",
+            "description": "Quad",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a"
+          },
+          {
+            "comment": "Smith will miss the remainder of the season, according to Joel Lorenzi of The Athletic.",
+            "date_updated": "2026-03-26",
+            "description": "Calf",
+            "start_date": "2026-03-25",
+            "status": "Out For Season",
+            "structured_id": "37104adf-2343-40fe-8d8a-a11f89d037e8"
+          },
+          {
+            "comment": "The Bulls reported on Wednesday (Dec. 3) that Essengue will have shoulder surgery and miss the remainder of the season, per HC Billy Donovan.",
+            "date_updated": "2025-12-03",
+            "description": "Shoulder",
+            "start_date": "2025-11-29",
+            "status": "Out For Season",
+            "structured_id": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c"
+          },
+          {
+            "comment": "Giddey (hamstring) will not play in Chicago's final two games of the regular season, per K.C. Johnson of Chicago Sports Network.",
+            "date_updated": "2026-04-10",
+            "description": "Hamstring",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "a4baed3c-0021-407e-8448-a298594c2a83"
+          },
+          {
+            "comment": "Head coach Billy Donovan said Friday that Yabusele will not play in Chicago's final two regular-season games, per K.C. Johnson of Chicago Sports Network reports.",
+            "date_updated": "2026-04-10",
+            "description": "Shoulder",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "e1936136-417a-4892-b6e0-90e41b6c2f1a"
+          },
+          {
+            "comment": "Richards (elbow) will not play in Chicago's final two games of the regular season, per K.C. Johnson of Chicago Sports Network.",
+            "date_updated": "2026-04-10",
+            "description": "Elbow",
+            "start_date": "2026-03-25",
+            "status": "Out",
+            "structured_id": "4624140d-4700-4bc6-a78b-79acc60ce3fe"
+          },
+          {
+            "comment": "The Bulls said on Saturday (Feb. 21) that Collins will undergo surgery for a sprain right toe and will be sidelined for the rest of the 2025-26 season.",
+            "date_updated": "2026-02-21",
+            "description": "Toe",
+            "start_date": "2025-12-28",
+            "status": "Out For Season",
+            "structured_id": "2a5b8fd6-50da-499a-a50b-832f02dea356"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-11T00:00:00+00:00",
+          "opponent_points": 139,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 120,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-04-09T02:00:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 107,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-04-08T02:30:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 103,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-04-05T23:30:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 134,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": true
+        },
+        {
+          "date": "2026-04-04T00:30:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 127,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        }
+      ],
+      "home_team_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR12CHIDAL",
+      "player_id_mapping": {
+        "1b31afe2-7fb7-42d1-8eef-003c5eb619c2": "306185e2-63a3-487a-8ff1-eb514655e2c5",
+        "1d323a11-1758-4975-ba6f-1a03b7a2157c": "3b4ac2be-e186-4c72-a906-b7276d76422d",
+        "2d4ce4bc-b03a-40bc-b22c-dab27591a429": "0faf4911-89b0-49ae-a920-0912c6e6a92e",
+        "30eb60ce-5b33-4784-8e2a-37c304ea7721": "5da14c46-20e8-477d-8869-95f009e5f98f",
+        "31f78854-0d23-4318-959c-0314588136e1": "e1936136-417a-4892-b6e0-90e41b6c2f1a",
+        "44fe2902-0a78-440e-bbad-d28cd0308e21": "4b8286f2-fd4a-4a46-b65b-392d5b21cc8b",
+        "4c362eee-6474-40ea-b1b4-d8f917f95175": "08aa816a-180f-42cd-b498-9067f069ba70",
+        "4e152a06-673e-4701-b115-aa7e2cd00d2d": "2f07473d-3b17-445c-811a-571e2e77025c",
+        "52cd8137-c791-4569-ad70-433e25d34882": "f7809899-1a37-42df-8c56-5029ca536e5b",
+        "566685c7-ff63-439a-8888-5278904835fa": "9e9915a1-81b8-4cda-b6b6-1537607daf8a",
+        "5ab15bad-59b4-43c9-98fc-1d0aa8182d01": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c",
+        "632adcc4-97f1-4e67-a132-e0b79f013c67": "94894b15-fc9f-42e5-854c-4d2a6006c09b",
+        "66ea876a-1cc9-47ed-ae31-2ed3c8f9350e": "a4baed3c-0021-407e-8448-a298594c2a83",
+        "67f6467e-0acc-48ce-9872-a63225ef295c": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b",
+        "68175411-ce98-4b2c-9ff0-3e26bff33191": "41df03a3-f2f3-49ad-997e-34d3e36f04b5",
+        "689cb3b0-a7cc-45b5-860d-007597029c8c": "37104adf-2343-40fe-8d8a-a11f89d037e8",
+        "6d4ce277-bc3e-4d24-82d4-5366c48e4cdd": "6e0b9fe4-b330-459a-a6fa-6bb2caaf3d00",
+        "6d7f4f2f-7ea7-4c56-8082-dfdce67f5487": "b382638b-047d-4e8b-84ec-31c3c0fa87db",
+        "7924cc02-9fbb-4fd0-a036-0130084eb9b3": "98a42c36-71d9-400e-95a5-e7fe53f7e9d8",
+        "7b526b14-5d50-411e-8bea-0ac7a8d0e8d7": "b20be183-d7e6-4970-ad6f-04ff489eb0d9",
+        "80b5cccf-203b-4482-92aa-76d1598216be": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387",
+        "9654c7f1-d16c-428c-88fd-2a6cdb5a8370": "4624140d-4700-4bc6-a78b-79acc60ce3fe",
+        "99dc3c11-03fc-4d15-9dd5-d8d1f41c569a": "39063bb2-a56e-41bb-94ca-ae15c380a190",
+        "9f8b7ec7-cec6-4c8a-9a06-ca123df80dae": "93527c48-fadf-484c-801d-6c84f88ff70e",
+        "a15f73b1-f757-4af2-b09a-f0185e09c8bf": "f614a5c0-42ba-4187-b40a-e0c298d65091",
+        "a465418b-0933-40b4-8f01-253d046872e1": "335fc1f4-8629-4b73-ba10-f18c7bb35a53",
+        "b5310b38-a378-464f-b344-928adee0ed00": "2a5b8fd6-50da-499a-a50b-832f02dea356",
+        "c8efed0b-f365-4440-84f7-df8c8078d1c0": "81a9e528-797f-4742-94a7-6a0aab0cdee6",
+        "d13849d9-a696-44af-84a1-3196132c3ecd": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a",
+        "d8058632-b2ca-468c-9c27-56410aef4dff": "06631017-5228-4584-8c20-90c630ba3d5d",
+        "dd146010-902b-4ad7-b98c-650d0363a2f0": "c397aaf3-768c-48f2-9a6a-83d15e153123",
+        "e04c3542-546a-4ca7-8db3-a89353d60046": "998569d5-8e34-4b4b-a396-aada418a9fc1",
+        "e86c1439-4ef0-4530-9c41-c3a682962eb3": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf",
+        "e872cdaf-5d04-45c2-bbfe-d673f3fb26ce": "4f13353c-1bad-49b6-8fe6-3530ad2d887a",
+        "f619cc0b-5fa0-4189-9091-596e843e93b1": "a21967f6-3de2-4e6e-ad5c-b011117e05a6",
+        "fe7a0b28-a8f9-42ad-b345-0f69d51d365f": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "52e23549-22ed-4a29-8c79-573ac1f93a51",
+      "status": "complete"
+    },
+    "end_date": "2026-04-13T03:10:34Z",
+    "id": "909ef743-feee-4fd5-a3b0-e119d924f5fe",
+    "last_updated_ts": "2026-04-14T03:58:41.89135Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR12CHIDAL",
+      "KXNBASPREAD-26APR12CHIDAL",
+      "KXNBATOTAL-26APR12CHIDAL",
+      "KXNBATEAMTOTAL-26APR12CHIDAL",
+      "KXNBA1HWINNER-26APR12CHIDAL",
+      "KXNBA2HWINNER-26APR12CHIDAL",
+      "KXNBA1HSPREAD-26APR12CHIDAL",
+      "KXNBA1HTOTAL-26APR12CHIDAL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR12CHIDAL",
+      "KXNBASPREAD-26APR12CHIDAL",
+      "KXNBATOTAL-26APR12CHIDAL",
+      "KXNBATEAMTOTAL-26APR12CHIDAL",
+      "KXNBA1HWINNER-26APR12CHIDAL",
+      "KXNBA2HWINNER-26APR12CHIDAL",
+      "KXNBAPTS-26APR12CHIDAL",
+      "KXNBAREB-26APR12CHIDAL",
+      "KXNBA3PT-26APR12CHIDAL",
+      "KXNBA2D-26APR12CHIDAL",
+      "KXNBA1HSPREAD-26APR12CHIDAL",
+      "KXNBA1HTOTAL-26APR12CHIDAL"
+    ],
+    "source_id": "52e23549-22ed-4a29-8c79-573ac1f93a51",
+    "source_ids": {
+      "source_2_id": "20260413C823ACA7",
+      "source_3_id": "52e23549-22ed-4a29-8c79-573ac1f93a51",
+      "source_4_id": "62924965",
+      "source_5_id": "sr:match:62924965"
+    },
+    "start_date": "2026-04-13T00:30:00Z",
+    "title": "Chicago at Dallas",
+    "type": "basketball_game"
+  }
+}

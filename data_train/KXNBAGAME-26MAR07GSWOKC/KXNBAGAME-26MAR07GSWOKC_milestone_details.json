@@ -1,0 +1,303 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-06T00:30:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 115,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": true
+        },
+        {
+          "date": "2026-03-03T03:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 101,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        },
+        {
+          "date": "2026-03-01T01:30:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 101,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        },
+        {
+          "date": "2026-02-26T00:30:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 133,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": true
+        },
+        {
+          "date": "2026-02-25T01:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 109,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        }
+      ],
+      "away_team_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+      "game_injuries": {
+        "502c629b-4da7-40fd-92ab-20cb55411c35": [
+          {
+            "comment": "Butler's injury from Monday (Jan. 19) Night's game involves a torn right ACL and he will be out for the rest of the season, as per Shams Charania of ESPN.",
+            "date_updated": "2026-01-20",
+            "description": "Knee",
+            "start_date": "2026-01-20",
+            "status": "Out For Season",
+            "structured_id": "b99dd959-bae1-40f0-9c67-82f5b8f9961c"
+          },
+          {
+            "comment": "The Warriors have listed Melton as OUT for Saturday's (Mar. 7) game against the Thunder.",
+            "date_updated": "2026-03-07",
+            "description": "Knee",
+            "start_date": "2026-03-06",
+            "status": "Out",
+            "structured_id": "6f08251f-1597-4eb0-bfe1-1fb3bf038b22"
+          },
+          {
+            "comment": "The Warriors reported Stephen Curry to miss at least 10 more days",
+            "date_updated": "2026-03-01",
+            "description": "Knee",
+            "start_date": "2026-01-30",
+            "status": "Out",
+            "structured_id": "15cba021-5e04-44b0-95f9-9e975ec48697"
+          },
+          {
+            "comment": "The Warriors have listed Moody as Out for Saturday's (Mar. 7) game against the Thunder.",
+            "date_updated": "2026-03-06",
+            "description": "Wrist",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "979a2510-ac66-443a-9bfa-f0df7b3f5cca"
+          },
+          {
+            "comment": "The Warriors have listed Curry as OUT for Saturday's (Mar. 7) game against the Thunder.",
+            "date_updated": "2026-03-07",
+            "description": "Sciatica",
+            "start_date": "2025-12-18",
+            "status": "Out",
+            "structured_id": "4958cb9b-ee08-4c69-950c-ffde59dbfe29"
+          },
+          {
+            "comment": "The Warriors have listed Richard as Out for Saturday's (Mar. 7) game against the Thunder.",
+            "date_updated": "2026-03-07",
+            "description": "Ankle",
+            "start_date": "2026-02-28",
+            "status": "Out",
+            "structured_id": "1dac11cb-7913-4a15-b8e7-941df50b2fb5"
+          }
+        ],
+        "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c": [
+          {
+            "comment": "The Thunder have listed Caruso as Out for Saturday's (Mar. 7) game against the Warriors.",
+            "date_updated": "2026-03-06",
+            "description": "Hip",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04"
+          },
+          {
+            "comment": "The Thunder have listed Mitchell as Out for Saturday's (Mar. 7) game against the Warriors.",
+            "date_updated": "2026-03-06",
+            "description": "Abdomen",
+            "start_date": "2026-01-21",
+            "status": "Out",
+            "structured_id": "33b2a10d-1060-427a-98fe-ce1daf133441"
+          },
+          {
+            "comment": "The Thunder have listed Carlson as Out for Saturday's (Mar. 7) game against the Warriors.",
+            "date_updated": "2026-03-06",
+            "description": "Back",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "419633cc-ca9b-42c3-a792-f95bb00cfdaa"
+          },
+          {
+            "comment": "The Thunder have listed Williams as Out for Saturday's (Mar. 7) game against the Warriors.",
+            "date_updated": "2026-03-06",
+            "description": "Hamstring",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92"
+          },
+          {
+            "comment": "The Thunder have listed Holmgren as Out for Saturday's (Mar. 7) game against the Warriors.",
+            "date_updated": "2026-03-07",
+            "description": "Illness",
+            "start_date": "2026-03-07",
+            "status": "Out",
+            "structured_id": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed"
+          },
+          {
+            "comment": "The Thunder announced on Friday (Sept. 5) that Sorber will miss the 2025-2026 season with a torn ACL.",
+            "date_updated": "2025-09-05",
+            "description": "Knee",
+            "start_date": "2025-09-05",
+            "status": "Out For Season",
+            "structured_id": "c2beb99e-9ef2-4e96-b440-96080fa60360"
+          },
+          {
+            "comment": "The Thunder have listed Hartenstein as Out for Saturday's (Mar. 7) game against the Warriors.",
+            "date_updated": "2026-03-06",
+            "description": "Calf",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-05T00:00:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 103,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-04T01:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 116,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-02T01:00:00+00:00",
+          "opponent_points": 87,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 100,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-02-28T02:30:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 127,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-02-26T00:30:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 116,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": false
+        }
+      ],
+      "home_team_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR07GSWOKC",
+      "player_id_mapping": {
+        "047d0b63-4142-46e9-8f04-a61622ae2375": "4958cb9b-ee08-4c69-950c-ffde59dbfe29",
+        "0e163d44-67a7-4107-9421-5333600166bb": "b99dd959-bae1-40f0-9c67-82f5b8f9961c",
+        "1c8786b4-1786-4e3d-81ca-d976797413f5": "33b2a10d-1060-427a-98fe-ce1daf133441",
+        "21ed49ae-44cf-4031-9b6f-a48fb8a3e41c": "f7312c21-e5e7-4587-885c-111b2ac5a976",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "36d083a5-49ca-42f1-80b7-b78275a8abd9": "c4cc3a86-4003-4ea8-941f-cc878aaad51f",
+        "38745a56-7472-4844-a2dc-f61d3bcd941f": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b",
+        "3a3207cc-269f-47ef-9b77-f852f0bed4b0": "b7db4ac9-30c3-4471-a2dd-7d94fa43101d",
+        "3c5901ef-af1d-441d-aeed-8e0a93cead49": "52b8d9e4-67cd-4897-870c-00baa0e8d52d",
+        "3f7e2350-e208-4791-98c2-684b53bb5a9a": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c",
+        "4965ef48-7aa9-4eae-a923-5023ff7ab1eb": "32b125e2-a412-42e4-81ac-329f053f9f23",
+        "49be9129-da30-4e74-aa60-b1e87582604b": "18664b17-45cf-442b-858e-877eee059745",
+        "4ab6a1ca-60ab-41e3-adbc-0395dec8c0da": "edf2d234-7410-4223-9d80-2f5893936d2e",
+        "5b22ae60-ca29-4cd8-b618-cce7b9766b0e": "6f08251f-1597-4eb0-bfe1-1fb3bf038b22",
+        "5e5099d1-4a58-43f2-8d03-f2ae5dd49337": "2c42ea40-5090-4cf2-bc6c-f66f5b61ba14",
+        "62c44a90-f280-438a-9c7e-252f4f376283": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92",
+        "8936c15e-f9d5-4b9a-80b9-8f6b7dcf7a17": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04",
+        "8a62bff0-8dc9-4bea-9922-6eeabb6212f2": "6df8207e-36e7-41e5-ac37-c18258b1ca28",
+        "8ec91366-faea-4196-bbfd-b8fab7434795": "15cba021-5e04-44b0-95f9-9e975ec48697",
+        "9318b4c1-49d0-40eb-8b76-1098e28133d2": "144c5239-29b4-4656-8862-088803bb760e",
+        "955fe0fb-3ca2-49c0-9a19-922d8349f13c": "65cb54f5-90b2-4b5a-b342-1fc39d18d62e",
+        "a316cf6a-693d-4c6a-b0d9-ebf80e73e832": "979a2510-ac66-443a-9bfa-f0df7b3f5cca",
+        "a5b978ac-7a35-4ec0-b15f-91d9a8e1ac31": "1dac11cb-7913-4a15-b8e7-941df50b2fb5",
+        "ab0289ca-407b-41e9-ab2d-32407eedeccf": "419633cc-ca9b-42c3-a792-f95bb00cfdaa",
+        "b3db0b36-344f-4035-b315-9fb18933e535": "048da8e7-a562-4504-a102-b2fe624a0930",
+        "b83048ff-1e71-46fa-b49c-0b04a72cc4a1": "e898e9ba-117e-4235-a664-0ea8e1548571",
+        "bc19b036-9098-4d4c-bffd-1c27918a89e5": "0a9c39f2-4e66-4d1d-8979-9156cb0ac028",
+        "bf6b4aed-c007-41eb-b4e5-08b99f292ec2": "04bc92de-9046-4d6e-8c63-5f8e60ca8e0e",
+        "c56cbf7a-42a4-41a2-a37b-0cd4aaf248d0": "c2beb99e-9ef2-4e96-b440-96080fa60360",
+        "cf3a87ec-c2f7-42e8-9698-6f8b2ba916a9": "92abd54e-0cbb-43ea-b4be-abcb4f5e2104",
+        "d3b28775-473d-471a-8452-e913f4347f0f": "7576d7ff-b42d-446f-bce0-71d63e8cd098",
+        "d9ea4a8f-ff51-408d-b518-980efc2a35a1": "b40547da-b4d9-4d33-b795-32595ef9c473",
+        "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed",
+        "ec7aea3f-550d-4c3d-a47e-58ee983bfd57": "4e8e009c-b08d-4f72-9407-559573654160",
+        "f5d6fdfd-21f6-48f0-a297-4c13e8fc40cb": "de746546-c159-4ec4-aaa0-ae789e4565eb"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "eb5c5eb8-e13f-4691-a152-2928d9e20115",
+      "status": "complete"
+    },
+    "end_date": "2026-03-08T06:30:00Z",
+    "id": "a019f812-30a8-4c79-a1ac-a928feeb3d6f",
+    "last_updated_ts": "2026-03-26T07:29:26.40922Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR07GSWOKC",
+      "KXNBASPREAD-26MAR07GSWOKC",
+      "KXNBATOTAL-26MAR07GSWOKC",
+      "KXNBATEAMTOTAL-26MAR07GSWOKC",
+      "KXNBA1HWINNER-26MAR07GSWOKC",
+      "KXNBA2HWINNER-26MAR07GSWOKC",
+      "KXNBA1HSPREAD-26MAR07GSWOKC",
+      "KXNBA1HTOTAL-26MAR07GSWOKC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR07GSWOKC",
+      "KXNBASPREAD-26MAR07GSWOKC",
+      "KXNBATOTAL-26MAR07GSWOKC",
+      "KXNBATEAMTOTAL-26MAR07GSWOKC",
+      "KXNBAMENTION-26MAR07GSWOKC",
+      "KXNBA1HWINNER-26MAR07GSWOKC",
+      "KXNBA2HWINNER-26MAR07GSWOKC",
+      "KXNBAPTS-26MAR07GSWOKC",
+      "KXNBAREB-26MAR07GSWOKC",
+      "KXNBAAST-26MAR07GSWOKC",
+      "KXNBA3PT-26MAR07GSWOKC",
+      "KXNBA2D-26MAR07GSWOKC",
+      "KXNBA3D-26MAR07GSWOKC",
+      "KXNBASTL-26MAR07GSWOKC",
+      "KXNBABLK-26MAR07GSWOKC",
+      "KXNBA1HSPREAD-26MAR07GSWOKC",
+      "KXNBA1HTOTAL-26MAR07GSWOKC"
+    ],
+    "source_id": "eb5c5eb8-e13f-4691-a152-2928d9e20115",
+    "source_ids": {
+      "source_2_id": "2026030827DB0E9C",
+      "source_3_id": "eb5c5eb8-e13f-4691-a152-2928d9e20115",
+      "source_4_id": "62924623",
+      "source_5_id": "sr:match:62924623"
+    },
+    "start_date": "2026-03-08T01:30:00Z",
+    "title": "Golden State at Oklahoma City",
+    "type": "basketball_game"
+  }
+}

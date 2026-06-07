@@ -1,0 +1,207 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-12T01:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 123,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": true
+        },
+        {
+          "date": "2026-02-10T00:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 111,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": false
+        },
+        {
+          "date": "2026-02-08T19:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 132,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": true
+        },
+        {
+          "date": "2026-02-07T00:30:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 96,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": false
+        },
+        {
+          "date": "2026-02-04T00:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 115,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": false
+        }
+      ],
+      "away_team_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+      "game_injuries": {
+        "a17e4a68-2999-4f60-b67e-3e80aa9e198b": [],
+        "e0729403-9c95-4ee2-b5d4-f704d8322570": [
+          {
+            "comment": "The Hawks reported on Wednesday (Feb. 18) that Kuminga will miss around 1 more week.",
+            "date_updated": "2026-02-18",
+            "description": "Knee",
+            "start_date": "2026-01-22",
+            "status": "Out",
+            "structured_id": "ad81c551-8dcc-4678-a547-523db6eac9e6"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-20T00:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 117,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T00:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 107,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": false
+        },
+        {
+          "date": "2026-02-10T01:00:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 116,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": false
+        },
+        {
+          "date": "2026-02-08T00:30:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 119,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": false
+        },
+        {
+          "date": "2026-02-06T00:30:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 121,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        }
+      ],
+      "home_team_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB20MIAATL",
+      "player_id_mapping": {
+        "02dc6e18-95a4-4919-b4fc-f8a981ccd359": "2a838282-e52d-4c14-82db-ec72fa649d2e",
+        "11c303dc-540c-4090-8e0c-76c2fb2c125a": "c8ecebb6-6e63-4564-9c1f-4ef048d1bf7e",
+        "158db875-4660-42e0-9ba3-6b29c2a85e5a": "0dc1c365-c168-4092-9076-d5c8fe6fb8ac",
+        "1d4905d6-a6b4-4b45-8a90-91ed03440d0f": "4180e569-6cb9-4bf3-9f02-ae4f7c2659e8",
+        "22d1eb4b-c0de-49c8-9e11-866b9d98cca2": "b8a2ba46-a11a-4764-83c5-39932de64a5f",
+        "26049bcf-1ff3-4a23-8e4c-ce0b18784738": "081cbdc6-3e78-494c-8668-e181e9544c8b",
+        "3358cc38-7331-43ad-af04-ebd34fe328e7": "fa5d64cf-9154-4a34-8533-8ca65fb200d1",
+        "358fb074-ac1b-45a6-bf54-46c30534786e": "f61bdc80-8315-4d93-a488-71dc37ee3e8f",
+        "38a9b2cc-008e-406b-ad5a-87e0e54f93b7": "1973aa06-c381-4a82-9bfd-7dd65f09a2fa",
+        "3f34ce93-c0ad-4868-bab4-c6d83909ff78": "a4244555-a33c-46da-8c9f-de4e6b660bad",
+        "4b7ecb2a-ec19-4984-9472-92edf7e17acb": "c122b588-a524-4086-a34a-d74de87ff68e",
+        "5ae05a68-db05-45ea-a4e7-87462cb576aa": "2afef8da-4d54-44f7-a52f-c2933ca0b37a",
+        "6be87eb4-8a62-44e5-893b-d44ba516ac62": "78e6400c-eb93-4089-922a-24d221108ee5",
+        "70e50e53-ca3b-425d-ac49-b156d6d1e016": "18c71a75-fa9c-458b-99a4-38de2b350233",
+        "77c425f0-0fce-4fab-bd1e-c915c8fb5bc7": "aa9a6beb-2da4-4425-a295-07c6bb2940b7",
+        "795f46f2-c78d-4f1d-9ee2-4331c1cc8184": "383eab80-5509-470a-976d-3b960b1780fa",
+        "820a9363-1ad3-46a0-b577-2588f85b27f2": "bbee4cc1-3ac7-448a-b2aa-ad1b692d83a6",
+        "8bd80771-843f-4d7f-a4e7-b4d4f6c4e7c6": "3e3ceeda-5f54-4aa0-9ced-e8ff6cbcadf2",
+        "968ecb8b-c8b6-4fe1-a606-346f7a82a7c1": "07a07fb0-6af1-4b7a-82d7-0e706b02aa2d",
+        "9cfaa435-cd0c-4616-924f-feb9c3df1c12": "5058e150-c10e-4c45-a9d2-e3cea932c389",
+        "a63fc9c7-2675-486f-902f-702cca020ee1": "a1a66fdb-dca5-4a21-b271-7dfcbd548baf",
+        "a6d12593-86ca-485f-b775-2abb14eb6d99": "1eb006aa-0299-401c-9d88-8be637c7a46e",
+        "b27687c1-55bb-49e6-9c5b-96a099fda7b7": "ad81c551-8dcc-4678-a547-523db6eac9e6",
+        "bc70a55a-cee0-478f-9a13-cf51c4a4187c": "fe9f8331-a822-49bc-bfca-9c7e7c84883a",
+        "d000cb41-2c64-4eb1-9f06-7dc94d63ba03": "4e7dbbe4-d680-46b4-a19d-c9f6765352d6",
+        "d0400039-111a-4b67-8666-4f29e0549a77": "ef8f3722-308a-4ef9-beab-27afb7d067da",
+        "d146629c-2584-4760-89af-e4378d7569c1": "d10494a2-6820-41e6-ac9c-8c518d050388",
+        "d1ee8ac8-f550-4269-ab4f-604b7bba441a": "046ebcd9-cc1d-400f-b308-909bd691fa31",
+        "d222539f-fa52-4070-807f-d3aba372f46d": "aad8a908-c093-4a62-bf38-d6c5bc8a40f5",
+        "d31856fa-e1ff-4617-ab8b-a3ed79bfb27d": "456a00ec-c379-46c8-ac4c-22ed09b76782",
+        "d3d0ab55-b939-47b3-af27-77cdf85d7956": "f46826e2-8666-4ffa-a319-627149adc113",
+        "e1e4c26d-ab5c-4bd7-886a-812854466bb8": "61b8b43d-0169-4b1b-aeff-add33970adb4",
+        "ed643452-917d-40c5-badd-2e72958b059c": "d16a5d6e-12a2-4588-bd68-25a1f121d767",
+        "f1e4fcb7-01c7-479f-8883-c33ac438690e": "944fef39-3b80-4410-9771-525da20141a5",
+        "fda266ab-06e1-4591-80fa-73f027979b63": "7ef0b22a-0312-440e-97db-deea30cfd080"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "5199dfa8-0c50-4731-9ce9-a9a92a6abf04",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-21T03:39:58Z",
+    "id": "be9901a5-bfd9-415b-8aea-ee85a15819e1",
+    "last_updated_ts": "2026-03-26T07:28:58.234098Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB20MIAATL",
+      "KXNBASPREAD-26FEB20MIAATL",
+      "KXNBATOTAL-26FEB20MIAATL",
+      "KXNBATEAMTOTAL-26FEB20MIAATL",
+      "KXNBA1HWINNER-26FEB20MIAATL",
+      "KXNBA2HWINNER-26FEB20MIAATL",
+      "KXNBA1HTOTAL-26FEB20MIAATL",
+      "KXNBA1HSPREAD-26FEB20MIAATL",
+      "KXNBA2HSPREAD-26FEB20MIAATL",
+      "KXNBA2HTOTAL-26FEB20MIAATL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB20MIAATL",
+      "KXNBASPREAD-26FEB20MIAATL",
+      "KXNBATOTAL-26FEB20MIAATL",
+      "KXNBATEAMTOTAL-26FEB20MIAATL",
+      "KXNBA1HWINNER-26FEB20MIAATL",
+      "KXNBA2HWINNER-26FEB20MIAATL",
+      "KXNBAPTS-26FEB20MIAATL",
+      "KXNBAREB-26FEB20MIAATL",
+      "KXNBAAST-26FEB20MIAATL",
+      "KXNBA3PT-26FEB20MIAATL",
+      "KXNBA2D-26FEB20MIAATL",
+      "KXNBA3D-26FEB20MIAATL",
+      "KXNBA1HTOTAL-26FEB20MIAATL",
+      "KXNBA1HSPREAD-26FEB20MIAATL",
+      "KXNBASTL-26FEB20MIAATL",
+      "KXNBABLK-26FEB20MIAATL",
+      "KXNBA2HSPREAD-26FEB20MIAATL",
+      "KXNBA2HTOTAL-26FEB20MIAATL"
+    ],
+    "source_id": "5199dfa8-0c50-4731-9ce9-a9a92a6abf04",
+    "source_ids": {
+      "source_2_id": "20260221061226DB",
+      "source_3_id": "5199dfa8-0c50-4731-9ce9-a9a92a6abf04"
+    },
+    "start_date": "2026-02-21T00:30:00Z",
+    "title": "Miami at Atlanta",
+    "type": "basketball_game"
+  }
+}

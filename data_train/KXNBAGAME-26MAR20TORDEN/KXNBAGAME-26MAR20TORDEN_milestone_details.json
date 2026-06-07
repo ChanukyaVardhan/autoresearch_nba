@@ -1,0 +1,222 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-19T00:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 139,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-03-15T19:30:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 119,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-03-13T23:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 122,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-03-12T00:00:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 111,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-03-11T00:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 99,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        }
+      ],
+      "away_team_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+      "game_injuries": {
+        "96c447dd-2cdd-4c58-a151-ef0df87de981": [
+          {
+            "comment": "The Raptors listed Murray-Boyles as Out for Friday's (Mar. 20) game against the Nuggets.",
+            "date_updated": "2026-03-20",
+            "description": "Thumb",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "d9935a9e-93fb-438e-956b-3600b9b87170"
+          }
+        ],
+        "ba2cb6be-9827-46a8-8e6f-d8661307ba77": [
+          {
+            "comment": "Gordon did not play on Wednesday's (Mar. 18) game versus the Grizzlies.",
+            "date_updated": "2026-03-19",
+            "description": "Rest",
+            "start_date": "2026-03-18",
+            "status": "Day To Day",
+            "structured_id": "b8dc25d7-9f85-44dd-9200-bea74ed23889"
+          },
+          {
+            "comment": "Watson is expected to miss at least four weeks with his Grade 2 right hamstring strain, according to Michael Scotto of USA Today.",
+            "date_updated": "2026-02-06",
+            "description": "Hamstring",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-19T00:30:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 118,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        },
+        {
+          "date": "2026-03-18T02:00:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 124,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-15T00:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 125,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        },
+        {
+          "date": "2026-03-13T01:00:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 136,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-12T02:00:00+00:00",
+          "opponent_points": 93,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 129,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        }
+      ],
+      "home_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR20TORDEN",
+      "player_id_mapping": {
+        "1738927f-6ef3-4b23-921d-168b4371f917": "fb9a7f9e-8a0c-4e90-94e8-051dea709bef",
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "339eff07-4d8e-42c6-9a47-900e94b13654": "a1bd832f-dd37-43ef-940c-e6c5d80f9af2",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "3d186345-1517-446d-b4bf-8707fc77f093": "d06c2a48-5fdc-40f8-9e7c-5b98d534aa4f",
+        "42c5f009-dfd2-4a94-a750-0943791e138e": "b725e63f-83b2-469d-8c34-41217a3a05d3",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "58c0852f-6fc1-4a9a-b019-fabab1b25536": "56f10c2a-0978-4e58-a434-01d46c704482",
+        "59c707c2-fc69-4ed5-aa33-d446709dad9f": "9f2111cb-be0d-4569-af93-a4de5ab72a7e",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "6bc71e02-9a03-40db-aed4-332ab5193336": "f8ddd45a-b42c-4c8b-a0b0-08cf10ca3253",
+        "7b169c92-2d4d-4218-9557-4e0ec1b43378": "d9935a9e-93fb-438e-956b-3600b9b87170",
+        "7df31401-85c4-449f-bc87-f605145ef7ba": "1cefe214-8a3b-42d1-a667-4e30137e88b9",
+        "8082841d-e516-43c6-a81b-7987fa321acd": "95551002-8e7e-4af7-b21e-71c4efe0573e",
+        "8f6ef350-1d9a-4eda-bee9-294d0e9e64db": "3893af8f-647f-4298-8f72-552d451d6533",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "b2703497-74ba-458f-84da-a3c145bcfe79": "9d88c781-8100-4e55-be27-a39b97105be4",
+        "bdc15a29-e40d-49d1-a0a8-d21e95221e23": "994b09f9-3e74-44d3-8d9b-1a9347c3c92f",
+        "c17e25c7-1306-4301-8548-2fc129a62041": "1ac8b21f-fa4e-4bd5-938c-02471a8ead10",
+        "c5df8387-9b94-4109-bcf5-96d850e994a9": "f83d6641-0625-400e-a269-cd3e02d45813",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "c910f29a-3f6b-4dba-92e9-20137fbdf2c7": "14713689-92a3-4b09-b657-e49d2cbc31f0",
+        "cb0b5991-53e4-4dce-bf95-215fd6ecf728": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0",
+        "cbc0a3b2-985e-4484-9cb6-6891337b18b7": "060893cf-54aa-4987-8984-66e7bc6c6fa3",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e1b3d3d5-b4b1-481a-b5b9-efe4231f48bf": "d25e2502-71da-4cf4-9068-63c09a55777b",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "ee2644c1-1260-4bf4-9c70-7c5b0cee4770": "726401ab-6c3f-4f7e-be74-5c71921d2d4c",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "9ebcb5ba-d718-4899-8746-8cc11d53d395",
+      "status": "complete"
+    },
+    "end_date": "2026-03-21T04:02:11Z",
+    "id": "f5018684-db69-4570-af09-7b38376a9394",
+    "last_updated_ts": "2026-03-26T07:29:17.700318Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR20TORDEN",
+      "KXNBASPREAD-26MAR20TORDEN",
+      "KXNBATOTAL-26MAR20TORDEN",
+      "KXNBATEAMTOTAL-26MAR20TORDEN",
+      "KXNBA1HWINNER-26MAR20TORDEN",
+      "KXNBA2HWINNER-26MAR20TORDEN",
+      "KXNBA1HSPREAD-26MAR20TORDEN",
+      "KXNBA1HTOTAL-26MAR20TORDEN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR20TORDEN",
+      "KXNBASPREAD-26MAR20TORDEN",
+      "KXNBATOTAL-26MAR20TORDEN",
+      "KXNBATEAMTOTAL-26MAR20TORDEN",
+      "KXNBA1HWINNER-26MAR20TORDEN",
+      "KXNBA2HWINNER-26MAR20TORDEN",
+      "KXNBAPTS-26MAR20TORDEN",
+      "KXNBAREB-26MAR20TORDEN",
+      "KXNBAAST-26MAR20TORDEN",
+      "KXNBA3PT-26MAR20TORDEN",
+      "KXNBA2D-26MAR20TORDEN",
+      "KXNBA3D-26MAR20TORDEN",
+      "KXNBA1HSPREAD-26MAR20TORDEN",
+      "KXNBA1HTOTAL-26MAR20TORDEN",
+      "KXNBASTL-26MAR20TORDEN",
+      "KXNBABLK-26MAR20TORDEN"
+    ],
+    "source_id": "9ebcb5ba-d718-4899-8746-8cc11d53d395",
+    "source_ids": {
+      "source_2_id": "20260321FC37C485",
+      "source_3_id": "9ebcb5ba-d718-4899-8746-8cc11d53d395",
+      "source_4_id": "62925629",
+      "source_5_id": "sr:match:62925629"
+    },
+    "start_date": "2026-03-21T01:00:00Z",
+    "title": "Toronto at Denver",
+    "type": "basketball_game"
+  }
+}

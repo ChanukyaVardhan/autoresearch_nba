@@ -1,0 +1,91 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+      "home_team_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB01UTATOR",
+      "player_id_mapping": {
+        "019a0f57-b63a-4521-8a5d-45942a15eb7b": "7d2ee2ec-d216-4a88-9468-cd82847d51a0",
+        "1738927f-6ef3-4b23-921d-168b4371f917": "fb9a7f9e-8a0c-4e90-94e8-051dea709bef",
+        "2e49c27a-06c5-4c4a-87fd-69840b783947": "2f1946d8-9bb5-472b-803a-206835b7b87e",
+        "3d186345-1517-446d-b4bf-8707fc77f093": "d06c2a48-5fdc-40f8-9e7c-5b98d534aa4f",
+        "42c5f009-dfd2-4a94-a750-0943791e138e": "b725e63f-83b2-469d-8c34-41217a3a05d3",
+        "4a4459df-6307-4d10-b4cd-c69e9bf8b11d": "bc6e3271-7095-427a-862f-24c9746e7cf7",
+        "57807c7c-5866-4eb9-8d2c-b83351f3e288": "67595303-1b3e-460d-8af7-239d9766d9e5",
+        "583d7994-36f9-4a9a-b527-c18704406981": "23b96d6f-9d94-4858-b814-deaf00b4bae4",
+        "58c0852f-6fc1-4a9a-b019-fabab1b25536": "56f10c2a-0978-4e58-a434-01d46c704482",
+        "59c707c2-fc69-4ed5-aa33-d446709dad9f": "9f2111cb-be0d-4569-af93-a4de5ab72a7e",
+        "6bc71e02-9a03-40db-aed4-332ab5193336": "f8ddd45a-b42c-4c8b-a0b0-08cf10ca3253",
+        "71b57f97-2ddd-4593-8111-c637e2b58ff8": "48c6f4d4-58be-4d3e-bf23-e438e6fa06bf",
+        "7b169c92-2d4d-4218-9557-4e0ec1b43378": "d9935a9e-93fb-438e-956b-3600b9b87170",
+        "7d615ccd-db96-42a3-9a6c-7f18ea25634e": "3b13424f-cbe9-4cec-b30a-72c243ef9cd4",
+        "7eccbdf9-58a3-4b96-8b1e-eaa8ea9da836": "fa781441-5e6a-4a3d-9a3f-0af9ee263945",
+        "8082841d-e516-43c6-a81b-7987fa321acd": "95551002-8e7e-4af7-b21e-71c4efe0573e",
+        "810c84a1-e260-4aa3-9849-1b2ee3657fe3": "4b6555db-6e2a-4f68-ad47-2ed0aa1292ac",
+        "8c0929ae-ce3d-47e0-a964-bf6b8d3981ab": "a54465a9-fbb4-4fb1-866f-51054aeaa227",
+        "a7466782-6f87-414f-9458-7fea82922e00": "849da2e4-3bde-4565-bcbd-a029b62352f3",
+        "a8b48aa9-cf98-4a87-8bba-e88eead8cdaa": "cbc365fe-ea91-4ddb-b25b-57806890404e",
+        "b2703497-74ba-458f-84da-a3c145bcfe79": "9d88c781-8100-4e55-be27-a39b97105be4",
+        "b8fd0298-4027-47e2-9531-fa7c01b8bbba": "155ff771-bdf4-4a16-9908-6b555ff73ace",
+        "bdc15a29-e40d-49d1-a0a8-d21e95221e23": "994b09f9-3e74-44d3-8d9b-1a9347c3c92f",
+        "c17e25c7-1306-4301-8548-2fc129a62041": "1ac8b21f-fa4e-4bd5-938c-02471a8ead10",
+        "c5df8387-9b94-4109-bcf5-96d850e994a9": "f83d6641-0625-400e-a269-cd3e02d45813",
+        "c5fca05e-7292-464b-b9cd-d5d0f5e2fd07": "8a27cdd3-a42b-498a-b453-c31c26a77068",
+        "c910f29a-3f6b-4dba-92e9-20137fbdf2c7": "14713689-92a3-4b09-b657-e49d2cbc31f0",
+        "cb0b5991-53e4-4dce-bf95-215fd6ecf728": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0",
+        "cf4d4c23-9ccc-4cf3-b620-9749a8e65064": "e38b5f9f-de26-4523-8986-99363e53f8e0",
+        "e1b3d3d5-b4b1-481a-b5b9-efe4231f48bf": "d25e2502-71da-4cf4-9068-63c09a55777b",
+        "e747747c-3053-4ad3-a44d-7ac0b9cbdb4c": "7619f24f-d512-47c2-9fb5-a5f1b30b7ef4",
+        "ee2644c1-1260-4bf4-9c70-7c5b0cee4770": "726401ab-6c3f-4f7e-be74-5c71921d2d4c",
+        "f6db8914-5cdd-48d6-ac19-b64133d688cf": "b3aba67a-2618-4ef7-a4cf-d116a7e9307f",
+        "fae899bc-3fc7-43d9-b2c9-35721d11e438": "a72022b3-5eee-4097-8086-ba3fae090a32",
+        "fb6e5496-cfa5-42c2-bbfa-f776734a25a8": "3783ab8b-6b24-48d3-835e-3d18b2ebd848"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "7cfda49a-9410-4529-9655-0ebe2d01270c",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-02T02:01:29Z",
+    "id": "e14f2e42-4686-4988-a834-41984b8a35c4",
+    "last_updated_ts": "2026-03-26T07:27:11.409224Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB01UTATOR",
+      "KXNBASPREAD-26FEB01UTATOR",
+      "KXNBATOTAL-26FEB01UTATOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB01UTATOR",
+      "KXNBASPREAD-26FEB01UTATOR",
+      "KXNBATOTAL-26FEB01UTATOR",
+      "KXNBAPTS-26FEB01UTATOR",
+      "KXNBAREB-26FEB01UTATOR",
+      "KXNBAAST-26FEB01UTATOR",
+      "KXNBA3PT-26FEB01UTATOR",
+      "KXNBA2D-26FEB01UTATOR",
+      "KXNBASTL-26FEB01UTATOR",
+      "KXNBABLK-26FEB01UTATOR"
+    ],
+    "source_id": "7cfda49a-9410-4529-9655-0ebe2d01270c",
+    "source_ids": {
+      "source_2_id": "20260201B23A1E90",
+      "source_3_id": "7cfda49a-9410-4529-9655-0ebe2d01270c"
+    },
+    "start_date": "2026-02-01T23:00:00Z",
+    "title": "Utah at Toronto",
+    "type": "basketball_game"
+  }
+}

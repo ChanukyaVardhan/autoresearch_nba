@@ -1,0 +1,84 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+      "home_team_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB07MEMPOR",
+      "player_id_mapping": {
+        "02d782f9-c33b-4ebb-a7f2-7f19cfafaf89": "9b1d114b-c1a7-455b-bb66-f6b74d7bec51",
+        "03cf6eb6-688a-49b1-a4cc-f10c39c21725": "49771603-2a9e-4029-b716-a0f32150dc14",
+        "06df3766-f654-4fe3-8a37-496d21e7ea23": "0ff276a5-115b-4407-94b7-37e21c11454a",
+        "08baba55-bec0-4494-95ce-28778c37a981": "8201e738-2f9d-43df-a356-adb225fc5dcb",
+        "266cd359-f378-45c6-957e-6e21378e5219": "bea22e75-78de-4403-98b8-953d4a69aed4",
+        "28549c0f-c6e6-4757-a515-dbc2e1b78007": "f438ad3e-c75f-45b5-af2a-bf90dbf16fdd",
+        "2e49c27a-06c5-4c4a-87fd-69840b783947": "2f1946d8-9bb5-472b-803a-206835b7b87e",
+        "312f21c9-a061-43e2-9a22-65199131068e": "0a9e0587-c565-41cc-93bd-74e1d1b1d375",
+        "4ea56b9e-562d-4f19-a0e1-ea0e1da19688": "fe5a04a5-0dc7-4373-baf9-36c4bced83a5",
+        "5382cf43-3a79-4a5a-a7fd-153906fe65dd": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c",
+        "599e6bbf-54a5-431b-b542-1817a0942369": "41f8ada0-5160-4cff-b69e-a335d1a9eec7",
+        "5b315e15-6633-4ce2-8200-71b821553314": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0",
+        "65700e81-3aa0-49a9-8a94-004f2cfb64e5": "b75478af-67c3-4a19-9cee-b2930a77d78d",
+        "657f2b36-208f-4bbe-a64a-c6cf6a76be72": "05f54a08-7983-4f7a-af49-210204c31989",
+        "7721e264-5db8-4af9-b252-65f2d18c454d": "f1bdc817-0c46-4f47-8007-e5701780c18f",
+        "8b43c272-c16b-40c7-a4d5-7bbcefeb1816": "c90b91a6-f684-4305-bf03-697ea7daf402",
+        "8db2a730-bafb-4936-915f-3dd4920a0aa9": "dab15c3b-1fd4-44ad-940c-55852685a6ae",
+        "9983bed6-e53c-4c65-a90a-51546a0e3352": "3956631b-53dc-4cd9-8521-c8a113c806fa",
+        "9e51be65-7d39-433c-8d8c-de896da6267d": "5b48c281-6f74-4ed0-9252-17fcd483d5c9",
+        "9f666f68-046c-4315-a89d-d9ec2e9a852d": "fc56c21a-a5a1-4ac3-aa90-1eb74d41da9f",
+        "a26661fb-805f-41a9-8fc9-8ed805233482": "06d2662c-1e37-4b6c-8a1d-501a105e5644",
+        "a978acbc-e84b-4cc4-85c9-30595e022847": "f7a10ceb-9ddc-4afc-aea0-8c67b8b1dc6d",
+        "af5e629a-6b79-46d9-9b58-dc9ec41a0bd0": "a867c548-86ed-4810-a289-a25576489f7f",
+        "b8fd0298-4027-47e2-9531-fa7c01b8bbba": "155ff771-bdf4-4a16-9908-6b555ff73ace",
+        "c089cc76-e8a3-46cc-8691-3d4f28edc9bf": "58da1241-7818-4d04-9629-2a5a5795c5fa",
+        "c20dfb58-5622-405e-90b1-92b79ee97461": "aba92929-6fc0-476c-8462-35c5cf7a2cec",
+        "c2f67310-b2e2-4e89-a1f9-303e836b1415": "0a2e3f0b-0b82-4806-aefc-e0130c226b14",
+        "c76e8dae-58ad-4950-8929-5094036210c4": "80b360ed-9ea4-4cca-8ced-abba5c6a8471",
+        "c978afe7-cf22-45fc-8d0f-da8f867eb5ee": "4e4462ee-8564-4052-ba81-7c1e416c3e6f",
+        "cecc054e-b9ec-4c71-8bbb-5ee665a8c3a9": "8bcb0399-a016-42af-bbc8-b701f99abb96",
+        "d1951755-732a-453b-bede-69ff9e5a595c": "5e85252f-a995-4dc2-8d1e-e7fd7503c803",
+        "df62b7c5-faaa-4f37-a716-b7e034aa03eb": "d6d1d5a3-80ef-4687-af8c-dfaae4d6ea92",
+        "eb0bd3d9-4bf0-4cc3-bbdf-c79e2255c175": "53147479-51de-4a93-8beb-a70a78dc681f",
+        "f2d36d30-3544-41cb-831d-afec9e256418": "7ae937e9-691a-4645-9e65-29e0f5713858",
+        "fb6e5496-cfa5-42c2-bbfa-f776734a25a8": "3783ab8b-6b24-48d3-835e-3d18b2ebd848"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "8f649548-b550-4d75-b1dc-350fa6036bb4",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-08T05:30:19Z",
+    "id": "541842fd-679d-4908-99b9-5c0c4ab2f5e3",
+    "last_updated_ts": "2026-03-26T07:27:38.699245Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB07MEMPOR",
+      "KXNBASPREAD-26FEB07MEMPOR",
+      "KXNBATOTAL-26FEB07MEMPOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB07MEMPOR",
+      "KXNBASPREAD-26FEB07MEMPOR",
+      "KXNBATOTAL-26FEB07MEMPOR"
+    ],
+    "source_id": "8f649548-b550-4d75-b1dc-350fa6036bb4",
+    "source_ids": {
+      "source_2_id": "20260208F85FE62F",
+      "source_3_id": "8f649548-b550-4d75-b1dc-350fa6036bb4"
+    },
+    "start_date": "2026-02-08T03:00:00Z",
+    "title": "Memphis at Portland",
+    "type": "basketball_game"
+  }
+}

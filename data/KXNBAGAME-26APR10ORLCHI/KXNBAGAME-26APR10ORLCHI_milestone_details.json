@@ -1,0 +1,277 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-08T23:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 132,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-04-06T23:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 123,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 112,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-04-04T00:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 138,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-04-01T23:00:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 101,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": false
+        }
+      ],
+      "away_team_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+      "game_injuries": {
+        "00c3e69d-d9b9-4ac3-bf79-19707fe43637": [
+          {
+            "comment": "The Magic have listed Howard as OUT for Friday's (Apr. 10) game against the Bulls.",
+            "date_updated": "2026-04-09",
+            "description": "Ankle",
+            "start_date": "2026-04-05",
+            "status": "Out",
+            "structured_id": "06c34edd-c420-4f1a-a768-f71e796aa5b1"
+          },
+          {
+            "comment": "The Magic have listed Isaac as OUT for Friday's (Apr. 10) game against the Bulls.",
+            "date_updated": "2026-04-09",
+            "description": "Knee",
+            "start_date": "2026-03-12",
+            "status": "Out",
+            "structured_id": "e43412ed-d498-4dca-b8ab-584e80e6d6a0"
+          }
+        ],
+        "65f0250b-455d-43d7-b7dc-7d321bdf9abc": [
+          {
+            "comment": "Simons will not play in Chicago's final two games of the regular season, per K.C. Johnson of Chicago Sports Network.",
+            "date_updated": "2026-04-10",
+            "description": "Wrist",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "94894b15-fc9f-42e5-854c-4d2a6006c09b"
+          },
+          {
+            "comment": "The Bulls listed Okoro as Out on Friday's (Apr. 10) game versus the Magic.",
+            "date_updated": "2026-04-10",
+            "description": "Quad",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a"
+          },
+          {
+            "comment": "Smith will miss the remainder of the season, according to Joel Lorenzi of The Athletic.",
+            "date_updated": "2026-03-26",
+            "description": "Calf",
+            "start_date": "2026-03-25",
+            "status": "Out For Season",
+            "structured_id": "37104adf-2343-40fe-8d8a-a11f89d037e8"
+          },
+          {
+            "comment": "The Bulls reported on Wednesday (Dec. 3) that Essengue will have shoulder surgery and miss the remainder of the season, per HC Billy Donovan.",
+            "date_updated": "2025-12-03",
+            "description": "Shoulder",
+            "start_date": "2025-11-29",
+            "status": "Out For Season",
+            "structured_id": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c"
+          },
+          {
+            "comment": "Giddey (hamstring) will not play in Chicago's final two games of the regular season, per K.C. Johnson of Chicago Sports Network.",
+            "date_updated": "2026-04-10",
+            "description": "Hamstring",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "a4baed3c-0021-407e-8448-a298594c2a83"
+          },
+          {
+            "comment": "Head coach Billy Donovan said Friday that Yabusele will not play in Chicago's final two regular-season games, per K.C. Johnson of Chicago Sports Network reports.",
+            "date_updated": "2026-04-10",
+            "description": "Shoulder",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "e1936136-417a-4892-b6e0-90e41b6c2f1a"
+          },
+          {
+            "comment": "Richards (elbow) will not play in Chicago's final two games of the regular season, per K.C. Johnson of Chicago Sports Network.",
+            "date_updated": "2026-04-10",
+            "description": "Elbow",
+            "start_date": "2026-03-25",
+            "status": "Out",
+            "structured_id": "4624140d-4700-4bc6-a78b-79acc60ce3fe"
+          },
+          {
+            "comment": "The Bulls said on Saturday (Feb. 21) that Collins will undergo surgery for a sprain right toe and will be sidelined for the rest of the 2025-26 season.",
+            "date_updated": "2026-02-21",
+            "description": "Toe",
+            "start_date": "2025-12-28",
+            "status": "Out For Season",
+            "structured_id": "2a5b8fd6-50da-499a-a50b-832f02dea356"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-09T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 119,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        },
+        {
+          "date": "2026-04-07T23:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 129,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 110,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-04-03T23:30:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 96,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-04-02T00:00:00+00:00",
+          "opponent_points": 145,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 126,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        }
+      ],
+      "home_team_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR10ORLCHI",
+      "player_id_mapping": {
+        "089dc4be-faf1-4d91-9e02-fdb78ed096f3": "60bb439a-df6a-4fea-8312-4caa6a2c0fbe",
+        "0c977083-fdde-45f1-9406-60aef2a78846": "d5a4e355-31c8-4420-b094-e276ca1a1866",
+        "2d4ce4bc-b03a-40bc-b22c-dab27591a429": "0faf4911-89b0-49ae-a920-0912c6e6a92e",
+        "31f78854-0d23-4318-959c-0314588136e1": "e1936136-417a-4892-b6e0-90e41b6c2f1a",
+        "3ac2181f-3bec-4ffc-809f-30f2357b36c1": "00472d5d-df65-4e81-abb4-e88b02c71002",
+        "49962b13-0afc-43f5-a3e2-7e37b7736260": "ccb79bb0-64c9-46fe-9442-81a77ede2c47",
+        "49d8f5ef-2867-4597-a3ab-5ffc5e651258": "2df6129b-493e-48d1-a53f-1f97d74696b1",
+        "5099364d-2c4b-4d38-ac66-a86d9489474c": "f84f97c0-2831-4378-94bc-1f2edff36452",
+        "514fd4aa-5384-4bc7-a670-367a426ca235": "0432f2e8-9b8e-4324-a15d-c40aa0c79842",
+        "5ab15bad-59b4-43c9-98fc-1d0aa8182d01": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c",
+        "632adcc4-97f1-4e67-a132-e0b79f013c67": "94894b15-fc9f-42e5-854c-4d2a6006c09b",
+        "66ea876a-1cc9-47ed-ae31-2ed3c8f9350e": "a4baed3c-0021-407e-8448-a298594c2a83",
+        "67f6467e-0acc-48ce-9872-a63225ef295c": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b",
+        "689cb3b0-a7cc-45b5-860d-007597029c8c": "37104adf-2343-40fe-8d8a-a11f89d037e8",
+        "6dda6e0a-4b74-4486-80cd-5f9a8d93d1ba": "c382fa1a-0107-40fb-b0b7-03f1386f8797",
+        "744d5db7-b0be-474a-a58b-6ddf7ae35567": "708d8ae3-92df-416c-9629-917d1d20edd6",
+        "776679a3-c1d8-4463-99b1-61024008a3ed": "e43412ed-d498-4dca-b8ab-584e80e6d6a0",
+        "7924cc02-9fbb-4fd0-a036-0130084eb9b3": "98a42c36-71d9-400e-95a5-e7fe53f7e9d8",
+        "79cd9581-3aaa-484c-a8b1-a349cdc5c34c": "51a39148-a6c9-407a-8dab-ee71cc9ed9b1",
+        "7b526b14-5d50-411e-8bea-0ac7a8d0e8d7": "b20be183-d7e6-4970-ad6f-04ff489eb0d9",
+        "80b5cccf-203b-4482-92aa-76d1598216be": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387",
+        "9654c7f1-d16c-428c-88fd-2a6cdb5a8370": "4624140d-4700-4bc6-a78b-79acc60ce3fe",
+        "98fa75e7-a46f-4483-a15b-053c5ca52604": "c692e967-4748-4212-9d05-f7f86b8dc5ea",
+        "99dc3c11-03fc-4d15-9dd5-d8d1f41c569a": "39063bb2-a56e-41bb-94ca-ae15c380a190",
+        "9f8b7ec7-cec6-4c8a-9a06-ca123df80dae": "93527c48-fadf-484c-801d-6c84f88ff70e",
+        "a3c4745f-461b-47d4-87db-887ac81fe5e7": "830e16cb-c0c6-493b-986a-2c87b031056b",
+        "a4b52811-c864-4830-a0fe-9d9745814422": "909e5e21-001e-4017-a14f-b769fe85712f",
+        "ad5c19d3-1cce-4124-aeb9-dc15b3d0a851": "06c34edd-c420-4f1a-a768-f71e796aa5b1",
+        "b5310b38-a378-464f-b344-928adee0ed00": "2a5b8fd6-50da-499a-a50b-832f02dea356",
+        "d13849d9-a696-44af-84a1-3196132c3ecd": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a",
+        "e04c3542-546a-4ca7-8db3-a89353d60046": "998569d5-8e34-4b4b-a396-aada418a9fc1",
+        "f1f258c2-9bcf-4e33-ba9e-563e95084893": "af1aef60-b02f-4d7f-b9da-fc76ea7f6c31",
+        "f619cc0b-5fa0-4189-9091-596e843e93b1": "a21967f6-3de2-4e6e-ad5c-b011117e05a6",
+        "fd463d95-3421-4c52-ba77-16beb48f0f7e": "4ed0f34a-d3ec-4e33-96ae-d0935ae68985",
+        "fe7a0b28-a8f9-42ad-b345-0f69d51d365f": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "b3b3804d-1767-4660-8c47-3d908a1fd984",
+      "status": "inprogress"
+    },
+    "end_date": "2026-04-11T02:55:51Z",
+    "id": "0e7c8995-3767-4cda-8338-c242951dcfda",
+    "last_updated_ts": "2026-04-12T02:57:37.628281Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR10ORLCHI",
+      "KXNBASPREAD-26APR10ORLCHI",
+      "KXNBATOTAL-26APR10ORLCHI",
+      "KXNBATEAMTOTAL-26APR10ORLCHI",
+      "KXNBA1HWINNER-26APR10ORLCHI",
+      "KXNBA2HWINNER-26APR10ORLCHI",
+      "KXNBA1HSPREAD-26APR10ORLCHI",
+      "KXNBA1HTOTAL-26APR10ORLCHI"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR10ORLCHI",
+      "KXNBASPREAD-26APR10ORLCHI",
+      "KXNBATOTAL-26APR10ORLCHI",
+      "KXNBATEAMTOTAL-26APR10ORLCHI",
+      "KXNBA1HWINNER-26APR10ORLCHI",
+      "KXNBA2HWINNER-26APR10ORLCHI",
+      "KXNBAPTS-26APR10ORLCHI",
+      "KXNBAREB-26APR10ORLCHI",
+      "KXNBAAST-26APR10ORLCHI",
+      "KXNBA3PT-26APR10ORLCHI",
+      "KXNBA2D-26APR10ORLCHI",
+      "KXNBA3D-26APR10ORLCHI",
+      "KXNBA1HSPREAD-26APR10ORLCHI",
+      "KXNBA1HTOTAL-26APR10ORLCHI",
+      "KXNBABLK-26APR10ORLCHI"
+    ],
+    "source_id": "b3b3804d-1767-4660-8c47-3d908a1fd984",
+    "source_ids": {
+      "source_2_id": "2026041131650648",
+      "source_3_id": "b3b3804d-1767-4660-8c47-3d908a1fd984",
+      "source_4_id": "62925851",
+      "source_5_id": "sr:match:62925851"
+    },
+    "start_date": "2026-04-11T00:00:00Z",
+    "title": "Orlando at Chicago",
+    "type": "basketball_game"
+  }
+}

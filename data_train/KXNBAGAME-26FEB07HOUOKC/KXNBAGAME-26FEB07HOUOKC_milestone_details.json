@@ -1,0 +1,93 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+      "home_team_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB07HOUOKC",
+      "player_id_mapping": {
+        "1938fb4b-347a-43fd-ba41-1abdb9540699": "23ef2bb4-e11a-46ed-bc4f-5314321de04d",
+        "1c7e3ee9-c6cd-4e1d-9efe-81fb1b2d4b69": "11925af5-ab26-42dd-8f2d-9a14d4d0f7c3",
+        "1c8786b4-1786-4e3d-81ca-d976797413f5": "33b2a10d-1060-427a-98fe-ce1daf133441",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "293be24b-3a94-40b2-a7a4-a1dd788302e9": "9dec6528-0fb1-4529-9a55-82650e04121b",
+        "36d083a5-49ca-42f1-80b7-b78275a8abd9": "c4cc3a86-4003-4ea8-941f-cc878aaad51f",
+        "38745a56-7472-4844-a2dc-f61d3bcd941f": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b",
+        "3f7e2350-e208-4791-98c2-684b53bb5a9a": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c",
+        "426357dc-340b-4d89-8e3b-7d6b4022b460": "7e8c7e38-aafa-430a-9e29-018d4850476c",
+        "45f17314-918c-49bd-a482-adc171859025": "3902d32a-809a-4cf1-9f85-7b9152c25209",
+        "47ff78e7-5607-48d6-9c1a-bddb075dbe70": "91e0c839-f764-41cc-b787-01591de2775f",
+        "4965ef48-7aa9-4eae-a923-5023ff7ab1eb": "32b125e2-a412-42e4-81ac-329f053f9f23",
+        "4ab6a1ca-60ab-41e3-adbc-0395dec8c0da": "edf2d234-7410-4223-9d80-2f5893936d2e",
+        "53f2fa48-e61b-49fb-843d-8a3e872257eb": "8e0accf8-4bfd-4f77-b11f-066cb119acdc",
+        "62c44a90-f280-438a-9c7e-252f4f376283": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92",
+        "6e468041-8174-4161-8c1d-8ac620e0cbb0": "2c953e88-5354-4653-b8cf-12c8040bafdc",
+        "877eb456-2827-475f-b858-2bc00480e24f": "6863da28-cf95-4966-b5bc-80657ddebb79",
+        "892e2e4d-b10c-47b1-8c40-25ac3c9f7166": "762232bb-5666-4941-9352-2ca8637b8f03",
+        "8936c15e-f9d5-4b9a-80b9-8f6b7dcf7a17": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04",
+        "8c68e544-39ac-4016-8741-a498a979a95a": "bc51427b-a059-439e-85bc-c86907636979",
+        "9318b4c1-49d0-40eb-8b76-1098e28133d2": "144c5239-29b4-4656-8862-088803bb760e",
+        "a208e22a-6b63-45f9-b7c6-bf913a68f3df": "b175a13d-a9c0-41f6-a9cd-2594f7a92578",
+        "ab0289ca-407b-41e9-ab2d-32407eedeccf": "419633cc-ca9b-42c3-a792-f95bb00cfdaa",
+        "abceaea3-47b0-43fb-b9f7-75f378e2d409": "2fb6b047-2714-4088-bbd8-c86051b3e0b1",
+        "af1ba5e5-3f34-4ada-aa9f-f818baf7706f": "0399d93d-2926-4c73-b773-be04e4527221",
+        "b3db0b36-344f-4035-b315-9fb18933e535": "048da8e7-a562-4504-a102-b2fe624a0930",
+        "b8b323c1-5691-43a4-9c48-707531803d6a": "a7a8f83d-04d7-4b6f-aa3d-f50e09d9226b",
+        "b9155864-4192-4ad7-8652-57a0844c87b3": "c8677945-77af-435d-ad23-d339c1522313",
+        "bf6b4aed-c007-41eb-b4e5-08b99f292ec2": "04bc92de-9046-4d6e-8c63-5f8e60ca8e0e",
+        "c37dafbb-a269-41f6-813f-bdb4da388203": "9e825975-01c2-44c3-90b4-b1d961fae03b",
+        "c56cbf7a-42a4-41a2-a37b-0cd4aaf248d0": "c2beb99e-9ef2-4e96-b440-96080fa60360",
+        "d3b28775-473d-471a-8452-e913f4347f0f": "7576d7ff-b42d-446f-bce0-71d63e8cd098",
+        "d9ea4a8f-ff51-408d-b518-980efc2a35a1": "b40547da-b4d9-4d33-b795-32595ef9c473",
+        "e7373530-b566-4f36-b0de-0510b6d94e0e": "5fd6ece6-062c-465b-9a45-da012e1ba84a",
+        "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "39496ead-c699-4a6e-88bc-8df6d228a853",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-08T01:57:20Z",
+    "id": "1cb93f69-5de2-4af3-b78f-f474bcbcf791",
+    "last_updated_ts": "2026-03-26T07:27:33.18996Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB07HOUOKC",
+      "KXNBASPREAD-26FEB07HOUOKC",
+      "KXNBATOTAL-26FEB07HOUOKC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB07HOUOKC",
+      "KXNBASPREAD-26FEB07HOUOKC",
+      "KXNBATOTAL-26FEB07HOUOKC",
+      "KXNBAMENTION-26FEB07HOUOKC",
+      "KXNBAPTS-26FEB07HOUOKC",
+      "KXNBAREB-26FEB07HOUOKC",
+      "KXNBAAST-26FEB07HOUOKC",
+      "KXNBA3PT-26FEB07HOUOKC",
+      "KXNBA2D-26FEB07HOUOKC",
+      "KXNBA3D-26FEB07HOUOKC",
+      "KXNBASTL-26FEB07HOUOKC",
+      "KXNBABLK-26FEB07HOUOKC"
+    ],
+    "source_id": "39496ead-c699-4a6e-88bc-8df6d228a853",
+    "source_ids": {
+      "source_2_id": "2026020754E9971D",
+      "source_3_id": "39496ead-c699-4a6e-88bc-8df6d228a853"
+    },
+    "start_date": "2026-02-07T20:30:00Z",
+    "title": "Houston at Oklahoma City",
+    "type": "basketball_game"
+  }
+}

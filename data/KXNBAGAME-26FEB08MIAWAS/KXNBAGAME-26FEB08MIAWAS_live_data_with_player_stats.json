@@ -1,0 +1,228 @@
+{
+  "live_data": {
+    "details": {
+      "away_points": 132,
+      "home_points": 101,
+      "last_event_created_ts": 1770585501,
+      "last_event_is_timeout": false,
+      "last_play": "End of 4th Quarter.",
+      "last_updated_ts": 1770590130,
+      "period": 4,
+      "period_remaining_time": "00:00",
+      "period_type": "quarter",
+      "player_stats": {
+        "046ebcd9-cc1d-400f-b308-909bd691fa31": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "0dc1c365-c168-4092-9076-d5c8fe6fb8ac": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "10928e3f-1742-43ea-aed9-42715199b0c4": {
+          "assists": 3,
+          "points": 13,
+          "rebounds": 2,
+          "three_points_made": 3
+        },
+        "1973aa06-c381-4a82-9bfd-7dd65f09a2fa": {
+          "assists": 3,
+          "points": 5,
+          "rebounds": 2,
+          "three_points_made": 1
+        },
+        "1eb006aa-0299-401c-9d88-8be637c7a46e": {
+          "assists": 2,
+          "points": 0,
+          "rebounds": 1,
+          "three_points_made": 0
+        },
+        "2afef8da-4d54-44f7-a52f-c2933ca0b37a": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "2b9b4c52-7963-4bbc-820a-787f29642aa0": {
+          "assists": 1,
+          "points": 7,
+          "rebounds": 4,
+          "three_points_made": 1
+        },
+        "3e3ceeda-5f54-4aa0-9ced-e8ff6cbcadf2": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "456a00ec-c379-46c8-ac4c-22ed09b76782": {
+          "assists": 2,
+          "points": 4,
+          "rebounds": 1,
+          "three_points_made": 0
+        },
+        "4aad249c-e551-45af-b759-d012f1daf436": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "4e7dbbe4-d680-46b4-a19d-c9f6765352d6": {
+          "assists": 0,
+          "points": 2,
+          "rebounds": 1,
+          "three_points_made": 0
+        },
+        "4ead891f-246e-4a10-922c-b9043a42a890": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "5058e150-c10e-4c45-a9d2-e3cea932c389": {
+          "assists": 6,
+          "points": 10,
+          "rebounds": 7,
+          "three_points_made": 2
+        },
+        "50cd523e-b363-4145-b038-10c3e7f5fc68": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "61b8b43d-0169-4b1b-aeff-add33970adb4": {
+          "assists": 0,
+          "points": 21,
+          "rebounds": 4,
+          "three_points_made": 5
+        },
+        "6e964a40-4ceb-403c-96c2-5a165e032f0d": {
+          "assists": 3,
+          "points": 8,
+          "rebounds": 1,
+          "three_points_made": 0
+        },
+        "77498085-90ac-456b-a123-848a7a5866e0": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "78e6400c-eb93-4089-922a-24d221108ee5": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "7ef0b22a-0312-440e-97db-deea30cfd080": {
+          "assists": 3,
+          "points": 12,
+          "rebounds": 5,
+          "three_points_made": 1
+        },
+        "8890a6d0-042f-431a-a5d4-bd9af4843851": {
+          "assists": 2,
+          "points": 14,
+          "rebounds": 5,
+          "three_points_made": 4
+        },
+        "8c834598-267f-4866-8e81-6e6912b912a2": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "944fef39-3b80-4410-9771-525da20141a5": {
+          "assists": 1,
+          "points": 19,
+          "rebounds": 14,
+          "three_points_made": 1
+        },
+        "95ce1408-68a5-4025-975c-ac02d98e6830": {
+          "assists": 5,
+          "points": 12,
+          "rebounds": 12,
+          "three_points_made": 0
+        },
+        "992529e1-8850-4ec0-a0c4-a8f63f525b2f": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "aa9a6beb-2da4-4425-a295-07c6bb2940b7": {
+          "assists": 2,
+          "points": 11,
+          "rebounds": 10,
+          "three_points_made": 3
+        },
+        "b51ad7ce-d152-48a3-b9e0-1eb6af19dd84": {
+          "assists": 1,
+          "points": 0,
+          "rebounds": 1,
+          "three_points_made": 0
+        },
+        "b5bca5ba-0234-4790-98d5-dd964c8697fa": {
+          "assists": 2,
+          "points": 12,
+          "rebounds": 7,
+          "three_points_made": 1
+        },
+        "bdfa5db0-84ef-4d02-9758-09f03d14a206": {
+          "assists": 5,
+          "points": 13,
+          "rebounds": 2,
+          "three_points_made": 1
+        },
+        "c122b588-a524-4086-a34a-d74de87ff68e": {
+          "assists": 6,
+          "points": 4,
+          "rebounds": 4,
+          "three_points_made": 0
+        },
+        "c8ecebb6-6e63-4564-9c1f-4ef048d1bf7e": {
+          "assists": 3,
+          "points": 22,
+          "rebounds": 8,
+          "three_points_made": 2
+        },
+        "d8d735de-7698-4bec-a77c-5e187aa5d8f6": {
+          "assists": 1,
+          "points": 13,
+          "rebounds": 7,
+          "three_points_made": 1
+        },
+        "e278cbc7-f046-4b4f-a38a-03e05a4c5d84": {
+          "assists": 0,
+          "points": 0,
+          "rebounds": 0,
+          "three_points_made": 0
+        },
+        "e601299b-d9a4-4cd1-b86b-58e47670cfe6": {
+          "assists": 0,
+          "points": 9,
+          "rebounds": 1,
+          "three_points_made": 1
+        },
+        "ef8f3722-308a-4ef9-beab-27afb7d067da": {
+          "assists": 6,
+          "points": 22,
+          "rebounds": 3,
+          "three_points_made": 6
+        }
+      },
+      "possession": "",
+      "score_last_updated_ts": 1770585454,
+      "status": "closed",
+      "widget_status": "finished",
+      "winner": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+    },
+    "milestone_id": "ea465631-edce-4c8d-b59d-a400ad26cdb5",
+    "type": "basketball_game"
+  }
+}

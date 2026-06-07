@@ -1,0 +1,203 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-20T03:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 121,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T00:30:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 124,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-02-08T17:30:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 89,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-02-07T00:30:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 98,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-02-05T01:00:00+00:00",
+          "opponent_points": 93,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 114,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        }
+      ],
+      "away_team_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+      "game_injuries": {
+        "2ef4d31c-0b46-4f43-a403-f44d62489034": [],
+        "6dd427f5-fa02-40ef-aa90-cfa73e0c539e": [
+          {
+            "comment": "The Celtics said on Thursday (Feb. 12) that Tatum was feeling good after taking part in practice with the G League's Maine Celtics on Tuesday, but he remained non-committal about returning to action during the 2025-26 season, per Taylor Snow of the team's",
+            "date_updated": "2026-02-12",
+            "description": "Achilles",
+            "start_date": "2025-05-12",
+            "status": "Out",
+            "structured_id": "5f251b4a-e9aa-4e22-b5df-157d80e606e6"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-21T03:00:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 125,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-02-13T03:00:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 124,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-02-11T03:30:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 108,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        },
+        {
+          "date": "2026-02-10T03:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 110,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        },
+        {
+          "date": "2026-02-08T01:30:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 105,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        }
+      ],
+      "home_team_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB22BOSLAL",
+      "player_id_mapping": {
+        "0718c0e1-7804-471a-b4ed-cde778948d4d": "c4f4898b-4a7a-4849-8546-5bdc0af22927",
+        "0afbe608-940a-4d5d-a1f7-468718c67d91": "5631e46b-716c-4842-8607-a6ebf12fe029",
+        "0b79911f-cd24-46d1-9b05-49fe937aa75e": "a7d5b353-0663-4261-8c13-06489385f44c",
+        "18512d7a-ea08-408c-8ecb-7f436ca41120": "ad7c156e-90b4-4656-bf01-893bbd63b3d3",
+        "1bd20765-bf81-4250-a16c-05a4799758fc": "aa6f6626-0d22-4d04-bd68-e279b0ccf5d7",
+        "1c19138b-1769-4418-b481-af76751739f0": "fad850fa-b08e-4a43-90be-2122d751394c",
+        "258ed390-1d72-42ee-9c52-f7064051e35f": "f33c690f-071c-40ee-8fdd-e10b6b236b73",
+        "3ef70a50-cd0d-4148-a1ad-ca830a1a9046": "f8c2fa0d-6c62-407d-8067-a444ded9c263",
+        "4ab32c74-1d47-41aa-8fa7-7dabe48a9fd6": "5bd89163-4fb4-45b2-98ef-0663037fc05c",
+        "582db35d-33ae-4913-9bb3-5de4fb763e46": "7dd0d3fe-90a2-4bd7-aec4-197def28882a",
+        "59f3c089-7642-4792-99a2-97795c3d7648": "197dcf24-c55c-421c-b8b1-b744b7f09616",
+        "5bfc9a4c-deb7-4f37-a784-5d99ada863cb": "42215952-20e6-4c4f-9f07-9f6ed2f0fa18",
+        "6a93a3fd-d10c-4594-a4b5-873fa13f6d99": "e7bf1b31-47aa-4857-9e8d-26a350078fbc",
+        "7366b2b7-5959-4dd9-9204-760e861b3119": "9851168d-7c6c-4b3f-adcb-261a46e54c03",
+        "7ca4beac-bbd6-454f-b820-4e8442a3e1e5": "30e25b93-8631-4a93-a536-5fda82c7706a",
+        "7cfc1044-54f9-4788-af5f-8d943f992e0d": "16deb828-cf61-4d83-838e-8658730a0ffe",
+        "816ef930-8918-4b1d-9f0e-d0d867e6956a": "9fe8d10d-75a2-459f-8214-2a808a6ca345",
+        "879370c1-afe6-45c7-9ba1-93a78d4b8d61": "c770d1a8-b835-4d56-b107-3da5de5d6622",
+        "8da31ebc-6614-4209-8685-5442bc09887b": "fbcb18f9-9a5e-43f0-a622-b628d6422b48",
+        "98136da3-452f-49dc-a794-1ee9c76443f2": "5f251b4a-e9aa-4e22-b5df-157d80e606e6",
+        "9bcd5cff-4a1c-4454-89b6-a5899b0c6bcc": "fc551031-35e4-47a5-b9a3-052c0c56109f",
+        "a10a4352-53b3-47b6-a336-201dc9e8401e": "2c27d2d3-1f7d-4759-ada1-a4757a3332ca",
+        "a537047d-c29f-4dfe-99b0-3bac4e258dc7": "3b01a74c-dbf7-4948-a75e-824710916ac9",
+        "af460d21-b1d8-46bb-a228-61ac4fb9ccf9": "a2901ab3-44f7-44b4-b9ee-1b7f88dcd3aa",
+        "b04cd5ce-e82c-47a7-9b2a-c561c1cb7b80": "5f51a9d7-093c-48f8-80c8-1fa29a7f39f1",
+        "b69837ca-4e1d-4124-956d-00e3febe358e": "e89c6259-4d3a-47ba-a911-984d4af4d508",
+        "bcb84104-a049-4263-8574-67b1d786481c": "5c3b34a4-b55b-4a0b-b6b5-3ae0dceef416",
+        "c4981f56-93a2-47b1-8d31-4e8635f45e1d": "0a8e255c-0588-49fd-9cfe-a4bd26dcf171",
+        "cbea1c03-1ac9-4afa-8fdc-2d7155ea5583": "75c2bd2a-ee4a-412c-9ba4-df98ca75805b",
+        "cf4d4c23-9ccc-4cf3-b620-9749a8e65064": "e38b5f9f-de26-4523-8986-99363e53f8e0",
+        "d2ee92e9-3e72-45eb-b156-2dc5adc1e6f7": "008856e0-b1ab-47f1-8df7-06e243f5f000",
+        "e693c3a1-c958-48d5-9edc-46d95aae0ad1": "ebe42beb-ccb9-4646-85f9-3c627c1b5d40",
+        "f5aac467-6bf9-4fa3-b89a-9ef71fe546fa": "ef5bd790-45f1-4c0f-b977-58009cf35208",
+        "ffc5579c-783f-4d62-80ab-3c3dcb05a27d": "417ef237-dcd0-46a2-8649-6ccbc78e3a4b"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "cafe3e4e-7240-400f-987c-8df127fd040b",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-23T04:30:00Z",
+    "id": "aa8d08de-0c14-4a07-a8bc-1c91a686d5ee",
+    "last_updated_ts": "2026-03-26T07:28:16.90122Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB22BOSLAL",
+      "KXNBASPREAD-26FEB22BOSLAL",
+      "KXNBATOTAL-26FEB22BOSLAL",
+      "KXNBATEAMTOTAL-26FEB22BOSLAL",
+      "KXNBA1HWINNER-26FEB22BOSLAL",
+      "KXNBA2HWINNER-26FEB22BOSLAL",
+      "KXNBA1HSPREAD-26FEB22BOSLAL",
+      "KXNBA1HTOTAL-26FEB22BOSLAL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB22BOSLAL",
+      "KXNBASPREAD-26FEB22BOSLAL",
+      "KXNBATOTAL-26FEB22BOSLAL",
+      "KXNBATEAMTOTAL-26FEB22BOSLAL",
+      "KXNBAMENTION-26FEB22BOSLAL",
+      "KXNBA1HWINNER-26FEB22BOSLAL",
+      "KXNBA2HWINNER-26FEB22BOSLAL",
+      "KXNBAPTS-26FEB22BOSLAL",
+      "KXNBAREB-26FEB22BOSLAL",
+      "KXNBAAST-26FEB22BOSLAL",
+      "KXNBA3PT-26FEB22BOSLAL",
+      "KXNBA2D-26FEB22BOSLAL",
+      "KXNBA3D-26FEB22BOSLAL",
+      "KXNBASTL-26FEB22BOSLAL",
+      "KXNBABLK-26FEB22BOSLAL",
+      "KXNBA1HSPREAD-26FEB22BOSLAL",
+      "KXNBA1HTOTAL-26FEB22BOSLAL"
+    ],
+    "source_id": "cafe3e4e-7240-400f-987c-8df127fd040b",
+    "source_ids": {
+      "source_2_id": "20260222A908BEC3",
+      "source_3_id": "cafe3e4e-7240-400f-987c-8df127fd040b"
+    },
+    "start_date": "2026-02-22T23:30:00Z",
+    "title": "Boston at Los Angeles L",
+    "type": "basketball_game"
+  }
+}

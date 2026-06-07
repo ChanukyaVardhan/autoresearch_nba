@@ -1,0 +1,235 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-24T00:00:00+00:00",
+          "opponent_points": 132,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 124,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": false
+        },
+        {
+          "date": "2026-03-22T00:00:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 123,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "opponent_points": 95,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 117,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-03-19T01:30:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 116,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": false
+        },
+        {
+          "date": "2026-03-17T01:30:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 92,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": false
+        }
+      ],
+      "away_team_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+      "game_injuries": {
+        "29e3c04e-fadb-4006-be20-cbb8c159ce0e": [
+          {
+            "comment": "Edwards is still limited to individual work, according to Jon Krawczynski of The Athletic.",
+            "date_updated": "2026-03-24",
+            "description": "Knee",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "36ea9bc5-23b0-4274-9c6c-cd8a07b1b654"
+          },
+          {
+            "comment": "The Timberwolves listed Dosunmu as Out for Wednesday's (Mar. 25) game against the Rockets.",
+            "date_updated": "2026-02-25",
+            "description": "Calf",
+            "start_date": "2026-02-24",
+            "status": "Day To Day",
+            "structured_id": "930f19e3-6885-4738-9dae-484cb321f64f"
+          }
+        ],
+        "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211": [
+          {
+            "comment": "The Rockets said on Monday (Sept. 22) that VanVleet suffered a torn ACL and may be out for the entire 2025-26 campaign, per Shams Charania of ESPN.",
+            "date_updated": "2025-09-22",
+            "description": "ACL",
+            "start_date": "2025-09-22",
+            "status": "Out For Season",
+            "structured_id": "3902d32a-809a-4cf1-9f85-7b9152c25209"
+          },
+          {
+            "comment": "The Rockets said on Wednesday (Jan. 28) that Adams underwent season-ending ankle surgery.",
+            "date_updated": "2026-01-28",
+            "description": "Ankle",
+            "start_date": "2026-01-18",
+            "status": "Out For Season",
+            "structured_id": "b175a13d-a9c0-41f6-a9cd-2594f7a92578"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-23T00:00:00+00:00",
+          "opponent_points": 92,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 102,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 104,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-19T00:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 147,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-18T00:00:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 116,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-15T17:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 103,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        }
+      ],
+      "home_team_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR25HOUMIN",
+      "player_id_mapping": {
+        "0a5e8d12-47e5-4afc-973a-e1f8184776c1": "37610450-b248-4427-b2d0-ff7fe6973eab",
+        "1938fb4b-347a-43fd-ba41-1abdb9540699": "23ef2bb4-e11a-46ed-bc4f-5314321de04d",
+        "1c7e3ee9-c6cd-4e1d-9efe-81fb1b2d4b69": "11925af5-ab26-42dd-8f2d-9a14d4d0f7c3",
+        "24a0f5aa-209a-4d54-91db-bddecc37f87e": "7b22d659-5c24-411c-937b-23352fdefff6",
+        "24c85a15-686e-4161-934b-40948188fa36": "2bf5e35d-4c07-42ff-bcc0-e2e7b05eab71",
+        "293be24b-3a94-40b2-a7a4-a1dd788302e9": "9dec6528-0fb1-4529-9a55-82650e04121b",
+        "2b95727a-4273-4f8f-a45b-3d9ac9969dba": "ddef089e-567a-4057-a913-5c93bbd0ec91",
+        "2e49c27a-06c5-4c4a-87fd-69840b783947": "2f1946d8-9bb5-472b-803a-206835b7b87e",
+        "37fbc3a5-0d10-4e22-803b-baa2ea0cdb12": "e9c185a4-48f9-497a-9da5-03d763ab11a3",
+        "426357dc-340b-4d89-8e3b-7d6b4022b460": "7e8c7e38-aafa-430a-9e29-018d4850476c",
+        "45f17314-918c-49bd-a482-adc171859025": "3902d32a-809a-4cf1-9f85-7b9152c25209",
+        "460b7264-b98f-483e-b841-59a18c2e4d67": "4d76b816-4ca3-4a92-bbd3-489819b6821b",
+        "47ff78e7-5607-48d6-9c1a-bddb075dbe70": "91e0c839-f764-41cc-b787-01591de2775f",
+        "53f2fa48-e61b-49fb-843d-8a3e872257eb": "8e0accf8-4bfd-4f77-b11f-066cb119acdc",
+        "5b297372-b2af-445e-a4bc-777982dbc1e3": "85df4482-17a9-49b8-b40f-b6cddb54e579",
+        "65fec68f-dfbb-4127-bb7a-932d5144c0f6": "c040b6ef-2b8f-4338-ad6c-6a5973bb1484",
+        "6e468041-8174-4161-8c1d-8ac620e0cbb0": "2c953e88-5354-4653-b8cf-12c8040bafdc",
+        "7ad01370-ae8e-40ae-b70d-61f6d8dba8d9": "b7022c10-2203-4b3e-877d-f539c32e0532",
+        "823b2161-0c34-494c-9d7c-b438152f4f4d": "15a36614-d0eb-4be8-af9f-4e79a32d4231",
+        "877eb456-2827-475f-b858-2bc00480e24f": "6863da28-cf95-4966-b5bc-80657ddebb79",
+        "892e2e4d-b10c-47b1-8c40-25ac3c9f7166": "762232bb-5666-4941-9352-2ca8637b8f03",
+        "8c68e544-39ac-4016-8741-a498a979a95a": "bc51427b-a059-439e-85bc-c86907636979",
+        "952cd8e7-2fa5-4eac-bcd9-b2e135eab16f": "0f3fa1bc-e62a-4ea6-b30e-8f77f6f625f8",
+        "9c1deadf-622c-4326-bd14-3e273b5e1e5a": "14647265-8f75-4624-abab-5b6f9d1ef5cb",
+        "9cfad453-b323-43dc-a066-6cd0a21745ad": "19e432c3-e255-428c-94d0-cedebed3dfc5",
+        "a208e22a-6b63-45f9-b7c6-bf913a68f3df": "b175a13d-a9c0-41f6-a9cd-2594f7a92578",
+        "a34ec970-f4a1-47a3-98a1-51ff5e92a443": "9c875ec2-a062-4b15-9621-d5786b40a985",
+        "aa5536d2-4d75-43fb-8df3-47fbf99d3b7c": "4432f713-dfc6-47db-881d-bace88c4d9c1",
+        "af1ba5e5-3f34-4ada-aa9f-f818baf7706f": "0399d93d-2926-4c73-b773-be04e4527221",
+        "b8b323c1-5691-43a4-9c48-707531803d6a": "a7a8f83d-04d7-4b6f-aa3d-f50e09d9226b",
+        "b9155864-4192-4ad7-8652-57a0844c87b3": "c8677945-77af-435d-ad23-d339c1522313",
+        "c37dafbb-a269-41f6-813f-bdb4da388203": "9e825975-01c2-44c3-90b4-b1d961fae03b",
+        "d0c7135a-1aea-40cb-ba20-df656de71749": "36ea9bc5-23b0-4274-9c6c-cd8a07b1b654",
+        "e7373530-b566-4f36-b0de-0510b6d94e0e": "5fd6ece6-062c-465b-9a45-da012e1ba84a",
+        "f8a7e4c7-d60e-4751-9203-30a772dd9272": "930f19e3-6885-4738-9dae-484cb321f64f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "4fb5c27f-54ff-43ea-9b3d-8fb824dde146",
+      "status": "complete"
+    },
+    "end_date": "2026-03-26T06:15:09Z",
+    "id": "4012442f-3114-4cab-aba8-c11042e79270",
+    "last_updated_ts": "2026-03-27T06:26:05.509148Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR25HOUMIN",
+      "KXNBASPREAD-26MAR25HOUMIN",
+      "KXNBATOTAL-26MAR25HOUMIN",
+      "KXNBATEAMTOTAL-26MAR25HOUMIN",
+      "KXNBA1HWINNER-26MAR25HOUMIN",
+      "KXNBA2HWINNER-26MAR25HOUMIN",
+      "KXNBA1HSPREAD-26MAR25HOUMIN",
+      "KXNBA1HTOTAL-26MAR25HOUMIN",
+      "KXNBA2HSPREAD-26MAR25HOUMIN",
+      "KXNBA2HTOTAL-26MAR25HOUMIN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR25HOUMIN",
+      "KXNBASPREAD-26MAR25HOUMIN",
+      "KXNBATOTAL-26MAR25HOUMIN",
+      "KXNBATEAMTOTAL-26MAR25HOUMIN",
+      "KXNBAMENTION-26MAR26HOUMIN",
+      "KXNBA1HWINNER-26MAR25HOUMIN",
+      "KXNBA2HWINNER-26MAR25HOUMIN",
+      "KXNBAPTS-26MAR25HOUMIN",
+      "KXNBAREB-26MAR25HOUMIN",
+      "KXNBAAST-26MAR25HOUMIN",
+      "KXNBA3PT-26MAR25HOUMIN",
+      "KXNBA2D-26MAR25HOUMIN",
+      "KXNBA3D-26MAR25HOUMIN",
+      "KXNBASTL-26MAR25HOUMIN",
+      "KXNBABLK-26MAR25HOUMIN",
+      "KXNBA1HSPREAD-26MAR25HOUMIN",
+      "KXNBA1HTOTAL-26MAR25HOUMIN",
+      "KXNBA2HSPREAD-26MAR25HOUMIN",
+      "KXNBA2HTOTAL-26MAR25HOUMIN"
+    ],
+    "source_id": "4fb5c27f-54ff-43ea-9b3d-8fb824dde146",
+    "source_ids": {
+      "source_2_id": "20260326D65D938F",
+      "source_3_id": "4fb5c27f-54ff-43ea-9b3d-8fb824dde146",
+      "source_4_id": "62924677",
+      "source_5_id": "sr:match:62924677"
+    },
+    "start_date": "2026-03-26T01:30:00Z",
+    "title": "Houston at Minnesota",
+    "type": "basketball_game"
+  }
+}

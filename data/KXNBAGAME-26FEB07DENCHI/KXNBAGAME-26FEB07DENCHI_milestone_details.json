@@ -1,0 +1,87 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "home_team_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB07DENCHI",
+      "player_id_mapping": {
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "2d4ce4bc-b03a-40bc-b22c-dab27591a429": "0faf4911-89b0-49ae-a920-0912c6e6a92e",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "31f78854-0d23-4318-959c-0314588136e1": "e1936136-417a-4892-b6e0-90e41b6c2f1a",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "5ab15bad-59b4-43c9-98fc-1d0aa8182d01": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c",
+        "5c010a64-12a9-423e-a466-fc49c427e058": "3de432f3-35ac-42c4-9bbb-b5cb25e10c7d",
+        "632adcc4-97f1-4e67-a132-e0b79f013c67": "94894b15-fc9f-42e5-854c-4d2a6006c09b",
+        "66ea876a-1cc9-47ed-ae31-2ed3c8f9350e": "a4baed3c-0021-407e-8448-a298594c2a83",
+        "67f6467e-0acc-48ce-9872-a63225ef295c": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "689cb3b0-a7cc-45b5-860d-007597029c8c": "37104adf-2343-40fe-8d8a-a11f89d037e8",
+        "7924cc02-9fbb-4fd0-a036-0130084eb9b3": "98a42c36-71d9-400e-95a5-e7fe53f7e9d8",
+        "7b526b14-5d50-411e-8bea-0ac7a8d0e8d7": "b20be183-d7e6-4970-ad6f-04ff489eb0d9",
+        "80b5cccf-203b-4482-92aa-76d1598216be": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387",
+        "9654c7f1-d16c-428c-88fd-2a6cdb5a8370": "4624140d-4700-4bc6-a78b-79acc60ce3fe",
+        "99dc3c11-03fc-4d15-9dd5-d8d1f41c569a": "39063bb2-a56e-41bb-94ca-ae15c380a190",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "b5310b38-a378-464f-b344-928adee0ed00": "2a5b8fd6-50da-499a-a50b-832f02dea356",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "d13849d9-a696-44af-84a1-3196132c3ecd": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e04c3542-546a-4ca7-8db3-a89353d60046": "998569d5-8e34-4b4b-a396-aada418a9fc1",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "ec887131-efba-43a0-ad0a-0757ab3f0399": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "f619cc0b-5fa0-4189-9091-596e843e93b1": "a21967f6-3de2-4e6e-ad5c-b011117e05a6",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f",
+        "fe7a0b28-a8f9-42ad-b345-0f69d51d365f": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "c29597d7-8f4e-4635-b978-ae9cd60e9e9e",
+      "status": "complete"
+    },
+    "end_date": "2026-02-08T03:40:42Z",
+    "id": "fa1d6dd6-46db-488d-b8e3-0e22d2ced14a",
+    "last_updated_ts": "2026-03-26T07:27:38.283308Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB07DENCHI",
+      "KXNBASPREAD-26FEB07DENCHI",
+      "KXNBATOTAL-26FEB07DENCHI"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB07DENCHI",
+      "KXNBASPREAD-26FEB07DENCHI",
+      "KXNBATOTAL-26FEB07DENCHI",
+      "KXNBA3PT-26FEB07DENCHI",
+      "KXNBAPTS-26FEB07DENCHI",
+      "KXNBAAST-26FEB07DENCHI",
+      "KXNBA2D-26FEB07DENCHI"
+    ],
+    "source_id": "c29597d7-8f4e-4635-b978-ae9cd60e9e9e",
+    "source_ids": {
+      "source_2_id": "2026020890E025E2",
+      "source_3_id": "c29597d7-8f4e-4635-b978-ae9cd60e9e9e"
+    },
+    "start_date": "2026-02-08T01:00:00Z",
+    "title": "Denver at Chicago",
+    "type": "basketball_game"
+  }
+}

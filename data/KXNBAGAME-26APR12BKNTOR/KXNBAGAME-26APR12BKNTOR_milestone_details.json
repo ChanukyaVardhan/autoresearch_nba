@@ -1,0 +1,292 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-11T00:00:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 108,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-04-09T23:30:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 94,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-04-07T23:30:00+00:00",
+          "opponent_points": 90,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 96,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 121,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": true
+        },
+        {
+          "date": "2026-04-03T23:30:00+00:00",
+          "opponent_points": 141,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 107,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        }
+      ],
+      "away_team_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+      "game_injuries": {
+        "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3": [
+          {
+            "comment": "The Nets listed Williams as Out for Sunday's (Apr. 12) game against the Raptors.",
+            "date_updated": "2026-04-11",
+            "description": "Foot",
+            "start_date": "2026-04-04",
+            "status": "Day To Day",
+            "structured_id": "465706f0-e83a-42ad-bddd-a4c2cd5fae91"
+          },
+          {
+            "comment": "The Nets listed Clowney as Out for Sunday's (Apr. 12) game against the Raptors.",
+            "date_updated": "2026-04-12",
+            "description": "Ankle",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "4fd1dde0-5e9d-4a62-b083-9cefea82b869"
+          },
+          {
+            "comment": "The Nets listed Minott as Out for Sunday's (Apr. 12) game against the Raptors.",
+            "date_updated": "2026-04-11",
+            "description": "Achilles",
+            "start_date": "2026-04-08",
+            "status": "Out",
+            "structured_id": "f3bf7115-fb09-4130-b2a4-1ed728e70a05"
+          },
+          {
+            "comment": "The Nets listed Claxton as Out for Sunday's (Apr. 12) game against the Raptors.",
+            "date_updated": "2026-04-11",
+            "description": "Finger",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "594d190f-a7a4-4b7c-9116-e2af0cbc99bd"
+          },
+          {
+            "comment": "The Nets announced Friday that Wolf (ankle) is being shut down for the rest of the season, according to Erik Slater of ClutchPoints.com.",
+            "date_updated": "2026-04-03",
+            "description": "Ankle",
+            "start_date": "2026-03-22",
+            "status": "Out For Season",
+            "structured_id": "09308e8f-d4d1-4f7b-aff1-eccb42552be3"
+          },
+          {
+            "comment": "The Nets reported Egor Demin will miss rest of season with plantar fasciitis.",
+            "date_updated": "2026-03-09",
+            "description": "Foot",
+            "start_date": "2026-02-28",
+            "status": "Out For Season",
+            "structured_id": "7a110972-5181-4479-ad48-c96ead96cce7"
+          },
+          {
+            "comment": "The Nets said on Thursday (Mar. 12) that Sharpe will undergo season-ending thumb surgery.",
+            "date_updated": "2026-03-12",
+            "description": "Thumb",
+            "start_date": "2026-03-10",
+            "status": "Out For Season",
+            "structured_id": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0"
+          },
+          {
+            "comment": "Porter (hamstring) has been ruled out for the remainder of the 2025-26 season, according to Erik Slater of ClutchPoints.com.",
+            "date_updated": "2026-04-03",
+            "description": "Hamstring",
+            "start_date": "2026-03-11",
+            "status": "Out For Season",
+            "structured_id": "e0945bc8-fa32-41e5-b85b-9155011bdd3b"
+          },
+          {
+            "comment": "The Nets listed Mann as Out for Sunday's (Apr. 12) game against the Raptors.",
+            "date_updated": "2026-04-11",
+            "description": "Achilles",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "c073f4e1-d502-43f6-a81a-97173fe75fd4"
+          },
+          {
+            "comment": "The Nets listed Traore as OUT for Sunday's (Apr. 12) game against the Raptors.",
+            "date_updated": "2026-04-12",
+            "description": "Illness",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "45e0dc65-2f26-4444-94ce-66f918de8cf9"
+          }
+        ],
+        "96c447dd-2cdd-4c58-a151-ef0df87de981": [
+          {
+            "comment": "The Raptors listed Hepburn as Out for Sunday's (Apr. 12) game against the Nets.",
+            "date_updated": "2026-04-11",
+            "description": "Knee",
+            "start_date": "2026-04-08",
+            "status": "Out",
+            "structured_id": "56f10c2a-0978-4e58-a434-01d46c704482"
+          },
+          {
+            "comment": "The Raptors reported Quickley won't return Sunday.",
+            "date_updated": "2026-04-12",
+            "description": "Hamstring",
+            "start_date": "2026-04-12",
+            "status": "Day To Day",
+            "structured_id": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-10T23:30:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 95,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-04-09T23:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 128,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-04-07T23:30:00+00:00",
+          "opponent_points": 95,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 121,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 101,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-04-04T00:00:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 128,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        }
+      ],
+      "home_team_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR12BKNTOR",
+      "player_id_mapping": {
+        "1738927f-6ef3-4b23-921d-168b4371f917": "fb9a7f9e-8a0c-4e90-94e8-051dea709bef",
+        "1c82e36d-8975-4778-9d49-d872d2f3f1be": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0",
+        "1c9a1c2e-3e3b-439e-8d72-0b41b17e4ba9": "465706f0-e83a-42ad-bddd-a4c2cd5fae91",
+        "288519dc-eae8-4daf-afa4-c86322b7460e": "594d190f-a7a4-4b7c-9116-e2af0cbc99bd",
+        "3a7d6510-00e9-4265-81df-864a1f547269": "e0945bc8-fa32-41e5-b85b-9155011bdd3b",
+        "3d186345-1517-446d-b4bf-8707fc77f093": "d06c2a48-5fdc-40f8-9e7c-5b98d534aa4f",
+        "42c5f009-dfd2-4a94-a750-0943791e138e": "b725e63f-83b2-469d-8c34-41217a3a05d3",
+        "4cee9366-c78d-4ae9-a04a-eb695ee2fac0": "45e0dc65-2f26-4444-94ce-66f918de8cf9",
+        "58c0852f-6fc1-4a9a-b019-fabab1b25536": "56f10c2a-0978-4e58-a434-01d46c704482",
+        "59c707c2-fc69-4ed5-aa33-d446709dad9f": "9f2111cb-be0d-4569-af93-a4de5ab72a7e",
+        "674b6d37-16d4-4851-81c2-b279754b9b82": "b8c5473f-2359-4dd8-8f7d-f2b53e43e028",
+        "6bc71e02-9a03-40db-aed4-332ab5193336": "f8ddd45a-b42c-4c8b-a0b0-08cf10ca3253",
+        "6bee5098-f27a-4877-8df6-41c1687a8fb6": "09308e8f-d4d1-4f7b-aff1-eccb42552be3",
+        "73d92041-1258-4f1f-8bd3-55e07407115b": "d0c482ad-2764-4243-bd04-3a9690236bef",
+        "7b169c92-2d4d-4218-9557-4e0ec1b43378": "d9935a9e-93fb-438e-956b-3600b9b87170",
+        "7df31401-85c4-449f-bc87-f605145ef7ba": "1cefe214-8a3b-42d1-a667-4e30137e88b9",
+        "8082841d-e516-43c6-a81b-7987fa321acd": "95551002-8e7e-4af7-b21e-71c4efe0573e",
+        "82b836ba-12b8-4824-a809-0f13cc13c73f": "bbf34014-acd3-44ca-8de9-19f0893af07c",
+        "9b3dc639-0351-47ee-8ef0-c13bc3edfc0f": "6509727c-c86f-4a30-909e-6f1cb99c33bc",
+        "a6cc820a-8dce-40aa-840c-f0c94cfa9e46": "c073f4e1-d502-43f6-a81a-97173fe75fd4",
+        "a7466782-6f87-414f-9458-7fea82922e00": "849da2e4-3bde-4565-bcbd-a029b62352f3",
+        "b2703497-74ba-458f-84da-a3c145bcfe79": "9d88c781-8100-4e55-be27-a39b97105be4",
+        "b5e408ae-86d3-44a0-aa16-6977c6aaed41": "7a110972-5181-4479-ad48-c96ead96cce7",
+        "b60665b0-b5f3-4662-b7f8-454def5886db": "acbf6c3d-d745-4d51-aacd-3af1148d2ec8",
+        "bc86dba7-561a-4fa0-9639-83d50b2c29ba": "0eec94b2-8a43-441a-a47d-42003c67fb93",
+        "bdc15a29-e40d-49d1-a0a8-d21e95221e23": "994b09f9-3e74-44d3-8d9b-1a9347c3c92f",
+        "c17e25c7-1306-4301-8548-2fc129a62041": "1ac8b21f-fa4e-4bd5-938c-02471a8ead10",
+        "c4cf8fb6-b7de-45f2-b9f9-9365b8f2f2ed": "f3bf7115-fb09-4130-b2a4-1ed728e70a05",
+        "c5df8387-9b94-4109-bcf5-96d850e994a9": "f83d6641-0625-400e-a269-cd3e02d45813",
+        "c910f29a-3f6b-4dba-92e9-20137fbdf2c7": "14713689-92a3-4b09-b657-e49d2cbc31f0",
+        "cb0b5991-53e4-4dce-bf95-215fd6ecf728": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0",
+        "d21c7c50-60ce-4de2-b2a2-3a06d3897bcb": "e3762f50-27af-4a94-8ffc-c68cc9ac624f",
+        "dbf9e1f5-7573-4c24-992a-04ea080c61e1": "4fd1dde0-5e9d-4a62-b083-9cefea82b869",
+        "e140d6c7-351e-4937-84cd-66af4b8d617d": "0560776d-7a32-4eb6-a938-ea8c8fcc004b",
+        "e1b3d3d5-b4b1-481a-b5b9-efe4231f48bf": "d25e2502-71da-4cf4-9068-63c09a55777b",
+        "ee2644c1-1260-4bf4-9c70-7c5b0cee4770": "726401ab-6c3f-4f7e-be74-5c71921d2d4c"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "09d4438a-9584-408c-a71c-9103e92e6e23",
+      "status": "inprogress"
+    },
+    "end_date": "2026-04-13T00:45:32Z",
+    "id": "a853e72e-847a-4b54-afab-0ad1249e2705",
+    "last_updated_ts": "2026-04-14T00:57:37.574669Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR12BKNTOR",
+      "KXNBASPREAD-26APR12BKNTOR",
+      "KXNBATOTAL-26APR12BKNTOR",
+      "KXNBATEAMTOTAL-26APR12BKNTOR",
+      "KXNBA1HWINNER-26APR12BKNTOR",
+      "KXNBA2HWINNER-26APR12BKNTOR",
+      "KXNBA1HSPREAD-26APR12BKNTOR",
+      "KXNBA1HTOTAL-26APR12BKNTOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR12BKNTOR",
+      "KXNBASPREAD-26APR12BKNTOR",
+      "KXNBATOTAL-26APR12BKNTOR",
+      "KXNBATEAMTOTAL-26APR12BKNTOR",
+      "KXNBA1HWINNER-26APR12BKNTOR",
+      "KXNBA2HWINNER-26APR12BKNTOR",
+      "KXNBAPTS-26APR12BKNTOR",
+      "KXNBAREB-26APR12BKNTOR",
+      "KXNBAAST-26APR12BKNTOR",
+      "KXNBA2D-26APR12BKNTOR",
+      "KXNBA3D-26APR12BKNTOR",
+      "KXNBA1HSPREAD-26APR12BKNTOR",
+      "KXNBA1HTOTAL-26APR12BKNTOR"
+    ],
+    "source_id": "09d4438a-9584-408c-a71c-9103e92e6e23",
+    "source_ids": {
+      "source_2_id": "202604124B42EEAA",
+      "source_3_id": "09d4438a-9584-408c-a71c-9103e92e6e23",
+      "source_4_id": "62924465",
+      "source_5_id": "sr:match:62924465"
+    },
+    "start_date": "2026-04-12T22:00:00Z",
+    "title": "Brooklyn at Toronto",
+    "type": "basketball_game"
+  }
+}

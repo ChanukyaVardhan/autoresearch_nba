@@ -1,0 +1,243 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-07T23:30:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 90,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": false
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 131,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": true
+        },
+        {
+          "date": "2026-04-04T00:00:00+00:00",
+          "opponent_points": 133,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 101,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": false
+        },
+        {
+          "date": "2026-04-02T00:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 113,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": false
+        },
+        {
+          "date": "2026-04-01T00:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 123,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": true
+        }
+      ],
+      "away_team_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+      "game_injuries": {
+        "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3": [
+          {
+            "comment": "The Bucks listed Kuzma as OUT for Wednesday's (Apr. 8) game against the Pistons.",
+            "date_updated": "2026-04-08",
+            "description": "Achilles",
+            "start_date": "2026-04-06",
+            "status": "Out",
+            "structured_id": "29359ac2-6049-4cf0-a4da-d8b5cc354ad5"
+          },
+          {
+            "comment": "Bucks head coach Doc Rivers said on Saturday (Mar. 28) that he would be surprised if Porter played again this season, per Eric Nehm of The Athletic.",
+            "date_updated": "2026-03-28",
+            "description": "Knee",
+            "start_date": "2026-03-18",
+            "status": "Out For Season",
+            "structured_id": "c8fa499d-95bc-4280-85ef-c9467afd87fb"
+          },
+          {
+            "comment": "The Bucks listed Turner as OUT for Wednesday's (Apr. 8) game against the Pistons.",
+            "date_updated": "2026-04-08",
+            "description": "Ankle",
+            "start_date": "2026-04-06",
+            "status": "Out",
+            "structured_id": "a1339a5c-be69-4ad2-8db2-8a65c6bf1781"
+          },
+          {
+            "comment": "The Bucks listed Antetokounmpo as OUT for Wednesday's (Apr. 8) game against the Pistons.",
+            "date_updated": "2026-04-08",
+            "description": "Knee",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "6c376ad3-bb8c-499d-9745-f87b60e40d66"
+          },
+          {
+            "comment": "The Bucks listed Portis as OUT for Wednesday's (Apr. 8) game against the Pistons.",
+            "date_updated": "2026-04-08",
+            "description": "Wrist",
+            "start_date": "2026-03-24",
+            "status": "Out",
+            "structured_id": "a91b092f-2de1-43af-ab71-fa41cf000e32"
+          }
+        ],
+        "65569528-1888-40aa-9d62-2b0e8142a9b4": [
+          {
+            "comment": "The Pistons listed Huerter as Out for Wednesday's (Apr. 8) game against the Bucks.",
+            "date_updated": "2026-04-08",
+            "description": "Illness",
+            "start_date": "2026-04-08",
+            "status": "Out",
+            "structured_id": "33c2e858-9265-47f1-b048-fbab4a62f9c8"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-06T23:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 107,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": false
+        },
+        {
+          "date": "2026-04-04T23:00:00+00:00",
+          "opponent_points": 93,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 116,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 113,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        },
+        {
+          "date": "2026-04-01T00:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 127,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        },
+        {
+          "date": "2026-03-31T01:30:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 110,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": false
+        }
+      ],
+      "home_team_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR08MILDET",
+      "player_id_mapping": {
+        "00fb2704-aa25-4ef7-8972-cde454810810": "d3705d84-27ff-4482-ab98-bba306710adc",
+        "18c14a3d-2ce0-451c-bceb-b0ce13c16ead": "54277f13-99a5-4ee0-934a-2051f41ef6bc",
+        "18d35316-9f40-408c-abcc-ab49e06ef8e8": "74de2700-bb3b-4770-98b7-4c20677814cf",
+        "252f4b13-6abb-45dc-ae85-f822b817cb51": "a49a4c93-ac16-4556-9cf5-fce719ca9208",
+        "323f9ef8-ecdd-41a7-859e-dd3db48ba913": "a1339a5c-be69-4ad2-8db2-8a65c6bf1781",
+        "409f5c06-ac04-425a-8147-a4485e7b7e71": "29a143fb-73e3-4edf-8795-efd4579c3cf6",
+        "4707d9b8-fca3-4550-ae25-bd4b449e4dbf": "ac20a549-f6e2-4feb-94df-b86af72950cc",
+        "4f80cdb1-1b10-4669-9774-045bc8a99c99": "d8974980-82ba-42dc-a510-dcb0564050d0",
+        "4fae86e2-4f99-4247-af85-d917b4389d31": "29359ac2-6049-4cf0-a4da-d8b5cc354ad5",
+        "536e0e15-02b5-4994-9613-0f5ec88f82e0": "7e264353-4d67-4c27-8757-e97bbd629b3e",
+        "56003e58-6b25-4f22-9d97-020b3d1f6616": "d9841514-7c9f-41e8-990c-18ba19569f31",
+        "57d55cd4-6ab8-4255-a248-bef800c0cbab": "0a8c3059-aa64-4871-8291-fff857a201af",
+        "616c60bf-f7ce-482d-a9c8-10c6c7fbef97": "445b8e51-f6ef-4707-afc1-651b38e89943",
+        "62daf16f-0c4c-46ae-9e54-0d34d6fdef85": "9e660772-5491-4a0f-a408-84b184a62f61",
+        "64c0e4e5-8711-4b86-8072-745f6084df73": "0e6c26ec-43d9-4080-80ae-3310855e54aa",
+        "68b7aac9-02fd-4bd8-b10c-6702d2c5eb98": "a91b092f-2de1-43af-ab71-fa41cf000e32",
+        "6b5d0264-fa2d-4956-919b-61abfc6bb8d7": "ee339cf2-f3ce-4bdc-9b84-1ebbb0e65fa7",
+        "6c60282d-165a-4cba-8e5a-4f2d9d4c5905": "6c376ad3-bb8c-499d-9745-f87b60e40d66",
+        "79fc04d6-0dcf-4817-ab79-2528026d72be": "5ac2f6ed-c991-40a4-afa0-aff7c779b0d7",
+        "8006987e-cd53-4e60-a26e-83cb96fb81ac": "32a69465-105d-4ee6-9512-273a4a604e4c",
+        "82f09975-6a8d-42e4-b42c-a52b9349ed50": "cbf135fe-afac-422d-8f3e-9f3291a954a1",
+        "858d255e-9a7b-4c7a-aac4-fc7cf3a5f238": "33c2e858-9265-47f1-b048-fbab4a62f9c8",
+        "8aaf1808-f7af-4894-9b14-cc7655005313": "de933f3a-eba2-422b-b2e7-cb30ed547794",
+        "9d0b4d49-f3ab-4721-8997-8f0ceea01597": "af70c80b-4c75-4fdd-91d0-cf43c9a0777f",
+        "9d4d6c87-78db-4556-b94a-bb8d566dd004": "60e91db8-8128-4e53-9b13-eabdf6913ab5",
+        "9e0b879c-8be6-445e-a437-a3bf18130b9c": "d1bdb658-7142-472b-b51d-d74cb4d90d9b",
+        "a2b3bc56-566e-443d-affe-7837a59a1ed7": "7864645c-a818-47f6-8e3a-2f74c8e083e4",
+        "ac9f5700-2da0-4c7d-a031-ed1acf0d6581": "2d0fbc02-5133-41b7-9eac-83abfca3a748",
+        "c34996e5-8be6-4053-a2f2-0acb0155e18c": "ade1d2f5-5be7-40f0-819d-7216389b2777",
+        "c7c7c72b-7cee-409a-b2b5-256d173ac305": "968216f4-82ae-4763-9a71-6875cf126a23",
+        "ca5ad700-2ed9-453a-9abe-08eb8edb601c": "c8fa499d-95bc-4280-85ef-c9467afd87fb",
+        "e23521cd-8e92-4701-b9e7-dc4acd21dfec": "b5fee735-ad6a-4350-85be-62ebd0ff9800",
+        "e8def95a-cdf0-423f-9cac-a3e7e92364db": "dab8637b-70f4-496d-9757-53ec9fe22533",
+        "ff6f99de-5cd8-4bf1-a5d2-6bebcf4350ee": "819b5bea-f98f-4e24-a5e8-6f3f33270ae7"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "8116d778-98f6-4061-ae46-60b38f3f97b2",
+      "status": "complete"
+    },
+    "end_date": "2026-04-09T02:40:48Z",
+    "id": "2c203cba-5307-4cfb-a3c5-ea76bd414e8a",
+    "last_updated_ts": "2026-04-10T03:22:07.731211Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR08MILDET",
+      "KXNBASPREAD-26APR08MILDET",
+      "KXNBATOTAL-26APR08MILDET",
+      "KXNBATEAMTOTAL-26APR08MILDET",
+      "KXNBA1HWINNER-26APR08MILDET",
+      "KXNBA2HWINNER-26APR08MILDET",
+      "KXNBA1HSPREAD-26APR08MILDET",
+      "KXNBA1HTOTAL-26APR08MILDET"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR08MILDET",
+      "KXNBASPREAD-26APR08MILDET",
+      "KXNBATOTAL-26APR08MILDET",
+      "KXNBATEAMTOTAL-26APR08MILDET",
+      "KXNBA1HWINNER-26APR08MILDET",
+      "KXNBA2HWINNER-26APR08MILDET",
+      "KXNBA1HSPREAD-26APR08MILDET",
+      "KXNBA1HTOTAL-26APR08MILDET",
+      "KXNBAPTS-26APR08MILDET",
+      "KXNBAREB-26APR08MILDET",
+      "KXNBAAST-26APR08MILDET",
+      "KXNBA3PT-26APR08MILDET",
+      "KXNBA2D-26APR08MILDET",
+      "KXNBASTL-26APR08MILDET"
+    ],
+    "source_id": "8116d778-98f6-4061-ae46-60b38f3f97b2",
+    "source_ids": {
+      "source_2_id": "202604088C50C983",
+      "source_3_id": "8116d778-98f6-4061-ae46-60b38f3f97b2",
+      "source_4_id": "62925337",
+      "source_5_id": "sr:match:62925337"
+    },
+    "start_date": "2026-04-08T23:00:00Z",
+    "title": "Milwaukee at Detroit",
+    "type": "basketball_game"
+  }
+}

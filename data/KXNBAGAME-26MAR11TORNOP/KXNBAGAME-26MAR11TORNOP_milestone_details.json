@@ -1,0 +1,214 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-11T00:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 99,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-03-08T22:00:00+00:00",
+          "opponent_points": 92,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 122,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-03-06T01:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 107,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-03-04T00:30:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 95,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-03-01T00:00:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 134,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        }
+      ],
+      "away_team_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+      "game_injuries": {
+        "96c447dd-2cdd-4c58-a151-ef0df87de981": [
+          {
+            "comment": "The Raptors listed Murray-Boyles expected to miss at least 2 more games.",
+            "date_updated": "2026-03-04",
+            "description": "Thumb",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "d9935a9e-93fb-438e-956b-3600b9b87170"
+          }
+        ],
+        "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc": [
+          {
+            "comment": "The Pelicans listed McGowens as OUT for Wednesday's (Mar. 11) game against Toronto.",
+            "date_updated": "2026-03-10",
+            "description": "Toe",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "f296c65c-1854-4ce3-814f-4380939626cb"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-08T23:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 138,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T02:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 116,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-06T03:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 133,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-04T03:30:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 101,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-02T02:00:00+00:00",
+          "opponent_points": 137,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 117,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        }
+      ],
+      "home_team_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR11TORNOP",
+      "player_id_mapping": {
+        "0036a1fa-ff9a-44a5-8061-68b828ee2b1e": "0b538101-c08f-4a2e-a095-df6e59a02407",
+        "0a5c9ca2-d58f-4989-8cfc-de981a3e2d07": "13f346b2-a047-4e9d-878e-dae708b3c6f7",
+        "1738927f-6ef3-4b23-921d-168b4371f917": "fb9a7f9e-8a0c-4e90-94e8-051dea709bef",
+        "1d7e4639-11b4-4358-96cb-028bfb166e64": "7d455b73-8844-4041-aebc-4a6dd76274bc",
+        "23462d55-9f15-4632-915f-2ab8e4458219": "08a82e64-bcf2-4395-a2bf-42feaaea03a3",
+        "26ad516e-5b80-4d33-a40a-b0dfacbaa992": "fbb39d19-504e-42c6-af35-1f45ae8328c0",
+        "2ed2f76f-5a2f-4d79-ab7c-e84a8a42dc21": "c2bd69e5-271d-47a0-829b-e63d6e655ed8",
+        "3c4a7fda-fca3-4a68-9886-ea7eec4cc2e3": "f296c65c-1854-4ce3-814f-4380939626cb",
+        "3d186345-1517-446d-b4bf-8707fc77f093": "d06c2a48-5fdc-40f8-9e7c-5b98d534aa4f",
+        "42c5f009-dfd2-4a94-a750-0943791e138e": "b725e63f-83b2-469d-8c34-41217a3a05d3",
+        "51b62fe8-1e5c-4c65-8ad3-2ad06e749b70": "49ac8ed6-aad0-4703-aedb-b65dc8fcb086",
+        "58c0852f-6fc1-4a9a-b019-fabab1b25536": "56f10c2a-0978-4e58-a434-01d46c704482",
+        "59c707c2-fc69-4ed5-aa33-d446709dad9f": "9f2111cb-be0d-4569-af93-a4de5ab72a7e",
+        "5cc51c05-06f5-4ae4-89a4-1d329fbbcdfb": "220527f6-f6e9-46b3-92b4-ccd8e37ad577",
+        "66b88001-06c2-4f4a-9825-b6e0cc1df6cc": "0261059a-dc81-43c2-b3ef-2a937da69c9b",
+        "6bc71e02-9a03-40db-aed4-332ab5193336": "f8ddd45a-b42c-4c8b-a0b0-08cf10ca3253",
+        "7b169c92-2d4d-4218-9557-4e0ec1b43378": "d9935a9e-93fb-438e-956b-3600b9b87170",
+        "7d27ec3b-1e31-4b0f-abcf-e12039a0e27b": "26e6560f-bbf6-4e0f-bbe6-89f8fe643970",
+        "7df31401-85c4-449f-bc87-f605145ef7ba": "1cefe214-8a3b-42d1-a667-4e30137e88b9",
+        "7ff3c32f-2552-454d-9dee-a1d52000458a": "1400f958-a65e-4dac-8ce0-6cf6e6edafd7",
+        "8082841d-e516-43c6-a81b-7987fa321acd": "95551002-8e7e-4af7-b21e-71c4efe0573e",
+        "a4de5912-bd72-4993-ac93-fb65d2164660": "1397dd83-6f8b-4ca4-85d8-4ddee4d50e42",
+        "b2703497-74ba-458f-84da-a3c145bcfe79": "9d88c781-8100-4e55-be27-a39b97105be4",
+        "bdc15a29-e40d-49d1-a0a8-d21e95221e23": "994b09f9-3e74-44d3-8d9b-1a9347c3c92f",
+        "c17e25c7-1306-4301-8548-2fc129a62041": "1ac8b21f-fa4e-4bd5-938c-02471a8ead10",
+        "c5df8387-9b94-4109-bcf5-96d850e994a9": "f83d6641-0625-400e-a269-cd3e02d45813",
+        "c910f29a-3f6b-4dba-92e9-20137fbdf2c7": "14713689-92a3-4b09-b657-e49d2cbc31f0",
+        "cb0b5991-53e4-4dce-bf95-215fd6ecf728": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0",
+        "d531a451-6377-4942-a26f-3507d60fb36b": "a63c5df9-d7d6-4a12-93f2-10c7b4911c23",
+        "e1b3d3d5-b4b1-481a-b5b9-efe4231f48bf": "d25e2502-71da-4cf4-9068-63c09a55777b",
+        "ebb50069-6fdf-4c07-9a21-a63d5c814536": "60e4406b-ce4b-4eb3-bbb2-e955a85b90d5",
+        "ee2644c1-1260-4bf4-9c70-7c5b0cee4770": "726401ab-6c3f-4f7e-be74-5c71921d2d4c",
+        "f15e21e4-a83a-4263-aeda-d2ecd2ed6e25": "b9084e59-a89e-4e65-a9ce-1a6ba889c465",
+        "f2c67fa6-8093-46fb-b3fb-62916b9c1dad": "b56b1ccb-f281-4307-8759-3cb7b7ccc4f0",
+        "f4e6ac10-c2d3-4412-b85b-9511b93313e6": "9555a125-470b-4f6b-ace3-f4b03b027380"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "e2f83143-cc55-467c-8f7b-50ca68632276",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-12T02:45:31Z",
+    "id": "d01dc261-f7dd-4cb3-befe-c98106be9657",
+    "last_updated_ts": "2026-03-26T07:29:48.850528Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR11TORNOP",
+      "KXNBASPREAD-26MAR11TORNOP",
+      "KXNBATOTAL-26MAR11TORNOP",
+      "KXNBATEAMTOTAL-26MAR11TORNOP",
+      "KXNBA1HWINNER-26MAR11TORNOP",
+      "KXNBA2HWINNER-26MAR11TORNOP",
+      "KXNBA1HSPREAD-26MAR11TORNOP",
+      "KXNBA1HTOTAL-26MAR11TORNOP"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR11TORNOP",
+      "KXNBASPREAD-26MAR11TORNOP",
+      "KXNBATOTAL-26MAR11TORNOP",
+      "KXNBATEAMTOTAL-26MAR11TORNOP",
+      "KXNBAPTS-26MAR11TORNOP",
+      "KXNBAREB-26MAR11TORNOP",
+      "KXNBAAST-26MAR11TORNOP",
+      "KXNBA3PT-26MAR11TORNOP",
+      "KXNBA2D-26MAR11TORNOP",
+      "KXNBA3D-26MAR11TORNOP",
+      "KXNBA1HWINNER-26MAR11TORNOP",
+      "KXNBA2HWINNER-26MAR11TORNOP",
+      "KXNBASTL-26MAR11TORNOP",
+      "KXNBABLK-26MAR11TORNOP",
+      "KXNBA1HSPREAD-26MAR11TORNOP",
+      "KXNBA1HTOTAL-26MAR11TORNOP"
+    ],
+    "source_id": "e2f83143-cc55-467c-8f7b-50ca68632276",
+    "source_ids": {
+      "source_2_id": "20260312F7A62DA2",
+      "source_3_id": "e2f83143-cc55-467c-8f7b-50ca68632276",
+      "source_4_id": "62924379",
+      "source_5_id": "sr:match:62924379"
+    },
+    "start_date": "2026-03-12T00:00:00Z",
+    "title": "Toronto at New Orleans",
+    "type": "basketball_game"
+  }
+}

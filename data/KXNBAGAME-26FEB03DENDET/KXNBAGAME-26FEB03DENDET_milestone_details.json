@@ -1,0 +1,93 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "home_team_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB03DENDET",
+      "player_id_mapping": {
+        "00fb2704-aa25-4ef7-8972-cde454810810": "d3705d84-27ff-4482-ab98-bba306710adc",
+        "06255060-3d3d-44f6-a776-2aab8e57584a": "994de660-809f-442c-99f9-7ddbd9089117",
+        "18c14a3d-2ce0-451c-bceb-b0ce13c16ead": "54277f13-99a5-4ee0-934a-2051f41ef6bc",
+        "18d35316-9f40-408c-abcc-ab49e06ef8e8": "74de2700-bb3b-4770-98b7-4c20677814cf",
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "252f4b13-6abb-45dc-ae85-f822b817cb51": "a49a4c93-ac16-4556-9cf5-fce719ca9208",
+        "2533c7f2-31e9-4405-8b66-91e1e966d3f0": "1bc901bb-64fb-4b73-8db3-29909972c10d",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "4707d9b8-fca3-4550-ae25-bd4b449e4dbf": "ac20a549-f6e2-4feb-94df-b86af72950cc",
+        "536e0e15-02b5-4994-9613-0f5ec88f82e0": "7e264353-4d67-4c27-8757-e97bbd629b3e",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "57d55cd4-6ab8-4255-a248-bef800c0cbab": "0a8c3059-aa64-4871-8291-fff857a201af",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "5c010a64-12a9-423e-a466-fc49c427e058": "3de432f3-35ac-42c4-9bbb-b5cb25e10c7d",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "79fc04d6-0dcf-4817-ab79-2528026d72be": "5ac2f6ed-c991-40a4-afa0-aff7c779b0d7",
+        "82f09975-6a8d-42e4-b42c-a52b9349ed50": "cbf135fe-afac-422d-8f3e-9f3291a954a1",
+        "858d255e-9a7b-4c7a-aac4-fc7cf3a5f238": "33c2e858-9265-47f1-b048-fbab4a62f9c8",
+        "9d4d6c87-78db-4556-b94a-bb8d566dd004": "60e91db8-8128-4e53-9b13-eabdf6913ab5",
+        "a2b3bc56-566e-443d-affe-7837a59a1ed7": "7864645c-a818-47f6-8e3a-2f74c8e083e4",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "ac9f5700-2da0-4c7d-a031-ed1acf0d6581": "2d0fbc02-5133-41b7-9eac-83abfca3a748",
+        "b4b3cfce-16f1-4f30-acc0-2bac1eb51d66": "800a6e42-f420-4cd9-99d5-483420dce444",
+        "c34996e5-8be6-4053-a2f2-0acb0155e18c": "ade1d2f5-5be7-40f0-819d-7216389b2777",
+        "c7c7c72b-7cee-409a-b2b5-256d173ac305": "968216f4-82ae-4763-9a71-6875cf126a23",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e23521cd-8e92-4701-b9e7-dc4acd21dfec": "b5fee735-ad6a-4350-85be-62ebd0ff9800",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f",
+        "ff6f99de-5cd8-4bf1-a5d2-6bebcf4350ee": "819b5bea-f98f-4e24-a5e8-6f3f33270ae7"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "814edc41-2ebc-49a2-a025-1934af217dc0",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-04T03:20:16Z",
+    "id": "475cbc77-7b00-4d5a-a1ca-53b5f0734026",
+    "last_updated_ts": "2026-03-26T07:27:25.070818Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB03DENDET",
+      "KXNBASPREAD-26FEB03DENDET",
+      "KXNBATOTAL-26FEB03DENDET"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB03DENDET",
+      "KXNBASPREAD-26FEB03DENDET",
+      "KXNBATOTAL-26FEB03DENDET",
+      "KXNBAPTS-26FEB03DENDET",
+      "KXNBAREB-26FEB03DENDET",
+      "KXNBAAST-26FEB03DENDET",
+      "KXNBA3PT-26FEB03DENDET",
+      "KXNBA2D-26FEB03DENDET",
+      "KXNBA3D-26FEB03DENDET",
+      "KXNBASTL-26FEB03DENDET",
+      "KXNBABLK-26FEB03DENDET"
+    ],
+    "source_id": "814edc41-2ebc-49a2-a025-1934af217dc0",
+    "source_ids": {
+      "source_2_id": "20260204B238824C",
+      "source_3_id": "814edc41-2ebc-49a2-a025-1934af217dc0"
+    },
+    "start_date": "2026-02-04T00:00:00Z",
+    "title": "Denver at Detroit",
+    "type": "basketball_game"
+  }
+}

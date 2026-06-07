@@ -1,0 +1,295 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-28T02:00:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 126,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-26T01:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 133,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-22T23:30:00+00:00",
+          "opponent_points": 145,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 113,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-21T21:00:00+00:00",
+          "opponent_points": 132,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 111,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-19T23:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 95,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        }
+      ],
+      "away_team_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+      "game_injuries": {
+        "0464e75c-8bc8-4f18-9ee2-577832b889d6": [
+          {
+            "comment": "The Wizards announced on Friday (Mar. 20) that Davis will continue to remain sidelined through the end of March.",
+            "date_updated": "2026-03-20",
+            "description": "Finger",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "50cd523e-b363-4145-b038-10c3e7f5fc68"
+          },
+          {
+            "comment": "The Wizards listed Sarr as Out for Sunday's (Mar. 29) game against the Trail Blazers.",
+            "date_updated": "2026-03-28",
+            "description": "Toe",
+            "start_date": "2026-03-28",
+            "status": "Out",
+            "structured_id": "95ce1408-68a5-4025-975c-ac02d98e6830"
+          },
+          {
+            "comment": "The Wizards listed Johnson as Out for Sunday's (Mar. 29) game against the Trail Blazers.",
+            "date_updated": "2026-03-28",
+            "description": "Foot",
+            "start_date": "2026-03-28",
+            "status": "Out",
+            "structured_id": "8c834598-267f-4866-8e81-6e6912b912a2"
+          },
+          {
+            "comment": "The Wizards announced Wednesday (Jan. 15) that Whitmore will miss the remainder of the 2025-26 season while he begins the recovery process for a diagnosed venous condition.",
+            "date_updated": "2026-02-15",
+            "description": "Shoulder",
+            "start_date": "2025-12-20",
+            "status": "Out For Season",
+            "structured_id": "992529e1-8850-4ec0-a0c4-a8f63f525b2f"
+          },
+          {
+            "comment": "The Wizards announced Wednesday (Mar. 4) that George has been diagnosed with a partial tear of the UCL in his left elbow and will be re-evaluated in three weeks.",
+            "date_updated": "2026-03-04",
+            "description": "Elbow",
+            "start_date": "2026-03-03",
+            "status": "Out",
+            "structured_id": "10928e3f-1742-43ea-aed9-42715199b0c4"
+          },
+          {
+            "comment": "The Wizards said on Tuesday (Mar. 3) that Russell will remain away from the team indefinitely.",
+            "date_updated": "2026-03-03",
+            "description": "Not Injury Related",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84"
+          },
+          {
+            "comment": "The Wizards said on Saturday (Mar. 21) that Young is without a timetable for return.",
+            "date_updated": "2026-03-21",
+            "description": "Quad",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "4aad249c-e551-45af-b759-d012f1daf436"
+          }
+        ],
+        "2229b01e-68eb-46ad-adf4-71a9533c84fc": [
+          {
+            "comment": "The Trail Blazers listed Williams III as Out for Sunday's (Mar. 29) game against the Wizards.",
+            "date_updated": "2026-03-28",
+            "description": "Back",
+            "start_date": "2026-03-28",
+            "status": "Day To Day",
+            "structured_id": "aba92929-6fc0-476c-8462-35c5cf7a2cec"
+          },
+          {
+            "comment": "The Trail Blazers listed Grant as Out for Sunday's (Mar. 29) game against the Wizards.",
+            "date_updated": "2026-03-28",
+            "description": "Calf",
+            "start_date": "2026-03-27",
+            "status": "Out",
+            "structured_id": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0"
+          },
+          {
+            "comment": "Sharpe will be re-evaluated in 4-to-6 weeks, per Sean Highkin of Rip City Radio 620 Portland.",
+            "date_updated": "2026-02-24",
+            "description": "Calf",
+            "start_date": "2026-02-06",
+            "status": "Out",
+            "structured_id": "53147479-51de-4a93-8beb-a70a78dc681f"
+          },
+          {
+            "comment": "The Trail Blazers listed Krejci as Out for Sunday's (Mar. 29) game against the Wizards.",
+            "date_updated": "2026-03-28",
+            "description": "Calf",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "dab15c3b-1fd4-44ad-940c-55852685a6ae"
+          },
+          {
+            "comment": "The Trail Blazers said on Thursday (Sept. 25) that Lillard won't be back on the court for the 2025-26 season due to his achilles injury.",
+            "date_updated": "2025-09-25",
+            "description": "Achilles",
+            "start_date": "2025-09-25",
+            "status": "Out For Season",
+            "structured_id": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-28T02:00:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 93,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-26T02:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 130,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-24T02:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 134,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-22T21:00:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 112,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 108,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        }
+      ],
+      "home_team_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR29WASPOR",
+      "player_id_mapping": {
+        "06df3766-f654-4fe3-8a37-496d21e7ea23": "0ff276a5-115b-4407-94b7-37e21c11454a",
+        "08baba55-bec0-4494-95ce-28778c37a981": "8201e738-2f9d-43df-a356-adb225fc5dcb",
+        "0e03dd88-2c39-4b4a-8b47-0c3c8ba82305": "10928e3f-1742-43ea-aed9-42715199b0c4",
+        "19561190-edab-4465-a82d-7e42a7635800": "8c834598-267f-4866-8e81-6e6912b912a2",
+        "22031e11-d6b9-476c-8198-040db9ce09af": "612682ce-16b7-4050-8e1d-7febe4821f0e",
+        "27db7dbb-6aad-44df-a3f4-7e1c21c2f256": "2b9b4c52-7963-4bbc-820a-787f29642aa0",
+        "28f3e566-3174-4e87-81d0-4889569b6ef5": "bdfa5db0-84ef-4d02-9758-09f03d14a206",
+        "312f21c9-a061-43e2-9a22-65199131068e": "0a9e0587-c565-41cc-93bd-74e1d1b1d375",
+        "5382cf43-3a79-4a5a-a7fd-153906fe65dd": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c",
+        "53e011ee-504f-473e-bb26-bfe34533ca10": "6e964a40-4ceb-403c-96c2-5a165e032f0d",
+        "584a8771-ee79-4957-89f1-a2b0638c497a": "e601299b-d9a4-4cd1-b86b-58e47670cfe6",
+        "5b315e15-6633-4ce2-8200-71b821553314": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0",
+        "5be520a5-5590-44ee-b763-3d3ce4505267": "423df079-9eec-42b2-85a7-58061b60621d",
+        "65700e81-3aa0-49a9-8a94-004f2cfb64e5": "b75478af-67c3-4a19-9cee-b2930a77d78d",
+        "6d117ec5-649d-4151-8d44-88175c603067": "d8d735de-7698-4bec-a77c-5e187aa5d8f6",
+        "73f8f274-238d-419f-bccb-097362b8354d": "8890a6d0-042f-431a-a5d4-bd9af4843851",
+        "7721e264-5db8-4af9-b252-65f2d18c454d": "f1bdc817-0c46-4f47-8007-e5701780c18f",
+        "7aa10d1a-ed4e-417d-998d-84ce66c77c9b": "77498085-90ac-456b-a123-848a7a5866e0",
+        "8b43c272-c16b-40c7-a4d5-7bbcefeb1816": "c90b91a6-f684-4305-bf03-697ea7daf402",
+        "8db2a730-bafb-4936-915f-3dd4920a0aa9": "dab15c3b-1fd4-44ad-940c-55852685a6ae",
+        "996b6aa8-bd6f-469c-b669-bbc45934c587": "17380860-1ef9-4339-a500-e8bac0b0517c",
+        "a26661fb-805f-41a9-8fc9-8ed805233482": "06d2662c-1e37-4b6c-8a1d-501a105e5644",
+        "a8d25a06-b47e-4a08-a945-7bf0dd945584": "4ead891f-246e-4a10-922c-b9043a42a890",
+        "a978acbc-e84b-4cc4-85c9-30595e022847": "f7a10ceb-9ddc-4afc-aea0-8c67b8b1dc6d",
+        "a9aaa4a2-9997-49b3-b54e-bcf5ec66efe5": "14d99e9f-e25c-4af9-87ef-e80635437ef2",
+        "aeba1657-a0df-427b-ba9a-6db9e9147304": "992529e1-8850-4ec0-a0c4-a8f63f525b2f",
+        "af5e629a-6b79-46d9-9b58-dc9ec41a0bd0": "a867c548-86ed-4810-a289-a25576489f7f",
+        "c089cc76-e8a3-46cc-8691-3d4f28edc9bf": "58da1241-7818-4d04-9629-2a5a5795c5fa",
+        "c0ec993e-16ee-48e8-b410-05690b1c17b6": "b5bca5ba-0234-4790-98d5-dd964c8697fa",
+        "c20dfb58-5622-405e-90b1-92b79ee97461": "aba92929-6fc0-476c-8462-35c5cf7a2cec",
+        "c76e8dae-58ad-4950-8929-5094036210c4": "80b360ed-9ea4-4cca-8ced-abba5c6a8471",
+        "cf418e0c-de9d-438f-a1ac-3be539a56c42": "4aad249c-e551-45af-b759-d012f1daf436",
+        "dbf09e15-1cd8-434e-acda-9527735ef4d6": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84",
+        "ea8826b8-1f76-4eab-b61e-ffcb176880f3": "50cd523e-b363-4145-b038-10c3e7f5fc68",
+        "eb0bd3d9-4bf0-4cc3-bbdf-c79e2255c175": "53147479-51de-4a93-8beb-a70a78dc681f",
+        "fe4c4f99-5dfb-4e32-b69a-da8c5a779c27": "95ce1408-68a5-4025-975c-ac02d98e6830"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "0b1f8aa1-0e6e-4ff0-9647-ca568bb0391f",
+      "status": "complete"
+    },
+    "end_date": "2026-03-30T00:50:24Z",
+    "id": "832eceaa-2709-4fe2-89fd-325ec057d7b2",
+    "last_updated_ts": "2026-03-31T01:01:33.100359Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR29WASPOR",
+      "KXNBASPREAD-26MAR29WASPOR",
+      "KXNBATOTAL-26MAR29WASPOR",
+      "KXNBATEAMTOTAL-26MAR29WASPOR",
+      "KXNBA1HWINNER-26MAR29WASPOR",
+      "KXNBA2HWINNER-26MAR29WASPOR",
+      "KXNBA1HSPREAD-26MAR29WASPOR",
+      "KXNBA1HTOTAL-26MAR29WASPOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR29WASPOR",
+      "KXNBASPREAD-26MAR29WASPOR",
+      "KXNBATOTAL-26MAR29WASPOR",
+      "KXNBATEAMTOTAL-26MAR29WASPOR",
+      "KXNBA1HWINNER-26MAR29WASPOR",
+      "KXNBA2HWINNER-26MAR29WASPOR",
+      "KXNBAPTS-26MAR29WASPOR",
+      "KXNBAREB-26MAR29WASPOR",
+      "KXNBAAST-26MAR29WASPOR",
+      "KXNBA3PT-26MAR29WASPOR",
+      "KXNBA2D-26MAR29WASPOR",
+      "KXNBA3D-26MAR29WASPOR",
+      "KXNBA1HSPREAD-26MAR29WASPOR",
+      "KXNBA1HTOTAL-26MAR29WASPOR",
+      "KXNBASTL-26MAR29WASPOR",
+      "KXNBABLK-26MAR29WASPOR"
+    ],
+    "source_id": "0b1f8aa1-0e6e-4ff0-9647-ca568bb0391f",
+    "source_ids": {
+      "source_2_id": "2026032957E1E480",
+      "source_3_id": "0b1f8aa1-0e6e-4ff0-9647-ca568bb0391f",
+      "source_4_id": "62924415",
+      "source_5_id": "sr:match:62924415"
+    },
+    "start_date": "2026-03-29T22:00:00Z",
+    "title": "Washington at Portland",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-26T02:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 106,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-24T02:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 99,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-22T22:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 122,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-20T23:30:00+00:00",
+          "opponent_points": 93,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 92,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-18T23:30:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 92,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        }
+      ],
+      "away_team_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+      "game_injuries": {
+        "2ef4d31c-0b46-4f43-a403-f44d62489034": [
+          {
+            "comment": "The Lakers listed Smart as Out for Friday's (Mar. 27) game against the Nets.",
+            "date_updated": "2026-03-26",
+            "description": "Ankle",
+            "start_date": "2026-03-22",
+            "status": "Out",
+            "structured_id": "a2901ab3-44f7-44b4-b9ee-1b7f88dcd3aa"
+          },
+          {
+            "comment": "The Lakers listed Thiero as Out for Friday's (Mar. 27) game against the Nets.",
+            "date_updated": "2026-03-26",
+            "description": "Knee",
+            "start_date": "2026-03-24",
+            "status": "Out",
+            "structured_id": "e89c6259-4d3a-47ba-a911-984d4af4d508"
+          }
+        ],
+        "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3": [
+          {
+            "comment": "The Nets listed Wolf as Out for Friday's (Mar. 27) game against the Lakers.",
+            "date_updated": "2026-03-27",
+            "description": "Ankle",
+            "start_date": "2026-03-22",
+            "status": "Out",
+            "structured_id": "09308e8f-d4d1-4f7b-aff1-eccb42552be3"
+          },
+          {
+            "comment": "The Nets reported Egor Demin will miss rest of season with plantar fasciitis.",
+            "date_updated": "2026-03-09",
+            "description": "Foot",
+            "start_date": "2026-02-28",
+            "status": "Out For Season",
+            "structured_id": "7a110972-5181-4479-ad48-c96ead96cce7"
+          },
+          {
+            "comment": "The Nets said on Thursday (Mar. 12) that Sharpe will undergo season-ending thumb surgery.",
+            "date_updated": "2026-03-12",
+            "description": "Thumb",
+            "start_date": "2026-03-10",
+            "status": "Out For Season",
+            "structured_id": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0"
+          },
+          {
+            "comment": "The Nets said on Thursday (Mar. 19) that Porter Jr. will miss at least 2-3 weeks.",
+            "date_updated": "2026-03-19",
+            "description": "Hamstring",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "e0945bc8-fa32-41e5-b85b-9155011bdd3b"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-25T23:00:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 137,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-23T23:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 110,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        },
+        {
+          "date": "2026-03-21T23:00:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 105,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-20T00:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 134,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-19T01:30:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 124,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        }
+      ],
+      "home_team_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR27BKNLAL",
+      "player_id_mapping": {
+        "0afbe608-940a-4d5d-a1f7-468718c67d91": "5631e46b-716c-4842-8607-a6ebf12fe029",
+        "0b79911f-cd24-46d1-9b05-49fe937aa75e": "a7d5b353-0663-4261-8c13-06489385f44c",
+        "1c19138b-1769-4418-b481-af76751739f0": "fad850fa-b08e-4a43-90be-2122d751394c",
+        "1c82e36d-8975-4778-9d49-d872d2f3f1be": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0",
+        "1c9a1c2e-3e3b-439e-8d72-0b41b17e4ba9": "465706f0-e83a-42ad-bddd-a4c2cd5fae91",
+        "288519dc-eae8-4daf-afa4-c86322b7460e": "594d190f-a7a4-4b7c-9116-e2af0cbc99bd",
+        "3a7d6510-00e9-4265-81df-864a1f547269": "e0945bc8-fa32-41e5-b85b-9155011bdd3b",
+        "3ef70a50-cd0d-4148-a1ad-ca830a1a9046": "f8c2fa0d-6c62-407d-8067-a444ded9c263",
+        "4ab32c74-1d47-41aa-8fa7-7dabe48a9fd6": "5bd89163-4fb4-45b2-98ef-0663037fc05c",
+        "4cee9366-c78d-4ae9-a04a-eb695ee2fac0": "45e0dc65-2f26-4444-94ce-66f918de8cf9",
+        "582db35d-33ae-4913-9bb3-5de4fb763e46": "7dd0d3fe-90a2-4bd7-aec4-197def28882a",
+        "5bfc9a4c-deb7-4f37-a784-5d99ada863cb": "42215952-20e6-4c4f-9f07-9f6ed2f0fa18",
+        "674b6d37-16d4-4851-81c2-b279754b9b82": "b8c5473f-2359-4dd8-8f7d-f2b53e43e028",
+        "6bee5098-f27a-4877-8df6-41c1687a8fb6": "09308e8f-d4d1-4f7b-aff1-eccb42552be3",
+        "73d92041-1258-4f1f-8bd3-55e07407115b": "d0c482ad-2764-4243-bd04-3a9690236bef",
+        "7ca4beac-bbd6-454f-b820-4e8442a3e1e5": "30e25b93-8631-4a93-a536-5fda82c7706a",
+        "816ef930-8918-4b1d-9f0e-d0d867e6956a": "9fe8d10d-75a2-459f-8214-2a808a6ca345",
+        "9b3dc639-0351-47ee-8ef0-c13bc3edfc0f": "6509727c-c86f-4a30-909e-6f1cb99c33bc",
+        "a10a4352-53b3-47b6-a336-201dc9e8401e": "2c27d2d3-1f7d-4759-ada1-a4757a3332ca",
+        "a537047d-c29f-4dfe-99b0-3bac4e258dc7": "3b01a74c-dbf7-4948-a75e-824710916ac9",
+        "a6cc820a-8dce-40aa-840c-f0c94cfa9e46": "c073f4e1-d502-43f6-a81a-97173fe75fd4",
+        "a7466782-6f87-414f-9458-7fea82922e00": "849da2e4-3bde-4565-bcbd-a029b62352f3",
+        "af460d21-b1d8-46bb-a228-61ac4fb9ccf9": "a2901ab3-44f7-44b4-b9ee-1b7f88dcd3aa",
+        "b5e408ae-86d3-44a0-aa16-6977c6aaed41": "7a110972-5181-4479-ad48-c96ead96cce7",
+        "b60665b0-b5f3-4662-b7f8-454def5886db": "acbf6c3d-d745-4d51-aacd-3af1148d2ec8",
+        "b69837ca-4e1d-4124-956d-00e3febe358e": "e89c6259-4d3a-47ba-a911-984d4af4d508",
+        "bc86dba7-561a-4fa0-9639-83d50b2c29ba": "0eec94b2-8a43-441a-a47d-42003c67fb93",
+        "bcb84104-a049-4263-8574-67b1d786481c": "5c3b34a4-b55b-4a0b-b6b5-3ae0dceef416",
+        "c4981f56-93a2-47b1-8d31-4e8635f45e1d": "0a8e255c-0588-49fd-9cfe-a4bd26dcf171",
+        "c4cf8fb6-b7de-45f2-b9f9-9365b8f2f2ed": "f3bf7115-fb09-4130-b2a4-1ed728e70a05",
+        "cbea1c03-1ac9-4afa-8fdc-2d7155ea5583": "75c2bd2a-ee4a-412c-9ba4-df98ca75805b",
+        "d21c7c50-60ce-4de2-b2a2-3a06d3897bcb": "e3762f50-27af-4a94-8ffc-c68cc9ac624f",
+        "d2ee92e9-3e72-45eb-b156-2dc5adc1e6f7": "008856e0-b1ab-47f1-8df7-06e243f5f000",
+        "dbf9e1f5-7573-4c24-992a-04ea080c61e1": "4fd1dde0-5e9d-4a62-b083-9cefea82b869",
+        "e140d6c7-351e-4937-84cd-66af4b8d617d": "0560776d-7a32-4eb6-a938-ea8c8fcc004b",
+        "e693c3a1-c958-48d5-9edc-46d95aae0ad1": "ebe42beb-ccb9-4646-85f9-3c627c1b5d40"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "4da9a668-eca2-449a-9e2d-f8909b5796d0",
+      "status": "complete"
+    },
+    "end_date": "2026-03-28T06:04:51Z",
+    "id": "6ab7a812-b691-48a9-a466-cb107a3d90f0",
+    "last_updated_ts": "2026-03-29T06:59:20.738325Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR27BKNLAL",
+      "KXNBASPREAD-26MAR27BKNLAL",
+      "KXNBATOTAL-26MAR27BKNLAL",
+      "KXNBATEAMTOTAL-26MAR27BKNLAL",
+      "KXNBA1HWINNER-26MAR27BKNLAL",
+      "KXNBA2HWINNER-26MAR27BKNLAL",
+      "KXNBA1HSPREAD-26MAR27BKNLAL",
+      "KXNBA1HTOTAL-26MAR27BKNLAL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR27BKNLAL",
+      "KXNBASPREAD-26MAR27BKNLAL",
+      "KXNBATOTAL-26MAR27BKNLAL",
+      "KXNBATEAMTOTAL-26MAR27BKNLAL",
+      "KXNBA1HWINNER-26MAR27BKNLAL",
+      "KXNBA2HWINNER-26MAR27BKNLAL",
+      "KXNBA1HSPREAD-26MAR27BKNLAL",
+      "KXNBA1HTOTAL-26MAR27BKNLAL",
+      "KXNBAPTS-26MAR27BKNLAL",
+      "KXNBAREB-26MAR27BKNLAL",
+      "KXNBAAST-26MAR27BKNLAL",
+      "KXNBA3PT-26MAR27BKNLAL",
+      "KXNBA2D-26MAR27BKNLAL",
+      "KXNBA3D-26MAR27BKNLAL",
+      "KXNBASTL-26MAR27BKNLAL",
+      "KXNBABLK-26MAR27BKNLAL"
+    ],
+    "source_id": "4da9a668-eca2-449a-9e2d-f8909b5796d0",
+    "source_ids": {
+      "source_2_id": "2026032857A70F76",
+      "source_3_id": "4da9a668-eca2-449a-9e2d-f8909b5796d0",
+      "source_4_id": "62924907",
+      "source_5_id": "sr:match:62924907"
+    },
+    "start_date": "2026-03-28T02:30:00Z",
+    "title": "Brooklyn at Los Angeles L",
+    "type": "basketball_game"
+  }
+}

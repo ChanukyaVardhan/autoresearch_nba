@@ -1,0 +1,227 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-07T20:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 92,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-06T01:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 115,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-04T01:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 117,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-01T20:30:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 117,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-02-27T03:00:00+00:00",
+          "opponent_points": 88,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 94,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        }
+      ],
+      "away_team_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+      "game_injuries": {
+        "29e3c04e-fadb-4006-be20-cbb8c159ce0e": [],
+        "2ef4d31c-0b46-4f43-a403-f44d62489034": [
+          {
+            "comment": "The Lakers listed Hayes as Out for Tuesday's (Mar. 10) game against the Timberwolves.",
+            "date_updated": "2026-03-10",
+            "description": "Back",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "7dd0d3fe-90a2-4bd7-aec4-197def28882a"
+          },
+          {
+            "comment": "The Lakers listed Kleber as Out for Tuesday's (Mar. 10) game against the Timberwolves.",
+            "date_updated": "2026-03-10",
+            "description": "Back",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "f8c2fa0d-6c62-407d-8067-a444ded9c263"
+          },
+          {
+            "comment": "The Lakers listed James as OUT for Tuesday's (Mar. 10) game against Minnesota.",
+            "date_updated": "2026-03-10",
+            "description": "Elbow",
+            "start_date": "2026-03-05",
+            "status": "Out",
+            "structured_id": "5631e46b-716c-4842-8607-a6ebf12fe029"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-08T19:30:00+00:00",
+          "opponent_points": 97,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 110,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T03:30:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 128,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-06T03:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 113,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        },
+        {
+          "date": "2026-03-04T03:30:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 110,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-02T02:30:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 128,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        }
+      ],
+      "home_team_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR10MINLAL",
+      "player_id_mapping": {
+        "0a5e8d12-47e5-4afc-973a-e1f8184776c1": "37610450-b248-4427-b2d0-ff7fe6973eab",
+        "0afbe608-940a-4d5d-a1f7-468718c67d91": "5631e46b-716c-4842-8607-a6ebf12fe029",
+        "0b79911f-cd24-46d1-9b05-49fe937aa75e": "a7d5b353-0663-4261-8c13-06489385f44c",
+        "1c19138b-1769-4418-b481-af76751739f0": "fad850fa-b08e-4a43-90be-2122d751394c",
+        "24a0f5aa-209a-4d54-91db-bddecc37f87e": "7b22d659-5c24-411c-937b-23352fdefff6",
+        "24c85a15-686e-4161-934b-40948188fa36": "2bf5e35d-4c07-42ff-bcc0-e2e7b05eab71",
+        "2b95727a-4273-4f8f-a45b-3d9ac9969dba": "ddef089e-567a-4057-a913-5c93bbd0ec91",
+        "2e49c27a-06c5-4c4a-87fd-69840b783947": "2f1946d8-9bb5-472b-803a-206835b7b87e",
+        "37fbc3a5-0d10-4e22-803b-baa2ea0cdb12": "e9c185a4-48f9-497a-9da5-03d763ab11a3",
+        "3ef70a50-cd0d-4148-a1ad-ca830a1a9046": "f8c2fa0d-6c62-407d-8067-a444ded9c263",
+        "460b7264-b98f-483e-b841-59a18c2e4d67": "4d76b816-4ca3-4a92-bbd3-489819b6821b",
+        "4ab32c74-1d47-41aa-8fa7-7dabe48a9fd6": "5bd89163-4fb4-45b2-98ef-0663037fc05c",
+        "582db35d-33ae-4913-9bb3-5de4fb763e46": "7dd0d3fe-90a2-4bd7-aec4-197def28882a",
+        "5b297372-b2af-445e-a4bc-777982dbc1e3": "85df4482-17a9-49b8-b40f-b6cddb54e579",
+        "5bfc9a4c-deb7-4f37-a784-5d99ada863cb": "42215952-20e6-4c4f-9f07-9f6ed2f0fa18",
+        "65fec68f-dfbb-4127-bb7a-932d5144c0f6": "c040b6ef-2b8f-4338-ad6c-6a5973bb1484",
+        "7ad01370-ae8e-40ae-b70d-61f6d8dba8d9": "b7022c10-2203-4b3e-877d-f539c32e0532",
+        "7ca4beac-bbd6-454f-b820-4e8442a3e1e5": "30e25b93-8631-4a93-a536-5fda82c7706a",
+        "816ef930-8918-4b1d-9f0e-d0d867e6956a": "9fe8d10d-75a2-459f-8214-2a808a6ca345",
+        "823b2161-0c34-494c-9d7c-b438152f4f4d": "15a36614-d0eb-4be8-af9f-4e79a32d4231",
+        "952cd8e7-2fa5-4eac-bcd9-b2e135eab16f": "0f3fa1bc-e62a-4ea6-b30e-8f77f6f625f8",
+        "9c1deadf-622c-4326-bd14-3e273b5e1e5a": "14647265-8f75-4624-abab-5b6f9d1ef5cb",
+        "9cfad453-b323-43dc-a066-6cd0a21745ad": "19e432c3-e255-428c-94d0-cedebed3dfc5",
+        "a10a4352-53b3-47b6-a336-201dc9e8401e": "2c27d2d3-1f7d-4759-ada1-a4757a3332ca",
+        "a34ec970-f4a1-47a3-98a1-51ff5e92a443": "9c875ec2-a062-4b15-9621-d5786b40a985",
+        "a537047d-c29f-4dfe-99b0-3bac4e258dc7": "3b01a74c-dbf7-4948-a75e-824710916ac9",
+        "aa5536d2-4d75-43fb-8df3-47fbf99d3b7c": "4432f713-dfc6-47db-881d-bace88c4d9c1",
+        "af460d21-b1d8-46bb-a228-61ac4fb9ccf9": "a2901ab3-44f7-44b4-b9ee-1b7f88dcd3aa",
+        "b69837ca-4e1d-4124-956d-00e3febe358e": "e89c6259-4d3a-47ba-a911-984d4af4d508",
+        "bcb84104-a049-4263-8574-67b1d786481c": "5c3b34a4-b55b-4a0b-b6b5-3ae0dceef416",
+        "c4981f56-93a2-47b1-8d31-4e8635f45e1d": "0a8e255c-0588-49fd-9cfe-a4bd26dcf171",
+        "cbea1c03-1ac9-4afa-8fdc-2d7155ea5583": "75c2bd2a-ee4a-412c-9ba4-df98ca75805b",
+        "d0c7135a-1aea-40cb-ba20-df656de71749": "36ea9bc5-23b0-4274-9c6c-cd8a07b1b654",
+        "d2ee92e9-3e72-45eb-b156-2dc5adc1e6f7": "008856e0-b1ab-47f1-8df7-06e243f5f000",
+        "e693c3a1-c958-48d5-9edc-46d95aae0ad1": "ebe42beb-ccb9-4646-85f9-3c627c1b5d40",
+        "f8a7e4c7-d60e-4751-9203-30a772dd9272": "930f19e3-6885-4738-9dae-484cb321f64f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "cb7e3d5d-c791-4b61-b0ae-d22b0b39d29e",
+      "status": "complete"
+    },
+    "end_date": "2026-03-11T08:00:00Z",
+    "id": "ecde9166-c3b9-4772-a3a1-6a56475aeac1",
+    "last_updated_ts": "2026-03-26T07:29:31.637306Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR10MINLAL",
+      "KXNBASPREAD-26MAR10MINLAL",
+      "KXNBATOTAL-26MAR10MINLAL",
+      "KXNBATEAMTOTAL-26MAR10MINLAL",
+      "KXNBA1HWINNER-26MAR10MINLAL",
+      "KXNBA2HWINNER-26MAR10MINLAL",
+      "KXNBA1HSPREAD-26MAR10MINLAL",
+      "KXNBA1HTOTAL-26MAR10MINLAL",
+      "KXNBA2HSPREAD-26MAR10MINLAL",
+      "KXNBA2HTOTAL-26MAR10MINLAL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR10MINLAL",
+      "KXNBAMENTION-26MAR11MINLAL",
+      "KXNBASPREAD-26MAR10MINLAL",
+      "KXNBATOTAL-26MAR10MINLAL",
+      "KXNBATEAMTOTAL-26MAR10MINLAL",
+      "KXNBA1HWINNER-26MAR10MINLAL",
+      "KXNBA2HWINNER-26MAR10MINLAL",
+      "KXNBAPTS-26MAR10MINLAL",
+      "KXNBAREB-26MAR10MINLAL",
+      "KXNBA3PT-26MAR10MINLAL",
+      "KXNBA2D-26MAR10MINLAL",
+      "KXNBA3D-26MAR10MINLAL",
+      "KXNBAAST-26MAR10MINLAL",
+      "KXNBASTL-26MAR10MINLAL",
+      "KXNBABLK-26MAR10MINLAL",
+      "KXNBA1HSPREAD-26MAR10MINLAL",
+      "KXNBA1HTOTAL-26MAR10MINLAL",
+      "KXNBA2HSPREAD-26MAR10MINLAL",
+      "KXNBA2HTOTAL-26MAR10MINLAL"
+    ],
+    "source_id": "cb7e3d5d-c791-4b61-b0ae-d22b0b39d29e",
+    "source_ids": {
+      "source_2_id": "20260311C19C487E",
+      "source_3_id": "cb7e3d5d-c791-4b61-b0ae-d22b0b39d29e",
+      "source_4_id": "62925921",
+      "source_5_id": "sr:match:62925921"
+    },
+    "start_date": "2026-03-11T03:00:00Z",
+    "title": "Minnesota at Los Angeles L",
+    "type": "basketball_game"
+  }
+}

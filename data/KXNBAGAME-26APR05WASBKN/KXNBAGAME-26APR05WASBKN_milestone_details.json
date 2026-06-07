@@ -1,0 +1,346 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-04T19:00:00+00:00",
+          "opponent_points": 152,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 136,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-04-01T23:00:00+00:00",
+          "opponent_points": 153,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 131,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-31T02:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 101,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-29T22:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 88,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-28T02:00:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 126,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        }
+      ],
+      "away_team_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+      "game_injuries": {
+        "0464e75c-8bc8-4f18-9ee2-577832b889d6": [
+          {
+            "comment": "The Wizards announced on Friday (Mar. 20) that Davis will continue to remain sidelined through the end of March.",
+            "date_updated": "2026-03-20",
+            "description": "Finger",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "50cd523e-b363-4145-b038-10c3e7f5fc68"
+          },
+          {
+            "comment": "The Wizards have listed Vukcevic as OUT for Sunday's (Apr. 5) game against the Nets.",
+            "date_updated": "2026-04-05",
+            "description": "Knee",
+            "start_date": "2026-04-03",
+            "status": "Out",
+            "structured_id": "8890a6d0-042f-431a-a5d4-bd9af4843851"
+          },
+          {
+            "comment": "The Wizards have listed Champagnie as OUT for Sunday's (Apr. 5) game against the Nets.",
+            "date_updated": "2026-04-05",
+            "description": "Knee",
+            "start_date": "2026-04-05",
+            "status": "Out",
+            "structured_id": "d8d735de-7698-4bec-a77c-5e187aa5d8f6"
+          },
+          {
+            "comment": "The Wizards announced Wednesday (Jan. 15) that Whitmore will miss the remainder of the 2025-26 season while he begins the recovery process for a diagnosed venous condition.",
+            "date_updated": "2026-02-15",
+            "description": "Shoulder",
+            "start_date": "2025-12-20",
+            "status": "Out For Season",
+            "structured_id": "992529e1-8850-4ec0-a0c4-a8f63f525b2f"
+          },
+          {
+            "comment": "The Wizards have listed Johnson as OUT for Sunday's (Apr. 5) game against the Nets.",
+            "date_updated": "2026-04-05",
+            "description": "Foot",
+            "start_date": "2026-04-05",
+            "status": "Out",
+            "structured_id": "8c834598-267f-4866-8e81-6e6912b912a2"
+          },
+          {
+            "comment": "The Wizards have listed Sarr as OUT for Sunday's (Apr. 5) game against the Nets.",
+            "date_updated": "2026-04-05",
+            "description": "Toe",
+            "start_date": "2026-03-30",
+            "status": "Out",
+            "structured_id": "95ce1408-68a5-4025-975c-ac02d98e6830"
+          },
+          {
+            "comment": "The Wizards announced on Thursday (Apr. 2) that George will miss the rest of the season.",
+            "date_updated": "2026-04-02",
+            "description": "Elbow",
+            "start_date": "2026-03-03",
+            "status": "Out For Season",
+            "structured_id": "10928e3f-1742-43ea-aed9-42715199b0c4"
+          },
+          {
+            "comment": "The Wizards said on Tuesday (Mar. 3) that Russell will remain away from the team indefinitely.",
+            "date_updated": "2026-03-03",
+            "description": "Not Injury Related",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84"
+          },
+          {
+            "comment": "The Wizards said on Saturday (Mar. 21) that Young is without a timetable for return.",
+            "date_updated": "2026-03-21",
+            "description": "Quad",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "4aad249c-e551-45af-b759-d012f1daf436"
+          },
+          {
+            "comment": "The Wizards have listed Coulibaly as OUT for Sunday's (Apr. 5) game against the Nets.",
+            "date_updated": "2026-04-05",
+            "description": "Heel",
+            "start_date": "2026-04-05",
+            "status": "Out",
+            "structured_id": "2b9b4c52-7963-4bbc-820a-787f29642aa0"
+          }
+        ],
+        "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3": [
+          {
+            "comment": "The Nets listed Williams as Out for Sunday's (Apr. 5) game against the Wizards.",
+            "date_updated": "2026-04-04",
+            "description": "Foot",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "465706f0-e83a-42ad-bddd-a4c2cd5fae91"
+          },
+          {
+            "comment": "The Nets listed Clowney as OUT for Sunday's (Apr. 5) game against the Wizards.",
+            "date_updated": "2026-04-05",
+            "description": "Ankle",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "4fd1dde0-5e9d-4a62-b083-9cefea82b869"
+          },
+          {
+            "comment": "The Nets listed Claxton as Out for Sunday's (Apr. 5) game against the Wizards.",
+            "date_updated": "2026-04-04",
+            "description": "Hand",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "594d190f-a7a4-4b7c-9116-e2af0cbc99bd"
+          },
+          {
+            "comment": "The Nets announced Friday that Wolf (ankle) is being shut down for the rest of the season, according to Erik Slater of ClutchPoints.com.",
+            "date_updated": "2026-04-03",
+            "description": "Ankle",
+            "start_date": "2026-03-22",
+            "status": "Out For Season",
+            "structured_id": "09308e8f-d4d1-4f7b-aff1-eccb42552be3"
+          },
+          {
+            "comment": "The Nets reported Egor Demin will miss rest of season with plantar fasciitis.",
+            "date_updated": "2026-03-09",
+            "description": "Foot",
+            "start_date": "2026-02-28",
+            "status": "Out For Season",
+            "structured_id": "7a110972-5181-4479-ad48-c96ead96cce7"
+          },
+          {
+            "comment": "The Nets said on Thursday (Mar. 12) that Sharpe will undergo season-ending thumb surgery.",
+            "date_updated": "2026-03-12",
+            "description": "Thumb",
+            "start_date": "2026-03-10",
+            "status": "Out For Season",
+            "structured_id": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0"
+          },
+          {
+            "comment": "Porter (hamstring) has been ruled out for the remainder of the 2025-26 season, according to Erik Slater of ClutchPoints.com.",
+            "date_updated": "2026-04-03",
+            "description": "Hamstring",
+            "start_date": "2026-03-11",
+            "status": "Out For Season",
+            "structured_id": "e0945bc8-fa32-41e5-b85b-9155011bdd3b"
+          },
+          {
+            "comment": "The Nets listed Mann as Questionable for Sunday's (Apr. 5) game against the Wizards.",
+            "date_updated": "2026-04-05",
+            "description": "Achilles",
+            "start_date": "2026-04-04",
+            "status": "Day To Day",
+            "structured_id": "c073f4e1-d502-43f6-a81a-97173fe75fd4"
+          },
+          {
+            "comment": "The Nets listed Saraf as OUT for Sunday's (Apr. 5) game against the Wizards.",
+            "date_updated": "2026-04-05",
+            "description": "Back",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "0eec94b2-8a43-441a-a47d-42003c67fb93"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-03T23:30:00+00:00",
+          "opponent_points": 141,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 107,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-31T23:30:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 86,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-29T22:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 116,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": true
+        },
+        {
+          "date": "2026-03-28T02:30:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 99,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-26T02:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 106,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        }
+      ],
+      "home_team_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR05WASBKN",
+      "player_id_mapping": {
+        "0e03dd88-2c39-4b4a-8b47-0c3c8ba82305": "10928e3f-1742-43ea-aed9-42715199b0c4",
+        "19561190-edab-4465-a82d-7e42a7635800": "8c834598-267f-4866-8e81-6e6912b912a2",
+        "1c82e36d-8975-4778-9d49-d872d2f3f1be": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0",
+        "1c9a1c2e-3e3b-439e-8d72-0b41b17e4ba9": "465706f0-e83a-42ad-bddd-a4c2cd5fae91",
+        "27db7dbb-6aad-44df-a3f4-7e1c21c2f256": "2b9b4c52-7963-4bbc-820a-787f29642aa0",
+        "288519dc-eae8-4daf-afa4-c86322b7460e": "594d190f-a7a4-4b7c-9116-e2af0cbc99bd",
+        "28f3e566-3174-4e87-81d0-4889569b6ef5": "bdfa5db0-84ef-4d02-9758-09f03d14a206",
+        "3a7d6510-00e9-4265-81df-864a1f547269": "e0945bc8-fa32-41e5-b85b-9155011bdd3b",
+        "4cee9366-c78d-4ae9-a04a-eb695ee2fac0": "45e0dc65-2f26-4444-94ce-66f918de8cf9",
+        "53e011ee-504f-473e-bb26-bfe34533ca10": "6e964a40-4ceb-403c-96c2-5a165e032f0d",
+        "584a8771-ee79-4957-89f1-a2b0638c497a": "e601299b-d9a4-4cd1-b86b-58e47670cfe6",
+        "5be520a5-5590-44ee-b763-3d3ce4505267": "423df079-9eec-42b2-85a7-58061b60621d",
+        "674b6d37-16d4-4851-81c2-b279754b9b82": "b8c5473f-2359-4dd8-8f7d-f2b53e43e028",
+        "6bee5098-f27a-4877-8df6-41c1687a8fb6": "09308e8f-d4d1-4f7b-aff1-eccb42552be3",
+        "6d117ec5-649d-4151-8d44-88175c603067": "d8d735de-7698-4bec-a77c-5e187aa5d8f6",
+        "73d92041-1258-4f1f-8bd3-55e07407115b": "d0c482ad-2764-4243-bd04-3a9690236bef",
+        "73f8f274-238d-419f-bccb-097362b8354d": "8890a6d0-042f-431a-a5d4-bd9af4843851",
+        "7aa10d1a-ed4e-417d-998d-84ce66c77c9b": "77498085-90ac-456b-a123-848a7a5866e0",
+        "82b836ba-12b8-4824-a809-0f13cc13c73f": "bbf34014-acd3-44ca-8de9-19f0893af07c",
+        "9b3dc639-0351-47ee-8ef0-c13bc3edfc0f": "6509727c-c86f-4a30-909e-6f1cb99c33bc",
+        "a6cc820a-8dce-40aa-840c-f0c94cfa9e46": "c073f4e1-d502-43f6-a81a-97173fe75fd4",
+        "a7466782-6f87-414f-9458-7fea82922e00": "849da2e4-3bde-4565-bcbd-a029b62352f3",
+        "a8d25a06-b47e-4a08-a945-7bf0dd945584": "4ead891f-246e-4a10-922c-b9043a42a890",
+        "a9aaa4a2-9997-49b3-b54e-bcf5ec66efe5": "14d99e9f-e25c-4af9-87ef-e80635437ef2",
+        "aeba1657-a0df-427b-ba9a-6db9e9147304": "992529e1-8850-4ec0-a0c4-a8f63f525b2f",
+        "b5e408ae-86d3-44a0-aa16-6977c6aaed41": "7a110972-5181-4479-ad48-c96ead96cce7",
+        "b60665b0-b5f3-4662-b7f8-454def5886db": "acbf6c3d-d745-4d51-aacd-3af1148d2ec8",
+        "bc86dba7-561a-4fa0-9639-83d50b2c29ba": "0eec94b2-8a43-441a-a47d-42003c67fb93",
+        "c0ec993e-16ee-48e8-b410-05690b1c17b6": "b5bca5ba-0234-4790-98d5-dd964c8697fa",
+        "c4cf8fb6-b7de-45f2-b9f9-9365b8f2f2ed": "f3bf7115-fb09-4130-b2a4-1ed728e70a05",
+        "cf418e0c-de9d-438f-a1ac-3be539a56c42": "4aad249c-e551-45af-b759-d012f1daf436",
+        "d21c7c50-60ce-4de2-b2a2-3a06d3897bcb": "e3762f50-27af-4a94-8ffc-c68cc9ac624f",
+        "dbf09e15-1cd8-434e-acda-9527735ef4d6": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84",
+        "dbf9e1f5-7573-4c24-992a-04ea080c61e1": "4fd1dde0-5e9d-4a62-b083-9cefea82b869",
+        "e140d6c7-351e-4937-84cd-66af4b8d617d": "0560776d-7a32-4eb6-a938-ea8c8fcc004b",
+        "ea8826b8-1f76-4eab-b61e-ffcb176880f3": "50cd523e-b363-4145-b038-10c3e7f5fc68",
+        "fe4c4f99-5dfb-4e32-b69a-da8c5a779c27": "95ce1408-68a5-4025-975c-ac02d98e6830"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "79106bb0-fbd8-433e-97c8-c60416e013dc",
+      "status": "complete"
+    },
+    "end_date": "2026-04-05T23:26:36Z",
+    "id": "bec6c5da-f6db-46c0-9f71-1cf77f6bc2b1",
+    "last_updated_ts": "2026-04-07T00:10:09.524103Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR05WASBKN",
+      "KXNBASPREAD-26APR05WASBKN",
+      "KXNBATOTAL-26APR05WASBKN",
+      "KXNBATEAMTOTAL-26APR05WASBKN",
+      "KXNBA1HWINNER-26APR05WASBKN",
+      "KXNBA2HWINNER-26APR05WASBKN",
+      "KXNBA1HSPREAD-26APR05WASBKN",
+      "KXNBA1HTOTAL-26APR05WASBKN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR05WASBKN",
+      "KXNBASPREAD-26APR05WASBKN",
+      "KXNBATOTAL-26APR05WASBKN",
+      "KXNBATEAMTOTAL-26APR05WASBKN",
+      "KXNBA1HWINNER-26APR05WASBKN",
+      "KXNBA2HWINNER-26APR05WASBKN",
+      "KXNBAPTS-26APR05WASBKN",
+      "KXNBAAST-26APR05WASBKN",
+      "KXNBA1HSPREAD-26APR05WASBKN",
+      "KXNBA1HTOTAL-26APR05WASBKN"
+    ],
+    "source_id": "79106bb0-fbd8-433e-97c8-c60416e013dc",
+    "source_ids": {
+      "source_2_id": "202604054F5724A9",
+      "source_3_id": "79106bb0-fbd8-433e-97c8-c60416e013dc",
+      "source_4_id": "62925525",
+      "source_5_id": "sr:match:62925525"
+    },
+    "start_date": "2026-04-05T19:30:00Z",
+    "title": "Washington at Brooklyn",
+    "type": "basketball_game"
+  }
+}

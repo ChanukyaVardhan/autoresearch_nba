@@ -1,0 +1,90 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "90381a35-42a6-4975-851f-175418e4271a",
+      "home_team_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB07CLESAC",
+      "player_id_mapping": {
+        "00080fe6-49ad-4685-a308-eb96b1f11ddf": "eedb0f74-ef72-4f3e-9302-1528cd34c975",
+        "030424b9-7367-45e1-b9d4-c8dee3a89e53": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2",
+        "0fbb8fd5-9b9c-48a2-a355-18aba7b5d9d5": "ab199aae-ac30-4a73-96ac-a67ac1d2e8d1",
+        "1a120d1a-0202-4039-a00e-4daa8b7ffcfc": "8dc06468-b5e3-4d7f-b644-f3ced82f0246",
+        "22038780-8c50-4211-a99e-656d983e5207": "144e1e61-d50e-4325-8ff6-7a695f03446a",
+        "22be3275-1ef8-47f7-a30d-af38f7bc96b2": "dfbabd3c-b574-4d27-81a8-36653c7d06e9",
+        "3214b8de-d3ea-4188-9329-15a92f894f23": "63416847-07a8-4bf1-b6cd-4243e0e76d8f",
+        "37cbf881-ab20-44e7-bfb9-af3f7c7fe5d1": "57a29545-91aa-423e-9a6f-53959a3b5b89",
+        "3dbbb869-88a8-44f2-ac36-46fd0f5d825c": "06dc3030-152c-4e06-b359-9f64855a39dc",
+        "529cb618-8e48-4011-bd42-dd0b9d91fdcb": "af191999-3663-4264-922a-5934a7f04907",
+        "5bb6159f-27ae-406e-ac5b-e8911f0cbb7c": "1935e9f5-be0f-4138-9ca3-1499c08738b9",
+        "5e86a9c3-b4d0-4fe1-a551-acd83e5d60eb": "11460f89-46da-4ee8-b5fe-8ca87ddb96e6",
+        "66156be8-6202-40bd-bdc2-014a46bee28f": "7fc358f2-b354-4004-afb1-f500fb99dd00",
+        "68a8c4ea-1d77-4a42-bea4-dbe9a162332a": "24c7e18f-1086-4b18-b37c-631d2c39e0e9",
+        "6b8ed06d-a33f-46ce-b416-647100736df8": "5e64b57d-17f7-46e7-af61-b749c276591f",
+        "6f4f5e4b-37d7-4d28-a226-4f52d09aab02": "e0294aa0-1f2e-4c78-82b1-0db9a9f1e841",
+        "7458ef96-cab7-433e-a761-4e93537f4b52": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5",
+        "7494fbb4-5ac7-43ee-b91a-8859532f548b": "ab771c9f-a307-419b-a3d5-217074ab292c",
+        "74a45eed-f2b0-4886-ae71-d04cf7d59528": "91053668-891b-464a-8249-ccbad9903b85",
+        "90b52759-3f0e-4d93-b5ca-fcb53afce857": "7709e8e3-d714-4bf9-8655-793857fe3e50",
+        "a2c6a907-282f-4172-9d60-42d03987da0e": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b",
+        "a3fff5c7-19b6-4dac-bd75-11b944bea505": "67a44479-d07a-4782-b8a8-c997f71f1327",
+        "a4a75d83-54b5-4dca-913e-44ab04288446": "c9d2b49b-d13f-4f5e-b22c-9465a398b8c7",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "ad389979-d1d5-4f26-ad64-3e516b3373a3": "e92aa777-3acd-4bce-a1cb-c734771fb903",
+        "b6dde96e-3748-4cbe-86d2-798d5dffb3c0": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6",
+        "badef3c4-e77e-4444-ac80-95d71332e974": "e9eedb28-ddb2-4948-8dfa-af5a44f71588",
+        "bbeecf0c-62c6-4211-991d-2afaf2403623": "22c635e6-e6ac-4e0f-bff6-a8b77e157103",
+        "cd6c786e-3c65-4f88-9c7b-4a243295f0d6": "9b67540e-1aff-4d11-b99b-56eaf0ec30dc",
+        "d64b602e-45f2-4ba9-878b-0a4f7210ec77": "e6212176-2793-4f9a-8e1b-7d294eca2787",
+        "db72e294-1c54-454a-96b9-0b4fd2f38112": "b02cbe96-1ddf-40bc-9dec-7146c3350d61",
+        "e783937f-31dc-41bd-9510-2572d2dc35ee": "32f6a0a3-ca43-478d-9d41-1b890a2d82da",
+        "f6aff1dc-15b9-4c89-a2fb-746f4cf78890": "e59d506e-4dfc-496b-87e1-f74fda25816d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "3363339b-735c-491c-8c82-8d9c6d1b9ebc",
+      "status": "complete"
+    },
+    "end_date": "2026-02-08T18:19:31Z",
+    "id": "3c65551b-d33f-4f3b-ae87-713acab449d7",
+    "last_updated_ts": "2026-03-26T07:27:38.779675Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB07CLESAC",
+      "KXNBASPREAD-26FEB07CLESAC",
+      "KXNBATOTAL-26FEB07CLESAC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB07CLESAC",
+      "KXNBASPREAD-26FEB07CLESAC",
+      "KXNBATOTAL-26FEB07CLESAC",
+      "KXNBAPTS-26FEB07CLESAC",
+      "KXNBAREB-26FEB07CLESAC",
+      "KXNBAAST-26FEB07CLESAC",
+      "KXNBA3PT-26FEB07CLESAC",
+      "KXNBA2D-26FEB07CLESAC",
+      "KXNBASTL-26FEB07CLESAC",
+      "KXNBA3D-26FEB07CLESAC",
+      "KXNBABLK-26FEB07CLESAC"
+    ],
+    "source_id": "3363339b-735c-491c-8c82-8d9c6d1b9ebc",
+    "source_ids": {
+      "source_2_id": "202602081C98342C",
+      "source_3_id": "3363339b-735c-491c-8c82-8d9c6d1b9ebc"
+    },
+    "start_date": "2026-02-08T03:00:00Z",
+    "title": "Cleveland at Sacramento",
+    "type": "basketball_game"
+  }
+}

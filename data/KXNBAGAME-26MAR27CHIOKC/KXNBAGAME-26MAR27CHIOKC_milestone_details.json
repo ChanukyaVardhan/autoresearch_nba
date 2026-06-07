@@ -1,0 +1,263 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-25T23:00:00+00:00",
+          "opponent_points": 157,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 137,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-24T00:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 132,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-20T00:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 110,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-19T00:00:00+00:00",
+          "opponent_points": 139,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 109,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 132,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        }
+      ],
+      "away_team_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+      "game_injuries": {
+        "65f0250b-455d-43d7-b7dc-7d321bdf9abc": [
+          {
+            "comment": "Simons is out for Friday's (Mar. 27) game against the Thunder.",
+            "date_updated": "2026-03-27",
+            "description": "Wrist",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "94894b15-fc9f-42e5-854c-4d2a6006c09b"
+          },
+          {
+            "comment": "Smith will miss the remainder of the season, according to Joel Lorenzi of The Athletic.",
+            "date_updated": "2026-03-26",
+            "description": "Calf",
+            "start_date": "2026-03-25",
+            "status": "Out For Season",
+            "structured_id": "37104adf-2343-40fe-8d8a-a11f89d037e8"
+          },
+          {
+            "comment": "The Bulls reported on Wednesday (Dec. 3) that Essengue will have shoulder surgery and miss the remainder of the season, per HC Billy Donovan.",
+            "date_updated": "2025-12-03",
+            "description": "Shoulder",
+            "start_date": "2025-11-29",
+            "status": "Out For Season",
+            "structured_id": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c"
+          },
+          {
+            "comment": "Ivey will miss the remainder of the 2025-26 season, according to Joel Lorenzi of The Athletic.",
+            "date_updated": "2026-03-26",
+            "description": "Knee",
+            "start_date": "2026-02-20",
+            "status": "Out For Season",
+            "structured_id": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7"
+          },
+          {
+            "comment": "The Bulls listed Richards as Out for Friday's (Mar. 27) game against the Thunder.",
+            "date_updated": "2026-03-27",
+            "description": "Elbow",
+            "start_date": "2026-03-25",
+            "status": "Out",
+            "structured_id": "4624140d-4700-4bc6-a78b-79acc60ce3fe"
+          },
+          {
+            "comment": "The Bulls said on Saturday (Feb. 21) that Collins will undergo surgery for a sprain right toe and will be sidelined for the rest of the 2025-26 season.",
+            "date_updated": "2026-02-21",
+            "description": "Toe",
+            "start_date": "2025-12-28",
+            "status": "Out For Season",
+            "structured_id": "2a5b8fd6-50da-499a-a50b-832f02dea356"
+          }
+        ],
+        "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c": [
+          {
+            "comment": "Holmgren is out for Friday's (Mar. 27) game against Chicago.",
+            "date_updated": "2026-03-27",
+            "description": "Hip",
+            "start_date": "2026-03-27",
+            "status": "Out",
+            "structured_id": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed"
+          },
+          {
+            "comment": "The Thunder announced on Friday (Sept. 5) that Sorber will miss the 2025-2026 season with a torn ACL.",
+            "date_updated": "2025-09-05",
+            "description": "Knee",
+            "start_date": "2025-09-05",
+            "status": "Out For Season",
+            "structured_id": "c2beb99e-9ef2-4e96-b440-96080fa60360"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-25T23:30:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 109,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": false
+        },
+        {
+          "date": "2026-03-23T23:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 123,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-21T21:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 132,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-18T23:30:00+00:00",
+          "opponent_points": 92,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 121,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-17T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 113,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        }
+      ],
+      "home_team_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR27CHIOKC",
+      "player_id_mapping": {
+        "1c8786b4-1786-4e3d-81ca-d976797413f5": "33b2a10d-1060-427a-98fe-ce1daf133441",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "2d4ce4bc-b03a-40bc-b22c-dab27591a429": "0faf4911-89b0-49ae-a920-0912c6e6a92e",
+        "31f78854-0d23-4318-959c-0314588136e1": "e1936136-417a-4892-b6e0-90e41b6c2f1a",
+        "36d083a5-49ca-42f1-80b7-b78275a8abd9": "c4cc3a86-4003-4ea8-941f-cc878aaad51f",
+        "38745a56-7472-4844-a2dc-f61d3bcd941f": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b",
+        "3f7e2350-e208-4791-98c2-684b53bb5a9a": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c",
+        "4965ef48-7aa9-4eae-a923-5023ff7ab1eb": "32b125e2-a412-42e4-81ac-329f053f9f23",
+        "4ab6a1ca-60ab-41e3-adbc-0395dec8c0da": "edf2d234-7410-4223-9d80-2f5893936d2e",
+        "5ab15bad-59b4-43c9-98fc-1d0aa8182d01": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c",
+        "62c44a90-f280-438a-9c7e-252f4f376283": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92",
+        "632adcc4-97f1-4e67-a132-e0b79f013c67": "94894b15-fc9f-42e5-854c-4d2a6006c09b",
+        "66ea876a-1cc9-47ed-ae31-2ed3c8f9350e": "a4baed3c-0021-407e-8448-a298594c2a83",
+        "67f6467e-0acc-48ce-9872-a63225ef295c": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b",
+        "689cb3b0-a7cc-45b5-860d-007597029c8c": "37104adf-2343-40fe-8d8a-a11f89d037e8",
+        "7924cc02-9fbb-4fd0-a036-0130084eb9b3": "98a42c36-71d9-400e-95a5-e7fe53f7e9d8",
+        "7b526b14-5d50-411e-8bea-0ac7a8d0e8d7": "b20be183-d7e6-4970-ad6f-04ff489eb0d9",
+        "80b5cccf-203b-4482-92aa-76d1598216be": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387",
+        "8936c15e-f9d5-4b9a-80b9-8f6b7dcf7a17": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04",
+        "9318b4c1-49d0-40eb-8b76-1098e28133d2": "144c5239-29b4-4656-8862-088803bb760e",
+        "9654c7f1-d16c-428c-88fd-2a6cdb5a8370": "4624140d-4700-4bc6-a78b-79acc60ce3fe",
+        "99dc3c11-03fc-4d15-9dd5-d8d1f41c569a": "39063bb2-a56e-41bb-94ca-ae15c380a190",
+        "ab0289ca-407b-41e9-ab2d-32407eedeccf": "419633cc-ca9b-42c3-a792-f95bb00cfdaa",
+        "b3db0b36-344f-4035-b315-9fb18933e535": "048da8e7-a562-4504-a102-b2fe624a0930",
+        "b5310b38-a378-464f-b344-928adee0ed00": "2a5b8fd6-50da-499a-a50b-832f02dea356",
+        "bf6b4aed-c007-41eb-b4e5-08b99f292ec2": "04bc92de-9046-4d6e-8c63-5f8e60ca8e0e",
+        "c56cbf7a-42a4-41a2-a37b-0cd4aaf248d0": "c2beb99e-9ef2-4e96-b440-96080fa60360",
+        "d13849d9-a696-44af-84a1-3196132c3ecd": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a",
+        "d3b28775-473d-471a-8452-e913f4347f0f": "7576d7ff-b42d-446f-bce0-71d63e8cd098",
+        "d9ea4a8f-ff51-408d-b518-980efc2a35a1": "b40547da-b4d9-4d33-b795-32595ef9c473",
+        "e04c3542-546a-4ca7-8db3-a89353d60046": "998569d5-8e34-4b4b-a396-aada418a9fc1",
+        "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed",
+        "ec7aea3f-550d-4c3d-a47e-58ee983bfd57": "4e8e009c-b08d-4f72-9407-559573654160",
+        "ec887131-efba-43a0-ad0a-0757ab3f0399": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7",
+        "f619cc0b-5fa0-4189-9091-596e843e93b1": "a21967f6-3de2-4e6e-ad5c-b011117e05a6",
+        "fe7a0b28-a8f9-42ad-b345-0f69d51d365f": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "af6a4754-da45-4cf2-b9d2-a57a29e08da9",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-28T04:45:04Z",
+    "id": "c9f815f5-4d32-43c0-b5ee-28ef0049d20f",
+    "last_updated_ts": "2026-03-29T05:06:10.06918Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR27CHIOKC",
+      "KXNBASPREAD-26MAR27CHIOKC",
+      "KXNBATOTAL-26MAR27CHIOKC",
+      "KXNBATEAMTOTAL-26MAR27CHIOKC",
+      "KXNBA1HWINNER-26MAR27CHIOKC",
+      "KXNBA2HWINNER-26MAR27CHIOKC",
+      "KXNBA1HSPREAD-26MAR27CHIOKC",
+      "KXNBA1HTOTAL-26MAR27CHIOKC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR27CHIOKC",
+      "KXNBASPREAD-26MAR27CHIOKC",
+      "KXNBATOTAL-26MAR27CHIOKC",
+      "KXNBATEAMTOTAL-26MAR27CHIOKC",
+      "KXNBA1HWINNER-26MAR27CHIOKC",
+      "KXNBA2HWINNER-26MAR27CHIOKC",
+      "KXNBA1HSPREAD-26MAR27CHIOKC",
+      "KXNBA1HTOTAL-26MAR27CHIOKC",
+      "KXNBAPTS-26MAR27CHIOKC",
+      "KXNBAREB-26MAR27CHIOKC",
+      "KXNBAAST-26MAR27CHIOKC",
+      "KXNBA3PT-26MAR27CHIOKC",
+      "KXNBA2D-26MAR27CHIOKC",
+      "KXNBA3D-26MAR27CHIOKC",
+      "KXNBASTL-26MAR27CHIOKC",
+      "KXNBABLK-26MAR27CHIOKC"
+    ],
+    "source_id": "af6a4754-da45-4cf2-b9d2-a57a29e08da9",
+    "source_ids": {
+      "source_2_id": "202603280A80F461",
+      "source_3_id": "af6a4754-da45-4cf2-b9d2-a57a29e08da9",
+      "source_4_id": "62925261",
+      "source_5_id": "sr:match:62925261"
+    },
+    "start_date": "2026-03-28T00:00:00Z",
+    "title": "Chicago at Oklahoma City",
+    "type": "basketball_game"
+  }
+}

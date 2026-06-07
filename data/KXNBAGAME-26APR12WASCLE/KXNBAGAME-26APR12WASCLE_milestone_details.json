@@ -1,0 +1,336 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-10T23:00:00+00:00",
+          "opponent_points": 140,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 117,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-04-09T23:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 108,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-04-07T23:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 98,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 115,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-04-04T19:00:00+00:00",
+          "opponent_points": 152,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 136,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        }
+      ],
+      "away_team_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+      "game_injuries": {
+        "0464e75c-8bc8-4f18-9ee2-577832b889d6": [
+          {
+            "comment": "Head coach Brian Keefe said Tuesday that Davis is not expected to play again this season, according to Chase Hughes of Monumental Sports Network.",
+            "date_updated": "2026-04-07",
+            "description": "Finger",
+            "start_date": "2026-02-04",
+            "status": "Out For Season",
+            "structured_id": "50cd523e-b363-4145-b038-10c3e7f5fc68"
+          },
+          {
+            "comment": "The Wizards listed Vukcevic as Out for Sunday's (Apr. 12) game against the Cavaliers.",
+            "date_updated": "2026-04-11",
+            "description": "Knee",
+            "start_date": "2026-04-03",
+            "status": "Out",
+            "structured_id": "8890a6d0-042f-431a-a5d4-bd9af4843851"
+          },
+          {
+            "comment": "The Wizards listed Coulibaly as Out for Sunday's (Apr. 12) game against the Cavaliers.",
+            "date_updated": "2026-04-11",
+            "description": "Heel",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "2b9b4c52-7963-4bbc-820a-787f29642aa0"
+          },
+          {
+            "comment": "The Wizards announced Wednesday (Jan. 15) that Whitmore will miss the remainder of the 2025-26 season while he begins the recovery process for a diagnosed venous condition.",
+            "date_updated": "2026-02-15",
+            "description": "Shoulder",
+            "start_date": "2025-12-20",
+            "status": "Out For Season",
+            "structured_id": "992529e1-8850-4ec0-a0c4-a8f63f525b2f"
+          },
+          {
+            "comment": "The Wizards listed Johnson as Out for Sunday's (Apr. 12) game against the Cavaliers.",
+            "date_updated": "2026-04-11",
+            "description": "Foot",
+            "start_date": "2026-04-05",
+            "status": "Out",
+            "structured_id": "8c834598-267f-4866-8e81-6e6912b912a2"
+          },
+          {
+            "comment": "The Wizards listed Sarr as Out for Sunday's (Apr. 12) game against the Cavaliers.",
+            "date_updated": "2026-04-11",
+            "description": "Toe",
+            "start_date": "2026-03-30",
+            "status": "Out",
+            "structured_id": "95ce1408-68a5-4025-975c-ac02d98e6830"
+          },
+          {
+            "comment": "The Wizards announced on Thursday (Apr. 2) that George will miss the rest of the season.",
+            "date_updated": "2026-04-02",
+            "description": "Elbow",
+            "start_date": "2026-03-03",
+            "status": "Out For Season",
+            "structured_id": "10928e3f-1742-43ea-aed9-42715199b0c4"
+          },
+          {
+            "comment": "The Wizards said on Tuesday (Mar. 3) that Russell will remain away from the team indefinitely.",
+            "date_updated": "2026-03-03",
+            "description": "Not Injury Related",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84"
+          },
+          {
+            "comment": "Young isn't expected to play again in 2025-26, according to Chase Hughes of Monumental Sports Network.",
+            "date_updated": "2026-04-07",
+            "description": "Quad",
+            "start_date": "2026-03-16",
+            "status": "Out For Season",
+            "structured_id": "4aad249c-e551-45af-b759-d012f1daf436"
+          }
+        ],
+        "90381a35-42a6-4975-851f-175418e4271a": [
+          {
+            "comment": "The Cavaliers listed Harden as Out for Sunday's (Apr. 12) game against the Wizards.",
+            "date_updated": "2026-04-11",
+            "description": "Rest",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "d5324b8e-901b-404d-bfef-a5f5d62bed85"
+          },
+          {
+            "comment": "The Cavaliers listed Wade as Out for Sunday's (Apr. 12) game against the Wizards.",
+            "date_updated": "2026-04-11",
+            "description": "Ankle",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "22c635e6-e6ac-4e0f-bff6-a8b77e157103"
+          },
+          {
+            "comment": "The Cavaliers listed Schroder as Out for Sunday's (Apr. 12) game against the Wizards.",
+            "date_updated": "2026-04-11",
+            "description": "Rest",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b"
+          },
+          {
+            "comment": "The Cavaliers listed Mobley as Out for Sunday's (Apr. 12) game against the Wizards.",
+            "date_updated": "2026-04-11",
+            "description": "Calf",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "e6212176-2793-4f9a-8e1b-7d294eca2787"
+          },
+          {
+            "comment": "The Cavaliers listed Ellis as Out for Sunday's (Apr. 12) game against the Wizards.",
+            "date_updated": "2026-04-11",
+            "description": "Knee",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "24c7e18f-1086-4b18-b37c-631d2c39e0e9"
+          },
+          {
+            "comment": "The Cavaliers listed Allen as Out for Sunday's (Apr. 12) game against the Wizards.",
+            "date_updated": "2026-04-11",
+            "description": "Injury Management",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "67a44479-d07a-4782-b8a8-c997f71f1327"
+          },
+          {
+            "comment": "The Cavaliers listed Bryant as Out for Sunday's (Apr. 12) game against the Wizards.",
+            "date_updated": "2026-04-11",
+            "description": "Calf",
+            "start_date": "2026-04-06",
+            "status": "Out",
+            "structured_id": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2"
+          },
+          {
+            "comment": "The Cavaliers listed Merrill as Out for Sunday's (Apr. 12) game against the Wizards.",
+            "date_updated": "2026-04-11",
+            "description": "Hamstring",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "5e64b57d-17f7-46e7-af61-b749c276591f"
+          },
+          {
+            "comment": "The Cavaliers listed Mitchell as Out for Sunday's (Apr. 12) game against the Wizards.",
+            "date_updated": "2026-04-11",
+            "description": "Ankle",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-10T23:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 102,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        },
+        {
+          "date": "2026-04-08T23:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 122,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-04-07T00:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 142,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T22:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 117,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-04-03T02:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 118,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        }
+      ],
+      "home_team_id": "90381a35-42a6-4975-851f-175418e4271a",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR12WASCLE",
+      "player_id_mapping": {
+        "030424b9-7367-45e1-b9d4-c8dee3a89e53": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2",
+        "0e03dd88-2c39-4b4a-8b47-0c3c8ba82305": "10928e3f-1742-43ea-aed9-42715199b0c4",
+        "19561190-edab-4465-a82d-7e42a7635800": "8c834598-267f-4866-8e81-6e6912b912a2",
+        "1a120d1a-0202-4039-a00e-4daa8b7ffcfc": "8dc06468-b5e3-4d7f-b644-f3ced82f0246",
+        "22be3275-1ef8-47f7-a30d-af38f7bc96b2": "dfbabd3c-b574-4d27-81a8-36653c7d06e9",
+        "27db7dbb-6aad-44df-a3f4-7e1c21c2f256": "2b9b4c52-7963-4bbc-820a-787f29642aa0",
+        "28f3e566-3174-4e87-81d0-4889569b6ef5": "bdfa5db0-84ef-4d02-9758-09f03d14a206",
+        "53e011ee-504f-473e-bb26-bfe34533ca10": "6e964a40-4ceb-403c-96c2-5a165e032f0d",
+        "584a8771-ee79-4957-89f1-a2b0638c497a": "e601299b-d9a4-4cd1-b86b-58e47670cfe6",
+        "5bb6159f-27ae-406e-ac5b-e8911f0cbb7c": "1935e9f5-be0f-4138-9ca3-1499c08738b9",
+        "5be520a5-5590-44ee-b763-3d3ce4505267": "423df079-9eec-42b2-85a7-58061b60621d",
+        "5efce548-15a0-4a8c-9f63-5f5db4851696": "1bd97b36-a12a-4e51-a4dc-bce1f4afdc25",
+        "68a8c4ea-1d77-4a42-bea4-dbe9a162332a": "24c7e18f-1086-4b18-b37c-631d2c39e0e9",
+        "6b8ed06d-a33f-46ce-b416-647100736df8": "5e64b57d-17f7-46e7-af61-b749c276591f",
+        "6d117ec5-649d-4151-8d44-88175c603067": "d8d735de-7698-4bec-a77c-5e187aa5d8f6",
+        "73f8f274-238d-419f-bccb-097362b8354d": "8890a6d0-042f-431a-a5d4-bd9af4843851",
+        "7458ef96-cab7-433e-a761-4e93537f4b52": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5",
+        "7aa10d1a-ed4e-417d-998d-84ce66c77c9b": "77498085-90ac-456b-a123-848a7a5866e0",
+        "90b52759-3f0e-4d93-b5ca-fcb53afce857": "7709e8e3-d714-4bf9-8655-793857fe3e50",
+        "a2c6a907-282f-4172-9d60-42d03987da0e": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b",
+        "a3fff5c7-19b6-4dac-bd75-11b944bea505": "67a44479-d07a-4782-b8a8-c997f71f1327",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "a8d25a06-b47e-4a08-a945-7bf0dd945584": "4ead891f-246e-4a10-922c-b9043a42a890",
+        "a9aaa4a2-9997-49b3-b54e-bcf5ec66efe5": "14d99e9f-e25c-4af9-87ef-e80635437ef2",
+        "ad389979-d1d5-4f26-ad64-3e516b3373a3": "e92aa777-3acd-4bce-a1cb-c734771fb903",
+        "aeba1657-a0df-427b-ba9a-6db9e9147304": "992529e1-8850-4ec0-a0c4-a8f63f525b2f",
+        "b6dde96e-3748-4cbe-86d2-798d5dffb3c0": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6",
+        "bbeecf0c-62c6-4211-991d-2afaf2403623": "22c635e6-e6ac-4e0f-bff6-a8b77e157103",
+        "c0ec993e-16ee-48e8-b410-05690b1c17b6": "b5bca5ba-0234-4790-98d5-dd964c8697fa",
+        "cf418e0c-de9d-438f-a1ac-3be539a56c42": "4aad249c-e551-45af-b759-d012f1daf436",
+        "d64b602e-45f2-4ba9-878b-0a4f7210ec77": "e6212176-2793-4f9a-8e1b-7d294eca2787",
+        "dbf09e15-1cd8-434e-acda-9527735ef4d6": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84",
+        "ea8826b8-1f76-4eab-b61e-ffcb176880f3": "50cd523e-b363-4145-b038-10c3e7f5fc68",
+        "f6aff1dc-15b9-4c89-a2fb-746f4cf78890": "e59d506e-4dfc-496b-87e1-f74fda25816d",
+        "fa95eb6b-9008-4d67-8476-3b69e90b8688": "c151ea5c-a22e-4083-a35e-eac7502ee20e",
+        "fe4c4f99-5dfb-4e32-b69a-da8c5a779c27": "95ce1408-68a5-4025-975c-ac02d98e6830"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "932f0c0c-6aaf-4d03-9370-7c91b9e7b4f8",
+      "status": "inprogress"
+    },
+    "end_date": "2026-04-13T00:31:00Z",
+    "id": "9d6f3d1d-f3ef-4164-a0a9-a666532b943f",
+    "last_updated_ts": "2026-04-14T00:57:37.584313Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR12WASCLE",
+      "KXNBASPREAD-26APR12WASCLE",
+      "KXNBATOTAL-26APR12WASCLE",
+      "KXNBATEAMTOTAL-26APR12WASCLE",
+      "KXNBA1HWINNER-26APR12WASCLE",
+      "KXNBA2HWINNER-26APR12WASCLE",
+      "KXNBA1HSPREAD-26APR12WASCLE",
+      "KXNBA1HTOTAL-26APR12WASCLE"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR12WASCLE",
+      "KXNBASPREAD-26APR12WASCLE",
+      "KXNBATOTAL-26APR12WASCLE",
+      "KXNBATEAMTOTAL-26APR12WASCLE",
+      "KXNBA1HWINNER-26APR12WASCLE",
+      "KXNBA2HWINNER-26APR12WASCLE",
+      "KXNBA1HSPREAD-26APR12WASCLE",
+      "KXNBA1HTOTAL-26APR12WASCLE",
+      "KXNBAAST-26APR12WASCLE"
+    ],
+    "source_id": "932f0c0c-6aaf-4d03-9370-7c91b9e7b4f8",
+    "source_ids": {
+      "source_2_id": "20260412132937D2",
+      "source_3_id": "932f0c0c-6aaf-4d03-9370-7c91b9e7b4f8",
+      "source_4_id": "62924421",
+      "source_5_id": "sr:match:62924421"
+    },
+    "start_date": "2026-04-12T22:00:00Z",
+    "title": "Washington at Cleveland",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-23T23:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 110,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": false
+        },
+        {
+          "date": "2026-03-21T23:00:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 105,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-20T00:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 134,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-19T01:30:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 124,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        },
+        {
+          "date": "2026-03-17T01:30:00+00:00",
+          "opponent_points": 92,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 100,
+          "structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "winner": true
+        }
+      ],
+      "away_team_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+      "game_injuries": {
+        "2ef4d31c-0b46-4f43-a403-f44d62489034": [
+          {
+            "comment": "The Lakers listed Ayton as Out for Wednesday's (Mar. 25) game against the Pacers.",
+            "date_updated": "2026-03-25",
+            "description": "Back",
+            "start_date": "2026-03-25",
+            "status": "Out",
+            "structured_id": "30e25b93-8631-4a93-a536-5fda82c7706a"
+          },
+          {
+            "comment": "The Lakers listed Smart as OUT for Wednesday's (Mar. 25) game against the Pacers.",
+            "date_updated": "2026-03-25",
+            "description": "Ankle",
+            "start_date": "2026-03-22",
+            "status": "Out",
+            "structured_id": "a2901ab3-44f7-44b4-b9ee-1b7f88dcd3aa"
+          },
+          {
+            "comment": "The Lakers listed Thiero as OUT for Wednesday's (Mar. 25) game against the Pacers.",
+            "date_updated": "2026-03-25",
+            "description": "Knee",
+            "start_date": "2026-03-24",
+            "status": "Out",
+            "structured_id": "e89c6259-4d3a-47ba-a911-984d4af4d508"
+          },
+          {
+            "comment": "The Lakers listed Hachimura as OUT for Wednesday's (Mar. 25) game against the Pacers.",
+            "date_updated": "2026-03-25",
+            "description": "Calf",
+            "start_date": "2026-03-22",
+            "status": "Out",
+            "structured_id": "42215952-20e6-4c4f-9f07-9f6ed2f0fa18"
+          }
+        ],
+        "d059bab2-9fb5-42dd-8038-5a12474300ce": [
+          {
+            "comment": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today",
+            "date_updated": "2026-02-09",
+            "description": "Knee",
+            "start_date": "2026-02-08",
+            "status": "Out For Season",
+            "structured_id": "26d909f3-7322-4793-818c-d021a9229885"
+          },
+          {
+            "comment": "The Pacers said on Friday (Mar. 20) that Zubac will miss the rest of the season with a fractured rib.",
+            "date_updated": "2026-03-20",
+            "description": "Rib",
+            "start_date": "2026-03-18",
+            "status": "Out For Season",
+            "structured_id": "6682cc79-5f4e-47a3-a4a9-f7235b68712c"
+          },
+          {
+            "comment": "The Pacers said on Tuesday (Jan. 27) that Haliburton will likely be in line for a relatively normal offseason and should be free of restrictions for the start of training camp next fall.",
+            "date_updated": "2026-01-27",
+            "description": "Achilles",
+            "start_date": "2025-06-22",
+            "status": "Out For Season",
+            "structured_id": "02222ad8-8166-414f-842b-ce83ecca6700"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-23T23:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 128,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": true
+        },
+        {
+          "date": "2026-03-22T00:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 119,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-18T23:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 119,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-17T23:30:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 110,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-15T19:30:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 123,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        }
+      ],
+      "home_team_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR25LALIND",
+      "player_id_mapping": {
+        "02acc094-76ab-4b3e-b51d-a351a9bab6b9": "ebe58f63-e571-4632-b569-ac0c69dd6218",
+        "06570485-2ec5-40ab-9b50-8e4cfd7f0dc3": "844a53dc-8e99-482e-9de6-09a05c68ed92",
+        "0afbe608-940a-4d5d-a1f7-468718c67d91": "5631e46b-716c-4842-8607-a6ebf12fe029",
+        "0b79911f-cd24-46d1-9b05-49fe937aa75e": "a7d5b353-0663-4261-8c13-06489385f44c",
+        "1c19138b-1769-4418-b481-af76751739f0": "fad850fa-b08e-4a43-90be-2122d751394c",
+        "1d1fa699-a455-4082-9df8-f97dbb0ca678": "31b8e118-988f-4da2-acda-ca134dbeeee3",
+        "222364c7-dae9-44db-830d-cdece37e174d": "26d909f3-7322-4793-818c-d021a9229885",
+        "254e42d7-df01-4c68-9264-bca06c83c2c1": "02222ad8-8166-414f-842b-ce83ecca6700",
+        "2da18268-82d4-4b40-a296-7ceddd435d0b": "6682cc79-5f4e-47a3-a4a9-f7235b68712c",
+        "3b40df6a-55ba-40a2-b6b8-ab8ae114dfc3": "aeb89ae8-9b87-4336-95b8-d1620d705c5c",
+        "3df1db1d-6596-489e-8e26-80f60fd9b1f4": "1c8ae3bd-88ae-4511-8622-9f9ac7d73de0",
+        "3ef70a50-cd0d-4148-a1ad-ca830a1a9046": "f8c2fa0d-6c62-407d-8067-a444ded9c263",
+        "4ab32c74-1d47-41aa-8fa7-7dabe48a9fd6": "5bd89163-4fb4-45b2-98ef-0663037fc05c",
+        "582db35d-33ae-4913-9bb3-5de4fb763e46": "7dd0d3fe-90a2-4bd7-aec4-197def28882a",
+        "5bfc9a4c-deb7-4f37-a784-5d99ada863cb": "42215952-20e6-4c4f-9f07-9f6ed2f0fa18",
+        "6fd99205-e159-4ff2-b291-80fb2d067bb3": "8e5ec564-3e03-4566-bb11-e3569357092e",
+        "7ca4beac-bbd6-454f-b820-4e8442a3e1e5": "30e25b93-8631-4a93-a536-5fda82c7706a",
+        "816ef930-8918-4b1d-9f0e-d0d867e6956a": "9fe8d10d-75a2-459f-8214-2a808a6ca345",
+        "83d5d358-9559-49fb-8cde-833d8d5eb108": "962da32e-f58c-4bb6-a118-b3a42fedcfc5",
+        "8571e039-8802-453a-aca5-7fdcb3ae1a28": "5403dd0a-1369-40c9-8608-56edc6013196",
+        "90d63a71-e4fe-411c-9773-2e74b5e1cb3b": "26987e0a-e5aa-4dd5-ae7a-569d92fd0de5",
+        "a10a4352-53b3-47b6-a336-201dc9e8401e": "2c27d2d3-1f7d-4759-ada1-a4757a3332ca",
+        "a537047d-c29f-4dfe-99b0-3bac4e258dc7": "3b01a74c-dbf7-4948-a75e-824710916ac9",
+        "af460d21-b1d8-46bb-a228-61ac4fb9ccf9": "a2901ab3-44f7-44b4-b9ee-1b7f88dcd3aa",
+        "b159e65b-fd2f-415e-9cdd-46525e9897da": "3b0ba3a1-58e2-4443-aa8b-5de4e710bedb",
+        "b69837ca-4e1d-4124-956d-00e3febe358e": "e89c6259-4d3a-47ba-a911-984d4af4d508",
+        "bcb84104-a049-4263-8574-67b1d786481c": "5c3b34a4-b55b-4a0b-b6b5-3ae0dceef416",
+        "c4981f56-93a2-47b1-8d31-4e8635f45e1d": "0a8e255c-0588-49fd-9cfe-a4bd26dcf171",
+        "cbea1c03-1ac9-4afa-8fdc-2d7155ea5583": "75c2bd2a-ee4a-412c-9ba4-df98ca75805b",
+        "cdf51fa0-724e-48f3-9ee4-6a01ae4d9542": "22f8d5ad-8967-4dac-9820-ebb73b49fab7",
+        "d2ee92e9-3e72-45eb-b156-2dc5adc1e6f7": "008856e0-b1ab-47f1-8df7-06e243f5f000",
+        "ded5095f-92cf-40a4-a668-ba78370cfe27": "5e8b46ce-bcc8-4da6-80b7-27c9816a793e",
+        "e3dfa2a2-6272-4f3f-adf0-dd5dadea9481": "7c7401cb-1476-4a60-9101-d16b48924c02",
+        "e693c3a1-c958-48d5-9edc-46d95aae0ad1": "ebe42beb-ccb9-4646-85f9-3c627c1b5d40",
+        "ed000754-fb2c-4778-be6d-40cfc2400bd7": "03aba7fc-858c-4586-a231-3c1376afaee7",
+        "eef775a3-9634-47bc-95bf-a438c9d6dce8": "272d36c8-cfc5-4d2f-a5e8-4d9673e80f4a"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "5361ae37-c329-4ef2-b02f-f3ab14bbdfb8",
+      "status": "complete"
+    },
+    "end_date": "2026-03-26T13:10:29Z",
+    "id": "963d4bae-5c35-4b0f-900a-422a36c0a573",
+    "last_updated_ts": "2026-03-27T13:25:09.823832Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR25LALIND",
+      "KXNBASPREAD-26MAR25LALIND",
+      "KXNBATOTAL-26MAR25LALIND",
+      "KXNBATEAMTOTAL-26MAR25LALIND",
+      "KXNBA1HWINNER-26MAR25LALIND",
+      "KXNBA2HWINNER-26MAR25LALIND",
+      "KXNBA1HSPREAD-26MAR25LALIND",
+      "KXNBA1HTOTAL-26MAR25LALIND"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR25LALIND",
+      "KXNBASPREAD-26MAR25LALIND",
+      "KXNBATOTAL-26MAR25LALIND",
+      "KXNBATEAMTOTAL-26MAR25LALIND",
+      "KXNBA1HWINNER-26MAR25LALIND",
+      "KXNBA2HWINNER-26MAR25LALIND",
+      "KXNBAPTS-26MAR25LALIND",
+      "KXNBAREB-26MAR25LALIND",
+      "KXNBAAST-26MAR25LALIND",
+      "KXNBASTL-26MAR25LALIND",
+      "KXNBABLK-26MAR25LALIND",
+      "KXNBA3PT-26MAR25LALIND",
+      "KXNBA2D-26MAR25LALIND",
+      "KXNBA3D-26MAR25LALIND",
+      "KXNBA1HSPREAD-26MAR25LALIND",
+      "KXNBA1HTOTAL-26MAR25LALIND"
+    ],
+    "source_id": "5361ae37-c329-4ef2-b02f-f3ab14bbdfb8",
+    "source_ids": {
+      "source_2_id": "202603258FD9D3BD",
+      "source_3_id": "5361ae37-c329-4ef2-b02f-f3ab14bbdfb8",
+      "source_4_id": "62924927",
+      "source_5_id": "sr:match:62924927"
+    },
+    "start_date": "2026-03-25T23:00:00Z",
+    "title": "Los Angeles L at Indiana",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-31T00:30:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 94,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-03-28T02:00:00+00:00",
+          "opponent_points": 93,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 100,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": true
+        },
+        {
+          "date": "2026-03-26T02:00:00+00:00",
+          "opponent_points": 142,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 135,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-03-24T01:30:00+00:00",
+          "opponent_points": 137,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 131,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-03-22T00:30:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 131,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        }
+      ],
+      "away_team_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+      "game_injuries": {
+        "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed": [
+          {
+            "comment": "The Mavericks listed Marshall as OUT for Tuesday's (Mar. 31) game against the Bucks.",
+            "date_updated": "2026-03-31",
+            "description": "Illness",
+            "start_date": "2026-03-29",
+            "status": "Out",
+            "structured_id": "f614a5c0-42ba-4187-b40a-e0c298d65091"
+          },
+          {
+            "comment": "The Mavericks announced on Sunday (Dec. 21) that Lively II has successfully underwent foot surgery.",
+            "date_updated": "2025-12-21",
+            "description": "Foot",
+            "start_date": "2025-11-22",
+            "status": "Out For Season",
+            "structured_id": "306185e2-63a3-487a-8ff1-eb514655e2c5"
+          },
+          {
+            "comment": "The Mavericks listed Martin as OUT for Tuesday's (Mar. 31) game against the Bucks.",
+            "date_updated": "2026-03-31",
+            "description": "Foot",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "9e9915a1-81b8-4cda-b6b6-1537607daf8a"
+          },
+          {
+            "comment": "The Mavericks listed Washington as OUT for Tuesday's (Mar. 31) game against the Bucks.",
+            "date_updated": "2026-03-31",
+            "description": "Illness",
+            "start_date": "2026-03-30",
+            "status": "Out",
+            "structured_id": "b382638b-047d-4e8b-84ec-31c3c0fa87db"
+          },
+          {
+            "comment": "Gafford will not return to Tuesday\u2019s (Mar. 31) game against the Bucks.",
+            "date_updated": "2026-03-31",
+            "description": "Shoulder",
+            "start_date": "2026-03-31",
+            "status": "Day To Day",
+            "structured_id": "f7809899-1a37-42df-8c56-5029ca536e5b"
+          },
+          {
+            "comment": "The Mavericks said on Wednesday (Feb. 18) that Irving is OUT for the season, per ESPN's Shams Charania. ",
+            "date_updated": "2026-02-18",
+            "description": "Knee",
+            "start_date": "2025-03-03",
+            "status": "Out For Season",
+            "structured_id": "c397aaf3-768c-48f2-9a6a-83d15e153123"
+          },
+          {
+            "comment": "The Mavericks listed Bagley III as OUT for Tuesday's (Mar. 31) game against the Bucks.",
+            "date_updated": "2026-03-31",
+            "description": "Shoulder",
+            "start_date": "2026-03-29",
+            "status": "Out",
+            "structured_id": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf"
+          },
+          {
+            "comment": "The Mavericks listed Thompson as Out for Tuesday's (Mar. 31) game against the Bucks.",
+            "date_updated": "2026-03-31",
+            "description": "Rest",
+            "start_date": "2026-03-31",
+            "status": "Out",
+            "structured_id": "2f07473d-3b17-445c-811a-571e2e77025c"
+          }
+        ],
+        "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3": [
+          {
+            "comment": "The Bucks listed Harris as Out for Tuesday's (Mar. 31) game against Dallas.",
+            "date_updated": "2026-03-31",
+            "description": "Groin",
+            "start_date": "2026-03-20",
+            "status": "Out",
+            "structured_id": "ee339cf2-f3ce-4bdc-9b84-1ebbb0e65fa7"
+          },
+          {
+            "comment": "The Bucks listed Porter Jr. as OUT for Tuesday's (Mar. 31) game against Dallas.",
+            "date_updated": "2026-03-30",
+            "description": "Knee",
+            "start_date": "2026-03-18",
+            "status": "Out",
+            "structured_id": "c8fa499d-95bc-4280-85ef-c9467afd87fb"
+          },
+          {
+            "comment": "The Bucks listed Antetokounmpo as OUT for Tuesday's (Mar. 31) game against Dallas.",
+            "date_updated": "2026-03-30",
+            "description": "Calf",
+            "start_date": "2026-03-28",
+            "status": "Out",
+            "structured_id": "0e6c26ec-43d9-4080-80ae-3310855e54aa"
+          },
+          {
+            "comment": "Antetokounmpo has been diagnosed with a left knee hyperextension and bone bruise and will be re-evaluated in one week.",
+            "date_updated": "2026-03-17",
+            "description": "Ankle",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "6c376ad3-bb8c-499d-9745-f87b60e40d66"
+          },
+          {
+            "comment": "The Bucks listed Portis as OUT for Tuesday's (Mar. 31) game against Dallas.",
+            "date_updated": "2026-03-30",
+            "description": "Wrist",
+            "start_date": "2026-03-24",
+            "status": "Out",
+            "structured_id": "a91b092f-2de1-43af-ab71-fa41cf000e32"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-29T19:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 113,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-28T19:00:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 95,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-26T02:00:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 99,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-24T02:30:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 96,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-22T02:00:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 108,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": true
+        }
+      ],
+      "home_team_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR31DALMIL",
+      "player_id_mapping": {
+        "1b31afe2-7fb7-42d1-8eef-003c5eb619c2": "306185e2-63a3-487a-8ff1-eb514655e2c5",
+        "1d323a11-1758-4975-ba6f-1a03b7a2157c": "3b4ac2be-e186-4c72-a906-b7276d76422d",
+        "30eb60ce-5b33-4784-8e2a-37c304ea7721": "5da14c46-20e8-477d-8869-95f009e5f98f",
+        "323f9ef8-ecdd-41a7-859e-dd3db48ba913": "a1339a5c-be69-4ad2-8db2-8a65c6bf1781",
+        "409f5c06-ac04-425a-8147-a4485e7b7e71": "29a143fb-73e3-4edf-8795-efd4579c3cf6",
+        "44fe2902-0a78-440e-bbad-d28cd0308e21": "4b8286f2-fd4a-4a46-b65b-392d5b21cc8b",
+        "4c362eee-6474-40ea-b1b4-d8f917f95175": "08aa816a-180f-42cd-b498-9067f069ba70",
+        "4e152a06-673e-4701-b115-aa7e2cd00d2d": "2f07473d-3b17-445c-811a-571e2e77025c",
+        "4f80cdb1-1b10-4669-9774-045bc8a99c99": "d8974980-82ba-42dc-a510-dcb0564050d0",
+        "4fae86e2-4f99-4247-af85-d917b4389d31": "29359ac2-6049-4cf0-a4da-d8b5cc354ad5",
+        "52cd8137-c791-4569-ad70-433e25d34882": "f7809899-1a37-42df-8c56-5029ca536e5b",
+        "56003e58-6b25-4f22-9d97-020b3d1f6616": "d9841514-7c9f-41e8-990c-18ba19569f31",
+        "566685c7-ff63-439a-8888-5278904835fa": "9e9915a1-81b8-4cda-b6b6-1537607daf8a",
+        "616c60bf-f7ce-482d-a9c8-10c6c7fbef97": "445b8e51-f6ef-4707-afc1-651b38e89943",
+        "62daf16f-0c4c-46ae-9e54-0d34d6fdef85": "9e660772-5491-4a0f-a408-84b184a62f61",
+        "64c0e4e5-8711-4b86-8072-745f6084df73": "0e6c26ec-43d9-4080-80ae-3310855e54aa",
+        "68175411-ce98-4b2c-9ff0-3e26bff33191": "41df03a3-f2f3-49ad-997e-34d3e36f04b5",
+        "68b7aac9-02fd-4bd8-b10c-6702d2c5eb98": "a91b092f-2de1-43af-ab71-fa41cf000e32",
+        "6b5d0264-fa2d-4956-919b-61abfc6bb8d7": "ee339cf2-f3ce-4bdc-9b84-1ebbb0e65fa7",
+        "6c60282d-165a-4cba-8e5a-4f2d9d4c5905": "6c376ad3-bb8c-499d-9745-f87b60e40d66",
+        "6d4ce277-bc3e-4d24-82d4-5366c48e4cdd": "6e0b9fe4-b330-459a-a6fa-6bb2caaf3d00",
+        "6d7f4f2f-7ea7-4c56-8082-dfdce67f5487": "b382638b-047d-4e8b-84ec-31c3c0fa87db",
+        "8006987e-cd53-4e60-a26e-83cb96fb81ac": "32a69465-105d-4ee6-9512-273a4a604e4c",
+        "8aaf1808-f7af-4894-9b14-cc7655005313": "de933f3a-eba2-422b-b2e7-cb30ed547794",
+        "9d0b4d49-f3ab-4721-8997-8f0ceea01597": "af70c80b-4c75-4fdd-91d0-cf43c9a0777f",
+        "9e0b879c-8be6-445e-a437-a3bf18130b9c": "d1bdb658-7142-472b-b51d-d74cb4d90d9b",
+        "a15f73b1-f757-4af2-b09a-f0185e09c8bf": "f614a5c0-42ba-4187-b40a-e0c298d65091",
+        "a465418b-0933-40b4-8f01-253d046872e1": "335fc1f4-8629-4b73-ba10-f18c7bb35a53",
+        "c8efed0b-f365-4440-84f7-df8c8078d1c0": "81a9e528-797f-4742-94a7-6a0aab0cdee6",
+        "ca5ad700-2ed9-453a-9abe-08eb8edb601c": "c8fa499d-95bc-4280-85ef-c9467afd87fb",
+        "d8058632-b2ca-468c-9c27-56410aef4dff": "06631017-5228-4584-8c20-90c630ba3d5d",
+        "dd146010-902b-4ad7-b98c-650d0363a2f0": "c397aaf3-768c-48f2-9a6a-83d15e153123",
+        "e86c1439-4ef0-4530-9c41-c3a682962eb3": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf",
+        "e872cdaf-5d04-45c2-bbfe-d673f3fb26ce": "4f13353c-1bad-49b6-8fe6-3530ad2d887a",
+        "e8def95a-cdf0-423f-9cac-a3e7e92364db": "dab8637b-70f4-496d-9757-53ec9fe22533"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "55fb67df-3263-49a3-a76b-69f5c035199c",
+      "status": "complete"
+    },
+    "end_date": "2026-04-01T03:25:07Z",
+    "id": "3925843b-a76e-46be-be14-cabf87ea5588",
+    "last_updated_ts": "2026-04-02T04:00:25.46706Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR31DALMIL",
+      "KXNBASPREAD-26MAR31DALMIL",
+      "KXNBATOTAL-26MAR31DALMIL",
+      "KXNBATEAMTOTAL-26MAR31DALMIL",
+      "KXNBA1HWINNER-26MAR31DALMIL",
+      "KXNBA1HSPREAD-26MAR31DALMIL",
+      "KXNBA1HTOTAL-26MAR31DALMIL",
+      "KXNBA2HWINNER-26MAR31DALMIL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR31DALMIL",
+      "KXNBASPREAD-26MAR31DALMIL",
+      "KXNBATOTAL-26MAR31DALMIL",
+      "KXNBATEAMTOTAL-26MAR31DALMIL",
+      "KXNBA1HWINNER-26MAR31DALMIL",
+      "KXNBA1HSPREAD-26MAR31DALMIL",
+      "KXNBA1HTOTAL-26MAR31DALMIL",
+      "KXNBA2HWINNER-26MAR31DALMIL",
+      "KXNBAPTS-26MAR31DALMIL",
+      "KXNBAREB-26MAR31DALMIL",
+      "KXNBAAST-26MAR31DALMIL",
+      "KXNBA3PT-26MAR31DALMIL",
+      "KXNBA2D-26MAR31DALMIL",
+      "KXNBASTL-26MAR31DALMIL",
+      "KXNBABLK-26MAR31DALMIL"
+    ],
+    "source_id": "55fb67df-3263-49a3-a76b-69f5c035199c",
+    "source_ids": {
+      "source_2_id": "20260401917EB179",
+      "source_3_id": "55fb67df-3263-49a3-a76b-69f5c035199c",
+      "source_4_id": "68385426",
+      "source_5_id": "sr:match:68385426"
+    },
+    "start_date": "2026-04-01T00:00:00Z",
+    "title": "Dallas at Milwaukee",
+    "type": "basketball_game"
+  }
+}

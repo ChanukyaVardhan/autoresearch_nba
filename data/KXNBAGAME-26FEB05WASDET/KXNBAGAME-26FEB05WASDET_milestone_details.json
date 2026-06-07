@@ -1,0 +1,85 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+      "home_team_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB05WASDET",
+      "player_id_mapping": {
+        "00fb2704-aa25-4ef7-8972-cde454810810": "d3705d84-27ff-4482-ab98-bba306710adc",
+        "06255060-3d3d-44f6-a776-2aab8e57584a": "994de660-809f-442c-99f9-7ddbd9089117",
+        "0d187d04-4cd9-44b3-9a29-408fac5b011e": "17a7f246-5093-428e-87d0-c9748e1e965a",
+        "0e03dd88-2c39-4b4a-8b47-0c3c8ba82305": "10928e3f-1742-43ea-aed9-42715199b0c4",
+        "18c14a3d-2ce0-451c-bceb-b0ce13c16ead": "54277f13-99a5-4ee0-934a-2051f41ef6bc",
+        "18d35316-9f40-408c-abcc-ab49e06ef8e8": "74de2700-bb3b-4770-98b7-4c20677814cf",
+        "19561190-edab-4465-a82d-7e42a7635800": "8c834598-267f-4866-8e81-6e6912b912a2",
+        "252f4b13-6abb-45dc-ae85-f822b817cb51": "a49a4c93-ac16-4556-9cf5-fce719ca9208",
+        "27db7dbb-6aad-44df-a3f4-7e1c21c2f256": "2b9b4c52-7963-4bbc-820a-787f29642aa0",
+        "28f3e566-3174-4e87-81d0-4889569b6ef5": "bdfa5db0-84ef-4d02-9758-09f03d14a206",
+        "4707d9b8-fca3-4550-ae25-bd4b449e4dbf": "ac20a549-f6e2-4feb-94df-b86af72950cc",
+        "536e0e15-02b5-4994-9613-0f5ec88f82e0": "7e264353-4d67-4c27-8757-e97bbd629b3e",
+        "53e011ee-504f-473e-bb26-bfe34533ca10": "6e964a40-4ceb-403c-96c2-5a165e032f0d",
+        "57d55cd4-6ab8-4255-a248-bef800c0cbab": "0a8c3059-aa64-4871-8291-fff857a201af",
+        "584a8771-ee79-4957-89f1-a2b0638c497a": "e601299b-d9a4-4cd1-b86b-58e47670cfe6",
+        "6d117ec5-649d-4151-8d44-88175c603067": "d8d735de-7698-4bec-a77c-5e187aa5d8f6",
+        "73f8f274-238d-419f-bccb-097362b8354d": "8890a6d0-042f-431a-a5d4-bd9af4843851",
+        "79fc04d6-0dcf-4817-ab79-2528026d72be": "5ac2f6ed-c991-40a4-afa0-aff7c779b0d7",
+        "7aa10d1a-ed4e-417d-998d-84ce66c77c9b": "77498085-90ac-456b-a123-848a7a5866e0",
+        "82f09975-6a8d-42e4-b42c-a52b9349ed50": "cbf135fe-afac-422d-8f3e-9f3291a954a1",
+        "858d255e-9a7b-4c7a-aac4-fc7cf3a5f238": "33c2e858-9265-47f1-b048-fbab4a62f9c8",
+        "9d4d6c87-78db-4556-b94a-bb8d566dd004": "60e91db8-8128-4e53-9b13-eabdf6913ab5",
+        "a10131d5-a2b6-45a5-bde1-f6c4cdfd328a": "cd3c26e8-ee5d-40da-99b1-16187b7b09b1",
+        "a2b3bc56-566e-443d-affe-7837a59a1ed7": "7864645c-a818-47f6-8e3a-2f74c8e083e4",
+        "a8d25a06-b47e-4a08-a945-7bf0dd945584": "4ead891f-246e-4a10-922c-b9043a42a890",
+        "ac9f5700-2da0-4c7d-a031-ed1acf0d6581": "2d0fbc02-5133-41b7-9eac-83abfca3a748",
+        "aeba1657-a0df-427b-ba9a-6db9e9147304": "992529e1-8850-4ec0-a0c4-a8f63f525b2f",
+        "b4b3cfce-16f1-4f30-acc0-2bac1eb51d66": "800a6e42-f420-4cd9-99d5-483420dce444",
+        "c0ec993e-16ee-48e8-b410-05690b1c17b6": "b5bca5ba-0234-4790-98d5-dd964c8697fa",
+        "c34996e5-8be6-4053-a2f2-0acb0155e18c": "ade1d2f5-5be7-40f0-819d-7216389b2777",
+        "c7c7c72b-7cee-409a-b2b5-256d173ac305": "968216f4-82ae-4763-9a71-6875cf126a23",
+        "cf418e0c-de9d-438f-a1ac-3be539a56c42": "4aad249c-e551-45af-b759-d012f1daf436",
+        "dbf09e15-1cd8-434e-acda-9527735ef4d6": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84",
+        "e23521cd-8e92-4701-b9e7-dc4acd21dfec": "b5fee735-ad6a-4350-85be-62ebd0ff9800",
+        "ea8826b8-1f76-4eab-b61e-ffcb176880f3": "50cd523e-b363-4145-b038-10c3e7f5fc68",
+        "fe4c4f99-5dfb-4e32-b69a-da8c5a779c27": "95ce1408-68a5-4025-975c-ac02d98e6830"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "0208ee19-0819-4197-925f-1b83b7c23b78",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-06T02:45:47Z",
+    "id": "600a4cd7-7e14-4d5d-a7e5-851a14d46a09",
+    "last_updated_ts": "2026-03-26T07:27:21.924011Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB05WASDET",
+      "KXNBASPREAD-26FEB05WASDET",
+      "KXNBATOTAL-26FEB05WASDET"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB05WASDET",
+      "KXNBASPREAD-26FEB05WASDET",
+      "KXNBATOTAL-26FEB05WASDET"
+    ],
+    "source_id": "0208ee19-0819-4197-925f-1b83b7c23b78",
+    "source_ids": {
+      "source_2_id": "20260206E1AD77F0",
+      "source_3_id": "0208ee19-0819-4197-925f-1b83b7c23b78"
+    },
+    "start_date": "2026-02-06T00:00:00Z",
+    "title": "Washington at Detroit",
+    "type": "basketball_game"
+  }
+}

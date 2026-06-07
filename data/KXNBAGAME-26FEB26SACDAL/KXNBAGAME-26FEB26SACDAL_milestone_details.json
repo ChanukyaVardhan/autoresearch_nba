@@ -1,0 +1,293 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-26T01:00:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 97,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        },
+        {
+          "date": "2026-02-24T01:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 123,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": true
+        },
+        {
+          "date": "2026-02-22T01:00:00+00:00",
+          "opponent_points": 139,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 122,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        },
+        {
+          "date": "2026-02-20T03:00:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 94,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        },
+        {
+          "date": "2026-02-12T02:00:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 93,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        }
+      ],
+      "away_team_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+      "game_injuries": {
+        "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed": [
+          {
+            "comment": "The Mavericks listed Gafford as Out for Thursday's (Feb. 26) game against the Kings.",
+            "date_updated": "2026-02-26",
+            "description": "Ankle",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "f7809899-1a37-42df-8c56-5029ca536e5b"
+          },
+          {
+            "comment": "The Mavericks announced on Sunday (Dec. 21) that Lively II has successfully underwent foot surgery.",
+            "date_updated": "2025-12-21",
+            "description": "Foot",
+            "start_date": "2025-11-22",
+            "status": "Out For Season",
+            "structured_id": "306185e2-63a3-487a-8ff1-eb514655e2c5"
+          },
+          {
+            "comment": "The Mavericks said on Wednesday (Feb. 18) that Irving is OUT for the season, per ESPN's Shams Charania. ",
+            "date_updated": "2026-02-18",
+            "description": "Knee",
+            "start_date": "2025-03-03",
+            "status": "Out For Season",
+            "structured_id": "c397aaf3-768c-48f2-9a6a-83d15e153123"
+          },
+          {
+            "comment": "The Mavericks listed Flagg as Out for Thursday's (Feb. 26) game against the Kings.",
+            "date_updated": "2026-02-25",
+            "description": "Foot",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "3b4ac2be-e186-4c72-a906-b7276d76422d"
+          },
+          {
+            "comment": "The Mavericks listed Washington as Out for Thursday's (Feb. 26) game against the Kings.",
+            "date_updated": "2026-02-25",
+            "description": "Ankle",
+            "start_date": "2026-02-24",
+            "status": "Out",
+            "structured_id": "b382638b-047d-4e8b-84ec-31c3c0fa87db"
+          }
+        ],
+        "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7": [
+          {
+            "comment": "Sabonis underwent season-ending knee surgery Wednesday (Feb. 18) to repair a torn left meniscus, Shams Charania of ESPN.",
+            "date_updated": "2026-02-18",
+            "description": "Back",
+            "start_date": "2026-02-05",
+            "status": "Out For Season",
+            "structured_id": "144e1e61-d50e-4325-8ff6-7a695f03446a"
+          },
+          {
+            "comment": "The Kings said on Wednesday (Feb. 18) that Cardwell sprained his left ankle at Tuesday's practice and will be re-evaluated in four weeks, per James Ham of ESPN 1320 Sacramento.",
+            "date_updated": "2026-02-18",
+            "description": "Ankle",
+            "start_date": "2026-02-18",
+            "status": "Out",
+            "structured_id": "57a29545-91aa-423e-9a6f-53959a3b5b89"
+          },
+          {
+            "comment": "Hunter is set to undergo season-ending eye surgery, according to Chris Haynes of NBA TV.",
+            "date_updated": "2026-02-20",
+            "description": "Eye",
+            "start_date": "2026-02-06",
+            "status": "Out For Season",
+            "structured_id": "c9d2b49b-d13f-4f5e-b22c-9465a398b8c7"
+          },
+          {
+            "comment": "LaVine will undergo season-ending surgery on his right hand after the All-Star break, per Chris Haynes of NBA TV.",
+            "date_updated": "2026-02-13",
+            "description": "Finger",
+            "start_date": "2026-02-07",
+            "status": "Out For Season",
+            "structured_id": "b02cbe96-1ddf-40bc-9dec-7146c3350d61"
+          },
+          {
+            "comment": "The Kings have listed Westbrook as OUT for Thursday's (Feb. 26) game against the Mavericks.",
+            "date_updated": "2026-02-26",
+            "description": "Thigh",
+            "start_date": "2026-02-26",
+            "status": "Out",
+            "structured_id": "91053668-891b-464a-8249-ccbad9903b85"
+          },
+          {
+            "comment": "The Kings have listed Murray as OUT for Thursday's (Feb. 26) game against the Mavericks.",
+            "date_updated": "2026-02-26",
+            "description": "Ankle",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "ab771c9f-a307-419b-a3d5-217074ab292c"
+          },
+          {
+            "comment": "The Kings have listed Monk as Questionable for Thursday's (Feb. 26) game against the Mavericks.",
+            "date_updated": "2026-02-26",
+            "description": "Ankle",
+            "start_date": "2026-02-26",
+            "status": "Day To Day",
+            "structured_id": "63416847-07a8-4bf1-b6cd-4243e0e76d8f"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-25T00:30:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 123,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": true
+        },
+        {
+          "date": "2026-02-22T22:00:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 134,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": true
+        },
+        {
+          "date": "2026-02-21T00:30:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 111,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-02-13T03:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 104,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-02-11T02:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 111,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        }
+      ],
+      "home_team_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB26SACDAL",
+      "player_id_mapping": {
+        "00080fe6-49ad-4685-a308-eb96b1f11ddf": "eedb0f74-ef72-4f3e-9302-1528cd34c975",
+        "003883ca-cd7e-4b58-99d7-6fef54afdfeb": "bf9553ea-7c93-4f8c-907a-0765732ac86f",
+        "0fbb8fd5-9b9c-48a2-a355-18aba7b5d9d5": "ab199aae-ac30-4a73-96ac-a67ac1d2e8d1",
+        "1b31afe2-7fb7-42d1-8eef-003c5eb619c2": "306185e2-63a3-487a-8ff1-eb514655e2c5",
+        "1d323a11-1758-4975-ba6f-1a03b7a2157c": "3b4ac2be-e186-4c72-a906-b7276d76422d",
+        "22038780-8c50-4211-a99e-656d983e5207": "144e1e61-d50e-4325-8ff6-7a695f03446a",
+        "2c6dfdfd-f624-4738-b6b0-d96871d0620f": "e5c0a59d-c1af-49c9-a421-4320c4f90d6c",
+        "30eb60ce-5b33-4784-8e2a-37c304ea7721": "5da14c46-20e8-477d-8869-95f009e5f98f",
+        "3214b8de-d3ea-4188-9329-15a92f894f23": "63416847-07a8-4bf1-b6cd-4243e0e76d8f",
+        "37cbf881-ab20-44e7-bfb9-af3f7c7fe5d1": "57a29545-91aa-423e-9a6f-53959a3b5b89",
+        "3dbbb869-88a8-44f2-ac36-46fd0f5d825c": "06dc3030-152c-4e06-b359-9f64855a39dc",
+        "4c362eee-6474-40ea-b1b4-d8f917f95175": "08aa816a-180f-42cd-b498-9067f069ba70",
+        "4e152a06-673e-4701-b115-aa7e2cd00d2d": "2f07473d-3b17-445c-811a-571e2e77025c",
+        "529cb618-8e48-4011-bd42-dd0b9d91fdcb": "af191999-3663-4264-922a-5934a7f04907",
+        "52cd8137-c791-4569-ad70-433e25d34882": "f7809899-1a37-42df-8c56-5029ca536e5b",
+        "566685c7-ff63-439a-8888-5278904835fa": "9e9915a1-81b8-4cda-b6b6-1537607daf8a",
+        "5e86a9c3-b4d0-4fe1-a551-acd83e5d60eb": "11460f89-46da-4ee8-b5fe-8ca87ddb96e6",
+        "66156be8-6202-40bd-bdc2-014a46bee28f": "7fc358f2-b354-4004-afb1-f500fb99dd00",
+        "68175411-ce98-4b2c-9ff0-3e26bff33191": "41df03a3-f2f3-49ad-997e-34d3e36f04b5",
+        "6d7f4f2f-7ea7-4c56-8082-dfdce67f5487": "b382638b-047d-4e8b-84ec-31c3c0fa87db",
+        "7494fbb4-5ac7-43ee-b91a-8859532f548b": "ab771c9f-a307-419b-a3d5-217074ab292c",
+        "74a45eed-f2b0-4886-ae71-d04cf7d59528": "91053668-891b-464a-8249-ccbad9903b85",
+        "a15f73b1-f757-4af2-b09a-f0185e09c8bf": "f614a5c0-42ba-4187-b40a-e0c298d65091",
+        "a465418b-0933-40b4-8f01-253d046872e1": "335fc1f4-8629-4b73-ba10-f18c7bb35a53",
+        "a4a75d83-54b5-4dca-913e-44ab04288446": "c9d2b49b-d13f-4f5e-b22c-9465a398b8c7",
+        "badef3c4-e77e-4444-ac80-95d71332e974": "e9eedb28-ddb2-4948-8dfa-af5a44f71588",
+        "be886733-2368-474e-8225-18ff43c27d59": "797de269-39ee-4eef-9848-28b5bf089962",
+        "c8efed0b-f365-4440-84f7-df8c8078d1c0": "81a9e528-797f-4742-94a7-6a0aab0cdee6",
+        "cbc0a3b2-985e-4484-9cb6-6891337b18b7": "060893cf-54aa-4987-8984-66e7bc6c6fa3",
+        "cd6c786e-3c65-4f88-9c7b-4a243295f0d6": "9b67540e-1aff-4d11-b99b-56eaf0ec30dc",
+        "d8058632-b2ca-468c-9c27-56410aef4dff": "06631017-5228-4584-8c20-90c630ba3d5d",
+        "db72e294-1c54-454a-96b9-0b4fd2f38112": "b02cbe96-1ddf-40bc-9dec-7146c3350d61",
+        "dd146010-902b-4ad7-b98c-650d0363a2f0": "c397aaf3-768c-48f2-9a6a-83d15e153123",
+        "e783937f-31dc-41bd-9510-2572d2dc35ee": "32f6a0a3-ca43-478d-9d41-1b890a2d82da",
+        "e86c1439-4ef0-4530-9c41-c3a682962eb3": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf",
+        "e872cdaf-5d04-45c2-bbfe-d673f3fb26ce": "4f13353c-1bad-49b6-8fe6-3530ad2d887a"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "95b5e164-76d7-4859-93d5-b5e2dfb2f834",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-27T04:32:13Z",
+    "id": "9723b2f4-8004-486e-bd28-09986ae2e0e4",
+    "last_updated_ts": "2026-03-26T07:29:26.443334Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB26SACDAL",
+      "KXNBASPREAD-26FEB26SACDAL",
+      "KXNBATOTAL-26FEB26SACDAL",
+      "KXNBATEAMTOTAL-26FEB26SACDAL",
+      "KXNBA1HWINNER-26FEB26SACDAL",
+      "KXNBA2HWINNER-26FEB26SACDAL",
+      "KXNBA1HSPREAD-26FEB26SACDAL",
+      "KXNBA1HTOTAL-26FEB26SACDAL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB26SACDAL",
+      "KXNBASPREAD-26FEB26SACDAL",
+      "KXNBATOTAL-26FEB26SACDAL",
+      "KXNBATEAMTOTAL-26FEB26SACDAL",
+      "KXNBA1HWINNER-26FEB26SACDAL",
+      "KXNBA2HWINNER-26FEB26SACDAL",
+      "KXNBAPTS-26FEB26SACDAL",
+      "KXNBAREB-26FEB26SACDAL",
+      "KXNBAAST-26FEB26SACDAL",
+      "KXNBA2D-26FEB26SACDAL",
+      "KXNBA3D-26FEB26SACDAL",
+      "KXNBA1HSPREAD-26FEB26SACDAL",
+      "KXNBA1HTOTAL-26FEB26SACDAL",
+      "KXNBASTL-26FEB26SACDAL"
+    ],
+    "source_id": "95b5e164-76d7-4859-93d5-b5e2dfb2f834",
+    "source_ids": {
+      "source_2_id": "20260227B1015F43",
+      "source_3_id": "95b5e164-76d7-4859-93d5-b5e2dfb2f834",
+      "source_4_id": "62926483",
+      "source_5_id": "sr:match:62926483"
+    },
+    "start_date": "2026-02-27T01:30:00Z",
+    "title": "Sacramento at Dallas",
+    "type": "basketball_game"
+  }
+}

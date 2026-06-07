@@ -1,0 +1,235 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-20T03:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 114,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        },
+        {
+          "date": "2026-02-12T02:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 122,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-02-10T02:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 117,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        },
+        {
+          "date": "2026-02-08T01:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 136,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-02-05T00:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 127,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        }
+      ],
+      "away_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "game_injuries": {
+        "2229b01e-68eb-46ad-adf4-71a9533c84fc": [
+          {
+            "comment": "The Trail Blazers listed Sharpe as OUT for Friday's (Feb. 20) game against the Nuggets.",
+            "date_updated": "2026-02-19",
+            "description": "Calf",
+            "start_date": "2026-02-06",
+            "status": "Out",
+            "structured_id": "53147479-51de-4a93-8beb-a70a78dc681f"
+          },
+          {
+            "comment": "The Trail Blazers said on Thursday (Sept. 25) that Lillard won't be back on the court for the 2025-26 season due to his achilles injury.",
+            "date_updated": "2025-09-25",
+            "description": "Achilles",
+            "start_date": "2025-09-25",
+            "status": "Out For Season",
+            "structured_id": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c"
+          }
+        ],
+        "ba2cb6be-9827-46a8-8e6f-d8661307ba77": [
+          {
+            "comment": "The Nuggets announced on Monday (Dec. 22) that Bates will be re-evaluated in 12 weeks.",
+            "date_updated": "2025-12-22",
+            "description": "Foot",
+            "start_date": "2025-12-24",
+            "status": "Out",
+            "structured_id": "3de432f3-35ac-42c4-9bbb-b5cb25e10c7d"
+          },
+          {
+            "comment": "The Nuggets said on Thursday (Jan. 29) that Gordon will be re-evaluated in 4-to-6 weeks, per Shams Charania of ESPN.",
+            "date_updated": "2026-01-29",
+            "description": "Hamstring",
+            "start_date": "2026-01-23",
+            "status": "Out",
+            "structured_id": "b8dc25d7-9f85-44dd-9200-bea74ed23889"
+          },
+          {
+            "comment": "Watson is expected to miss at least four weeks with his Grade 2 right hamstring strain, according to Michael Scotto of USA Today.",
+            "date_updated": "2026-02-06",
+            "description": "Hamstring",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-13T02:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 135,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T01:00:00+00:00",
+          "opponent_points": 133,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 109,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-10T03:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 135,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-08T03:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 122,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-07T03:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 135,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        }
+      ],
+      "home_team_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB20DENPOR",
+      "player_id_mapping": {
+        "06df3766-f654-4fe3-8a37-496d21e7ea23": "0ff276a5-115b-4407-94b7-37e21c11454a",
+        "08baba55-bec0-4494-95ce-28778c37a981": "8201e738-2f9d-43df-a356-adb225fc5dcb",
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "312f21c9-a061-43e2-9a22-65199131068e": "0a9e0587-c565-41cc-93bd-74e1d1b1d375",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "5382cf43-3a79-4a5a-a7fd-153906fe65dd": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "5b315e15-6633-4ce2-8200-71b821553314": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0",
+        "5c010a64-12a9-423e-a466-fc49c427e058": "3de432f3-35ac-42c4-9bbb-b5cb25e10c7d",
+        "65700e81-3aa0-49a9-8a94-004f2cfb64e5": "b75478af-67c3-4a19-9cee-b2930a77d78d",
+        "657f2b36-208f-4bbe-a64a-c6cf6a76be72": "05f54a08-7983-4f7a-af49-210204c31989",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "7721e264-5db8-4af9-b252-65f2d18c454d": "f1bdc817-0c46-4f47-8007-e5701780c18f",
+        "8b43c272-c16b-40c7-a4d5-7bbcefeb1816": "c90b91a6-f684-4305-bf03-697ea7daf402",
+        "8db2a730-bafb-4936-915f-3dd4920a0aa9": "dab15c3b-1fd4-44ad-940c-55852685a6ae",
+        "8f6ef350-1d9a-4eda-bee9-294d0e9e64db": "3893af8f-647f-4298-8f72-552d451d6533",
+        "a26661fb-805f-41a9-8fc9-8ed805233482": "06d2662c-1e37-4b6c-8a1d-501a105e5644",
+        "a978acbc-e84b-4cc4-85c9-30595e022847": "f7a10ceb-9ddc-4afc-aea0-8c67b8b1dc6d",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "af5e629a-6b79-46d9-9b58-dc9ec41a0bd0": "a867c548-86ed-4810-a289-a25576489f7f",
+        "c089cc76-e8a3-46cc-8691-3d4f28edc9bf": "58da1241-7818-4d04-9629-2a5a5795c5fa",
+        "c20dfb58-5622-405e-90b1-92b79ee97461": "aba92929-6fc0-476c-8462-35c5cf7a2cec",
+        "c76e8dae-58ad-4950-8929-5094036210c4": "80b360ed-9ea4-4cca-8ced-abba5c6a8471",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "eb0bd3d9-4bf0-4cc3-bbdf-c79e2255c175": "53147479-51de-4a93-8beb-a70a78dc681f",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "0b2db901-07dd-454b-aed5-e6a1b66ede7e",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-21T06:14:39Z",
+    "id": "5bc07d7b-eb4d-4060-997f-cdde3b7c1a4a",
+    "last_updated_ts": "2026-03-26T07:28:49.614641Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB20DENPOR",
+      "KXNBASPREAD-26FEB20DENPOR",
+      "KXNBATOTAL-26FEB20DENPOR",
+      "KXNBATEAMTOTAL-26FEB20DENPOR",
+      "KXNBA1HWINNER-26FEB20DENPOR",
+      "KXNBA2HWINNER-26FEB20DENPOR",
+      "KXNBA1HTOTAL-26FEB20DENPOR",
+      "KXNBA1HSPREAD-26FEB20DENPOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB20DENPOR",
+      "KXNBASPREAD-26FEB20DENPOR",
+      "KXNBATOTAL-26FEB20DENPOR",
+      "KXNBATEAMTOTAL-26FEB20DENPOR",
+      "KXNBA1HWINNER-26FEB20DENPOR",
+      "KXNBA2HWINNER-26FEB20DENPOR",
+      "KXNBAPTS-26FEB20DENPOR",
+      "KXNBAREB-26FEB20DENPOR",
+      "KXNBA3PT-26FEB20DENPOR",
+      "KXNBA2D-26FEB20DENPOR",
+      "KXNBA1HTOTAL-26FEB20DENPOR",
+      "KXNBAAST-26FEB20DENPOR",
+      "KXNBASTL-26FEB20DENPOR",
+      "KXNBA3D-26FEB20DENPOR",
+      "KXNBA1HSPREAD-26FEB20DENPOR",
+      "KXNBABLK-26FEB20DENPOR"
+    ],
+    "source_id": "0b2db901-07dd-454b-aed5-e6a1b66ede7e",
+    "source_ids": {
+      "source_2_id": "202602216D552EFF",
+      "source_3_id": "0b2db901-07dd-454b-aed5-e6a1b66ede7e"
+    },
+    "start_date": "2026-02-21T03:00:00Z",
+    "title": "Denver at Portland",
+    "type": "basketball_game"
+  }
+}

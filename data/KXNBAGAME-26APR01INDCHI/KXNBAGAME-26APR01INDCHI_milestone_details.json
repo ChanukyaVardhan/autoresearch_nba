@@ -1,0 +1,316 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-29T21:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 135,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": true
+        },
+        {
+          "date": "2026-03-27T23:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 113,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-25T23:00:00+00:00",
+          "opponent_points": 137,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 130,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-23T23:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 128,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": true
+        },
+        {
+          "date": "2026-03-22T00:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 119,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        }
+      ],
+      "away_team_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+      "game_injuries": {
+        "65f0250b-455d-43d7-b7dc-7d321bdf9abc": [
+          {
+            "comment": "The Bulls listed Simons as Out for Wednesday's (Apr. 1) game against the Pacers.",
+            "date_updated": "2026-03-31",
+            "description": "Wrist",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "94894b15-fc9f-42e5-854c-4d2a6006c09b"
+          },
+          {
+            "comment": "Smith will miss the remainder of the season, according to Joel Lorenzi of The Athletic.",
+            "date_updated": "2026-03-26",
+            "description": "Calf",
+            "start_date": "2026-03-25",
+            "status": "Out For Season",
+            "structured_id": "37104adf-2343-40fe-8d8a-a11f89d037e8"
+          },
+          {
+            "comment": "The Bulls reported on Wednesday (Dec. 3) that Essengue will have shoulder surgery and miss the remainder of the season, per HC Billy Donovan.",
+            "date_updated": "2025-12-03",
+            "description": "Shoulder",
+            "start_date": "2025-11-29",
+            "status": "Out For Season",
+            "structured_id": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c"
+          },
+          {
+            "comment": "The Bulls listed Richards as Out for Wednesday's (Apr. 1) game against the Pacers.",
+            "date_updated": "2026-04-01",
+            "description": "Elbow",
+            "start_date": "2026-03-25",
+            "status": "Out",
+            "structured_id": "4624140d-4700-4bc6-a78b-79acc60ce3fe"
+          },
+          {
+            "comment": "The Bulls said on Saturday (Feb. 21) that Collins will undergo surgery for a sprain right toe and will be sidelined for the rest of the 2025-26 season.",
+            "date_updated": "2026-02-21",
+            "description": "Toe",
+            "start_date": "2025-12-28",
+            "status": "Out For Season",
+            "structured_id": "2a5b8fd6-50da-499a-a50b-832f02dea356"
+          },
+          {
+            "comment": "The Bulls listed Giddey as Out for Wednesday's (Apr. 1) game against the Pacers.",
+            "date_updated": "2026-04-01",
+            "description": "Hamstring",
+            "start_date": "2026-04-01",
+            "status": "Out",
+            "structured_id": "a4baed3c-0021-407e-8448-a298594c2a83"
+          }
+        ],
+        "d059bab2-9fb5-42dd-8038-5a12474300ce": [
+          {
+            "comment": "The Pacers listed McConnell as Out for Wednesday's (Apr. 1) game against the Bulls.",
+            "date_updated": "2026-03-31",
+            "description": "Hamstring",
+            "start_date": "2026-03-31",
+            "status": "Out",
+            "structured_id": "7c7401cb-1476-4a60-9101-d16b48924c02"
+          },
+          {
+            "comment": "The Pacers listed Siakam as Probable for Wednesday's (Apr. 1) game against the Bulls.",
+            "date_updated": "2026-03-31",
+            "description": "Knee",
+            "start_date": "2026-03-31",
+            "status": "Day To Day",
+            "structured_id": "1c8ae3bd-88ae-4511-8622-9f9ac7d73de0"
+          },
+          {
+            "comment": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today",
+            "date_updated": "2026-02-09",
+            "description": "Knee",
+            "start_date": "2026-02-08",
+            "status": "Out For Season",
+            "structured_id": "26d909f3-7322-4793-818c-d021a9229885"
+          },
+          {
+            "comment": "The Pacers listed Nembhard as Out for Wednesday's (Apr. 1) game against the Bulls.",
+            "date_updated": "2026-03-31",
+            "description": "Back",
+            "start_date": "2026-03-31",
+            "status": "Out",
+            "structured_id": "ebe58f63-e571-4632-b569-ac0c69dd6218"
+          },
+          {
+            "comment": "The Pacers said on Friday (Mar. 20) that Zubac will miss the rest of the season with a fractured rib.",
+            "date_updated": "2026-03-20",
+            "description": "Rib",
+            "start_date": "2026-03-18",
+            "status": "Out For Season",
+            "structured_id": "6682cc79-5f4e-47a3-a4a9-f7235b68712c"
+          },
+          {
+            "comment": "The Pacers listed Walker as Out for Wednesday's (Apr. 1) game against the Bulls.",
+            "date_updated": "2026-03-31",
+            "description": "Back",
+            "start_date": "2026-03-27",
+            "status": "Out",
+            "structured_id": "8e5ec564-3e03-4566-bb11-e3569357092e"
+          },
+          {
+            "comment": "The Pacers listed Nesmith as Out for Wednesday's (Apr. 1) game against the Bulls.",
+            "date_updated": "2026-03-31",
+            "description": "Neck",
+            "start_date": "2026-03-28",
+            "status": "Out",
+            "structured_id": "26987e0a-e5aa-4dd5-ae7a-569d92fd0de5"
+          },
+          {
+            "comment": "The Pacers said on Tuesday (Jan. 27) that Haliburton will likely be in line for a relatively normal offseason and should be free of restrictions for the start of training camp next fall.",
+            "date_updated": "2026-01-27",
+            "description": "Achilles",
+            "start_date": "2025-06-22",
+            "status": "Out For Season",
+            "structured_id": "02222ad8-8166-414f-842b-ce83ecca6700"
+          },
+          {
+            "comment": "The Pacers listed Toppin as Probable for Wednesday's (Apr. 1) game against the Bulls.",
+            "date_updated": "2026-03-31",
+            "description": "Foot",
+            "start_date": "2026-03-31",
+            "status": "Day To Day",
+            "structured_id": "03aba7fc-858c-4586-a231-3c1376afaee7"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-31T00:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 114,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-29T00:00:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 124,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-28T00:00:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 113,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-25T23:00:00+00:00",
+          "opponent_points": 157,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 137,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-24T00:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 132,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        }
+      ],
+      "home_team_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR01INDCHI",
+      "player_id_mapping": {
+        "02acc094-76ab-4b3e-b51d-a351a9bab6b9": "ebe58f63-e571-4632-b569-ac0c69dd6218",
+        "06570485-2ec5-40ab-9b50-8e4cfd7f0dc3": "844a53dc-8e99-482e-9de6-09a05c68ed92",
+        "1d1fa699-a455-4082-9df8-f97dbb0ca678": "31b8e118-988f-4da2-acda-ca134dbeeee3",
+        "222364c7-dae9-44db-830d-cdece37e174d": "26d909f3-7322-4793-818c-d021a9229885",
+        "254e42d7-df01-4c68-9264-bca06c83c2c1": "02222ad8-8166-414f-842b-ce83ecca6700",
+        "2d4ce4bc-b03a-40bc-b22c-dab27591a429": "0faf4911-89b0-49ae-a920-0912c6e6a92e",
+        "2da18268-82d4-4b40-a296-7ceddd435d0b": "6682cc79-5f4e-47a3-a4a9-f7235b68712c",
+        "31f78854-0d23-4318-959c-0314588136e1": "e1936136-417a-4892-b6e0-90e41b6c2f1a",
+        "3b40df6a-55ba-40a2-b6b8-ab8ae114dfc3": "aeb89ae8-9b87-4336-95b8-d1620d705c5c",
+        "3df1db1d-6596-489e-8e26-80f60fd9b1f4": "1c8ae3bd-88ae-4511-8622-9f9ac7d73de0",
+        "5ab15bad-59b4-43c9-98fc-1d0aa8182d01": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c",
+        "632adcc4-97f1-4e67-a132-e0b79f013c67": "94894b15-fc9f-42e5-854c-4d2a6006c09b",
+        "66ea876a-1cc9-47ed-ae31-2ed3c8f9350e": "a4baed3c-0021-407e-8448-a298594c2a83",
+        "67f6467e-0acc-48ce-9872-a63225ef295c": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b",
+        "689cb3b0-a7cc-45b5-860d-007597029c8c": "37104adf-2343-40fe-8d8a-a11f89d037e8",
+        "6fd99205-e159-4ff2-b291-80fb2d067bb3": "8e5ec564-3e03-4566-bb11-e3569357092e",
+        "7924cc02-9fbb-4fd0-a036-0130084eb9b3": "98a42c36-71d9-400e-95a5-e7fe53f7e9d8",
+        "7b526b14-5d50-411e-8bea-0ac7a8d0e8d7": "b20be183-d7e6-4970-ad6f-04ff489eb0d9",
+        "80b5cccf-203b-4482-92aa-76d1598216be": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387",
+        "83d5d358-9559-49fb-8cde-833d8d5eb108": "962da32e-f58c-4bb6-a118-b3a42fedcfc5",
+        "8571e039-8802-453a-aca5-7fdcb3ae1a28": "5403dd0a-1369-40c9-8608-56edc6013196",
+        "90d63a71-e4fe-411c-9773-2e74b5e1cb3b": "26987e0a-e5aa-4dd5-ae7a-569d92fd0de5",
+        "9654c7f1-d16c-428c-88fd-2a6cdb5a8370": "4624140d-4700-4bc6-a78b-79acc60ce3fe",
+        "99dc3c11-03fc-4d15-9dd5-d8d1f41c569a": "39063bb2-a56e-41bb-94ca-ae15c380a190",
+        "b159e65b-fd2f-415e-9cdd-46525e9897da": "3b0ba3a1-58e2-4443-aa8b-5de4e710bedb",
+        "b5310b38-a378-464f-b344-928adee0ed00": "2a5b8fd6-50da-499a-a50b-832f02dea356",
+        "cdf51fa0-724e-48f3-9ee4-6a01ae4d9542": "22f8d5ad-8967-4dac-9820-ebb73b49fab7",
+        "d13849d9-a696-44af-84a1-3196132c3ecd": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a",
+        "ded5095f-92cf-40a4-a668-ba78370cfe27": "5e8b46ce-bcc8-4da6-80b7-27c9816a793e",
+        "e04c3542-546a-4ca7-8db3-a89353d60046": "998569d5-8e34-4b4b-a396-aada418a9fc1",
+        "e3dfa2a2-6272-4f3f-adf0-dd5dadea9481": "7c7401cb-1476-4a60-9101-d16b48924c02",
+        "ed000754-fb2c-4778-be6d-40cfc2400bd7": "03aba7fc-858c-4586-a231-3c1376afaee7",
+        "eef775a3-9634-47bc-95bf-a438c9d6dce8": "272d36c8-cfc5-4d2f-a5e8-4d9673e80f4a",
+        "f619cc0b-5fa0-4189-9091-596e843e93b1": "a21967f6-3de2-4e6e-ad5c-b011117e05a6",
+        "fe7a0b28-a8f9-42ad-b345-0f69d51d365f": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "01f93de3-fe58-4db9-ae07-09d85ef3758c",
+      "status": "complete"
+    },
+    "end_date": "2026-04-02T03:45:57Z",
+    "id": "b4880c31-87b9-40a4-913b-5012c35fae31",
+    "last_updated_ts": "2026-04-03T04:46:03.409144Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR01INDCHI",
+      "KXNBASPREAD-26APR01INDCHI",
+      "KXNBATOTAL-26APR01INDCHI",
+      "KXNBATEAMTOTAL-26APR01INDCHI",
+      "KXNBA1HWINNER-26APR01INDCHI",
+      "KXNBA2HWINNER-26APR01INDCHI",
+      "KXNBA1HSPREAD-26APR01INDCHI",
+      "KXNBA1HTOTAL-26APR01INDCHI"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR01INDCHI",
+      "KXNBASPREAD-26APR01INDCHI",
+      "KXNBATOTAL-26APR01INDCHI",
+      "KXNBATEAMTOTAL-26APR01INDCHI",
+      "KXNBA1HWINNER-26APR01INDCHI",
+      "KXNBA2HWINNER-26APR01INDCHI",
+      "KXNBAPTS-26APR01INDCHI",
+      "KXNBAREB-26APR01INDCHI",
+      "KXNBAAST-26APR01INDCHI",
+      "KXNBA2D-26APR01INDCHI",
+      "KXNBA3D-26APR01INDCHI",
+      "KXNBA1HSPREAD-26APR01INDCHI",
+      "KXNBA1HTOTAL-26APR01INDCHI",
+      "KXNBASTL-26APR01INDCHI"
+    ],
+    "source_id": "01f93de3-fe58-4db9-ae07-09d85ef3758c",
+    "source_ids": {
+      "source_2_id": "20260402C7D1A149",
+      "source_3_id": "01f93de3-fe58-4db9-ae07-09d85ef3758c",
+      "source_4_id": "62925641",
+      "source_5_id": "sr:match:62925641"
+    },
+    "start_date": "2026-04-02T00:00:00Z",
+    "title": "Indiana at Chicago",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-17T02:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 115,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-15T02:30:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 109,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-14T02:30:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 119,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-12T02:30:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 153,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-10T02:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 126,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        }
+      ],
+      "away_team_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+      "game_injuries": {
+        "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc": [
+          {
+            "comment": "The Pelicans listed McGowens as Out for Wednesday's (Mar. 18) game against the Clippers.",
+            "date_updated": "2026-03-17",
+            "description": "Toe",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "f296c65c-1854-4ce3-814f-4380939626cb"
+          }
+        ],
+        "daca4413-0ea1-4db2-a815-f05c181ef0a6": [
+          {
+            "comment": "Niederhauser has been diagnosed with a Lisfranc injury in his right foot and will require surgery. He's been ruled out for the remainder of the 2025-26 season, according to Joey Linn of SI.com.",
+            "date_updated": "2026-03-05",
+            "description": "Foot",
+            "start_date": "2026-03-04",
+            "status": "Out For Season",
+            "structured_id": "ef369e50-d57e-499e-8219-841ac142f166"
+          },
+          {
+            "comment": "Beal will undergo season-ending surgery on his left hip, as per ESPN's Shams Charania reports.",
+            "date_updated": "2025-11-12",
+            "description": "Hip",
+            "start_date": "2025-11-10",
+            "status": "Out For Season",
+            "structured_id": "beada20d-6def-48b5-8cdf-ca243e06640d"
+          },
+          {
+            "comment": "The Clippers said on Tuesday (Mar. 17) that Mathurin will miss the team's three-game road trip, per Tomer Azarly of ClutchPoints.com.",
+            "date_updated": "2026-03-17",
+            "description": "Toe",
+            "start_date": "2026-03-17",
+            "status": "Out",
+            "structured_id": "f9912228-d55a-404f-b2e5-824658b21dc4"
+          },
+          {
+            "comment": "The Clippers listed Batum as Out for Wednesday's (Mar. 18) game versus the Pelicans.",
+            "date_updated": "2026-03-18",
+            "description": "Rest",
+            "start_date": "2026-03-18",
+            "status": "Out",
+            "structured_id": "11ac6d0a-2082-45a8-a091-71c8950eab5f"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 129,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-14T00:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 105,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-12T00:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 122,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-08T23:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 138,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T02:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 116,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        }
+      ],
+      "home_team_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR18LACNOP",
+      "player_id_mapping": {
+        "0036a1fa-ff9a-44a5-8061-68b828ee2b1e": "0b538101-c08f-4a2e-a095-df6e59a02407",
+        "067d9f05-a6b8-4a4b-854c-3364234e62b1": "f7e7a36e-601e-4130-a819-fa9f752bd14a",
+        "0a5c9ca2-d58f-4989-8cfc-de981a3e2d07": "13f346b2-a047-4e9d-878e-dae708b3c6f7",
+        "100af38e-d798-4b3a-8ee6-6280f0f4b4b8": "089f34c8-a9fa-480b-9b91-aa417097d552",
+        "1d7e4639-11b4-4358-96cb-028bfb166e64": "7d455b73-8844-4041-aebc-4a6dd76274bc",
+        "1f665b2c-789e-4471-af7a-f86105f2466c": "5fe0b2a4-3e64-4451-a42d-bec734ea1199",
+        "23462d55-9f15-4632-915f-2ab8e4458219": "08a82e64-bcf2-4395-a2bf-42feaaea03a3",
+        "26ad516e-5b80-4d33-a40a-b0dfacbaa992": "fbb39d19-504e-42c6-af35-1f45ae8328c0",
+        "28a2e698-9f33-4d4d-9a5d-9bea66ee42a1": "4bf6560d-e40d-4412-b8c4-de4de06b42ac",
+        "2ed2f76f-5a2f-4d79-ab7c-e84a8a42dc21": "c2bd69e5-271d-47a0-829b-e63d6e655ed8",
+        "3054d6e1-033b-4b8d-93e5-b807ea122c75": "3e76dbce-174a-45f6-8019-5c1f483aadbe",
+        "3c4a7fda-fca3-4a68-9886-ea7eec4cc2e3": "f296c65c-1854-4ce3-814f-4380939626cb",
+        "3f98b652-71d4-4a40-949d-41c33dddd15d": "f9912228-d55a-404f-b2e5-824658b21dc4",
+        "4ec576c6-d74d-4b23-83e5-7a94e76526c9": "ef369e50-d57e-499e-8219-841ac142f166",
+        "51b62fe8-1e5c-4c65-8ad3-2ad06e749b70": "49ac8ed6-aad0-4703-aedb-b65dc8fcb086",
+        "54cf6e06-9172-44b8-8d3b-ea1b6926553d": "a0efcc22-65e6-45a1-a474-6df949cd1613",
+        "56c796d6-74d3-4881-9166-7f528e2b67f6": "614ded35-dec0-4703-aaad-1abb645ad47b",
+        "5cc51c05-06f5-4ae4-89a4-1d329fbbcdfb": "220527f6-f6e9-46b3-92b4-ccd8e37ad577",
+        "66b88001-06c2-4f4a-9825-b6e0cc1df6cc": "0261059a-dc81-43c2-b3ef-2a937da69c9b",
+        "7d27ec3b-1e31-4b0f-abcf-e12039a0e27b": "26e6560f-bbf6-4e0f-bbe6-89f8fe643970",
+        "7ff3c32f-2552-454d-9dee-a1d52000458a": "1400f958-a65e-4dac-8ce0-6cf6e6edafd7",
+        "979acf24-97b7-44f3-b8fb-6451f571540a": "b800a5e4-18bc-4402-b69e-402167501632",
+        "9f25f9f8-6028-4f4b-8e05-48b43272c167": "c8b85545-69a3-45eb-b054-fac03220e0d1",
+        "a4de5912-bd72-4993-ac93-fb65d2164660": "1397dd83-6f8b-4ca4-85d8-4ddee4d50e42",
+        "a89ac040-715d-4057-8fc0-9d71ad06fa0a": "11ac6d0a-2082-45a8-a091-71c8950eab5f",
+        "b4282659-dd1a-4042-a075-7df4890858e7": "7c4044ea-fb72-430d-b08b-19bfe77bf24d",
+        "b79b88e1-35ef-4947-8a61-f6ec631a1e15": "94cad9c3-833e-410a-a028-6cd25fdb20d9",
+        "c12fb587-fc86-471c-8a84-19caf31325ce": "f2bfdc6c-0d84-4736-ba44-8cdbc196e0b3",
+        "c179fb5c-9845-4e37-aef7-6e00d97548eb": "0be3d8cd-ec75-442f-9b05-b6acaac19315",
+        "d531a451-6377-4942-a26f-3507d60fb36b": "a63c5df9-d7d6-4a12-93f2-10c7b4911c23",
+        "dac0090b-6d39-4275-98ac-db8aab39502f": "5cef9632-cd85-406e-8441-661e2cc1657c",
+        "ebb50069-6fdf-4c07-9a21-a63d5c814536": "60e4406b-ce4b-4eb3-bbb2-e955a85b90d5",
+        "f15e21e4-a83a-4263-aeda-d2ecd2ed6e25": "b9084e59-a89e-4e65-a9ce-1a6ba889c465",
+        "f2c67fa6-8093-46fb-b3fb-62916b9c1dad": "b56b1ccb-f281-4307-8759-3cb7b7ccc4f0",
+        "f4e6ac10-c2d3-4412-b85b-9511b93313e6": "9555a125-470b-4f6b-ace3-f4b03b027380",
+        "ff461754-ad20-4eeb-af02-2b46cc980b24": "beada20d-6def-48b5-8cdf-ca243e06640d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "d22a0faf-e78e-4d5c-971d-9f6787f39d2d",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-19T02:55:33Z",
+    "id": "ed3a0292-9611-4d93-b0ac-0b34851f34dc",
+    "last_updated_ts": "2026-03-26T07:29:47.289431Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR18LACNOP",
+      "KXNBASPREAD-26MAR18LACNOP",
+      "KXNBATOTAL-26MAR18LACNOP",
+      "KXNBATEAMTOTAL-26MAR18LACNOP",
+      "KXNBA1HWINNER-26MAR18LACNOP",
+      "KXNBA2HWINNER-26MAR18LACNOP",
+      "KXNBA1HSPREAD-26MAR18LACNOP",
+      "KXNBA1HTOTAL-26MAR18LACNOP",
+      "KXNBA2HSPREAD-26MAR18LACNOP",
+      "KXNBA2HTOTAL-26MAR18LACNOP"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR18LACNOP",
+      "KXNBASPREAD-26MAR18LACNOP",
+      "KXNBATOTAL-26MAR18LACNOP",
+      "KXNBATEAMTOTAL-26MAR18LACNOP",
+      "KXNBA1HWINNER-26MAR18LACNOP",
+      "KXNBA2HWINNER-26MAR18LACNOP",
+      "KXNBAPTS-26MAR18LACNOP",
+      "KXNBAREB-26MAR18LACNOP",
+      "KXNBA3PT-26MAR18LACNOP",
+      "KXNBA2D-26MAR18LACNOP",
+      "KXNBAAST-26MAR18LACNOP",
+      "KXNBASTL-26MAR18LACNOP",
+      "KXNBABLK-26MAR18LACNOP",
+      "KXNBA1HSPREAD-26MAR18LACNOP",
+      "KXNBA1HTOTAL-26MAR18LACNOP",
+      "KXNBA2HSPREAD-26MAR18LACNOP",
+      "KXNBA2HTOTAL-26MAR18LACNOP"
+    ],
+    "source_id": "d22a0faf-e78e-4d5c-971d-9f6787f39d2d",
+    "source_ids": {
+      "source_2_id": "20260319DD22B856",
+      "source_3_id": "d22a0faf-e78e-4d5c-971d-9f6787f39d2d",
+      "source_4_id": "62925209",
+      "source_5_id": "sr:match:62925209"
+    },
+    "start_date": "2026-03-19T00:00:00Z",
+    "title": "Los Angeles C at New Orleans",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-15T19:30:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 130,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": true
+        },
+        {
+          "date": "2026-03-13T23:30:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 105,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-03-13T00:00:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 120,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": true
+        },
+        {
+          "date": "2026-03-10T23:30:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 112,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-03-08T22:00:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 92,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        }
+      ],
+      "away_team_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+      "game_injuries": {
+        "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed": [
+          {
+            "comment": "The Mavericks announced on Sunday (Dec. 21) that Lively II has successfully underwent foot surgery.",
+            "date_updated": "2025-12-21",
+            "description": "Foot",
+            "start_date": "2025-11-22",
+            "status": "Out For Season",
+            "structured_id": "306185e2-63a3-487a-8ff1-eb514655e2c5"
+          },
+          {
+            "comment": "The Mavericks have listed Gafford as OUT for Monday's (Mar. 16) game against the Pelicans.",
+            "date_updated": "2026-03-16",
+            "description": "Illness",
+            "start_date": "2026-03-13",
+            "status": "Out",
+            "structured_id": "f7809899-1a37-42df-8c56-5029ca536e5b"
+          },
+          {
+            "comment": "The Mavericks have listed Martin as OUT for Monday's (Mar. 16) game against the Pelicans.",
+            "date_updated": "2026-03-16",
+            "description": "Foot",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "9e9915a1-81b8-4cda-b6b6-1537607daf8a"
+          },
+          {
+            "comment": "The Mavericks have listed Thompson as OUT for Monday's (Mar. 16) game against the Pelicans.",
+            "date_updated": "2026-03-16",
+            "description": "Rest",
+            "start_date": "2026-03-14",
+            "status": "Out",
+            "structured_id": "2f07473d-3b17-445c-811a-571e2e77025c"
+          },
+          {
+            "comment": "The Mavericks said on Wednesday (Feb. 18) that Irving is OUT for the season, per ESPN's Shams Charania. ",
+            "date_updated": "2026-02-18",
+            "description": "Knee",
+            "start_date": "2025-03-03",
+            "status": "Out For Season",
+            "structured_id": "c397aaf3-768c-48f2-9a6a-83d15e153123"
+          }
+        ],
+        "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc": [
+          {
+            "comment": "The Pelicans have listed Murray as OUT for Monday's (Mar. 16) game against the Mavericks.",
+            "date_updated": "2026-03-16",
+            "description": "Illness",
+            "start_date": "2026-03-16",
+            "status": "Out",
+            "structured_id": "26e6560f-bbf6-4e0f-bbe6-89f8fe643970"
+          },
+          {
+            "comment": "The Pelicans have listed McGowens as OUT for Monday's (Mar. 16) game against the Mavericks.",
+            "date_updated": "2026-03-16",
+            "description": "Toe",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "f296c65c-1854-4ce3-814f-4380939626cb"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-14T00:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 105,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-12T00:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 122,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-08T23:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 138,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T02:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 116,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-06T03:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 133,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        }
+      ],
+      "home_team_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR16DALNOP",
+      "player_id_mapping": {
+        "0036a1fa-ff9a-44a5-8061-68b828ee2b1e": "0b538101-c08f-4a2e-a095-df6e59a02407",
+        "0a5c9ca2-d58f-4989-8cfc-de981a3e2d07": "13f346b2-a047-4e9d-878e-dae708b3c6f7",
+        "1b31afe2-7fb7-42d1-8eef-003c5eb619c2": "306185e2-63a3-487a-8ff1-eb514655e2c5",
+        "1d323a11-1758-4975-ba6f-1a03b7a2157c": "3b4ac2be-e186-4c72-a906-b7276d76422d",
+        "1d7e4639-11b4-4358-96cb-028bfb166e64": "7d455b73-8844-4041-aebc-4a6dd76274bc",
+        "23462d55-9f15-4632-915f-2ab8e4458219": "08a82e64-bcf2-4395-a2bf-42feaaea03a3",
+        "26ad516e-5b80-4d33-a40a-b0dfacbaa992": "fbb39d19-504e-42c6-af35-1f45ae8328c0",
+        "2ed2f76f-5a2f-4d79-ab7c-e84a8a42dc21": "c2bd69e5-271d-47a0-829b-e63d6e655ed8",
+        "30eb60ce-5b33-4784-8e2a-37c304ea7721": "5da14c46-20e8-477d-8869-95f009e5f98f",
+        "3c4a7fda-fca3-4a68-9886-ea7eec4cc2e3": "f296c65c-1854-4ce3-814f-4380939626cb",
+        "44fe2902-0a78-440e-bbad-d28cd0308e21": "4b8286f2-fd4a-4a46-b65b-392d5b21cc8b",
+        "4c362eee-6474-40ea-b1b4-d8f917f95175": "08aa816a-180f-42cd-b498-9067f069ba70",
+        "4e152a06-673e-4701-b115-aa7e2cd00d2d": "2f07473d-3b17-445c-811a-571e2e77025c",
+        "51b62fe8-1e5c-4c65-8ad3-2ad06e749b70": "49ac8ed6-aad0-4703-aedb-b65dc8fcb086",
+        "52cd8137-c791-4569-ad70-433e25d34882": "f7809899-1a37-42df-8c56-5029ca536e5b",
+        "566685c7-ff63-439a-8888-5278904835fa": "9e9915a1-81b8-4cda-b6b6-1537607daf8a",
+        "5cc51c05-06f5-4ae4-89a4-1d329fbbcdfb": "220527f6-f6e9-46b3-92b4-ccd8e37ad577",
+        "66b88001-06c2-4f4a-9825-b6e0cc1df6cc": "0261059a-dc81-43c2-b3ef-2a937da69c9b",
+        "68175411-ce98-4b2c-9ff0-3e26bff33191": "41df03a3-f2f3-49ad-997e-34d3e36f04b5",
+        "6d4ce277-bc3e-4d24-82d4-5366c48e4cdd": "6e0b9fe4-b330-459a-a6fa-6bb2caaf3d00",
+        "6d7f4f2f-7ea7-4c56-8082-dfdce67f5487": "b382638b-047d-4e8b-84ec-31c3c0fa87db",
+        "7d27ec3b-1e31-4b0f-abcf-e12039a0e27b": "26e6560f-bbf6-4e0f-bbe6-89f8fe643970",
+        "7ff3c32f-2552-454d-9dee-a1d52000458a": "1400f958-a65e-4dac-8ce0-6cf6e6edafd7",
+        "a15f73b1-f757-4af2-b09a-f0185e09c8bf": "f614a5c0-42ba-4187-b40a-e0c298d65091",
+        "a465418b-0933-40b4-8f01-253d046872e1": "335fc1f4-8629-4b73-ba10-f18c7bb35a53",
+        "a4de5912-bd72-4993-ac93-fb65d2164660": "1397dd83-6f8b-4ca4-85d8-4ddee4d50e42",
+        "c8efed0b-f365-4440-84f7-df8c8078d1c0": "81a9e528-797f-4742-94a7-6a0aab0cdee6",
+        "d531a451-6377-4942-a26f-3507d60fb36b": "a63c5df9-d7d6-4a12-93f2-10c7b4911c23",
+        "d8058632-b2ca-468c-9c27-56410aef4dff": "06631017-5228-4584-8c20-90c630ba3d5d",
+        "dd146010-902b-4ad7-b98c-650d0363a2f0": "c397aaf3-768c-48f2-9a6a-83d15e153123",
+        "e86c1439-4ef0-4530-9c41-c3a682962eb3": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf",
+        "e872cdaf-5d04-45c2-bbfe-d673f3fb26ce": "4f13353c-1bad-49b6-8fe6-3530ad2d887a",
+        "ebb50069-6fdf-4c07-9a21-a63d5c814536": "60e4406b-ce4b-4eb3-bbb2-e955a85b90d5",
+        "f15e21e4-a83a-4263-aeda-d2ecd2ed6e25": "b9084e59-a89e-4e65-a9ce-1a6ba889c465",
+        "f2c67fa6-8093-46fb-b3fb-62916b9c1dad": "b56b1ccb-f281-4307-8759-3cb7b7ccc4f0",
+        "f4e6ac10-c2d3-4412-b85b-9511b93313e6": "9555a125-470b-4f6b-ace3-f4b03b027380"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "1817ac9e-78b2-4dd2-b53e-a03381aeb0bd",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-17T04:43:48Z",
+    "id": "34225dc2-976c-43e5-adcd-c7f02d7f3b37",
+    "last_updated_ts": "2026-03-26T07:29:44.626764Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR16DALNOP",
+      "KXNBASPREAD-26MAR16DALNOP",
+      "KXNBATOTAL-26MAR16DALNOP",
+      "KXNBATEAMTOTAL-26MAR16DALNOP",
+      "KXNBA1HWINNER-26MAR16DALNOP",
+      "KXNBA2HWINNER-26MAR16DALNOP",
+      "KXNBA1HSPREAD-26MAR16DALNOP",
+      "KXNBA1HTOTAL-26MAR16DALNOP"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR16DALNOP",
+      "KXNBASPREAD-26MAR16DALNOP",
+      "KXNBATOTAL-26MAR16DALNOP",
+      "KXNBATEAMTOTAL-26MAR16DALNOP",
+      "KXNBAPTS-26MAR16DALNOP",
+      "KXNBAREB-26MAR16DALNOP",
+      "KXNBAAST-26MAR16DALNOP",
+      "KXNBA3PT-26MAR16DALNOP",
+      "KXNBA2D-26MAR16DALNOP",
+      "KXNBA1HWINNER-26MAR16DALNOP",
+      "KXNBA2HWINNER-26MAR16DALNOP",
+      "KXNBASTL-26MAR16DALNOP",
+      "KXNBABLK-26MAR16DALNOP",
+      "KXNBA1HSPREAD-26MAR16DALNOP",
+      "KXNBA1HTOTAL-26MAR16DALNOP"
+    ],
+    "source_id": "1817ac9e-78b2-4dd2-b53e-a03381aeb0bd",
+    "source_ids": {
+      "source_2_id": "202603179CEA7672",
+      "source_3_id": "1817ac9e-78b2-4dd2-b53e-a03381aeb0bd",
+      "source_4_id": "62925695",
+      "source_5_id": "sr:match:62925695"
+    },
+    "start_date": "2026-03-17T00:00:00Z",
+    "title": "Dallas at New Orleans",
+    "type": "basketball_game"
+  }
+}

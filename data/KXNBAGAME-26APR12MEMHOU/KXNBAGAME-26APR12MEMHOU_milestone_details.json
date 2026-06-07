@@ -1,0 +1,375 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-11T01:30:00+00:00",
+          "opponent_points": 147,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 101,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-04-09T01:00:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 119,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-04-07T00:00:00+00:00",
+          "opponent_points": 142,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 126,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 115,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-04-04T00:00:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 96,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        }
+      ],
+      "away_team_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+      "game_injuries": {
+        "1cfe70b8-4dfc-47dc-acca-b68d4a725972": [
+          {
+            "comment": "The Grizzlies listed Bal as Questionable for Sunday's (Apr. 12) game against the Rockets.",
+            "date_updated": "2026-04-11",
+            "description": "Ankle",
+            "start_date": "2026-04-11",
+            "status": "Day To Day",
+            "structured_id": "21eb7b35-88a5-49ae-8986-ba3e05d79371"
+          },
+          {
+            "comment": "The Grizzlies said on Sunday (Mar. 15) that Aldama will undergo a season-ending arthroscopic procedure and receive an orthobiologic injection to address discomfort in his right knee, according to Brett Siegel of ClutchPoints.com.",
+            "date_updated": "2026-03-15",
+            "description": "Knee",
+            "start_date": "2026-03-03",
+            "status": "Out For Season",
+            "structured_id": "bea22e75-78de-4403-98b8-953d4a69aed4"
+          },
+          {
+            "comment": "The Grizzlies listed Prosper as Questionable for Sunday's (Apr. 12) game against the Rockets.",
+            "date_updated": "2026-04-11",
+            "description": "Ankle",
+            "start_date": "2026-04-07",
+            "status": "Day To Day",
+            "structured_id": "41f8ada0-5160-4cff-b69e-a335d1a9eec7"
+          },
+          {
+            "comment": "The Grizzlies announced Thursday that Caldwell-Pope underwent surgery to address the misalignment of his right pinky finger and will miss the remainder of the 2025-26 campaign.",
+            "date_updated": "2026-02-19",
+            "description": "Finger",
+            "start_date": "2026-02-18",
+            "status": "Out For Season",
+            "structured_id": "8bcb0399-a016-42af-bbc8-b701f99abb96"
+          },
+          {
+            "comment": "The Grizzlies listed Jackson as Out for Sunday's (Apr. 12) game against the Rockets.",
+            "date_updated": "2026-04-11",
+            "description": "Knee",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "f438ad3e-c75f-45b5-af2a-bf90dbf16fdd"
+          },
+          {
+            "comment": "The Grizzlies announced on Tuesday (Mar. 24) that Morant will miss the remainder of the season.",
+            "date_updated": "2026-03-24",
+            "description": "Elbow",
+            "start_date": "2026-01-22",
+            "status": "Out For Season",
+            "structured_id": "3956631b-53dc-4cd9-8521-c8a113c806fa"
+          },
+          {
+            "comment": "The Grizzlies said on Friday (Mar. 13) that Pippen Jr. will miss the remainder of the 2025-26 season after undergoing a sesamoidectomy to address ongoing discomfort in his right big toe, per Michael Scotto of USA Today.",
+            "date_updated": "2026-03-13",
+            "description": "Toe",
+            "start_date": "2026-03-08",
+            "status": "Out For Season",
+            "structured_id": "d6d1d5a3-80ef-4687-af8c-dfaae4d6ea92"
+          },
+          {
+            "comment": "The Grizzlies listed Hendricks as Out for Sunday's (Apr. 12) game against the Rockets.",
+            "date_updated": "2026-04-11",
+            "description": "Thumb",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "3783ab8b-6b24-48d3-835e-3d18b2ebd848"
+          },
+          {
+            "comment": "The Grizzlies listed Small as Probable for Sunday's (Apr. 12) game against the Rockets.",
+            "date_updated": "2026-04-11",
+            "description": "Thigh",
+            "start_date": "2026-04-11",
+            "status": "Day To Day",
+            "structured_id": "5e85252f-a995-4dc2-8d1e-e7fd7503c803"
+          },
+          {
+            "comment": "The Grizzlies said that Edey will miss the remainder of the season.",
+            "date_updated": "2026-03-03",
+            "description": "Ankle",
+            "start_date": "2025-12-11",
+            "status": "Out For Season",
+            "structured_id": "fe5a04a5-0dc7-4373-baf9-36c4bced83a5"
+          },
+          {
+            "comment": "The Grizzlies listed Jackson as Out for Sunday's (Apr. 12) game against the Rockets.",
+            "date_updated": "2026-04-11",
+            "description": "Ankle",
+            "start_date": "2026-02-24",
+            "status": "Out",
+            "structured_id": "49771603-2a9e-4029-b716-a0f32150dc14"
+          },
+          {
+            "comment": "The Grizzlies announced Tuesday that Wells underwent a successful procedure to stabilize his right great toe and will miss the remainder of the 2025-26 campaign.",
+            "date_updated": "2026-03-31",
+            "description": "Toe",
+            "start_date": "2026-03-24",
+            "status": "Out For Season",
+            "structured_id": "7ae937e9-691a-4645-9e65-29e0f5713858"
+          },
+          {
+            "comment": "The Grizzlies listed Clayton Jr. as Questionable for Sunday's (Apr. 12) game against the Rockets.",
+            "date_updated": "2026-04-11",
+            "description": "Hip",
+            "start_date": "2026-04-09",
+            "status": "Day To Day",
+            "structured_id": "155ff771-bdf4-4a16-9908-6b555ff73ace"
+          },
+          {
+            "comment": "The Grizzlies listed Coward as Out for Sunday's (Apr. 12) game against the Rockets.",
+            "date_updated": "2026-04-11",
+            "description": "Back",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "fc56c21a-a5a1-4ac3-aa90-1eb74d41da9f"
+          },
+          {
+            "comment": "The Grizzlies listed Spencer as Out for Sunday's (Apr. 12) game against the Rockets.",
+            "date_updated": "2026-04-11",
+            "description": "Back",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "5b48c281-6f74-4ed0-9252-17fcd483d5c9"
+          },
+          {
+            "comment": "The Grizzlies announced that Clarke needs additional time to recover from a right calf strain and has been ruled out for the rest of the 2025-26 season.",
+            "date_updated": "2026-03-24",
+            "description": "Calf",
+            "start_date": "2025-12-22",
+            "status": "Out For Season",
+            "structured_id": "4e4462ee-8564-4052-ba81-7c1e416c3e6f"
+          }
+        ],
+        "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211": [
+          {
+            "comment": "The Rockets listed Durant as Out for Sunday's (Apr. 12) game against the Grizzlies.",
+            "date_updated": "2026-04-11",
+            "description": "Rest",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "8e0accf8-4bfd-4f77-b11f-066cb119acdc"
+          },
+          {
+            "comment": "The Rockets listed Thompson as Out for Sunday's (Apr. 12) game against the Grizzlies.",
+            "date_updated": "2026-04-11",
+            "description": "Rest",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "a7a8f83d-04d7-4b6f-aa3d-f50e09d9226b"
+          },
+          {
+            "comment": "The Rockets said on Monday (Sept. 22) that VanVleet suffered a torn ACL and may be out for the entire 2025-26 campaign, per Shams Charania of ESPN.",
+            "date_updated": "2025-09-22",
+            "description": "ACL",
+            "start_date": "2025-09-22",
+            "status": "Out For Season",
+            "structured_id": "3902d32a-809a-4cf1-9f85-7b9152c25209"
+          },
+          {
+            "comment": "The Rockets said on Wednesday (Jan. 28) that Adams underwent season-ending ankle surgery.",
+            "date_updated": "2026-01-28",
+            "description": "Ankle",
+            "start_date": "2026-01-18",
+            "status": "Out For Season",
+            "structured_id": "b175a13d-a9c0-41f6-a9cd-2594f7a92578"
+          },
+          {
+            "comment": "The Rockets listed Smith Jr. as Out for Sunday's (Apr. 12) game against the Grizzlies.",
+            "date_updated": "2026-04-11",
+            "description": "Rest",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "9dec6528-0fb1-4529-9a55-82650e04121b"
+          },
+          {
+            "comment": "The Rockets listed Sengun as Out for Sunday's (Apr. 12) game against the Grizzlies.",
+            "date_updated": "2026-04-11",
+            "description": "Rest",
+            "start_date": "2026-04-11",
+            "status": "Out",
+            "structured_id": "91e0c839-f764-41cc-b787-01591de2775f"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-11T01:30:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 132,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": false
+        },
+        {
+          "date": "2026-04-10T00:00:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 113,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-04-08T03:00:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 119,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-04-06T02:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 117,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-04-04T00:00:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 140,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        }
+      ],
+      "home_team_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR12MEMHOU",
+      "player_id_mapping": {
+        "02d782f9-c33b-4ebb-a7f2-7f19cfafaf89": "9b1d114b-c1a7-455b-bb66-f6b74d7bec51",
+        "03cf6eb6-688a-49b1-a4cc-f10c39c21725": "49771603-2a9e-4029-b716-a0f32150dc14",
+        "169083b9-0653-44c8-ac69-bc5360a468c6": "d2658e1b-6cfa-4e54-8698-db5f6ba205c3",
+        "1938fb4b-347a-43fd-ba41-1abdb9540699": "23ef2bb4-e11a-46ed-bc4f-5314321de04d",
+        "1b628236-920e-4307-942f-dda6d6e14de8": "fd4a1375-41fa-4ff9-9a6c-60d590b5be33",
+        "1c7e3ee9-c6cd-4e1d-9efe-81fb1b2d4b69": "11925af5-ab26-42dd-8f2d-9a14d4d0f7c3",
+        "24a43040-21a3-49da-aa0c-6e781f992f38": "21eb7b35-88a5-49ae-8986-ba3e05d79371",
+        "266cd359-f378-45c6-957e-6e21378e5219": "bea22e75-78de-4403-98b8-953d4a69aed4",
+        "28549c0f-c6e6-4757-a515-dbc2e1b78007": "f438ad3e-c75f-45b5-af2a-bf90dbf16fdd",
+        "293be24b-3a94-40b2-a7a4-a1dd788302e9": "9dec6528-0fb1-4529-9a55-82650e04121b",
+        "426357dc-340b-4d89-8e3b-7d6b4022b460": "7e8c7e38-aafa-430a-9e29-018d4850476c",
+        "45f17314-918c-49bd-a482-adc171859025": "3902d32a-809a-4cf1-9f85-7b9152c25209",
+        "47ff78e7-5607-48d6-9c1a-bddb075dbe70": "91e0c839-f764-41cc-b787-01591de2775f",
+        "4ea56b9e-562d-4f19-a0e1-ea0e1da19688": "fe5a04a5-0dc7-4373-baf9-36c4bced83a5",
+        "53f2fa48-e61b-49fb-843d-8a3e872257eb": "8e0accf8-4bfd-4f77-b11f-066cb119acdc",
+        "599e6bbf-54a5-431b-b542-1817a0942369": "41f8ada0-5160-4cff-b69e-a335d1a9eec7",
+        "6e468041-8174-4161-8c1d-8ac620e0cbb0": "2c953e88-5354-4653-b8cf-12c8040bafdc",
+        "7c9ba5c2-8df5-4fe9-97f0-18d53d6dafd8": "55da8d79-a267-4dcc-a8da-f25518af50a0",
+        "877eb456-2827-475f-b858-2bc00480e24f": "6863da28-cf95-4966-b5bc-80657ddebb79",
+        "892e2e4d-b10c-47b1-8c40-25ac3c9f7166": "762232bb-5666-4941-9352-2ca8637b8f03",
+        "8c68e544-39ac-4016-8741-a498a979a95a": "bc51427b-a059-439e-85bc-c86907636979",
+        "9983bed6-e53c-4c65-a90a-51546a0e3352": "3956631b-53dc-4cd9-8521-c8a113c806fa",
+        "9c8dc8ee-6207-48d5-81ee-f362f5e17f9b": "751fd761-96ac-4859-aade-a38d1e2d5c4c",
+        "9e51be65-7d39-433c-8d8c-de896da6267d": "5b48c281-6f74-4ed0-9252-17fcd483d5c9",
+        "9f666f68-046c-4315-a89d-d9ec2e9a852d": "fc56c21a-a5a1-4ac3-aa90-1eb74d41da9f",
+        "a208e22a-6b63-45f9-b7c6-bf913a68f3df": "b175a13d-a9c0-41f6-a9cd-2594f7a92578",
+        "af1ba5e5-3f34-4ada-aa9f-f818baf7706f": "0399d93d-2926-4c73-b773-be04e4527221",
+        "b8b323c1-5691-43a4-9c48-707531803d6a": "a7a8f83d-04d7-4b6f-aa3d-f50e09d9226b",
+        "b8fd0298-4027-47e2-9531-fa7c01b8bbba": "155ff771-bdf4-4a16-9908-6b555ff73ace",
+        "b9155864-4192-4ad7-8652-57a0844c87b3": "c8677945-77af-435d-ad23-d339c1522313",
+        "c2f67310-b2e2-4e89-a1f9-303e836b1415": "0a2e3f0b-0b82-4806-aefc-e0130c226b14",
+        "c37dafbb-a269-41f6-813f-bdb4da388203": "9e825975-01c2-44c3-90b4-b1d961fae03b",
+        "c978afe7-cf22-45fc-8d0f-da8f867eb5ee": "4e4462ee-8564-4052-ba81-7c1e416c3e6f",
+        "cecc054e-b9ec-4c71-8bbb-5ee665a8c3a9": "8bcb0399-a016-42af-bbc8-b701f99abb96",
+        "d1951755-732a-453b-bede-69ff9e5a595c": "5e85252f-a995-4dc2-8d1e-e7fd7503c803",
+        "df62b7c5-faaa-4f37-a716-b7e034aa03eb": "d6d1d5a3-80ef-4687-af8c-dfaae4d6ea92",
+        "e7373530-b566-4f36-b0de-0510b6d94e0e": "5fd6ece6-062c-465b-9a45-da012e1ba84a",
+        "f2d36d30-3544-41cb-831d-afec9e256418": "7ae937e9-691a-4645-9e65-29e0f5713858",
+        "fb6e5496-cfa5-42c2-bbfa-f776734a25a8": "3783ab8b-6b24-48d3-835e-3d18b2ebd848"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "5b85404f-270b-4264-8ada-e2a652ad54eb",
+      "status": "inprogress"
+    },
+    "end_date": "2026-04-13T03:10:36Z",
+    "id": "14f65ad4-28c0-4800-8249-2d48d28f5b07",
+    "last_updated_ts": "2026-04-14T03:58:41.854877Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR12MEMHOU",
+      "KXNBASPREAD-26APR12MEMHOU",
+      "KXNBATOTAL-26APR12MEMHOU",
+      "KXNBATEAMTOTAL-26APR12MEMHOU",
+      "KXNBA1HWINNER-26APR12MEMHOU",
+      "KXNBA2HWINNER-26APR12MEMHOU",
+      "KXNBA1HSPREAD-26APR12MEMHOU",
+      "KXNBA1HTOTAL-26APR12MEMHOU"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR12MEMHOU",
+      "KXNBASPREAD-26APR12MEMHOU",
+      "KXNBATOTAL-26APR12MEMHOU",
+      "KXNBATEAMTOTAL-26APR12MEMHOU",
+      "KXNBA1HWINNER-26APR12MEMHOU",
+      "KXNBA2HWINNER-26APR12MEMHOU",
+      "KXNBA1HSPREAD-26APR12MEMHOU",
+      "KXNBA1HTOTAL-26APR12MEMHOU",
+      "KXNBAPTS-26APR12MEMHOU",
+      "KXNBAREB-26APR12MEMHOU",
+      "KXNBAAST-26APR12MEMHOU",
+      "KXNBA3PT-26APR12MEMHOU",
+      "KXNBA2D-26APR12MEMHOU"
+    ],
+    "source_id": "5b85404f-270b-4264-8ada-e2a652ad54eb",
+    "source_ids": {
+      "source_2_id": "20260413A8E0EE1D",
+      "source_3_id": "5b85404f-270b-4264-8ada-e2a652ad54eb",
+      "source_4_id": "62925349",
+      "source_5_id": "sr:match:62925349"
+    },
+    "start_date": "2026-04-13T00:30:00Z",
+    "title": "Memphis at Houston",
+    "type": "basketball_game"
+  }
+}

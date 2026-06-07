@@ -1,0 +1,252 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-22T21:00:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 128,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-21T01:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 121,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-19T00:30:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 118,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        },
+        {
+          "date": "2026-03-18T02:00:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 124,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-15T00:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 125,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": false
+        }
+      ],
+      "away_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "game_injuries": {
+        "ace11dff-c5d1-4ab9-9452-5312253659fd": [
+          {
+            "comment": "The Suns reported on Thursday (Mar. 12) that Brooks has shed the cast on his surgically repaired left hand, but he's still not been cleared for contact work, per Amanda Pflugrad of 3TV Phoenix.",
+            "date_updated": "2026-03-12",
+            "description": "Hand",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "4f37758f-6499-4692-b0d6-7c0aafc58cef"
+          },
+          {
+            "comment": "Williams will be re-evaluated in 2-to-3 weeks after being diagnosed with a stress reaction in the third metatarsal of his left foot, according to Shane Young of the Suns' official site.",
+            "date_updated": "2026-03-05",
+            "description": "Foot",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "8a343563-d02a-4fb5-995b-558cba5ce783"
+          },
+          {
+            "comment": "The Suns listed Highsmith as OUT for Tuesday's (Mar. 24) game against Denver.",
+            "date_updated": "2026-03-23",
+            "description": "Knee",
+            "start_date": "2026-03-19",
+            "status": "Out",
+            "structured_id": "4cce6dfe-00c9-4334-9bc4-f085f127200d"
+          },
+          {
+            "comment": "The Suns listed Dunn as OUT for Tuesday's (Mar. 24) game against the Nuggets.",
+            "date_updated": "2026-03-24",
+            "description": "Groin",
+            "start_date": "2026-03-24",
+            "status": "Out",
+            "structured_id": "5a55f86d-dd08-4c8d-b9cd-8549d64f86f4"
+          },
+          {
+            "comment": "The Suns listed Coffey as OUT for Tuesday's (Mar. 24) game against Denver.",
+            "date_updated": "2026-03-23",
+            "description": "Ankle",
+            "start_date": "2026-03-19",
+            "status": "Out",
+            "structured_id": "482a6dca-2054-4864-a82b-fec005bccbec"
+          }
+        ],
+        "ba2cb6be-9827-46a8-8e6f-d8661307ba77": [
+          {
+            "comment": "The Nuggets listed Watson as OUT for Tuesday's (Mar. 24) game against Phoenix.",
+            "date_updated": "2026-03-23",
+            "description": "Hamstring",
+            "start_date": "2026-03-23",
+            "status": "Out",
+            "structured_id": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-23T01:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 120,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-03-22T02:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 105,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        },
+        {
+          "date": "2026-03-20T00:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 100,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        },
+        {
+          "date": "2026-03-18T00:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 104,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        },
+        {
+          "date": "2026-03-16T23:30:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 112,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        }
+      ],
+      "home_team_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR24DENPHX",
+      "player_id_mapping": {
+        "0b9bab33-66c3-4e01-b91e-df6b8c40ea2b": "31f47c5d-9201-4953-a3b9-c474734051bb",
+        "18c4bd7c-e293-4c0a-95d4-5e9983d301b3": "40b4e236-80d9-476b-98c1-e5ab58b441e8",
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "215f475c-bee5-418c-ba2d-ebb9580e4b3c": "276f9513-b8ed-4a02-9847-8e25afc5bf67",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "31baa84f-c759-4f92-8e1f-a92305ade3d6": "3f978bca-a08f-4bf0-af43-279bfb8384d9",
+        "32526c95-bc6e-4d28-a751-c4200904d80b": "5ffee3f0-4e18-4bd7-b893-81f335111761",
+        "339eff07-4d8e-42c6-9a47-900e94b13654": "a1bd832f-dd37-43ef-940c-e6c5d80f9af2",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "36d34864-f1f9-48f9-9cf1-bd7accc437c7": "9b4296e6-79b8-4ad5-94e3-afc3956122a4",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "60b8026e-e154-4ed7-a247-8e4af1dbf668": "43913e84-c766-46d4-922d-76c07d62beff",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "6c0e93c1-0b81-4abb-8eb6-e573eff576ea": "094d4fcb-01e2-405e-a7ee-1f0ec4c6840f",
+        "72a6489b-ad35-4f06-8a4f-a68ea1052f7b": "4f37758f-6499-4692-b0d6-7c0aafc58cef",
+        "749f9e06-52c1-4436-840e-9096a9908c0b": "5a55f86d-dd08-4c8d-b9cd-8549d64f86f4",
+        "8f6ef350-1d9a-4eda-bee9-294d0e9e64db": "3893af8f-647f-4298-8f72-552d451d6533",
+        "9a331092-35db-456c-a44a-d5b80a02ebe9": "5bd1435d-e77a-4202-bff3-6977979e10c1",
+        "a17d9b20-4e2b-4612-aecd-27938c997e94": "4cce6dfe-00c9-4334-9bc4-f085f127200d",
+        "a5ec46e9-928f-4609-ab4d-c86ec6434327": "8a343563-d02a-4fb5-995b-558cba5ce783",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "b9d4ce1b-94dc-4bec-8d62-70a86d9c523e": "482a6dca-2054-4864-a82b-fec005bccbec",
+        "c722d438-db08-421e-9484-9e7d2f67c05d": "89073ae6-964f-4d13-8eeb-2e5ead049263",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "cbc0a3b2-985e-4484-9cb6-6891337b18b7": "060893cf-54aa-4987-8984-66e7bc6c6fa3",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e1d35615-1fd9-4c91-a05f-ef6e7f23c4ff": "70b46360-e073-43d8-948b-cefbbd66b356",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f",
+        "fc0c5adb-2e00-4b9b-9db2-338ed54be386": "8c677e1a-09f0-4dab-9c20-161558ae282c",
+        "ffa9a64f-d624-4033-bd23-59dcfd805175": "07a246cd-1c40-42f1-849e-58fbd7696c30"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "dc75494e-6dc6-4e06-b07c-890d480b2ee1",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-25T16:08:20Z",
+    "id": "32978de0-92a1-4b65-83c9-6660319d80e6",
+    "last_updated_ts": "2026-03-26T16:26:51.500239Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR24DENPHX",
+      "KXNBASPREAD-26MAR24DENPHX",
+      "KXNBATOTAL-26MAR24DENPHX",
+      "KXNBATEAMTOTAL-26MAR24DENPHX",
+      "KXNBA1HWINNER-26MAR24DENPHX",
+      "KXNBA2HWINNER-26MAR24DENPHX",
+      "KXNBA1HSPREAD-26MAR24DENPHX",
+      "KXNBA1HTOTAL-26MAR24DENPHX",
+      "KXNBA2HSPREAD-26MAR24DENPHX",
+      "KXNBA2HTOTAL-26MAR24DENPHX"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR24DENPHX",
+      "KXNBASPREAD-26MAR24DENPHX",
+      "KXNBATOTAL-26MAR24DENPHX",
+      "KXNBATEAMTOTAL-26MAR24DENPHX",
+      "KXNBAMENTION-26MAR25DENPHX",
+      "KXNBA1HWINNER-26MAR24DENPHX",
+      "KXNBA2HWINNER-26MAR24DENPHX",
+      "KXNBAPTS-26MAR24DENPHX",
+      "KXNBAREB-26MAR24DENPHX",
+      "KXNBAAST-26MAR24DENPHX",
+      "KXNBA3PT-26MAR24DENPHX",
+      "KXNBA2D-26MAR24DENPHX",
+      "KXNBA3D-26MAR24DENPHX",
+      "KXNBA1HSPREAD-26MAR24DENPHX",
+      "KXNBA1HTOTAL-26MAR24DENPHX",
+      "KXNBASTL-26MAR24DENPHX",
+      "KXNBABLK-26MAR24DENPHX",
+      "KXNBA2HSPREAD-26MAR24DENPHX",
+      "KXNBA2HTOTAL-26MAR24DENPHX"
+    ],
+    "source_id": "dc75494e-6dc6-4e06-b07c-890d480b2ee1",
+    "source_ids": {
+      "source_2_id": "202603258D6DEAE9",
+      "source_3_id": "dc75494e-6dc6-4e06-b07c-890d480b2ee1",
+      "source_4_id": "62924773",
+      "source_5_id": "sr:match:62924773"
+    },
+    "start_date": "2026-03-25T03:00:00Z",
+    "title": "Denver at Phoenix",
+    "type": "basketball_game"
+  }
+}

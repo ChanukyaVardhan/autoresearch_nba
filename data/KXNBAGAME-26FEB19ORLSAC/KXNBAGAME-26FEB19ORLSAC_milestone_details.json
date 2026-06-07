@@ -1,0 +1,242 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-12T00:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 108,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": false
+        },
+        {
+          "date": "2026-02-10T00:30:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 118,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-02-08T00:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 120,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-02-06T00:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 118,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": true
+        },
+        {
+          "date": "2026-02-04T01:00:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 92,
+          "structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "winner": false
+        }
+      ],
+      "away_team_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+      "game_injuries": {
+        "00c3e69d-d9b9-4ac3-bf79-19707fe43637": [
+          {
+            "comment": "Wagner will be sidelined for at least 3 weeks after recent tests showed that he requires additional time and rehabilitation for soreness in his left high ankle sprain, per Shams Charania of ESPN.",
+            "date_updated": "2026-02-18",
+            "description": "Ankle",
+            "start_date": "2026-02-18",
+            "status": "Out",
+            "structured_id": "0432f2e8-9b8e-4324-a15d-c40aa0c79842"
+          },
+          {
+            "comment": "Castleton remains out with an injury and continues to be evaluated; return status is undetermined.",
+            "date_updated": "2025-11-30",
+            "description": "Thumb",
+            "start_date": "2025-11-11",
+            "status": "Out",
+            "structured_id": "909e5e21-001e-4017-a14f-b769fe85712f"
+          }
+        ],
+        "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7": [
+          {
+            "comment": "Sabonis underwent season-ending knee surgery Wednesday (Feb. 18) to repair a torn left meniscus, Shams Charania of ESPN.",
+            "date_updated": "2026-02-18",
+            "description": "Back",
+            "start_date": "2026-02-05",
+            "status": "Out For Season",
+            "structured_id": "144e1e61-d50e-4325-8ff6-7a695f03446a"
+          },
+          {
+            "comment": "Cardwell sprained his left ankle at Tuesday's (Feb. 17) practice and will be re-evaluated in four weeks, as per James Ham of ESPN 1320 Sacramento.",
+            "date_updated": "2026-02-18",
+            "description": "Ankle",
+            "start_date": "2026-02-18",
+            "status": "Out",
+            "structured_id": "57a29545-91aa-423e-9a6f-53959a3b5b89"
+          },
+          {
+            "comment": "The Kings listed Hunter as Out for Thursday's (Feb. 19) game against the Magic.",
+            "date_updated": "2026-02-18",
+            "description": "Eye",
+            "start_date": "2026-02-06",
+            "status": "Out",
+            "structured_id": "c9d2b49b-d13f-4f5e-b22c-9465a398b8c7"
+          },
+          {
+            "comment": "LaVine will undergo season-ending surgery on his right hand after the All-Star break, per Chris Haynes of NBA TV.",
+            "date_updated": "2026-02-13",
+            "description": "Finger",
+            "start_date": "2026-02-07",
+            "status": "Out For Season",
+            "structured_id": "b02cbe96-1ddf-40bc-9dec-7146c3350d61"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-12T02:00:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 93,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        },
+        {
+          "date": "2026-02-10T01:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 94,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        },
+        {
+          "date": "2026-02-08T03:00:00+00:00",
+          "opponent_points": 132,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 126,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        },
+        {
+          "date": "2026-02-07T03:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 111,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        },
+        {
+          "date": "2026-02-05T03:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 125,
+          "structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "winner": false
+        }
+      ],
+      "home_team_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB19ORLSAC",
+      "player_id_mapping": {
+        "00080fe6-49ad-4685-a308-eb96b1f11ddf": "eedb0f74-ef72-4f3e-9302-1528cd34c975",
+        "089dc4be-faf1-4d91-9e02-fdb78ed096f3": "60bb439a-df6a-4fea-8312-4caa6a2c0fbe",
+        "0c977083-fdde-45f1-9406-60aef2a78846": "d5a4e355-31c8-4420-b094-e276ca1a1866",
+        "0fbb8fd5-9b9c-48a2-a355-18aba7b5d9d5": "ab199aae-ac30-4a73-96ac-a67ac1d2e8d1",
+        "22038780-8c50-4211-a99e-656d983e5207": "144e1e61-d50e-4325-8ff6-7a695f03446a",
+        "3214b8de-d3ea-4188-9329-15a92f894f23": "63416847-07a8-4bf1-b6cd-4243e0e76d8f",
+        "37cbf881-ab20-44e7-bfb9-af3f7c7fe5d1": "57a29545-91aa-423e-9a6f-53959a3b5b89",
+        "3ac2181f-3bec-4ffc-809f-30f2357b36c1": "00472d5d-df65-4e81-abb4-e88b02c71002",
+        "3dbbb869-88a8-44f2-ac36-46fd0f5d825c": "06dc3030-152c-4e06-b359-9f64855a39dc",
+        "49962b13-0afc-43f5-a3e2-7e37b7736260": "ccb79bb0-64c9-46fe-9442-81a77ede2c47",
+        "49d8f5ef-2867-4597-a3ab-5ffc5e651258": "2df6129b-493e-48d1-a53f-1f97d74696b1",
+        "5099364d-2c4b-4d38-ac66-a86d9489474c": "f84f97c0-2831-4378-94bc-1f2edff36452",
+        "514fd4aa-5384-4bc7-a670-367a426ca235": "0432f2e8-9b8e-4324-a15d-c40aa0c79842",
+        "529cb618-8e48-4011-bd42-dd0b9d91fdcb": "af191999-3663-4264-922a-5934a7f04907",
+        "5e86a9c3-b4d0-4fe1-a551-acd83e5d60eb": "11460f89-46da-4ee8-b5fe-8ca87ddb96e6",
+        "66156be8-6202-40bd-bdc2-014a46bee28f": "7fc358f2-b354-4004-afb1-f500fb99dd00",
+        "6dda6e0a-4b74-4486-80cd-5f9a8d93d1ba": "c382fa1a-0107-40fb-b0b7-03f1386f8797",
+        "744d5db7-b0be-474a-a58b-6ddf7ae35567": "708d8ae3-92df-416c-9629-917d1d20edd6",
+        "7494fbb4-5ac7-43ee-b91a-8859532f548b": "ab771c9f-a307-419b-a3d5-217074ab292c",
+        "74a45eed-f2b0-4886-ae71-d04cf7d59528": "91053668-891b-464a-8249-ccbad9903b85",
+        "776679a3-c1d8-4463-99b1-61024008a3ed": "e43412ed-d498-4dca-b8ab-584e80e6d6a0",
+        "79cd9581-3aaa-484c-a8b1-a349cdc5c34c": "51a39148-a6c9-407a-8dab-ee71cc9ed9b1",
+        "98fa75e7-a46f-4483-a15b-053c5ca52604": "c692e967-4748-4212-9d05-f7f86b8dc5ea",
+        "a3c4745f-461b-47d4-87db-887ac81fe5e7": "830e16cb-c0c6-493b-986a-2c87b031056b",
+        "a4a75d83-54b5-4dca-913e-44ab04288446": "c9d2b49b-d13f-4f5e-b22c-9465a398b8c7",
+        "a4b52811-c864-4830-a0fe-9d9745814422": "909e5e21-001e-4017-a14f-b769fe85712f",
+        "ad5c19d3-1cce-4124-aeb9-dc15b3d0a851": "06c34edd-c420-4f1a-a768-f71e796aa5b1",
+        "badef3c4-e77e-4444-ac80-95d71332e974": "e9eedb28-ddb2-4948-8dfa-af5a44f71588",
+        "cd6c786e-3c65-4f88-9c7b-4a243295f0d6": "9b67540e-1aff-4d11-b99b-56eaf0ec30dc",
+        "db72e294-1c54-454a-96b9-0b4fd2f38112": "b02cbe96-1ddf-40bc-9dec-7146c3350d61",
+        "e783937f-31dc-41bd-9510-2572d2dc35ee": "32f6a0a3-ca43-478d-9d41-1b890a2d82da",
+        "f1f258c2-9bcf-4e33-ba9e-563e95084893": "af1aef60-b02f-4d7f-b9da-fc76ea7f6c31",
+        "fd463d95-3421-4c52-ba77-16beb48f0f7e": "4ed0f34a-d3ec-4e33-96ae-d0935ae68985"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "f0c13c5d-9e39-4af9-a04a-8e38692345b2",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-20T16:23:06Z",
+    "id": "1adaa57a-bcc4-4869-af3f-7605a0208d50",
+    "last_updated_ts": "2026-03-26T07:28:33.469326Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB19ORLSAC",
+      "KXNBASPREAD-26FEB19ORLSAC",
+      "KXNBATOTAL-26FEB19ORLSAC",
+      "KXNBATEAMTOTAL-26FEB19ORLSAC",
+      "KXNBA1HWINNER-26FEB19ORLSAC",
+      "KXNBA1HSPREAD-26FEB19ORLSAC",
+      "KXNBA1HTOTAL-26FEB19ORLSAC",
+      "KXNBA2HWINNER-26FEB19ORLSAC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB19ORLSAC",
+      "KXNBASPREAD-26FEB19ORLSAC",
+      "KXNBATOTAL-26FEB19ORLSAC",
+      "KXNBATEAMTOTAL-26FEB19ORLSAC",
+      "KXNBAPTS-26FEB19ORLSAC",
+      "KXNBAREB-26FEB19ORLSAC",
+      "KXNBAAST-26FEB19ORLSAC",
+      "KXNBASTL-26FEB19ORLSAC",
+      "KXNBA3PT-26FEB19ORLSAC",
+      "KXNBA2D-26FEB19ORLSAC",
+      "KXNBA3D-26FEB19ORLSAC",
+      "KXNBA1HWINNER-26FEB19ORLSAC",
+      "KXNBA1HSPREAD-26FEB19ORLSAC",
+      "KXNBA1HTOTAL-26FEB19ORLSAC",
+      "KXNBA2HWINNER-26FEB19ORLSAC",
+      "KXNBABLK-26FEB19ORLSAC"
+    ],
+    "source_id": "f0c13c5d-9e39-4af9-a04a-8e38692345b2",
+    "source_ids": {
+      "source_2_id": "202602203EF5BD5D",
+      "source_3_id": "f0c13c5d-9e39-4af9-a04a-8e38692345b2"
+    },
+    "start_date": "2026-02-20T03:00:00Z",
+    "title": "Orlando at Sacramento",
+    "type": "basketball_game"
+  }
+}

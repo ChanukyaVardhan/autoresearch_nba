@@ -1,0 +1,93 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+      "home_team_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB03PHIGSW",
+      "player_id_mapping": {
+        "047d0b63-4142-46e9-8f04-a61622ae2375": "4958cb9b-ee08-4c69-950c-ffde59dbfe29",
+        "0e163d44-67a7-4107-9421-5333600166bb": "b99dd959-bae1-40f0-9c67-82f5b8f9961c",
+        "1bd4a869-80a3-47b7-bac9-789bda6e6e92": "21e37a74-41d2-4c09-9f05-9b20a14ba88b",
+        "21ed49ae-44cf-4031-9b6f-a48fb8a3e41c": "f7312c21-e5e7-4587-885c-111b2ac5a976",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "2edce68b-39ae-4307-9136-8b31b5222039": "00c958c5-01a7-4668-a3b3-669c22526e03",
+        "3a3207cc-269f-47ef-9b77-f852f0bed4b0": "b7db4ac9-30c3-4471-a2dd-7d94fa43101d",
+        "41ed1b83-4a60-4d43-b985-3c8d239d4da6": "9b80ae56-086e-42ad-9d22-f4e5af386852",
+        "440b769d-2b8b-477f-80d7-cb21d83c0d52": "dea3d9c3-c6fd-4f7a-bb80-ac4ae029c114",
+        "4589f8d1-66cd-4d57-a5b5-c7d130a0b43d": "3a43b825-6a96-4713-bebe-cb83d6583d39",
+        "49be9129-da30-4e74-aa60-b1e87582604b": "18664b17-45cf-442b-858e-877eee059745",
+        "5b22ae60-ca29-4cd8-b618-cce7b9766b0e": "6f08251f-1597-4eb0-bfe1-1fb3bf038b22",
+        "5e5099d1-4a58-43f2-8d03-f2ae5dd49337": "2c42ea40-5090-4cf2-bc6c-f66f5b61ba14",
+        "75fc46eb-71d8-4d1a-984f-3747ccd7a4c9": "90456e7e-47d2-483c-afe5-b6bacec17b2f",
+        "795f46f2-c78d-4f1d-9ee2-4331c1cc8184": "383eab80-5509-470a-976d-3b960b1780fa",
+        "7df31401-85c4-449f-bc87-f605145ef7ba": "1cefe214-8a3b-42d1-a667-4e30137e88b9",
+        "7dfa0971-96be-4705-9811-f9f54758145f": "605cfa20-dc8e-4c44-90bd-1ee476ec4138",
+        "8a62bff0-8dc9-4bea-9922-6eeabb6212f2": "6df8207e-36e7-41e5-ac37-c18258b1ca28",
+        "8c090758-6baa-468d-82fd-d47e17d5091b": "c2755450-76a7-4d77-a5cc-de4e980c0f92",
+        "8ec91366-faea-4196-bbfd-b8fab7434795": "15cba021-5e04-44b0-95f9-9e975ec48697",
+        "955fe0fb-3ca2-49c0-9a19-922d8349f13c": "65cb54f5-90b2-4b5a-b342-1fc39d18d62e",
+        "9f4181d5-0999-46ba-b466-d90ded24268a": "40a4cc2c-91d4-45c2-9324-d2a527c010f6",
+        "a316cf6a-693d-4c6a-b0d9-ebf80e73e832": "979a2510-ac66-443a-9bfa-f0df7b3f5cca",
+        "a5b978ac-7a35-4ec0-b15f-91d9a8e1ac31": "1dac11cb-7913-4a15-b8e7-941df50b2fb5",
+        "b27687c1-55bb-49e6-9c5b-96a099fda7b7": "ad81c551-8dcc-4678-a547-523db6eac9e6",
+        "bc19b036-9098-4d4c-bffd-1c27918a89e5": "0a9c39f2-4e66-4d1d-8979-9156cb0ac028",
+        "bf9ad0fd-0cb8-4360-8970-5f1b5cf3fa8d": "8aa20fec-25b0-47c8-bd26-efd64ee0826c",
+        "cf3a87ec-c2f7-42e8-9698-6f8b2ba916a9": "92abd54e-0cbb-43ea-b4be-abcb4f5e2104",
+        "d325bed1-c812-4bf4-b2a1-3cb32fcb86fa": "f51d60f4-2633-4be8-b49c-d09a42c6051c",
+        "db09f372-9a17-4889-add7-bf8a75ab6da6": "bcd4c0ae-6e30-47ea-a549-eb7f70b8147a",
+        "e8486226-53e1-4857-b5f0-8b6fe88bdd8a": "1774828d-9afb-4643-81a8-af05aafa6866",
+        "eb063340-43d5-4f5c-8097-fa6e40b6f5e2": "4d12a90a-dfe6-42f9-a1df-178d1d8b7d04",
+        "f5d6fdfd-21f6-48f0-a297-4c13e8fc40cb": "de746546-c159-4ec4-aaa0-ae789e4565eb",
+        "f8d6c74c-e0bd-41ed-a814-f0b25259fe0a": "c765b0e0-2f03-4613-8554-8cd052d39f68",
+        "fc036630-debc-44bf-9663-03c3fbd3045c": "456d20cd-0fd9-46cd-9aec-b56181bccea6",
+        "ff065b75-4031-474c-9610-c505db2ca63e": "43edc187-1d56-40bc-ba15-a7b200a08e8f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "c7822300-b405-4a16-85c5-b7fcde2687ed",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-04T05:40:26Z",
+    "id": "d72a4009-7160-408f-8dc4-266c9fefaef7",
+    "last_updated_ts": "2026-03-26T07:27:25.812113Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB03PHIGSW",
+      "KXNBASPREAD-26FEB03PHIGSW",
+      "KXNBATOTAL-26FEB03PHIGSW"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB03PHIGSW",
+      "KXNBASPREAD-26FEB03PHIGSW",
+      "KXNBATOTAL-26FEB03PHIGSW",
+      "KXNBAPTS-26FEB03PHIGSW",
+      "KXNBAREB-26FEB03PHIGSW",
+      "KXNBAAST-26FEB03PHIGSW",
+      "KXNBA3PT-26FEB03PHIGSW",
+      "KXNBA2D-26FEB03PHIGSW",
+      "KXNBA3D-26FEB03PHIGSW",
+      "KXNBASTL-26FEB03PHIGSW",
+      "KXNBABLK-26FEB03PHIGSW"
+    ],
+    "source_id": "c7822300-b405-4a16-85c5-b7fcde2687ed",
+    "source_ids": {
+      "source_2_id": "2026020498530A52",
+      "source_3_id": "c7822300-b405-4a16-85c5-b7fcde2687ed"
+    },
+    "start_date": "2026-02-04T03:00:00Z",
+    "title": "Philadelphia at Golden State",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-25T00:30:00+00:00",
+          "opponent_points": 94,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 109,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-02-22T18:00:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 113,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        },
+        {
+          "date": "2026-02-21T00:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 118,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-02-20T00:00:00+00:00",
+          "opponent_points": 84,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 112,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T00:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 138,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        }
+      ],
+      "away_team_id": "90381a35-42a6-4975-851f-175418e4271a",
+      "game_injuries": {
+        "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3": [
+          {
+            "comment": "The Bucks have listed Antetokounmpo as OUT for Wednesday's (Feb. 25) game against the Cavaliers.",
+            "date_updated": "2026-02-25",
+            "description": "Calf",
+            "start_date": "2026-01-24",
+            "status": "Out",
+            "structured_id": "6c376ad3-bb8c-499d-9745-f87b60e40d66"
+          },
+          {
+            "comment": "The Bucks announced on Thursday (Jan. 1) that Prince applied for a Disabled Player Exception for Prince earlier this month, indicating that they anticipate that he's substantially more likely than not to be unable to play through June 15, per Eric Nehm of",
+            "date_updated": "2026-01-01",
+            "description": "Neck",
+            "start_date": "2025-11-07",
+            "status": "Out",
+            "structured_id": "d8974980-82ba-42dc-a510-dcb0564050d0"
+          }
+        ],
+        "90381a35-42a6-4975-851f-175418e4271a": [
+          {
+            "comment": "The Cavaliers have listed Mitchell as OUT for Wednesday's (Feb. 25) game against the Bucks.",
+            "date_updated": "2026-02-25",
+            "description": "Groin",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6"
+          },
+          {
+            "comment": "The Cavaliers said on Wednesday (Feb. 18) that Strus is still not cleared for contact. He can be deemed as week-to-week.",
+            "date_updated": "2026-02-18",
+            "description": "Foot",
+            "start_date": "2025-08-26",
+            "status": "Out",
+            "structured_id": "e59d506e-4dfc-496b-87e1-f74fda25816d"
+          },
+          {
+            "comment": "The Cavaliers have listed Mobley as OUT for Wednesday's (Feb. 25) game against the Bucks.",
+            "date_updated": "2026-02-25",
+            "description": "Injury Maintenance",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "e6212176-2793-4f9a-8e1b-7d294eca2787"
+          },
+          {
+            "comment": "The Cavaliers have listed Harden as Out for Wednesday's (Feb. 25) game against the Bucks.",
+            "date_updated": "2026-02-25",
+            "description": "Thumb",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "d5324b8e-901b-404d-bfef-a5f5d62bed85"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-25T01:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 128,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": true
+        },
+        {
+          "date": "2026-02-22T20:30:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 94,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": false
+        },
+        {
+          "date": "2026-02-21T01:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 139,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": true
+        },
+        {
+          "date": "2026-02-13T00:30:00+00:00",
+          "opponent_points": 93,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 110,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T00:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 116,
+          "structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "winner": true
+        }
+      ],
+      "home_team_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB25CLEMIL",
+      "player_id_mapping": {
+        "030424b9-7367-45e1-b9d4-c8dee3a89e53": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2",
+        "1a120d1a-0202-4039-a00e-4daa8b7ffcfc": "8dc06468-b5e3-4d7f-b644-f3ced82f0246",
+        "22be3275-1ef8-47f7-a30d-af38f7bc96b2": "dfbabd3c-b574-4d27-81a8-36653c7d06e9",
+        "323f9ef8-ecdd-41a7-859e-dd3db48ba913": "a1339a5c-be69-4ad2-8db2-8a65c6bf1781",
+        "409f5c06-ac04-425a-8147-a4485e7b7e71": "29a143fb-73e3-4edf-8795-efd4579c3cf6",
+        "4f80cdb1-1b10-4669-9774-045bc8a99c99": "d8974980-82ba-42dc-a510-dcb0564050d0",
+        "4fae86e2-4f99-4247-af85-d917b4389d31": "29359ac2-6049-4cf0-a4da-d8b5cc354ad5",
+        "56003e58-6b25-4f22-9d97-020b3d1f6616": "d9841514-7c9f-41e8-990c-18ba19569f31",
+        "5bb6159f-27ae-406e-ac5b-e8911f0cbb7c": "1935e9f5-be0f-4138-9ca3-1499c08738b9",
+        "5efce548-15a0-4a8c-9f63-5f5db4851696": "1bd97b36-a12a-4e51-a4dc-bce1f4afdc25",
+        "616c60bf-f7ce-482d-a9c8-10c6c7fbef97": "445b8e51-f6ef-4707-afc1-651b38e89943",
+        "62daf16f-0c4c-46ae-9e54-0d34d6fdef85": "9e660772-5491-4a0f-a408-84b184a62f61",
+        "64c0e4e5-8711-4b86-8072-745f6084df73": "0e6c26ec-43d9-4080-80ae-3310855e54aa",
+        "68a8c4ea-1d77-4a42-bea4-dbe9a162332a": "24c7e18f-1086-4b18-b37c-631d2c39e0e9",
+        "68b7aac9-02fd-4bd8-b10c-6702d2c5eb98": "a91b092f-2de1-43af-ab71-fa41cf000e32",
+        "6b5d0264-fa2d-4956-919b-61abfc6bb8d7": "ee339cf2-f3ce-4bdc-9b84-1ebbb0e65fa7",
+        "6b8ed06d-a33f-46ce-b416-647100736df8": "5e64b57d-17f7-46e7-af61-b749c276591f",
+        "6c60282d-165a-4cba-8e5a-4f2d9d4c5905": "6c376ad3-bb8c-499d-9745-f87b60e40d66",
+        "7458ef96-cab7-433e-a761-4e93537f4b52": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5",
+        "8006987e-cd53-4e60-a26e-83cb96fb81ac": "32a69465-105d-4ee6-9512-273a4a604e4c",
+        "8aaf1808-f7af-4894-9b14-cc7655005313": "de933f3a-eba2-422b-b2e7-cb30ed547794",
+        "90b52759-3f0e-4d93-b5ca-fcb53afce857": "7709e8e3-d714-4bf9-8655-793857fe3e50",
+        "9e0b879c-8be6-445e-a437-a3bf18130b9c": "d1bdb658-7142-472b-b51d-d74cb4d90d9b",
+        "a2c6a907-282f-4172-9d60-42d03987da0e": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b",
+        "a3fff5c7-19b6-4dac-bd75-11b944bea505": "67a44479-d07a-4782-b8a8-c997f71f1327",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "ad389979-d1d5-4f26-ad64-3e516b3373a3": "e92aa777-3acd-4bce-a1cb-c734771fb903",
+        "b6dde96e-3748-4cbe-86d2-798d5dffb3c0": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6",
+        "bbeecf0c-62c6-4211-991d-2afaf2403623": "22c635e6-e6ac-4e0f-bff6-a8b77e157103",
+        "c6289b1b-7bb2-4ee6-8111-1a6e96aa9104": "6fcc7797-6201-40ad-bff2-abff2250bc2d",
+        "ca5ad700-2ed9-453a-9abe-08eb8edb601c": "c8fa499d-95bc-4280-85ef-c9467afd87fb",
+        "d64b602e-45f2-4ba9-878b-0a4f7210ec77": "e6212176-2793-4f9a-8e1b-7d294eca2787",
+        "e597c372-6abc-4e48-bfc6-9f8eba0c624b": "032db63a-a891-4b51-a171-800bc6861ac4",
+        "e8def95a-cdf0-423f-9cac-a3e7e92364db": "dab8637b-70f4-496d-9757-53ec9fe22533",
+        "f6aff1dc-15b9-4c89-a2fb-746f4cf78890": "e59d506e-4dfc-496b-87e1-f74fda25816d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "6379478c-414f-4da9-bb3a-a0da208e1f8a",
+      "status": "complete"
+    },
+    "end_date": "2026-02-26T05:27:34Z",
+    "id": "871c41d8-0423-4019-80ca-7c60fecda912",
+    "last_updated_ts": "2026-03-26T07:28:59.319365Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB25CLEMIL",
+      "KXNBASPREAD-26FEB25CLEMIL",
+      "KXNBATOTAL-26FEB25CLEMIL",
+      "KXNBATEAMTOTAL-26FEB25CLEMIL",
+      "KXNBA1HWINNER-26FEB25CLEMIL",
+      "KXNBA2HWINNER-26FEB25CLEMIL",
+      "KXNBA1HSPREAD-26FEB25CLEMIL",
+      "KXNBA1HTOTAL-26FEB25CLEMIL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB25CLEMIL",
+      "KXNBASPREAD-26FEB25CLEMIL",
+      "KXNBATOTAL-26FEB25CLEMIL",
+      "KXNBATEAMTOTAL-26FEB25CLEMIL",
+      "KXNBA1HWINNER-26FEB25CLEMIL",
+      "KXNBA2HWINNER-26FEB25CLEMIL",
+      "KXNBAPTS-26FEB25CLEMIL",
+      "KXNBAREB-26FEB25CLEMIL",
+      "KXNBAAST-26FEB25CLEMIL",
+      "KXNBASTL-26FEB25CLEMIL",
+      "KXNBABLK-26FEB25CLEMIL",
+      "KXNBA3PT-26FEB25CLEMIL",
+      "KXNBA2D-26FEB25CLEMIL",
+      "KXNBA3D-26FEB25CLEMIL",
+      "KXNBA1HSPREAD-26FEB25CLEMIL",
+      "KXNBA1HTOTAL-26FEB25CLEMIL"
+    ],
+    "source_id": "6379478c-414f-4da9-bb3a-a0da208e1f8a",
+    "source_ids": {
+      "source_2_id": "20260226CFA4CD2D",
+      "source_3_id": "6379478c-414f-4da9-bb3a-a0da208e1f8a",
+      "source_4_id": "62926407",
+      "source_5_id": "sr:match:62926407"
+    },
+    "start_date": "2026-02-26T01:00:00Z",
+    "title": "Cleveland at Milwaukee",
+    "type": "basketball_game"
+  }
+}

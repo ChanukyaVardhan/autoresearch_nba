@@ -1,0 +1,94 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+      "home_team_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB09ATLMIN",
+      "player_id_mapping": {
+        "02dc6e18-95a4-4919-b4fc-f8a981ccd359": "2a838282-e52d-4c14-82db-ec72fa649d2e",
+        "1d4905d6-a6b4-4b45-8a90-91ed03440d0f": "4180e569-6cb9-4bf3-9f02-ae4f7c2659e8",
+        "22d1eb4b-c0de-49c8-9e11-866b9d98cca2": "b8a2ba46-a11a-4764-83c5-39932de64a5f",
+        "24a0f5aa-209a-4d54-91db-bddecc37f87e": "7b22d659-5c24-411c-937b-23352fdefff6",
+        "24c85a15-686e-4161-934b-40948188fa36": "2bf5e35d-4c07-42ff-bcc0-e2e7b05eab71",
+        "26049bcf-1ff3-4a23-8e4c-ce0b18784738": "081cbdc6-3e78-494c-8668-e181e9544c8b",
+        "2b95727a-4273-4f8f-a45b-3d9ac9969dba": "ddef089e-567a-4057-a913-5c93bbd0ec91",
+        "3358cc38-7331-43ad-af04-ebd34fe328e7": "fa5d64cf-9154-4a34-8533-8ca65fb200d1",
+        "358fb074-ac1b-45a6-bf54-46c30534786e": "f61bdc80-8315-4d93-a488-71dc37ee3e8f",
+        "37fbc3a5-0d10-4e22-803b-baa2ea0cdb12": "e9c185a4-48f9-497a-9da5-03d763ab11a3",
+        "3f34ce93-c0ad-4868-bab4-c6d83909ff78": "a4244555-a33c-46da-8c9f-de4e6b660bad",
+        "460b7264-b98f-483e-b841-59a18c2e4d67": "4d76b816-4ca3-4a92-bbd3-489819b6821b",
+        "5b297372-b2af-445e-a4bc-777982dbc1e3": "85df4482-17a9-49b8-b40f-b6cddb54e579",
+        "5cc6d4d4-e4d5-42b7-b431-cecbc55bf023": "1369a1e6-9916-492a-8882-75697ac15b01",
+        "65fec68f-dfbb-4127-bb7a-932d5144c0f6": "c040b6ef-2b8f-4338-ad6c-6a5973bb1484",
+        "70e50e53-ca3b-425d-ac49-b156d6d1e016": "18c71a75-fa9c-458b-99a4-38de2b350233",
+        "795f46f2-c78d-4f1d-9ee2-4331c1cc8184": "383eab80-5509-470a-976d-3b960b1780fa",
+        "7ad01370-ae8e-40ae-b70d-61f6d8dba8d9": "b7022c10-2203-4b3e-877d-f539c32e0532",
+        "820a9363-1ad3-46a0-b577-2588f85b27f2": "bbee4cc1-3ac7-448a-b2aa-ad1b692d83a6",
+        "823b2161-0c34-494c-9d7c-b438152f4f4d": "15a36614-d0eb-4be8-af9f-4e79a32d4231",
+        "8e0c0e99-7060-4dce-a76a-777c3ee22da8": "2f4eae0a-51c8-4a32-97c5-d59bdea46703",
+        "952cd8e7-2fa5-4eac-bcd9-b2e135eab16f": "0f3fa1bc-e62a-4ea6-b30e-8f77f6f625f8",
+        "968ecb8b-c8b6-4fe1-a606-346f7a82a7c1": "07a07fb0-6af1-4b7a-82d7-0e706b02aa2d",
+        "9c1deadf-622c-4326-bd14-3e273b5e1e5a": "14647265-8f75-4624-abab-5b6f9d1ef5cb",
+        "9cfad453-b323-43dc-a066-6cd0a21745ad": "19e432c3-e255-428c-94d0-cedebed3dfc5",
+        "a34ec970-f4a1-47a3-98a1-51ff5e92a443": "9c875ec2-a062-4b15-9621-d5786b40a985",
+        "aa5536d2-4d75-43fb-8df3-47fbf99d3b7c": "4432f713-dfc6-47db-881d-bace88c4d9c1",
+        "b27687c1-55bb-49e6-9c5b-96a099fda7b7": "ad81c551-8dcc-4678-a547-523db6eac9e6",
+        "bc70a55a-cee0-478f-9a13-cf51c4a4187c": "fe9f8331-a822-49bc-bfca-9c7e7c84883a",
+        "d0c7135a-1aea-40cb-ba20-df656de71749": "36ea9bc5-23b0-4274-9c6c-cd8a07b1b654",
+        "d146629c-2584-4760-89af-e4378d7569c1": "d10494a2-6820-41e6-ac9c-8c518d050388",
+        "d222539f-fa52-4070-807f-d3aba372f46d": "aad8a908-c093-4a62-bf38-d6c5bc8a40f5",
+        "d3d0ab55-b939-47b3-af27-77cdf85d7956": "f46826e2-8666-4ffa-a319-627149adc113",
+        "ed643452-917d-40c5-badd-2e72958b059c": "d16a5d6e-12a2-4588-bd68-25a1f121d767",
+        "f8a7e4c7-d60e-4751-9203-30a772dd9272": "930f19e3-6885-4738-9dae-484cb321f64f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "514288fb-eda0-4e38-be27-ffd0210d1114",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-10T06:16:44Z",
+    "id": "a3a3e658-38c3-4e45-9b42-fe8c1e1c5d54",
+    "last_updated_ts": "2026-03-26T07:28:01.565935Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB09ATLMIN",
+      "KXNBASPREAD-26FEB09ATLMIN",
+      "KXNBATOTAL-26FEB09ATLMIN",
+      "KXNBATEAMTOTAL-26FEB09ATLMIN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB09ATLMIN",
+      "KXNBASPREAD-26FEB09ATLMIN",
+      "KXNBATOTAL-26FEB09ATLMIN",
+      "KXNBATEAMTOTAL-26FEB09ATLMIN",
+      "KXNBAPTS-26FEB09ATLMIN",
+      "KXNBAREB-26FEB09ATLMIN",
+      "KXNBAAST-26FEB09ATLMIN",
+      "KXNBA3PT-26FEB09ATLMIN",
+      "KXNBA2D-26FEB09ATLMIN",
+      "KXNBA3D-26FEB09ATLMIN",
+      "KXNBASTL-26FEB09ATLMIN",
+      "KXNBABLK-26FEB09ATLMIN"
+    ],
+    "source_id": "514288fb-eda0-4e38-be27-ffd0210d1114",
+    "source_ids": {
+      "source_2_id": "202602103CEF4933",
+      "source_3_id": "514288fb-eda0-4e38-be27-ffd0210d1114"
+    },
+    "start_date": "2026-02-10T01:00:00Z",
+    "title": "Atlanta at Minnesota",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-03T02:30:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 118,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T02:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 127,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-31T00:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 129,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-28T19:00:00+00:00",
+          "opponent_points": 95,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 127,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-26T00:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 123,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        }
+      ],
+      "away_team_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+      "game_injuries": {
+        "ad36c3e8-4194-4e63-920f-7c50f46191a6": [
+          {
+            "comment": "The Spurs announced on Wednesday (Feb. 4) that Jones Garcia underwent ankle surgery and will miss the remainder of the 2025-26 season, per Tom Orsborn of the San Antonio Express-News.",
+            "date_updated": "2026-02-04",
+            "description": "Ankle",
+            "start_date": "2026-02-04",
+            "status": "Out For Season",
+            "structured_id": "286d58e9-242b-4e81-b562-1b68ce86e283"
+          },
+          {
+            "comment": "Wembanyama did not play on Thursday's (Apr. 2) game versus the Clippers. ",
+            "date_updated": "2026-04-03",
+            "description": "Injury Management",
+            "start_date": "2026-04-02",
+            "status": "Day To Day",
+            "structured_id": "b269496a-6cdf-466d-aa1a-c648b20591ae"
+          }
+        ],
+        "ba2cb6be-9827-46a8-8e6f-d8661307ba77": [
+          {
+            "comment": "The Nuggets listed Nnaji as Out for Saturday's (Apr. 4) game against the Spurs.",
+            "date_updated": "2026-04-03",
+            "description": "Hip",
+            "start_date": "2026-03-29",
+            "status": "Out",
+            "structured_id": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87"
+          },
+          {
+            "comment": "The Nuggets said on Friday (Apr. 3) that Watson is considered week-to-week.",
+            "date_updated": "2026-04-03",
+            "description": "Hamstring",
+            "start_date": "2026-04-01",
+            "status": "Out",
+            "structured_id": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8"
+          },
+          {
+            "comment": "The Nuggets listed Jones as Out for Saturday's (Apr. 4) game against the Spurs.",
+            "date_updated": "2026-04-03",
+            "description": "Hamstring",
+            "start_date": "2026-03-29",
+            "status": "Out",
+            "structured_id": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-02T01:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 130,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-30T02:00:00+00:00",
+          "opponent_points": 93,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 116,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-28T01:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 135,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-26T02:00:00+00:00",
+          "opponent_points": 135,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 142,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-25T03:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 125,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        }
+      ],
+      "home_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR04SASDEN",
+      "player_id_mapping": {
+        "0a485720-7ec1-4e1b-a9e9-dcf912dde8db": "286d58e9-242b-4e81-b562-1b68ce86e283",
+        "190797ba-a6f4-4286-9d5e-d157ff834829": "8193b1fe-f78e-4709-9845-3e1b53dc66b7",
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "339eff07-4d8e-42c6-9a47-900e94b13654": "a1bd832f-dd37-43ef-940c-e6c5d80f9af2",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "6f4f5e4b-37d7-4d28-a226-4f52d09aab02": "e0294aa0-1f2e-4c78-82b1-0db9a9f1e841",
+        "80328aab-9ce6-49c8-b3f2-f5bf73cdf319": "74621b0e-0eda-4474-838c-3e669d032ebf",
+        "85cd25fd-f437-48dd-b736-af5422c0feb7": "98eb67fd-32c0-49c7-b81d-607cc6a35771",
+        "8e288d6e-50b8-404b-812b-823ae5bab61f": "72670315-7b9d-4dc1-ac5a-f3675f4ab19d",
+        "8e3cbaa3-e30a-4cf8-aa7a-1b57f15f0f98": "b4fad83a-0403-4f63-8a8c-a5ea70d0ba4b",
+        "8f6ef350-1d9a-4eda-bee9-294d0e9e64db": "3893af8f-647f-4298-8f72-552d451d6533",
+        "9570a938-324f-40e8-92dd-8a4fcf4a953b": "125f7622-b921-4377-a6c7-6e83a77789dc",
+        "98e2cdeb-69dc-499c-a853-84c32c714924": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "b16123e8-c885-4276-9994-8d5e390c0f0d": "fbbc0dd3-d175-4281-b220-f2e4a08be13e",
+        "bde7f42e-7296-453d-bcba-cac6fad2d03f": "926570a7-5b58-40ae-90b0-dd2021314424",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "cbc0a3b2-985e-4484-9cb6-6891337b18b7": "060893cf-54aa-4987-8984-66e7bc6c6fa3",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "ce8d0944-b277-499e-9701-02a5f1828615": "eaa9ccb5-2e4c-48f2-bfae-964f5c56aa6e",
+        "cfc1e41b-74ab-45ee-8132-aaf9ca7f8163": "c995b1bb-82ab-4be9-aad1-6351b75e108a",
+        "d7276f4c-b9ee-43bf-860d-07b01a0fe7b6": "a4ea1e30-5edb-44f3-8836-e59c49af3b82",
+        "ddee4a31-2791-4339-bfc3-a058ce2d1397": "3737a938-d72f-41bc-8098-e50c9334a4b5",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "fa0e2b60-8ee9-4db6-b9bc-d0e23d6b29d2": "5310feca-3879-45e1-987b-ff68729c3a6d",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f",
+        "fe215630-2dc5-4573-95cc-c1b14abbbbcd": "98cb9106-25d8-4846-be07-d6f5e2403ad3",
+        "fed6929f-8d92-456c-8a89-9e0c17cf4f7b": "03768fde-7261-4f9a-8ee5-e0a2ff33c3c1"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "b99fff51-82cb-44bd-8494-1ac15cf7d71f",
+      "status": "inprogress"
+    },
+    "end_date": "2026-04-05T13:52:42Z",
+    "id": "7b0c7cb0-726a-4432-a299-da4e6348cf7f",
+    "last_updated_ts": "2026-04-06T14:10:19.460799Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR04SASDEN",
+      "KXNBASPREAD-26APR04SASDEN",
+      "KXNBATOTAL-26APR04SASDEN",
+      "KXNBATEAMTOTAL-26APR04SASDEN",
+      "KXNBA1HWINNER-26APR04SASDEN",
+      "KXNBA2HWINNER-26APR04SASDEN",
+      "KXNBA1HSPREAD-26APR04SASDEN",
+      "KXNBA1HTOTAL-26APR04SASDEN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR04SASDEN",
+      "KXNBASPREAD-26APR04SASDEN",
+      "KXNBATOTAL-26APR04SASDEN",
+      "KXNBATEAMTOTAL-26APR04SASDEN",
+      "KXNBAMENTION-26APR04SASDEN",
+      "KXNBA1HWINNER-26APR04SASDEN",
+      "KXNBA2HWINNER-26APR04SASDEN",
+      "KXNBAPTS-26APR04SASDEN",
+      "KXNBAREB-26APR04SASDEN",
+      "KXNBAAST-26APR04SASDEN",
+      "KXNBA3PT-26APR04SASDEN",
+      "KXNBA2D-26APR04SASDEN",
+      "KXNBA3D-26APR04SASDEN",
+      "KXNBA1HSPREAD-26APR04SASDEN",
+      "KXNBA1HTOTAL-26APR04SASDEN",
+      "KXNBASTL-26APR04SASDEN",
+      "KXNBABLK-26APR04SASDEN"
+    ],
+    "source_id": "b99fff51-82cb-44bd-8494-1ac15cf7d71f",
+    "source_ids": {
+      "source_2_id": "202604046C53D171",
+      "source_3_id": "b99fff51-82cb-44bd-8494-1ac15cf7d71f",
+      "source_4_id": "62925583",
+      "source_5_id": "sr:match:62925583"
+    },
+    "start_date": "2026-04-04T19:00:00Z",
+    "title": "San Antonio at Denver",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-09T23:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 128,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-04-07T23:30:00+00:00",
+          "opponent_points": 95,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 121,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 101,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-04-04T00:00:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 128,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T00:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 115,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        }
+      ],
+      "away_team_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+      "game_injuries": {
+        "67468ecc-b868-43a4-b9dc-751a52894bb0": [
+          {
+            "comment": "The Knicks listed Kolek as Questionable for Friday's (Apr. 10) game versus the Raptors.",
+            "date_updated": "2026-04-10",
+            "description": "Oblique",
+            "start_date": "2026-04-08",
+            "status": "Day To Day",
+            "structured_id": "fc9f98b2-53d0-4461-baba-1fb6ac9e2548"
+          },
+          {
+            "comment": "The Knicks listed McBride as OUT for Friday's (Apr. 10) game versus the Raptors.",
+            "date_updated": "2026-04-10",
+            "description": "Injury Management",
+            "start_date": "2026-04-10",
+            "status": "Out",
+            "structured_id": "a5b8f7e8-2d48-42da-8ebb-8200ac9b0a07"
+          },
+          {
+            "comment": "The Knicks listed Robinson as OUT for Friday's (Apr. 10) game versus the Raptors.",
+            "date_updated": "2026-04-10",
+            "description": "Ankle",
+            "start_date": "2026-04-10",
+            "status": "Out",
+            "structured_id": "d4788df0-3807-47ca-bb94-24a02428371d"
+          }
+        ],
+        "96c447dd-2cdd-4c58-a151-ef0df87de981": [
+          {
+            "comment": "The Raptors listed Hepburn as OUT for Friday's (Apr. 10) game versus the Knicks.",
+            "date_updated": "2026-04-10",
+            "description": "Knee",
+            "start_date": "2026-04-08",
+            "status": "Out",
+            "structured_id": "56f10c2a-0978-4e58-a434-01d46c704482"
+          },
+          {
+            "comment": "The Raptors listed Jackson-Davis as OUT for Friday's (Apr. 10) game versus the Knicks.",
+            "date_updated": "2026-04-10",
+            "description": "Illness",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "1cefe214-8a3b-42d1-a667-4e30137e88b9"
+          },
+          {
+            "comment": "The Raptors listed Quickley as OUT for Friday's (Apr. 10) game versus the Knicks.",
+            "date_updated": "2026-04-10",
+            "description": "Injury Management",
+            "start_date": "2026-04-10",
+            "status": "Out",
+            "structured_id": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0"
+          },
+          {
+            "comment": "The Raptors listed Murray-Boyles as OUT for Friday's (Apr. 10) game versus the Knicks.",
+            "date_updated": "2026-04-10",
+            "description": "Neck",
+            "start_date": "2026-04-10",
+            "status": "Out",
+            "structured_id": "d9935a9e-93fb-438e-956b-3600b9b87170"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-09T23:30:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 112,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        },
+        {
+          "date": "2026-04-06T23:00:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 108,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        },
+        {
+          "date": "2026-04-03T23:30:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 136,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T00:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 130,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        },
+        {
+          "date": "2026-04-01T00:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 94,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": false
+        }
+      ],
+      "home_team_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR10TORNYK",
+      "player_id_mapping": {
+        "03d77214-5780-4715-8df2-13de3af5ea2d": "f32ff309-d901-4ed3-a00d-cbcb6a22394b",
+        "106a6290-fe0d-47dd-8cc5-0a0e34a77165": "e4afd02c-10ef-4cef-8596-7687986d022a",
+        "1738927f-6ef3-4b23-921d-168b4371f917": "fb9a7f9e-8a0c-4e90-94e8-051dea709bef",
+        "227c2e8f-087e-4c15-8386-758ba10e06d2": "77db549c-35c8-4e23-b8d1-c86cf8b50fdf",
+        "355a6113-d842-40be-9e74-90bb0800aabe": "a5b8f7e8-2d48-42da-8ebb-8200ac9b0a07",
+        "3bec965e-1c2e-4ef0-a598-74a018a627c4": "649b5ddd-017c-4dec-a035-13ab54d36011",
+        "3d186345-1517-446d-b4bf-8707fc77f093": "d06c2a48-5fdc-40f8-9e7c-5b98d534aa4f",
+        "42c5f009-dfd2-4a94-a750-0943791e138e": "b725e63f-83b2-469d-8c34-41217a3a05d3",
+        "467f6843-4a9d-413b-9924-d2188d60e6fe": "af13c6ca-a86b-4642-900e-3dfc90a2d607",
+        "4d9e0abc-05aa-45de-be32-b0770697416a": "02cf3212-1a0f-4774-836e-26e85b903c14",
+        "58c0852f-6fc1-4a9a-b019-fabab1b25536": "56f10c2a-0978-4e58-a434-01d46c704482",
+        "59c707c2-fc69-4ed5-aa33-d446709dad9f": "9f2111cb-be0d-4569-af93-a4de5ab72a7e",
+        "6bc71e02-9a03-40db-aed4-332ab5193336": "f8ddd45a-b42c-4c8b-a0b0-08cf10ca3253",
+        "6fc9597d-8531-491e-939e-e34c21689314": "fc9f98b2-53d0-4461-baba-1fb6ac9e2548",
+        "7b169c92-2d4d-4218-9557-4e0ec1b43378": "d9935a9e-93fb-438e-956b-3600b9b87170",
+        "7df31401-85c4-449f-bc87-f605145ef7ba": "1cefe214-8a3b-42d1-a667-4e30137e88b9",
+        "7e06d5ac-b8f3-47e7-809c-92cf63a864f7": "3c4f4966-d9cb-4bb9-adb9-ee429adf01a0",
+        "8082841d-e516-43c6-a81b-7987fa321acd": "95551002-8e7e-4af7-b21e-71c4efe0573e",
+        "83cc5b28-36a7-43ba-ba20-8347bd1de583": "39374db0-6937-4ad5-bf39-7603700c9896",
+        "8d3edba8-9004-4199-9328-cc2208e8b0d3": "67413379-4f2e-4419-9a34-5518e4dfc22c",
+        "8d6caab5-3a9a-4994-bde0-9fe14032efd7": "68b815b1-9fe7-4d69-b044-9b2bc40adc47",
+        "9474fa0a-70dd-44c4-9751-dac5839ae7f3": "db091682-1cde-47be-afa9-4669075bb504",
+        "97e25d19-7c5c-49f9-91c0-5cd9b9cebdcb": "d4788df0-3807-47ca-bb94-24a02428371d",
+        "ab532a66-9314-4d57-ade7-bb54a70c65ad": "2410a7e1-07fb-494e-81b8-37e151d1ae00",
+        "b2703497-74ba-458f-84da-a3c145bcfe79": "9d88c781-8100-4e55-be27-a39b97105be4",
+        "bdc15a29-e40d-49d1-a0a8-d21e95221e23": "994b09f9-3e74-44d3-8d9b-1a9347c3c92f",
+        "c17e25c7-1306-4301-8548-2fc129a62041": "1ac8b21f-fa4e-4bd5-938c-02471a8ead10",
+        "c5df8387-9b94-4109-bcf5-96d850e994a9": "f83d6641-0625-400e-a269-cd3e02d45813",
+        "c910f29a-3f6b-4dba-92e9-20137fbdf2c7": "14713689-92a3-4b09-b657-e49d2cbc31f0",
+        "cb0b5991-53e4-4dce-bf95-215fd6ecf728": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0",
+        "d6fbf8f8-bb4a-43f7-95f6-498a5e042138": "ee7a2d49-1c75-458b-992c-a5a2a60d5d12",
+        "da899e36-f338-495b-b6f0-121295baf354": "d7b10a02-f031-49b2-b295-b095079ce73d",
+        "e1b3d3d5-b4b1-481a-b5b9-efe4231f48bf": "d25e2502-71da-4cf4-9068-63c09a55777b",
+        "ee2644c1-1260-4bf4-9c70-7c5b0cee4770": "726401ab-6c3f-4f7e-be74-5c71921d2d4c",
+        "fd131bac-4644-4f4d-b715-2bc093775cd5": "3914da73-92f8-452d-a1f6-c441d57f6e2e"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "783fee5f-5d51-4169-9a9d-e21d8a94a6fe",
+      "status": "complete"
+    },
+    "end_date": "2026-04-11T03:43:39Z",
+    "id": "fd540e78-d459-4687-b79c-9ee0f66748b5",
+    "last_updated_ts": "2026-04-12T03:57:37.623649Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR10TORNYK",
+      "KXNBASPREAD-26APR10TORNYK",
+      "KXNBATOTAL-26APR10TORNYK",
+      "KXNBATEAMTOTAL-26APR10TORNYK",
+      "KXNBA1HWINNER-26APR10TORNYK",
+      "KXNBA2HWINNER-26APR10TORNYK",
+      "KXNBA1HSPREAD-26APR10TORNYK",
+      "KXNBA1HTOTAL-26APR10TORNYK"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR10TORNYK",
+      "KXNBASPREAD-26APR10TORNYK",
+      "KXNBATOTAL-26APR10TORNYK",
+      "KXNBATEAMTOTAL-26APR10TORNYK",
+      "KXNBA1HWINNER-26APR10TORNYK",
+      "KXNBA2HWINNER-26APR10TORNYK",
+      "KXNBAPTS-26APR10TORNYK",
+      "KXNBAREB-26APR10TORNYK",
+      "KXNBAAST-26APR10TORNYK",
+      "KXNBA2D-26APR10TORNYK",
+      "KXNBA3D-26APR10TORNYK",
+      "KXNBA3PT-26APR10TORNYK",
+      "KXNBA1HSPREAD-26APR10TORNYK",
+      "KXNBA1HTOTAL-26APR10TORNYK",
+      "KXNBASTL-26APR10TORNYK",
+      "KXNBABLK-26APR10TORNYK"
+    ],
+    "source_id": "783fee5f-5d51-4169-9a9d-e21d8a94a6fe",
+    "source_ids": {
+      "source_2_id": "20260410832AE859",
+      "source_3_id": "783fee5f-5d51-4169-9a9d-e21d8a94a6fe",
+      "source_4_id": "62926109",
+      "source_5_id": "sr:match:62926109"
+    },
+    "start_date": "2026-04-10T23:30:00Z",
+    "title": "Toronto at New York",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-20T23:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 101,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        },
+        {
+          "date": "2026-03-18T23:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 99,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        },
+        {
+          "date": "2026-03-16T23:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 125,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": true
+        },
+        {
+          "date": "2026-03-16T00:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 107,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        },
+        {
+          "date": "2026-03-14T02:00:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 117,
+          "structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "winner": false
+        }
+      ],
+      "away_team_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+      "game_injuries": {
+        "502c629b-4da7-40fd-92ab-20cb55411c35": [
+          {
+            "comment": "The Warriors listed Porzingis as OUT for Saturday's (Mar. 21) game against the Hawks.",
+            "date_updated": "2026-03-21",
+            "description": "Back",
+            "start_date": "2026-03-20",
+            "status": "Out",
+            "structured_id": "52b8d9e4-67cd-4897-870c-00baa0e8d52d"
+          },
+          {
+            "comment": "Butler's injury from Monday (Jan. 19) Night's game involves a torn right ACL and he will be out for the rest of the season, as per Shams Charania of ESPN.",
+            "date_updated": "2026-01-20",
+            "description": "Knee",
+            "start_date": "2026-01-20",
+            "status": "Out For Season",
+            "structured_id": "b99dd959-bae1-40f0-9c67-82f5b8f9961c"
+          },
+          {
+            "comment": "The Warriors listed Green as Questionable for Saturday's (Mar. 21) game against the Hawks.",
+            "date_updated": "2026-03-21",
+            "description": "Back",
+            "start_date": "2026-03-21",
+            "status": "Day To Day",
+            "structured_id": "2c42ea40-5090-4cf2-bc6c-f66f5b61ba14"
+          },
+          {
+            "comment": "Curry will be re-evaluated in a week due to a mild left adductor strain, according to Danny Emerman of SFStandard.com",
+            "date_updated": "2026-03-15",
+            "description": "Adductor",
+            "start_date": "2026-03-13",
+            "status": "Out",
+            "structured_id": "4958cb9b-ee08-4c69-950c-ffde59dbfe29"
+          },
+          {
+            "comment": "An MRI confirmed a minor right calf strain for Horford and he will be re-evaluated in one week, according to Danny Emerman of SFStandard.com",
+            "date_updated": "2026-03-15",
+            "description": "Calf",
+            "start_date": "2026-03-13",
+            "status": "Out",
+            "structured_id": "92abd54e-0cbb-43ea-b4be-abcb4f5e2104"
+          },
+          {
+            "comment": "The Warriors listed Leons as Questionable for Saturday's (Mar. 21) game against the Hawks.",
+            "date_updated": "2026-03-21",
+            "description": "Wrist",
+            "start_date": "2026-03-21",
+            "status": "Day To Day",
+            "structured_id": "6df8207e-36e7-41e5-ac37-c18258b1ca28"
+          },
+          {
+            "comment": "The Warriors listed Payton II as Out for Saturday's (Mar. 21) game against the Hawks.",
+            "date_updated": "2026-03-21",
+            "description": "Knee",
+            "start_date": "2026-03-21",
+            "status": "Out",
+            "structured_id": "65cb54f5-90b2-4b5a-b342-1fc39d18d62e"
+          },
+          {
+            "comment": "The Warriors listed Melton as Questionable for Saturday's (Mar. 21) game against the Hawks.",
+            "date_updated": "2026-03-21",
+            "description": "Knee",
+            "start_date": "2026-03-21",
+            "status": "Day To Day",
+            "structured_id": "6f08251f-1597-4eb0-bfe1-1fb3bf038b22"
+          },
+          {
+            "comment": "Curry (knee) will miss the Warriors' next two games, but he is expected to be re-evaluated Tuesday when the team returns home from its current road trip, according to Anthony Slater of ESPN.com.",
+            "date_updated": "2026-03-21",
+            "description": "Knee",
+            "start_date": "2026-01-30",
+            "status": "Out",
+            "structured_id": "15cba021-5e04-44b0-95f9-9e975ec48697"
+          },
+          {
+            "comment": "The Warriors said on Wednesday's (Mar. 18) that Moody is without a timetable for return.",
+            "date_updated": "2026-03-18",
+            "description": "Wrist",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "979a2510-ac66-443a-9bfa-f0df7b3f5cca"
+          },
+          {
+            "comment": "The Warriors listed Post as Questionable for Saturday's (Mar. 21) game against the Hawks.",
+            "date_updated": "2026-03-21",
+            "description": "Foot",
+            "start_date": "2026-03-19",
+            "status": "Day To Day",
+            "structured_id": "b7db4ac9-30c3-4471-a2dd-7d94fa43101d"
+          }
+        ],
+        "e0729403-9c95-4ee2-b5d4-f704d8322570": [
+          {
+            "comment": "The Hawks listed Johnson as Out for Saturday's (Mar. 21) game versus the Warriors.",
+            "date_updated": "2026-03-21",
+            "description": "Shoulder",
+            "start_date": "2026-03-21",
+            "status": "Out",
+            "structured_id": "aad8a908-c093-4a62-bf38-d6c5bc8a40f5"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 95,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": false
+        },
+        {
+          "date": "2026-03-19T00:30:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 135,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        },
+        {
+          "date": "2026-03-16T23:00:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 124,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        },
+        {
+          "date": "2026-03-14T19:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 122,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        },
+        {
+          "date": "2026-03-12T23:30:00+00:00",
+          "opponent_points": 97,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 108,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        }
+      ],
+      "home_team_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR21GSWATL",
+      "player_id_mapping": {
+        "02dc6e18-95a4-4919-b4fc-f8a981ccd359": "2a838282-e52d-4c14-82db-ec72fa649d2e",
+        "047d0b63-4142-46e9-8f04-a61622ae2375": "4958cb9b-ee08-4c69-950c-ffde59dbfe29",
+        "0e163d44-67a7-4107-9421-5333600166bb": "b99dd959-bae1-40f0-9c67-82f5b8f9961c",
+        "1d4905d6-a6b4-4b45-8a90-91ed03440d0f": "4180e569-6cb9-4bf3-9f02-ae4f7c2659e8",
+        "21ed49ae-44cf-4031-9b6f-a48fb8a3e41c": "f7312c21-e5e7-4587-885c-111b2ac5a976",
+        "22d1eb4b-c0de-49c8-9e11-866b9d98cca2": "b8a2ba46-a11a-4764-83c5-39932de64a5f",
+        "26049bcf-1ff3-4a23-8e4c-ce0b18784738": "081cbdc6-3e78-494c-8668-e181e9544c8b",
+        "3358cc38-7331-43ad-af04-ebd34fe328e7": "fa5d64cf-9154-4a34-8533-8ca65fb200d1",
+        "358fb074-ac1b-45a6-bf54-46c30534786e": "f61bdc80-8315-4d93-a488-71dc37ee3e8f",
+        "3a3207cc-269f-47ef-9b77-f852f0bed4b0": "b7db4ac9-30c3-4471-a2dd-7d94fa43101d",
+        "3c5901ef-af1d-441d-aeed-8e0a93cead49": "52b8d9e4-67cd-4897-870c-00baa0e8d52d",
+        "3f34ce93-c0ad-4868-bab4-c6d83909ff78": "a4244555-a33c-46da-8c9f-de4e6b660bad",
+        "49be9129-da30-4e74-aa60-b1e87582604b": "18664b17-45cf-442b-858e-877eee059745",
+        "5b22ae60-ca29-4cd8-b618-cce7b9766b0e": "6f08251f-1597-4eb0-bfe1-1fb3bf038b22",
+        "5e5099d1-4a58-43f2-8d03-f2ae5dd49337": "2c42ea40-5090-4cf2-bc6c-f66f5b61ba14",
+        "6cb137da-2848-4c37-a80d-a4ba75ece969": "f6b16ce1-6041-424d-a5fb-28ac3f0d1a87",
+        "70e50e53-ca3b-425d-ac49-b156d6d1e016": "18c71a75-fa9c-458b-99a4-38de2b350233",
+        "795f46f2-c78d-4f1d-9ee2-4331c1cc8184": "383eab80-5509-470a-976d-3b960b1780fa",
+        "820a9363-1ad3-46a0-b577-2588f85b27f2": "bbee4cc1-3ac7-448a-b2aa-ad1b692d83a6",
+        "8a62bff0-8dc9-4bea-9922-6eeabb6212f2": "6df8207e-36e7-41e5-ac37-c18258b1ca28",
+        "8ec91366-faea-4196-bbfd-b8fab7434795": "15cba021-5e04-44b0-95f9-9e975ec48697",
+        "955fe0fb-3ca2-49c0-9a19-922d8349f13c": "65cb54f5-90b2-4b5a-b342-1fc39d18d62e",
+        "968ecb8b-c8b6-4fe1-a606-346f7a82a7c1": "07a07fb0-6af1-4b7a-82d7-0e706b02aa2d",
+        "a316cf6a-693d-4c6a-b0d9-ebf80e73e832": "979a2510-ac66-443a-9bfa-f0df7b3f5cca",
+        "a5b978ac-7a35-4ec0-b15f-91d9a8e1ac31": "1dac11cb-7913-4a15-b8e7-941df50b2fb5",
+        "b27687c1-55bb-49e6-9c5b-96a099fda7b7": "ad81c551-8dcc-4678-a547-523db6eac9e6",
+        "b83048ff-1e71-46fa-b49c-0b04a72cc4a1": "e898e9ba-117e-4235-a664-0ea8e1548571",
+        "bc19b036-9098-4d4c-bffd-1c27918a89e5": "0a9c39f2-4e66-4d1d-8979-9156cb0ac028",
+        "bc70a55a-cee0-478f-9a13-cf51c4a4187c": "fe9f8331-a822-49bc-bfca-9c7e7c84883a",
+        "cf3a87ec-c2f7-42e8-9698-6f8b2ba916a9": "92abd54e-0cbb-43ea-b4be-abcb4f5e2104",
+        "d146629c-2584-4760-89af-e4378d7569c1": "d10494a2-6820-41e6-ac9c-8c518d050388",
+        "d222539f-fa52-4070-807f-d3aba372f46d": "aad8a908-c093-4a62-bf38-d6c5bc8a40f5",
+        "d3d0ab55-b939-47b3-af27-77cdf85d7956": "f46826e2-8666-4ffa-a319-627149adc113",
+        "da3bc9bb-9e33-4bf8-a388-2047053eab4d": "b51ad7ce-d152-48a3-b9e0-1eb6af19dd84",
+        "ed643452-917d-40c5-badd-2e72958b059c": "d16a5d6e-12a2-4588-bd68-25a1f121d767",
+        "f5d6fdfd-21f6-48f0-a297-4c13e8fc40cb": "de746546-c159-4ec4-aaa0-ae789e4565eb"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "69b27fda-0570-48e4-8a9d-7aa5204e60b3",
+      "status": "complete"
+    },
+    "end_date": "2026-03-22T03:38:56Z",
+    "id": "2760f708-46fb-4620-86f7-05ed7c3f2ba5",
+    "last_updated_ts": "2026-03-26T07:29:56.041964Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR21GSWATL",
+      "KXNBASPREAD-26MAR21GSWATL",
+      "KXNBATOTAL-26MAR21GSWATL",
+      "KXNBATEAMTOTAL-26MAR21GSWATL",
+      "KXNBA1HWINNER-26MAR21GSWATL",
+      "KXNBA2HWINNER-26MAR21GSWATL",
+      "KXNBA1HSPREAD-26MAR21GSWATL",
+      "KXNBA1HTOTAL-26MAR21GSWATL",
+      "KXNBA2HSPREAD-26MAR21GSWATL",
+      "KXNBA2HTOTAL-26MAR21GSWATL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR21GSWATL",
+      "KXNBASPREAD-26MAR21GSWATL",
+      "KXNBATOTAL-26MAR21GSWATL",
+      "KXNBATEAMTOTAL-26MAR21GSWATL",
+      "KXNBA1HWINNER-26MAR21GSWATL",
+      "KXNBA2HWINNER-26MAR21GSWATL",
+      "KXNBA1HSPREAD-26MAR21GSWATL",
+      "KXNBA1HTOTAL-26MAR21GSWATL",
+      "KXNBAPTS-26MAR21GSWATL",
+      "KXNBAREB-26MAR21GSWATL",
+      "KXNBAAST-26MAR21GSWATL",
+      "KXNBA3PT-26MAR21GSWATL",
+      "KXNBA2D-26MAR21GSWATL",
+      "KXNBA3D-26MAR21GSWATL",
+      "KXNBASTL-26MAR21GSWATL",
+      "KXNBABLK-26MAR21GSWATL",
+      "KXNBA2HSPREAD-26MAR21GSWATL",
+      "KXNBA2HTOTAL-26MAR21GSWATL"
+    ],
+    "source_id": "69b27fda-0570-48e4-8a9d-7aa5204e60b3",
+    "source_ids": {
+      "source_2_id": "202603225463E619",
+      "source_3_id": "69b27fda-0570-48e4-8a9d-7aa5204e60b3",
+      "source_4_id": "62926139",
+      "source_5_id": "sr:match:62926139"
+    },
+    "start_date": "2026-03-22T00:00:00Z",
+    "title": "Golden State at Atlanta",
+    "type": "basketball_game"
+  }
+}

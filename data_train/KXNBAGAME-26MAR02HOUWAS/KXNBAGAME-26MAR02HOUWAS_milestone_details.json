@@ -1,0 +1,294 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-28T20:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 105,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": false
+        },
+        {
+          "date": "2026-02-27T00:30:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 113,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-02-26T01:00:00+00:00",
+          "opponent_points": 97,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 128,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-02-24T02:30:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 125,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": true
+        },
+        {
+          "date": "2026-02-22T01:30:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 106,
+          "structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "winner": false
+        }
+      ],
+      "away_team_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+      "game_injuries": {
+        "0464e75c-8bc8-4f18-9ee2-577832b889d6": [
+          {
+            "comment": "The Wizards listed Gill as OUT for Monday's (Mar. 2) game against Houston",
+            "date_updated": "2026-03-02",
+            "description": "Illness",
+            "start_date": "2026-03-01",
+            "status": "Out",
+            "structured_id": "77498085-90ac-456b-a123-848a7a5866e0"
+          },
+          {
+            "comment": "The Wizards said on Friday (Feb. 6) that Davis is expected to sit out the remainder of the 2025-26 season, per Chris Haynes of NBA TV.",
+            "date_updated": "2026-02-06",
+            "description": "Finger",
+            "start_date": "2026-02-04",
+            "status": "Out For Season",
+            "structured_id": "50cd523e-b363-4145-b038-10c3e7f5fc68"
+          },
+          {
+            "comment": "The Wizards listed Vukcevic as OUT for Monday's (Mar. 2) game against Houston",
+            "date_updated": "2026-03-02",
+            "description": "Thigh",
+            "start_date": "2026-03-01",
+            "status": "Out",
+            "structured_id": "8890a6d0-042f-431a-a5d4-bd9af4843851"
+          },
+          {
+            "comment": "The Wizards announced Thursday that Sarr has been diagnosed with a right hamstring strain and is expected to face a two-week recovery timeline.",
+            "date_updated": "2026-02-18",
+            "description": "Shoulder",
+            "start_date": "2025-12-20",
+            "status": "Out For Season",
+            "structured_id": "992529e1-8850-4ec0-a0c4-a8f63f525b2f"
+          },
+          {
+            "comment": "The Wizards listed Russell as OUT for Monday's (Mar. 2) game against Houston",
+            "date_updated": "2026-03-01",
+            "description": "Not Injury Related",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84"
+          },
+          {
+            "comment": "The Wizards listed Black as OUT for Monday's (Mar. 2) game against Houston",
+            "date_updated": "2026-03-01",
+            "description": "Ankle",
+            "start_date": "2026-03-01",
+            "status": "Out",
+            "structured_id": "14d99e9f-e25c-4af9-87ef-e80635437ef2"
+          },
+          {
+            "comment": "The Wizards said on Thursday (Feb. 12) that Sarr will miss around 2 weeks due to a hamstring injury.",
+            "date_updated": "2026-02-12",
+            "description": "Hamstring",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "95ce1408-68a5-4025-975c-ac02d98e6830"
+          },
+          {
+            "comment": "The Wizards listed Young as OUT for Monday's (Mar. 2) game against Houston",
+            "date_updated": "2026-03-01",
+            "description": "Knee",
+            "start_date": "2025-12-28",
+            "status": "Out",
+            "structured_id": "4aad249c-e551-45af-b759-d012f1daf436"
+          }
+        ],
+        "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211": [
+          {
+            "comment": "The Rockets reported on Monday (Feb. 23) that Tate will miss at least 2 weeks.",
+            "date_updated": "2026-02-23",
+            "description": "Knee",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "11925af5-ab26-42dd-8f2d-9a14d4d0f7c3"
+          },
+          {
+            "comment": "The Rockets said on Monday (Sept. 22) that VanVleet suffered a torn ACL and may be out for the entire 2025-26 campaign, per Shams Charania of ESPN.",
+            "date_updated": "2025-09-22",
+            "description": "ACL",
+            "start_date": "2025-09-22",
+            "status": "Out For Season",
+            "structured_id": "3902d32a-809a-4cf1-9f85-7b9152c25209"
+          },
+          {
+            "comment": "The Rockets said on Saturday (Feb. 28) that Smith Jr. will miss 2 more games.",
+            "date_updated": "2026-02-28",
+            "description": "Ankle",
+            "start_date": "2026-02-26",
+            "status": "Out",
+            "structured_id": "9dec6528-0fb1-4529-9a55-82650e04121b"
+          },
+          {
+            "comment": "The Rockets said on Wednesday (Jan. 28) that Adams underwent season-ending ankle surgery.",
+            "date_updated": "2026-01-28",
+            "description": "Ankle",
+            "start_date": "2026-01-18",
+            "status": "Out For Season",
+            "structured_id": "b175a13d-a9c0-41f6-a9cd-2594f7a92578"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-01T00:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 125,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-02-27T00:30:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 96,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-02-25T00:30:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 98,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-02-22T23:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 112,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-02-21T00:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 131,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": true
+        }
+      ],
+      "home_team_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR02HOUWAS",
+      "player_id_mapping": {
+        "0e03dd88-2c39-4b4a-8b47-0c3c8ba82305": "10928e3f-1742-43ea-aed9-42715199b0c4",
+        "1938fb4b-347a-43fd-ba41-1abdb9540699": "23ef2bb4-e11a-46ed-bc4f-5314321de04d",
+        "19561190-edab-4465-a82d-7e42a7635800": "8c834598-267f-4866-8e81-6e6912b912a2",
+        "1c7e3ee9-c6cd-4e1d-9efe-81fb1b2d4b69": "11925af5-ab26-42dd-8f2d-9a14d4d0f7c3",
+        "27db7dbb-6aad-44df-a3f4-7e1c21c2f256": "2b9b4c52-7963-4bbc-820a-787f29642aa0",
+        "28f3e566-3174-4e87-81d0-4889569b6ef5": "bdfa5db0-84ef-4d02-9758-09f03d14a206",
+        "293be24b-3a94-40b2-a7a4-a1dd788302e9": "9dec6528-0fb1-4529-9a55-82650e04121b",
+        "426357dc-340b-4d89-8e3b-7d6b4022b460": "7e8c7e38-aafa-430a-9e29-018d4850476c",
+        "45f17314-918c-49bd-a482-adc171859025": "3902d32a-809a-4cf1-9f85-7b9152c25209",
+        "47ff78e7-5607-48d6-9c1a-bddb075dbe70": "91e0c839-f764-41cc-b787-01591de2775f",
+        "53e011ee-504f-473e-bb26-bfe34533ca10": "6e964a40-4ceb-403c-96c2-5a165e032f0d",
+        "53f2fa48-e61b-49fb-843d-8a3e872257eb": "8e0accf8-4bfd-4f77-b11f-066cb119acdc",
+        "584a8771-ee79-4957-89f1-a2b0638c497a": "e601299b-d9a4-4cd1-b86b-58e47670cfe6",
+        "5be520a5-5590-44ee-b763-3d3ce4505267": "423df079-9eec-42b2-85a7-58061b60621d",
+        "6d117ec5-649d-4151-8d44-88175c603067": "d8d735de-7698-4bec-a77c-5e187aa5d8f6",
+        "6e468041-8174-4161-8c1d-8ac620e0cbb0": "2c953e88-5354-4653-b8cf-12c8040bafdc",
+        "73f8f274-238d-419f-bccb-097362b8354d": "8890a6d0-042f-431a-a5d4-bd9af4843851",
+        "7aa10d1a-ed4e-417d-998d-84ce66c77c9b": "77498085-90ac-456b-a123-848a7a5866e0",
+        "877eb456-2827-475f-b858-2bc00480e24f": "6863da28-cf95-4966-b5bc-80657ddebb79",
+        "892e2e4d-b10c-47b1-8c40-25ac3c9f7166": "762232bb-5666-4941-9352-2ca8637b8f03",
+        "8c68e544-39ac-4016-8741-a498a979a95a": "bc51427b-a059-439e-85bc-c86907636979",
+        "a208e22a-6b63-45f9-b7c6-bf913a68f3df": "b175a13d-a9c0-41f6-a9cd-2594f7a92578",
+        "a8d25a06-b47e-4a08-a945-7bf0dd945584": "4ead891f-246e-4a10-922c-b9043a42a890",
+        "a9aaa4a2-9997-49b3-b54e-bcf5ec66efe5": "14d99e9f-e25c-4af9-87ef-e80635437ef2",
+        "aeba1657-a0df-427b-ba9a-6db9e9147304": "992529e1-8850-4ec0-a0c4-a8f63f525b2f",
+        "af1ba5e5-3f34-4ada-aa9f-f818baf7706f": "0399d93d-2926-4c73-b773-be04e4527221",
+        "b8b323c1-5691-43a4-9c48-707531803d6a": "a7a8f83d-04d7-4b6f-aa3d-f50e09d9226b",
+        "b9155864-4192-4ad7-8652-57a0844c87b3": "c8677945-77af-435d-ad23-d339c1522313",
+        "c0ec993e-16ee-48e8-b410-05690b1c17b6": "b5bca5ba-0234-4790-98d5-dd964c8697fa",
+        "c37dafbb-a269-41f6-813f-bdb4da388203": "9e825975-01c2-44c3-90b4-b1d961fae03b",
+        "cf418e0c-de9d-438f-a1ac-3be539a56c42": "4aad249c-e551-45af-b759-d012f1daf436",
+        "dbf09e15-1cd8-434e-acda-9527735ef4d6": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84",
+        "e7373530-b566-4f36-b0de-0510b6d94e0e": "5fd6ece6-062c-465b-9a45-da012e1ba84a",
+        "ea8826b8-1f76-4eab-b61e-ffcb176880f3": "50cd523e-b363-4145-b038-10c3e7f5fc68",
+        "fe4c4f99-5dfb-4e32-b69a-da8c5a779c27": "95ce1408-68a5-4025-975c-ac02d98e6830"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "1abf76e2-dd08-4bb9-82af-1c5ee485096c",
+      "status": "complete"
+    },
+    "end_date": "2026-03-03T04:04:52Z",
+    "id": "9b1b53df-c95e-48db-adb6-6ba428b0a016",
+    "last_updated_ts": "2026-03-26T07:28:41.445268Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR02HOUWAS",
+      "KXNBASPREAD-26MAR02HOUWAS",
+      "KXNBATOTAL-26MAR02HOUWAS",
+      "KXNBATEAMTOTAL-26MAR02HOUWAS",
+      "KXNBA1HWINNER-26MAR02HOUWAS",
+      "KXNBA2HWINNER-26MAR02HOUWAS",
+      "KXNBA1HSPREAD-26MAR02HOUWAS",
+      "KXNBA1HTOTAL-26MAR02HOUWAS"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR02HOUWAS",
+      "KXNBASPREAD-26MAR02HOUWAS",
+      "KXNBATOTAL-26MAR02HOUWAS",
+      "KXNBATEAMTOTAL-26MAR02HOUWAS",
+      "KXNBAPTS-26MAR02HOUWAS",
+      "KXNBAREB-26MAR02HOUWAS",
+      "KXNBAAST-26MAR02HOUWAS",
+      "KXNBA3PT-26MAR02HOUWAS",
+      "KXNBA2D-26MAR02HOUWAS",
+      "KXNBA3D-26MAR02HOUWAS",
+      "KXNBA1HWINNER-26MAR02HOUWAS",
+      "KXNBA2HWINNER-26MAR02HOUWAS",
+      "KXNBA1HSPREAD-26MAR02HOUWAS",
+      "KXNBA1HTOTAL-26MAR02HOUWAS",
+      "KXNBASTL-26MAR02HOUWAS",
+      "KXNBABLK-26MAR02HOUWAS"
+    ],
+    "source_id": "1abf76e2-dd08-4bb9-82af-1c5ee485096c",
+    "source_ids": {
+      "source_2_id": "202603034B1CB975",
+      "source_3_id": "1abf76e2-dd08-4bb9-82af-1c5ee485096c",
+      "source_4_id": "62926281",
+      "source_5_id": "sr:match:62926281"
+    },
+    "start_date": "2026-03-03T00:00:00Z",
+    "title": "Houston at Washington",
+    "type": "basketball_game"
+  }
+}

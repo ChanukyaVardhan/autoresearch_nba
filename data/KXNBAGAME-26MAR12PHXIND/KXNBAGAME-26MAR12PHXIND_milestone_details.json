@@ -1,0 +1,277 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-11T00:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 129,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-03-09T02:00:00+00:00",
+          "opponent_points": 99,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 111,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T02:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 118,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        },
+        {
+          "date": "2026-03-06T02:00:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 103,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": false
+        },
+        {
+          "date": "2026-03-04T04:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 114,
+          "structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "winner": true
+        }
+      ],
+      "away_team_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+      "game_injuries": {
+        "ace11dff-c5d1-4ab9-9452-5312253659fd": [
+          {
+            "comment": "The Suns have listed Allen as Out for Thursday's (Mar. 12) game against the Pacers.",
+            "date_updated": "2026-03-12",
+            "description": "Knee",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "07a246cd-1c40-42f1-849e-58fbd7696c30"
+          },
+          {
+            "comment": "The Suns reported on Monday (Feb. 23) that Brooks' timetable for his broken left hand is 4-to-6 weeks, according to Shams Charania of ESPN.",
+            "date_updated": "2026-02-23",
+            "description": "Hand",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "4f37758f-6499-4692-b0d6-7c0aafc58cef"
+          },
+          {
+            "comment": "Williams will be re-evaluated in 2-to-3 weeks after being diagnosed with a stress reaction in the third metatarsal of his left foot, according to Shane Young of the Suns' official site.",
+            "date_updated": "2026-03-05",
+            "description": "Foot",
+            "start_date": "2026-03-04",
+            "status": "Out",
+            "structured_id": "8a343563-d02a-4fb5-995b-558cba5ce783"
+          }
+        ],
+        "d059bab2-9fb5-42dd-8038-5a12474300ce": [
+          {
+            "comment": "The Pacers listed Toppin as OUT for Thursday's (Mar. 12) game versus the Suns.",
+            "date_updated": "2026-03-12",
+            "description": "Foot",
+            "start_date": "2026-03-12",
+            "status": "Out",
+            "structured_id": "03aba7fc-858c-4586-a231-3c1376afaee7"
+          },
+          {
+            "comment": "The Pacers listed McConnell as OUT for Thursday's (Mar. 12) game versus the Suns.",
+            "date_updated": "2026-03-12",
+            "description": "Hamstring",
+            "start_date": "2026-03-08",
+            "status": "Out",
+            "structured_id": "7c7401cb-1476-4a60-9101-d16b48924c02"
+          },
+          {
+            "comment": "The Pacers listed Siakam as OUT for Thursday's (Mar. 12) game versus the Suns.",
+            "date_updated": "2026-03-12",
+            "description": "Knee",
+            "start_date": "2026-03-09",
+            "status": "Out",
+            "structured_id": "1c8ae3bd-88ae-4511-8622-9f9ac7d73de0"
+          },
+          {
+            "comment": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today",
+            "date_updated": "2026-02-09",
+            "description": "Knee",
+            "start_date": "2026-02-08",
+            "status": "Out For Season",
+            "structured_id": "26d909f3-7322-4793-818c-d021a9229885"
+          },
+          {
+            "comment": "The Pacers said on Tuesday (Jan. 27) that Haliburton will likely be in line for a relatively normal offseason and should be free of restrictions for the start of training camp next fall.",
+            "date_updated": "2026-01-27",
+            "description": "Achilles",
+            "start_date": "2025-06-22",
+            "status": "Out For Season",
+            "structured_id": "02222ad8-8166-414f-842b-ce83ecca6700"
+          },
+          {
+            "comment": "The Pacers listed Jackson as OUT for Thursday's (Mar. 12) game versus the Suns.",
+            "date_updated": "2026-03-12",
+            "description": "Calf",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "5403dd0a-1369-40c9-8608-56edc6013196"
+          },
+          {
+            "comment": "The Pacers listed Nesmith as OUT for Thursday's (Mar. 12) game versus the Suns.",
+            "date_updated": "2026-03-12",
+            "description": "Ankle",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "26987e0a-e5aa-4dd5-ae7a-569d92fd0de5"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-11T02:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 109,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-09T01:00:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 111,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-07T03:30:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 117,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-05T03:30:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 107,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-01T22:00:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 106,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        }
+      ],
+      "home_team_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR12PHXIND",
+      "player_id_mapping": {
+        "02acc094-76ab-4b3e-b51d-a351a9bab6b9": "ebe58f63-e571-4632-b569-ac0c69dd6218",
+        "06570485-2ec5-40ab-9b50-8e4cfd7f0dc3": "844a53dc-8e99-482e-9de6-09a05c68ed92",
+        "0b9bab33-66c3-4e01-b91e-df6b8c40ea2b": "31f47c5d-9201-4953-a3b9-c474734051bb",
+        "18c4bd7c-e293-4c0a-95d4-5e9983d301b3": "40b4e236-80d9-476b-98c1-e5ab58b441e8",
+        "1d1fa699-a455-4082-9df8-f97dbb0ca678": "31b8e118-988f-4da2-acda-ca134dbeeee3",
+        "215f475c-bee5-418c-ba2d-ebb9580e4b3c": "276f9513-b8ed-4a02-9847-8e25afc5bf67",
+        "222364c7-dae9-44db-830d-cdece37e174d": "26d909f3-7322-4793-818c-d021a9229885",
+        "254e42d7-df01-4c68-9264-bca06c83c2c1": "02222ad8-8166-414f-842b-ce83ecca6700",
+        "2da18268-82d4-4b40-a296-7ceddd435d0b": "6682cc79-5f4e-47a3-a4a9-f7235b68712c",
+        "31baa84f-c759-4f92-8e1f-a92305ade3d6": "3f978bca-a08f-4bf0-af43-279bfb8384d9",
+        "32526c95-bc6e-4d28-a751-c4200904d80b": "5ffee3f0-4e18-4bd7-b893-81f335111761",
+        "36d34864-f1f9-48f9-9cf1-bd7accc437c7": "9b4296e6-79b8-4ad5-94e3-afc3956122a4",
+        "3b40df6a-55ba-40a2-b6b8-ab8ae114dfc3": "aeb89ae8-9b87-4336-95b8-d1620d705c5c",
+        "3df1db1d-6596-489e-8e26-80f60fd9b1f4": "1c8ae3bd-88ae-4511-8622-9f9ac7d73de0",
+        "60b8026e-e154-4ed7-a247-8e4af1dbf668": "43913e84-c766-46d4-922d-76c07d62beff",
+        "6c0e93c1-0b81-4abb-8eb6-e573eff576ea": "094d4fcb-01e2-405e-a7ee-1f0ec4c6840f",
+        "6fd99205-e159-4ff2-b291-80fb2d067bb3": "8e5ec564-3e03-4566-bb11-e3569357092e",
+        "72a6489b-ad35-4f06-8a4f-a68ea1052f7b": "4f37758f-6499-4692-b0d6-7c0aafc58cef",
+        "749f9e06-52c1-4436-840e-9096a9908c0b": "5a55f86d-dd08-4c8d-b9cd-8549d64f86f4",
+        "83d5d358-9559-49fb-8cde-833d8d5eb108": "962da32e-f58c-4bb6-a118-b3a42fedcfc5",
+        "8571e039-8802-453a-aca5-7fdcb3ae1a28": "5403dd0a-1369-40c9-8608-56edc6013196",
+        "90d63a71-e4fe-411c-9773-2e74b5e1cb3b": "26987e0a-e5aa-4dd5-ae7a-569d92fd0de5",
+        "9a331092-35db-456c-a44a-d5b80a02ebe9": "5bd1435d-e77a-4202-bff3-6977979e10c1",
+        "a17d9b20-4e2b-4612-aecd-27938c997e94": "4cce6dfe-00c9-4334-9bc4-f085f127200d",
+        "a5ec46e9-928f-4609-ab4d-c86ec6434327": "8a343563-d02a-4fb5-995b-558cba5ce783",
+        "b159e65b-fd2f-415e-9cdd-46525e9897da": "3b0ba3a1-58e2-4443-aa8b-5de4e710bedb",
+        "b9d4ce1b-94dc-4bec-8d62-70a86d9c523e": "482a6dca-2054-4864-a82b-fec005bccbec",
+        "c722d438-db08-421e-9484-9e7d2f67c05d": "89073ae6-964f-4d13-8eeb-2e5ead049263",
+        "cdf51fa0-724e-48f3-9ee4-6a01ae4d9542": "22f8d5ad-8967-4dac-9820-ebb73b49fab7",
+        "ded5095f-92cf-40a4-a668-ba78370cfe27": "5e8b46ce-bcc8-4da6-80b7-27c9816a793e",
+        "e1d35615-1fd9-4c91-a05f-ef6e7f23c4ff": "70b46360-e073-43d8-948b-cefbbd66b356",
+        "e3dfa2a2-6272-4f3f-adf0-dd5dadea9481": "7c7401cb-1476-4a60-9101-d16b48924c02",
+        "ed000754-fb2c-4778-be6d-40cfc2400bd7": "03aba7fc-858c-4586-a231-3c1376afaee7",
+        "eef775a3-9634-47bc-95bf-a438c9d6dce8": "272d36c8-cfc5-4d2f-a5e8-4d9673e80f4a",
+        "fc0c5adb-2e00-4b9b-9db2-338ed54be386": "8c677e1a-09f0-4dab-9c20-161558ae282c",
+        "ffa9a64f-d624-4033-bd23-59dcfd805175": "07a246cd-1c40-42f1-849e-58fbd7696c30"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "94821e7f-50ec-43ce-892d-c1276a6a041b",
+      "status": "complete"
+    },
+    "end_date": "2026-03-13T03:12:18Z",
+    "id": "bb3a96bc-31eb-48fb-9289-7a7013ba1fdb",
+    "last_updated_ts": "2026-03-26T07:29:13.412103Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR12PHXIND",
+      "KXNBASPREAD-26MAR12PHXIND",
+      "KXNBATOTAL-26MAR12PHXIND",
+      "KXNBATEAMTOTAL-26MAR12PHXIND",
+      "KXNBA1HWINNER-26MAR12PHXIND",
+      "KXNBA2HWINNER-26MAR12PHXIND",
+      "KXNBA1HSPREAD-26MAR12PHXIND",
+      "KXNBA1HTOTAL-26MAR12PHXIND"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR12PHXIND",
+      "KXNBASPREAD-26MAR12PHXIND",
+      "KXNBATOTAL-26MAR12PHXIND",
+      "KXNBATEAMTOTAL-26MAR12PHXIND",
+      "KXNBA1HWINNER-26MAR12PHXIND",
+      "KXNBA2HWINNER-26MAR12PHXIND",
+      "KXNBAPTS-26MAR12PHXIND",
+      "KXNBAREB-26MAR12PHXIND",
+      "KXNBA3PT-26MAR12PHXIND",
+      "KXNBA2D-26MAR12PHXIND",
+      "KXNBAAST-26MAR12PHXIND",
+      "KXNBASTL-26MAR12PHXIND",
+      "KXNBA1HSPREAD-26MAR12PHXIND",
+      "KXNBA1HTOTAL-26MAR12PHXIND"
+    ],
+    "source_id": "94821e7f-50ec-43ce-892d-c1276a6a041b",
+    "source_ids": {
+      "source_2_id": "2026031210BA56AE",
+      "source_3_id": "94821e7f-50ec-43ce-892d-c1276a6a041b",
+      "source_4_id": "62926069",
+      "source_5_id": "sr:match:62926069"
+    },
+    "start_date": "2026-03-12T23:00:00Z",
+    "title": "Phoenix at Indiana",
+    "type": "basketball_game"
+  }
+}

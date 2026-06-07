@@ -1,0 +1,302 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-05T00:30:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 102,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-03-03T02:00:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 125,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-03-01T02:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 105,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-02-27T02:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 118,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-02-24T02:30:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 105,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        }
+      ],
+      "away_team_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+      "game_injuries": {
+        "0464e75c-8bc8-4f18-9ee2-577832b889d6": [
+          {
+            "comment": "The Wizards have listed Watkins as Out for Thursday's (Mar. 5) game against the Jazz.",
+            "date_updated": "2026-03-04",
+            "description": "Foot",
+            "start_date": "2026-03-03",
+            "status": "Out",
+            "structured_id": "b5bca5ba-0234-4790-98d5-dd964c8697fa"
+          },
+          {
+            "comment": "The Wizards announced Thursday (Mar. 5) that Davis will be re-evaluated in two weeks.",
+            "date_updated": "2026-03-05",
+            "description": "Finger",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "50cd523e-b363-4145-b038-10c3e7f5fc68"
+          },
+          {
+            "comment": "The Wizards have listed Vukcevic as Out for Thursday's (Mar. 5) game against the Jazz.",
+            "date_updated": "2026-03-04",
+            "description": "Thigh",
+            "start_date": "2026-03-01",
+            "status": "Out",
+            "structured_id": "8890a6d0-042f-431a-a5d4-bd9af4843851"
+          },
+          {
+            "comment": "The Wizards announced Thursday that Sarr has been diagnosed with a right hamstring strain and is expected to face a two-week recovery timeline.",
+            "date_updated": "2026-02-18",
+            "description": "Shoulder",
+            "start_date": "2025-12-20",
+            "status": "Out For Season",
+            "structured_id": "992529e1-8850-4ec0-a0c4-a8f63f525b2f"
+          },
+          {
+            "comment": "The Wizards have listed George as OUT for Thursday's (Mar. 5) game against the Jazz.",
+            "date_updated": "2026-03-04",
+            "description": "Elbow",
+            "start_date": "2026-03-03",
+            "status": "Out",
+            "structured_id": "10928e3f-1742-43ea-aed9-42715199b0c4"
+          },
+          {
+            "comment": "The Wizards have listed Russell as Out for Thursday's (Mar. 5) game against the Jazz.",
+            "date_updated": "2026-03-04",
+            "description": "Not Injury Related",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84"
+          },
+          {
+            "comment": "The Wizards said on Thursday (Feb. 12) that Sarr will miss around 2 weeks due to a hamstring injury.",
+            "date_updated": "2026-02-12",
+            "description": "Hamstring",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "95ce1408-68a5-4025-975c-ac02d98e6830"
+          }
+        ],
+        "6f60dfb1-fda1-423f-b76f-67e9d24b9644": [
+          {
+            "comment": "Markkanen will be re-evaluated in two weeks after Thursday's (Feb. 26) MRI showed symptomatic hip impingement with associated inflammation and bone bruise, according to Shams Charania.",
+            "date_updated": "2026-02-26",
+            "description": "Ankle",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "23b96d6f-9d94-4858-b814-deaf00b4bae4"
+          },
+          {
+            "comment": "The Jazz reported on Tuesday (Feb. 24) that Williams Jr. has been diagnosed with a torn left ACL and will miss the remainder of the season, per Shams Charania of ESPN.",
+            "date_updated": "2026-02-24",
+            "description": "ACL",
+            "start_date": "2026-02-23",
+            "status": "Out For Season",
+            "structured_id": "7703f943-6ac6-4d53-a056-e3b8a10ab262"
+          },
+          {
+            "comment": "The Jazz have listed George as OUT for Thursday's (Mar. 5) game against the Wizards.",
+            "date_updated": "2026-03-05",
+            "description": "Injury Management",
+            "start_date": "2026-03-05",
+            "status": "Out",
+            "structured_id": "bc6e3271-7095-427a-862f-24c9746e7cf7"
+          },
+          {
+            "comment": "Kessler will undergo left shoulder surgery to address a torn labrum and will miss the remainder of the 2025-26 season, as per Tony Jones of The Athletic.",
+            "date_updated": "2025-11-05",
+            "description": "Shoulder",
+            "start_date": "2025-11-01",
+            "status": "Out For Season",
+            "structured_id": "fa781441-5e6a-4a3d-9a3f-0af9ee263945"
+          },
+          {
+            "comment": "The Jazz reported on Monday (Feb. 23) that Nurkic will undergo season-ending nose surgery.",
+            "date_updated": "2026-02-23",
+            "description": "Nose",
+            "start_date": "2026-02-19",
+            "status": "Out For Season",
+            "structured_id": "cbc365fe-ea91-4ddb-b25b-57806890404e"
+          },
+          {
+            "comment": "The Jazz said on Thursday (Feb. 12) that Jackson Jr. will miss the rest of the season to undergo knee surgery.",
+            "date_updated": "2026-02-12",
+            "description": "Knee",
+            "start_date": "2026-02-12",
+            "status": "Out For Season",
+            "structured_id": "fb5e5473-1360-41fc-9961-23c16bfa4a2d"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 109,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-03T00:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 118,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-01T00:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 125,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-02-27T00:30:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 96,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        },
+        {
+          "date": "2026-02-25T00:30:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 98,
+          "structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "winner": false
+        }
+      ],
+      "home_team_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR05UTAWAS",
+      "player_id_mapping": {
+        "019a0f57-b63a-4521-8a5d-45942a15eb7b": "7d2ee2ec-d216-4a88-9468-cd82847d51a0",
+        "0e03dd88-2c39-4b4a-8b47-0c3c8ba82305": "10928e3f-1742-43ea-aed9-42715199b0c4",
+        "0e5eb37e-e112-4587-98d8-8a9b46254f28": "7703f943-6ac6-4d53-a056-e3b8a10ab262",
+        "19561190-edab-4465-a82d-7e42a7635800": "8c834598-267f-4866-8e81-6e6912b912a2",
+        "27db7dbb-6aad-44df-a3f4-7e1c21c2f256": "2b9b4c52-7963-4bbc-820a-787f29642aa0",
+        "28f3e566-3174-4e87-81d0-4889569b6ef5": "bdfa5db0-84ef-4d02-9758-09f03d14a206",
+        "30584815-1233-4c09-ad40-102909d95d8e": "3a5d5512-a007-425c-8888-787aa0a129e8",
+        "3e492a6a-ed3c-499d-b3f5-ff68ca16f6fd": "fb5e5473-1360-41fc-9961-23c16bfa4a2d",
+        "4a4459df-6307-4d10-b4cd-c69e9bf8b11d": "bc6e3271-7095-427a-862f-24c9746e7cf7",
+        "53e011ee-504f-473e-bb26-bfe34533ca10": "6e964a40-4ceb-403c-96c2-5a165e032f0d",
+        "57807c7c-5866-4eb9-8d2c-b83351f3e288": "67595303-1b3e-460d-8af7-239d9766d9e5",
+        "583d7994-36f9-4a9a-b527-c18704406981": "23b96d6f-9d94-4858-b814-deaf00b4bae4",
+        "584a8771-ee79-4957-89f1-a2b0638c497a": "e601299b-d9a4-4cd1-b86b-58e47670cfe6",
+        "5be520a5-5590-44ee-b763-3d3ce4505267": "423df079-9eec-42b2-85a7-58061b60621d",
+        "6d117ec5-649d-4151-8d44-88175c603067": "d8d735de-7698-4bec-a77c-5e187aa5d8f6",
+        "71b57f97-2ddd-4593-8111-c637e2b58ff8": "48c6f4d4-58be-4d3e-bf23-e438e6fa06bf",
+        "73f8f274-238d-419f-bccb-097362b8354d": "8890a6d0-042f-431a-a5d4-bd9af4843851",
+        "7aa10d1a-ed4e-417d-998d-84ce66c77c9b": "77498085-90ac-456b-a123-848a7a5866e0",
+        "7d615ccd-db96-42a3-9a6c-7f18ea25634e": "3b13424f-cbe9-4cec-b30a-72c243ef9cd4",
+        "7eccbdf9-58a3-4b96-8b1e-eaa8ea9da836": "fa781441-5e6a-4a3d-9a3f-0af9ee263945",
+        "810c84a1-e260-4aa3-9849-1b2ee3657fe3": "4b6555db-6e2a-4f68-ad47-2ed0aa1292ac",
+        "8c0929ae-ce3d-47e0-a964-bf6b8d3981ab": "a54465a9-fbb4-4fb1-866f-51054aeaa227",
+        "906578a8-c01e-4799-a972-2b47e02108b9": "6d256e44-7941-4c7e-a079-09a86365dbc9",
+        "a6bf9402-7f41-49a9-ab28-fe0bdffb5060": "e3df5841-b0b7-4c1f-97c4-2d0e34b2986f",
+        "a8b48aa9-cf98-4a87-8bba-e88eead8cdaa": "cbc365fe-ea91-4ddb-b25b-57806890404e",
+        "a8d25a06-b47e-4a08-a945-7bf0dd945584": "4ead891f-246e-4a10-922c-b9043a42a890",
+        "a9aaa4a2-9997-49b3-b54e-bcf5ec66efe5": "14d99e9f-e25c-4af9-87ef-e80635437ef2",
+        "aeba1657-a0df-427b-ba9a-6db9e9147304": "992529e1-8850-4ec0-a0c4-a8f63f525b2f",
+        "c0ec993e-16ee-48e8-b410-05690b1c17b6": "b5bca5ba-0234-4790-98d5-dd964c8697fa",
+        "c5fca05e-7292-464b-b9cd-d5d0f5e2fd07": "8a27cdd3-a42b-498a-b453-c31c26a77068",
+        "cf418e0c-de9d-438f-a1ac-3be539a56c42": "4aad249c-e551-45af-b759-d012f1daf436",
+        "dbf09e15-1cd8-434e-acda-9527735ef4d6": "e278cbc7-f046-4b4f-a38a-03e05a4c5d84",
+        "e747747c-3053-4ad3-a44d-7ac0b9cbdb4c": "7619f24f-d512-47c2-9fb5-a5f1b30b7ef4",
+        "ea8826b8-1f76-4eab-b61e-ffcb176880f3": "50cd523e-b363-4145-b038-10c3e7f5fc68",
+        "f6db8914-5cdd-48d6-ac19-b64133d688cf": "b3aba67a-2618-4ef7-a4cf-d116a7e9307f",
+        "fe4c4f99-5dfb-4e32-b69a-da8c5a779c27": "95ce1408-68a5-4025-975c-ac02d98e6830"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "a4c28daf-3b9e-4602-ab92-ab1e747befd2",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-06T03:11:34Z",
+    "id": "4c80c024-2fd8-45d3-ad6e-db811c292091",
+    "last_updated_ts": "2026-03-26T07:29:49.103162Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR05UTAWAS",
+      "KXNBASPREAD-26MAR05UTAWAS",
+      "KXNBATOTAL-26MAR05UTAWAS",
+      "KXNBATEAMTOTAL-26MAR05UTAWAS",
+      "KXNBA1HWINNER-26MAR05UTAWAS",
+      "KXNBA2HWINNER-26MAR05UTAWAS",
+      "KXNBA1HTOTAL-26MAR05UTAWAS",
+      "KXNBA1HSPREAD-26MAR05UTAWAS"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR05UTAWAS",
+      "KXNBASPREAD-26MAR05UTAWAS",
+      "KXNBATOTAL-26MAR05UTAWAS",
+      "KXNBATEAMTOTAL-26MAR05UTAWAS",
+      "KXNBA1HWINNER-26MAR05UTAWAS",
+      "KXNBA2HWINNER-26MAR05UTAWAS",
+      "KXNBAPTS-26MAR05UTAWAS",
+      "KXNBAREB-26MAR05UTAWAS",
+      "KXNBAAST-26MAR05UTAWAS",
+      "KXNBASTL-26MAR05UTAWAS",
+      "KXNBA3PT-26MAR05UTAWAS",
+      "KXNBA2D-26MAR05UTAWAS",
+      "KXNBA3D-26MAR05UTAWAS",
+      "KXNBA1HTOTAL-26MAR05UTAWAS",
+      "KXNBA1HSPREAD-26MAR05UTAWAS"
+    ],
+    "source_id": "a4c28daf-3b9e-4602-ab92-ab1e747befd2",
+    "source_ids": {
+      "source_2_id": "202603064F47FD5D",
+      "source_3_id": "a4c28daf-3b9e-4602-ab92-ab1e747befd2",
+      "source_4_id": "62925419",
+      "source_5_id": "sr:match:62925419"
+    },
+    "start_date": "2026-03-06T00:00:00Z",
+    "title": "Utah at Washington",
+    "type": "basketball_game"
+  }
+}

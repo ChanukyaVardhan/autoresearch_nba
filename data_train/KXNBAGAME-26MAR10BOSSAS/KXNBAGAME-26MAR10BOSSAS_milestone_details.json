@@ -1,0 +1,241 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-08T17:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 109,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T00:00:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 120,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-05T00:30:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 89,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-03T00:30:00+00:00",
+          "opponent_points": 81,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 108,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-02T01:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 114,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        }
+      ],
+      "away_team_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+      "game_injuries": {
+        "6dd427f5-fa02-40ef-aa90-cfa73e0c539e": [
+          {
+            "comment": "Vucevic underwent surgery Saturday (Mar. 7) to stabilize a fracture in his right ring finger and will be re-evaluated in 3-to-4 weeks.",
+            "date_updated": "2026-03-07",
+            "description": "Finger",
+            "start_date": "2026-03-06",
+            "status": "Out",
+            "structured_id": "9851168d-7c6c-4b3f-adcb-261a46e54c03"
+          },
+          {
+            "comment": "The Celtics listed Pritchard as OUT for Monday's (Mar. 10) game against San Antonio.",
+            "date_updated": "2026-03-10",
+            "description": "Neck",
+            "start_date": "2026-03-09",
+            "status": "Out",
+            "structured_id": "c4f4898b-4a7a-4849-8546-5bdc0af22927"
+          }
+        ],
+        "ad36c3e8-4194-4e63-920f-7c50f46191a6": [
+          {
+            "comment": "The Spurs announced on Wednesday (Feb. 4) that Jones Garcia underwent ankle surgery and will miss the remainder of the 2025-26 season, per Tom Orsborn of the San Antonio Express-News.",
+            "date_updated": "2026-02-04",
+            "description": "Ankle",
+            "start_date": "2026-02-04",
+            "status": "Out For Season",
+            "structured_id": "286d58e9-242b-4e81-b562-1b68ce86e283"
+          },
+          {
+            "comment": "The Spurs listed Barnes as OUT for Tuesday's (Mar. 10) game against Boston.",
+            "date_updated": "2026-03-09",
+            "description": "Ankle",
+            "start_date": "2026-03-03",
+            "status": "Out",
+            "structured_id": "eaa9ccb5-2e4c-48f2-bfae-964f5c56aa6e"
+          },
+          {
+            "comment": "The Spurs listed Watters III as Out for Tuesday's (Mar. 10) game against Boston.",
+            "date_updated": "2026-03-10",
+            "description": "Illness",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "74621b0e-0eda-4474-838c-3e669d032ebf"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-09T00:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 145,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T02:30:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 116,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-06T01:00:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 121,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-04T01:00:00+00:00",
+          "opponent_points": 91,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 131,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-01T18:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 89,
+          "structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "winner": false
+        }
+      ],
+      "home_team_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR10BOSSAS",
+      "player_id_mapping": {
+        "0718c0e1-7804-471a-b4ed-cde778948d4d": "c4f4898b-4a7a-4849-8546-5bdc0af22927",
+        "0a485720-7ec1-4e1b-a9e9-dcf912dde8db": "286d58e9-242b-4e81-b562-1b68ce86e283",
+        "18512d7a-ea08-408c-8ecb-7f436ca41120": "ad7c156e-90b4-4656-bf01-893bbd63b3d3",
+        "190797ba-a6f4-4286-9d5e-d157ff834829": "8193b1fe-f78e-4709-9845-3e1b53dc66b7",
+        "1bd20765-bf81-4250-a16c-05a4799758fc": "aa6f6626-0d22-4d04-bd68-e279b0ccf5d7",
+        "258ed390-1d72-42ee-9c52-f7064051e35f": "f33c690f-071c-40ee-8fdd-e10b6b236b73",
+        "59f3c089-7642-4792-99a2-97795c3d7648": "197dcf24-c55c-421c-b8b1-b744b7f09616",
+        "6f4f5e4b-37d7-4d28-a226-4f52d09aab02": "e0294aa0-1f2e-4c78-82b1-0db9a9f1e841",
+        "7366b2b7-5959-4dd9-9204-760e861b3119": "9851168d-7c6c-4b3f-adcb-261a46e54c03",
+        "7cfc1044-54f9-4788-af5f-8d943f992e0d": "16deb828-cf61-4d83-838e-8658730a0ffe",
+        "80328aab-9ce6-49c8-b3f2-f5bf73cdf319": "74621b0e-0eda-4474-838c-3e669d032ebf",
+        "85cd25fd-f437-48dd-b736-af5422c0feb7": "98eb67fd-32c0-49c7-b81d-607cc6a35771",
+        "879370c1-afe6-45c7-9ba1-93a78d4b8d61": "c770d1a8-b835-4d56-b107-3da5de5d6622",
+        "8da31ebc-6614-4209-8685-5442bc09887b": "fbcb18f9-9a5e-43f0-a622-b628d6422b48",
+        "8e288d6e-50b8-404b-812b-823ae5bab61f": "72670315-7b9d-4dc1-ac5a-f3675f4ab19d",
+        "8e3cbaa3-e30a-4cf8-aa7a-1b57f15f0f98": "b4fad83a-0403-4f63-8a8c-a5ea70d0ba4b",
+        "9570a938-324f-40e8-92dd-8a4fcf4a953b": "125f7622-b921-4377-a6c7-6e83a77789dc",
+        "98136da3-452f-49dc-a794-1ee9c76443f2": "5f251b4a-e9aa-4e22-b5df-157d80e606e6",
+        "98e2cdeb-69dc-499c-a853-84c32c714924": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "9bcd5cff-4a1c-4454-89b6-a5899b0c6bcc": "fc551031-35e4-47a5-b9a3-052c0c56109f",
+        "b04cd5ce-e82c-47a7-9b2a-c561c1cb7b80": "5f51a9d7-093c-48f8-80c8-1fa29a7f39f1",
+        "b16123e8-c885-4276-9994-8d5e390c0f0d": "fbbc0dd3-d175-4281-b220-f2e4a08be13e",
+        "bde7f42e-7296-453d-bcba-cac6fad2d03f": "926570a7-5b58-40ae-90b0-dd2021314424",
+        "ce8d0944-b277-499e-9701-02a5f1828615": "eaa9ccb5-2e4c-48f2-bfae-964f5c56aa6e",
+        "cf4d4c23-9ccc-4cf3-b620-9749a8e65064": "e38b5f9f-de26-4523-8986-99363e53f8e0",
+        "cfc1e41b-74ab-45ee-8132-aaf9ca7f8163": "c995b1bb-82ab-4be9-aad1-6351b75e108a",
+        "d7276f4c-b9ee-43bf-860d-07b01a0fe7b6": "a4ea1e30-5edb-44f3-8836-e59c49af3b82",
+        "ddee4a31-2791-4339-bfc3-a058ce2d1397": "3737a938-d72f-41bc-8098-e50c9334a4b5",
+        "f5aac467-6bf9-4fa3-b89a-9ef71fe546fa": "ef5bd790-45f1-4c0f-b977-58009cf35208",
+        "fa0e2b60-8ee9-4db6-b9bc-d0e23d6b29d2": "5310feca-3879-45e1-987b-ff68729c3a6d",
+        "fe215630-2dc5-4573-95cc-c1b14abbbbcd": "98cb9106-25d8-4846-be07-d6f5e2403ad3",
+        "fed6929f-8d92-456c-8a89-9e0c17cf4f7b": "03768fde-7261-4f9a-8ee5-e0a2ff33c3c1",
+        "ffc5579c-783f-4d62-80ab-3c3dcb05a27d": "417ef237-dcd0-46a2-8649-6ccbc78e3a4b"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "a9d1c4f6-9e1a-4186-ac5f-3d8e656be881",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-11T05:00:00Z",
+    "id": "495a4c1b-da9f-4899-b684-8e2c9ef096b4",
+    "last_updated_ts": "2026-03-26T07:29:45.46244Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR10BOSSAS",
+      "KXNBASPREAD-26MAR10BOSSAS",
+      "KXNBATOTAL-26MAR10BOSSAS",
+      "KXNBATEAMTOTAL-26MAR10BOSSAS",
+      "KXNBA1HWINNER-26MAR10BOSSAS",
+      "KXNBA2HWINNER-26MAR10BOSSAS",
+      "KXNBA1HTOTAL-26MAR10BOSSAS",
+      "KXNBA1HSPREAD-26MAR10BOSSAS",
+      "KXNBA2HTOTAL-26MAR10BOSSAS",
+      "KXNBA2HSPREAD-26MAR10BOSSAS"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR10BOSSAS",
+      "KXNBAMENTION-26MAR10BOSSAS",
+      "KXNBASPREAD-26MAR10BOSSAS",
+      "KXNBATOTAL-26MAR10BOSSAS",
+      "KXNBATEAMTOTAL-26MAR10BOSSAS",
+      "KXNBA1HWINNER-26MAR10BOSSAS",
+      "KXNBA2HWINNER-26MAR10BOSSAS",
+      "KXNBAPTS-26MAR10BOSSAS",
+      "KXNBA3PT-26MAR10BOSSAS",
+      "KXNBA2D-26MAR10BOSSAS",
+      "KXNBAREB-26MAR10BOSSAS",
+      "KXNBAAST-26MAR10BOSSAS",
+      "KXNBASTL-26MAR10BOSSAS",
+      "KXNBABLK-26MAR10BOSSAS",
+      "KXNBA3D-26MAR10BOSSAS",
+      "KXNBA1HTOTAL-26MAR10BOSSAS",
+      "KXNBA1HSPREAD-26MAR10BOSSAS",
+      "KXNBA2HTOTAL-26MAR10BOSSAS",
+      "KXNBA2HSPREAD-26MAR10BOSSAS"
+    ],
+    "source_id": "a9d1c4f6-9e1a-4186-ac5f-3d8e656be881",
+    "source_ids": {
+      "source_2_id": "202603115691A065",
+      "source_3_id": "a9d1c4f6-9e1a-4186-ac5f-3d8e656be881",
+      "source_4_id": "62925081",
+      "source_5_id": "sr:match:62925081"
+    },
+    "start_date": "2026-03-11T00:00:00Z",
+    "title": "Boston at San Antonio",
+    "type": "basketball_game"
+  }
+}

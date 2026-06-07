@@ -1,0 +1,236 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-20T00:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 107,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": false
+        },
+        {
+          "date": "2026-02-12T00:30:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 89,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": false
+        },
+        {
+          "date": "2026-02-10T03:00:00+00:00",
+          "opponent_points": 135,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 118,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": false
+        },
+        {
+          "date": "2026-02-08T02:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 109,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": true
+        },
+        {
+          "date": "2026-02-06T03:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 115,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": false
+        }
+      ],
+      "away_team_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+      "game_injuries": {
+        "0554528d-586b-461f-827b-801cf93e8a8e": [
+          {
+            "comment": "The 76ers listed Embiid as Out for Saturday's (Feb. 21) game against the Pelicans.",
+            "date_updated": "2026-02-20",
+            "description": "Knee",
+            "start_date": "2026-02-09",
+            "status": "Out",
+            "structured_id": "8aa20fec-25b0-47c8-bd26-efd64ee0826c"
+          }
+        ],
+        "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc": [
+          {
+            "comment": "The Pelicans listed Missi as OUT for Saturday's (Feb. 21) game against the 76ers.",
+            "date_updated": "2026-02-21",
+            "description": "Calf",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "1400f958-a65e-4dac-8ce0-6cf6e6edafd7"
+          },
+          {
+            "comment": "The Pelicans listed Murphy III as OUT for Saturday's (Feb. 21) game against the 76ers.",
+            "date_updated": "2026-02-21",
+            "description": "Shoulder",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "49ac8ed6-aad0-4703-aedb-b65dc8fcb086"
+          },
+          {
+            "comment": "The Pelicans listed Peavy as OUT for Saturday's (Feb. 21) game against the 76ers.",
+            "date_updated": "2026-02-21",
+            "description": "Toe",
+            "start_date": "2026-02-10",
+            "status": "Out",
+            "structured_id": "b56b1ccb-f281-4307-8759-3cb7b7ccc4f0"
+          },
+          {
+            "comment": "The Pelicans listed Murray as OUT for Saturday's (Feb. 21) game against the 76ers.",
+            "date_updated": "2026-02-21",
+            "description": "Achilles",
+            "start_date": "2025-01-31",
+            "status": "Out",
+            "structured_id": "26e6560f-bbf6-4e0f-bbe6-89f8fe643970"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-21T01:00:00+00:00",
+          "opponent_points": 139,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 118,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-12T01:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 111,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-10T01:00:00+00:00",
+          "opponent_points": 94,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 120,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-07T01:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 119,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-05T01:00:00+00:00",
+          "opponent_points": 141,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 137,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        }
+      ],
+      "home_team_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB21PHINOP",
+      "player_id_mapping": {
+        "0036a1fa-ff9a-44a5-8061-68b828ee2b1e": "0b538101-c08f-4a2e-a095-df6e59a02407",
+        "1bd4a869-80a3-47b7-bac9-789bda6e6e92": "21e37a74-41d2-4c09-9f05-9b20a14ba88b",
+        "1d7e4639-11b4-4358-96cb-028bfb166e64": "7d455b73-8844-4041-aebc-4a6dd76274bc",
+        "23462d55-9f15-4632-915f-2ab8e4458219": "08a82e64-bcf2-4395-a2bf-42feaaea03a3",
+        "26ad516e-5b80-4d33-a40a-b0dfacbaa992": "fbb39d19-504e-42c6-af35-1f45ae8328c0",
+        "2ed2f76f-5a2f-4d79-ab7c-e84a8a42dc21": "c2bd69e5-271d-47a0-829b-e63d6e655ed8",
+        "2edce68b-39ae-4307-9136-8b31b5222039": "00c958c5-01a7-4668-a3b3-669c22526e03",
+        "39d205a6-5a8e-4656-9565-87a8e95ee411": "d4740e21-0c79-4424-a03e-0b17e213a846",
+        "3c4a7fda-fca3-4a68-9886-ea7eec4cc2e3": "f296c65c-1854-4ce3-814f-4380939626cb",
+        "41ed1b83-4a60-4d43-b985-3c8d239d4da6": "9b80ae56-086e-42ad-9d22-f4e5af386852",
+        "440b769d-2b8b-477f-80d7-cb21d83c0d52": "dea3d9c3-c6fd-4f7a-bb80-ac4ae029c114",
+        "4589f8d1-66cd-4d57-a5b5-c7d130a0b43d": "3a43b825-6a96-4713-bebe-cb83d6583d39",
+        "51b62fe8-1e5c-4c65-8ad3-2ad06e749b70": "49ac8ed6-aad0-4703-aedb-b65dc8fcb086",
+        "5cc51c05-06f5-4ae4-89a4-1d329fbbcdfb": "220527f6-f6e9-46b3-92b4-ccd8e37ad577",
+        "66b88001-06c2-4f4a-9825-b6e0cc1df6cc": "0261059a-dc81-43c2-b3ef-2a937da69c9b",
+        "75fc46eb-71d8-4d1a-984f-3747ccd7a4c9": "90456e7e-47d2-483c-afe5-b6bacec17b2f",
+        "7d27ec3b-1e31-4b0f-abcf-e12039a0e27b": "26e6560f-bbf6-4e0f-bbe6-89f8fe643970",
+        "7dfa0971-96be-4705-9811-f9f54758145f": "605cfa20-dc8e-4c44-90bd-1ee476ec4138",
+        "7ff3c32f-2552-454d-9dee-a1d52000458a": "1400f958-a65e-4dac-8ce0-6cf6e6edafd7",
+        "8c090758-6baa-468d-82fd-d47e17d5091b": "c2755450-76a7-4d77-a5cc-de4e980c0f92",
+        "9f4181d5-0999-46ba-b466-d90ded24268a": "40a4cc2c-91d4-45c2-9324-d2a527c010f6",
+        "a4de5912-bd72-4993-ac93-fb65d2164660": "1397dd83-6f8b-4ca4-85d8-4ddee4d50e42",
+        "bf9ad0fd-0cb8-4360-8970-5f1b5cf3fa8d": "8aa20fec-25b0-47c8-bd26-efd64ee0826c",
+        "d325bed1-c812-4bf4-b2a1-3cb32fcb86fa": "f51d60f4-2633-4be8-b49c-d09a42c6051c",
+        "d531a451-6377-4942-a26f-3507d60fb36b": "a63c5df9-d7d6-4a12-93f2-10c7b4911c23",
+        "db09f372-9a17-4889-add7-bf8a75ab6da6": "bcd4c0ae-6e30-47ea-a549-eb7f70b8147a",
+        "e8486226-53e1-4857-b5f0-8b6fe88bdd8a": "1774828d-9afb-4643-81a8-af05aafa6866",
+        "ebb50069-6fdf-4c07-9a21-a63d5c814536": "60e4406b-ce4b-4eb3-bbb2-e955a85b90d5",
+        "f15e21e4-a83a-4263-aeda-d2ecd2ed6e25": "b9084e59-a89e-4e65-a9ce-1a6ba889c465",
+        "f2c67fa6-8093-46fb-b3fb-62916b9c1dad": "b56b1ccb-f281-4307-8759-3cb7b7ccc4f0",
+        "f4e6ac10-c2d3-4412-b85b-9511b93313e6": "9555a125-470b-4f6b-ace3-f4b03b027380",
+        "f871af48-952a-42e3-82da-7cad157b486c": "6f210c61-f8c9-4fb0-84d0-d597c102bca4",
+        "fc036630-debc-44bf-9663-03c3fbd3045c": "456d20cd-0fd9-46cd-9aec-b56181bccea6",
+        "fc486ff9-f1d0-4a1e-83ed-4a3aaec950a2": "0d3d5fe3-274a-4fd2-a802-ca5429effc95",
+        "ff065b75-4031-474c-9610-c505db2ca63e": "43edc187-1d56-40bc-ba15-a7b200a08e8f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "8b7fc4e6-bba4-4dec-810d-bd398ac2641f",
+      "status": "complete"
+    },
+    "end_date": "2026-02-22T03:04:48Z",
+    "id": "c4532702-6f0a-4c1c-bd89-1a82ae1926bf",
+    "last_updated_ts": "2026-03-26T07:28:10.972316Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB21PHINOP",
+      "KXNBASPREAD-26FEB21PHINOP",
+      "KXNBATOTAL-26FEB21PHINOP",
+      "KXNBATEAMTOTAL-26FEB21PHINOP",
+      "KXNBA1HWINNER-26FEB21PHINOP",
+      "KXNBA2HWINNER-26FEB21PHINOP",
+      "KXNBA1HSPREAD-26FEB21PHINOP",
+      "KXNBA1HTOTAL-26FEB21PHINOP"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB21PHINOP",
+      "KXNBASPREAD-26FEB21PHINOP",
+      "KXNBATOTAL-26FEB21PHINOP",
+      "KXNBATEAMTOTAL-26FEB21PHINOP",
+      "KXNBA1HWINNER-26FEB21PHINOP",
+      "KXNBA2HWINNER-26FEB21PHINOP",
+      "KXNBA1HSPREAD-26FEB21PHINOP",
+      "KXNBA1HTOTAL-26FEB21PHINOP",
+      "KXNBAPTS-26FEB21PHINOP",
+      "KXNBA3PT-26FEB21PHINOP",
+      "KXNBA2D-26FEB21PHINOP",
+      "KXNBAAST-26FEB21PHINOP",
+      "KXNBA3D-26FEB21PHINOP",
+      "KXNBAREB-26FEB21PHINOP",
+      "KXNBASTL-26FEB21PHINOP",
+      "KXNBABLK-26FEB21PHINOP"
+    ],
+    "source_id": "8b7fc4e6-bba4-4dec-810d-bd398ac2641f",
+    "source_ids": {
+      "source_2_id": "20260222483CA4DE",
+      "source_3_id": "8b7fc4e6-bba4-4dec-810d-bd398ac2641f"
+    },
+    "start_date": "2026-02-22T00:00:00Z",
+    "title": "Philadelphia at New Orleans",
+    "type": "basketball_game"
+  }
+}

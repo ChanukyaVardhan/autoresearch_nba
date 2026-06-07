@@ -1,11 +1,14 @@
-# Never commit raw data, secrets, or caches
-data/
-data_train/
+# Never commit secrets or caches
 *.env
 .env
 src/secret_key.py
 __pycache__/
 *.pyc
+.matplotlib/
+
+# NOTE: data/ and data_train/ ARE committed in this repo (private 2-person
+# collaboration) so a clone is runnable without re-pulling from the Kalshi API.
+# They can also be regenerated with pull_all_nba_games_from_feb.py (see README).
 
 # Results and experiment runs ARE committed (runs/, artifacts/, experiments/),
 # except these non-results leftovers:

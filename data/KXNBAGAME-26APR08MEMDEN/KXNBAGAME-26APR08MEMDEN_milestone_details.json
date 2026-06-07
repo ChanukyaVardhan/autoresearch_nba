@@ -1,0 +1,315 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-07T00:00:00+00:00",
+          "opponent_points": 142,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 126,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 115,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-04-04T00:00:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 96,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-04-02T00:00:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 119,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-03-31T00:00:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 105,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        }
+      ],
+      "away_team_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+      "game_injuries": {
+        "1cfe70b8-4dfc-47dc-acca-b68d4a725972": [
+          {
+            "comment": "The Grizzlies said on Sunday (Mar. 15) that Aldama will undergo a season-ending arthroscopic procedure and receive an orthobiologic injection to address discomfort in his right knee, according to Brett Siegel of ClutchPoints.com.",
+            "date_updated": "2026-03-15",
+            "description": "Knee",
+            "start_date": "2026-03-03",
+            "status": "Out For Season",
+            "structured_id": "bea22e75-78de-4403-98b8-953d4a69aed4"
+          },
+          {
+            "comment": "The Grizzlies listed Prosper as Out for Wednesday's (Apr. 8) game against the Nuggets.",
+            "date_updated": "2026-04-08",
+            "description": "Ankle",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "41f8ada0-5160-4cff-b69e-a335d1a9eec7"
+          },
+          {
+            "comment": "The Grizzlies announced Thursday that Caldwell-Pope underwent surgery to address the misalignment of his right pinky finger and will miss the remainder of the 2025-26 campaign.",
+            "date_updated": "2026-02-19",
+            "description": "Finger",
+            "start_date": "2026-02-18",
+            "status": "Out For Season",
+            "structured_id": "8bcb0399-a016-42af-bbc8-b701f99abb96"
+          },
+          {
+            "comment": "The Grizzlies listed Jackson as Out for Wednesday's (Apr. 8) game against the Nuggets.",
+            "date_updated": "2026-04-07",
+            "description": "Knee",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "f438ad3e-c75f-45b5-af2a-bf90dbf16fdd"
+          },
+          {
+            "comment": "The Grizzlies announced on Tuesday (Mar. 24) that Morant will miss the remainder of the season.",
+            "date_updated": "2026-03-24",
+            "description": "Elbow",
+            "start_date": "2026-01-22",
+            "status": "Out For Season",
+            "structured_id": "3956631b-53dc-4cd9-8521-c8a113c806fa"
+          },
+          {
+            "comment": "The Grizzlies said on Friday (Mar. 13) that Pippen Jr. will miss the remainder of the 2025-26 season after undergoing a sesamoidectomy to address ongoing discomfort in his right big toe, per Michael Scotto of USA Today.",
+            "date_updated": "2026-03-13",
+            "description": "Toe",
+            "start_date": "2026-03-08",
+            "status": "Out For Season",
+            "structured_id": "d6d1d5a3-80ef-4687-af8c-dfaae4d6ea92"
+          },
+          {
+            "comment": "The Grizzlies said that Edey will miss the remainder of the season.",
+            "date_updated": "2026-03-03",
+            "description": "Ankle",
+            "start_date": "2025-12-11",
+            "status": "Out For Season",
+            "structured_id": "fe5a04a5-0dc7-4373-baf9-36c4bced83a5"
+          },
+          {
+            "comment": "The Grizzlies listed Jerome as Out for Wednesday's (Apr. 8) game against the Nuggets.",
+            "date_updated": "2026-04-07",
+            "description": "Ankle",
+            "start_date": "2026-02-24",
+            "status": "Out",
+            "structured_id": "49771603-2a9e-4029-b716-a0f32150dc14"
+          },
+          {
+            "comment": "The Grizzlies announced Tuesday that Wells underwent a successful procedure to stabilize his right great toe and will miss the remainder of the 2025-26 campaign.",
+            "date_updated": "2026-03-31",
+            "description": "Toe",
+            "start_date": "2026-03-24",
+            "status": "Out For Season",
+            "structured_id": "7ae937e9-691a-4645-9e65-29e0f5713858"
+          },
+          {
+            "comment": "The Grizzlies listed Spencer as Out for Wednesday's (Apr. 8) game against the Nuggets.",
+            "date_updated": "2026-04-07",
+            "description": "Back",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "5b48c281-6f74-4ed0-9252-17fcd483d5c9"
+          },
+          {
+            "comment": "The Grizzlies announced that Clarke needs additional time to recover from a right calf strain and has been ruled out for the rest of the 2025-26 season.",
+            "date_updated": "2026-03-24",
+            "description": "Calf",
+            "start_date": "2025-12-22",
+            "status": "Out For Season",
+            "structured_id": "4e4462ee-8564-4052-ba81-7c1e416c3e6f"
+          },
+          {
+            "comment": "The Grizzlies listed Small as Out for Wednesday's (Apr. 8) game against the Nuggets.",
+            "date_updated": "2026-04-07",
+            "description": "Thigh",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "5e85252f-a995-4dc2-8d1e-e7fd7503c803"
+          }
+        ],
+        "ba2cb6be-9827-46a8-8e6f-d8661307ba77": [
+          {
+            "comment": "The Nuggets said on Friday (Apr. 3) that Watson is considered week-to-week.",
+            "date_updated": "2026-04-03",
+            "description": "Hamstring",
+            "start_date": "2026-04-01",
+            "status": "Out",
+            "structured_id": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8"
+          },
+          {
+            "comment": "The Nuggets listed Jones as Out for Wednesday's (Apr. 8) game against the Grizzlies.",
+            "date_updated": "2026-04-07",
+            "description": "Hamstring",
+            "start_date": "2026-03-29",
+            "status": "Out",
+            "structured_id": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-07T01:00:00+00:00",
+          "opponent_points": 132,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 137,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-04-04T19:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 136,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T01:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 130,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-30T02:00:00+00:00",
+          "opponent_points": 93,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 116,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        },
+        {
+          "date": "2026-03-28T01:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 135,
+          "structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "winner": true
+        }
+      ],
+      "home_team_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR08MEMDEN",
+      "player_id_mapping": {
+        "02d782f9-c33b-4ebb-a7f2-7f19cfafaf89": "9b1d114b-c1a7-455b-bb66-f6b74d7bec51",
+        "03cf6eb6-688a-49b1-a4cc-f10c39c21725": "49771603-2a9e-4029-b716-a0f32150dc14",
+        "169083b9-0653-44c8-ac69-bc5360a468c6": "d2658e1b-6cfa-4e54-8698-db5f6ba205c3",
+        "1b628236-920e-4307-942f-dda6d6e14de8": "fd4a1375-41fa-4ff9-9a6c-60d590b5be33",
+        "20f85838-0bd5-4c1f-ab85-a308bafaf5bc": "b8dc25d7-9f85-44dd-9200-bea74ed23889",
+        "24a43040-21a3-49da-aa0c-6e781f992f38": "21eb7b35-88a5-49ae-8986-ba3e05d79371",
+        "266cd359-f378-45c6-957e-6e21378e5219": "bea22e75-78de-4403-98b8-953d4a69aed4",
+        "28549c0f-c6e6-4757-a515-dbc2e1b78007": "f438ad3e-c75f-45b5-af2a-bf90dbf16fdd",
+        "2fe5b749-7bd4-4dbc-acfb-6d675f541e37": "2540898e-4ca4-4b5a-a13e-7d075580c497",
+        "339eff07-4d8e-42c6-9a47-900e94b13654": "a1bd832f-dd37-43ef-940c-e6c5d80f9af2",
+        "35cd1338-c56b-4247-b53c-264585c59883": "7cccaa3f-e07a-4757-8d57-e66827a35899",
+        "39111764-a140-4086-9220-fd4264d9072d": "56f17244-0da2-4884-a74a-d47744c3259d",
+        "4ea56b9e-562d-4f19-a0e1-ea0e1da19688": "fe5a04a5-0dc7-4373-baf9-36c4bced83a5",
+        "57551d80-b1c9-42a2-a882-e0c06aa6f951": "9720f5be-18b2-4da7-8988-0e3257c437c5",
+        "599e6bbf-54a5-431b-b542-1817a0942369": "41f8ada0-5160-4cff-b69e-a335d1a9eec7",
+        "5a563d9c-10c4-4005-a884-109f05264b0b": "cd00620d-b8d8-4f3b-9a18-b0fa0d8cdd87",
+        "685576ef-ea6c-4ccf-affd-18916baf4e60": "b68274ee-eaff-4793-a9fb-75f6db5561da",
+        "7c9ba5c2-8df5-4fe9-97f0-18d53d6dafd8": "55da8d79-a267-4dcc-a8da-f25518af50a0",
+        "8f6ef350-1d9a-4eda-bee9-294d0e9e64db": "3893af8f-647f-4298-8f72-552d451d6533",
+        "9983bed6-e53c-4c65-a90a-51546a0e3352": "3956631b-53dc-4cd9-8521-c8a113c806fa",
+        "9c8dc8ee-6207-48d5-81ee-f362f5e17f9b": "751fd761-96ac-4859-aade-a38d1e2d5c4c",
+        "9e51be65-7d39-433c-8d8c-de896da6267d": "5b48c281-6f74-4ed0-9252-17fcd483d5c9",
+        "9f666f68-046c-4315-a89d-d9ec2e9a852d": "fc56c21a-a5a1-4ac3-aa90-1eb74d41da9f",
+        "abfc35ea-baf0-4aff-b69a-30732ddf2b1b": "8e984869-9ba4-4b5c-98b6-f815ed76f9c8",
+        "b8fd0298-4027-47e2-9531-fa7c01b8bbba": "155ff771-bdf4-4a16-9908-6b555ff73ace",
+        "c2f67310-b2e2-4e89-a1f9-303e836b1415": "0a2e3f0b-0b82-4806-aefc-e0130c226b14",
+        "c8788ad2-89f7-4ec9-a22b-dcaf6190889b": "7cca2e77-305b-4738-ad2d-2d81b0671cd0",
+        "c978afe7-cf22-45fc-8d0f-da8f867eb5ee": "4e4462ee-8564-4052-ba81-7c1e416c3e6f",
+        "cbc0a3b2-985e-4484-9cb6-6891337b18b7": "060893cf-54aa-4987-8984-66e7bc6c6fa3",
+        "cbc1a455-6cf8-4174-ace6-b0e250936f74": "a8c36a08-649c-47b7-83bd-cb0e8ba6e47c",
+        "cecc054e-b9ec-4c71-8bbb-5ee665a8c3a9": "8bcb0399-a016-42af-bbc8-b701f99abb96",
+        "d1951755-732a-453b-bede-69ff9e5a595c": "5e85252f-a995-4dc2-8d1e-e7fd7503c803",
+        "df62b7c5-faaa-4f37-a716-b7e034aa03eb": "d6d1d5a3-80ef-4687-af8c-dfaae4d6ea92",
+        "dfce9679-dd27-4522-ab74-e197b3635d73": "67e9cbab-0d3d-430e-8dbe-dd6d66ce51ed",
+        "e434ac41-033a-496a-b1ea-89fd33e0ed5b": "83b0a7fc-3b47-4cdd-b86a-8aa6c7d4c21f",
+        "e6c9ddf9-088c-4e10-866b-0ff5172f6ba9": "b6a8c498-4558-4629-9950-6f9e2c877fed",
+        "f2625432-3903-4f90-9b0b-2e4f63856bb0": "7471d123-d5ac-4ab7-a1ed-01d3a0d00ee6",
+        "f2d36d30-3544-41cb-831d-afec9e256418": "7ae937e9-691a-4645-9e65-29e0f5713858",
+        "fb6e5496-cfa5-42c2-bbfa-f776734a25a8": "3783ab8b-6b24-48d3-835e-3d18b2ebd848",
+        "fc058e75-1015-4bbe-8fab-925d5f6d83fb": "642398f1-d99a-4132-a6b6-7233259aec3f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "93f82a8f-65b5-4da0-b91e-d450f8176fbd",
+      "status": "inprogress"
+    },
+    "end_date": "2026-04-09T16:42:48Z",
+    "id": "a8af9bcd-f920-46bc-ab0f-4e80e17c5601",
+    "last_updated_ts": "2026-04-10T16:59:57.20184Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR08MEMDEN",
+      "KXNBASPREAD-26APR08MEMDEN",
+      "KXNBATOTAL-26APR08MEMDEN",
+      "KXNBATEAMTOTAL-26APR08MEMDEN",
+      "KXNBA1HWINNER-26APR08MEMDEN",
+      "KXNBA2HWINNER-26APR08MEMDEN",
+      "KXNBA1HSPREAD-26APR08MEMDEN",
+      "KXNBA1HTOTAL-26APR08MEMDEN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR08MEMDEN",
+      "KXNBASPREAD-26APR08MEMDEN",
+      "KXNBATOTAL-26APR08MEMDEN",
+      "KXNBATEAMTOTAL-26APR08MEMDEN",
+      "KXNBA1HWINNER-26APR08MEMDEN",
+      "KXNBA2HWINNER-26APR08MEMDEN",
+      "KXNBAPTS-26APR08MEMDEN",
+      "KXNBAREB-26APR08MEMDEN",
+      "KXNBAAST-26APR08MEMDEN",
+      "KXNBA3PT-26APR08MEMDEN",
+      "KXNBA2D-26APR08MEMDEN",
+      "KXNBA3D-26APR08MEMDEN",
+      "KXNBASTL-26APR08MEMDEN",
+      "KXNBA1HSPREAD-26APR08MEMDEN",
+      "KXNBA1HTOTAL-26APR08MEMDEN",
+      "KXNBABLK-26APR08MEMDEN"
+    ],
+    "source_id": "93f82a8f-65b5-4da0-b91e-d450f8176fbd",
+    "source_ids": {
+      "source_2_id": "202604092F222CAA",
+      "source_3_id": "93f82a8f-65b5-4da0-b91e-d450f8176fbd",
+      "source_4_id": "62924731",
+      "source_5_id": "sr:match:62924731"
+    },
+    "start_date": "2026-04-09T01:00:00Z",
+    "title": "Memphis at Denver",
+    "type": "basketball_game"
+  }
+}

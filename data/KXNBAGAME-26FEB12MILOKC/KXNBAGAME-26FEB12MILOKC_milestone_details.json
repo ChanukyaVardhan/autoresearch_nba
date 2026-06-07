@@ -1,0 +1,100 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+      "home_team_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB12MILOKC",
+      "player_id_mapping": {
+        "1c8786b4-1786-4e3d-81ca-d976797413f5": "33b2a10d-1060-427a-98fe-ce1daf133441",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "323f9ef8-ecdd-41a7-859e-dd3db48ba913": "a1339a5c-be69-4ad2-8db2-8a65c6bf1781",
+        "36d083a5-49ca-42f1-80b7-b78275a8abd9": "c4cc3a86-4003-4ea8-941f-cc878aaad51f",
+        "38745a56-7472-4844-a2dc-f61d3bcd941f": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b",
+        "3f7e2350-e208-4791-98c2-684b53bb5a9a": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c",
+        "409f5c06-ac04-425a-8147-a4485e7b7e71": "29a143fb-73e3-4edf-8795-efd4579c3cf6",
+        "4965ef48-7aa9-4eae-a923-5023ff7ab1eb": "32b125e2-a412-42e4-81ac-329f053f9f23",
+        "4ab6a1ca-60ab-41e3-adbc-0395dec8c0da": "edf2d234-7410-4223-9d80-2f5893936d2e",
+        "4f80cdb1-1b10-4669-9774-045bc8a99c99": "d8974980-82ba-42dc-a510-dcb0564050d0",
+        "4fae86e2-4f99-4247-af85-d917b4389d31": "29359ac2-6049-4cf0-a4da-d8b5cc354ad5",
+        "56003e58-6b25-4f22-9d97-020b3d1f6616": "d9841514-7c9f-41e8-990c-18ba19569f31",
+        "616c60bf-f7ce-482d-a9c8-10c6c7fbef97": "445b8e51-f6ef-4707-afc1-651b38e89943",
+        "62c44a90-f280-438a-9c7e-252f4f376283": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92",
+        "62daf16f-0c4c-46ae-9e54-0d34d6fdef85": "9e660772-5491-4a0f-a408-84b184a62f61",
+        "64c0e4e5-8711-4b86-8072-745f6084df73": "0e6c26ec-43d9-4080-80ae-3310855e54aa",
+        "68b7aac9-02fd-4bd8-b10c-6702d2c5eb98": "a91b092f-2de1-43af-ab71-fa41cf000e32",
+        "6b5d0264-fa2d-4956-919b-61abfc6bb8d7": "ee339cf2-f3ce-4bdc-9b84-1ebbb0e65fa7",
+        "6c60282d-165a-4cba-8e5a-4f2d9d4c5905": "6c376ad3-bb8c-499d-9745-f87b60e40d66",
+        "8006987e-cd53-4e60-a26e-83cb96fb81ac": "32a69465-105d-4ee6-9512-273a4a604e4c",
+        "8936c15e-f9d5-4b9a-80b9-8f6b7dcf7a17": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04",
+        "8aaf1808-f7af-4894-9b14-cc7655005313": "de933f3a-eba2-422b-b2e7-cb30ed547794",
+        "9318b4c1-49d0-40eb-8b76-1098e28133d2": "144c5239-29b4-4656-8862-088803bb760e",
+        "9e0b879c-8be6-445e-a437-a3bf18130b9c": "d1bdb658-7142-472b-b51d-d74cb4d90d9b",
+        "ab0289ca-407b-41e9-ab2d-32407eedeccf": "419633cc-ca9b-42c3-a792-f95bb00cfdaa",
+        "abceaea3-47b0-43fb-b9f7-75f378e2d409": "2fb6b047-2714-4088-bbd8-c86051b3e0b1",
+        "b3db0b36-344f-4035-b315-9fb18933e535": "048da8e7-a562-4504-a102-b2fe624a0930",
+        "bf6b4aed-c007-41eb-b4e5-08b99f292ec2": "04bc92de-9046-4d6e-8c63-5f8e60ca8e0e",
+        "c56cbf7a-42a4-41a2-a37b-0cd4aaf248d0": "c2beb99e-9ef2-4e96-b440-96080fa60360",
+        "c6289b1b-7bb2-4ee6-8111-1a6e96aa9104": "6fcc7797-6201-40ad-bff2-abff2250bc2d",
+        "ca5ad700-2ed9-453a-9abe-08eb8edb601c": "c8fa499d-95bc-4280-85ef-c9467afd87fb",
+        "d3b28775-473d-471a-8452-e913f4347f0f": "7576d7ff-b42d-446f-bce0-71d63e8cd098",
+        "d9ea4a8f-ff51-408d-b518-980efc2a35a1": "b40547da-b4d9-4d33-b795-32595ef9c473",
+        "e8def95a-cdf0-423f-9cac-a3e7e92364db": "dab8637b-70f4-496d-9757-53ec9fe22533",
+        "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "23743b66-d9b0-4205-be84-b2697488fbfe",
+      "status": "complete"
+    },
+    "end_date": "2026-02-13T05:30:00Z",
+    "id": "87c03038-340e-45aa-a102-b298fcd0a0f6",
+    "last_updated_ts": "2026-03-26T07:28:54.049719Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB12MILOKC",
+      "KXNBASPREAD-26FEB12MILOKC",
+      "KXNBATOTAL-26FEB12MILOKC",
+      "KXNBATEAMTOTAL-26FEB12MILOKC",
+      "KXNBA1HWINNER-26FEB12MILOKC",
+      "KXNBA2HWINNER-26FEB12MILOKC",
+      "KXNBA1HSPREAD-26FEB12MILOKC",
+      "KXNBA1HTOTAL-26FEB12MILOKC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB12MILOKC",
+      "KXNBASPREAD-26FEB12MILOKC",
+      "KXNBATOTAL-26FEB12MILOKC",
+      "KXNBATEAMTOTAL-26FEB12MILOKC",
+      "KXNBAMENTION-26FEB12MILOKC",
+      "KXNBA1HWINNER-26FEB12MILOKC",
+      "KXNBA2HWINNER-26FEB12MILOKC",
+      "KXNBAPTS-26FEB12MILOKC",
+      "KXNBAREB-26FEB12MILOKC",
+      "KXNBA3PT-26FEB12MILOKC",
+      "KXNBA2D-26FEB12MILOKC",
+      "KXNBA1HSPREAD-26FEB12MILOKC",
+      "KXNBA1HTOTAL-26FEB12MILOKC",
+      "KXNBABLK-26FEB12MILOKC"
+    ],
+    "source_id": "23743b66-d9b0-4205-be84-b2697488fbfe",
+    "source_ids": {
+      "source_2_id": "202602138DD842C8",
+      "source_3_id": "23743b66-d9b0-4205-be84-b2697488fbfe"
+    },
+    "start_date": "2026-02-13T00:30:00Z",
+    "title": "Milwaukee at Oklahoma City",
+    "type": "basketball_game"
+  }
+}

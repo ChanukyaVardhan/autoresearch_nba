@@ -1,0 +1,230 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-23T00:00:00+00:00",
+          "opponent_points": 135,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 108,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        },
+        {
+          "date": "2026-02-21T00:30:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 122,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T01:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 133,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-02-10T01:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 138,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-02-08T20:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 96,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        }
+      ],
+      "away_team_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+      "game_injuries": {
+        "2229b01e-68eb-46ad-adf4-71a9533c84fc": [
+          {
+            "comment": "The Trail Blazers listed Avdija as OUT for Tuesday's (Feb. 24) game against the Timberwolves.",
+            "date_updated": "2026-02-23",
+            "description": "Back",
+            "start_date": "2026-02-22",
+            "status": "Out",
+            "structured_id": "0a9e0587-c565-41cc-93bd-74e1d1b1d375"
+          },
+          {
+            "comment": "Sharpe will be re-evaluated in 4-to-6 weeks, per Sean Highkin of Rip City Radio 620 Portland.",
+            "date_updated": "2026-02-24",
+            "description": "Calf",
+            "start_date": "2026-02-06",
+            "status": "Out",
+            "structured_id": "53147479-51de-4a93-8beb-a70a78dc681f"
+          },
+          {
+            "comment": "The Trail Blazers listed Williams III as Questionable for Tuesday's (Feb. 24) game against the Timberwolves.",
+            "date_updated": "2026-02-24",
+            "description": "Foot",
+            "start_date": "2026-02-24",
+            "status": "Day To Day",
+            "structured_id": "aba92929-6fc0-476c-8462-35c5cf7a2cec"
+          },
+          {
+            "comment": "The Trail Blazers said on Thursday (Sept. 25) that Lillard won't be back on the court for the 2025-26 season due to his achilles injury.",
+            "date_updated": "2025-09-25",
+            "description": "Achilles",
+            "start_date": "2025-09-25",
+            "status": "Out For Season",
+            "structured_id": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c"
+          }
+        ],
+        "29e3c04e-fadb-4006-be20-cbb8c159ce0e": []
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-23T01:00:00+00:00",
+          "opponent_points": 77,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 92,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-21T03:00:00+00:00",
+          "opponent_points": 157,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 103,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-13T02:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 135,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T01:00:00+00:00",
+          "opponent_points": 133,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 109,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-10T03:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 135,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        }
+      ],
+      "home_team_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB24MINPOR",
+      "player_id_mapping": {
+        "06df3766-f654-4fe3-8a37-496d21e7ea23": "0ff276a5-115b-4407-94b7-37e21c11454a",
+        "08baba55-bec0-4494-95ce-28778c37a981": "8201e738-2f9d-43df-a356-adb225fc5dcb",
+        "24a0f5aa-209a-4d54-91db-bddecc37f87e": "7b22d659-5c24-411c-937b-23352fdefff6",
+        "24c85a15-686e-4161-934b-40948188fa36": "2bf5e35d-4c07-42ff-bcc0-e2e7b05eab71",
+        "2b95727a-4273-4f8f-a45b-3d9ac9969dba": "ddef089e-567a-4057-a913-5c93bbd0ec91",
+        "312f21c9-a061-43e2-9a22-65199131068e": "0a9e0587-c565-41cc-93bd-74e1d1b1d375",
+        "37fbc3a5-0d10-4e22-803b-baa2ea0cdb12": "e9c185a4-48f9-497a-9da5-03d763ab11a3",
+        "460b7264-b98f-483e-b841-59a18c2e4d67": "4d76b816-4ca3-4a92-bbd3-489819b6821b",
+        "5382cf43-3a79-4a5a-a7fd-153906fe65dd": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c",
+        "5b297372-b2af-445e-a4bc-777982dbc1e3": "85df4482-17a9-49b8-b40f-b6cddb54e579",
+        "5b315e15-6633-4ce2-8200-71b821553314": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0",
+        "65700e81-3aa0-49a9-8a94-004f2cfb64e5": "b75478af-67c3-4a19-9cee-b2930a77d78d",
+        "657f2b36-208f-4bbe-a64a-c6cf6a76be72": "05f54a08-7983-4f7a-af49-210204c31989",
+        "65fec68f-dfbb-4127-bb7a-932d5144c0f6": "c040b6ef-2b8f-4338-ad6c-6a5973bb1484",
+        "7721e264-5db8-4af9-b252-65f2d18c454d": "f1bdc817-0c46-4f47-8007-e5701780c18f",
+        "7ad01370-ae8e-40ae-b70d-61f6d8dba8d9": "b7022c10-2203-4b3e-877d-f539c32e0532",
+        "823b2161-0c34-494c-9d7c-b438152f4f4d": "15a36614-d0eb-4be8-af9f-4e79a32d4231",
+        "8b43c272-c16b-40c7-a4d5-7bbcefeb1816": "c90b91a6-f684-4305-bf03-697ea7daf402",
+        "8db2a730-bafb-4936-915f-3dd4920a0aa9": "dab15c3b-1fd4-44ad-940c-55852685a6ae",
+        "952cd8e7-2fa5-4eac-bcd9-b2e135eab16f": "0f3fa1bc-e62a-4ea6-b30e-8f77f6f625f8",
+        "9c1deadf-622c-4326-bd14-3e273b5e1e5a": "14647265-8f75-4624-abab-5b6f9d1ef5cb",
+        "9cfad453-b323-43dc-a066-6cd0a21745ad": "19e432c3-e255-428c-94d0-cedebed3dfc5",
+        "a26661fb-805f-41a9-8fc9-8ed805233482": "06d2662c-1e37-4b6c-8a1d-501a105e5644",
+        "a34ec970-f4a1-47a3-98a1-51ff5e92a443": "9c875ec2-a062-4b15-9621-d5786b40a985",
+        "a978acbc-e84b-4cc4-85c9-30595e022847": "f7a10ceb-9ddc-4afc-aea0-8c67b8b1dc6d",
+        "aa5536d2-4d75-43fb-8df3-47fbf99d3b7c": "4432f713-dfc6-47db-881d-bace88c4d9c1",
+        "af5e629a-6b79-46d9-9b58-dc9ec41a0bd0": "a867c548-86ed-4810-a289-a25576489f7f",
+        "c089cc76-e8a3-46cc-8691-3d4f28edc9bf": "58da1241-7818-4d04-9629-2a5a5795c5fa",
+        "c20dfb58-5622-405e-90b1-92b79ee97461": "aba92929-6fc0-476c-8462-35c5cf7a2cec",
+        "c76e8dae-58ad-4950-8929-5094036210c4": "80b360ed-9ea4-4cca-8ced-abba5c6a8471",
+        "d0c7135a-1aea-40cb-ba20-df656de71749": "36ea9bc5-23b0-4274-9c6c-cd8a07b1b654",
+        "eb0bd3d9-4bf0-4cc3-bbdf-c79e2255c175": "53147479-51de-4a93-8beb-a70a78dc681f",
+        "f8a7e4c7-d60e-4751-9203-30a772dd9272": "930f19e3-6885-4738-9dae-484cb321f64f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "41ba157f-4053-4cc7-b139-b51231cdf2bc",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-25T08:00:00Z",
+    "id": "e4532e04-a862-420d-b301-f65b84155cd3",
+    "last_updated_ts": "2026-03-26T07:28:30.256241Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB24MINPOR",
+      "KXNBASPREAD-26FEB24MINPOR",
+      "KXNBATOTAL-26FEB24MINPOR",
+      "KXNBATEAMTOTAL-26FEB24MINPOR",
+      "KXNBA1HWINNER-26FEB24MINPOR",
+      "KXNBA2HWINNER-26FEB24MINPOR",
+      "KXNBA1HSPREAD-26FEB24MINPOR",
+      "KXNBA1HTOTAL-26FEB24MINPOR",
+      "KXNBA2HSPREAD-26FEB24MINPOR",
+      "KXNBA2HTOTAL-26FEB24MINPOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB24MINPOR",
+      "KXNBASPREAD-26FEB24MINPOR",
+      "KXNBATOTAL-26FEB24MINPOR",
+      "KXNBATEAMTOTAL-26FEB24MINPOR",
+      "KXNBAMENTION-26FEB25MINPOR",
+      "KXNBA1HWINNER-26FEB24MINPOR",
+      "KXNBA2HWINNER-26FEB24MINPOR",
+      "KXNBAPTS-26FEB24MINPOR",
+      "KXNBAREB-26FEB24MINPOR",
+      "KXNBAAST-26FEB24MINPOR",
+      "KXNBA3PT-26FEB24MINPOR",
+      "KXNBA2D-26FEB24MINPOR",
+      "KXNBA3D-26FEB24MINPOR",
+      "KXNBA1HSPREAD-26FEB24MINPOR",
+      "KXNBA1HTOTAL-26FEB24MINPOR",
+      "KXNBASTL-26FEB24MINPOR",
+      "KXNBABLK-26FEB24MINPOR",
+      "KXNBA2HSPREAD-26FEB24MINPOR",
+      "KXNBA2HTOTAL-26FEB24MINPOR"
+    ],
+    "source_id": "41ba157f-4053-4cc7-b139-b51231cdf2bc",
+    "source_ids": {
+      "source_2_id": "202602254800307E",
+      "source_3_id": "41ba157f-4053-4cc7-b139-b51231cdf2bc"
+    },
+    "start_date": "2026-02-25T03:00:00Z",
+    "title": "Minnesota at Portland",
+    "type": "basketball_game"
+  }
+}

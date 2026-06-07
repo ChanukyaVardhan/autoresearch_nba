@@ -1,0 +1,247 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-26T02:30:00+00:00",
+          "opponent_points": 94,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 119,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-24T02:30:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 129,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-22T00:30:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 138,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-20T00:00:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 99,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-19T00:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 109,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        }
+      ],
+      "away_team_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+      "game_injuries": {
+        "d059bab2-9fb5-42dd-8038-5a12474300ce": [
+          {
+            "comment": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today",
+            "date_updated": "2026-02-09",
+            "description": "Knee",
+            "start_date": "2026-02-08",
+            "status": "Out For Season",
+            "structured_id": "26d909f3-7322-4793-818c-d021a9229885"
+          },
+          {
+            "comment": "The Pacers said on Friday (Mar. 20) that Zubac will miss the rest of the season with a fractured rib.",
+            "date_updated": "2026-03-20",
+            "description": "Rib",
+            "start_date": "2026-03-18",
+            "status": "Out For Season",
+            "structured_id": "6682cc79-5f4e-47a3-a4a9-f7235b68712c"
+          },
+          {
+            "comment": "Walker won't return to Friday's (Mar. 27) game against the Clippers.",
+            "date_updated": "2026-03-27",
+            "description": "Concussion",
+            "start_date": "2026-03-27",
+            "status": "Day To Day",
+            "structured_id": "8e5ec564-3e03-4566-bb11-e3569357092e"
+          },
+          {
+            "comment": "The Pacers said on Tuesday (Jan. 27) that Haliburton will likely be in line for a relatively normal offseason and should be free of restrictions for the start of training camp next fall.",
+            "date_updated": "2026-01-27",
+            "description": "Achilles",
+            "start_date": "2025-06-22",
+            "status": "Out For Season",
+            "structured_id": "02222ad8-8166-414f-842b-ce83ecca6700"
+          }
+        ],
+        "daca4413-0ea1-4db2-a815-f05c181ef0a6": [
+          {
+            "comment": "Niederhauser has been diagnosed with a Lisfranc injury in his right foot and will require surgery. He's been ruled out for the remainder of the 2025-26 season, according to Joey Linn of SI.com.",
+            "date_updated": "2026-03-05",
+            "description": "Foot",
+            "start_date": "2026-03-04",
+            "status": "Out For Season",
+            "structured_id": "ef369e50-d57e-499e-8219-841ac142f166"
+          },
+          {
+            "comment": "Beal will undergo season-ending surgery on his left hip, as per ESPN's Shams Charania reports.",
+            "date_updated": "2025-11-12",
+            "description": "Hip",
+            "start_date": "2025-11-10",
+            "status": "Out For Season",
+            "structured_id": "beada20d-6def-48b5-8cdf-ca243e06640d"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-25T23:00:00+00:00",
+          "opponent_points": 137,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 130,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-23T23:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 128,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": true
+        },
+        {
+          "date": "2026-03-22T00:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 119,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-18T23:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 119,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-17T23:30:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 110,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        }
+      ],
+      "home_team_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR27LACIND",
+      "player_id_mapping": {
+        "02acc094-76ab-4b3e-b51d-a351a9bab6b9": "ebe58f63-e571-4632-b569-ac0c69dd6218",
+        "06570485-2ec5-40ab-9b50-8e4cfd7f0dc3": "844a53dc-8e99-482e-9de6-09a05c68ed92",
+        "067d9f05-a6b8-4a4b-854c-3364234e62b1": "f7e7a36e-601e-4130-a819-fa9f752bd14a",
+        "100af38e-d798-4b3a-8ee6-6280f0f4b4b8": "089f34c8-a9fa-480b-9b91-aa417097d552",
+        "1d1fa699-a455-4082-9df8-f97dbb0ca678": "31b8e118-988f-4da2-acda-ca134dbeeee3",
+        "1f665b2c-789e-4471-af7a-f86105f2466c": "5fe0b2a4-3e64-4451-a42d-bec734ea1199",
+        "222364c7-dae9-44db-830d-cdece37e174d": "26d909f3-7322-4793-818c-d021a9229885",
+        "254e42d7-df01-4c68-9264-bca06c83c2c1": "02222ad8-8166-414f-842b-ce83ecca6700",
+        "28a2e698-9f33-4d4d-9a5d-9bea66ee42a1": "4bf6560d-e40d-4412-b8c4-de4de06b42ac",
+        "2da18268-82d4-4b40-a296-7ceddd435d0b": "6682cc79-5f4e-47a3-a4a9-f7235b68712c",
+        "3054d6e1-033b-4b8d-93e5-b807ea122c75": "3e76dbce-174a-45f6-8019-5c1f483aadbe",
+        "3b40df6a-55ba-40a2-b6b8-ab8ae114dfc3": "aeb89ae8-9b87-4336-95b8-d1620d705c5c",
+        "3df1db1d-6596-489e-8e26-80f60fd9b1f4": "1c8ae3bd-88ae-4511-8622-9f9ac7d73de0",
+        "3f98b652-71d4-4a40-949d-41c33dddd15d": "f9912228-d55a-404f-b2e5-824658b21dc4",
+        "4ec576c6-d74d-4b23-83e5-7a94e76526c9": "ef369e50-d57e-499e-8219-841ac142f166",
+        "54cf6e06-9172-44b8-8d3b-ea1b6926553d": "a0efcc22-65e6-45a1-a474-6df949cd1613",
+        "56c796d6-74d3-4881-9166-7f528e2b67f6": "614ded35-dec0-4703-aaad-1abb645ad47b",
+        "6fd99205-e159-4ff2-b291-80fb2d067bb3": "8e5ec564-3e03-4566-bb11-e3569357092e",
+        "83d5d358-9559-49fb-8cde-833d8d5eb108": "962da32e-f58c-4bb6-a118-b3a42fedcfc5",
+        "8571e039-8802-453a-aca5-7fdcb3ae1a28": "5403dd0a-1369-40c9-8608-56edc6013196",
+        "90d63a71-e4fe-411c-9773-2e74b5e1cb3b": "26987e0a-e5aa-4dd5-ae7a-569d92fd0de5",
+        "979acf24-97b7-44f3-b8fb-6451f571540a": "b800a5e4-18bc-4402-b69e-402167501632",
+        "9f25f9f8-6028-4f4b-8e05-48b43272c167": "c8b85545-69a3-45eb-b054-fac03220e0d1",
+        "a89ac040-715d-4057-8fc0-9d71ad06fa0a": "11ac6d0a-2082-45a8-a091-71c8950eab5f",
+        "b159e65b-fd2f-415e-9cdd-46525e9897da": "3b0ba3a1-58e2-4443-aa8b-5de4e710bedb",
+        "b4282659-dd1a-4042-a075-7df4890858e7": "7c4044ea-fb72-430d-b08b-19bfe77bf24d",
+        "b79b88e1-35ef-4947-8a61-f6ec631a1e15": "94cad9c3-833e-410a-a028-6cd25fdb20d9",
+        "c12fb587-fc86-471c-8a84-19caf31325ce": "f2bfdc6c-0d84-4736-ba44-8cdbc196e0b3",
+        "c179fb5c-9845-4e37-aef7-6e00d97548eb": "0be3d8cd-ec75-442f-9b05-b6acaac19315",
+        "cdf51fa0-724e-48f3-9ee4-6a01ae4d9542": "22f8d5ad-8967-4dac-9820-ebb73b49fab7",
+        "dac0090b-6d39-4275-98ac-db8aab39502f": "5cef9632-cd85-406e-8441-661e2cc1657c",
+        "ded5095f-92cf-40a4-a668-ba78370cfe27": "5e8b46ce-bcc8-4da6-80b7-27c9816a793e",
+        "e3dfa2a2-6272-4f3f-adf0-dd5dadea9481": "7c7401cb-1476-4a60-9101-d16b48924c02",
+        "ed000754-fb2c-4778-be6d-40cfc2400bd7": "03aba7fc-858c-4586-a231-3c1376afaee7",
+        "eef775a3-9634-47bc-95bf-a438c9d6dce8": "272d36c8-cfc5-4d2f-a5e8-4d9673e80f4a",
+        "ff461754-ad20-4eeb-af02-2b46cc980b24": "beada20d-6def-48b5-8cdf-ca243e06640d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "ba32305d-df0a-4271-ac76-61644bcece45",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-28T02:55:13Z",
+    "id": "d934e1a4-d49e-4467-8543-4720ae22cc96",
+    "last_updated_ts": "2026-03-29T03:15:58.741147Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR27LACIND",
+      "KXNBASPREAD-26MAR27LACIND",
+      "KXNBATOTAL-26MAR27LACIND",
+      "KXNBATEAMTOTAL-26MAR27LACIND",
+      "KXNBA1HWINNER-26MAR27LACIND",
+      "KXNBA2HWINNER-26MAR27LACIND",
+      "KXNBA1HSPREAD-26MAR27LACIND",
+      "KXNBA1HTOTAL-26MAR27LACIND"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR27LACIND",
+      "KXNBASPREAD-26MAR27LACIND",
+      "KXNBATOTAL-26MAR27LACIND",
+      "KXNBATEAMTOTAL-26MAR27LACIND",
+      "KXNBA1HWINNER-26MAR27LACIND",
+      "KXNBA2HWINNER-26MAR27LACIND",
+      "KXNBA1HSPREAD-26MAR27LACIND",
+      "KXNBA1HTOTAL-26MAR27LACIND",
+      "KXNBAPTS-26MAR27LACIND",
+      "KXNBAREB-26MAR27LACIND",
+      "KXNBAAST-26MAR27LACIND",
+      "KXNBASTL-26MAR27LACIND",
+      "KXNBABLK-26MAR27LACIND",
+      "KXNBA3PT-26MAR27LACIND",
+      "KXNBA2D-26MAR27LACIND",
+      "KXNBA3D-26MAR27LACIND"
+    ],
+    "source_id": "ba32305d-df0a-4271-ac76-61644bcece45",
+    "source_ids": {
+      "source_2_id": "20260327D68AD7AE",
+      "source_3_id": "ba32305d-df0a-4271-ac76-61644bcece45",
+      "source_4_id": "62924959",
+      "source_5_id": "sr:match:62924959"
+    },
+    "start_date": "2026-03-27T23:00:00Z",
+    "title": "Los Angeles C at Indiana",
+    "type": "basketball_game"
+  }
+}

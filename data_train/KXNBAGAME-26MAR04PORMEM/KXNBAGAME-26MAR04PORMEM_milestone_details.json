@@ -1,0 +1,310 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-01T23:00:00+00:00",
+          "opponent_points": 135,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 101,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-28T18:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 93,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-27T01:00:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 121,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        },
+        {
+          "date": "2026-02-25T03:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 121,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": false
+        },
+        {
+          "date": "2026-02-23T01:00:00+00:00",
+          "opponent_points": 77,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 92,
+          "structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "winner": true
+        }
+      ],
+      "away_team_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+      "game_injuries": {
+        "1cfe70b8-4dfc-47dc-acca-b68d4a725972": [
+          {
+            "comment": "The Grizzlies have listed Jerome as Doubtful for Wednesday's (Mar. 4) game against the Trail Blazers.",
+            "date_updated": "2026-03-04",
+            "description": "Calf",
+            "start_date": "2026-03-04",
+            "status": "Day To Day",
+            "structured_id": "49771603-2a9e-4029-b716-a0f32150dc14"
+          },
+          {
+            "comment": "The Grizzlies have listed Aldama as OUT for Wednesday's (Mar. 4) game against the Trail Blazers.",
+            "date_updated": "2026-03-04",
+            "description": "Injury Management",
+            "start_date": "2026-03-03",
+            "status": "Out",
+            "structured_id": "bea22e75-78de-4403-98b8-953d4a69aed4"
+          },
+          {
+            "comment": "The Grizzlies have listed Gibson as OUT for Wednesday's (Mar. 4) game against the Trail Blazers.",
+            "date_updated": "2026-03-04",
+            "description": "Coach Decision",
+            "start_date": "2026-02-27",
+            "status": "Out",
+            "structured_id": "751fd761-96ac-4859-aade-a38d1e2d5c4c"
+          },
+          {
+            "comment": "The Grizzlies announced Thursday that Caldwell-Pope underwent surgery to address the misalignment of his right pinky finger and will miss the remainder of the 2025-26 campaign.",
+            "date_updated": "2026-02-19",
+            "description": "Finger",
+            "start_date": "2026-02-18",
+            "status": "Out For Season",
+            "structured_id": "8bcb0399-a016-42af-bbc8-b701f99abb96"
+          },
+          {
+            "comment": "The Grizzlies said on Wednesday (Feb. 18) that Morant will miss at least 2 more weeks.",
+            "date_updated": "2026-02-18",
+            "description": "Elbow",
+            "start_date": "2026-01-22",
+            "status": "Out",
+            "structured_id": "3956631b-53dc-4cd9-8521-c8a113c806fa"
+          },
+          {
+            "comment": "The Grizzlies have listed Coward as Doubtful for Wednesday's (Mar. 4) game against the Trail Blazers.",
+            "date_updated": "2026-03-04",
+            "description": "Knee",
+            "start_date": "2026-03-04",
+            "status": "Day To Day",
+            "structured_id": "fc56c21a-a5a1-4ac3-aa90-1eb74d41da9f"
+          },
+          {
+            "comment": "The Grizzlies said that Edey will miss the remainder of the season.",
+            "date_updated": "2026-03-03",
+            "description": "Ankle",
+            "start_date": "2025-12-11",
+            "status": "Out For Season",
+            "structured_id": "fe5a04a5-0dc7-4373-baf9-36c4bced83a5"
+          },
+          {
+            "comment": "The Grizzlies have listed Hendricks as Questionable for Wednesday's (Mar. 4) game against the Trail Blazers.",
+            "date_updated": "2026-03-04",
+            "description": "Illness",
+            "start_date": "2026-03-04",
+            "status": "Day To Day",
+            "structured_id": "3783ab8b-6b24-48d3-835e-3d18b2ebd848"
+          },
+          {
+            "comment": "The Grizzlies have listed Pippen Jr. as Doubtful for Wednesday's (Mar. 4) game against the Trail Blazers.",
+            "date_updated": "2026-03-04",
+            "description": "Toe",
+            "start_date": "2026-03-04",
+            "status": "Day To Day",
+            "structured_id": "d6d1d5a3-80ef-4687-af8c-dfaae4d6ea92"
+          },
+          {
+            "comment": "The Grizzlies said Brandon Clarke (calf) to miss at least 2 more weeks.",
+            "date_updated": "2026-03-01",
+            "description": "Calf",
+            "start_date": "2025-12-22",
+            "status": "Out",
+            "structured_id": "4e4462ee-8564-4052-ba81-7c1e416c3e6f"
+          }
+        ],
+        "2229b01e-68eb-46ad-adf4-71a9533c84fc": [
+          {
+            "comment": "The Trail Blazers listed Murray as Questionable for Wednesday's (Mar. 4) game against the Grizzlies.",
+            "date_updated": "2026-03-03",
+            "description": "Illness",
+            "start_date": "2026-03-01",
+            "status": "Day To Day",
+            "structured_id": "a867c548-86ed-4810-a289-a25576489f7f"
+          },
+          {
+            "comment": "The Trail Blazers listed Avdija as Questionable for Wednesday's (Mar. 4) game against the Grizzlies.",
+            "date_updated": "2026-03-03",
+            "description": "Back",
+            "start_date": "2026-02-22",
+            "status": "Day To Day",
+            "structured_id": "0a9e0587-c565-41cc-93bd-74e1d1b1d375"
+          },
+          {
+            "comment": "Sharpe will be re-evaluated in 4-to-6 weeks, per Sean Highkin of Rip City Radio 620 Portland.",
+            "date_updated": "2026-02-24",
+            "description": "Calf",
+            "start_date": "2026-02-06",
+            "status": "Out",
+            "structured_id": "53147479-51de-4a93-8beb-a70a78dc681f"
+          },
+          {
+            "comment": "The Trail Blazers said on Thursday (Sept. 25) that Lillard won't be back on the court for the 2025-26 season due to his achilles injury.",
+            "date_updated": "2025-09-25",
+            "description": "Achilles",
+            "start_date": "2025-09-25",
+            "status": "Out For Season",
+            "structured_id": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-04T01:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 110,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-03-01T22:00:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 125,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": true
+        },
+        {
+          "date": "2026-02-28T01:30:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 124,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": true
+        },
+        {
+          "date": "2026-02-26T00:30:00+00:00",
+          "opponent_points": 133,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 112,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        },
+        {
+          "date": "2026-02-24T01:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 114,
+          "structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "winner": false
+        }
+      ],
+      "home_team_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR04PORMEM",
+      "player_id_mapping": {
+        "02d782f9-c33b-4ebb-a7f2-7f19cfafaf89": "9b1d114b-c1a7-455b-bb66-f6b74d7bec51",
+        "03cf6eb6-688a-49b1-a4cc-f10c39c21725": "49771603-2a9e-4029-b716-a0f32150dc14",
+        "06df3766-f654-4fe3-8a37-496d21e7ea23": "0ff276a5-115b-4407-94b7-37e21c11454a",
+        "08baba55-bec0-4494-95ce-28778c37a981": "8201e738-2f9d-43df-a356-adb225fc5dcb",
+        "22031e11-d6b9-476c-8198-040db9ce09af": "612682ce-16b7-4050-8e1d-7febe4821f0e",
+        "266cd359-f378-45c6-957e-6e21378e5219": "bea22e75-78de-4403-98b8-953d4a69aed4",
+        "28549c0f-c6e6-4757-a515-dbc2e1b78007": "f438ad3e-c75f-45b5-af2a-bf90dbf16fdd",
+        "312f21c9-a061-43e2-9a22-65199131068e": "0a9e0587-c565-41cc-93bd-74e1d1b1d375",
+        "4ea56b9e-562d-4f19-a0e1-ea0e1da19688": "fe5a04a5-0dc7-4373-baf9-36c4bced83a5",
+        "5382cf43-3a79-4a5a-a7fd-153906fe65dd": "d651c84e-3e8c-48eb-befa-9bfb8b5a060c",
+        "599e6bbf-54a5-431b-b542-1817a0942369": "41f8ada0-5160-4cff-b69e-a335d1a9eec7",
+        "5b315e15-6633-4ce2-8200-71b821553314": "0770fc2a-26b9-44c5-ab2c-26815ea7c6b0",
+        "65700e81-3aa0-49a9-8a94-004f2cfb64e5": "b75478af-67c3-4a19-9cee-b2930a77d78d",
+        "7721e264-5db8-4af9-b252-65f2d18c454d": "f1bdc817-0c46-4f47-8007-e5701780c18f",
+        "8b43c272-c16b-40c7-a4d5-7bbcefeb1816": "c90b91a6-f684-4305-bf03-697ea7daf402",
+        "8db2a730-bafb-4936-915f-3dd4920a0aa9": "dab15c3b-1fd4-44ad-940c-55852685a6ae",
+        "996b6aa8-bd6f-469c-b669-bbc45934c587": "17380860-1ef9-4339-a500-e8bac0b0517c",
+        "9983bed6-e53c-4c65-a90a-51546a0e3352": "3956631b-53dc-4cd9-8521-c8a113c806fa",
+        "9c8dc8ee-6207-48d5-81ee-f362f5e17f9b": "751fd761-96ac-4859-aade-a38d1e2d5c4c",
+        "9e51be65-7d39-433c-8d8c-de896da6267d": "5b48c281-6f74-4ed0-9252-17fcd483d5c9",
+        "9f666f68-046c-4315-a89d-d9ec2e9a852d": "fc56c21a-a5a1-4ac3-aa90-1eb74d41da9f",
+        "a26661fb-805f-41a9-8fc9-8ed805233482": "06d2662c-1e37-4b6c-8a1d-501a105e5644",
+        "a978acbc-e84b-4cc4-85c9-30595e022847": "f7a10ceb-9ddc-4afc-aea0-8c67b8b1dc6d",
+        "af5e629a-6b79-46d9-9b58-dc9ec41a0bd0": "a867c548-86ed-4810-a289-a25576489f7f",
+        "b72c0b0f-48df-4724-920f-efde15dce017": "4a9f6422-74a5-498b-aa6a-be13dd1d3669",
+        "b8fd0298-4027-47e2-9531-fa7c01b8bbba": "155ff771-bdf4-4a16-9908-6b555ff73ace",
+        "c089cc76-e8a3-46cc-8691-3d4f28edc9bf": "58da1241-7818-4d04-9629-2a5a5795c5fa",
+        "c20dfb58-5622-405e-90b1-92b79ee97461": "aba92929-6fc0-476c-8462-35c5cf7a2cec",
+        "c2f67310-b2e2-4e89-a1f9-303e836b1415": "0a2e3f0b-0b82-4806-aefc-e0130c226b14",
+        "c76e8dae-58ad-4950-8929-5094036210c4": "80b360ed-9ea4-4cca-8ced-abba5c6a8471",
+        "c978afe7-cf22-45fc-8d0f-da8f867eb5ee": "4e4462ee-8564-4052-ba81-7c1e416c3e6f",
+        "cecc054e-b9ec-4c71-8bbb-5ee665a8c3a9": "8bcb0399-a016-42af-bbc8-b701f99abb96",
+        "d1951755-732a-453b-bede-69ff9e5a595c": "5e85252f-a995-4dc2-8d1e-e7fd7503c803",
+        "df62b7c5-faaa-4f37-a716-b7e034aa03eb": "d6d1d5a3-80ef-4687-af8c-dfaae4d6ea92",
+        "eb0bd3d9-4bf0-4cc3-bbdf-c79e2255c175": "53147479-51de-4a93-8beb-a70a78dc681f",
+        "f2d36d30-3544-41cb-831d-afec9e256418": "7ae937e9-691a-4645-9e65-29e0f5713858",
+        "fb6e5496-cfa5-42c2-bbfa-f776734a25a8": "3783ab8b-6b24-48d3-835e-3d18b2ebd848"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "c8fa3f9c-4011-4667-a66a-ea418e37d548",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-05T04:45:27Z",
+    "id": "bd3ec5ba-23d3-49a1-8b9c-93ac249aecf9",
+    "last_updated_ts": "2026-03-26T07:29:52.557599Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR04PORMEM",
+      "KXNBASPREAD-26MAR04PORMEM",
+      "KXNBATOTAL-26MAR04PORMEM",
+      "KXNBATEAMTOTAL-26MAR04PORMEM",
+      "KXNBA1HWINNER-26MAR04PORMEM",
+      "KXNBA2HWINNER-26MAR04PORMEM",
+      "KXNBA1HSPREAD-26MAR04PORMEM",
+      "KXNBA1HTOTAL-26MAR04PORMEM"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR04PORMEM",
+      "KXNBASPREAD-26MAR04PORMEM",
+      "KXNBATOTAL-26MAR04PORMEM",
+      "KXNBATEAMTOTAL-26MAR04PORMEM",
+      "KXNBA1HWINNER-26MAR04PORMEM",
+      "KXNBA2HWINNER-26MAR04PORMEM",
+      "KXNBAPTS-26MAR04PORMEM",
+      "KXNBAREB-26MAR04PORMEM",
+      "KXNBAAST-26MAR04PORMEM",
+      "KXNBA2D-26MAR04PORMEM",
+      "KXNBA1HSPREAD-26MAR04PORMEM",
+      "KXNBA1HTOTAL-26MAR04PORMEM",
+      "KXNBASTL-26MAR04PORMEM",
+      "KXNBABLK-26MAR04PORMEM"
+    ],
+    "source_id": "c8fa3f9c-4011-4667-a66a-ea418e37d548",
+    "source_ids": {
+      "source_2_id": "20260305AE3ED9BE",
+      "source_3_id": "c8fa3f9c-4011-4667-a66a-ea418e37d548",
+      "source_4_id": "62925267",
+      "source_5_id": "sr:match:62925267"
+    },
+    "start_date": "2026-03-05T01:00:00Z",
+    "title": "Portland at Memphis",
+    "type": "basketball_game"
+  }
+}

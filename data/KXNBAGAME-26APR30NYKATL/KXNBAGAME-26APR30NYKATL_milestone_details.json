@@ -1,0 +1,218 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-29T00:00:00+00:00",
+          "opponent_points": 97,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 126,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        },
+        {
+          "date": "2026-04-25T22:00:00+00:00",
+          "opponent_points": 98,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 114,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        },
+        {
+          "date": "2026-04-23T23:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 108,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": false
+        },
+        {
+          "date": "2026-04-21T00:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 106,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": false
+        },
+        {
+          "date": "2026-04-18T22:00:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 113,
+          "structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "winner": true
+        }
+      ],
+      "away_team_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+      "conference": "eastern",
+      "game_injuries": {
+        "67468ecc-b868-43a4-b9dc-751a52894bb0": [],
+        "e0729403-9c95-4ee2-b5d4-f704d8322570": [
+          {
+            "comment": "The Hawks said on Thursday (Apr. 16) that Landale is expected to miss at least two more weeks.",
+            "date_updated": "2026-04-16",
+            "description": "Ankle",
+            "start_date": "2026-04-01",
+            "status": "Out",
+            "structured_id": "2a838282-e52d-4c14-82db-ec72fa649d2e"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-29T00:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 97,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": false
+        },
+        {
+          "date": "2026-04-25T22:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 98,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": false
+        },
+        {
+          "date": "2026-04-23T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 109,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        },
+        {
+          "date": "2026-04-21T00:00:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 107,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        },
+        {
+          "date": "2026-04-18T22:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 102,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": false
+        }
+      ],
+      "home_team_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+      "is_playoffs": true,
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR30NYKATL",
+      "parent_series": "KXNBASERIES-26ATLNYKR1",
+      "player_id_mapping": {
+        "02dc6e18-95a4-4919-b4fc-f8a981ccd359": "2a838282-e52d-4c14-82db-ec72fa649d2e",
+        "03d77214-5780-4715-8df2-13de3af5ea2d": "f32ff309-d901-4ed3-a00d-cbcb6a22394b",
+        "106a6290-fe0d-47dd-8cc5-0a0e34a77165": "e4afd02c-10ef-4cef-8596-7687986d022a",
+        "1d4905d6-a6b4-4b45-8a90-91ed03440d0f": "4180e569-6cb9-4bf3-9f02-ae4f7c2659e8",
+        "227c2e8f-087e-4c15-8386-758ba10e06d2": "77db549c-35c8-4e23-b8d1-c86cf8b50fdf",
+        "22d1eb4b-c0de-49c8-9e11-866b9d98cca2": "b8a2ba46-a11a-4764-83c5-39932de64a5f",
+        "26049bcf-1ff3-4a23-8e4c-ce0b18784738": "081cbdc6-3e78-494c-8668-e181e9544c8b",
+        "3358cc38-7331-43ad-af04-ebd34fe328e7": "fa5d64cf-9154-4a34-8533-8ca65fb200d1",
+        "355a6113-d842-40be-9e74-90bb0800aabe": "a5b8f7e8-2d48-42da-8ebb-8200ac9b0a07",
+        "358fb074-ac1b-45a6-bf54-46c30534786e": "f61bdc80-8315-4d93-a488-71dc37ee3e8f",
+        "3bec965e-1c2e-4ef0-a598-74a018a627c4": "649b5ddd-017c-4dec-a035-13ab54d36011",
+        "3f34ce93-c0ad-4868-bab4-c6d83909ff78": "a4244555-a33c-46da-8c9f-de4e6b660bad",
+        "467f6843-4a9d-413b-9924-d2188d60e6fe": "af13c6ca-a86b-4642-900e-3dfc90a2d607",
+        "4d9e0abc-05aa-45de-be32-b0770697416a": "02cf3212-1a0f-4774-836e-26e85b903c14",
+        "6130d33e-5725-4f5d-8f81-76ecd691a5b2": "cfc58a3e-1523-462a-a96a-0d530915c0a9",
+        "6fc9597d-8531-491e-939e-e34c21689314": "fc9f98b2-53d0-4461-baba-1fb6ac9e2548",
+        "70e50e53-ca3b-425d-ac49-b156d6d1e016": "18c71a75-fa9c-458b-99a4-38de2b350233",
+        "795f46f2-c78d-4f1d-9ee2-4331c1cc8184": "383eab80-5509-470a-976d-3b960b1780fa",
+        "7e06d5ac-b8f3-47e7-809c-92cf63a864f7": "3c4f4966-d9cb-4bb9-adb9-ee429adf01a0",
+        "820a9363-1ad3-46a0-b577-2588f85b27f2": "bbee4cc1-3ac7-448a-b2aa-ad1b692d83a6",
+        "83cc5b28-36a7-43ba-ba20-8347bd1de583": "39374db0-6937-4ad5-bf39-7603700c9896",
+        "8d3edba8-9004-4199-9328-cc2208e8b0d3": "67413379-4f2e-4419-9a34-5518e4dfc22c",
+        "8d6caab5-3a9a-4994-bde0-9fe14032efd7": "68b815b1-9fe7-4d69-b044-9b2bc40adc47",
+        "9474fa0a-70dd-44c4-9751-dac5839ae7f3": "db091682-1cde-47be-afa9-4669075bb504",
+        "97e25d19-7c5c-49f9-91c0-5cd9b9cebdcb": "d4788df0-3807-47ca-bb94-24a02428371d",
+        "ab532a66-9314-4d57-ade7-bb54a70c65ad": "2410a7e1-07fb-494e-81b8-37e151d1ae00",
+        "b27687c1-55bb-49e6-9c5b-96a099fda7b7": "ad81c551-8dcc-4678-a547-523db6eac9e6",
+        "bc70a55a-cee0-478f-9a13-cf51c4a4187c": "fe9f8331-a822-49bc-bfca-9c7e7c84883a",
+        "d146629c-2584-4760-89af-e4378d7569c1": "d10494a2-6820-41e6-ac9c-8c518d050388",
+        "d222539f-fa52-4070-807f-d3aba372f46d": "aad8a908-c093-4a62-bf38-d6c5bc8a40f5",
+        "d3d0ab55-b939-47b3-af27-77cdf85d7956": "f46826e2-8666-4ffa-a319-627149adc113",
+        "d6fbf8f8-bb4a-43f7-95f6-498a5e042138": "ee7a2d49-1c75-458b-992c-a5a2a60d5d12",
+        "da3bc9bb-9e33-4bf8-a388-2047053eab4d": "b51ad7ce-d152-48a3-b9e0-1eb6af19dd84",
+        "da899e36-f338-495b-b6f0-121295baf354": "d7b10a02-f031-49b2-b295-b095079ce73d",
+        "ed643452-917d-40c5-badd-2e72958b059c": "d16a5d6e-12a2-4588-bd68-25a1f121d767",
+        "fd131bac-4644-4f4d-b715-2bc093775cd5": "3914da73-92f8-452d-a1f6-c441d57f6e2e"
+      },
+      "series_game_number": "Game 6",
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "e16d4c61-1ef1-4445-82f5-aecd60ff3f25",
+      "status": "inprogress"
+    },
+    "end_date": "2026-05-01T14:54:53Z",
+    "id": "29851e19-ffdb-4a68-8535-a171c65eee61",
+    "last_updated_ts": "2026-05-02T15:19:22.009509Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR30NYKATL",
+      "KXNBASPREAD-26APR30NYKATL",
+      "KXNBATOTAL-26APR30NYKATL",
+      "KXNBATEAMTOTAL-26APR30NYKATL",
+      "KXNBAOVERTIME-26APR30NYKATL",
+      "KXNBA1HWINNER-26APR30NYKATL",
+      "KXNBA1HSPREAD-26APR30NYKATL",
+      "KXNBA2HWINNER-26APR30NYKATL",
+      "KXNBA1HTOTAL-26APR30NYKATL",
+      "KXNBA2HSPREAD-26APR30NYKATL",
+      "KXNBA2HTOTAL-26APR30NYKATL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR30NYKATL",
+      "KXNBASPREAD-26APR30NYKATL",
+      "KXNBATOTAL-26APR30NYKATL",
+      "KXNBATEAMTOTAL-26APR30NYKATL",
+      "KXNBAOVERTIME-26APR30NYKATL",
+      "KXNBA1HWINNER-26APR30NYKATL",
+      "KXNBA1HSPREAD-26APR30NYKATL",
+      "KXNBA2HWINNER-26APR30NYKATL",
+      "KXNBAPTS-26APR30NYKATL",
+      "KXNBAREB-26APR30NYKATL",
+      "KXNBAAST-26APR30NYKATL",
+      "KXNBA3PT-26APR30NYKATL",
+      "KXNBA2D-26APR30NYKATL",
+      "KXNBA3D-26APR30NYKATL",
+      "KXNBAMENTION-26APR30NYKATL",
+      "KXNBA1HTOTAL-26APR30NYKATL",
+      "KXNBAPTSLEADER-26APR30NYKATL",
+      "KXNBASTL-26APR30NYKATL",
+      "KXNBABLK-26APR30NYKATL",
+      "KXNBA2HSPREAD-26APR30NYKATL",
+      "KXNBA2HTOTAL-26APR30NYKATL"
+    ],
+    "source_id": "e16d4c61-1ef1-4445-82f5-aecd60ff3f25",
+    "source_ids": {
+      "source_2_id": "20260430F7EA6631",
+      "source_3_id": "e16d4c61-1ef1-4445-82f5-aecd60ff3f25",
+      "source_4_id": "70505062",
+      "source_5_id": "sr:match:70505062"
+    },
+    "start_date": "2026-04-30T23:00:00Z",
+    "title": "New York at Atlanta",
+    "type": "basketball_game"
+  }
+}

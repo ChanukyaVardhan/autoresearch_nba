@@ -1,0 +1,279 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-28T02:30:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 127,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-02-26T00:30:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 116,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": false
+        },
+        {
+          "date": "2026-02-25T00:30:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 116,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-02-22T18:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 121,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-02-21T01:00:00+00:00",
+          "opponent_points": 86,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 105,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        }
+      ],
+      "away_team_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+      "game_injuries": {
+        "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed": [
+          {
+            "comment": "The Mavericks listed Marshall as OUT for Sunday's (Mar. 1) game against the Thunder.",
+            "date_updated": "2026-03-01",
+            "description": "Finger",
+            "start_date": "2026-02-28",
+            "status": "Out",
+            "structured_id": "f614a5c0-42ba-4187-b40a-e0c298d65091"
+          },
+          {
+            "comment": "The Mavericks announced on Sunday (Dec. 21) that Lively II has successfully underwent foot surgery.",
+            "date_updated": "2025-12-21",
+            "description": "Foot",
+            "start_date": "2025-11-22",
+            "status": "Out For Season",
+            "structured_id": "306185e2-63a3-487a-8ff1-eb514655e2c5"
+          },
+          {
+            "comment": "The Mavericks said on Wednesday (Feb. 18) that Irving is OUT for the season, per ESPN's Shams Charania. ",
+            "date_updated": "2026-02-18",
+            "description": "Knee",
+            "start_date": "2025-03-03",
+            "status": "Out For Season",
+            "structured_id": "c397aaf3-768c-48f2-9a6a-83d15e153123"
+          },
+          {
+            "comment": "The Mavericks said that Flagg won't be ready to play by Tuesday's (Mar. 3) game against the Hornets, per Grant Afseth of DallasHoopsJournal.com.",
+            "date_updated": "2026-02-27",
+            "description": "Foot",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "3b4ac2be-e186-4c72-a906-b7276d76422d"
+          },
+          {
+            "comment": "The Mavericks listed Washington as OUT for Sunday's (Mar. 1) game against the Thunder.",
+            "date_updated": "2026-03-01",
+            "description": "Ankle",
+            "start_date": "2026-02-24",
+            "status": "Out",
+            "structured_id": "b382638b-047d-4e8b-84ec-31c3c0fa87db"
+          },
+          {
+            "comment": "The Mavericks listed Bagley III as Out for Sunday's (Mar. 1) game against the Thunder.",
+            "date_updated": "2026-02-28",
+            "description": "Neck",
+            "start_date": "2026-02-27",
+            "status": "Out",
+            "structured_id": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf"
+          }
+        ],
+        "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c": [
+          {
+            "comment": "The Thunder listed Mitchell as Out for Sunday's (Mar. 1) game against the Mavericks.",
+            "date_updated": "2026-02-28",
+            "description": "Abdomen",
+            "start_date": "2026-01-21",
+            "status": "Out",
+            "structured_id": "33b2a10d-1060-427a-98fe-ce1daf133441"
+          },
+          {
+            "comment": "The Thunder listed Carlson as Out for Sunday's (Mar. 1) game against the Mavericks.",
+            "date_updated": "2026-02-28",
+            "description": "Back",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "419633cc-ca9b-42c3-a792-f95bb00cfdaa"
+          },
+          {
+            "comment": "Williams is scheduled to be re-evaluated in approximately two weeks, according to Brandon according to Rahbar of DailyThunder.com.",
+            "date_updated": "2026-02-19",
+            "description": "Hamstring",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92"
+          },
+          {
+            "comment": "The Thunder announced on Friday (Sept. 5) that Sorber will miss the 2025-2026 season with a torn ACL.",
+            "date_updated": "2025-09-05",
+            "description": "Knee",
+            "start_date": "2025-09-05",
+            "status": "Out For Season",
+            "structured_id": "c2beb99e-9ef2-4e96-b440-96080fa60360"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-28T01:30:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 105,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-02-27T01:30:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 121,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        },
+        {
+          "date": "2026-02-25T00:30:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 123,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": true
+        },
+        {
+          "date": "2026-02-22T22:00:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 134,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": true
+        },
+        {
+          "date": "2026-02-21T00:30:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 111,
+          "structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "winner": false
+        }
+      ],
+      "home_team_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR01OKCDAL",
+      "player_id_mapping": {
+        "1b31afe2-7fb7-42d1-8eef-003c5eb619c2": "306185e2-63a3-487a-8ff1-eb514655e2c5",
+        "1c8786b4-1786-4e3d-81ca-d976797413f5": "33b2a10d-1060-427a-98fe-ce1daf133441",
+        "1d323a11-1758-4975-ba6f-1a03b7a2157c": "3b4ac2be-e186-4c72-a906-b7276d76422d",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "30eb60ce-5b33-4784-8e2a-37c304ea7721": "5da14c46-20e8-477d-8869-95f009e5f98f",
+        "36d083a5-49ca-42f1-80b7-b78275a8abd9": "c4cc3a86-4003-4ea8-941f-cc878aaad51f",
+        "38745a56-7472-4844-a2dc-f61d3bcd941f": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b",
+        "3f7e2350-e208-4791-98c2-684b53bb5a9a": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c",
+        "44fe2902-0a78-440e-bbad-d28cd0308e21": "4b8286f2-fd4a-4a46-b65b-392d5b21cc8b",
+        "4965ef48-7aa9-4eae-a923-5023ff7ab1eb": "32b125e2-a412-42e4-81ac-329f053f9f23",
+        "4ab6a1ca-60ab-41e3-adbc-0395dec8c0da": "edf2d234-7410-4223-9d80-2f5893936d2e",
+        "4c362eee-6474-40ea-b1b4-d8f917f95175": "08aa816a-180f-42cd-b498-9067f069ba70",
+        "4e152a06-673e-4701-b115-aa7e2cd00d2d": "2f07473d-3b17-445c-811a-571e2e77025c",
+        "52cd8137-c791-4569-ad70-433e25d34882": "f7809899-1a37-42df-8c56-5029ca536e5b",
+        "566685c7-ff63-439a-8888-5278904835fa": "9e9915a1-81b8-4cda-b6b6-1537607daf8a",
+        "62c44a90-f280-438a-9c7e-252f4f376283": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92",
+        "68175411-ce98-4b2c-9ff0-3e26bff33191": "41df03a3-f2f3-49ad-997e-34d3e36f04b5",
+        "6d4ce277-bc3e-4d24-82d4-5366c48e4cdd": "6e0b9fe4-b330-459a-a6fa-6bb2caaf3d00",
+        "6d7f4f2f-7ea7-4c56-8082-dfdce67f5487": "b382638b-047d-4e8b-84ec-31c3c0fa87db",
+        "8936c15e-f9d5-4b9a-80b9-8f6b7dcf7a17": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04",
+        "9318b4c1-49d0-40eb-8b76-1098e28133d2": "144c5239-29b4-4656-8862-088803bb760e",
+        "a15f73b1-f757-4af2-b09a-f0185e09c8bf": "f614a5c0-42ba-4187-b40a-e0c298d65091",
+        "a465418b-0933-40b4-8f01-253d046872e1": "335fc1f4-8629-4b73-ba10-f18c7bb35a53",
+        "ab0289ca-407b-41e9-ab2d-32407eedeccf": "419633cc-ca9b-42c3-a792-f95bb00cfdaa",
+        "abceaea3-47b0-43fb-b9f7-75f378e2d409": "2fb6b047-2714-4088-bbd8-c86051b3e0b1",
+        "b3db0b36-344f-4035-b315-9fb18933e535": "048da8e7-a562-4504-a102-b2fe624a0930",
+        "bf6b4aed-c007-41eb-b4e5-08b99f292ec2": "04bc92de-9046-4d6e-8c63-5f8e60ca8e0e",
+        "c56cbf7a-42a4-41a2-a37b-0cd4aaf248d0": "c2beb99e-9ef2-4e96-b440-96080fa60360",
+        "c8efed0b-f365-4440-84f7-df8c8078d1c0": "81a9e528-797f-4742-94a7-6a0aab0cdee6",
+        "d3b28775-473d-471a-8452-e913f4347f0f": "7576d7ff-b42d-446f-bce0-71d63e8cd098",
+        "d8058632-b2ca-468c-9c27-56410aef4dff": "06631017-5228-4584-8c20-90c630ba3d5d",
+        "d9ea4a8f-ff51-408d-b518-980efc2a35a1": "b40547da-b4d9-4d33-b795-32595ef9c473",
+        "dd146010-902b-4ad7-b98c-650d0363a2f0": "c397aaf3-768c-48f2-9a6a-83d15e153123",
+        "e86c1439-4ef0-4530-9c41-c3a682962eb3": "5deb2156-eb33-4bbf-a2d3-ea2d77e35abf",
+        "e872cdaf-5d04-45c2-bbfe-d673f3fb26ce": "4f13353c-1bad-49b6-8fe6-3530ad2d887a",
+        "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "ca4795da-8b0d-4422-9600-98264c868725",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-02T04:24:49Z",
+    "id": "524b259a-477d-4f94-bfb9-a5a92315abf7",
+    "last_updated_ts": "2026-03-26T07:29:24.99307Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR01OKCDAL",
+      "KXNBASPREAD-26MAR01OKCDAL",
+      "KXNBATOTAL-26MAR01OKCDAL",
+      "KXNBATEAMTOTAL-26MAR01OKCDAL",
+      "KXNBA1HWINNER-26MAR01OKCDAL",
+      "KXNBA2HWINNER-26MAR01OKCDAL",
+      "KXNBA1HSPREAD-26MAR01OKCDAL",
+      "KXNBA1HTOTAL-26MAR01OKCDAL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR01OKCDAL",
+      "KXNBASPREAD-26MAR01OKCDAL",
+      "KXNBATOTAL-26MAR01OKCDAL",
+      "KXNBATEAMTOTAL-26MAR01OKCDAL",
+      "KXNBA1HWINNER-26MAR01OKCDAL",
+      "KXNBA2HWINNER-26MAR01OKCDAL",
+      "KXNBAPTS-26MAR01OKCDAL",
+      "KXNBAREB-26MAR01OKCDAL",
+      "KXNBAAST-26MAR01OKCDAL",
+      "KXNBA3PT-26MAR01OKCDAL",
+      "KXNBA2D-26MAR01OKCDAL",
+      "KXNBA3D-26MAR01OKCDAL",
+      "KXNBA1HSPREAD-26MAR01OKCDAL",
+      "KXNBA1HTOTAL-26MAR01OKCDAL",
+      "KXNBASTL-26MAR01OKCDAL",
+      "KXNBABLK-26MAR01OKCDAL"
+    ],
+    "source_id": "ca4795da-8b0d-4422-9600-98264c868725",
+    "source_ids": {
+      "source_2_id": "2026030246961B4A",
+      "source_3_id": "ca4795da-8b0d-4422-9600-98264c868725",
+      "source_4_id": "62925677",
+      "source_5_id": "sr:match:62925677"
+    },
+    "start_date": "2026-03-02T01:00:00Z",
+    "title": "Oklahoma City at Dallas",
+    "type": "basketball_game"
+  }
+}

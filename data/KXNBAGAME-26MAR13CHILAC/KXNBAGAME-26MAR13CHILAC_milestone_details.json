@@ -1,0 +1,287 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-13T02:30:00+00:00",
+          "opponent_points": 142,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 130,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-11T02:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 130,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-09T01:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 110,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-06T02:00:00+00:00",
+          "opponent_points": 103,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 105,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-04T01:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 108,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        }
+      ],
+      "away_team_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+      "game_injuries": {
+        "65f0250b-455d-43d7-b7dc-7d321bdf9abc": [
+          {
+            "comment": "The Bulls listed Simons as OUT for Friday's (Mar. 13) game versus the Clippers.",
+            "date_updated": "2026-03-13",
+            "description": "Wrist",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "94894b15-fc9f-42e5-854c-4d2a6006c09b"
+          },
+          {
+            "comment": "The Bulls listed Smith as Out for Friday's (Mar. 13) game versus the Clippers.",
+            "date_updated": "2026-03-13",
+            "description": "Calf",
+            "start_date": "2026-03-13",
+            "status": "Out",
+            "structured_id": "37104adf-2343-40fe-8d8a-a11f89d037e8"
+          },
+          {
+            "comment": "The Bulls listed Okoro as Out for Friday's (Mar. 13) game versus the Clippers.",
+            "date_updated": "2026-03-13",
+            "description": "Knee",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a"
+          },
+          {
+            "comment": "The Bulls reported on Wednesday (Dec. 3) that Essengue will have shoulder surgery and miss the remainder of the season, per HC Billy Donovan.",
+            "date_updated": "2025-12-03",
+            "description": "Shoulder",
+            "start_date": "2025-11-29",
+            "status": "Out For Season",
+            "structured_id": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c"
+          },
+          {
+            "comment": "Ivey won't travel with the Bulls for their upcoming five-game road trip, according to K.C. Johnson of Chicago Sports Network.",
+            "date_updated": "2026-03-03",
+            "description": "Knee",
+            "start_date": "2026-02-20",
+            "status": "Out",
+            "structured_id": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7"
+          },
+          {
+            "comment": "The Bulls said on Saturday (Feb. 21) that Collins will undergo surgery for a sprain right toe and will be sidelined for the rest of the 2025-26 season.",
+            "date_updated": "2026-02-21",
+            "description": "Toe",
+            "start_date": "2025-12-28",
+            "status": "Out For Season",
+            "structured_id": "2a5b8fd6-50da-499a-a50b-832f02dea356"
+          },
+          {
+            "comment": "The Bulls listed Sexton as Out for Friday's (Mar. 13) game versus the Clippers.",
+            "date_updated": "2026-03-13",
+            "description": "Leg",
+            "start_date": "2026-03-08",
+            "status": "Out",
+            "structured_id": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387"
+          }
+        ],
+        "daca4413-0ea1-4db2-a815-f05c181ef0a6": [
+          {
+            "comment": "The Clippers listed Garland as Out for Friday's (Mar. 13) game against the Bulls.",
+            "date_updated": "2026-03-12",
+            "description": "Toe",
+            "start_date": "2026-03-12",
+            "status": "Out",
+            "structured_id": "94cad9c3-833e-410a-a028-6cd25fdb20d9"
+          },
+          {
+            "comment": "Niederhauser has been diagnosed with a Lisfranc injury in his right foot and will require surgery. He's been ruled out for the remainder of the 2025-26 season, according to Joey Linn of SI.com.",
+            "date_updated": "2026-03-05",
+            "description": "Foot",
+            "start_date": "2026-03-04",
+            "status": "Out For Season",
+            "structured_id": "ef369e50-d57e-499e-8219-841ac142f166"
+          },
+          {
+            "comment": "Beal will undergo season-ending surgery on his left hip, as per ESPN's Shams Charania reports.",
+            "date_updated": "2025-11-12",
+            "description": "Hip",
+            "start_date": "2025-11-10",
+            "status": "Out For Season",
+            "structured_id": "beada20d-6def-48b5-8cdf-ca243e06640d"
+          },
+          {
+            "comment": "The Clippers John Collins to miss at least 1 more week.",
+            "date_updated": "2026-03-09",
+            "description": "Arm",
+            "start_date": "2026-03-01",
+            "status": "Out",
+            "structured_id": "4bf6560d-e40d-4412-b8c4-de4de06b42ac"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-12T02:30:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 153,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-10T02:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 126,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-08T01:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 123,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T02:30:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 112,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": false
+        },
+        {
+          "date": "2026-03-05T03:30:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 130,
+          "structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "winner": true
+        }
+      ],
+      "home_team_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR13CHILAC",
+      "player_id_mapping": {
+        "067d9f05-a6b8-4a4b-854c-3364234e62b1": "f7e7a36e-601e-4130-a819-fa9f752bd14a",
+        "100af38e-d798-4b3a-8ee6-6280f0f4b4b8": "089f34c8-a9fa-480b-9b91-aa417097d552",
+        "1f665b2c-789e-4471-af7a-f86105f2466c": "5fe0b2a4-3e64-4451-a42d-bec734ea1199",
+        "28a2e698-9f33-4d4d-9a5d-9bea66ee42a1": "4bf6560d-e40d-4412-b8c4-de4de06b42ac",
+        "2d4ce4bc-b03a-40bc-b22c-dab27591a429": "0faf4911-89b0-49ae-a920-0912c6e6a92e",
+        "3054d6e1-033b-4b8d-93e5-b807ea122c75": "3e76dbce-174a-45f6-8019-5c1f483aadbe",
+        "31f78854-0d23-4318-959c-0314588136e1": "e1936136-417a-4892-b6e0-90e41b6c2f1a",
+        "3f98b652-71d4-4a40-949d-41c33dddd15d": "f9912228-d55a-404f-b2e5-824658b21dc4",
+        "4ec576c6-d74d-4b23-83e5-7a94e76526c9": "ef369e50-d57e-499e-8219-841ac142f166",
+        "54cf6e06-9172-44b8-8d3b-ea1b6926553d": "a0efcc22-65e6-45a1-a474-6df949cd1613",
+        "56c796d6-74d3-4881-9166-7f528e2b67f6": "614ded35-dec0-4703-aaad-1abb645ad47b",
+        "5ab15bad-59b4-43c9-98fc-1d0aa8182d01": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c",
+        "632adcc4-97f1-4e67-a132-e0b79f013c67": "94894b15-fc9f-42e5-854c-4d2a6006c09b",
+        "66ea876a-1cc9-47ed-ae31-2ed3c8f9350e": "a4baed3c-0021-407e-8448-a298594c2a83",
+        "67f6467e-0acc-48ce-9872-a63225ef295c": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b",
+        "689cb3b0-a7cc-45b5-860d-007597029c8c": "37104adf-2343-40fe-8d8a-a11f89d037e8",
+        "7924cc02-9fbb-4fd0-a036-0130084eb9b3": "98a42c36-71d9-400e-95a5-e7fe53f7e9d8",
+        "7b526b14-5d50-411e-8bea-0ac7a8d0e8d7": "b20be183-d7e6-4970-ad6f-04ff489eb0d9",
+        "80b5cccf-203b-4482-92aa-76d1598216be": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387",
+        "9654c7f1-d16c-428c-88fd-2a6cdb5a8370": "4624140d-4700-4bc6-a78b-79acc60ce3fe",
+        "979acf24-97b7-44f3-b8fb-6451f571540a": "b800a5e4-18bc-4402-b69e-402167501632",
+        "99dc3c11-03fc-4d15-9dd5-d8d1f41c569a": "39063bb2-a56e-41bb-94ca-ae15c380a190",
+        "9f25f9f8-6028-4f4b-8e05-48b43272c167": "c8b85545-69a3-45eb-b054-fac03220e0d1",
+        "a89ac040-715d-4057-8fc0-9d71ad06fa0a": "11ac6d0a-2082-45a8-a091-71c8950eab5f",
+        "b4282659-dd1a-4042-a075-7df4890858e7": "7c4044ea-fb72-430d-b08b-19bfe77bf24d",
+        "b5310b38-a378-464f-b344-928adee0ed00": "2a5b8fd6-50da-499a-a50b-832f02dea356",
+        "b79b88e1-35ef-4947-8a61-f6ec631a1e15": "94cad9c3-833e-410a-a028-6cd25fdb20d9",
+        "c12fb587-fc86-471c-8a84-19caf31325ce": "f2bfdc6c-0d84-4736-ba44-8cdbc196e0b3",
+        "c179fb5c-9845-4e37-aef7-6e00d97548eb": "0be3d8cd-ec75-442f-9b05-b6acaac19315",
+        "d13849d9-a696-44af-84a1-3196132c3ecd": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a",
+        "dac0090b-6d39-4275-98ac-db8aab39502f": "5cef9632-cd85-406e-8441-661e2cc1657c",
+        "e04c3542-546a-4ca7-8db3-a89353d60046": "998569d5-8e34-4b4b-a396-aada418a9fc1",
+        "ec887131-efba-43a0-ad0a-0757ab3f0399": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7",
+        "f619cc0b-5fa0-4189-9091-596e843e93b1": "a21967f6-3de2-4e6e-ad5c-b011117e05a6",
+        "fe7a0b28-a8f9-42ad-b345-0f69d51d365f": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8",
+        "ff461754-ad20-4eeb-af02-2b46cc980b24": "beada20d-6def-48b5-8cdf-ca243e06640d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "d58f1348-6865-4597-90f1-5a13c68ecfba",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-14T05:42:41Z",
+    "id": "d50a169b-6063-41e7-bd95-b2440f2e6c40",
+    "last_updated_ts": "2026-03-26T07:29:24.362257Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR13CHILAC",
+      "KXNBASPREAD-26MAR13CHILAC",
+      "KXNBATOTAL-26MAR13CHILAC",
+      "KXNBATEAMTOTAL-26MAR13CHILAC",
+      "KXNBA1HWINNER-26MAR13CHILAC",
+      "KXNBA2HWINNER-26MAR13CHILAC",
+      "KXNBA1HSPREAD-26MAR13CHILAC",
+      "KXNBA1HTOTAL-26MAR13CHILAC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR13CHILAC",
+      "KXNBASPREAD-26MAR13CHILAC",
+      "KXNBATOTAL-26MAR13CHILAC",
+      "KXNBATEAMTOTAL-26MAR13CHILAC",
+      "KXNBA1HWINNER-26MAR13CHILAC",
+      "KXNBA2HWINNER-26MAR13CHILAC",
+      "KXNBAPTS-26MAR13CHILAC",
+      "KXNBAREB-26MAR13CHILAC",
+      "KXNBAAST-26MAR13CHILAC",
+      "KXNBA3PT-26MAR13CHILAC",
+      "KXNBA2D-26MAR13CHILAC",
+      "KXNBA3D-26MAR13CHILAC",
+      "KXNBASTL-26MAR13CHILAC",
+      "KXNBABLK-26MAR13CHILAC",
+      "KXNBA1HSPREAD-26MAR13CHILAC",
+      "KXNBA1HTOTAL-26MAR13CHILAC"
+    ],
+    "source_id": "d58f1348-6865-4597-90f1-5a13c68ecfba",
+    "source_ids": {
+      "source_2_id": "2026031478F1BABC",
+      "source_3_id": "d58f1348-6865-4597-90f1-5a13c68ecfba",
+      "source_4_id": "62924823",
+      "source_5_id": "sr:match:62924823"
+    },
+    "start_date": "2026-03-14T02:30:00Z",
+    "title": "Chicago at Los Angeles C",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+      "home_team_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB02PHILAC",
+      "player_id_mapping": {
+        "1bd4a869-80a3-47b7-bac9-789bda6e6e92": "21e37a74-41d2-4c09-9f05-9b20a14ba88b",
+        "1f665b2c-789e-4471-af7a-f86105f2466c": "5fe0b2a4-3e64-4451-a42d-bec734ea1199",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "28a2e698-9f33-4d4d-9a5d-9bea66ee42a1": "4bf6560d-e40d-4412-b8c4-de4de06b42ac",
+        "2da18268-82d4-4b40-a296-7ceddd435d0b": "6682cc79-5f4e-47a3-a4a9-f7235b68712c",
+        "2edce68b-39ae-4307-9136-8b31b5222039": "00c958c5-01a7-4668-a3b3-669c22526e03",
+        "3054d6e1-033b-4b8d-93e5-b807ea122c75": "3e76dbce-174a-45f6-8019-5c1f483aadbe",
+        "41ed1b83-4a60-4d43-b985-3c8d239d4da6": "9b80ae56-086e-42ad-9d22-f4e5af386852",
+        "440b769d-2b8b-477f-80d7-cb21d83c0d52": "dea3d9c3-c6fd-4f7a-bb80-ac4ae029c114",
+        "4589f8d1-66cd-4d57-a5b5-c7d130a0b43d": "3a43b825-6a96-4713-bebe-cb83d6583d39",
+        "4ec576c6-d74d-4b23-83e5-7a94e76526c9": "ef369e50-d57e-499e-8219-841ac142f166",
+        "54cf6e06-9172-44b8-8d3b-ea1b6926553d": "a0efcc22-65e6-45a1-a474-6df949cd1613",
+        "56c796d6-74d3-4881-9166-7f528e2b67f6": "614ded35-dec0-4703-aaad-1abb645ad47b",
+        "75fc46eb-71d8-4d1a-984f-3747ccd7a4c9": "90456e7e-47d2-483c-afe5-b6bacec17b2f",
+        "7dfa0971-96be-4705-9811-f9f54758145f": "605cfa20-dc8e-4c44-90bd-1ee476ec4138",
+        "83d5d358-9559-49fb-8cde-833d8d5eb108": "962da32e-f58c-4bb6-a118-b3a42fedcfc5",
+        "8c090758-6baa-468d-82fd-d47e17d5091b": "c2755450-76a7-4d77-a5cc-de4e980c0f92",
+        "9f25f9f8-6028-4f4b-8e05-48b43272c167": "c8b85545-69a3-45eb-b054-fac03220e0d1",
+        "9f4181d5-0999-46ba-b466-d90ded24268a": "40a4cc2c-91d4-45c2-9324-d2a527c010f6",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "a89ac040-715d-4057-8fc0-9d71ad06fa0a": "11ac6d0a-2082-45a8-a091-71c8950eab5f",
+        "b4282659-dd1a-4042-a075-7df4890858e7": "7c4044ea-fb72-430d-b08b-19bfe77bf24d",
+        "bf9ad0fd-0cb8-4360-8970-5f1b5cf3fa8d": "8aa20fec-25b0-47c8-bd26-efd64ee0826c",
+        "c12fb587-fc86-471c-8a84-19caf31325ce": "f2bfdc6c-0d84-4736-ba44-8cdbc196e0b3",
+        "c179fb5c-9845-4e37-aef7-6e00d97548eb": "0be3d8cd-ec75-442f-9b05-b6acaac19315",
+        "d325bed1-c812-4bf4-b2a1-3cb32fcb86fa": "f51d60f4-2633-4be8-b49c-d09a42c6051c",
+        "dac0090b-6d39-4275-98ac-db8aab39502f": "5cef9632-cd85-406e-8441-661e2cc1657c",
+        "db09f372-9a17-4889-add7-bf8a75ab6da6": "bcd4c0ae-6e30-47ea-a549-eb7f70b8147a",
+        "e8486226-53e1-4857-b5f0-8b6fe88bdd8a": "1774828d-9afb-4643-81a8-af05aafa6866",
+        "eb063340-43d5-4f5c-8097-fa6e40b6f5e2": "4d12a90a-dfe6-42f9-a1df-178d1d8b7d04",
+        "f8d6c74c-e0bd-41ed-a814-f0b25259fe0a": "c765b0e0-2f03-4613-8554-8cd052d39f68",
+        "fc036630-debc-44bf-9663-03c3fbd3045c": "456d20cd-0fd9-46cd-9aec-b56181bccea6",
+        "ff065b75-4031-474c-9610-c505db2ca63e": "43edc187-1d56-40bc-ba15-a7b200a08e8f",
+        "ff461754-ad20-4eeb-af02-2b46cc980b24": "beada20d-6def-48b5-8cdf-ca243e06640d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "7fe15de1-9c87-4423-b61c-3117de58c2cf",
+      "status": "inprogress"
+    },
+    "end_date": "2026-02-03T08:00:00Z",
+    "id": "d58cb50d-88af-4b16-a305-50c2d54ff932",
+    "last_updated_ts": "2026-03-26T07:27:26.678884Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB02PHILAC",
+      "KXNBASPREAD-26FEB02PHILAC",
+      "KXNBATOTAL-26FEB02PHILAC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB02PHILAC",
+      "KXNBASPREAD-26FEB02PHILAC",
+      "KXNBATOTAL-26FEB02PHILAC",
+      "KXNBAPTS-26FEB02PHILAC",
+      "KXNBAAST-26FEB02PHILAC",
+      "KXNBA2D-26FEB02PHILAC",
+      "KXNBAREB-26FEB02PHILAC",
+      "KXNBASTL-26FEB02PHILAC",
+      "KXNBA3PT-26FEB02PHILAC",
+      "KXNBABLK-26FEB02PHILAC",
+      "KXNBAMENTION-26FEB02PHILAC"
+    ],
+    "source_id": "7fe15de1-9c87-4423-b61c-3117de58c2cf",
+    "source_ids": {
+      "source_2_id": "20260203A60EF599",
+      "source_3_id": "7fe15de1-9c87-4423-b61c-3117de58c2cf"
+    },
+    "start_date": "2026-02-03T03:00:00Z",
+    "title": "Philadelphia at Los Angeles C",
+    "type": "basketball_game"
+  }
+}

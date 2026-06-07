@@ -1,0 +1,227 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-01T23:00:00+00:00",
+          "opponent_points": 92,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 106,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        },
+        {
+          "date": "2026-02-28T00:00:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 122,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        },
+        {
+          "date": "2026-02-26T00:30:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 124,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        },
+        {
+          "date": "2026-02-24T00:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 103,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": false
+        },
+        {
+          "date": "2026-02-22T01:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 126,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        }
+      ],
+      "away_team_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+      "game_injuries": {
+        "65569528-1888-40aa-9d62-2b0e8142a9b4": [],
+        "90381a35-42a6-4975-851f-175418e4271a": [
+          {
+            "comment": "The Cavaliers listed Mitchell as OUT for Tuesday's (Mar. 3) game against Detroit.",
+            "date_updated": "2026-03-02",
+            "description": "Groin",
+            "start_date": "2026-02-26",
+            "status": "Out",
+            "structured_id": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6"
+          },
+          {
+            "comment": "The Cavaliers said on Wednesday (Mar 3) that Strus (foot) has progressed to individual on-court workouts; remains without timetable for return.",
+            "date_updated": "2026-03-03",
+            "description": "Foot",
+            "start_date": "2025-08-26",
+            "status": "Out",
+            "structured_id": "e59d506e-4dfc-496b-87e1-f74fda25816d"
+          },
+          {
+            "comment": "The Cavaliers listed Wade as Out for Tuesday's (Mar. 3) game against Detroit.",
+            "date_updated": "2026-03-03",
+            "description": "Ankle",
+            "start_date": "2026-02-26",
+            "status": "Out",
+            "structured_id": "22c635e6-e6ac-4e0f-bff6-a8b77e157103"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-01T20:30:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 106,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-02-28T00:00:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 119,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        },
+        {
+          "date": "2026-02-26T01:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 116,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        },
+        {
+          "date": "2026-02-25T00:30:00+00:00",
+          "opponent_points": 94,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 109,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-02-22T18:00:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 113,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        }
+      ],
+      "home_team_id": "90381a35-42a6-4975-851f-175418e4271a",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR03DETCLE",
+      "player_id_mapping": {
+        "00fb2704-aa25-4ef7-8972-cde454810810": "d3705d84-27ff-4482-ab98-bba306710adc",
+        "030424b9-7367-45e1-b9d4-c8dee3a89e53": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2",
+        "18c14a3d-2ce0-451c-bceb-b0ce13c16ead": "54277f13-99a5-4ee0-934a-2051f41ef6bc",
+        "18d35316-9f40-408c-abcc-ab49e06ef8e8": "74de2700-bb3b-4770-98b7-4c20677814cf",
+        "1a120d1a-0202-4039-a00e-4daa8b7ffcfc": "8dc06468-b5e3-4d7f-b644-f3ced82f0246",
+        "22be3275-1ef8-47f7-a30d-af38f7bc96b2": "dfbabd3c-b574-4d27-81a8-36653c7d06e9",
+        "252f4b13-6abb-45dc-ae85-f822b817cb51": "a49a4c93-ac16-4556-9cf5-fce719ca9208",
+        "4707d9b8-fca3-4550-ae25-bd4b449e4dbf": "ac20a549-f6e2-4feb-94df-b86af72950cc",
+        "536e0e15-02b5-4994-9613-0f5ec88f82e0": "7e264353-4d67-4c27-8757-e97bbd629b3e",
+        "57d55cd4-6ab8-4255-a248-bef800c0cbab": "0a8c3059-aa64-4871-8291-fff857a201af",
+        "5bb6159f-27ae-406e-ac5b-e8911f0cbb7c": "1935e9f5-be0f-4138-9ca3-1499c08738b9",
+        "5efce548-15a0-4a8c-9f63-5f5db4851696": "1bd97b36-a12a-4e51-a4dc-bce1f4afdc25",
+        "68a8c4ea-1d77-4a42-bea4-dbe9a162332a": "24c7e18f-1086-4b18-b37c-631d2c39e0e9",
+        "6b8ed06d-a33f-46ce-b416-647100736df8": "5e64b57d-17f7-46e7-af61-b749c276591f",
+        "7458ef96-cab7-433e-a761-4e93537f4b52": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5",
+        "79fc04d6-0dcf-4817-ab79-2528026d72be": "5ac2f6ed-c991-40a4-afa0-aff7c779b0d7",
+        "82f09975-6a8d-42e4-b42c-a52b9349ed50": "cbf135fe-afac-422d-8f3e-9f3291a954a1",
+        "858d255e-9a7b-4c7a-aac4-fc7cf3a5f238": "33c2e858-9265-47f1-b048-fbab4a62f9c8",
+        "90b52759-3f0e-4d93-b5ca-fcb53afce857": "7709e8e3-d714-4bf9-8655-793857fe3e50",
+        "9d4d6c87-78db-4556-b94a-bb8d566dd004": "60e91db8-8128-4e53-9b13-eabdf6913ab5",
+        "a2b3bc56-566e-443d-affe-7837a59a1ed7": "7864645c-a818-47f6-8e3a-2f74c8e083e4",
+        "a2c6a907-282f-4172-9d60-42d03987da0e": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b",
+        "a3fff5c7-19b6-4dac-bd75-11b944bea505": "67a44479-d07a-4782-b8a8-c997f71f1327",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "ac9f5700-2da0-4c7d-a031-ed1acf0d6581": "2d0fbc02-5133-41b7-9eac-83abfca3a748",
+        "ad389979-d1d5-4f26-ad64-3e516b3373a3": "e92aa777-3acd-4bce-a1cb-c734771fb903",
+        "b4b3cfce-16f1-4f30-acc0-2bac1eb51d66": "800a6e42-f420-4cd9-99d5-483420dce444",
+        "b6dde96e-3748-4cbe-86d2-798d5dffb3c0": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6",
+        "bbeecf0c-62c6-4211-991d-2afaf2403623": "22c635e6-e6ac-4e0f-bff6-a8b77e157103",
+        "c34996e5-8be6-4053-a2f2-0acb0155e18c": "ade1d2f5-5be7-40f0-819d-7216389b2777",
+        "c7c7c72b-7cee-409a-b2b5-256d173ac305": "968216f4-82ae-4763-9a71-6875cf126a23",
+        "d64b602e-45f2-4ba9-878b-0a4f7210ec77": "e6212176-2793-4f9a-8e1b-7d294eca2787",
+        "e23521cd-8e92-4701-b9e7-dc4acd21dfec": "b5fee735-ad6a-4350-85be-62ebd0ff9800",
+        "f6aff1dc-15b9-4c89-a2fb-746f4cf78890": "e59d506e-4dfc-496b-87e1-f74fda25816d",
+        "fa95eb6b-9008-4d67-8476-3b69e90b8688": "c151ea5c-a22e-4083-a35e-eac7502ee20e",
+        "ff6f99de-5cd8-4bf1-a5d2-6bebcf4350ee": "819b5bea-f98f-4e24-a5e8-6f3f33270ae7"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "e2ee0648-4e08-4924-a974-7348b3f1e45b",
+      "status": "complete"
+    },
+    "end_date": "2026-03-04T05:00:00Z",
+    "id": "42768607-999b-415f-a203-d7f65c3edbe6",
+    "last_updated_ts": "2026-03-26T07:29:51.346555Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR03DETCLE",
+      "KXNBASPREAD-26MAR03DETCLE",
+      "KXNBATOTAL-26MAR03DETCLE",
+      "KXNBATEAMTOTAL-26MAR03DETCLE",
+      "KXNBA1HWINNER-26MAR03DETCLE",
+      "KXNBA2HWINNER-26MAR03DETCLE",
+      "KXNBA1HSPREAD-26MAR03DETCLE",
+      "KXNBA1HTOTAL-26MAR03DETCLE",
+      "KXNBA2HSPREAD-26MAR03DETCLE",
+      "KXNBA2HTOTAL-26MAR03DETCLE"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR03DETCLE",
+      "KXNBAMENTION-26MAR03DETCLE",
+      "KXNBASPREAD-26MAR03DETCLE",
+      "KXNBATOTAL-26MAR03DETCLE",
+      "KXNBATEAMTOTAL-26MAR03DETCLE",
+      "KXNBA1HWINNER-26MAR03DETCLE",
+      "KXNBA2HWINNER-26MAR03DETCLE",
+      "KXNBAPTS-26MAR03DETCLE",
+      "KXNBAAST-26MAR03DETCLE",
+      "KXNBA3PT-26MAR03DETCLE",
+      "KXNBA2D-26MAR03DETCLE",
+      "KXNBA3D-26MAR03DETCLE",
+      "KXNBAREB-26MAR03DETCLE",
+      "KXNBASTL-26MAR03DETCLE",
+      "KXNBABLK-26MAR03DETCLE",
+      "KXNBA1HSPREAD-26MAR03DETCLE",
+      "KXNBA1HTOTAL-26MAR03DETCLE",
+      "KXNBA2HSPREAD-26MAR03DETCLE",
+      "KXNBA2HTOTAL-26MAR03DETCLE"
+    ],
+    "source_id": "e2ee0648-4e08-4924-a974-7348b3f1e45b",
+    "source_ids": {
+      "source_2_id": "2026030430D22149",
+      "source_3_id": "e2ee0648-4e08-4924-a974-7348b3f1e45b",
+      "source_4_id": "62925749",
+      "source_5_id": "sr:match:62925749"
+    },
+    "start_date": "2026-03-04T00:00:00Z",
+    "title": "Detroit at Cleveland",
+    "type": "basketball_game"
+  }
+}

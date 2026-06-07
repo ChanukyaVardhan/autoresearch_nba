@@ -1,0 +1,314 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-03T23:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 108,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-04-02T00:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 145,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": true
+        },
+        {
+          "date": "2026-03-29T21:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 135,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": true
+        },
+        {
+          "date": "2026-03-27T23:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 113,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        },
+        {
+          "date": "2026-03-25T23:00:00+00:00",
+          "opponent_points": 137,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 130,
+          "structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "winner": false
+        }
+      ],
+      "away_team_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+      "game_injuries": {
+        "90381a35-42a6-4975-851f-175418e4271a": [
+          {
+            "comment": "The Cavaliers listed Allen as Out for Sunday's (Apr. 5) game against the Pacers. ",
+            "date_updated": "2026-04-04",
+            "description": "Knee",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "67a44479-d07a-4782-b8a8-c997f71f1327"
+          },
+          {
+            "comment": "The Cavaliers listed Mobley as Out for Sunday's (Apr. 5) game against the Pacers. ",
+            "date_updated": "2026-04-04",
+            "description": "Calf",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "e6212176-2793-4f9a-8e1b-7d294eca2787"
+          },
+          {
+            "comment": "The Cavaliers listed Wade as Out for Sunday's (Apr. 5) game against the Pacers. ",
+            "date_updated": "2026-04-04",
+            "description": "Ankle",
+            "start_date": "2026-03-25",
+            "status": "Out",
+            "structured_id": "22c635e6-e6ac-4e0f-bff6-a8b77e157103"
+          },
+          {
+            "comment": "The Cavaliers reported Tyson is out for at least three games due to an ankle injury, and won't be available for the Cavaliers' three-game road.",
+            "date_updated": "2026-03-29",
+            "description": "Toe",
+            "start_date": "2026-03-20",
+            "status": "Out",
+            "structured_id": "7709e8e3-d714-4bf9-8655-793857fe3e50"
+          },
+          {
+            "comment": "The Cavaliers listed Merrill as Out for Sunday's (Apr. 5) game against the Pacers. ",
+            "date_updated": "2026-04-04",
+            "description": "Hamstring",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "5e64b57d-17f7-46e7-af61-b749c276591f"
+          }
+        ],
+        "d059bab2-9fb5-42dd-8038-5a12474300ce": [
+          {
+            "comment": "The Pacers listed McConnell as Out for Sunday's (Apr. 5) game against the Cavaliers. ",
+            "date_updated": "2026-04-04",
+            "description": "Hamstring",
+            "start_date": "2026-03-31",
+            "status": "Out",
+            "structured_id": "7c7401cb-1476-4a60-9101-d16b48924c02"
+          },
+          {
+            "comment": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today",
+            "date_updated": "2026-02-09",
+            "description": "Knee",
+            "start_date": "2026-02-08",
+            "status": "Out For Season",
+            "structured_id": "26d909f3-7322-4793-818c-d021a9229885"
+          },
+          {
+            "comment": "The Pacers listed Nembhard as Out for Sunday's (Apr. 5) game against the Cavaliers. ",
+            "date_updated": "2026-04-04",
+            "description": "Back",
+            "start_date": "2026-03-31",
+            "status": "Out",
+            "structured_id": "ebe58f63-e571-4632-b569-ac0c69dd6218"
+          },
+          {
+            "comment": "The Pacers listed Sheppard as OUT for Sunday's (Apr. 5) game against the Cavaliers. ",
+            "date_updated": "2026-04-05",
+            "description": "Hip",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "aeb89ae8-9b87-4336-95b8-d1620d705c5c"
+          },
+          {
+            "comment": "The Pacers said on Friday (Mar. 20) that Zubac will miss the rest of the season with a fractured rib.",
+            "date_updated": "2026-03-20",
+            "description": "Rib",
+            "start_date": "2026-03-18",
+            "status": "Out For Season",
+            "structured_id": "6682cc79-5f4e-47a3-a4a9-f7235b68712c"
+          },
+          {
+            "comment": "The Pacers listed Siakam as Out for Sunday's (Apr. 5) game against the Cavaliers. ",
+            "date_updated": "2026-04-04",
+            "description": "Back",
+            "start_date": "2026-04-03",
+            "status": "Out",
+            "structured_id": "1c8ae3bd-88ae-4511-8622-9f9ac7d73de0"
+          },
+          {
+            "comment": "The Pacers listed Walker as OUT for Sunday's (Apr. 5) game against the Cavaliers. ",
+            "date_updated": "2026-04-05",
+            "description": "Back",
+            "start_date": "2026-03-27",
+            "status": "Out",
+            "structured_id": "8e5ec564-3e03-4566-bb11-e3569357092e"
+          },
+          {
+            "comment": "The Pacers listed Nesmith as Out for Sunday's (Apr. 5) game against the Cavaliers. ",
+            "date_updated": "2026-04-04",
+            "description": "Neck",
+            "start_date": "2026-03-28",
+            "status": "Out",
+            "structured_id": "26987e0a-e5aa-4dd5-ae7a-569d92fd0de5"
+          },
+          {
+            "comment": "The Pacers said on Tuesday (Jan. 27) that Haliburton will likely be in line for a relatively normal offseason and should be free of restrictions for the start of training camp next fall.",
+            "date_updated": "2026-01-27",
+            "description": "Achilles",
+            "start_date": "2025-06-22",
+            "status": "Out For Season",
+            "structured_id": "02222ad8-8166-414f-842b-ce83ecca6700"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-03T02:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 118,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-04-01T02:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 113,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        },
+        {
+          "date": "2026-03-31T01:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 122,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-03-27T23:30:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 149,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-03-25T23:30:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 103,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        }
+      ],
+      "home_team_id": "90381a35-42a6-4975-851f-175418e4271a",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR05INDCLE",
+      "player_id_mapping": {
+        "02acc094-76ab-4b3e-b51d-a351a9bab6b9": "ebe58f63-e571-4632-b569-ac0c69dd6218",
+        "030424b9-7367-45e1-b9d4-c8dee3a89e53": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2",
+        "06570485-2ec5-40ab-9b50-8e4cfd7f0dc3": "844a53dc-8e99-482e-9de6-09a05c68ed92",
+        "1a120d1a-0202-4039-a00e-4daa8b7ffcfc": "8dc06468-b5e3-4d7f-b644-f3ced82f0246",
+        "1d1fa699-a455-4082-9df8-f97dbb0ca678": "31b8e118-988f-4da2-acda-ca134dbeeee3",
+        "222364c7-dae9-44db-830d-cdece37e174d": "26d909f3-7322-4793-818c-d021a9229885",
+        "22be3275-1ef8-47f7-a30d-af38f7bc96b2": "dfbabd3c-b574-4d27-81a8-36653c7d06e9",
+        "254e42d7-df01-4c68-9264-bca06c83c2c1": "02222ad8-8166-414f-842b-ce83ecca6700",
+        "2da18268-82d4-4b40-a296-7ceddd435d0b": "6682cc79-5f4e-47a3-a4a9-f7235b68712c",
+        "3b40df6a-55ba-40a2-b6b8-ab8ae114dfc3": "aeb89ae8-9b87-4336-95b8-d1620d705c5c",
+        "3df1db1d-6596-489e-8e26-80f60fd9b1f4": "1c8ae3bd-88ae-4511-8622-9f9ac7d73de0",
+        "5bb6159f-27ae-406e-ac5b-e8911f0cbb7c": "1935e9f5-be0f-4138-9ca3-1499c08738b9",
+        "5efce548-15a0-4a8c-9f63-5f5db4851696": "1bd97b36-a12a-4e51-a4dc-bce1f4afdc25",
+        "68a8c4ea-1d77-4a42-bea4-dbe9a162332a": "24c7e18f-1086-4b18-b37c-631d2c39e0e9",
+        "6b8ed06d-a33f-46ce-b416-647100736df8": "5e64b57d-17f7-46e7-af61-b749c276591f",
+        "6fd99205-e159-4ff2-b291-80fb2d067bb3": "8e5ec564-3e03-4566-bb11-e3569357092e",
+        "7458ef96-cab7-433e-a761-4e93537f4b52": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5",
+        "83d5d358-9559-49fb-8cde-833d8d5eb108": "962da32e-f58c-4bb6-a118-b3a42fedcfc5",
+        "8571e039-8802-453a-aca5-7fdcb3ae1a28": "5403dd0a-1369-40c9-8608-56edc6013196",
+        "90b52759-3f0e-4d93-b5ca-fcb53afce857": "7709e8e3-d714-4bf9-8655-793857fe3e50",
+        "90d63a71-e4fe-411c-9773-2e74b5e1cb3b": "26987e0a-e5aa-4dd5-ae7a-569d92fd0de5",
+        "a2c6a907-282f-4172-9d60-42d03987da0e": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b",
+        "a3fff5c7-19b6-4dac-bd75-11b944bea505": "67a44479-d07a-4782-b8a8-c997f71f1327",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "ad389979-d1d5-4f26-ad64-3e516b3373a3": "e92aa777-3acd-4bce-a1cb-c734771fb903",
+        "b159e65b-fd2f-415e-9cdd-46525e9897da": "3b0ba3a1-58e2-4443-aa8b-5de4e710bedb",
+        "b6dde96e-3748-4cbe-86d2-798d5dffb3c0": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6",
+        "bbeecf0c-62c6-4211-991d-2afaf2403623": "22c635e6-e6ac-4e0f-bff6-a8b77e157103",
+        "cdf51fa0-724e-48f3-9ee4-6a01ae4d9542": "22f8d5ad-8967-4dac-9820-ebb73b49fab7",
+        "d64b602e-45f2-4ba9-878b-0a4f7210ec77": "e6212176-2793-4f9a-8e1b-7d294eca2787",
+        "ded5095f-92cf-40a4-a668-ba78370cfe27": "5e8b46ce-bcc8-4da6-80b7-27c9816a793e",
+        "e3dfa2a2-6272-4f3f-adf0-dd5dadea9481": "7c7401cb-1476-4a60-9101-d16b48924c02",
+        "ed000754-fb2c-4778-be6d-40cfc2400bd7": "03aba7fc-858c-4586-a231-3c1376afaee7",
+        "eef775a3-9634-47bc-95bf-a438c9d6dce8": "272d36c8-cfc5-4d2f-a5e8-4d9673e80f4a",
+        "f6aff1dc-15b9-4c89-a2fb-746f4cf78890": "e59d506e-4dfc-496b-87e1-f74fda25816d",
+        "fa95eb6b-9008-4d67-8476-3b69e90b8688": "c151ea5c-a22e-4083-a35e-eac7502ee20e"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "f9cbdad7-75bb-4e3c-ad38-7e99677a117a",
+      "status": "complete"
+    },
+    "end_date": "2026-04-06T02:25:34Z",
+    "id": "d4a8cc9c-60fc-4652-985e-bd7b7fe6bfeb",
+    "last_updated_ts": "2026-04-07T02:39:14.265058Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR05INDCLE",
+      "KXNBASPREAD-26APR05INDCLE",
+      "KXNBATOTAL-26APR05INDCLE",
+      "KXNBATEAMTOTAL-26APR05INDCLE",
+      "KXNBA1HWINNER-26APR05INDCLE",
+      "KXNBA2HWINNER-26APR05INDCLE",
+      "KXNBA1HSPREAD-26APR05INDCLE",
+      "KXNBA1HTOTAL-26APR05INDCLE",
+      "KXNBA2HSPREAD-26APR05INDCLE",
+      "KXNBA2HTOTAL-26APR05INDCLE"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR05INDCLE",
+      "KXNBASPREAD-26APR05INDCLE",
+      "KXNBATOTAL-26APR05INDCLE",
+      "KXNBATEAMTOTAL-26APR05INDCLE",
+      "KXNBA1HWINNER-26APR05INDCLE",
+      "KXNBA2HWINNER-26APR05INDCLE",
+      "KXNBAPTS-26APR05INDCLE",
+      "KXNBAREB-26APR05INDCLE",
+      "KXNBAAST-26APR05INDCLE",
+      "KXNBA3PT-26APR05INDCLE",
+      "KXNBA2D-26APR05INDCLE",
+      "KXNBA3D-26APR05INDCLE",
+      "KXNBA1HSPREAD-26APR05INDCLE",
+      "KXNBA1HTOTAL-26APR05INDCLE",
+      "KXNBASTL-26APR05INDCLE",
+      "KXNBA2HSPREAD-26APR05INDCLE",
+      "KXNBA2HTOTAL-26APR05INDCLE"
+    ],
+    "source_id": "f9cbdad7-75bb-4e3c-ad38-7e99677a117a",
+    "source_ids": {
+      "source_2_id": "202604051252BC9A",
+      "source_3_id": "f9cbdad7-75bb-4e3c-ad38-7e99677a117a",
+      "source_4_id": "62925759",
+      "source_5_id": "sr:match:62925759"
+    },
+    "start_date": "2026-04-05T22:00:00Z",
+    "title": "Indiana at Cleveland",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-08T23:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 122,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-04-07T00:00:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 142,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T22:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 117,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-04-03T02:00:00+00:00",
+          "opponent_points": 111,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 118,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-04-01T02:30:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 113,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        }
+      ],
+      "away_team_id": "90381a35-42a6-4975-851f-175418e4271a",
+      "game_injuries": {
+        "90381a35-42a6-4975-851f-175418e4271a": [
+          {
+            "comment": "The Cavaliers listed Tyson as Probable for Friday's (Apr. 10) game against the Hawks.",
+            "date_updated": "2026-04-10",
+            "description": "Toe",
+            "start_date": "2026-03-20",
+            "status": "Day To Day",
+            "structured_id": "7709e8e3-d714-4bf9-8655-793857fe3e50"
+          },
+          {
+            "comment": "The Cavaliers listed Allen as Out for Friday's (Apr. 10) game against the Hawks.",
+            "date_updated": "2026-04-09",
+            "description": "Injury Management",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "67a44479-d07a-4782-b8a8-c997f71f1327"
+          },
+          {
+            "comment": "The Cavaliers listed Bryant as Out for Friday's (Apr. 10) game against the Hawks.",
+            "date_updated": "2026-04-09",
+            "description": "Calf",
+            "start_date": "2026-04-06",
+            "status": "Out",
+            "structured_id": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2"
+          },
+          {
+            "comment": "The Cavaliers listed Merrill as Out for Friday's (Apr. 10) game against the Hawks.",
+            "date_updated": "2026-04-09",
+            "description": "Hamstring",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "5e64b57d-17f7-46e7-af61-b749c276591f"
+          },
+          {
+            "comment": "The Cavaliers listed Mitchell as Out for Friday's (Apr. 10) game against the Hawks.",
+            "date_updated": "2026-04-09",
+            "description": "Ankle",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6"
+          }
+        ],
+        "e0729403-9c95-4ee2-b5d4-f704d8322570": [
+          {
+            "comment": "The Hawks said on Thursday (Apr. 2) that Landale is expected to miss at least two weeks, according to Brad Rowland of the Locked On Podcast Network.",
+            "date_updated": "2026-04-02",
+            "description": "Ankle",
+            "start_date": "2026-04-01",
+            "status": "Out",
+            "structured_id": "2a838282-e52d-4c14-82db-ec72fa649d2e"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-08T23:00:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 116,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": false
+        },
+        {
+          "date": "2026-04-06T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 105,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": false
+        },
+        {
+          "date": "2026-04-03T23:30:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 141,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        },
+        {
+          "date": "2026-04-01T23:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 130,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        },
+        {
+          "date": "2026-03-30T23:30:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 112,
+          "structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "winner": true
+        }
+      ],
+      "home_team_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR10CLEATL",
+      "player_id_mapping": {
+        "02dc6e18-95a4-4919-b4fc-f8a981ccd359": "2a838282-e52d-4c14-82db-ec72fa649d2e",
+        "030424b9-7367-45e1-b9d4-c8dee3a89e53": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2",
+        "1a120d1a-0202-4039-a00e-4daa8b7ffcfc": "8dc06468-b5e3-4d7f-b644-f3ced82f0246",
+        "1d4905d6-a6b4-4b45-8a90-91ed03440d0f": "4180e569-6cb9-4bf3-9f02-ae4f7c2659e8",
+        "22be3275-1ef8-47f7-a30d-af38f7bc96b2": "dfbabd3c-b574-4d27-81a8-36653c7d06e9",
+        "22d1eb4b-c0de-49c8-9e11-866b9d98cca2": "b8a2ba46-a11a-4764-83c5-39932de64a5f",
+        "26049bcf-1ff3-4a23-8e4c-ce0b18784738": "081cbdc6-3e78-494c-8668-e181e9544c8b",
+        "3358cc38-7331-43ad-af04-ebd34fe328e7": "fa5d64cf-9154-4a34-8533-8ca65fb200d1",
+        "358fb074-ac1b-45a6-bf54-46c30534786e": "f61bdc80-8315-4d93-a488-71dc37ee3e8f",
+        "3f34ce93-c0ad-4868-bab4-c6d83909ff78": "a4244555-a33c-46da-8c9f-de4e6b660bad",
+        "5bb6159f-27ae-406e-ac5b-e8911f0cbb7c": "1935e9f5-be0f-4138-9ca3-1499c08738b9",
+        "5efce548-15a0-4a8c-9f63-5f5db4851696": "1bd97b36-a12a-4e51-a4dc-bce1f4afdc25",
+        "6130d33e-5725-4f5d-8f81-76ecd691a5b2": "cfc58a3e-1523-462a-a96a-0d530915c0a9",
+        "68a8c4ea-1d77-4a42-bea4-dbe9a162332a": "24c7e18f-1086-4b18-b37c-631d2c39e0e9",
+        "6b8ed06d-a33f-46ce-b416-647100736df8": "5e64b57d-17f7-46e7-af61-b749c276591f",
+        "70e50e53-ca3b-425d-ac49-b156d6d1e016": "18c71a75-fa9c-458b-99a4-38de2b350233",
+        "7458ef96-cab7-433e-a761-4e93537f4b52": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5",
+        "795f46f2-c78d-4f1d-9ee2-4331c1cc8184": "383eab80-5509-470a-976d-3b960b1780fa",
+        "820a9363-1ad3-46a0-b577-2588f85b27f2": "bbee4cc1-3ac7-448a-b2aa-ad1b692d83a6",
+        "90b52759-3f0e-4d93-b5ca-fcb53afce857": "7709e8e3-d714-4bf9-8655-793857fe3e50",
+        "a2c6a907-282f-4172-9d60-42d03987da0e": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b",
+        "a3fff5c7-19b6-4dac-bd75-11b944bea505": "67a44479-d07a-4782-b8a8-c997f71f1327",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "ad389979-d1d5-4f26-ad64-3e516b3373a3": "e92aa777-3acd-4bce-a1cb-c734771fb903",
+        "b27687c1-55bb-49e6-9c5b-96a099fda7b7": "ad81c551-8dcc-4678-a547-523db6eac9e6",
+        "b6dde96e-3748-4cbe-86d2-798d5dffb3c0": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6",
+        "bbeecf0c-62c6-4211-991d-2afaf2403623": "22c635e6-e6ac-4e0f-bff6-a8b77e157103",
+        "bc70a55a-cee0-478f-9a13-cf51c4a4187c": "fe9f8331-a822-49bc-bfca-9c7e7c84883a",
+        "d146629c-2584-4760-89af-e4378d7569c1": "d10494a2-6820-41e6-ac9c-8c518d050388",
+        "d222539f-fa52-4070-807f-d3aba372f46d": "aad8a908-c093-4a62-bf38-d6c5bc8a40f5",
+        "d3d0ab55-b939-47b3-af27-77cdf85d7956": "f46826e2-8666-4ffa-a319-627149adc113",
+        "d64b602e-45f2-4ba9-878b-0a4f7210ec77": "e6212176-2793-4f9a-8e1b-7d294eca2787",
+        "da3bc9bb-9e33-4bf8-a388-2047053eab4d": "b51ad7ce-d152-48a3-b9e0-1eb6af19dd84",
+        "ed643452-917d-40c5-badd-2e72958b059c": "d16a5d6e-12a2-4588-bd68-25a1f121d767",
+        "f6aff1dc-15b9-4c89-a2fb-746f4cf78890": "e59d506e-4dfc-496b-87e1-f74fda25816d",
+        "fa95eb6b-9008-4d67-8476-3b69e90b8688": "c151ea5c-a22e-4083-a35e-eac7502ee20e"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "2be9a104-9f53-496e-a6ab-d7a3a128813f",
+      "status": "complete"
+    },
+    "end_date": "2026-04-13T16:54:18Z",
+    "id": "a6cac80b-3b21-440d-be06-7432fea23b73",
+    "last_updated_ts": "2026-04-14T16:58:33.756776Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR10CLEATL",
+      "KXNBASPREAD-26APR10CLEATL",
+      "KXNBATOTAL-26APR10CLEATL",
+      "KXNBATEAMTOTAL-26APR10CLEATL",
+      "KXNBA1HWINNER-26APR10CLEATL",
+      "KXNBA2HWINNER-26APR10CLEATL",
+      "KXNBA1HSPREAD-26APR10CLEATL",
+      "KXNBA1HTOTAL-26APR10CLEATL"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR10CLEATL",
+      "KXNBASPREAD-26APR10CLEATL",
+      "KXNBATOTAL-26APR10CLEATL",
+      "KXNBATEAMTOTAL-26APR10CLEATL",
+      "KXNBAMENTION-26APR10CLEATL",
+      "KXNBA1HWINNER-26APR10CLEATL",
+      "KXNBA2HWINNER-26APR10CLEATL",
+      "KXNBAPTS-26APR10CLEATL",
+      "KXNBAREB-26APR10CLEATL",
+      "KXNBAAST-26APR10CLEATL",
+      "KXNBA3PT-26APR10CLEATL",
+      "KXNBA2D-26APR10CLEATL",
+      "KXNBA3D-26APR10CLEATL",
+      "KXNBA1HSPREAD-26APR10CLEATL",
+      "KXNBA1HTOTAL-26APR10CLEATL",
+      "KXNBASTL-26APR10CLEATL",
+      "KXNBABLK-26APR10CLEATL"
+    ],
+    "source_id": "2be9a104-9f53-496e-a6ab-d7a3a128813f",
+    "source_ids": {
+      "source_2_id": "202604109346E9F7",
+      "source_3_id": "2be9a104-9f53-496e-a6ab-d7a3a128813f",
+      "source_4_id": "62925323",
+      "source_5_id": "sr:match:62925323"
+    },
+    "start_date": "2026-04-10T23:00:00Z",
+    "title": "Cleveland at Atlanta",
+    "type": "basketball_game"
+  }
+}

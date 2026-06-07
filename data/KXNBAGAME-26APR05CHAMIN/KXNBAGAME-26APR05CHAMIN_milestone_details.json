@@ -1,0 +1,227 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-03T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 129,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T23:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 127,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-03-31T23:30:00+00:00",
+          "opponent_points": 86,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 117,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": true
+        },
+        {
+          "date": "2026-03-29T22:00:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 99,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": false
+        },
+        {
+          "date": "2026-03-28T22:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 114,
+          "structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "winner": false
+        }
+      ],
+      "away_team_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+      "game_injuries": {
+        "29e3c04e-fadb-4006-be20-cbb8c159ce0e": [
+          {
+            "comment": "The Timberwolves listed Edwards as OUT for Sunday's (Apr. 5) game against the Hornets.",
+            "date_updated": "2026-04-05",
+            "description": "Knee",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "36ea9bc5-23b0-4274-9c6c-cd8a07b1b654"
+          },
+          {
+            "comment": "The Timberwolves said on Monday (Mar. 30) that McDaniels is week-to-week with left knee patella tendinopathy and a bone bruise, as per Marc J. Spears of ESPN.com.",
+            "date_updated": "2026-03-30",
+            "description": "Knee",
+            "start_date": "2026-03-27",
+            "status": "Out",
+            "structured_id": "4432f713-dfc6-47db-881d-bace88c4d9c1"
+          }
+        ],
+        "7c980c51-fa76-4571-b165-242b2a00f3a1": [
+          {
+            "comment": "The Hornets listed Hall as Out for Sunday's (Apr. 5) game against the Timberwolves.",
+            "date_updated": "2026-04-04",
+            "description": "Ankle",
+            "start_date": "2026-04-01",
+            "status": "Out",
+            "structured_id": "15a90b6e-13a2-4d02-9892-373ec942ff97"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-03T23:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 103,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        },
+        {
+          "date": "2026-04-02T23:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 108,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-31T00:30:00+00:00",
+          "opponent_points": 94,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 124,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-28T21:30:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 87,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-26T01:30:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 110,
+          "structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "winner": true
+        }
+      ],
+      "home_team_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR05CHAMIN",
+      "player_id_mapping": {
+        "0a5e8d12-47e5-4afc-973a-e1f8184776c1": "37610450-b248-4427-b2d0-ff7fe6973eab",
+        "0b9a642d-d6f6-4c65-a7bd-d82e016e1b5d": "45a1a8b2-fcfd-46f2-96e2-5e86555de713",
+        "24a0f5aa-209a-4d54-91db-bddecc37f87e": "7b22d659-5c24-411c-937b-23352fdefff6",
+        "24c85a15-686e-4161-934b-40948188fa36": "2bf5e35d-4c07-42ff-bcc0-e2e7b05eab71",
+        "298852ca-299d-4cb9-a9e5-6ac909582f78": "a9fecddd-880e-499f-8fa4-1472c9dee372",
+        "2b95727a-4273-4f8f-a45b-3d9ac9969dba": "ddef089e-567a-4057-a913-5c93bbd0ec91",
+        "2e49c27a-06c5-4c4a-87fd-69840b783947": "2f1946d8-9bb5-472b-803a-206835b7b87e",
+        "37fbc3a5-0d10-4e22-803b-baa2ea0cdb12": "e9c185a4-48f9-497a-9da5-03d763ab11a3",
+        "388ec80d-171a-48f7-9cc8-5a8bebde54e0": "88d788fe-5410-40c4-9193-b0e3e1af4f1f",
+        "460b7264-b98f-483e-b841-59a18c2e4d67": "4d76b816-4ca3-4a92-bbd3-489819b6821b",
+        "50e0c4e6-dfe4-42ca-bf18-aa2630be21c9": "4f6bd439-7fd8-4d25-bff5-72b1b2b46b4e",
+        "59209028-6712-47ef-b87c-bdb19f91523b": "840aa2b8-dc28-4a71-a899-76844bc24ebd",
+        "5b297372-b2af-445e-a4bc-777982dbc1e3": "85df4482-17a9-49b8-b40f-b6cddb54e579",
+        "5b681679-4d8c-4964-bbba-5ed058257745": "2749b30f-ae8f-4883-bf7f-0c8d362c7f60",
+        "65fec68f-dfbb-4127-bb7a-932d5144c0f6": "c040b6ef-2b8f-4338-ad6c-6a5973bb1484",
+        "68ed2fac-e117-48e1-ac43-314098f600ea": "de3a9956-3e26-4259-938b-212a651a93ca",
+        "775e4450-cdcd-43a1-b4cd-dc29fba48503": "2a87f5ef-36b3-4f5e-8565-ea9f6c6820a2",
+        "78dc76b4-a810-4e4a-9418-5cf3fa03582f": "59801ae6-95af-47a0-b074-2ac1bce80c48",
+        "7ad01370-ae8e-40ae-b70d-61f6d8dba8d9": "b7022c10-2203-4b3e-877d-f539c32e0532",
+        "823b2161-0c34-494c-9d7c-b438152f4f4d": "15a36614-d0eb-4be8-af9f-4e79a32d4231",
+        "952cd8e7-2fa5-4eac-bcd9-b2e135eab16f": "0f3fa1bc-e62a-4ea6-b30e-8f77f6f625f8",
+        "9c1deadf-622c-4326-bd14-3e273b5e1e5a": "14647265-8f75-4624-abab-5b6f9d1ef5cb",
+        "9cfad453-b323-43dc-a066-6cd0a21745ad": "19e432c3-e255-428c-94d0-cedebed3dfc5",
+        "a1e46e84-bd9e-454d-9117-a8fa1aab0ce4": "0bcb0358-92a6-405a-8ba0-b41d69bd4da7",
+        "a34ec970-f4a1-47a3-98a1-51ff5e92a443": "9c875ec2-a062-4b15-9621-d5786b40a985",
+        "aa5536d2-4d75-43fb-8df3-47fbf99d3b7c": "4432f713-dfc6-47db-881d-bace88c4d9c1",
+        "abe7b1d1-e992-4ab5-8f0c-8a0d7747ca1f": "15a90b6e-13a2-4d02-9892-373ec942ff97",
+        "af8f331b-96a6-416e-8837-b14d5b11c52d": "6dc593c0-4411-4471-8d19-da2eb414e6fb",
+        "bda65c13-f2d4-43ec-b058-b7807bec4867": "69db2a9d-b98d-47aa-accf-d082d6daa2b6",
+        "be53f27f-c666-4bd2-8fcd-0713f963aa2b": "2b9f626b-3bc9-4d66-9ac9-9689f65fc7fc",
+        "d0c7135a-1aea-40cb-ba20-df656de71749": "36ea9bc5-23b0-4274-9c6c-cd8a07b1b654",
+        "dcea56e2-1ba1-49ab-b0d0-764fa98bc6b5": "84fad10f-33cc-4c56-b60a-78d5fa3bc946",
+        "f8a7e4c7-d60e-4751-9203-30a772dd9272": "930f19e3-6885-4738-9dae-484cb321f64f",
+        "fa142a43-00a4-4e79-be7b-d469c09dfdd0": "25d03f89-b2bf-46f7-ab2e-abda8df482f6",
+        "fb60c435-dd40-401e-977b-15bdbb753444": "49b7f351-b51d-4429-8324-a1cf8afe003f",
+        "fba3e1cf-82e4-412a-b8db-148f9b93ebf3": "bf3e0f23-5690-485d-bca2-f3a04ff4766e"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "17c21a9d-c79b-45f2-903d-7e8a54641ed5",
+      "status": "inprogress"
+    },
+    "end_date": "2026-04-06T02:41:24Z",
+    "id": "4c01aeda-09ee-421c-9da6-2e0ba020d490",
+    "last_updated_ts": "2026-04-07T03:34:23.725199Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR05CHAMIN",
+      "KXNBASPREAD-26APR05CHAMIN",
+      "KXNBATOTAL-26APR05CHAMIN",
+      "KXNBATEAMTOTAL-26APR05CHAMIN",
+      "KXNBA1HWINNER-26APR05CHAMIN",
+      "KXNBA2HWINNER-26APR05CHAMIN",
+      "KXNBA1HSPREAD-26APR05CHAMIN",
+      "KXNBA1HTOTAL-26APR05CHAMIN",
+      "KXNBA2HTOTAL-26APR05CHAMIN",
+      "KXNBA2HSPREAD-26APR05CHAMIN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR05CHAMIN",
+      "KXNBASPREAD-26APR05CHAMIN",
+      "KXNBATOTAL-26APR05CHAMIN",
+      "KXNBATEAMTOTAL-26APR05CHAMIN",
+      "KXNBA1HWINNER-26APR05CHAMIN",
+      "KXNBA2HWINNER-26APR05CHAMIN",
+      "KXNBAPTS-26APR05CHAMIN",
+      "KXNBAREB-26APR05CHAMIN",
+      "KXNBAAST-26APR05CHAMIN",
+      "KXNBA3PT-26APR05CHAMIN",
+      "KXNBA2D-26APR05CHAMIN",
+      "KXNBA3D-26APR05CHAMIN",
+      "KXNBASTL-26APR05CHAMIN",
+      "KXNBABLK-26APR05CHAMIN",
+      "KXNBA1HSPREAD-26APR05CHAMIN",
+      "KXNBA1HTOTAL-26APR05CHAMIN",
+      "KXNBA2HTOTAL-26APR05CHAMIN",
+      "KXNBA2HSPREAD-26APR05CHAMIN"
+    ],
+    "source_id": "17c21a9d-c79b-45f2-903d-7e8a54641ed5",
+    "source_ids": {
+      "source_2_id": "202604050FE82083",
+      "source_3_id": "17c21a9d-c79b-45f2-903d-7e8a54641ed5",
+      "source_4_id": "62925407",
+      "source_5_id": "sr:match:62925407"
+    },
+    "start_date": "2026-04-05T23:00:00Z",
+    "title": "Charlotte at Minnesota",
+    "type": "basketball_game"
+  }
+}

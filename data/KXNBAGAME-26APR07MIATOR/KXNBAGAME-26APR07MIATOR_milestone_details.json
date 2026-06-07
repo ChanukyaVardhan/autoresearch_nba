@@ -1,0 +1,219 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-04T19:00:00+00:00",
+          "opponent_points": 136,
+          "opponent_structured_id": "0464e75c-8bc8-4f18-9ee2-577832b889d6",
+          "points": 152,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": true
+        },
+        {
+          "date": "2026-04-01T23:30:00+00:00",
+          "opponent_points": 147,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 129,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": false
+        },
+        {
+          "date": "2026-03-30T23:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 119,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": true
+        },
+        {
+          "date": "2026-03-29T21:00:00+00:00",
+          "opponent_points": 135,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 118,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": false
+        },
+        {
+          "date": "2026-03-27T23:30:00+00:00",
+          "opponent_points": 149,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 128,
+          "structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "winner": false
+        }
+      ],
+      "away_team_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+      "game_injuries": {
+        "96c447dd-2cdd-4c58-a151-ef0df87de981": [
+          {
+            "comment": "The Raptors said on Thursday (Apr. 2) that Hepburn can be considered week-to-week and is OUT indefinitely.",
+            "date_updated": "2026-04-02",
+            "description": "Knee",
+            "start_date": "2026-04-02",
+            "status": "Out",
+            "structured_id": "56f10c2a-0978-4e58-a434-01d46c704482"
+          }
+        ],
+        "a17e4a68-2999-4f60-b67e-3e80aa9e198b": [
+          {
+            "comment": "The Heat said on Tuesday (Apr. 7) that Jovic is OUT for at least 3 games.",
+            "date_updated": "2026-04-07",
+            "description": "Ankle",
+            "start_date": "2026-04-06",
+            "status": "Out",
+            "structured_id": "456a00ec-c379-46c8-ac4c-22ed09b76782"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 101,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-04-04T00:00:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 128,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-04-02T00:00:00+00:00",
+          "opponent_points": 123,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 115,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-04-01T00:00:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 116,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-03-29T22:00:00+00:00",
+          "opponent_points": 87,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 139,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        }
+      ],
+      "home_team_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR07MIATOR",
+      "player_id_mapping": {
+        "11c303dc-540c-4090-8e0c-76c2fb2c125a": "c8ecebb6-6e63-4564-9c1f-4ef048d1bf7e",
+        "158db875-4660-42e0-9ba3-6b29c2a85e5a": "0dc1c365-c168-4092-9076-d5c8fe6fb8ac",
+        "1738927f-6ef3-4b23-921d-168b4371f917": "fb9a7f9e-8a0c-4e90-94e8-051dea709bef",
+        "38a9b2cc-008e-406b-ad5a-87e0e54f93b7": "1973aa06-c381-4a82-9bfd-7dd65f09a2fa",
+        "3d186345-1517-446d-b4bf-8707fc77f093": "d06c2a48-5fdc-40f8-9e7c-5b98d534aa4f",
+        "42c5f009-dfd2-4a94-a750-0943791e138e": "b725e63f-83b2-469d-8c34-41217a3a05d3",
+        "4b7ecb2a-ec19-4984-9472-92edf7e17acb": "c122b588-a524-4086-a34a-d74de87ff68e",
+        "58c0852f-6fc1-4a9a-b019-fabab1b25536": "56f10c2a-0978-4e58-a434-01d46c704482",
+        "59c707c2-fc69-4ed5-aa33-d446709dad9f": "9f2111cb-be0d-4569-af93-a4de5ab72a7e",
+        "5ae05a68-db05-45ea-a4e7-87462cb576aa": "2afef8da-4d54-44f7-a52f-c2933ca0b37a",
+        "6bc71e02-9a03-40db-aed4-332ab5193336": "f8ddd45a-b42c-4c8b-a0b0-08cf10ca3253",
+        "6be87eb4-8a62-44e5-893b-d44ba516ac62": "78e6400c-eb93-4089-922a-24d221108ee5",
+        "77c425f0-0fce-4fab-bd1e-c915c8fb5bc7": "aa9a6beb-2da4-4425-a295-07c6bb2940b7",
+        "7b169c92-2d4d-4218-9557-4e0ec1b43378": "d9935a9e-93fb-438e-956b-3600b9b87170",
+        "7df31401-85c4-449f-bc87-f605145ef7ba": "1cefe214-8a3b-42d1-a667-4e30137e88b9",
+        "8082841d-e516-43c6-a81b-7987fa321acd": "95551002-8e7e-4af7-b21e-71c4efe0573e",
+        "8bd80771-843f-4d7f-a4e7-b4d4f6c4e7c6": "3e3ceeda-5f54-4aa0-9ced-e8ff6cbcadf2",
+        "9cfaa435-cd0c-4616-924f-feb9c3df1c12": "5058e150-c10e-4c45-a9d2-e3cea932c389",
+        "a134da60-f9de-4d49-bdf2-8bdccf2620e2": "38afe456-0243-4697-ac17-b96c07b0c672",
+        "a63fc9c7-2675-486f-902f-702cca020ee1": "a1a66fdb-dca5-4a21-b271-7dfcbd548baf",
+        "a6d12593-86ca-485f-b775-2abb14eb6d99": "1eb006aa-0299-401c-9d88-8be637c7a46e",
+        "b2703497-74ba-458f-84da-a3c145bcfe79": "9d88c781-8100-4e55-be27-a39b97105be4",
+        "bdc15a29-e40d-49d1-a0a8-d21e95221e23": "994b09f9-3e74-44d3-8d9b-1a9347c3c92f",
+        "c17e25c7-1306-4301-8548-2fc129a62041": "1ac8b21f-fa4e-4bd5-938c-02471a8ead10",
+        "c5df8387-9b94-4109-bcf5-96d850e994a9": "f83d6641-0625-400e-a269-cd3e02d45813",
+        "c910f29a-3f6b-4dba-92e9-20137fbdf2c7": "14713689-92a3-4b09-b657-e49d2cbc31f0",
+        "cb0b5991-53e4-4dce-bf95-215fd6ecf728": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0",
+        "d000cb41-2c64-4eb1-9f06-7dc94d63ba03": "4e7dbbe4-d680-46b4-a19d-c9f6765352d6",
+        "d0400039-111a-4b67-8666-4f29e0549a77": "ef8f3722-308a-4ef9-beab-27afb7d067da",
+        "d1ee8ac8-f550-4269-ab4f-604b7bba441a": "046ebcd9-cc1d-400f-b308-909bd691fa31",
+        "d31856fa-e1ff-4617-ab8b-a3ed79bfb27d": "456a00ec-c379-46c8-ac4c-22ed09b76782",
+        "e1b3d3d5-b4b1-481a-b5b9-efe4231f48bf": "d25e2502-71da-4cf4-9068-63c09a55777b",
+        "e1e4c26d-ab5c-4bd7-886a-812854466bb8": "61b8b43d-0169-4b1b-aeff-add33970adb4",
+        "ee2644c1-1260-4bf4-9c70-7c5b0cee4770": "726401ab-6c3f-4f7e-be74-5c71921d2d4c",
+        "f1e4fcb7-01c7-479f-8883-c33ac438690e": "944fef39-3b80-4410-9771-525da20141a5",
+        "fda266ab-06e1-4591-80fa-73f027979b63": "7ef0b22a-0312-440e-97db-deea30cfd080"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "deed6db9-9b49-47dd-8610-3f095eb2435d",
+      "status": "complete"
+    },
+    "end_date": "2026-04-08T03:41:07Z",
+    "id": "96076c09-6d5d-4630-b60e-049aa783b257",
+    "last_updated_ts": "2026-04-09T04:21:29.244861Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR07MIATOR",
+      "KXNBASPREAD-26APR07MIATOR",
+      "KXNBATOTAL-26APR07MIATOR",
+      "KXNBATEAMTOTAL-26APR07MIATOR",
+      "KXNBA1HWINNER-26APR07MIATOR",
+      "KXNBA2HWINNER-26APR07MIATOR",
+      "KXNBA1HSPREAD-26APR07MIATOR",
+      "KXNBA1HTOTAL-26APR07MIATOR",
+      "KXNBA2HSPREAD-26APR07MIATOR",
+      "KXNBA2HTOTAL-26APR07MIATOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR07MIATOR",
+      "KXNBASPREAD-26APR07MIATOR",
+      "KXNBATOTAL-26APR07MIATOR",
+      "KXNBATEAMTOTAL-26APR07MIATOR",
+      "KXNBA1HWINNER-26APR07MIATOR",
+      "KXNBA2HWINNER-26APR07MIATOR",
+      "KXNBAPTS-26APR07MIATOR",
+      "KXNBAREB-26APR07MIATOR",
+      "KXNBAAST-26APR07MIATOR",
+      "KXNBA3PT-26APR07MIATOR",
+      "KXNBA2D-26APR07MIATOR",
+      "KXNBA3D-26APR07MIATOR",
+      "KXNBA1HSPREAD-26APR07MIATOR",
+      "KXNBA1HTOTAL-26APR07MIATOR",
+      "KXNBASTL-26APR07MIATOR",
+      "KXNBABLK-26APR07MIATOR",
+      "KXNBA2HSPREAD-26APR07MIATOR",
+      "KXNBA2HTOTAL-26APR07MIATOR"
+    ],
+    "source_id": "deed6db9-9b49-47dd-8610-3f095eb2435d",
+    "source_ids": {
+      "source_2_id": "202604073F53EFCB",
+      "source_3_id": "deed6db9-9b49-47dd-8610-3f095eb2435d",
+      "source_4_id": "62924521",
+      "source_5_id": "sr:match:62924521"
+    },
+    "start_date": "2026-04-07T23:30:00Z",
+    "title": "Miami at Toronto",
+    "type": "basketball_game"
+  }
+}

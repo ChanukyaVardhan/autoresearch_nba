@@ -1,0 +1,240 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-02-22T18:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 121,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-02-21T01:00:00+00:00",
+          "opponent_points": 86,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 105,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-02-13T00:30:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 93,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": false
+        },
+        {
+          "date": "2026-02-12T02:00:00+00:00",
+          "opponent_points": 109,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 136,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-02-10T03:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 119,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        }
+      ],
+      "away_team_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+      "game_injuries": {
+        "96c447dd-2cdd-4c58-a151-ef0df87de981": [
+          {
+            "comment": "The Raptors listed Poeltl as OUT for Tuesday's (Feb. 24) game against Oklahoma City.",
+            "date_updated": "2026-02-23",
+            "description": "Injury Management",
+            "start_date": "2026-02-23",
+            "status": "Out",
+            "structured_id": "d25e2502-71da-4cf4-9068-63c09a55777b"
+          }
+        ],
+        "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c": [
+          {
+            "comment": "Mitchell is out for at least one more week with an abdominal strain, per Brandon Rahbar of DailyThunder.com.",
+            "date_updated": "2026-02-19",
+            "description": "Abdomen",
+            "start_date": "2026-01-21",
+            "status": "Out",
+            "structured_id": "33b2a10d-1060-427a-98fe-ce1daf133441"
+          },
+          {
+            "comment": "Williams is scheduled to be re-evaluated in approximately two weeks, according to Brandon according to Rahbar of DailyThunder.com.",
+            "date_updated": "2026-02-19",
+            "description": "Hamstring",
+            "start_date": "2026-02-11",
+            "status": "Out",
+            "structured_id": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92"
+          },
+          {
+            "comment": "Gilgeous-Alexander will miss at least one more week, according to Brandon Rahbar of DailyThunder.com.",
+            "date_updated": "2026-02-19",
+            "description": "Abdomen",
+            "start_date": "2026-02-04",
+            "status": "Out",
+            "structured_id": "b40547da-b4d9-4d33-b795-32595ef9c473"
+          },
+          {
+            "comment": "The Thunder announced on Friday (Sept. 5) that Sorber will miss the 2025-2026 season with a torn ACL.",
+            "date_updated": "2025-09-05",
+            "description": "Knee",
+            "start_date": "2025-09-05",
+            "status": "Out For Season",
+            "structured_id": "c2beb99e-9ef2-4e96-b440-96080fa60360"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-02-22T20:30:00+00:00",
+          "opponent_points": 94,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 122,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-02-20T01:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 110,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-02-12T00:30:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 95,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-02-08T20:00:00+00:00",
+          "opponent_points": 104,
+          "opponent_structured_id": "d059bab2-9fb5-42dd-8038-5a12474300ce",
+          "points": 122,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-02-06T00:30:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 123,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        }
+      ],
+      "home_team_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB24OKCTOR",
+      "player_id_mapping": {
+        "1738927f-6ef3-4b23-921d-168b4371f917": "fb9a7f9e-8a0c-4e90-94e8-051dea709bef",
+        "1c8786b4-1786-4e3d-81ca-d976797413f5": "33b2a10d-1060-427a-98fe-ce1daf133441",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "36d083a5-49ca-42f1-80b7-b78275a8abd9": "c4cc3a86-4003-4ea8-941f-cc878aaad51f",
+        "38745a56-7472-4844-a2dc-f61d3bcd941f": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b",
+        "3d186345-1517-446d-b4bf-8707fc77f093": "d06c2a48-5fdc-40f8-9e7c-5b98d534aa4f",
+        "3f7e2350-e208-4791-98c2-684b53bb5a9a": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c",
+        "42c5f009-dfd2-4a94-a750-0943791e138e": "b725e63f-83b2-469d-8c34-41217a3a05d3",
+        "4965ef48-7aa9-4eae-a923-5023ff7ab1eb": "32b125e2-a412-42e4-81ac-329f053f9f23",
+        "4ab6a1ca-60ab-41e3-adbc-0395dec8c0da": "edf2d234-7410-4223-9d80-2f5893936d2e",
+        "58c0852f-6fc1-4a9a-b019-fabab1b25536": "56f10c2a-0978-4e58-a434-01d46c704482",
+        "59c707c2-fc69-4ed5-aa33-d446709dad9f": "9f2111cb-be0d-4569-af93-a4de5ab72a7e",
+        "62c44a90-f280-438a-9c7e-252f4f376283": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92",
+        "6bc71e02-9a03-40db-aed4-332ab5193336": "f8ddd45a-b42c-4c8b-a0b0-08cf10ca3253",
+        "7b169c92-2d4d-4218-9557-4e0ec1b43378": "d9935a9e-93fb-438e-956b-3600b9b87170",
+        "7df31401-85c4-449f-bc87-f605145ef7ba": "1cefe214-8a3b-42d1-a667-4e30137e88b9",
+        "8082841d-e516-43c6-a81b-7987fa321acd": "95551002-8e7e-4af7-b21e-71c4efe0573e",
+        "8936c15e-f9d5-4b9a-80b9-8f6b7dcf7a17": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04",
+        "9318b4c1-49d0-40eb-8b76-1098e28133d2": "144c5239-29b4-4656-8862-088803bb760e",
+        "ab0289ca-407b-41e9-ab2d-32407eedeccf": "419633cc-ca9b-42c3-a792-f95bb00cfdaa",
+        "abceaea3-47b0-43fb-b9f7-75f378e2d409": "2fb6b047-2714-4088-bbd8-c86051b3e0b1",
+        "b2703497-74ba-458f-84da-a3c145bcfe79": "9d88c781-8100-4e55-be27-a39b97105be4",
+        "b3db0b36-344f-4035-b315-9fb18933e535": "048da8e7-a562-4504-a102-b2fe624a0930",
+        "bdc15a29-e40d-49d1-a0a8-d21e95221e23": "994b09f9-3e74-44d3-8d9b-1a9347c3c92f",
+        "bf6b4aed-c007-41eb-b4e5-08b99f292ec2": "04bc92de-9046-4d6e-8c63-5f8e60ca8e0e",
+        "c17e25c7-1306-4301-8548-2fc129a62041": "1ac8b21f-fa4e-4bd5-938c-02471a8ead10",
+        "c56cbf7a-42a4-41a2-a37b-0cd4aaf248d0": "c2beb99e-9ef2-4e96-b440-96080fa60360",
+        "c5df8387-9b94-4109-bcf5-96d850e994a9": "f83d6641-0625-400e-a269-cd3e02d45813",
+        "c910f29a-3f6b-4dba-92e9-20137fbdf2c7": "14713689-92a3-4b09-b657-e49d2cbc31f0",
+        "cb0b5991-53e4-4dce-bf95-215fd6ecf728": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0",
+        "d3b28775-473d-471a-8452-e913f4347f0f": "7576d7ff-b42d-446f-bce0-71d63e8cd098",
+        "d9ea4a8f-ff51-408d-b518-980efc2a35a1": "b40547da-b4d9-4d33-b795-32595ef9c473",
+        "e1b3d3d5-b4b1-481a-b5b9-efe4231f48bf": "d25e2502-71da-4cf4-9068-63c09a55777b",
+        "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed",
+        "ee2644c1-1260-4bf4-9c70-7c5b0cee4770": "726401ab-6c3f-4f7e-be74-5c71921d2d4c"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "9974833e-b1a6-4c87-a5d1-40cb204c965f",
+      "status": "complete"
+    },
+    "end_date": "2026-02-25T03:40:07Z",
+    "id": "e45329df-c0cc-4355-8a52-ad26eda87679",
+    "last_updated_ts": "2026-03-26T07:28:38.065771Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB24OKCTOR",
+      "KXNBASPREAD-26FEB24OKCTOR",
+      "KXNBATOTAL-26FEB24OKCTOR",
+      "KXNBATEAMTOTAL-26FEB24OKCTOR",
+      "KXNBA1HWINNER-26FEB24OKCTOR",
+      "KXNBA2HWINNER-26FEB24OKCTOR",
+      "KXNBA1HSPREAD-26FEB24OKCTOR",
+      "KXNBA1HTOTAL-26FEB24OKCTOR",
+      "KXNBA2HSPREAD-26FEB24OKCTOR",
+      "KXNBA2HTOTAL-26FEB24OKCTOR"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB24OKCTOR",
+      "KXNBASPREAD-26FEB24OKCTOR",
+      "KXNBATOTAL-26FEB24OKCTOR",
+      "KXNBATEAMTOTAL-26FEB24OKCTOR",
+      "KXNBA1HWINNER-26FEB24OKCTOR",
+      "KXNBA2HWINNER-26FEB24OKCTOR",
+      "KXNBAPTS-26FEB24OKCTOR",
+      "KXNBAREB-26FEB24OKCTOR",
+      "KXNBA3PT-26FEB24OKCTOR",
+      "KXNBA2D-26FEB24OKCTOR",
+      "KXNBAAST-26FEB24OKCTOR",
+      "KXNBA3D-26FEB24OKCTOR",
+      "KXNBA1HSPREAD-26FEB24OKCTOR",
+      "KXNBA1HTOTAL-26FEB24OKCTOR",
+      "KXNBASTL-26FEB24OKCTOR",
+      "KXNBABLK-26FEB24OKCTOR",
+      "KXNBA2HSPREAD-26FEB24OKCTOR",
+      "KXNBA2HTOTAL-26FEB24OKCTOR"
+    ],
+    "source_id": "9974833e-b1a6-4c87-a5d1-40cb204c965f",
+    "source_ids": {
+      "source_2_id": "2026022568BB1674",
+      "source_3_id": "9974833e-b1a6-4c87-a5d1-40cb204c965f"
+    },
+    "start_date": "2026-02-25T00:30:00Z",
+    "title": "Oklahoma City at Toronto",
+    "type": "basketball_game"
+  }
+}

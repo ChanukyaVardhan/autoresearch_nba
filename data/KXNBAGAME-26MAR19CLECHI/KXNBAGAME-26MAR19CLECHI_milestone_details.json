@@ -1,0 +1,279 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-18T00:00:00+00:00",
+          "opponent_points": 116,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 123,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-03-15T19:30:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 120,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        },
+        {
+          "date": "2026-03-13T23:30:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "36547ae6-f0fa-4d06-a6e5-5bfa64a217ed",
+          "points": 138,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        },
+        {
+          "date": "2026-03-11T23:30:00+00:00",
+          "opponent_points": 128,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 122,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": false
+        },
+        {
+          "date": "2026-03-09T23:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "points": 115,
+          "structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "winner": true
+        }
+      ],
+      "away_team_id": "90381a35-42a6-4975-851f-175418e4271a",
+      "game_injuries": {
+        "65f0250b-455d-43d7-b7dc-7d321bdf9abc": [
+          {
+            "comment": "The Bulls reported on Monday (Mar. 16) that Simons will be re-evaluated in 10 days.",
+            "date_updated": "2026-03-16",
+            "description": "Wrist",
+            "start_date": "2026-02-21",
+            "status": "Out",
+            "structured_id": "94894b15-fc9f-42e5-854c-4d2a6006c09b"
+          },
+          {
+            "comment": "The Bulls listed Smith as Out for Thursday's (Mar. 19) game against the Cavaliers.",
+            "date_updated": "2026-03-19",
+            "description": "Calf",
+            "start_date": "2026-03-19",
+            "status": "Out",
+            "structured_id": "37104adf-2343-40fe-8d8a-a11f89d037e8"
+          },
+          {
+            "comment": "The Bulls listed Okoro as OUT for Thursday's (Mar. 19) game against the Cavaliers.",
+            "date_updated": "2026-03-19",
+            "description": "Knee",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a"
+          },
+          {
+            "comment": "The Bulls reported on Wednesday (Dec. 3) that Essengue will have shoulder surgery and miss the remainder of the season, per HC Billy Donovan.",
+            "date_updated": "2025-12-03",
+            "description": "Shoulder",
+            "start_date": "2025-11-29",
+            "status": "Out For Season",
+            "structured_id": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c"
+          },
+          {
+            "comment": "The Bulls reported on Monday (Jan. 16) that Ivey will be re-evaluated in one week.",
+            "date_updated": "2026-03-16",
+            "description": "Knee",
+            "start_date": "2026-02-20",
+            "status": "Out",
+            "structured_id": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7"
+          },
+          {
+            "comment": "The Bulls said on Saturday (Feb. 21) that Collins will undergo surgery for a sprain right toe and will be sidelined for the rest of the 2025-26 season.",
+            "date_updated": "2026-02-21",
+            "description": "Toe",
+            "start_date": "2025-12-28",
+            "status": "Out For Season",
+            "structured_id": "2a5b8fd6-50da-499a-a50b-832f02dea356"
+          }
+        ],
+        "90381a35-42a6-4975-851f-175418e4271a": [
+          {
+            "comment": "The Cavaliers listed Porter Jr. as Out for Thursday's (Mar. 19) game against the Bulls.",
+            "date_updated": "2026-03-18",
+            "description": "Groin",
+            "start_date": "2026-03-14",
+            "status": "Out",
+            "structured_id": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5"
+          },
+          {
+            "comment": "The Cavaliers listed Proctor as Out for Thursday's (Mar. 19) game against the Bulls.",
+            "date_updated": "2026-03-18",
+            "description": "Quadricep",
+            "start_date": "2026-03-07",
+            "status": "Out",
+            "structured_id": "dfbabd3c-b574-4d27-81a8-36653c7d06e9"
+          },
+          {
+            "comment": "The Cavaliers listed Mitchell as Out for Thursday's (Mar. 19) game against the Bulls.",
+            "date_updated": "2026-03-19",
+            "description": "Eye",
+            "start_date": "2026-03-19",
+            "status": "Out",
+            "structured_id": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6"
+          },
+          {
+            "comment": "The Cavaliers listed Allen as Out for Thursday's (Mar. 19) game against the Bulls.",
+            "date_updated": "2026-03-18",
+            "description": "Knee",
+            "start_date": "2026-03-03",
+            "status": "Out",
+            "structured_id": "67a44479-d07a-4782-b8a8-c997f71f1327"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-19T00:00:00+00:00",
+          "opponent_points": 139,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 109,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 132,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        },
+        {
+          "date": "2026-03-14T02:30:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 108,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-13T02:30:00+00:00",
+          "opponent_points": 142,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 130,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-11T02:00:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "502c629b-4da7-40fd-92ab-20cb55411c35",
+          "points": 130,
+          "structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "winner": true
+        }
+      ],
+      "home_team_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR19CLECHI",
+      "player_id_mapping": {
+        "030424b9-7367-45e1-b9d4-c8dee3a89e53": "6eaf3b9a-9461-4d09-b7c8-f99a4a7c22e2",
+        "1a120d1a-0202-4039-a00e-4daa8b7ffcfc": "8dc06468-b5e3-4d7f-b644-f3ced82f0246",
+        "22be3275-1ef8-47f7-a30d-af38f7bc96b2": "dfbabd3c-b574-4d27-81a8-36653c7d06e9",
+        "2d4ce4bc-b03a-40bc-b22c-dab27591a429": "0faf4911-89b0-49ae-a920-0912c6e6a92e",
+        "31f78854-0d23-4318-959c-0314588136e1": "e1936136-417a-4892-b6e0-90e41b6c2f1a",
+        "5ab15bad-59b4-43c9-98fc-1d0aa8182d01": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c",
+        "5bb6159f-27ae-406e-ac5b-e8911f0cbb7c": "1935e9f5-be0f-4138-9ca3-1499c08738b9",
+        "5efce548-15a0-4a8c-9f63-5f5db4851696": "1bd97b36-a12a-4e51-a4dc-bce1f4afdc25",
+        "632adcc4-97f1-4e67-a132-e0b79f013c67": "94894b15-fc9f-42e5-854c-4d2a6006c09b",
+        "66ea876a-1cc9-47ed-ae31-2ed3c8f9350e": "a4baed3c-0021-407e-8448-a298594c2a83",
+        "67f6467e-0acc-48ce-9872-a63225ef295c": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b",
+        "689cb3b0-a7cc-45b5-860d-007597029c8c": "37104adf-2343-40fe-8d8a-a11f89d037e8",
+        "68a8c4ea-1d77-4a42-bea4-dbe9a162332a": "24c7e18f-1086-4b18-b37c-631d2c39e0e9",
+        "6b8ed06d-a33f-46ce-b416-647100736df8": "5e64b57d-17f7-46e7-af61-b749c276591f",
+        "7458ef96-cab7-433e-a761-4e93537f4b52": "67469ff2-4ef3-45c9-8d29-f89a0a5f05c5",
+        "7924cc02-9fbb-4fd0-a036-0130084eb9b3": "98a42c36-71d9-400e-95a5-e7fe53f7e9d8",
+        "7b526b14-5d50-411e-8bea-0ac7a8d0e8d7": "b20be183-d7e6-4970-ad6f-04ff489eb0d9",
+        "80b5cccf-203b-4482-92aa-76d1598216be": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387",
+        "90b52759-3f0e-4d93-b5ca-fcb53afce857": "7709e8e3-d714-4bf9-8655-793857fe3e50",
+        "9654c7f1-d16c-428c-88fd-2a6cdb5a8370": "4624140d-4700-4bc6-a78b-79acc60ce3fe",
+        "99dc3c11-03fc-4d15-9dd5-d8d1f41c569a": "39063bb2-a56e-41bb-94ca-ae15c380a190",
+        "a2c6a907-282f-4172-9d60-42d03987da0e": "f6c3270e-ba4c-485c-829d-cdbf29e5f34b",
+        "a3fff5c7-19b6-4dac-bd75-11b944bea505": "67a44479-d07a-4782-b8a8-c997f71f1327",
+        "a52b2c84-9c3d-4d6e-8a3b-10e75d11c2bc": "d5324b8e-901b-404d-bfef-a5f5d62bed85",
+        "ad389979-d1d5-4f26-ad64-3e516b3373a3": "e92aa777-3acd-4bce-a1cb-c734771fb903",
+        "b5310b38-a378-464f-b344-928adee0ed00": "2a5b8fd6-50da-499a-a50b-832f02dea356",
+        "b6dde96e-3748-4cbe-86d2-798d5dffb3c0": "6daf79e8-b1ff-4208-83b1-ef4334d6f2c6",
+        "bbeecf0c-62c6-4211-991d-2afaf2403623": "22c635e6-e6ac-4e0f-bff6-a8b77e157103",
+        "d13849d9-a696-44af-84a1-3196132c3ecd": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a",
+        "d64b602e-45f2-4ba9-878b-0a4f7210ec77": "e6212176-2793-4f9a-8e1b-7d294eca2787",
+        "e04c3542-546a-4ca7-8db3-a89353d60046": "998569d5-8e34-4b4b-a396-aada418a9fc1",
+        "ec887131-efba-43a0-ad0a-0757ab3f0399": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7",
+        "f619cc0b-5fa0-4189-9091-596e843e93b1": "a21967f6-3de2-4e6e-ad5c-b011117e05a6",
+        "f6aff1dc-15b9-4c89-a2fb-746f4cf78890": "e59d506e-4dfc-496b-87e1-f74fda25816d",
+        "fa95eb6b-9008-4d67-8476-3b69e90b8688": "c151ea5c-a22e-4083-a35e-eac7502ee20e",
+        "fe7a0b28-a8f9-42ad-b345-0f69d51d365f": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "5b9d8da0-c119-484f-99de-eeab5e9420bf",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-20T06:43:25Z",
+    "id": "08ce2cb0-5443-4469-93d0-b8c77c23aa4d",
+    "last_updated_ts": "2026-03-26T07:29:44.89086Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR19CLECHI",
+      "KXNBASPREAD-26MAR19CLECHI",
+      "KXNBATOTAL-26MAR19CLECHI",
+      "KXNBATEAMTOTAL-26MAR19CLECHI",
+      "KXNBA1HWINNER-26MAR19CLECHI",
+      "KXNBA2HWINNER-26MAR19CLECHI",
+      "KXNBA1HSPREAD-26MAR19CLECHI",
+      "KXNBA1HTOTAL-26MAR19CLECHI"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR19CLECHI",
+      "KXNBASPREAD-26MAR19CLECHI",
+      "KXNBATOTAL-26MAR19CLECHI",
+      "KXNBATEAMTOTAL-26MAR19CLECHI",
+      "KXNBA1HWINNER-26MAR19CLECHI",
+      "KXNBA2HWINNER-26MAR19CLECHI",
+      "KXNBAPTS-26MAR19CLECHI",
+      "KXNBAREB-26MAR19CLECHI",
+      "KXNBAAST-26MAR19CLECHI",
+      "KXNBA3PT-26MAR19CLECHI",
+      "KXNBA2D-26MAR19CLECHI",
+      "KXNBA3D-26MAR19CLECHI",
+      "KXNBASTL-26MAR19CLECHI",
+      "KXNBABLK-26MAR19CLECHI",
+      "KXNBA1HSPREAD-26MAR19CLECHI",
+      "KXNBA1HTOTAL-26MAR19CLECHI"
+    ],
+    "source_id": "5b9d8da0-c119-484f-99de-eeab5e9420bf",
+    "source_ids": {
+      "source_2_id": "20260320C56654E3",
+      "source_3_id": "5b9d8da0-c119-484f-99de-eeab5e9420bf",
+      "source_4_id": "62924761",
+      "source_5_id": "sr:match:62924761"
+    },
+    "start_date": "2026-03-20T00:00:00Z",
+    "title": "Cleveland at Chicago",
+    "type": "basketball_game"
+  }
+}

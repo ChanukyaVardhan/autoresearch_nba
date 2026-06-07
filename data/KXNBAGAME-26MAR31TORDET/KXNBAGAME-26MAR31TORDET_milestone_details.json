@@ -1,0 +1,235 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-29T22:00:00+00:00",
+          "opponent_points": 87,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 139,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-03-28T00:30:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 119,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-03-26T02:30:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+          "points": 94,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        },
+        {
+          "date": "2026-03-24T01:00:00+00:00",
+          "opponent_points": 127,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 143,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": true
+        },
+        {
+          "date": "2026-03-23T01:00:00+00:00",
+          "opponent_points": 120,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 98,
+          "structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "winner": false
+        }
+      ],
+      "away_team_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+      "game_injuries": {
+        "65569528-1888-40aa-9d62-2b0e8142a9b4": [
+          {
+            "comment": "The Pistons said on Thursday (Mar. 19) that Cunningham will officially be re-evaluated in 2 weeks.",
+            "date_updated": "2026-03-19",
+            "description": "Lung",
+            "start_date": "2026-03-17",
+            "status": "Out",
+            "structured_id": "0a8c3059-aa64-4871-8291-fff857a201af"
+          },
+          {
+            "comment": "The Pistons said on Tuesday (Mar. 17) that Stewart will miss at least 1 week.",
+            "date_updated": "2026-03-17",
+            "description": "Calf",
+            "start_date": "2026-03-14",
+            "status": "Out",
+            "structured_id": "60e91db8-8128-4e53-9b13-eabdf6913ab5"
+          }
+        ],
+        "96c447dd-2cdd-4c58-a151-ef0df87de981": [
+          {
+            "comment": "The Raptors listed Quickley as OUT for Tuesday's (Mar. 31) game against Detroit.",
+            "date_updated": "2026-03-30",
+            "description": "Foot",
+            "start_date": "2026-03-23",
+            "status": "Out",
+            "structured_id": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0"
+          },
+          {
+            "comment": "The Raptors listed Battle as OUT for Tuesday's (Mar. 31) game against Detroit.",
+            "date_updated": "2026-03-31",
+            "description": "Not Injury Related ",
+            "start_date": "2026-03-31",
+            "status": "Out",
+            "structured_id": "9d88c781-8100-4e55-be27-a39b97105be4"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-31T01:30:00+00:00",
+          "opponent_points": 114,
+          "opponent_structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "points": 110,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": false
+        },
+        {
+          "date": "2026-03-28T21:30:00+00:00",
+          "opponent_points": 87,
+          "opponent_structured_id": "29e3c04e-fadb-4006-be20-cbb8c159ce0e",
+          "points": 109,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        },
+        {
+          "date": "2026-03-26T23:00:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "points": 129,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        },
+        {
+          "date": "2026-03-25T23:00:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 129,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": false
+        },
+        {
+          "date": "2026-03-23T23:00:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 113,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        }
+      ],
+      "home_team_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR31TORDET",
+      "player_id_mapping": {
+        "00fb2704-aa25-4ef7-8972-cde454810810": "d3705d84-27ff-4482-ab98-bba306710adc",
+        "1738927f-6ef3-4b23-921d-168b4371f917": "fb9a7f9e-8a0c-4e90-94e8-051dea709bef",
+        "18c14a3d-2ce0-451c-bceb-b0ce13c16ead": "54277f13-99a5-4ee0-934a-2051f41ef6bc",
+        "18d35316-9f40-408c-abcc-ab49e06ef8e8": "74de2700-bb3b-4770-98b7-4c20677814cf",
+        "252f4b13-6abb-45dc-ae85-f822b817cb51": "a49a4c93-ac16-4556-9cf5-fce719ca9208",
+        "3d186345-1517-446d-b4bf-8707fc77f093": "d06c2a48-5fdc-40f8-9e7c-5b98d534aa4f",
+        "41edefa9-a2f9-447d-9578-d2ea2a0d783d": "3be92b88-a09b-4f6c-8a69-33beea8b6a31",
+        "42c5f009-dfd2-4a94-a750-0943791e138e": "b725e63f-83b2-469d-8c34-41217a3a05d3",
+        "4707d9b8-fca3-4550-ae25-bd4b449e4dbf": "ac20a549-f6e2-4feb-94df-b86af72950cc",
+        "536e0e15-02b5-4994-9613-0f5ec88f82e0": "7e264353-4d67-4c27-8757-e97bbd629b3e",
+        "57d55cd4-6ab8-4255-a248-bef800c0cbab": "0a8c3059-aa64-4871-8291-fff857a201af",
+        "58c0852f-6fc1-4a9a-b019-fabab1b25536": "56f10c2a-0978-4e58-a434-01d46c704482",
+        "59c707c2-fc69-4ed5-aa33-d446709dad9f": "9f2111cb-be0d-4569-af93-a4de5ab72a7e",
+        "6bc71e02-9a03-40db-aed4-332ab5193336": "f8ddd45a-b42c-4c8b-a0b0-08cf10ca3253",
+        "79fc04d6-0dcf-4817-ab79-2528026d72be": "5ac2f6ed-c991-40a4-afa0-aff7c779b0d7",
+        "7b169c92-2d4d-4218-9557-4e0ec1b43378": "d9935a9e-93fb-438e-956b-3600b9b87170",
+        "7df31401-85c4-449f-bc87-f605145ef7ba": "1cefe214-8a3b-42d1-a667-4e30137e88b9",
+        "8082841d-e516-43c6-a81b-7987fa321acd": "95551002-8e7e-4af7-b21e-71c4efe0573e",
+        "82f09975-6a8d-42e4-b42c-a52b9349ed50": "cbf135fe-afac-422d-8f3e-9f3291a954a1",
+        "858d255e-9a7b-4c7a-aac4-fc7cf3a5f238": "33c2e858-9265-47f1-b048-fbab4a62f9c8",
+        "9d4d6c87-78db-4556-b94a-bb8d566dd004": "60e91db8-8128-4e53-9b13-eabdf6913ab5",
+        "a2b3bc56-566e-443d-affe-7837a59a1ed7": "7864645c-a818-47f6-8e3a-2f74c8e083e4",
+        "ac9f5700-2da0-4c7d-a031-ed1acf0d6581": "2d0fbc02-5133-41b7-9eac-83abfca3a748",
+        "b2703497-74ba-458f-84da-a3c145bcfe79": "9d88c781-8100-4e55-be27-a39b97105be4",
+        "b4b3cfce-16f1-4f30-acc0-2bac1eb51d66": "800a6e42-f420-4cd9-99d5-483420dce444",
+        "bdc15a29-e40d-49d1-a0a8-d21e95221e23": "994b09f9-3e74-44d3-8d9b-1a9347c3c92f",
+        "c17e25c7-1306-4301-8548-2fc129a62041": "1ac8b21f-fa4e-4bd5-938c-02471a8ead10",
+        "c34996e5-8be6-4053-a2f2-0acb0155e18c": "ade1d2f5-5be7-40f0-819d-7216389b2777",
+        "c5df8387-9b94-4109-bcf5-96d850e994a9": "f83d6641-0625-400e-a269-cd3e02d45813",
+        "c7c7c72b-7cee-409a-b2b5-256d173ac305": "968216f4-82ae-4763-9a71-6875cf126a23",
+        "c910f29a-3f6b-4dba-92e9-20137fbdf2c7": "14713689-92a3-4b09-b657-e49d2cbc31f0",
+        "cb0b5991-53e4-4dce-bf95-215fd6ecf728": "81b37b7d-b0ec-4d2f-a97b-505763a51fd0",
+        "e1b3d3d5-b4b1-481a-b5b9-efe4231f48bf": "d25e2502-71da-4cf4-9068-63c09a55777b",
+        "e23521cd-8e92-4701-b9e7-dc4acd21dfec": "b5fee735-ad6a-4350-85be-62ebd0ff9800",
+        "ee2644c1-1260-4bf4-9c70-7c5b0cee4770": "726401ab-6c3f-4f7e-be74-5c71921d2d4c",
+        "ff6f99de-5cd8-4bf1-a5d2-6bebcf4350ee": "819b5bea-f98f-4e24-a5e8-6f3f33270ae7"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "79219efd-10a4-4cc8-b22d-9b0dcc16ff09",
+      "status": "complete"
+    },
+    "end_date": "2026-04-01T03:30:53Z",
+    "id": "a9c37ee8-e88c-4833-abe9-e5a54ef0b115",
+    "last_updated_ts": "2026-04-02T04:00:25.491716Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR31TORDET",
+      "KXNBASPREAD-26MAR31TORDET",
+      "KXNBATOTAL-26MAR31TORDET",
+      "KXNBATEAMTOTAL-26MAR31TORDET",
+      "KXNBA1HWINNER-26MAR31TORDET",
+      "KXNBA2HWINNER-26MAR31TORDET",
+      "KXNBA1HTOTAL-26MAR31TORDET",
+      "KXNBA1HSPREAD-26MAR31TORDET",
+      "KXNBA2HTOTAL-26MAR31TORDET",
+      "KXNBA2HSPREAD-26MAR31TORDET"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR31TORDET",
+      "KXNBASPREAD-26MAR31TORDET",
+      "KXNBATOTAL-26MAR31TORDET",
+      "KXNBATEAMTOTAL-26MAR31TORDET",
+      "KXNBA1HWINNER-26MAR31TORDET",
+      "KXNBA2HWINNER-26MAR31TORDET",
+      "KXNBA1HTOTAL-26MAR31TORDET",
+      "KXNBAPTS-26MAR31TORDET",
+      "KXNBAREB-26MAR31TORDET",
+      "KXNBAAST-26MAR31TORDET",
+      "KXNBA3PT-26MAR31TORDET",
+      "KXNBA2D-26MAR31TORDET",
+      "KXNBA3D-26MAR31TORDET",
+      "KXNBA1HSPREAD-26MAR31TORDET",
+      "KXNBASTL-26MAR31TORDET",
+      "KXNBABLK-26MAR31TORDET",
+      "KXNBA2HTOTAL-26MAR31TORDET",
+      "KXNBA2HSPREAD-26MAR31TORDET"
+    ],
+    "source_id": "79219efd-10a4-4cc8-b22d-9b0dcc16ff09",
+    "source_ids": {
+      "source_2_id": "20260401A0617AB0",
+      "source_3_id": "79219efd-10a4-4cc8-b22d-9b0dcc16ff09",
+      "source_4_id": "62925149",
+      "source_5_id": "sr:match:62925149"
+    },
+    "start_date": "2026-04-01T00:00:00Z",
+    "title": "Toronto at Detroit",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-12T23:30:00+00:00",
+          "opponent_points": 108,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 97,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-10T23:30:00+00:00",
+          "opponent_points": 138,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 100,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-09T23:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 126,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T23:00:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 107,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": true
+        },
+        {
+          "date": "2026-03-06T00:30:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 110,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        }
+      ],
+      "away_team_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+      "game_injuries": {
+        "0554528d-586b-461f-827b-801cf93e8a8e": [
+          {
+            "comment": "The 76ers listed Drummond as OUT for Saturday's (Mar. 14) game against the Nets.",
+            "date_updated": "2026-03-14",
+            "description": "Back",
+            "start_date": "2026-03-12",
+            "status": "Out",
+            "structured_id": "dea3d9c3-c6fd-4f7a-bb80-ac4ae029c114"
+          },
+          {
+            "comment": "Maxey has been diagnosed with a tendon injury in his right pinkie finger and will be re-evaluated in three weeks, reported by Shams Charania of ESPN.",
+            "date_updated": "2026-03-10",
+            "description": "Finger",
+            "start_date": "2026-03-07",
+            "status": "Out",
+            "structured_id": "90456e7e-47d2-483c-afe5-b6bacec17b2f"
+          },
+          {
+            "comment": "Broome underwent a successful partial meniscectomy to address a lateral meniscus tear in his right knee and will be re-evaluated in 4 weeks, according to Austin Krell.",
+            "date_updated": "2026-02-28",
+            "description": "Knee",
+            "start_date": "2026-02-22",
+            "status": "Out",
+            "structured_id": "00c958c5-01a7-4668-a3b3-669c22526e03"
+          },
+          {
+            "comment": "The 76ers listed Walker as OUT for Saturday's (Mar. 14) game against the Nets.",
+            "date_updated": "2026-03-14",
+            "description": "Illness",
+            "start_date": "2026-03-14",
+            "status": "Out",
+            "structured_id": "43edc187-1d56-40bc-ba15-a7b200a08e8f"
+          },
+          {
+            "comment": "The 76ers said on Saturday (Mar. 14) that Embiid will miss at least 2 more games.",
+            "date_updated": "2026-03-14",
+            "description": "Oblique",
+            "start_date": "2026-02-28",
+            "status": "Out",
+            "structured_id": "8aa20fec-25b0-47c8-bd26-efd64ee0826c"
+          },
+          {
+            "comment": "Oubre is expected to miss at least two weeks due to a left elbow sprain, according to Michael Scotto of USA Today.",
+            "date_updated": "2026-03-11",
+            "description": "Elbow",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "605cfa20-dc8e-4c44-90bd-1ee476ec4138"
+          }
+        ],
+        "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3": [
+          {
+            "comment": "The Nets listed Powell as OUT for Saturday's (Mar. 14) game versus the 76ers. ",
+            "date_updated": "2026-03-13",
+            "description": "Injury Management",
+            "start_date": "2026-03-13",
+            "status": "Out",
+            "structured_id": "acbf6c3d-d745-4d51-aacd-3af1148d2ec8"
+          },
+          {
+            "comment": "The Nets listed Powell as OUT for Saturday's (Mar. 14) game versus the 76ers. ",
+            "date_updated": "2026-03-13",
+            "description": "Injury Management",
+            "start_date": "2026-03-13",
+            "status": "Out",
+            "structured_id": "acbf6c3d-d745-4d51-aacd-3af1148d2ec8"
+          },
+          {
+            "comment": "The Nets reported Egor Demin will miss rest of season with plantar fasciitis.",
+            "date_updated": "2026-03-09",
+            "description": "Foot",
+            "start_date": "2026-02-28",
+            "status": "Out For Season",
+            "structured_id": "7a110972-5181-4479-ad48-c96ead96cce7"
+          },
+          {
+            "comment": "The Nets said on Thursday (Mar. 12) that Sharpe will undergo season-ending thumb surgery.",
+            "date_updated": "2026-03-12",
+            "description": "Thumb",
+            "start_date": "2026-03-10",
+            "status": "Out For Season",
+            "structured_id": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0"
+          },
+          {
+            "comment": "The Nets listed Porter Jr. as OUT for Saturday's (Mar. 14) game versus the 76ers.",
+            "date_updated": "2026-03-14",
+            "description": "Ankle",
+            "start_date": "2026-03-11",
+            "status": "Out",
+            "structured_id": "e0945bc8-fa32-41e5-b85b-9155011bdd3b"
+          },
+          {
+            "comment": "The Nets listed Claxton as OUT for Saturday's (Mar. 14) game versus the 76ers.",
+            "date_updated": "2026-03-13",
+            "description": "Rest",
+            "start_date": "2026-03-13",
+            "status": "Out",
+            "structured_id": "594d190f-a7a4-4b7c-9116-e2af0cbc99bd"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-12T23:00:00+00:00",
+          "opponent_points": 131,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 109,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-10T23:00:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 139,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": true
+        },
+        {
+          "date": "2026-03-09T23:00:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 101,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-07T23:00:00+00:00",
+          "opponent_points": 125,
+          "opponent_structured_id": "e0729403-9c95-4ee2-b5d4-f704d8322570",
+          "points": 116,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": false
+        },
+        {
+          "date": "2026-03-05T00:30:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 106,
+          "structured_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+          "winner": true
+        }
+      ],
+      "home_team_id": "0554528d-586b-461f-827b-801cf93e8a8e",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR14BKNPHI",
+      "player_id_mapping": {
+        "1bd4a869-80a3-47b7-bac9-789bda6e6e92": "21e37a74-41d2-4c09-9f05-9b20a14ba88b",
+        "1c82e36d-8975-4778-9d49-d872d2f3f1be": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0",
+        "1c9a1c2e-3e3b-439e-8d72-0b41b17e4ba9": "465706f0-e83a-42ad-bddd-a4c2cd5fae91",
+        "288519dc-eae8-4daf-afa4-c86322b7460e": "594d190f-a7a4-4b7c-9116-e2af0cbc99bd",
+        "2edce68b-39ae-4307-9136-8b31b5222039": "00c958c5-01a7-4668-a3b3-669c22526e03",
+        "39d205a6-5a8e-4656-9565-87a8e95ee411": "d4740e21-0c79-4424-a03e-0b17e213a846",
+        "3a7d6510-00e9-4265-81df-864a1f547269": "e0945bc8-fa32-41e5-b85b-9155011bdd3b",
+        "41ed1b83-4a60-4d43-b985-3c8d239d4da6": "9b80ae56-086e-42ad-9d22-f4e5af386852",
+        "440b769d-2b8b-477f-80d7-cb21d83c0d52": "dea3d9c3-c6fd-4f7a-bb80-ac4ae029c114",
+        "4589f8d1-66cd-4d57-a5b5-c7d130a0b43d": "3a43b825-6a96-4713-bebe-cb83d6583d39",
+        "4cee9366-c78d-4ae9-a04a-eb695ee2fac0": "45e0dc65-2f26-4444-94ce-66f918de8cf9",
+        "674b6d37-16d4-4851-81c2-b279754b9b82": "b8c5473f-2359-4dd8-8f7d-f2b53e43e028",
+        "6bee5098-f27a-4877-8df6-41c1687a8fb6": "09308e8f-d4d1-4f7b-aff1-eccb42552be3",
+        "73d92041-1258-4f1f-8bd3-55e07407115b": "d0c482ad-2764-4243-bd04-3a9690236bef",
+        "75fc46eb-71d8-4d1a-984f-3747ccd7a4c9": "90456e7e-47d2-483c-afe5-b6bacec17b2f",
+        "7dfa0971-96be-4705-9811-f9f54758145f": "605cfa20-dc8e-4c44-90bd-1ee476ec4138",
+        "8c090758-6baa-468d-82fd-d47e17d5091b": "c2755450-76a7-4d77-a5cc-de4e980c0f92",
+        "9b3dc639-0351-47ee-8ef0-c13bc3edfc0f": "6509727c-c86f-4a30-909e-6f1cb99c33bc",
+        "9f4181d5-0999-46ba-b466-d90ded24268a": "40a4cc2c-91d4-45c2-9324-d2a527c010f6",
+        "a6cc820a-8dce-40aa-840c-f0c94cfa9e46": "c073f4e1-d502-43f6-a81a-97173fe75fd4",
+        "a7466782-6f87-414f-9458-7fea82922e00": "849da2e4-3bde-4565-bcbd-a029b62352f3",
+        "b5e408ae-86d3-44a0-aa16-6977c6aaed41": "7a110972-5181-4479-ad48-c96ead96cce7",
+        "b60665b0-b5f3-4662-b7f8-454def5886db": "acbf6c3d-d745-4d51-aacd-3af1148d2ec8",
+        "bc86dba7-561a-4fa0-9639-83d50b2c29ba": "0eec94b2-8a43-441a-a47d-42003c67fb93",
+        "bf9ad0fd-0cb8-4360-8970-5f1b5cf3fa8d": "8aa20fec-25b0-47c8-bd26-efd64ee0826c",
+        "c4cf8fb6-b7de-45f2-b9f9-9365b8f2f2ed": "f3bf7115-fb09-4130-b2a4-1ed728e70a05",
+        "d21c7c50-60ce-4de2-b2a2-3a06d3897bcb": "e3762f50-27af-4a94-8ffc-c68cc9ac624f",
+        "d325bed1-c812-4bf4-b2a1-3cb32fcb86fa": "f51d60f4-2633-4be8-b49c-d09a42c6051c",
+        "db09f372-9a17-4889-add7-bf8a75ab6da6": "bcd4c0ae-6e30-47ea-a549-eb7f70b8147a",
+        "dbf9e1f5-7573-4c24-992a-04ea080c61e1": "4fd1dde0-5e9d-4a62-b083-9cefea82b869",
+        "e140d6c7-351e-4937-84cd-66af4b8d617d": "0560776d-7a32-4eb6-a938-ea8c8fcc004b",
+        "e8486226-53e1-4857-b5f0-8b6fe88bdd8a": "1774828d-9afb-4643-81a8-af05aafa6866",
+        "f871af48-952a-42e3-82da-7cad157b486c": "6f210c61-f8c9-4fb0-84d0-d597c102bca4",
+        "fc036630-debc-44bf-9663-03c3fbd3045c": "456d20cd-0fd9-46cd-9aec-b56181bccea6",
+        "fc486ff9-f1d0-4a1e-83ed-4a3aaec950a2": "0d3d5fe3-274a-4fd2-a802-ca5429effc95",
+        "ff065b75-4031-474c-9610-c505db2ca63e": "43edc187-1d56-40bc-ba15-a7b200a08e8f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "f6793fe0-1853-490d-ba8d-ca900d380143",
+      "status": "complete"
+    },
+    "end_date": "2026-03-14T20:08:41Z",
+    "id": "f2a606a0-8109-4e45-b5d3-25df0edf52d9",
+    "last_updated_ts": "2026-03-26T07:29:33.186794Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR14BKNPHI",
+      "KXNBASPREAD-26MAR14BKNPHI",
+      "KXNBATOTAL-26MAR14BKNPHI",
+      "KXNBATEAMTOTAL-26MAR14BKNPHI",
+      "KXNBA1HWINNER-26MAR14BKNPHI",
+      "KXNBA2HWINNER-26MAR14BKNPHI",
+      "KXNBA1HSPREAD-26MAR14BKNPHI",
+      "KXNBA1HTOTAL-26MAR14BKNPHI",
+      "KXNBA2HSPREAD-26MAR14BKNPHI",
+      "KXNBA2HTOTAL-26MAR14BKNPHI"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR14BKNPHI",
+      "KXNBASPREAD-26MAR14BKNPHI",
+      "KXNBATOTAL-26MAR14BKNPHI",
+      "KXNBATEAMTOTAL-26MAR14BKNPHI",
+      "KXNBA1HWINNER-26MAR14BKNPHI",
+      "KXNBA2HWINNER-26MAR14BKNPHI",
+      "KXNBAPTS-26MAR14BKNPHI",
+      "KXNBAREB-26MAR14BKNPHI",
+      "KXNBAAST-26MAR14BKNPHI",
+      "KXNBA3PT-26MAR14BKNPHI",
+      "KXNBA2D-26MAR14BKNPHI",
+      "KXNBA1HSPREAD-26MAR14BKNPHI",
+      "KXNBA1HTOTAL-26MAR14BKNPHI",
+      "KXNBASTL-26MAR14BKNPHI",
+      "KXNBA2HSPREAD-26MAR14BKNPHI",
+      "KXNBA2HTOTAL-26MAR14BKNPHI"
+    ],
+    "source_id": "f6793fe0-1853-490d-ba8d-ca900d380143",
+    "source_ids": {
+      "source_2_id": "20260314026AD052",
+      "source_3_id": "f6793fe0-1853-490d-ba8d-ca900d380143",
+      "source_4_id": "62925129",
+      "source_5_id": "sr:match:62925129"
+    },
+    "start_date": "2026-03-14T17:00:00Z",
+    "title": "Brooklyn at Philadelphia",
+    "type": "basketball_game"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-08T00:00:00+00:00",
+          "opponent_points": 137,
+          "opponent_structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "points": 156,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T23:00:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 108,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-04-04T02:00:00+00:00",
+          "opponent_points": 117,
+          "opponent_structured_id": "ab9e2e9a-3243-41b6-a291-95f4d9c6edf7",
+          "points": 113,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-04-03T02:00:00+00:00",
+          "opponent_points": 118,
+          "opponent_structured_id": "2229b01e-68eb-46ad-adf4-71a9533c84fc",
+          "points": 106,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        },
+        {
+          "date": "2026-03-29T23:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 102,
+          "structured_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+          "winner": false
+        }
+      ],
+      "away_team_id": "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc",
+      "game_injuries": {
+        "6dd427f5-fa02-40ef-aa90-cfa73e0c539e": [
+          {
+            "comment": "The Celtics listed Tatum as OUT for Friday's (Apr. 10) game versus the Pelicans.",
+            "date_updated": "2026-04-10",
+            "description": "Injury Management",
+            "start_date": "2026-04-10",
+            "status": "Out",
+            "structured_id": "5f251b4a-e9aa-4e22-b5df-157d80e606e6"
+          }
+        ],
+        "d3c8c2ac-c4a0-4d67-8b16-53cb91118dfc": [
+          {
+            "comment": "The Pelicans listed Murphy III as Out for Friday's (Apr. 10) game against the Celtics.",
+            "date_updated": "2026-04-09",
+            "description": "Ankle",
+            "start_date": "2026-04-04",
+            "status": "Out",
+            "structured_id": "49ac8ed6-aad0-4703-aedb-b65dc8fcb086"
+          },
+          {
+            "comment": "The Pelicans listed Williamson as Out for Friday's (Apr. 10) game against the Celtics.",
+            "date_updated": "2026-04-09",
+            "description": "Knee",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "220527f6-f6e9-46b3-92b4-ccd8e37ad577"
+          },
+          {
+            "comment": "The Pelicans listed Missi as Out for Friday's (Apr. 10) game against the Celtics.",
+            "date_updated": "2026-04-09",
+            "description": "Hand",
+            "start_date": "2026-04-07",
+            "status": "Out",
+            "structured_id": "1400f958-a65e-4dac-8ce0-6cf6e6edafd7"
+          },
+          {
+            "comment": "The Pelicans listed Matkovic as OUT for Friday's (Apr. 10) game against the Celtics.",
+            "date_updated": "2026-04-10",
+            "description": "Back",
+            "start_date": "2026-04-01",
+            "status": "Out",
+            "structured_id": "b9084e59-a89e-4e65-a9ce-1a6ba889c465"
+          },
+          {
+            "comment": "The Pelicans listed Jones as OUT for Friday's (Apr. 10) game against the Celtics.",
+            "date_updated": "2026-04-10",
+            "description": "Rest",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "0261059a-dc81-43c2-b3ef-2a937da69c9b"
+          },
+          {
+            "comment": "The Pelicans listed Bey as OUT for Friday's (Apr. 10) game against the Celtics.",
+            "date_updated": "2026-04-10",
+            "description": "Rest",
+            "start_date": "2026-04-09",
+            "status": "Out",
+            "structured_id": "a63c5df9-d7d6-4a12-93f2-10c7b4911c23"
+          },
+          {
+            "comment": "The Pelicans listed Murray as Out for Friday's (Apr. 10) game against the Celtics.",
+            "date_updated": "2026-04-09",
+            "description": "Hand",
+            "start_date": "2026-04-03",
+            "status": "Out",
+            "structured_id": "26e6560f-bbf6-4e0f-bbe6-89f8fe643970"
+          },
+          {
+            "comment": "The Pelicans listed McGowens as Out for Friday's (Apr. 10) game against the Celtics.",
+            "date_updated": "2026-04-09",
+            "description": "Toe",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "f296c65c-1854-4ce3-814f-4380939626cb"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-09T23:30:00+00:00",
+          "opponent_points": 112,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 106,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": false
+        },
+        {
+          "date": "2026-04-08T00:00:00+00:00",
+          "opponent_points": 102,
+          "opponent_structured_id": "7c980c51-fa76-4571-b165-242b2a00f3a1",
+          "points": 113,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-04-05T19:30:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "96c447dd-2cdd-4c58-a151-ef0df87de981",
+          "points": 115,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-04-04T00:00:00+00:00",
+          "opponent_points": 101,
+          "opponent_structured_id": "5dc3fe01-79a4-4f2f-a953-d922ea4a6dd3",
+          "points": 133,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        },
+        {
+          "date": "2026-04-01T23:30:00+00:00",
+          "opponent_points": 129,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 147,
+          "structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "winner": true
+        }
+      ],
+      "home_team_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR10NOPBOS",
+      "player_id_mapping": {
+        "0036a1fa-ff9a-44a5-8061-68b828ee2b1e": "0b538101-c08f-4a2e-a095-df6e59a02407",
+        "0718c0e1-7804-471a-b4ed-cde778948d4d": "c4f4898b-4a7a-4849-8546-5bdc0af22927",
+        "0a5c9ca2-d58f-4989-8cfc-de981a3e2d07": "13f346b2-a047-4e9d-878e-dae708b3c6f7",
+        "18512d7a-ea08-408c-8ecb-7f436ca41120": "ad7c156e-90b4-4656-bf01-893bbd63b3d3",
+        "1bd20765-bf81-4250-a16c-05a4799758fc": "aa6f6626-0d22-4d04-bd68-e279b0ccf5d7",
+        "1d7e4639-11b4-4358-96cb-028bfb166e64": "7d455b73-8844-4041-aebc-4a6dd76274bc",
+        "23462d55-9f15-4632-915f-2ab8e4458219": "08a82e64-bcf2-4395-a2bf-42feaaea03a3",
+        "258ed390-1d72-42ee-9c52-f7064051e35f": "f33c690f-071c-40ee-8fdd-e10b6b236b73",
+        "26ad516e-5b80-4d33-a40a-b0dfacbaa992": "fbb39d19-504e-42c6-af35-1f45ae8328c0",
+        "2ed2f76f-5a2f-4d79-ab7c-e84a8a42dc21": "c2bd69e5-271d-47a0-829b-e63d6e655ed8",
+        "3c4a7fda-fca3-4a68-9886-ea7eec4cc2e3": "f296c65c-1854-4ce3-814f-4380939626cb",
+        "51b62fe8-1e5c-4c65-8ad3-2ad06e749b70": "49ac8ed6-aad0-4703-aedb-b65dc8fcb086",
+        "59f3c089-7642-4792-99a2-97795c3d7648": "197dcf24-c55c-421c-b8b1-b744b7f09616",
+        "5cc51c05-06f5-4ae4-89a4-1d329fbbcdfb": "220527f6-f6e9-46b3-92b4-ccd8e37ad577",
+        "66b88001-06c2-4f4a-9825-b6e0cc1df6cc": "0261059a-dc81-43c2-b3ef-2a937da69c9b",
+        "7366b2b7-5959-4dd9-9204-760e861b3119": "9851168d-7c6c-4b3f-adcb-261a46e54c03",
+        "7cfc1044-54f9-4788-af5f-8d943f992e0d": "16deb828-cf61-4d83-838e-8658730a0ffe",
+        "7d27ec3b-1e31-4b0f-abcf-e12039a0e27b": "26e6560f-bbf6-4e0f-bbe6-89f8fe643970",
+        "7ff3c32f-2552-454d-9dee-a1d52000458a": "1400f958-a65e-4dac-8ce0-6cf6e6edafd7",
+        "879370c1-afe6-45c7-9ba1-93a78d4b8d61": "c770d1a8-b835-4d56-b107-3da5de5d6622",
+        "8da31ebc-6614-4209-8685-5442bc09887b": "fbcb18f9-9a5e-43f0-a622-b628d6422b48",
+        "98136da3-452f-49dc-a794-1ee9c76443f2": "5f251b4a-e9aa-4e22-b5df-157d80e606e6",
+        "9bcd5cff-4a1c-4454-89b6-a5899b0c6bcc": "fc551031-35e4-47a5-b9a3-052c0c56109f",
+        "a4de5912-bd72-4993-ac93-fb65d2164660": "1397dd83-6f8b-4ca4-85d8-4ddee4d50e42",
+        "b04cd5ce-e82c-47a7-9b2a-c561c1cb7b80": "5f51a9d7-093c-48f8-80c8-1fa29a7f39f1",
+        "cf4d4c23-9ccc-4cf3-b620-9749a8e65064": "e38b5f9f-de26-4523-8986-99363e53f8e0",
+        "d531a451-6377-4942-a26f-3507d60fb36b": "a63c5df9-d7d6-4a12-93f2-10c7b4911c23",
+        "ebb50069-6fdf-4c07-9a21-a63d5c814536": "60e4406b-ce4b-4eb3-bbb2-e955a85b90d5",
+        "f15e21e4-a83a-4263-aeda-d2ecd2ed6e25": "b9084e59-a89e-4e65-a9ce-1a6ba889c465",
+        "f2c67fa6-8093-46fb-b3fb-62916b9c1dad": "b56b1ccb-f281-4307-8759-3cb7b7ccc4f0",
+        "f4e6ac10-c2d3-4412-b85b-9511b93313e6": "9555a125-470b-4f6b-ace3-f4b03b027380",
+        "f5aac467-6bf9-4fa3-b89a-9ef71fe546fa": "ef5bd790-45f1-4c0f-b977-58009cf35208",
+        "ffc5579c-783f-4d62-80ab-3c3dcb05a27d": "417ef237-dcd0-46a2-8649-6ccbc78e3a4b"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "e6a6cf43-acf1-4993-8f78-0a10bba68bfd",
+      "status": "complete"
+    },
+    "end_date": "2026-04-11T02:46:02Z",
+    "id": "b8264690-5d70-49e5-8dfd-6dbac6c5d6a4",
+    "last_updated_ts": "2026-04-12T02:57:37.592439Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR10NOPBOS",
+      "KXNBASPREAD-26APR10NOPBOS",
+      "KXNBATOTAL-26APR10NOPBOS",
+      "KXNBATEAMTOTAL-26APR10NOPBOS",
+      "KXNBA1HWINNER-26APR10NOPBOS",
+      "KXNBA2HWINNER-26APR10NOPBOS",
+      "KXNBA1HSPREAD-26APR10NOPBOS",
+      "KXNBA1HTOTAL-26APR10NOPBOS"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR10NOPBOS",
+      "KXNBASPREAD-26APR10NOPBOS",
+      "KXNBATOTAL-26APR10NOPBOS",
+      "KXNBATEAMTOTAL-26APR10NOPBOS",
+      "KXNBA1HWINNER-26APR10NOPBOS",
+      "KXNBA2HWINNER-26APR10NOPBOS",
+      "KXNBAPTS-26APR10NOPBOS",
+      "KXNBAREB-26APR10NOPBOS",
+      "KXNBAAST-26APR10NOPBOS",
+      "KXNBA2D-26APR10NOPBOS",
+      "KXNBA3D-26APR10NOPBOS",
+      "KXNBA3PT-26APR10NOPBOS",
+      "KXNBA1HSPREAD-26APR10NOPBOS",
+      "KXNBA1HTOTAL-26APR10NOPBOS"
+    ],
+    "source_id": "e6a6cf43-acf1-4993-8f78-0a10bba68bfd",
+    "source_ids": {
+      "source_2_id": "202604102DBB0AE1",
+      "source_3_id": "e6a6cf43-acf1-4993-8f78-0a10bba68bfd",
+      "source_4_id": "62926073",
+      "source_5_id": "sr:match:62926073"
+    },
+    "start_date": "2026-04-10T23:30:00Z",
+    "title": "New Orleans at Boston",
+    "type": "basketball_game"
+  }
+}

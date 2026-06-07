@@ -1,0 +1,238 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-03-08T22:00:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 110,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": false
+        },
+        {
+          "date": "2026-03-07T23:00:00+00:00",
+          "opponent_points": 107,
+          "opponent_structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "points": 105,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": false
+        },
+        {
+          "date": "2026-03-06T01:00:00+00:00",
+          "opponent_points": 121,
+          "opponent_structured_id": "ad36c3e8-4194-4e63-920f-7c50f46191a6",
+          "points": 106,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": false
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 109,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": false
+        },
+        {
+          "date": "2026-03-01T23:00:00+00:00",
+          "opponent_points": 92,
+          "opponent_structured_id": "00c3e69d-d9b9-4ac3-bf79-19707fe43637",
+          "points": 106,
+          "structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "winner": true
+        }
+      ],
+      "away_team_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+      "game_injuries": {
+        "65569528-1888-40aa-9d62-2b0e8142a9b4": [
+          {
+            "comment": "The Pistons listed Thompson as OUT for Tuesday's (Mar. 10) games against Brooklyn.",
+            "date_updated": "2026-03-09",
+            "description": "Ankle",
+            "start_date": "2026-03-05",
+            "status": "Out",
+            "structured_id": "54277f13-99a5-4ee0-934a-2051f41ef6bc"
+          },
+          {
+            "comment": "The Pistons listed LeVert as OUT for Tuesday's (Mar. 10) games against Brooklyn.",
+            "date_updated": "2026-03-09",
+            "description": "Wrist",
+            "start_date": "2026-03-08",
+            "status": "Out",
+            "structured_id": "ade1d2f5-5be7-40f0-819d-7216389b2777"
+          }
+        ],
+        "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3": [
+          {
+            "comment": "The Nets listed Williams as OUT for Tuesday's (Mar. 10) game versus the Pistons.",
+            "date_updated": "2026-03-10",
+            "description": "Illness",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "465706f0-e83a-42ad-bddd-a4c2cd5fae91"
+          },
+          {
+            "comment": "The Nets reported Egor Demin will miss rest of season with plantar fasciitis.",
+            "date_updated": "2026-03-09",
+            "description": "Foot",
+            "start_date": "2026-02-28",
+            "status": "Out For Season",
+            "structured_id": "7a110972-5181-4479-ad48-c96ead96cce7"
+          },
+          {
+            "comment": "The Nets listed Sharpe as OUT for Tuesday's (Mar. 10) game versus the Pistons.",
+            "date_updated": "2026-03-10",
+            "description": "Thumb",
+            "start_date": "2026-03-10",
+            "status": "Out",
+            "structured_id": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-03-09T23:30:00+00:00",
+          "opponent_points": 115,
+          "opponent_structured_id": "1cfe70b8-4dfc-47dc-acca-b68d4a725972",
+          "points": 126,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": true
+        },
+        {
+          "date": "2026-03-07T23:00:00+00:00",
+          "opponent_points": 105,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 107,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": true
+        },
+        {
+          "date": "2026-03-06T00:30:00+00:00",
+          "opponent_points": 126,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 110,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-04T00:30:00+00:00",
+          "opponent_points": 124,
+          "opponent_structured_id": "a17e4a68-2999-4f60-b67e-3e80aa9e198b",
+          "points": 98,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        },
+        {
+          "date": "2026-03-01T20:30:00+00:00",
+          "opponent_points": 106,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 102,
+          "structured_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+          "winner": false
+        }
+      ],
+      "home_team_id": "7cc1eb26-46ee-44b7-94ad-248ee3b0fbd3",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26MAR10DETBKN",
+      "player_id_mapping": {
+        "00fb2704-aa25-4ef7-8972-cde454810810": "d3705d84-27ff-4482-ab98-bba306710adc",
+        "18c14a3d-2ce0-451c-bceb-b0ce13c16ead": "54277f13-99a5-4ee0-934a-2051f41ef6bc",
+        "18d35316-9f40-408c-abcc-ab49e06ef8e8": "74de2700-bb3b-4770-98b7-4c20677814cf",
+        "1c82e36d-8975-4778-9d49-d872d2f3f1be": "bdc30a2b-ccdb-4476-a901-be2a0b9d08f0",
+        "1c9a1c2e-3e3b-439e-8d72-0b41b17e4ba9": "465706f0-e83a-42ad-bddd-a4c2cd5fae91",
+        "252f4b13-6abb-45dc-ae85-f822b817cb51": "a49a4c93-ac16-4556-9cf5-fce719ca9208",
+        "288519dc-eae8-4daf-afa4-c86322b7460e": "594d190f-a7a4-4b7c-9116-e2af0cbc99bd",
+        "3a7d6510-00e9-4265-81df-864a1f547269": "e0945bc8-fa32-41e5-b85b-9155011bdd3b",
+        "4707d9b8-fca3-4550-ae25-bd4b449e4dbf": "ac20a549-f6e2-4feb-94df-b86af72950cc",
+        "4cee9366-c78d-4ae9-a04a-eb695ee2fac0": "45e0dc65-2f26-4444-94ce-66f918de8cf9",
+        "536e0e15-02b5-4994-9613-0f5ec88f82e0": "7e264353-4d67-4c27-8757-e97bbd629b3e",
+        "57d55cd4-6ab8-4255-a248-bef800c0cbab": "0a8c3059-aa64-4871-8291-fff857a201af",
+        "674b6d37-16d4-4851-81c2-b279754b9b82": "b8c5473f-2359-4dd8-8f7d-f2b53e43e028",
+        "6bee5098-f27a-4877-8df6-41c1687a8fb6": "09308e8f-d4d1-4f7b-aff1-eccb42552be3",
+        "73d92041-1258-4f1f-8bd3-55e07407115b": "d0c482ad-2764-4243-bd04-3a9690236bef",
+        "79fc04d6-0dcf-4817-ab79-2528026d72be": "5ac2f6ed-c991-40a4-afa0-aff7c779b0d7",
+        "82f09975-6a8d-42e4-b42c-a52b9349ed50": "cbf135fe-afac-422d-8f3e-9f3291a954a1",
+        "858d255e-9a7b-4c7a-aac4-fc7cf3a5f238": "33c2e858-9265-47f1-b048-fbab4a62f9c8",
+        "9b3dc639-0351-47ee-8ef0-c13bc3edfc0f": "6509727c-c86f-4a30-909e-6f1cb99c33bc",
+        "9d4d6c87-78db-4556-b94a-bb8d566dd004": "60e91db8-8128-4e53-9b13-eabdf6913ab5",
+        "a2b3bc56-566e-443d-affe-7837a59a1ed7": "7864645c-a818-47f6-8e3a-2f74c8e083e4",
+        "a6cc820a-8dce-40aa-840c-f0c94cfa9e46": "c073f4e1-d502-43f6-a81a-97173fe75fd4",
+        "a7466782-6f87-414f-9458-7fea82922e00": "849da2e4-3bde-4565-bcbd-a029b62352f3",
+        "ac9f5700-2da0-4c7d-a031-ed1acf0d6581": "2d0fbc02-5133-41b7-9eac-83abfca3a748",
+        "b4b3cfce-16f1-4f30-acc0-2bac1eb51d66": "800a6e42-f420-4cd9-99d5-483420dce444",
+        "b5e408ae-86d3-44a0-aa16-6977c6aaed41": "7a110972-5181-4479-ad48-c96ead96cce7",
+        "b60665b0-b5f3-4662-b7f8-454def5886db": "acbf6c3d-d745-4d51-aacd-3af1148d2ec8",
+        "bc86dba7-561a-4fa0-9639-83d50b2c29ba": "0eec94b2-8a43-441a-a47d-42003c67fb93",
+        "c34996e5-8be6-4053-a2f2-0acb0155e18c": "ade1d2f5-5be7-40f0-819d-7216389b2777",
+        "c4cf8fb6-b7de-45f2-b9f9-9365b8f2f2ed": "f3bf7115-fb09-4130-b2a4-1ed728e70a05",
+        "c7c7c72b-7cee-409a-b2b5-256d173ac305": "968216f4-82ae-4763-9a71-6875cf126a23",
+        "dbf9e1f5-7573-4c24-992a-04ea080c61e1": "4fd1dde0-5e9d-4a62-b083-9cefea82b869",
+        "e140d6c7-351e-4937-84cd-66af4b8d617d": "0560776d-7a32-4eb6-a938-ea8c8fcc004b",
+        "e23521cd-8e92-4701-b9e7-dc4acd21dfec": "b5fee735-ad6a-4350-85be-62ebd0ff9800",
+        "ff6f99de-5cd8-4bf1-a5d2-6bebcf4350ee": "819b5bea-f98f-4e24-a5e8-6f3f33270ae7"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "11c2a74d-be0f-4012-8a51-3cfb540279b9",
+      "status": "inprogress"
+    },
+    "end_date": "2026-03-11T03:15:42Z",
+    "id": "e347ece5-907e-4c85-b474-ac9eaca54639",
+    "last_updated_ts": "2026-03-26T07:29:38.839274Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26MAR10DETBKN",
+      "KXNBASPREAD-26MAR10DETBKN",
+      "KXNBATOTAL-26MAR10DETBKN",
+      "KXNBATEAMTOTAL-26MAR10DETBKN",
+      "KXNBA1HWINNER-26MAR10DETBKN",
+      "KXNBA2HWINNER-26MAR10DETBKN",
+      "KXNBA1HSPREAD-26MAR10DETBKN",
+      "KXNBA1HTOTAL-26MAR10DETBKN"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26MAR10DETBKN",
+      "KXNBASPREAD-26MAR10DETBKN",
+      "KXNBATOTAL-26MAR10DETBKN",
+      "KXNBATEAMTOTAL-26MAR10DETBKN",
+      "KXNBA1HWINNER-26MAR10DETBKN",
+      "KXNBA2HWINNER-26MAR10DETBKN",
+      "KXNBAPTS-26MAR10DETBKN",
+      "KXNBAREB-26MAR10DETBKN",
+      "KXNBAAST-26MAR10DETBKN",
+      "KXNBA3PT-26MAR10DETBKN",
+      "KXNBA2D-26MAR10DETBKN",
+      "KXNBA3D-26MAR10DETBKN",
+      "KXNBA1HSPREAD-26MAR10DETBKN",
+      "KXNBA1HTOTAL-26MAR10DETBKN",
+      "KXNBASTL-26MAR10DETBKN",
+      "KXNBABLK-26MAR10DETBKN"
+    ],
+    "source_id": "11c2a74d-be0f-4012-8a51-3cfb540279b9",
+    "source_ids": {
+      "source_2_id": "20260310F4AAA1DE",
+      "source_3_id": "11c2a74d-be0f-4012-8a51-3cfb540279b9",
+      "source_4_id": "62924305",
+      "source_5_id": "sr:match:62924305"
+    },
+    "start_date": "2026-03-10T23:30:00Z",
+    "title": "Detroit at Brooklyn",
+    "type": "basketball_game"
+  }
+}

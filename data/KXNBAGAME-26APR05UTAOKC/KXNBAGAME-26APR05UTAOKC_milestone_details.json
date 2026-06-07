@@ -1,0 +1,283 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_last_games": [
+        {
+          "date": "2026-04-04T00:00:00+00:00",
+          "opponent_points": 140,
+          "opponent_structured_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+          "points": 106,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-04-02T01:00:00+00:00",
+          "opponent_points": 130,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 117,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-03-31T01:00:00+00:00",
+          "opponent_points": 122,
+          "opponent_structured_id": "90381a35-42a6-4975-851f-175418e4271a",
+          "points": 113,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-03-29T02:00:00+00:00",
+          "opponent_points": 134,
+          "opponent_structured_id": "ace11dff-c5d1-4ab9-9452-5312253659fd",
+          "points": 109,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        },
+        {
+          "date": "2026-03-28T01:00:00+00:00",
+          "opponent_points": 135,
+          "opponent_structured_id": "ba2cb6be-9827-46a8-8e6f-d8661307ba77",
+          "points": 129,
+          "structured_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+          "winner": false
+        }
+      ],
+      "away_team_id": "6f60dfb1-fda1-423f-b76f-67e9d24b9644",
+      "game_injuries": {
+        "6f60dfb1-fda1-423f-b76f-67e9d24b9644": [
+          {
+            "comment": "The Jazz said on Thursday (Mar. 19) that Markkanen will be re-evaluated in two weeks, according to Ben Anderson of KSL News Salt Lake City.",
+            "date_updated": "2026-03-19",
+            "description": "Hip",
+            "start_date": "2026-02-25",
+            "status": "Out",
+            "structured_id": "23b96d6f-9d94-4858-b814-deaf00b4bae4"
+          },
+          {
+            "comment": "The Jazz listed Collier as Out for Sunday's (Apr. 5) game against the Thunder.",
+            "date_updated": "2026-04-04",
+            "description": "Hamstring",
+            "start_date": "2026-03-19",
+            "status": "Out",
+            "structured_id": "7d2ee2ec-d216-4a88-9468-cd82847d51a0"
+          },
+          {
+            "comment": "George has been diagnosed with a Grade 2 hamstring strain and will be reassessed in two weeks, Tim Bontemps of ESPN.com.",
+            "date_updated": "2026-03-12",
+            "description": "Leg",
+            "start_date": "2026-03-12",
+            "status": "Out",
+            "structured_id": "bc6e3271-7095-427a-862f-24c9746e7cf7"
+          },
+          {
+            "comment": "Kessler will undergo left shoulder surgery to address a torn labrum and will miss the remainder of the 2025-26 season, as per Tony Jones of The Athletic.",
+            "date_updated": "2025-11-05",
+            "description": "Shoulder",
+            "start_date": "2025-11-01",
+            "status": "Out For Season",
+            "structured_id": "fa781441-5e6a-4a3d-9a3f-0af9ee263945"
+          },
+          {
+            "comment": "The Jazz reported on Monday (Feb. 23) that Nurkic will undergo season-ending nose surgery.",
+            "date_updated": "2026-02-23",
+            "description": "Nose",
+            "start_date": "2026-02-19",
+            "status": "Out For Season",
+            "structured_id": "cbc365fe-ea91-4ddb-b25b-57806890404e"
+          },
+          {
+            "comment": "The Jazz listed Harkless as Out for Sunday's (Apr. 5) game against the Thunder.",
+            "date_updated": "2026-04-04",
+            "description": "Hamstring",
+            "start_date": "2026-03-30",
+            "status": "Out",
+            "structured_id": "67595303-1b3e-460d-8af7-239d9766d9e5"
+          },
+          {
+            "comment": "The Jazz said on Thursday (Feb. 12) that Jackson Jr. will miss the rest of the season to undergo knee surgery.",
+            "date_updated": "2026-02-12",
+            "description": "Knee",
+            "start_date": "2026-02-12",
+            "status": "Out For Season",
+            "structured_id": "fb5e5473-1360-41fc-9961-23c16bfa4a2d"
+          }
+        ],
+        "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c": [
+          {
+            "comment": "Caruso did not play on Thursday's (Apr. 2) game against the Lakers.",
+            "date_updated": "2026-04-03",
+            "description": "Illness",
+            "start_date": "2026-04-01",
+            "status": "Day To Day",
+            "structured_id": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04"
+          },
+          {
+            "comment": "Dort did not return to Thursday's (Apr. 2) game versus the Lakers.",
+            "date_updated": "2026-04-02",
+            "description": "Undisclosed",
+            "start_date": "2026-04-02",
+            "status": "Day To Day",
+            "structured_id": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c"
+          },
+          {
+            "comment": "The Thunder announced on Friday (Sept. 5) that Sorber will miss the 2025-2026 season with a torn ACL.",
+            "date_updated": "2025-09-05",
+            "description": "Knee",
+            "start_date": "2025-09-05",
+            "status": "Out For Season",
+            "structured_id": "c2beb99e-9ef2-4e96-b440-96080fa60360"
+          }
+        ]
+      },
+      "home_last_games": [
+        {
+          "date": "2026-04-03T01:30:00+00:00",
+          "opponent_points": 96,
+          "opponent_structured_id": "2ef4d31c-0b46-4f43-a403-f44d62489034",
+          "points": 139,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-31T01:30:00+00:00",
+          "opponent_points": 110,
+          "opponent_structured_id": "65569528-1888-40aa-9d62-2b0e8142a9b4",
+          "points": 114,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-29T23:30:00+00:00",
+          "opponent_points": 100,
+          "opponent_structured_id": "67468ecc-b868-43a4-b9dc-751a52894bb0",
+          "points": 111,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-28T00:00:00+00:00",
+          "opponent_points": 113,
+          "opponent_structured_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+          "points": 131,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": true
+        },
+        {
+          "date": "2026-03-25T23:30:00+00:00",
+          "opponent_points": 119,
+          "opponent_structured_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+          "points": 109,
+          "structured_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+          "winner": false
+        }
+      ],
+      "home_team_id": "a85f6eca-2f3b-4f61-83ab-8d049f59ce2c",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26APR05UTAOKC",
+      "player_id_mapping": {
+        "019a0f57-b63a-4521-8a5d-45942a15eb7b": "7d2ee2ec-d216-4a88-9468-cd82847d51a0",
+        "1c8786b4-1786-4e3d-81ca-d976797413f5": "33b2a10d-1060-427a-98fe-ce1daf133441",
+        "2646b0b2-4aa8-40f8-ad9d-f0e97590c8d8": "b7d23c14-2760-4926-9400-a64144a6dbae",
+        "30584815-1233-4c09-ad40-102909d95d8e": "3a5d5512-a007-425c-8888-787aa0a129e8",
+        "36d083a5-49ca-42f1-80b7-b78275a8abd9": "c4cc3a86-4003-4ea8-941f-cc878aaad51f",
+        "38745a56-7472-4844-a2dc-f61d3bcd941f": "650a49ba-e80a-483c-a3c4-b5fe3f797d6b",
+        "3e492a6a-ed3c-499d-b3f5-ff68ca16f6fd": "fb5e5473-1360-41fc-9961-23c16bfa4a2d",
+        "3f7e2350-e208-4791-98c2-684b53bb5a9a": "c5345be3-57de-4b6e-9089-5b7cbbf7f74c",
+        "4965ef48-7aa9-4eae-a923-5023ff7ab1eb": "32b125e2-a412-42e4-81ac-329f053f9f23",
+        "4a4459df-6307-4d10-b4cd-c69e9bf8b11d": "bc6e3271-7095-427a-862f-24c9746e7cf7",
+        "4ab6a1ca-60ab-41e3-adbc-0395dec8c0da": "edf2d234-7410-4223-9d80-2f5893936d2e",
+        "57807c7c-5866-4eb9-8d2c-b83351f3e288": "67595303-1b3e-460d-8af7-239d9766d9e5",
+        "583d7994-36f9-4a9a-b527-c18704406981": "23b96d6f-9d94-4858-b814-deaf00b4bae4",
+        "62c44a90-f280-438a-9c7e-252f4f376283": "3b28a1f7-2ebd-41f5-b0e3-2a150e302b92",
+        "71b57f97-2ddd-4593-8111-c637e2b58ff8": "48c6f4d4-58be-4d3e-bf23-e438e6fa06bf",
+        "791717a5-90bb-4dbb-abc2-e9926410a61e": "55aa4d23-0d30-4c33-a755-4b21345df731",
+        "7d615ccd-db96-42a3-9a6c-7f18ea25634e": "3b13424f-cbe9-4cec-b30a-72c243ef9cd4",
+        "7eccbdf9-58a3-4b96-8b1e-eaa8ea9da836": "fa781441-5e6a-4a3d-9a3f-0af9ee263945",
+        "810c84a1-e260-4aa3-9849-1b2ee3657fe3": "4b6555db-6e2a-4f68-ad47-2ed0aa1292ac",
+        "8936c15e-f9d5-4b9a-80b9-8f6b7dcf7a17": "eb73feeb-c24e-47a4-9e93-a4dd6278ee04",
+        "8c0929ae-ce3d-47e0-a964-bf6b8d3981ab": "a54465a9-fbb4-4fb1-866f-51054aeaa227",
+        "906578a8-c01e-4799-a972-2b47e02108b9": "6d256e44-7941-4c7e-a079-09a86365dbc9",
+        "9318b4c1-49d0-40eb-8b76-1098e28133d2": "144c5239-29b4-4656-8862-088803bb760e",
+        "931f7ae2-4ce4-49e6-a3ad-e24790469fec": "caf40fc4-9af0-405c-bc7e-cae85d3f3028",
+        "a8b48aa9-cf98-4a87-8bba-e88eead8cdaa": "cbc365fe-ea91-4ddb-b25b-57806890404e",
+        "ab0289ca-407b-41e9-ab2d-32407eedeccf": "419633cc-ca9b-42c3-a792-f95bb00cfdaa",
+        "b3db0b36-344f-4035-b315-9fb18933e535": "048da8e7-a562-4504-a102-b2fe624a0930",
+        "bf6b4aed-c007-41eb-b4e5-08b99f292ec2": "04bc92de-9046-4d6e-8c63-5f8e60ca8e0e",
+        "c56cbf7a-42a4-41a2-a37b-0cd4aaf248d0": "c2beb99e-9ef2-4e96-b440-96080fa60360",
+        "c5fca05e-7292-464b-b9cd-d5d0f5e2fd07": "8a27cdd3-a42b-498a-b453-c31c26a77068",
+        "d3b28775-473d-471a-8452-e913f4347f0f": "7576d7ff-b42d-446f-bce0-71d63e8cd098",
+        "d9ea4a8f-ff51-408d-b518-980efc2a35a1": "b40547da-b4d9-4d33-b795-32595ef9c473",
+        "e747747c-3053-4ad3-a44d-7ac0b9cbdb4c": "7619f24f-d512-47c2-9fb5-a5f1b30b7ef4",
+        "eb91a4c8-1a8a-46bf-86e6-e16950b67ef6": "ab4c4761-e0eb-4c04-b4b6-b61fa2e7e9ed",
+        "ec7aea3f-550d-4c3d-a47e-58ee983bfd57": "4e8e009c-b08d-4f72-9407-559573654160",
+        "f6db8914-5cdd-48d6-ac19-b64133d688cf": "b3aba67a-2618-4ef7-a4cf-d116a7e9307f"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBABLK": "blocks",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds",
+        "KXNBASTL": "steals"
+      },
+      "source_id": "a834213b-0fe6-40c4-bc7b-6842bd9c0fe1",
+      "status": "complete"
+    },
+    "end_date": "2026-04-06T02:30:56Z",
+    "id": "0d39fd73-0be2-496c-9882-771fe6797b98",
+    "last_updated_ts": "2026-04-07T02:39:14.237783Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26APR05UTAOKC",
+      "KXNBASPREAD-26APR05UTAOKC",
+      "KXNBATOTAL-26APR05UTAOKC",
+      "KXNBATEAMTOTAL-26APR05UTAOKC",
+      "KXNBA1HWINNER-26APR05UTAOKC",
+      "KXNBA2HWINNER-26APR05UTAOKC",
+      "KXNBA1HSPREAD-26APR05UTAOKC",
+      "KXNBA1HTOTAL-26APR05UTAOKC",
+      "KXNBA2HSPREAD-26APR05UTAOKC",
+      "KXNBA2HTOTAL-26APR05UTAOKC"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26APR05UTAOKC",
+      "KXNBASPREAD-26APR05UTAOKC",
+      "KXNBATOTAL-26APR05UTAOKC",
+      "KXNBATEAMTOTAL-26APR05UTAOKC",
+      "KXNBA1HWINNER-26APR05UTAOKC",
+      "KXNBA2HWINNER-26APR05UTAOKC",
+      "KXNBAPTS-26APR05UTAOKC",
+      "KXNBAREB-26APR05UTAOKC",
+      "KXNBAAST-26APR05UTAOKC",
+      "KXNBA3PT-26APR05UTAOKC",
+      "KXNBA2D-26APR05UTAOKC",
+      "KXNBA3D-26APR05UTAOKC",
+      "KXNBASTL-26APR05UTAOKC",
+      "KXNBABLK-26APR05UTAOKC",
+      "KXNBA1HSPREAD-26APR05UTAOKC",
+      "KXNBA1HTOTAL-26APR05UTAOKC",
+      "KXNBA2HSPREAD-26APR05UTAOKC",
+      "KXNBA2HTOTAL-26APR05UTAOKC"
+    ],
+    "source_id": "a834213b-0fe6-40c4-bc7b-6842bd9c0fe1",
+    "source_ids": {
+      "source_2_id": "202604054D5C5BE0",
+      "source_3_id": "a834213b-0fe6-40c4-bc7b-6842bd9c0fe1",
+      "source_4_id": "62925297",
+      "source_5_id": "sr:match:62925297"
+    },
+    "start_date": "2026-04-05T23:00:00Z",
+    "title": "Utah at Oklahoma City",
+    "type": "basketball_game"
+  }
+}

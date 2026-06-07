@@ -1,0 +1,101 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "daca4413-0ea1-4db2-a815-f05c181ef0a6",
+      "home_team_id": "a8625e4b-4ae6-4062-a7c1-0b6e1f4ae211",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB11LACHOU",
+      "player_id_mapping": {
+        "067d9f05-a6b8-4a4b-854c-3364234e62b1": "f7e7a36e-601e-4130-a819-fa9f752bd14a",
+        "1938fb4b-347a-43fd-ba41-1abdb9540699": "23ef2bb4-e11a-46ed-bc4f-5314321de04d",
+        "1c7e3ee9-c6cd-4e1d-9efe-81fb1b2d4b69": "11925af5-ab26-42dd-8f2d-9a14d4d0f7c3",
+        "1f665b2c-789e-4471-af7a-f86105f2466c": "5fe0b2a4-3e64-4451-a42d-bec734ea1199",
+        "28a2e698-9f33-4d4d-9a5d-9bea66ee42a1": "4bf6560d-e40d-4412-b8c4-de4de06b42ac",
+        "293be24b-3a94-40b2-a7a4-a1dd788302e9": "9dec6528-0fb1-4529-9a55-82650e04121b",
+        "3054d6e1-033b-4b8d-93e5-b807ea122c75": "3e76dbce-174a-45f6-8019-5c1f483aadbe",
+        "3f98b652-71d4-4a40-949d-41c33dddd15d": "f9912228-d55a-404f-b2e5-824658b21dc4",
+        "426357dc-340b-4d89-8e3b-7d6b4022b460": "7e8c7e38-aafa-430a-9e29-018d4850476c",
+        "45f17314-918c-49bd-a482-adc171859025": "3902d32a-809a-4cf1-9f85-7b9152c25209",
+        "47ff78e7-5607-48d6-9c1a-bddb075dbe70": "91e0c839-f764-41cc-b787-01591de2775f",
+        "4ec576c6-d74d-4b23-83e5-7a94e76526c9": "ef369e50-d57e-499e-8219-841ac142f166",
+        "53f2fa48-e61b-49fb-843d-8a3e872257eb": "8e0accf8-4bfd-4f77-b11f-066cb119acdc",
+        "54cf6e06-9172-44b8-8d3b-ea1b6926553d": "a0efcc22-65e6-45a1-a474-6df949cd1613",
+        "56c796d6-74d3-4881-9166-7f528e2b67f6": "614ded35-dec0-4703-aaad-1abb645ad47b",
+        "6a93a3fd-d10c-4594-a4b5-873fa13f6d99": "e7bf1b31-47aa-4857-9e8d-26a350078fbc",
+        "6e468041-8174-4161-8c1d-8ac620e0cbb0": "2c953e88-5354-4653-b8cf-12c8040bafdc",
+        "877eb456-2827-475f-b858-2bc00480e24f": "6863da28-cf95-4966-b5bc-80657ddebb79",
+        "892e2e4d-b10c-47b1-8c40-25ac3c9f7166": "762232bb-5666-4941-9352-2ca8637b8f03",
+        "8c68e544-39ac-4016-8741-a498a979a95a": "bc51427b-a059-439e-85bc-c86907636979",
+        "9f25f9f8-6028-4f4b-8e05-48b43272c167": "c8b85545-69a3-45eb-b054-fac03220e0d1",
+        "a208e22a-6b63-45f9-b7c6-bf913a68f3df": "b175a13d-a9c0-41f6-a9cd-2594f7a92578",
+        "a89ac040-715d-4057-8fc0-9d71ad06fa0a": "11ac6d0a-2082-45a8-a091-71c8950eab5f",
+        "af1ba5e5-3f34-4ada-aa9f-f818baf7706f": "0399d93d-2926-4c73-b773-be04e4527221",
+        "b4282659-dd1a-4042-a075-7df4890858e7": "7c4044ea-fb72-430d-b08b-19bfe77bf24d",
+        "b79b88e1-35ef-4947-8a61-f6ec631a1e15": "94cad9c3-833e-410a-a028-6cd25fdb20d9",
+        "b8b323c1-5691-43a4-9c48-707531803d6a": "a7a8f83d-04d7-4b6f-aa3d-f50e09d9226b",
+        "b9155864-4192-4ad7-8652-57a0844c87b3": "c8677945-77af-435d-ad23-d339c1522313",
+        "c12fb587-fc86-471c-8a84-19caf31325ce": "f2bfdc6c-0d84-4736-ba44-8cdbc196e0b3",
+        "c179fb5c-9845-4e37-aef7-6e00d97548eb": "0be3d8cd-ec75-442f-9b05-b6acaac19315",
+        "c37dafbb-a269-41f6-813f-bdb4da388203": "9e825975-01c2-44c3-90b4-b1d961fae03b",
+        "dac0090b-6d39-4275-98ac-db8aab39502f": "5cef9632-cd85-406e-8441-661e2cc1657c",
+        "e7373530-b566-4f36-b0de-0510b6d94e0e": "5fd6ece6-062c-465b-9a45-da012e1ba84a",
+        "ff461754-ad20-4eeb-af02-2b46cc980b24": "beada20d-6def-48b5-8cdf-ca243e06640d"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "beda9a67-20b1-4c5f-9c69-9dcd86c700ca",
+      "status": "complete"
+    },
+    "end_date": "2026-02-12T19:31:12Z",
+    "id": "f9789594-81e2-4409-a1e5-4fbad61d8eca",
+    "last_updated_ts": "2026-03-26T07:27:49.689696Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB11LACHOU",
+      "KXNBASPREAD-26FEB11LACHOU",
+      "KXNBATOTAL-26FEB11LACHOU",
+      "KXNBATEAMTOTAL-26FEB11LACHOU",
+      "KXNBA1HWINNER-26FEB11LACHOU",
+      "KXNBA1HSPREAD-26FEB11LACHOU",
+      "KXNBA1HTOTAL-26FEB11LACHOU",
+      "KXNBA2HWINNER-26FEB11LACHOU"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB11LACHOU",
+      "KXNBASPREAD-26FEB11LACHOU",
+      "KXNBATOTAL-26FEB11LACHOU",
+      "KXNBATEAMTOTAL-26FEB11LACHOU",
+      "KXNBAPTS-26FEB11LACHOU",
+      "KXNBAREB-26FEB11LACHOU",
+      "KXNBAAST-26FEB11LACHOU",
+      "KXNBASTL-26FEB11LACHOU",
+      "KXNBABLK-26FEB11LACHOU",
+      "KXNBA3PT-26FEB11LACHOU",
+      "KXNBA2D-26FEB11LACHOU",
+      "KXNBA3D-26FEB11LACHOU",
+      "KXNBA1HWINNER-26FEB11LACHOU",
+      "KXNBA1HSPREAD-26FEB11LACHOU",
+      "KXNBA1HTOTAL-26FEB11LACHOU",
+      "KXNBA2HWINNER-26FEB11LACHOU"
+    ],
+    "source_id": "beda9a67-20b1-4c5f-9c69-9dcd86c700ca",
+    "source_ids": {
+      "source_2_id": "2026021249DF7F33",
+      "source_3_id": "beda9a67-20b1-4c5f-9c69-9dcd86c700ca"
+    },
+    "start_date": "2026-02-12T01:00:00Z",
+    "title": "Los Angeles C at Houston",
+    "type": "basketball_game"
+  }
+}

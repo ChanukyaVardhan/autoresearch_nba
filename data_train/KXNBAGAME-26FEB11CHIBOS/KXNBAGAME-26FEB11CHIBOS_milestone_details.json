@@ -1,0 +1,98 @@
+{
+  "milestone": {
+    "category": "Sports",
+    "details": {
+      "away_team_id": "65f0250b-455d-43d7-b7dc-7d321bdf9abc",
+      "home_team_id": "6dd427f5-fa02-40ef-aa90-cfa73e0c539e",
+      "league": "NBA",
+      "main_game_event_ticker": "KXNBAGAME-26FEB11CHIBOS",
+      "player_id_mapping": {
+        "0718c0e1-7804-471a-b4ed-cde778948d4d": "c4f4898b-4a7a-4849-8546-5bdc0af22927",
+        "18512d7a-ea08-408c-8ecb-7f436ca41120": "ad7c156e-90b4-4656-bf01-893bbd63b3d3",
+        "1bd20765-bf81-4250-a16c-05a4799758fc": "aa6f6626-0d22-4d04-bd68-e279b0ccf5d7",
+        "258ed390-1d72-42ee-9c52-f7064051e35f": "f33c690f-071c-40ee-8fdd-e10b6b236b73",
+        "2d4ce4bc-b03a-40bc-b22c-dab27591a429": "0faf4911-89b0-49ae-a920-0912c6e6a92e",
+        "31f78854-0d23-4318-959c-0314588136e1": "e1936136-417a-4892-b6e0-90e41b6c2f1a",
+        "59f3c089-7642-4792-99a2-97795c3d7648": "197dcf24-c55c-421c-b8b1-b744b7f09616",
+        "5ab15bad-59b4-43c9-98fc-1d0aa8182d01": "d0717f7b-1a4f-4a69-9bd8-14eac244be0c",
+        "632adcc4-97f1-4e67-a132-e0b79f013c67": "94894b15-fc9f-42e5-854c-4d2a6006c09b",
+        "66ea876a-1cc9-47ed-ae31-2ed3c8f9350e": "a4baed3c-0021-407e-8448-a298594c2a83",
+        "67f6467e-0acc-48ce-9872-a63225ef295c": "a92fc5be-ca62-4f8c-b4dc-bd7b15cf755b",
+        "689cb3b0-a7cc-45b5-860d-007597029c8c": "37104adf-2343-40fe-8d8a-a11f89d037e8",
+        "7366b2b7-5959-4dd9-9204-760e861b3119": "9851168d-7c6c-4b3f-adcb-261a46e54c03",
+        "7924cc02-9fbb-4fd0-a036-0130084eb9b3": "98a42c36-71d9-400e-95a5-e7fe53f7e9d8",
+        "7b526b14-5d50-411e-8bea-0ac7a8d0e8d7": "b20be183-d7e6-4970-ad6f-04ff489eb0d9",
+        "7cfc1044-54f9-4788-af5f-8d943f992e0d": "16deb828-cf61-4d83-838e-8658730a0ffe",
+        "80b5cccf-203b-4482-92aa-76d1598216be": "ea5c84e5-a9cf-48d2-8057-e57ce9ea2387",
+        "879370c1-afe6-45c7-9ba1-93a78d4b8d61": "c770d1a8-b835-4d56-b107-3da5de5d6622",
+        "8da31ebc-6614-4209-8685-5442bc09887b": "fbcb18f9-9a5e-43f0-a622-b628d6422b48",
+        "9654c7f1-d16c-428c-88fd-2a6cdb5a8370": "4624140d-4700-4bc6-a78b-79acc60ce3fe",
+        "98136da3-452f-49dc-a794-1ee9c76443f2": "5f251b4a-e9aa-4e22-b5df-157d80e606e6",
+        "99dc3c11-03fc-4d15-9dd5-d8d1f41c569a": "39063bb2-a56e-41bb-94ca-ae15c380a190",
+        "9bcd5cff-4a1c-4454-89b6-a5899b0c6bcc": "fc551031-35e4-47a5-b9a3-052c0c56109f",
+        "b04cd5ce-e82c-47a7-9b2a-c561c1cb7b80": "5f51a9d7-093c-48f8-80c8-1fa29a7f39f1",
+        "b5310b38-a378-464f-b344-928adee0ed00": "2a5b8fd6-50da-499a-a50b-832f02dea356",
+        "cf4d4c23-9ccc-4cf3-b620-9749a8e65064": "e38b5f9f-de26-4523-8986-99363e53f8e0",
+        "d13849d9-a696-44af-84a1-3196132c3ecd": "f8f0ddf3-54aa-4c03-97c8-233022cc5d3a",
+        "e04c3542-546a-4ca7-8db3-a89353d60046": "998569d5-8e34-4b4b-a396-aada418a9fc1",
+        "ec887131-efba-43a0-ad0a-0757ab3f0399": "bc23524b-03f6-49eb-8fb0-a365aa39bfb7",
+        "f5aac467-6bf9-4fa3-b89a-9ef71fe546fa": "ef5bd790-45f1-4c0f-b977-58009cf35208",
+        "f619cc0b-5fa0-4189-9091-596e843e93b1": "a21967f6-3de2-4e6e-ad5c-b011117e05a6",
+        "fe7a0b28-a8f9-42ad-b345-0f69d51d365f": "abceeb28-05cc-48d9-bb9a-bd421c30dfe8",
+        "ffc5579c-783f-4d62-80ab-3c3dcb05a27d": "417ef237-dcd0-46a2-8649-6ccbc78e3a4b"
+      },
+      "series_to_stat_mapping": {
+        "KXNBA3PT": "three_points_made",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "series_to_stat_name_mapping": {
+        "KXNBA3PT": "threes",
+        "KXNBAAST": "assists",
+        "KXNBAPTS": "points",
+        "KXNBAREB": "rebounds"
+      },
+      "source_id": "b99716cc-a05a-42ec-a74a-6a4e6ae724ad",
+      "status": "complete"
+    },
+    "end_date": "2026-02-12T19:31:12Z",
+    "id": "7d8d52ab-7bce-4430-a758-de2435946806",
+    "last_updated_ts": "2026-03-26T07:28:38.383068Z",
+    "notification_message": "The game is about to begin!",
+    "primary_event_tickers": [
+      "KXNBAGAME-26FEB11CHIBOS",
+      "KXNBASPREAD-26FEB11CHIBOS",
+      "KXNBATOTAL-26FEB11CHIBOS",
+      "KXNBATEAMTOTAL-26FEB11CHIBOS",
+      "KXNBA1HWINNER-26FEB11CHIBOS",
+      "KXNBA2HWINNER-26FEB11CHIBOS",
+      "KXNBA1HSPREAD-26FEB11CHIBOS",
+      "KXNBA1HTOTAL-26FEB11CHIBOS"
+    ],
+    "related_event_tickers": [
+      "KXNBAGAME-26FEB11CHIBOS",
+      "KXNBASPREAD-26FEB11CHIBOS",
+      "KXNBATOTAL-26FEB11CHIBOS",
+      "KXNBATEAMTOTAL-26FEB11CHIBOS",
+      "KXNBA1HWINNER-26FEB11CHIBOS",
+      "KXNBA2HWINNER-26FEB11CHIBOS",
+      "KXNBAPTS-26FEB11CHIBOS",
+      "KXNBAREB-26FEB11CHIBOS",
+      "KXNBAAST-26FEB11CHIBOS",
+      "KXNBA3PT-26FEB11CHIBOS",
+      "KXNBA2D-26FEB11CHIBOS",
+      "KXNBASTL-26FEB11CHIBOS",
+      "KXNBA1HSPREAD-26FEB11CHIBOS",
+      "KXNBA1HTOTAL-26FEB11CHIBOS"
+    ],
+    "source_id": "b99716cc-a05a-42ec-a74a-6a4e6ae724ad",
+    "source_ids": {
+      "source_2_id": "20260212AFD1CE0F",
+      "source_3_id": "b99716cc-a05a-42ec-a74a-6a4e6ae724ad"
+    },
+    "start_date": "2026-02-12T00:30:00Z",
+    "title": "Chicago at Boston",
+    "type": "basketball_game"
+  }
+}
