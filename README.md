@@ -21,6 +21,10 @@ src/
   optimizer.py        CodeOptimizer (OpenAI non-interactive); key from OPENAI_API_KEY
   experiment_log.py   append-only JSONL audit trail
   loop.py             autoresearch loop driver
+kalshi_pull.py        public Kalshi market-data API client (no auth)
+pull_all_nba_games_from_feb.py   FETCH all games -> data/ + split_manifest.csv
+pull_all_nba_playoff_games.py    PBP enrichment + per-game pull helpers (imported)
+analyze_game_odds.py  team inference + scoreboard/odds derivation (imported)
 run_extract.py        milestone 1: load+verify all games, freeze resolution artifacts
 run_loop.py           run the Codex loop on validation
 run_eval.py           ONE-TIME holdout eval
@@ -33,13 +37,34 @@ tests/                pbp parser + leakage tests
 
 ## Run order
 ```sh
-# 0) data already in data/ with split_manifest.csv (Feb1-Apr30, train/val/eval)
+pip install -r requirements.txt              # numpy, pandas, requests, matplotlib (+ openai for the loop)
+python3 pull_all_nba_games_from_feb.py       # 0) FETCH data into data/ (see "Fetching the data")
 python3 -m pytest tests/ -q                 # parser + leakage unit tests
 python3 run_extract.py                       # load/verify games, freeze resolutions
 export OPENAI_API_KEY=sk-...                 # NEVER hardcode; rotate if leaked
 python3 run_loop.py --iters 20               # autoresearch on validation
 python3 run_eval.py                          # one-time holdout report
 ```
+
+## Fetching the data
+The raw per-game data is **not** committed (it's large and is Kalshi's market data).
+Regenerate it from Kalshi's **public** market-data API — **no API key or login required**:
+
+```sh
+python3 pull_all_nba_games_from_feb.py        # all KXNBAGAME games Feb 1 -> today
+# options: --start-date 2026-02-01 --end-date YYYY-MM-DD --limit N --overwrite
+```
+
+This discovers games via the events+milestones listing (which reaches back further than
+`list_markets`), pulls per-game candles / play-by-play / live data / milestone details into
+`data/<event_ticker>/`, and writes `data/split_manifest.csv` (the `event_ticker,split`
+file the loop reads) with the chronological train/val/eval split. Playoff games after
+Apr 15 come back from the API untimestamped and are excluded. After it finishes, run
+`run_extract.py` to verify alignment, then `run_loop.py`.
+
+Network note: the API rate-limits (HTTP 429); the puller retries with backoff and sleeps
+between games (`--sleep`, default 0.5s). A full pull of a season is on the order of
+hundreds of games, so expect it to take a while.
 
 ## Observability — Raindrop Workshop (live debugging UI)
 
