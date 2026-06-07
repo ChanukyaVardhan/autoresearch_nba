@@ -76,6 +76,8 @@ class BacktestEnv:
 
     def __init__(self, game: Game, budget: float = 1.0, fee_model: str = "none",
                  min_lot: float = 0.05):
+        # budget = 1.0 == $1 of capital PER GAME. The agent trades that $1 over the
+        # game; PnL is profit on the $1 (e.g. +0.72 = +72c/game).
         self.game = game
         self.fee = FEE_MODELS[fee_model]
         self.min_lot = min_lot

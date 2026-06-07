@@ -2,8 +2,9 @@
 
 ## The setup (one paragraph, no jargon)
 We're betting on live NBA games on a prediction market (Kalshi). Every minute, a price
-moves up and down as the game unfolds — like a stock. We built a little AI trader that
-watches the game + the price and decides each minute: **buy, sell, or wait.** Then we
+moves up and down as the game unfolds — like a stock. We give the trader **$1 per game**
+to work with; it watches the game + the price and decides each minute: **buy, sell, or
+wait.** (So a score of +0.72 means it turned that $1 into ~$1.72 on average.) Then we
 gave a *second* AI (the "researcher") one job: **keep rewriting the trader's code to make
 more money** — automatically, no human helping. It tries an idea, we test it, and we
 only keep it if it actually earns more. Money made per game is the score.

@@ -1,0 +1,2512 @@
+{
+ "summary": {
+  "split": "val",
+  "n_games": 78,
+  "total_pnl": 2.51,
+  "mean_pnl": 0.0322,
+  "wins": 45,
+  "losses": 33,
+  "flat": 0,
+  "win_rate": 0.577,
+  "total_actions": 78,
+  "avg_actions_per_game": 1.0
+ },
+ "games": [
+  {
+   "game": "KXNBAGAME-26APR01SACTOR",
+   "home_won": false,
+   "final": "115-123",
+   "realized_pnl": -0.865,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.87,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 141.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 115,
+     "away_pts": 123,
+     "margin": -8,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27DALPOR",
+   "home_won": false,
+   "final": "93-100",
+   "realized_pnl": -0.805,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.81,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 135.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 93,
+     "away_pts": 99,
+     "margin": -6,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR28PHICHA",
+   "home_won": false,
+   "final": "114-118",
+   "realized_pnl": -0.685,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.69,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 144.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 114,
+     "away_pts": 118,
+     "margin": -4,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR31PORLAC",
+   "home_won": false,
+   "final": "104-114",
+   "realized_pnl": -0.645,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.65,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 135.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 104,
+     "away_pts": 114,
+     "margin": -10,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR01INDCHI",
+   "home_won": false,
+   "final": "126-145",
+   "realized_pnl": -0.605,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.61,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 125.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 126,
+     "away_pts": 145,
+     "margin": -19,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25WASUTA",
+   "home_won": false,
+   "final": "110-133",
+   "realized_pnl": -0.595,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.6,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 129.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 110,
+     "away_pts": 133,
+     "margin": -23,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25ATLDET",
+   "home_won": false,
+   "final": "129-130",
+   "realized_pnl": -0.565,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.57,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 157.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 129,
+     "away_pts": 130,
+     "margin": -1,
+     "period": 1
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25MIACLE",
+   "home_won": false,
+   "final": "103-120",
+   "realized_pnl": -0.565,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.57,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 134.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 103,
+     "away_pts": 120,
+     "margin": -17,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR29BOSCHA",
+   "home_won": false,
+   "final": "99-114",
+   "realized_pnl": -0.555,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.56,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 122.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 99,
+     "away_pts": 114,
+     "margin": -15,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR28DETMIN",
+   "home_won": false,
+   "final": "87-109",
+   "realized_pnl": -0.445,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.45,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 134.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 87,
+     "away_pts": 109,
+     "margin": -22,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR01ATLORL",
+   "home_won": false,
+   "final": "101-130",
+   "realized_pnl": -0.425,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.43,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 141.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 100,
+     "away_pts": 130,
+     "margin": -30,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR04DETPHI",
+   "home_won": false,
+   "final": "93-116",
+   "realized_pnl": -0.405,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.41,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 128.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 93,
+     "away_pts": 116,
+     "margin": -23,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR01BOSMIA",
+   "home_won": false,
+   "final": "129-147",
+   "realized_pnl": -0.355,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.36,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 131.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 129,
+     "away_pts": 147,
+     "margin": -18,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR29HOUNOP",
+   "home_won": false,
+   "final": "102-134",
+   "realized_pnl": -0.315,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.32,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 133.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 102,
+     "away_pts": 132,
+     "margin": -30,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR03ORLDAL",
+   "home_won": false,
+   "final": "127-138",
+   "realized_pnl": -0.285,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.29,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 150.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 127,
+     "away_pts": 138,
+     "margin": -11,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR30MINDAL",
+   "home_won": false,
+   "final": "94-124",
+   "realized_pnl": -0.245,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.25,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 136.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 94,
+     "away_pts": 124,
+     "margin": -30,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25LALIND",
+   "home_won": false,
+   "final": "130-137",
+   "realized_pnl": -0.215,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.22,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 140.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 130,
+     "away_pts": 137,
+     "margin": -7,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27LACIND",
+   "home_won": false,
+   "final": "113-114",
+   "realized_pnl": -0.215,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.22,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 151.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 113,
+     "away_pts": 114,
+     "margin": -1,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR02CLEGSW",
+   "home_won": false,
+   "final": "111-118",
+   "realized_pnl": -0.205,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.21,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 140.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 111,
+     "away_pts": 118,
+     "margin": -7,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR30PHXMEM",
+   "home_won": false,
+   "final": "105-131",
+   "realized_pnl": -0.135,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.14,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 126.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 105,
+     "away_pts": 131,
+     "margin": -26,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR01NYKMEM",
+   "home_won": false,
+   "final": "119-130",
+   "realized_pnl": -0.125,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.13,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 136.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 119,
+     "away_pts": 130,
+     "margin": -11,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR01SASGSW",
+   "home_won": false,
+   "final": "113-127",
+   "realized_pnl": -0.125,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.13,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 143.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 113,
+     "away_pts": 127,
+     "margin": -14,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27HOUMEM",
+   "home_won": false,
+   "final": "109-119",
+   "realized_pnl": -0.115,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.12,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 124.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 109,
+     "away_pts": 119,
+     "margin": -10,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR03TORMEM",
+   "home_won": false,
+   "final": "96-128",
+   "realized_pnl": -0.105,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.11,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 145.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 96,
+     "away_pts": 128,
+     "margin": -32,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR01PHIWAS",
+   "home_won": false,
+   "final": "131-153",
+   "realized_pnl": -0.095,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.1,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 122.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 130,
+     "away_pts": 153,
+     "margin": -23,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR30CLEUTA",
+   "home_won": false,
+   "final": "113-122",
+   "realized_pnl": -0.085,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.09,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 126.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 113,
+     "away_pts": 122,
+     "margin": -9,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR01DENUTA",
+   "home_won": false,
+   "final": "117-130",
+   "realized_pnl": -0.075,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.08,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 132.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 117,
+     "away_pts": 130,
+     "margin": -13,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR03ATLBKN",
+   "home_won": false,
+   "final": "107-141",
+   "realized_pnl": -0.075,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.08,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 129.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 107,
+     "away_pts": 139,
+     "margin": -32,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25SASMEM",
+   "home_won": false,
+   "final": "98-123",
+   "realized_pnl": -0.075,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.08,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 127.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 98,
+     "away_pts": 123,
+     "margin": -25,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR29LACMIL",
+   "home_won": false,
+   "final": "113-127",
+   "realized_pnl": -0.075,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.08,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 136.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 113,
+     "away_pts": 127,
+     "margin": -14,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR03BOSMIL",
+   "home_won": false,
+   "final": "101-133",
+   "realized_pnl": -0.065,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.07,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 126.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 101,
+     "away_pts": 133,
+     "margin": -32,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR28SASMIL",
+   "home_won": false,
+   "final": "95-127",
+   "realized_pnl": -0.065,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.07,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 124.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 95,
+     "away_pts": 127,
+     "margin": -32,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR31CHABKN",
+   "home_won": false,
+   "final": "86-117",
+   "realized_pnl": -0.065,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "LOSS",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.07,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 134.0,
+     "action": "SETTLE",
+     "price": 0.0,
+     "size": 1.0,
+     "home_pts": 86,
+     "away_pts": 117,
+     "margin": -31,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27UTADEN",
+   "home_won": true,
+   "final": "135-129",
+   "realized_pnl": 0.045,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.96,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 132.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 135,
+     "away_pts": 129,
+     "margin": 6,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR01MILHOU",
+   "home_won": true,
+   "final": "119-113",
+   "realized_pnl": 0.055,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.95,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 128.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 119,
+     "away_pts": 113,
+     "margin": 6,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR04WASMIA",
+   "home_won": true,
+   "final": "152-136",
+   "realized_pnl": 0.055,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.95,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 130.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 152,
+     "away_pts": 136,
+     "margin": 16,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27BKNLAL",
+   "home_won": true,
+   "final": "116-99",
+   "realized_pnl": 0.055,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.95,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 139.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 116,
+     "away_pts": 99,
+     "margin": 17,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27CHIOKC",
+   "home_won": true,
+   "final": "131-113",
+   "realized_pnl": 0.055,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.95,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 135.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 131,
+     "away_pts": 113,
+     "margin": 18,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR30CHISAS",
+   "home_won": true,
+   "final": "129-114",
+   "realized_pnl": 0.055,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.95,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 132.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 129,
+     "away_pts": 111,
+     "margin": 18,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR03UTAHOU",
+   "home_won": true,
+   "final": "140-106",
+   "realized_pnl": 0.065,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.94,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 128.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 140,
+     "away_pts": 106,
+     "margin": 34,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR28UTAPHX",
+   "home_won": true,
+   "final": "134-109",
+   "realized_pnl": 0.075,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.93,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 121.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 134,
+     "away_pts": 109,
+     "margin": 25,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR29WASPOR",
+   "home_won": true,
+   "final": "123-88",
+   "realized_pnl": 0.075,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.93,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 136.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 123,
+     "away_pts": 88,
+     "margin": 35,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR03INDCHA",
+   "home_won": true,
+   "final": "129-108",
+   "realized_pnl": 0.085,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.92,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 124.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 129,
+     "away_pts": 108,
+     "margin": 21,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR30WASLAL",
+   "home_won": true,
+   "final": "120-101",
+   "realized_pnl": 0.085,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.92,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 132.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 120,
+     "away_pts": 101,
+     "margin": 19,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25MILPOR",
+   "home_won": true,
+   "final": "130-99",
+   "realized_pnl": 0.095,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.91,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 138.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 130,
+     "away_pts": 99,
+     "margin": 31,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR26SACORL",
+   "home_won": true,
+   "final": "121-117",
+   "realized_pnl": 0.095,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.91,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 137.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 121,
+     "away_pts": 117,
+     "margin": 4,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR03CHINYK",
+   "home_won": true,
+   "final": "136-96",
+   "realized_pnl": 0.105,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.9,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 134.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 136,
+     "away_pts": 96,
+     "margin": 40,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25BKNGSW",
+   "home_won": true,
+   "final": "109-106",
+   "realized_pnl": 0.135,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.87,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 149.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 109,
+     "away_pts": 106,
+     "margin": 3,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27WASGSW",
+   "home_won": true,
+   "final": "131-126",
+   "realized_pnl": 0.135,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.87,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 135.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 131,
+     "away_pts": 126,
+     "margin": 5,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR28SACATL",
+   "home_won": true,
+   "final": "123-113",
+   "realized_pnl": 0.135,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.87,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 128.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 123,
+     "away_pts": 111,
+     "margin": 12,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR30DETOKC",
+   "home_won": true,
+   "final": "114-110",
+   "realized_pnl": 0.155,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.85,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 172.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 113,
+     "away_pts": 110,
+     "margin": 3,
+     "period": 1
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25DALDEN",
+   "home_won": true,
+   "final": "142-135",
+   "realized_pnl": 0.165,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.84,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 140.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 142,
+     "away_pts": 135,
+     "margin": 7,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR29GSWDEN",
+   "home_won": true,
+   "final": "116-93",
+   "realized_pnl": 0.165,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.84,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 146.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 116,
+     "away_pts": 93,
+     "margin": 23,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27NOPTOR",
+   "home_won": true,
+   "final": "119-106",
+   "realized_pnl": 0.245,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.76,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 131.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 119,
+     "away_pts": 104,
+     "margin": 15,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR29NYKOKC",
+   "home_won": true,
+   "final": "111-100",
+   "realized_pnl": 0.255,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.75,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 155.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 111,
+     "away_pts": 100,
+     "margin": 11,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25CHIPHI",
+   "home_won": true,
+   "final": "157-137",
+   "realized_pnl": 0.315,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.69,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 134.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 157,
+     "away_pts": 136,
+     "margin": 21,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR02NOPPOR",
+   "home_won": true,
+   "final": "118-106",
+   "realized_pnl": 0.325,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.68,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 134.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 118,
+     "away_pts": 106,
+     "margin": 12,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR02PHXCHA",
+   "home_won": true,
+   "final": "127-107",
+   "realized_pnl": 0.325,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.68,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 129.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 127,
+     "away_pts": 107,
+     "margin": 20,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR02MINDET",
+   "home_won": true,
+   "final": "113-108",
+   "realized_pnl": 0.335,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.67,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 151.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 113,
+     "away_pts": 108,
+     "margin": 5,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR26NOPDET",
+   "home_won": true,
+   "final": "129-108",
+   "realized_pnl": 0.335,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.67,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 129.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 129,
+     "away_pts": 108,
+     "margin": 21,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27ATLBOS",
+   "home_won": true,
+   "final": "109-102",
+   "realized_pnl": 0.335,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.67,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 133.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 109,
+     "away_pts": 102,
+     "margin": 7,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR27MIACLE",
+   "home_won": true,
+   "final": "149-128",
+   "realized_pnl": 0.335,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.67,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 146.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 149,
+     "away_pts": 126,
+     "margin": 23,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25TORLAC",
+   "home_won": true,
+   "final": "119-94",
+   "realized_pnl": 0.385,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.62,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 131.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 119,
+     "away_pts": 94,
+     "margin": 25,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR03MINPHI",
+   "home_won": true,
+   "final": "115-103",
+   "realized_pnl": 0.395,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.61,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 135.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 115,
+     "away_pts": 103,
+     "margin": 12,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR31TORDET",
+   "home_won": true,
+   "final": "127-116",
+   "realized_pnl": 0.405,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.6,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 142.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 127,
+     "away_pts": 116,
+     "margin": 11,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR30BOSATL",
+   "home_won": true,
+   "final": "112-102",
+   "realized_pnl": 0.425,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.58,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 128.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 112,
+     "away_pts": 102,
+     "margin": 10,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR26NYKCHA",
+   "home_won": true,
+   "final": "114-103",
+   "realized_pnl": 0.445,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.56,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 135.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 113,
+     "away_pts": 103,
+     "margin": 10,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR29SACBKN",
+   "home_won": true,
+   "final": "116-99",
+   "realized_pnl": 0.455,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.55,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 130.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 116,
+     "away_pts": 99,
+     "margin": 17,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR31PHXORL",
+   "home_won": true,
+   "final": "115-111",
+   "realized_pnl": 0.455,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.55,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 158.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 115,
+     "away_pts": 111,
+     "margin": 4,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR29ORLTOR",
+   "home_won": true,
+   "final": "139-87",
+   "realized_pnl": 0.485,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.52,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 130.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 139,
+     "away_pts": 87,
+     "margin": 52,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR31NYKHOU",
+   "home_won": true,
+   "final": "111-94",
+   "realized_pnl": 0.515,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.49,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 133.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 111,
+     "away_pts": 94,
+     "margin": 17,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR04SASDEN",
+   "home_won": true,
+   "final": "136-134",
+   "realized_pnl": 0.545,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.46,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 170.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 136,
+     "away_pts": 131,
+     "margin": 5,
+     "period": 1
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25HOUMIN",
+   "home_won": true,
+   "final": "110-108",
+   "realized_pnl": 0.545,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.46,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 168.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 110,
+     "away_pts": 108,
+     "margin": 2,
+     "period": 1
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR25OKCBOS",
+   "home_won": true,
+   "final": "119-109",
+   "realized_pnl": 0.555,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.45,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 138.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 119,
+     "away_pts": 109,
+     "margin": 10,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR30PHIMIA",
+   "home_won": true,
+   "final": "119-109",
+   "realized_pnl": 0.555,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.45,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 146.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 119,
+     "away_pts": 109,
+     "margin": 10,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR31DALMIL",
+   "home_won": true,
+   "final": "123-99",
+   "realized_pnl": 0.575,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.43,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 129.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 123,
+     "away_pts": 99,
+     "margin": 24,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26MAR28CHIMEM",
+   "home_won": true,
+   "final": "125-124",
+   "realized_pnl": 0.655,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.35,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 150.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 125,
+     "away_pts": 124,
+     "margin": 1,
+     "period": 4
+    }
+   ]
+  },
+  {
+   "game": "KXNBAGAME-26APR03NOPSAC",
+   "home_won": true,
+   "final": "117-113",
+   "realized_pnl": 0.695,
+   "n_buys": 1,
+   "n_sells": 0,
+   "n_actions": 1,
+   "outcome": "WIN",
+   "actions": [
+    {
+     "minute": 0.0,
+     "action": "BUY",
+     "price": 0.31,
+     "size": 1.0,
+     "home_pts": 0,
+     "away_pts": 0,
+     "margin": 0,
+     "period": 1
+    },
+    {
+     "minute": 143.0,
+     "action": "SETTLE",
+     "price": 1.0,
+     "size": 1.0,
+     "home_pts": 117,
+     "away_pts": 113,
+     "margin": 4,
+     "period": 4
+    }
+   ]
+  }
+ ]
+}

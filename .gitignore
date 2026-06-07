@@ -1,13 +1,19 @@
-# Never commit data, artifacts, secrets, or caches
+# Never commit raw data, secrets, or caches
 data/
-artifacts/
-experiments/
+data_train/
 *.env
 .env
 src/secret_key.py
 __pycache__/
 *.pyc
 
-data_train/
-runs/
+# Results and experiment runs ARE committed (runs/, artifacts/, experiments/),
+# except these non-results leftovers:
 artifacts/metrics.demo.bak
+
+# Presentation/deck artifacts (generated; not part of the repo)
+PRESENTATION.md
+PRESENTATION.html
+PRESENTATION.pdf
+deck.html
+deck.pdf
