@@ -153,10 +153,13 @@ def _static_vector(game: Game, t: int) -> np.ndarray:
 def feature_construction(game: Game, t: int, position: PositionState) -> np.ndarray:
     arr = _static_vector(game, t).copy()
     mid = game.candle_at(t).mid
+    # Normalize unrealized PnL by budget so this feature stays in [-1, 1]
+    # regardless of the absolute dollar budget (was raw $ before; saturated
+    # the clip once budget > $1 after the 2026-06-07 cash-accounting rewrite).
     arr[_POS_SLICE] = [
         1.0 if position.is_holding else 0.0,
         _safe(position.avg_entry),
-        _safe(max(-1.0, min(1.0, position.unrealized_pnl(mid)))),
+        _safe(max(-1.0, min(1.0, position.unrealized_pnl_fraction(mid)))),
         _safe(max(0.0, min(1.0, (t - (position.lots[0].t_entry if position.lots else t)) / (40 * 60.0)))),
         _safe(position.budget_remaining),
     ]

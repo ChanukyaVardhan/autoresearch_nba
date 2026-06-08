@@ -1,8 +1,16 @@
 """Core types for the autoresearch NBA trading system.
 
 See DESIGN_autoresearch_trading.md. We model a single side (HOME). Actions:
-FLAT -> {SKIP, BUY}; HOLDING -> {HOLD, SELL}. Budget normalized to 1.0; multiple
-lots allowed. Every action advances the clock by T minutes (wall-clock).
+FLAT -> {SKIP, BUY}; HOLDING -> {HOLD, SELL}. Default budget $10 (literal cash);
+multiple lots allowed. Every action advances the clock by one step.
+
+PositionState was rewritten 2026-06-07 to track REAL CASH:
+  - `lots[].size` is now number of CONTRACTS (not budget fractions).
+  - `cash` is current dollars; `budget_total` is initial dollars.
+  - On BUY: cash -= price * contracts. On SELL/settle: cash += price * contracts.
+  - PnL formulas now report literal dollars.
+  - `budget_remaining` returns the FRACTION (0..1) of initial cash remaining,
+    so feature_construction stays in [0..1] without modification.
 """
 from __future__ import annotations
 
@@ -26,46 +34,86 @@ N_ACTIONS = 3
 
 @dataclass
 class Lot:
-    """One open long-HOME position."""
+    """One open long-HOME position. `size` is the number of contracts."""
 
-    entry_price: float   # yes_ask paid at entry (dollars, 0..1)
-    size: float          # fraction of total budget deployed in this lot
+    entry_price: float   # yes_ask paid at entry (dollars per contract, 0..1)
+    size: float          # number of contracts held (real units)
     t_entry: int         # wall-clock epoch seconds of entry
 
 
 @dataclass
 class PositionState:
-    """Aggregate position across open lots. budget is normalized to 1.0."""
+    """Aggregate position across open lots, in REAL CASH dollars.
+
+    Default budget is $10 of literal capital. The agent's policy sees
+    normalized features (budget_remaining as fraction, PnL as fraction of
+    budget), so its training is invariant to the absolute budget size.
+    """
 
     lots: list[Lot] = field(default_factory=list)
-    budget_total: float = 1.0
+    budget_total: float = 100.0  # initial cash in $
+    cash: float = 100.0          # current cash in $
+
+    def __post_init__(self) -> None:
+        # If the caller passed only budget_total, mirror it into cash so the
+        # invariant `cash == budget_total - dollars_deployed` holds at t=0.
+        if self.cash == 100.0 and self.budget_total != 100.0 and not self.lots:
+            self.cash = self.budget_total
 
     @property
     def is_holding(self) -> bool:
         return len(self.lots) > 0
 
     @property
-    def deployed(self) -> float:
+    def total_size(self) -> float:
+        """Total contracts held across all open lots."""
         return sum(l.size for l in self.lots)
 
     @property
-    def budget_remaining(self) -> float:
-        return max(0.0, self.budget_total - self.deployed)
+    def dollars_deployed(self) -> float:
+        """$ tied up in open lots, valued at entry cost (price * contracts)."""
+        return sum(l.entry_price * l.size for l in self.lots)
 
     @property
-    def total_size(self) -> float:
-        return self.deployed
+    def deployed(self) -> float:
+        """Alias for dollars_deployed (kept for compatibility with old call sites)."""
+        return self.dollars_deployed
+
+    @property
+    def budget_remaining(self) -> float:
+        """FRACTION of initial cash remaining (0..1). Stable feature regardless
+        of the dollar size of `budget_total`, so the policy network sees the
+        same range whether budget is $1 or $10 or $1000."""
+        if self.budget_total <= 0:
+            return 0.0
+        return max(0.0, min(1.0, self.cash / self.budget_total))
+
+    @property
+    def cash_remaining(self) -> float:
+        """Literal dollars currently available to spend."""
+        return self.cash
 
     @property
     def avg_entry(self) -> float:
-        d = self.deployed
-        if d <= 0:
+        contracts = self.total_size
+        if contracts <= 0:
             return 0.0
-        return sum(l.entry_price * l.size for l in self.lots) / d
+        return sum(l.entry_price * l.size for l in self.lots) / contracts
 
     def unrealized_pnl(self, mid: float) -> float:
-        """Mark-to-mid P&L of open lots (in budget-fraction * price units)."""
+        """Mark-to-mid PnL on open lots in DOLLARS."""
         return sum((mid - l.entry_price) * l.size for l in self.lots)
+
+    def unrealized_pnl_fraction(self, mid: float) -> float:
+        """Mark-to-mid PnL normalized by initial budget (for features). In
+        [-1, 1] since |PnL| <= dollars_deployed <= budget_total."""
+        if self.budget_total <= 0:
+            return 0.0
+        return self.unrealized_pnl(mid) / self.budget_total
+
+    def equity(self, mid: float) -> float:
+        """Total equity in $ = cash + market value of open lots at `mid`."""
+        return self.cash + sum(mid * l.size for l in self.lots)
 
 
 @dataclass
