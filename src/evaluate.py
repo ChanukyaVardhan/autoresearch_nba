@@ -60,7 +60,10 @@ def evaluate(games: list[Game], policy: PolicyNet) -> Metrics:
         r = env.result()
         rets.append(r.realized_pnl)
         trades.append(r.n_buys + r.n_sells)
-        deployed.append(r.deployed_peak)
+        # avg_deployed is documented as "peak fraction of budget" so use the
+        # fraction, not the absolute $ amount (would otherwise scale with budget
+        # size and break dashboards that assume 0..1).
+        deployed.append(r.deployed_peak_fraction)
         dds.append(r.max_drawdown)
     rets = np.array(rets, np.float64)
     mean_r = float(rets.mean()) if len(rets) else 0.0
